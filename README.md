@@ -8,10 +8,10 @@ Country switcher: Greece, [Germany](https://devlij.github.io/jason-ds-vision-ger
 
 ## This build
 
-- **GR-01-001 through GR-01-112**, with no gaps.
+- **GR-01-001 through GR-01-128**, with no gaps.
 - Each scene has a 1920×1080 master and an 864×1080 master under `library/world/Greece/<City>/`.
-- Latest scenario label: 24 September 2026 · 07:20 Europe/Athens (Epirus, GR-01-097 through GR-01-112).
-- Weather for that batch is Open-Meteo model data retrieved 2026-09-24T04:17:14Z, valid 2026-09-24T07:15 Europe/Athens. It is not a verified on-site observation.
+- Latest scenario label: 24 September 2026 · 07:40 Europe/Athens (Ionian Islands, GR-01-113 through GR-01-128).
+- Weather for that batch is Open-Meteo model data retrieved 2026-09-24T04:32:51Z, valid 2026-09-24T07:30 Europe/Athens. It is not a verified on-site observation.
 - Evidence cards are in `approvals/`. Manifests are in `manifests/`. The build kit is `docs/kit-greece-v1.0.md`.
 
 ## Run locally
