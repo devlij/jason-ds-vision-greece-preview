@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-166",
+  "country": "Greece",
+  "region": "North Aegean",
+  "city": "Chios",
+  "caption": "Nea Moni, Chios",
+  "scenario_label": "24 September 2026 · 08:35 Europe/Athens",
+  "composition": "Domed monastery seen from outside the walls · AI-generated artistic interpretation",
+  "description": "Nea Moni stands in pine forest on a slope in central Chios. The frame is the approach outside the defensive wall: a tower, a closed gate, and the dome of the katholikon above the enclosure. The mosaic interior is not shown. The sky is clear, about 14.9°C at the model cell near 440 m, with wind near 8 km/h. Morning sun, no floodlights.",
+  "alt_text": "AI-generated artistic interpretation of the Nea Moni monastery exterior on Chios in early morning light",
+  "file_16x9": "library/world/Greece/Chios/gr-01-166-16x9.png",
+  "file_4x5": "library/world/Greece/Chios/gr-01-166-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

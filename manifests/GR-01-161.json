@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-161",
+  "country": "Greece",
+  "region": "North Aegean",
+  "city": "Mytilene",
+  "caption": "Mytilene Castle, Mytilene",
+  "scenario_label": "24 September 2026 · 08:35 Europe/Athens",
+  "composition": "Fortress hill between two harbors · AI-generated artistic interpretation",
+  "description": "From the south harbor quay, the Castle of Mytilene rises on the hill between the present port and the north harbor, Epano Skala, with ashlar walls and a tower above modest waterfront buildings. The sky is clear, about 17.5°C, with wind near 8 km/h. The sun is low in the east-southeast. There is no floodlighting.",
+  "alt_text": "AI-generated artistic interpretation of Mytilene Castle between the two harbors in early morning light",
+  "file_16x9": "library/world/Greece/Mytilene/gr-01-161-16x9.png",
+  "file_4x5": "library/world/Greece/Mytilene/gr-01-161-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
