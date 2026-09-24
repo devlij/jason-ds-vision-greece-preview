@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-033",
+  "country": "Greece",
+  "region": "Central Greece",
+  "city": "Thermopylae",
+  "caption": "Leonidas Monument, Thermopylae",
+  "scenario_label": "24 September 2026 · 06:03 Europe/Athens",
+  "composition": "Bronze hoplite on the Kolonos terrace at Thermopylae · AI-generated artistic interpretation",
+  "description": "From the terrace in front of the Leonidas Monument, a bronze hoplite stands on a pale stone pedestal, framed by cypresses, with the Kolonos hill behind. The coastal plain is wide, and the sea is not at the foot of the monument. The sky is clear, about 14.7°C. No floodlight schedule was found for 06:03, so the statue is in nautical twilight, with only a few distant road lamps.",
+  "alt_text": "AI-generated artistic interpretation of the Leonidas Monument at Thermopylae in nautical twilight, without floodlights",
+  "file_16x9": "library/world/Greece/Thermopylae/gr-01-033-16x9.png",
+  "file_4x5": "library/world/Greece/Thermopylae/gr-01-033-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-035",
+  "country": "Greece",
+  "region": "Central Greece",
+  "city": "Karpenisi",
+  "caption": "Karpenisi, Karpenisi",
+  "scenario_label": "24 September 2026 · 06:05 Europe/Athens",
+  "composition": "Red-roofed town under the fir slopes of Tymfristos · AI-generated artistic interpretation",
+  "description": "Karpenisi fills a high valley, with red tile roofs and a church tower among the houses and the fir slopes of Mount Tymfristos behind. Street lamps are on and most windows are dark. The sky is clear, about 7.4°C, and there is no snow on the roofs. This is the town setting, not a ski run.",
+  "alt_text": "AI-generated artistic interpretation of Karpenisi under Mount Tymfristos at pre-dawn",
+  "file_16x9": "library/world/Greece/Karpenisi/gr-01-035-16x9.png",
+  "file_4x5": "library/world/Greece/Karpenisi/gr-01-035-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-043",
+  "country": "Greece",
+  "region": "Central Greece",
+  "city": "Amphissa",
+  "caption": "Old Town, Amphissa",
+  "scenario_label": "24 September 2026 · 06:08 Europe/Athens",
+  "composition": "Stone lanes climbing to the Castle of Salona · AI-generated artistic interpretation",
+  "description": "Amphissa's old town of stone houses and red roofs climbs toward the Castle of Salona, which reads as a dark silhouette on the hill. A few street lamps mark the lanes. The sky is clear, about 13.9°C. The castle is not floodlit.",
+  "alt_text": "AI-generated artistic interpretation of Amphissa old town and the unlit Castle of Salona at pre-dawn",
+  "file_16x9": "library/world/Greece/Amphissa/gr-01-043-16x9.png",
+  "file_4x5": "library/world/Greece/Amphissa/gr-01-043-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

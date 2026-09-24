@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-045",
+  "country": "Greece",
+  "region": "Central Greece",
+  "city": "Delphi",
+  "caption": "Ancient Theater, Delphi",
+  "scenario_label": "24 September 2026 · 06:09 Europe/Athens",
+  "composition": "Theater cavea above the temple terrace at Delphi · AI-generated artistic interpretation",
+  "description": "From high in the ancient theater, curved rows of seats fill the foreground and the Temple of Apollo is a smaller partial colonnade on the terrace below, with the Phaedriades behind. The sky is clear, about 11.1°C. This is a wide sanctuary view, distinct from the close temple frame of GR-01-005. No floodlight schedule was found, and the moon is down, so the stone is in twilight only.",
+  "alt_text": "AI-generated artistic interpretation of the ancient theater and temple terrace at Delphi in twilight, without floodlights",
+  "file_16x9": "library/world/Greece/Delphi/gr-01-045-16x9.png",
+  "file_4x5": "library/world/Greece/Delphi/gr-01-045-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

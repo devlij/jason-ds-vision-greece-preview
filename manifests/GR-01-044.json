@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-044",
+  "country": "Greece",
+  "region": "Central Greece",
+  "city": "Lamia",
+  "caption": "Lamia Castle, Lamia",
+  "scenario_label": "24 September 2026 · 06:08 Europe/Athens",
+  "composition": "Castle walls on the hill above Lamia · AI-generated artistic interpretation",
+  "description": "Lamia Castle crowns a steep hill, stone walls and a keep above the town roofs. Scattered municipal lamps mark the streets below. The sky is clear, about 10.1°C. The castle itself is not floodlit.",
+  "alt_text": "AI-generated artistic interpretation of Lamia Castle at pre-dawn, without floodlights",
+  "file_16x9": "library/world/Greece/Lamia/gr-01-044-16x9.png",
+  "file_4x5": "library/world/Greece/Lamia/gr-01-044-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
