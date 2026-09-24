@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-181",
+  "country": "Greece",
+  "region": "Sporades",
+  "city": "Glossa",
+  "caption": "Glossa Village, Glossa",
+  "scenario_label": "24 September 2026 · 09:00 Europe/Athens",
+  "composition": "Hill village above Loutraki port · AI-generated artistic interpretation",
+  "description": "From a lane in Glossa, two-storey houses with red tile roofs and wooden balconies step down the slope toward Loutraki, the small port far below, with open sea and a distant island on the horizon. The sky is clear, about 18.0°C at the model cell on the hill, with wind near 21 km/h. Morning sun lights the east-facing walls.",
+  "alt_text": "AI-generated artistic interpretation of Glossa village above Loutraki in morning light",
+  "file_16x9": "library/world/Greece/Glossa/gr-01-181-16x9.png",
+  "file_4x5": "library/world/Greece/Glossa/gr-01-181-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

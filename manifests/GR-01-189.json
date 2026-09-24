@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-189",
+  "country": "Greece",
+  "region": "Crete",
+  "city": "Chania",
+  "caption": "Venetian Harbor, Chania",
+  "scenario_label": "24 September 2026 · 09:00 Europe/Athens",
+  "composition": "Crescent harbor and the stone lighthouse · AI-generated artistic interpretation",
+  "description": "From the west quay, the old harbor of Chania curves past pastel waterfront houses and fishing boats to the stone Egyptian lighthouse at the end of the mole. The domed Yiali Tzami sits nearer the root of the mole, separate from the lighthouse. The sky is partly cloudy, about 64 percent cloud, about 20.4°C, with wind near 9 km/h. There is no rain. Morning light is softened by cloud.",
+  "alt_text": "AI-generated artistic interpretation of the Venetian harbor and lighthouse in Chania under a partly cloudy morning sky",
+  "file_16x9": "library/world/Greece/Chania/gr-01-189-16x9.png",
+  "file_4x5": "library/world/Greece/Chania/gr-01-189-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

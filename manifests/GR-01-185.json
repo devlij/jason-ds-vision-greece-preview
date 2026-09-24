@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-185",
+  "country": "Greece",
+  "region": "Sporades",
+  "city": "Alonissos",
+  "caption": "Old Village, Alonissos",
+  "scenario_label": "24 September 2026 · 09:00 Europe/Athens",
+  "composition": "Stone lanes of the hilltop Chora · AI-generated artistic interpretation",
+  "description": "The Old Village is a hilltop knot of stone houses, narrow stairs, and vines, with a low medieval wall on the ridge and the sea in the distance beyond the roofs. It is not the harbor at Patitiri. The sky is clear, about 19.0°C at the hill cell, with wind near 20 km/h. Morning sun is on the stone.",
+  "alt_text": "AI-generated artistic interpretation of the Old Village of Alonissos in morning light",
+  "file_16x9": "library/world/Greece/Alonissos/gr-01-185-16x9.png",
+  "file_4x5": "library/world/Greece/Alonissos/gr-01-185-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
