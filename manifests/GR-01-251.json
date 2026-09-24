@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-251",
+  "country": "Greece",
+  "region": "Attica",
+  "city": "Athens",
+  "caption": "Pnyx, Athens",
+  "scenario_label": "24 September 2026 · 10:30 Europe/Athens",
+  "composition": "Rock-cut bema and the Acropolis · AI-generated artistic interpretation",
+  "description": "From the Pnyx, the rock-cut bema is in the foreground and the Acropolis with the Parthenon stands across the valley. The morning is clear, about 19.0°C, with daylight only and no floodlighting. The Philopappos monument is not the viewpoint.",
+  "alt_text": "AI-generated artistic interpretation of the Pnyx looking toward the Acropolis in morning light",
+  "file_16x9": "library/world/Greece/Athens/gr-01-251-16x9.png",
+  "file_4x5": "library/world/Greece/Athens/gr-01-251-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

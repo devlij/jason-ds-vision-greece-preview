@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-253",
+  "country": "Greece",
+  "region": "Attica",
+  "city": "Athens",
+  "caption": "Temple of Hephaestus, Athens",
+  "scenario_label": "24 September 2026 · 10:30 Europe/Athens",
+  "composition": "Hexastyle Doric temple · AI-generated artistic interpretation",
+  "description": "The Temple of Hephaestus fills the frame, a Doric temple with six columns on the front, standing on Kolonos Agoraios above the agora. The morning is clear, about 19.3°C, with sun on the east colonnade and no floodlighting. The wide agora is not the subject.",
+  "alt_text": "AI-generated artistic interpretation of the Temple of Hephaestus in Athens in morning light",
+  "file_16x9": "library/world/Greece/Athens/gr-01-253-16x9.png",
+  "file_4x5": "library/world/Greece/Athens/gr-01-253-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
