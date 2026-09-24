@@ -8,11 +8,12 @@ Country switcher: Greece, [Germany](https://devlij.github.io/jason-ds-vision-ger
 
 ## This build
 
-- **GR-01-001 through GR-01-352**, with no gaps.
+- **GR-01-001 through GR-01-365**, with no gaps. There is no GR-01-366.
 - Each scene has a 1920×1080 master and an 864×1080 master under `library/world/Greece/<City>/`.
-- Latest scenario label: 24 September 2026 · 12:45 Europe/Athens (Cyclades, Dodecanese, North Aegean, Attica, Peloponnese, Central Greece, Epirus, and Central Macedonia, GR-01-337 through GR-01-352).
-- Weather for that batch is Open-Meteo model data retrieved 2026-09-24T09:34Z, valid 2026-09-24T12:30 Europe/Athens. The scenario label is the build time, 12:45 Europe/Athens. It is not a verified on-site observation.
-- Earlier batch GR-01-321 through GR-01-336 remains labelled 24 September 2026 · 12:15 Europe/Athens.
+- Latest scenario label: 24 September 2026 · 12:58 Europe/Athens (closing batch GR-01-353 through GR-01-365).
+- Weather for that batch is Open-Meteo model data retrieved 2026-09-24T09:52Z, valid 2026-09-24T12:45 Europe/Athens. The scenario label is the build time, 12:58 Europe/Athens. It is not a verified on-site observation.
+- Earlier batch GR-01-337 through GR-01-352 remains labelled 24 September 2026 · 12:45 Europe/Athens.
+- GR-01-355 is Paleochora on Aegina, not the Cretan waterfront. GR-01-356 is Faneromeni Monastery on Salamina, not the Paloukia ferry. GR-01-358 is the boat approach to Chrissi. GR-01-360 is Kalamiotissa on Anafi, not Anafiotika in Athens. GR-01-362 is Kioni, not Vathy. GR-01-364 is the main avenue at Dion, not the Sanctuary of Isis. GR-01-365 is the Presidential Mansion, not the Academy, the Zappeion, or the National Archaeological Museum.
 - GR-01-350 is the Corycian Cave approach. The closed Parnassus chairlift remains GR-01-041. Zea Marina is the circular harbor also called Pasalimani, not Mikrolimano. Petra Bay is the Lesbos village, not Skala Loutron.
 - Evidence cards are in `approvals/`. Manifests are in `manifests/`. The build kit is `docs/kit-greece-v1.0.md`.
 
