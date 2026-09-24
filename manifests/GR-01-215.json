@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-215",
+  "country": "Greece",
+  "region": "Thessaly",
+  "city": "Kalambaka",
+  "caption": "Great Meteoron, Kalambaka",
+  "scenario_label": "24 September 2026 · 09:35 Europe/Athens",
+  "composition": "Large monastery complex on a broad rock · AI-generated artistic interpretation",
+  "description": "From the path below, the Great Meteoron covers the top of a broad sandstone rock with many red-roofed buildings and a church among them, and a stone stair climbs the face. It is one large complex, not the needle rock of Rousanou and not the wide valley group of GR-01-006. The sky is clear, about 11.0°C, with wind near 6 km/h. Morning sun comes from the east-southeast, and the rock is not floodlit.",
+  "alt_text": "AI-generated artistic interpretation of the Great Meteoron monastery on its broad rock under a clear morning sky",
+  "file_16x9": "library/world/Greece/Kalambaka/gr-01-215-16x9.png",
+  "file_4x5": "library/world/Greece/Kalambaka/gr-01-215-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

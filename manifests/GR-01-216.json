@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-216",
+  "country": "Greece",
+  "region": "Thessaly",
+  "city": "Milies",
+  "caption": "Milies Station, Milies",
+  "scenario_label": "24 September 2026 · 09:35 Europe/Athens",
+  "composition": "Stone station and empty narrow-gauge track · AI-generated artistic interpretation",
+  "description": "At Milies station, a stone building with a tile roof faces an empty narrow-gauge track under plane trees, and a cobbled path climbs to the slate-roof houses above. No locomotive is in the frame, because a Thursday morning running was not verified. The sky is clear, about 16.3°C, with wind near 3 km/h.",
+  "alt_text": "AI-generated artistic interpretation of the empty Milies railway station on a clear morning",
+  "file_16x9": "library/world/Greece/Milies/gr-01-216-16x9.png",
+  "file_4x5": "library/world/Greece/Milies/gr-01-216-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
