@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-125",
+  "country": "Greece",
+  "region": "Ionian Islands",
+  "city": "Paxos",
+  "caption": "Gaios Harbor, Paxos",
+  "scenario_label": "24 September 2026 · 07:40 Europe/Athens",
+  "composition": "Channel, fort islet, and windmill · AI-generated artistic interpretation",
+  "description": "From the Gaios quay, a narrow channel separates the pastel houses from the islet of Agios Nikolaos, where a low fort and a windmill stand, and from the white monastery on the islet of Panagia. The Open-Meteo cell is clear, about 21.4°C. The sun has just risen. No shop name is readable.",
+  "alt_text": "AI-generated artistic interpretation of Gaios harbor on Paxos at sunrise",
+  "file_16x9": "library/world/Greece/Paxos/gr-01-125-16x9.png",
+  "file_4x5": "library/world/Greece/Paxos/gr-01-125-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
