@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-203",
+  "country": "Greece",
+  "region": "Crete",
+  "city": "Toplou",
+  "caption": "Toplou Monastery, Toplou",
+  "scenario_label": "24 September 2026 · 09:15 Europe/Athens",
+  "composition": "Fortified monastery and bell tower · AI-generated artistic interpretation",
+  "description": "The west exterior of Toplou Monastery is a high stone wall and a tall bell tower over the gate, on a dry plateau with a distant sea horizon. The sky is partly cloudy, about 44 percent cloud, about 19.4°C, with wind near 27 km/h. The frame is the fortified exterior, not the church interior. Sitia harbor was the other option and was not used.",
+  "alt_text": "AI-generated artistic interpretation of the fortified exterior and bell tower of Toplou Monastery",
+  "file_16x9": "library/world/Greece/Toplou/gr-01-203-16x9.png",
+  "file_4x5": "library/world/Greece/Toplou/gr-01-203-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
