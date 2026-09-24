@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jason D’s Vision — Greece</title>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #1a1e26;
+      --text: #f2f4f8;
+      --muted: #a8b0bf;
+      --accent: #e8c47c;
+      --line: #2a3140;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    a { color: var(--accent); }
+    header, main, footer, .promise, #license {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.25rem 1.25rem;
+    }
+    .pointer {
+      font-size: 0.95rem;
+      color: var(--muted);
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 1rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 650;
+      margin: 1.25rem 0 0.35rem;
+      letter-spacing: 0.01em;
+    }
+    .country-switch {
+      margin: 0.15rem 0 0.85rem;
+      font-size: 0.95rem;
+      color: var(--muted);
+      letter-spacing: 0.01em;
+    }
+    .country-switch a { color: var(--accent); text-decoration: none; }
+    .country-switch a:hover { text-decoration: underline; }
+    .country-switch [aria-current="page"] { color: var(--text); font-weight: 600; }
+    .country-switch .sep { margin: 0 0.45rem; color: var(--line); }
+    .sub { color: var(--muted); margin: 0 0 1.5rem; }
+    .promise h2, #license h2 { font-size: 1.2rem; margin-top: 2rem; }
+    .promise p, #license p { color: var(--muted); max-width: 70ch; }
+    .toolbar {
+      display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin: 1.5rem 0 1rem;
+    }
+    .toolbar input, .toolbar select {
+      background: var(--card); color: var(--text); border: 1px solid var(--line);
+      border-radius: 8px; padding: 0.55rem 0.75rem; font: inherit;
+    }
+    .toolbar input { flex: 1 1 220px; min-width: 180px; }
+    .toolbar button {
+      background: transparent; color: var(--muted); border: 1px solid var(--line);
+      border-radius: 8px; padding: 0.55rem 0.9rem; cursor: pointer; font: inherit;
+    }
+    .toolbar button:hover { color: var(--text); border-color: var(--muted); }
+    #result-count { color: var(--muted); font-size: 0.9rem; }
+    #no-results { display: none; color: var(--muted); padding: 2rem 0; text-align: center; }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.25rem; margin-bottom: 2rem;
+    }
+    .card {
+      background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+      overflow: hidden; display: flex; flex-direction: column;
+    }
+    .preview { position: relative; }
+    .fmt-tabs {
+      position: absolute; top: 1.05rem; left: 1.05rem; display: flex; gap: 6px; z-index: 2;
+    }
+    .fmt-tab {
+      background: rgba(15, 17, 21, 0.82); color: var(--text); border: 1px solid var(--line);
+      border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
+    }
+    .fmt-tab:hover { border-color: var(--muted); }
+    .fmt-tab.is-active {
+      background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
+    }
+    .view-affordance {
+      position: absolute; top: 1.05rem; right: 1.05rem; z-index: 2;
+      padding: 5px 10px; border: 1px solid rgba(255, 255, 255, 0.35); border-radius: 999px;
+      background: rgba(15, 17, 21, 0.72); color: var(--text); font-size: 11px; pointer-events: none;
+    }
+    .thumb {
+      display: block; padding: 0.65rem 0.65rem 0; background: #12151c; line-height: 0;
+    }
+    .thumb img {
+      width: 100%; height: auto; display: block; border-radius: 8px; background: #000;
+      aspect-ratio: 16 / 9; object-fit: contain;
+    }
+    .thumb.tall img { aspect-ratio: 4 / 5; }
+    .card-body { padding: 1rem 1rem 1.15rem; display: flex; flex-direction: column; gap: 0.35rem; flex: 1; }
+    .entry-id { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
+    .status-row { display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; }
+    .status {
+      display: inline-block; font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase;
+      border-radius: 999px; padding: 0.2rem 0.55rem; border: 1px solid var(--line); color: var(--muted);
+    }
+    .status.candidate { color: var(--muted); border-color: var(--line); }
+    .caption { font-size: 1.05rem; font-weight: 600; margin: 0; }
+    .scenario, .composition, .detail { font-size: 0.85rem; color: var(--muted); margin: 0; }
+    .detail { font-size: 0.92rem; color: #d7dde8; margin: 0.35rem 0 0; }
+    .actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.85rem; align-items: center; }
+    .actions a.download {
+      display: inline-block; text-decoration: none; background: #243049; color: var(--text);
+      border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
+    }
+    .actions a.download:hover { border-color: var(--accent); }
+    .badge {
+      display: inline-block; font-size: 0.75rem; color: var(--bg); background: var(--accent);
+      border-radius: 999px; padding: 0.25rem 0.6rem; text-decoration: none; font-weight: 600;
+    }
+    footer {
+      border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; padding-bottom: 2.5rem;
+    }
+    footer .sig { color: var(--text); font-weight: 600; }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="pointer">Every image is free to use — no credit required. See <a href="#license">license</a> below.</p>
+    <h1>Jason D’s Vision — Greece</h1>
+    <nav class="country-switch" aria-label="Country galleries">
+      <span aria-current="page">Greece</span><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-germany/">Germany</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-italy-preview/">Italy</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/Spain/">Spain</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-france-preview/">France</a>
+    </nav>
+    <p class="sub">Preview gallery · Country → Region → City · Candidate scenes until an independent QC pass</p>
+  </header>
+
+  <section class="promise">
+    <h2>Our promise to creators</h2>
+    <p>Beautiful, realistic imagery should never stand between a creator and their work. Everything in this gallery is free to use — for any purpose, forever, with no credit required. We make these images so the people doing the work always have something stunning to build on.</p>
+    <p><a href="#license">Read the full license</a></p>
+  </section>
+
+  <main>
+    <div class="toolbar" role="search">
+      <input id="q" type="search" placeholder="Search by city, site, or region" aria-label="Search by city, site, or region" />
+      <select id="region" aria-label="Filter by region">
+        <option value="">All regions</option>
+      </select>
+      <button type="button" id="clear">Clear</button>
+      <span id="result-count"></span>
+    </div>
+    <div id="no-results">No scenes match that search.</div>
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <section id="license">
+    <h2>License</h2>
+    <p>Every image in Jason D's Vision is free to use for any purpose — personal or commercial. No credit is required. If you'd like to credit, 'Jason D's Vision' is appreciated, but it's entirely your choice.</p>
+    <p>Jason D's Vision waives its own rights in these images. This doesn't waive anyone else's rights: if an image happens to include a trademark, logo, or other third-party material, those rights still belong to their owners. All images are AI-generated artistic interpretations, not photographs, and use of an image doesn't imply endorsement by Jason D's Vision.</p>
+  </section>
+
+  <footer>
+    <p>AI-generated artistic interpretations · <span class="sig">Jason D’s Vision</span></p>
+  </footer>
+
+  <script>
+    const SCENES = [
+  {
+    "entry_id": "GR-01-001",
+    "country": "Greece",
+    "region": "Attica",
+    "city": "Athens",
+    "caption": "Parthenon, Athens",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Doric temple on the Acropolis rock, west facade from Filopappou · AI-generated artistic interpretation",
+    "description": "From the Hill of the Muses (Filopappou), looking northeast, the ruined Parthenon sits centered on the Acropolis limestone. The west front and south colonnade read as a roofless Doric temple, with the Propylaea lower and to the left on the same rock. Warm-white architectural light is on the marble under a mainly clear night sky, about 12.5°C, with the city lamps below the rock. The Acropolis night lighting is the standing civic installation; no shutoff hour for 03:15 was published.",
+    "alt_text": "AI-generated artistic interpretation of the Parthenon in Athens under architectural light on a mainly clear night",
+    "file_16x9": "library/world/Greece/Athens/gr-01-001-16x9.png",
+    "file_4x5": "library/world/Greece/Athens/gr-01-001-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-002",
+    "country": "Greece",
+    "region": "Attica",
+    "city": "Athens",
+    "caption": "Plaka, Athens",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Plaka lanes and Monastiraki Square under the lit Acropolis · AI-generated artistic interpretation",
+    "description": "At the edge of Monastiraki Square, looking southeast, the domed Tzistarakis Mosque sits on the square and Plaka's low neoclassical houses climb toward the Acropolis. The floodlit Parthenon is above the rooftops. It is a mainly clear night, about 13.1°C, with municipal street lamps; tavernas are closed and the lanes are empty because the scenario hour is 03:15.",
+    "alt_text": "AI-generated artistic interpretation of Plaka and Monastiraki in Athens at night with the Acropolis above the roofs",
+    "file_16x9": "library/world/Greece/Athens/gr-01-002-16x9.png",
+    "file_4x5": "library/world/Greece/Athens/gr-01-002-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-003",
+    "country": "Greece",
+    "region": "Cyclades",
+    "city": "Santorini",
+    "caption": "Oia, Santorini",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Caldera-rim houses at Oia under a clear night sky · AI-generated artistic interpretation",
+    "description": "From the castle ruins at the northwest tip of Oia, looking southeast, white cubic houses and blue domes step down the cliff. The dark caldera and the low silhouette of the volcanic islets occupy the right of the wide frame. The sky is clear, about 18.9°C, with a breeze near 16 km/h. This is a night scenario, not sunset: a few pathway lamps are on and most windows are dark.",
+    "alt_text": "AI-generated artistic interpretation of Oia in Santorini at night above the caldera",
+    "file_16x9": "library/world/Greece/Santorini/gr-01-003-16x9.png",
+    "file_4x5": "library/world/Greece/Santorini/gr-01-003-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-004",
+    "country": "Greece",
+    "region": "Cyclades",
+    "city": "Mykonos",
+    "caption": "Windmills, Mykonos",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Kato Mili windmills above Little Venice · AI-generated artistic interpretation",
+    "description": "Looking northwest, the white Kato Mili windmills with dark thatched caps and wooden sails stand on the ridge above Little Venice. Balconies hang over the water, and the Aegean is in the foreground. The night is mainly clear with about a third cloud cover, about 19.4°C, and a breeze near 17 km/h. Waterfront lamps and moonlight light the mills; they are not under a spotlight rig.",
+    "alt_text": "AI-generated artistic interpretation of the Mykonos windmills and Little Venice at night",
+    "file_16x9": "library/world/Greece/Mykonos/gr-01-004-16x9.png",
+    "file_4x5": "library/world/Greece/Mykonos/gr-01-004-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-005",
+    "country": "Greece",
+    "region": "Central Greece",
+    "city": "Delphi",
+    "caption": "Temple of Apollo, Delphi",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Partial Doric colonnade of the Temple of Apollo under the Phaedriades · AI-generated artistic interpretation",
+    "description": "From the Sacred Way below the temple, a partial run of re-erected Doric columns stands on the terrace, without a roof. The Phaedriades cliffs rise behind the ruin and the valley drops away beside it. The sky is clear, about 12.3°C. The archaeological site is closed and no floodlight schedule was found, so the columns are in moonlight only.",
+    "alt_text": "AI-generated artistic interpretation of the Temple of Apollo at Delphi in moonlight, without floodlights",
+    "file_16x9": "library/world/Greece/Delphi/gr-01-005-16x9.png",
+    "file_4x5": "library/world/Greece/Delphi/gr-01-005-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-006",
+    "country": "Greece",
+    "region": "Thessaly",
+    "city": "Kalambaka",
+    "caption": "Meteora, Kalambaka",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Monasteries on sandstone pillars above the plain · AI-generated artistic interpretation",
+    "description": "From the valley road near Kalambaka, sandstone pillars rise out of the plain. A small red-roofed monastery sits on a narrow pillar in the foreground group, with a larger monastery on a broader pillar behind it. The sky is clear, about 9.7°C. Moonlight models the rock. A few windows are lit. The pillars themselves are not floodlit.",
+    "alt_text": "AI-generated artistic interpretation of the Meteora monasteries near Kalambaka in moonlight",
+    "file_16x9": "library/world/Greece/Kalambaka/gr-01-006-16x9.png",
+    "file_4x5": "library/world/Greece/Kalambaka/gr-01-006-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-007",
+    "country": "Greece",
+    "region": "Peloponnese",
+    "city": "Epidaurus",
+    "caption": "Ancient Theatre, Epidaurus",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Horseshoe of limestone seats around the circular orchestra · AI-generated artistic interpretation",
+    "description": "From high in the cavea, limestone seating curves down to the circular orchestra, split by radiating stairways. Beyond the open side are the low ruins of the stage building and pine-covered hills. Cloud cover is about 50%, about 13.1°C, and the theatre is empty. No performance lighting was added.",
+    "alt_text": "AI-generated artistic interpretation of the Ancient Theatre of Epidaurus at night without stage lights",
+    "file_16x9": "library/world/Greece/Epidaurus/gr-01-007-16x9.png",
+    "file_4x5": "library/world/Greece/Epidaurus/gr-01-007-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-008",
+    "country": "Greece",
+    "region": "Peloponnese",
+    "city": "Mycenae",
+    "caption": "Lion Gate, Mycenae",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Headless lion relief above the citadel gate · AI-generated artistic interpretation",
+    "description": "From the approach outside the citadel, the Lion Gate fills the frame: conglomerate walls, a heavy lintel, and the triangular relief of two headless lions flanking a column. Cloud cover is about 57%, about 15.2°C, and the site is unlit, so the relief is in moonlight. The portrait master is a tighter crop of this same frame.",
+    "alt_text": "AI-generated artistic interpretation of the Lion Gate at Mycenae in moonlight, lions without heads",
+    "file_16x9": "library/world/Greece/Mycenae/gr-01-008-16x9.png",
+    "file_4x5": "library/world/Greece/Mycenae/gr-01-008-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-009",
+    "country": "Greece",
+    "region": "Peloponnese",
+    "city": "Olympia",
+    "caption": "Temple of Hera, Olympia",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Uneven Doric columns of the Heraion, Kronos Hill behind · AI-generated artistic interpretation",
+    "description": "In the Altis, the Temple of Hera is a roofless row of standing Doric columns of uneven age and girth. Wooded Kronos Hill rises behind them. The Temple of Zeus is not rebuilt here; it remains a low footprint nearby rather than a second complete temple. The night is mainly clear, about 14.1°C, and the sanctuary is in moonlight only.",
+    "alt_text": "AI-generated artistic interpretation of the Temple of Hera at Olympia in moonlight",
+    "file_16x9": "library/world/Greece/Olympia/gr-01-009-16x9.png",
+    "file_4x5": "library/world/Greece/Olympia/gr-01-009-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-010",
+    "country": "Greece",
+    "region": "Crete",
+    "city": "Heraklion",
+    "caption": "Knossos, Heraklion",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Evans reconstruction of the Knossos staircase, red columns wider at the top · AI-generated artistic interpretation",
+    "description": "At the Palace of Knossos, the frame shows the reconstructed Grand Staircase: stone steps and Minoan columns painted deep red, wider at the top than the base. Lower ruined walls sit beside the reconstruction rather than a complete ancient palace. Cloud cover is about 61%, about 18.8°C. The site is closed and unlit, so the stone is in moonlight.",
+    "alt_text": "AI-generated artistic interpretation of the reconstructed staircase at Knossos in moonlight",
+    "file_16x9": "library/world/Greece/Heraklion/gr-01-010-16x9.png",
+    "file_4x5": "library/world/Greece/Heraklion/gr-01-010-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-011",
+    "country": "Greece",
+    "region": "Dodecanese",
+    "city": "Rhodes",
+    "caption": "Palace of the Grand Master, Rhodes",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Crenellated palace gate at the head of the Street of the Knights · AI-generated artistic interpretation",
+    "description": "From the square in front of the Palace of the Grand Master, the crenellated stone facade and arched entrance fill the view, with the cobbled Street of the Knights to one side. The sky is clear, about 20.6°C, with a breeze near 17 km/h. Small street lanterns light the cobbles. The upper walls are in moonlight rather than a floodlight wash.",
+    "alt_text": "AI-generated artistic interpretation of the Palace of the Grand Master in Rhodes Old Town at night",
+    "file_16x9": "library/world/Greece/Rhodes/gr-01-011-16x9.png",
+    "file_4x5": "library/world/Greece/Rhodes/gr-01-011-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-012",
+    "country": "Greece",
+    "region": "Ionian Islands",
+    "city": "Corfu",
+    "caption": "Old Fortress, Corfu",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Liston arcade and the Old Fortress across the Spianada moat · AI-generated artistic interpretation",
+    "description": "From the Spianada, the arcaded Liston runs along the left of the wide frame and the Old Fortress stands on its rocky promontory across the moat, with the church of St George visible inside. The sky is clear, about 19.4°C. Street lamps line the square. The fortress mass is in moonlight, not a floodlight wash.",
+    "alt_text": "AI-generated artistic interpretation of the Old Fortress of Corfu at night from the Spianada",
+    "file_16x9": "library/world/Greece/Corfu/gr-01-012-16x9.png",
+    "file_4x5": "library/world/Greece/Corfu/gr-01-012-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-013",
+    "country": "Greece",
+    "region": "Central Macedonia",
+    "city": "Thessaloniki",
+    "caption": "White Tower, Thessaloniki",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Cylindrical White Tower on the Thermaic Gulf promenade · AI-generated artistic interpretation",
+    "description": "From the Nikis Avenue waterfront, the cylindrical white tower stands at the edge of the gulf, crenellated, with the smaller turret on top. The promenade lamps curve beside it under a clear sky, about 15.1°C. Architectural light picks out the cylinder. That lighting is the Ministry of Culture night-lighting project reported in 2026; a shutoff hour was not published.",
+    "alt_text": "AI-generated artistic interpretation of the White Tower of Thessaloniki at night on the waterfront",
+    "file_16x9": "library/world/Greece/Thessaloniki/gr-01-013-16x9.png",
+    "file_4x5": "library/world/Greece/Thessaloniki/gr-01-013-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-014",
+    "country": "Greece",
+    "region": "Peloponnese",
+    "city": "Nafplio",
+    "caption": "Bourtzi, Nafplio",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Venetian islet fort in the harbor, Palamidi on the hill behind · AI-generated artistic interpretation",
+    "description": "From the old-town waterfront, Bourtzi is a low stone fort on an islet, with bastions and a tiled roof. Neoclassical houses line the near quay, and Palamidi is a dark castle on the hill behind the town. Cloud cover is about 65%, about 17.5°C. No floodlight schedule was found for 03:15, so Bourtzi is in moonlight and the quay lamps, not a warm wash.",
+    "alt_text": "AI-generated artistic interpretation of Bourtzi in Nafplio harbor at night without floodlights",
+    "file_16x9": "library/world/Greece/Nafplio/gr-01-014-16x9.png",
+    "file_4x5": "library/world/Greece/Nafplio/gr-01-014-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-015",
+    "country": "Greece",
+    "region": "Epirus",
+    "city": "Monodendri",
+    "caption": "Vikos Gorge, Monodendri",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Cliff-edge view down the limestone walls of Vikos Gorge · AI-generated artistic interpretation",
+    "description": "From the Oxia cliff viewpoint near Monodendri, the gorge drops in near-vertical limestone walls, with the river a thin line far below. The sky is clear, about 9.3°C at the Open-Meteo cell. Moonlight catches one wall and leaves the other in shadow. There are no floodlights.",
+    "alt_text": "AI-generated artistic interpretation of Vikos Gorge from the Oxia viewpoint at night",
+    "file_16x9": "library/world/Greece/Monodendri/gr-01-015-16x9.png",
+    "file_4x5": "library/world/Greece/Monodendri/gr-01-015-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  },
+  {
+    "entry_id": "GR-01-016",
+    "country": "Greece",
+    "region": "Thessaly",
+    "city": "Litochoro",
+    "caption": "Mount Olympus, Litochoro",
+    "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+    "composition": "Rocky path toward Stefani and Mytikas · AI-generated artistic interpretation",
+    "description": "On the summit approach above the Plateau of the Muses, a cairned path of bare limestone leads toward the amphitheater of Stefani and the higher summit of Mytikas. The night is mainly clear, about -2.4°C at the high model cell, with a light wind and no precipitation. The south faces are in moonlight. No snowfield was added, because the model did not report snow.",
+    "alt_text": "AI-generated artistic interpretation of the Mount Olympus summit approach at night",
+    "file_16x9": "library/world/Greece/Litochoro/gr-01-016-16x9.png",
+    "file_4x5": "library/world/Greece/Litochoro/gr-01-016-4x5.png",
+    "license_badge": "Free · no credit needed",
+    "license_anchor": "#license",
+    "approval_status": "Candidate"
+  }
+];
+
+    const grid = document.getElementById('grid');
+    const q = document.getElementById('q');
+    const region = document.getElementById('region');
+    const clearBtn = document.getElementById('clear');
+    const countEl = document.getElementById('result-count');
+    const noResults = document.getElementById('no-results');
+
+    const regions = [...new Set(SCENES.map(s => s.region))].sort();
+    for (const r of regions) {
+      const opt = document.createElement('option');
+      opt.value = r; opt.textContent = r; region.appendChild(opt);
+    }
+
+    function esc(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[ch]));
+    }
+    function fileName(url) {
+      const path = String(url).split("?")[0];
+      const slash = path.lastIndexOf("/");
+      return slash >= 0 ? path.slice(slash + 1) : path;
+    }
+
+    function render() {
+      const query = q.value.trim().toLowerCase();
+      const reg = region.value;
+      const filtered = SCENES.filter(s => {
+        if (reg && s.region !== reg) return false;
+        if (!query) return true;
+        const hay = (s.city + ' ' + s.caption + ' ' + s.region + ' ' + s.entry_id + ' ' + (s.description || '')).toLowerCase();
+        return hay.includes(query);
+      });
+      grid.innerHTML = '';
+      noResults.style.display = filtered.length ? 'none' : 'block';
+      countEl.textContent = filtered.length + ' scene' + (filtered.length === 1 ? '' : 's');
+      for (const s of filtered) {
+        const card = document.createElement('article');
+        card.className = 'card';
+        const file16 = s.file_16x9;
+        const file45 = s.file_4x5;
+        card.innerHTML = `
+          <div class="preview">
+            <div class="fmt-tabs" role="group" aria-label="Image size">
+              <button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>
+              <button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>
+            </div>
+            <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
+              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}" data-src-45="${esc(file45)}" />
+              <span class="view-affordance">View image</span>
+            </a>
+          </div>
+          <div class="card-body">
+            <div class="status-row">
+              <div class="entry-id">${esc(s.entry_id)}</div>
+              <span class="status candidate">Candidate</span>
+            </div>
+            <h3 class="caption">${esc(s.caption)}</h3>
+            <p class="scenario">Scenario: ${esc(s.scenario_label)}</p>
+            <p class="composition">${esc(s.composition)}</p>
+            ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
+            <div class="actions">
+              <a class="badge" href="${esc(s.license_anchor)}">${esc(s.license_badge)}</a>
+              <a class="download" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
+              <a class="download" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>
+            </div>
+          </div>`;
+        grid.appendChild(card);
+      }
+    }
+    grid.addEventListener('click', (event) => {
+      const tab = event.target.closest('.fmt-tab');
+      if (!tab) return;
+      event.preventDefault();
+      const card = tab.closest('.card');
+      if (!card) return;
+      const fmt = tab.dataset.format;
+      card.querySelectorAll('.fmt-tab').forEach((item) => {
+        const on = item === tab;
+        item.classList.toggle('is-active', on);
+        item.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      const link = card.querySelector('a.thumb');
+      const img = link && link.querySelector('img');
+      if (!img || !link) return;
+      const next = fmt === '4x5' ? img.getAttribute('data-src-45') : img.getAttribute('data-src-16');
+      if (next) {
+        img.src = next;
+        link.href = next;
+      }
+      link.classList.toggle('tall', fmt === '4x5');
+    });
+    q.addEventListener('input', render);
+    region.addEventListener('change', render);
+    clearBtn.addEventListener('click', () => { q.value = ''; region.value = ''; render(); });
+    render();
+  </script>
+</body>
+</html>
