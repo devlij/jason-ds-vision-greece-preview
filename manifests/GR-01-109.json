@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-109",
+  "country": "Greece",
+  "region": "Epirus",
+  "city": "Igoumenitsa",
+  "caption": "Igoumenitsa Harbor, Igoumenitsa",
+  "scenario_label": "24 September 2026 · 07:20 Europe/Athens",
+  "composition": "Ferry quay and green hills · AI-generated artistic interpretation",
+  "description": "The Igoumenitsa harbor is a concrete ferry quay with harbor lamps, a plain white ferry, and green hills behind the town. The sky is clear, about 17.5°C. The sun is still below the horizon. The ferry carries no readable name. This is a working port, not a castle.",
+  "alt_text": "AI-generated artistic interpretation of Igoumenitsa harbor before sunrise",
+  "file_16x9": "library/world/Greece/Igoumenitsa/gr-01-109-16x9.png",
+  "file_4x5": "library/world/Greece/Igoumenitsa/gr-01-109-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
