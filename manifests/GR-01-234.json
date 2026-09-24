@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-234",
+  "country": "Greece",
+  "region": "Eastern Macedonia and Thrace",
+  "city": "Thasos",
+  "caption": "Ancient Agora, Thasos",
+  "scenario_label": "24 September 2026 · 10:05 Europe/Athens",
+  "composition": "Marble drums and stoa foundations · AI-generated artistic interpretation",
+  "description": "The agora is an open field of marble drums, stoa foundations, and a few upright fragments, with the pine slope of the acropolis behind and only a sliver of sea at the edge. Cloud cover is about 44 percent, about 17.5°C. This is the ruin field, not the modern harbor.",
+  "alt_text": "AI-generated artistic interpretation of the ancient agora of Thasos under a partly cloudy morning sky",
+  "file_16x9": "library/world/Greece/Thasos/gr-01-234-16x9.png",
+  "file_4x5": "library/world/Greece/Thasos/gr-01-234-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
