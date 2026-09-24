@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-147",
+  "country": "Greece",
+  "region": "Dodecanese",
+  "city": "Rhodes",
+  "caption": "Street of the Knights, Rhodes",
+  "scenario_label": "24 September 2026 · 08:15 Europe/Athens",
+  "composition": "Cobbled lane of the knights' inns · AI-generated artistic interpretation",
+  "description": "The frame is the cobbled Street of the Knights, with honey-stone inns on both sides and a stone arch crossing the lane. The palace gate shown in GR-01-011 is outside this frame. The sky is clear, about 20.0°C, with wind near 18 km/h. The narrow street is in morning shade, and the sun only catches the upper walls.",
+  "alt_text": "AI-generated artistic interpretation of the Street of the Knights in Rhodes Old Town in early morning light",
+  "file_16x9": "library/world/Greece/Rhodes/gr-01-147-16x9.png",
+  "file_4x5": "library/world/Greece/Rhodes/gr-01-147-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
