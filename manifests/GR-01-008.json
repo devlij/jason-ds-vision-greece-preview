@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-008",
+  "country": "Greece",
+  "region": "Peloponnese",
+  "city": "Mycenae",
+  "caption": "Lion Gate, Mycenae",
+  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "composition": "Headless lion relief above the citadel gate · AI-generated artistic interpretation",
+  "description": "From the approach outside the citadel, the Lion Gate fills the frame: conglomerate walls, a heavy lintel, and the triangular relief of two headless lions flanking a column. Cloud cover is about 57%, about 15.2°C, and the site is unlit, so the relief is in moonlight. The portrait master is a tighter crop of this same frame.",
+  "alt_text": "AI-generated artistic interpretation of the Lion Gate at Mycenae in moonlight, lions without heads",
+  "file_16x9": "library/world/Greece/Mycenae/gr-01-008-16x9.png",
+  "file_4x5": "library/world/Greece/Mycenae/gr-01-008-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

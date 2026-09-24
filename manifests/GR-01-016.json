@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-016",
+  "country": "Greece",
+  "region": "Thessaly",
+  "city": "Litochoro",
+  "caption": "Mount Olympus, Litochoro",
+  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "composition": "Rocky path toward Stefani and Mytikas · AI-generated artistic interpretation",
+  "description": "On the summit approach above the Plateau of the Muses, a cairned path of bare limestone leads toward the amphitheater of Stefani and the higher summit of Mytikas. The night is mainly clear, about -2.4°C at the high model cell, with a light wind and no precipitation. The south faces are in moonlight. No snowfield was added, because the model did not report snow.",
+  "alt_text": "AI-generated artistic interpretation of the Mount Olympus summit approach at night",
+  "file_16x9": "library/world/Greece/Litochoro/gr-01-016-16x9.png",
+  "file_4x5": "library/world/Greece/Litochoro/gr-01-016-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

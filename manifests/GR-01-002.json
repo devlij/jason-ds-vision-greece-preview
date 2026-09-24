@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-002",
+  "country": "Greece",
+  "region": "Attica",
+  "city": "Athens",
+  "caption": "Plaka, Athens",
+  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "composition": "Plaka lanes and Monastiraki Square under the lit Acropolis · AI-generated artistic interpretation",
+  "description": "At the edge of Monastiraki Square, looking southeast, the domed Tzistarakis Mosque sits on the square and Plaka's low neoclassical houses climb toward the Acropolis. The floodlit Parthenon is above the rooftops. It is a mainly clear night, about 13.1°C, with municipal street lamps; tavernas are closed and the lanes are empty because the scenario hour is 03:15.",
+  "alt_text": "AI-generated artistic interpretation of Plaka and Monastiraki in Athens at night with the Acropolis above the roofs",
+  "file_16x9": "library/world/Greece/Athens/gr-01-002-16x9.png",
+  "file_4x5": "library/world/Greece/Athens/gr-01-002-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

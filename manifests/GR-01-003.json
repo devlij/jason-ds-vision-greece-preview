@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-003",
+  "country": "Greece",
+  "region": "Cyclades",
+  "city": "Santorini",
+  "caption": "Oia, Santorini",
+  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "composition": "Caldera-rim houses at Oia under a clear night sky · AI-generated artistic interpretation",
+  "description": "From the castle ruins at the northwest tip of Oia, looking southeast, white cubic houses and blue domes step down the cliff. The dark caldera and the low silhouette of the volcanic islets occupy the right of the wide frame. The sky is clear, about 18.9°C, with a breeze near 16 km/h. This is a night scenario, not sunset: a few pathway lamps are on and most windows are dark.",
+  "alt_text": "AI-generated artistic interpretation of Oia in Santorini at night above the caldera",
+  "file_16x9": "library/world/Greece/Santorini/gr-01-003-16x9.png",
+  "file_4x5": "library/world/Greece/Santorini/gr-01-003-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

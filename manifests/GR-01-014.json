@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-014",
+  "country": "Greece",
+  "region": "Peloponnese",
+  "city": "Nafplio",
+  "caption": "Bourtzi, Nafplio",
+  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "composition": "Venetian islet fort in the harbor, Palamidi on the hill behind · AI-generated artistic interpretation",
+  "description": "From the old-town waterfront, Bourtzi is a low stone fort on an islet, with bastions and a tiled roof. Neoclassical houses line the near quay, and Palamidi is a dark castle on the hill behind the town. Cloud cover is about 65%, about 17.5°C. No floodlight schedule was found for 03:15, so Bourtzi is in moonlight and the quay lamps, not a warm wash.",
+  "alt_text": "AI-generated artistic interpretation of Bourtzi in Nafplio harbor at night without floodlights",
+  "file_16x9": "library/world/Greece/Nafplio/gr-01-014-16x9.png",
+  "file_4x5": "library/world/Greece/Nafplio/gr-01-014-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

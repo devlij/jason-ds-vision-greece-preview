@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-007",
+  "country": "Greece",
+  "region": "Peloponnese",
+  "city": "Epidaurus",
+  "caption": "Ancient Theatre, Epidaurus",
+  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "composition": "Horseshoe of limestone seats around the circular orchestra · AI-generated artistic interpretation",
+  "description": "From high in the cavea, limestone seating curves down to the circular orchestra, split by radiating stairways. Beyond the open side are the low ruins of the stage building and pine-covered hills. Cloud cover is about 50%, about 13.1°C, and the theatre is empty. No performance lighting was added.",
+  "alt_text": "AI-generated artistic interpretation of the Ancient Theatre of Epidaurus at night without stage lights",
+  "file_16x9": "library/world/Greece/Epidaurus/gr-01-007-16x9.png",
+  "file_4x5": "library/world/Greece/Epidaurus/gr-01-007-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

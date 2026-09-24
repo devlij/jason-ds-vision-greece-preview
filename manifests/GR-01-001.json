@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-001",
+  "country": "Greece",
+  "region": "Attica",
+  "city": "Athens",
+  "caption": "Parthenon, Athens",
+  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "composition": "Doric temple on the Acropolis rock, west facade from Filopappou · AI-generated artistic interpretation",
+  "description": "From the Hill of the Muses (Filopappou), looking northeast, the ruined Parthenon sits centered on the Acropolis limestone. The west front and south colonnade read as a roofless Doric temple, with the Propylaea lower and to the left on the same rock. Warm-white architectural light is on the marble under a mainly clear night sky, about 12.5°C, with the city lamps below the rock. The Acropolis night lighting is the standing civic installation; no shutoff hour for 03:15 was published.",
+  "alt_text": "AI-generated artistic interpretation of the Parthenon in Athens under architectural light on a mainly clear night",
+  "file_16x9": "library/world/Greece/Athens/gr-01-001-16x9.png",
+  "file_4x5": "library/world/Greece/Athens/gr-01-001-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-012",
+  "country": "Greece",
+  "region": "Ionian Islands",
+  "city": "Corfu",
+  "caption": "Old Fortress, Corfu",
+  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "composition": "Liston arcade and the Old Fortress across the Spianada moat · AI-generated artistic interpretation",
+  "description": "From the Spianada, the arcaded Liston runs along the left of the wide frame and the Old Fortress stands on its rocky promontory across the moat, with the church of St George visible inside. The sky is clear, about 19.4°C. Street lamps line the square. The fortress mass is in moonlight, not a floodlight wash.",
+  "alt_text": "AI-generated artistic interpretation of the Old Fortress of Corfu at night from the Spianada",
+  "file_16x9": "library/world/Greece/Corfu/gr-01-012-16x9.png",
+  "file_4x5": "library/world/Greece/Corfu/gr-01-012-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

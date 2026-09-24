@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-009",
+  "country": "Greece",
+  "region": "Peloponnese",
+  "city": "Olympia",
+  "caption": "Temple of Hera, Olympia",
+  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "composition": "Uneven Doric columns of the Heraion, Kronos Hill behind · AI-generated artistic interpretation",
+  "description": "In the Altis, the Temple of Hera is a roofless row of standing Doric columns of uneven age and girth. Wooded Kronos Hill rises behind them. The Temple of Zeus is not rebuilt here; it remains a low footprint nearby rather than a second complete temple. The night is mainly clear, about 14.1°C, and the sanctuary is in moonlight only.",
+  "alt_text": "AI-generated artistic interpretation of the Temple of Hera at Olympia in moonlight",
+  "file_16x9": "library/world/Greece/Olympia/gr-01-009-16x9.png",
+  "file_4x5": "library/world/Greece/Olympia/gr-01-009-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

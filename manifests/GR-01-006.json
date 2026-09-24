@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-006",
+  "country": "Greece",
+  "region": "Thessaly",
+  "city": "Kalambaka",
+  "caption": "Meteora, Kalambaka",
+  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "composition": "Monasteries on sandstone pillars above the plain · AI-generated artistic interpretation",
+  "description": "From the valley road near Kalambaka, sandstone pillars rise out of the plain. A small red-roofed monastery sits on a narrow pillar in the foreground group, with a larger monastery on a broader pillar behind it. The sky is clear, about 9.7°C. Moonlight models the rock. A few windows are lit. The pillars themselves are not floodlit.",
+  "alt_text": "AI-generated artistic interpretation of the Meteora monasteries near Kalambaka in moonlight",
+  "file_16x9": "library/world/Greece/Kalambaka/gr-01-006-16x9.png",
+  "file_4x5": "library/world/Greece/Kalambaka/gr-01-006-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

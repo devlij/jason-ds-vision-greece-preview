@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-005",
+  "country": "Greece",
+  "region": "Central Greece",
+  "city": "Delphi",
+  "caption": "Temple of Apollo, Delphi",
+  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "composition": "Partial Doric colonnade of the Temple of Apollo under the Phaedriades · AI-generated artistic interpretation",
+  "description": "From the Sacred Way below the temple, a partial run of re-erected Doric columns stands on the terrace, without a roof. The Phaedriades cliffs rise behind the ruin and the valley drops away beside it. The sky is clear, about 12.3°C. The archaeological site is closed and no floodlight schedule was found, so the columns are in moonlight only.",
+  "alt_text": "AI-generated artistic interpretation of the Temple of Apollo at Delphi in moonlight, without floodlights",
+  "file_16x9": "library/world/Greece/Delphi/gr-01-005-16x9.png",
+  "file_4x5": "library/world/Greece/Delphi/gr-01-005-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

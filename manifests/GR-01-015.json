@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-015",
+  "country": "Greece",
+  "region": "Epirus",
+  "city": "Monodendri",
+  "caption": "Vikos Gorge, Monodendri",
+  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "composition": "Cliff-edge view down the limestone walls of Vikos Gorge · AI-generated artistic interpretation",
+  "description": "From the Oxia cliff viewpoint near Monodendri, the gorge drops in near-vertical limestone walls, with the river a thin line far below. The sky is clear, about 9.3°C at the Open-Meteo cell. Moonlight catches one wall and leaves the other in shadow. There are no floodlights.",
+  "alt_text": "AI-generated artistic interpretation of Vikos Gorge from the Oxia viewpoint at night",
+  "file_16x9": "library/world/Greece/Monodendri/gr-01-015-16x9.png",
+  "file_4x5": "library/world/Greece/Monodendri/gr-01-015-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
