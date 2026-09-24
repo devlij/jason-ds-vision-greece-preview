@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-024",
+  "country": "Greece",
+  "region": "Attica",
+  "city": "Aegina",
+  "caption": "Temple of Aphaia, Aegina",
+  "scenario_label": "24 September 2026 · 05:53 Europe/Athens",
+  "composition": "Doric Temple of Aphaia among pines, unlit · AI-generated artistic interpretation",
+  "description": "On the pine hill at Aegina, the Doric Temple of Aphaia stands on a terrace among trees, with a distant sea line rather than a cliff edge. The pediment is empty of the sculptures kept in Munich. The model is mainly clear, about 18.7°C, cloud cover about 15%. No floodlight schedule was found, so the cella is dark and the stone is in twilight only.",
+  "alt_text": "AI-generated artistic interpretation of the Temple of Aphaia on Aegina at pre-dawn without floodlights",
+  "file_16x9": "library/world/Greece/Aegina/gr-01-024-16x9.png",
+  "file_4x5": "library/world/Greece/Aegina/gr-01-024-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

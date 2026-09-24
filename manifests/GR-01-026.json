@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-026",
+  "country": "Greece",
+  "region": "Attica",
+  "city": "Athens",
+  "caption": "Hadrian's Arch, Athens",
+  "scenario_label": "24 September 2026 · 05:53 Europe/Athens",
+  "composition": "Hadrian's Arch with the Olympieion columns behind, unlit · AI-generated artistic interpretation",
+  "description": "On the avenue, Hadrian's Arch stands in the foreground and the tall Corinthian columns of the Olympieion show through and behind it, with the Acropolis glow farther off. The sky is clear, about 12.2°C. No official lighting timetable was found for the arch or the Olympieion at 05:53, so neither is floodlit; avenue lamps provide the street light.",
+  "alt_text": "AI-generated artistic interpretation of Hadrian's Arch in Athens at pre-dawn with the Olympieion columns behind, without floodlights",
+  "file_16x9": "library/world/Greece/Athens/gr-01-026-16x9.png",
+  "file_4x5": "library/world/Greece/Athens/gr-01-026-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

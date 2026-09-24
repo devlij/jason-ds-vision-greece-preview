@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-021",
+  "country": "Greece",
+  "region": "Attica",
+  "city": "Athens",
+  "caption": "Lycabettus Hill, Athens",
+  "scenario_label": "24 September 2026 · 05:53 Europe/Athens",
+  "composition": "Summit terrace of Lycabettus toward the lit Acropolis · AI-generated artistic interpretation",
+  "description": "From the summit terrace of Lycabettus beside the chapel of Agios Georgios, looking southwest, the chapel is at the left, the city lights fill the slope, and the warm-lit Acropolis sits in the middle distance with the Saronic Gulf beyond. The Open-Meteo cell is clear, about 11.8°C. The chapel itself is not floodlit.",
+  "alt_text": "AI-generated artistic interpretation of the view from Lycabettus Hill in Athens at pre-dawn toward the Acropolis",
+  "file_16x9": "library/world/Greece/Athens/gr-01-021-16x9.png",
+  "file_4x5": "library/world/Greece/Athens/gr-01-021-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

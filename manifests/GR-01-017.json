@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-017",
+  "country": "Greece",
+  "region": "Attica",
+  "city": "Athens",
+  "caption": "Erechtheion, Athens",
+  "scenario_label": "24 September 2026 · 05:53 Europe/Athens",
+  "composition": "Ionic Erechtheion with the Caryatid porch, Parthenon beyond · AI-generated artistic interpretation",
+  "description": "From the east side of the Erechtheion, looking west, the south porch of six Caryatids is on the left and the tall Ionic columns of the north porch are on the right. The roofless Parthenon sits farther left on the same Acropolis rock. Warm-white architectural light is on the marble under a clear sky, about 12.2°C. No published shutoff was found for the standing Acropolis illumination before dawn, so those lights are depicted; this is not an on-site check that they were burning at 05:53.",
+  "alt_text": "AI-generated artistic interpretation of the Erechtheion in Athens at pre-dawn, with the Caryatid porch and the Parthenon beyond",
+  "file_16x9": "library/world/Greece/Athens/gr-01-017-16x9.png",
+  "file_4x5": "library/world/Greece/Athens/gr-01-017-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
