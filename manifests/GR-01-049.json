@@ -1,0 +1,16 @@
+{
+  "entry_id": "GR-01-049",
+  "country": "Greece",
+  "region": "Peloponnese",
+  "city": "Mystras",
+  "caption": "Mystras, Mystras",
+  "scenario_label": "24 September 2026 · 06:21 Europe/Athens",
+  "composition": "Byzantine ruined city climbing a Taygetos spur, fortress at the summit · AI-generated artistic interpretation",
+  "description": "From the road on the Sparta side, the ruined city climbs a steep Taygetos spur. A broken Frankish fortress crowns the summit, a long roofless palace sits in the upper town, and two small red-tile churches stand among cypresses, with olive groves in the foreground. The sky is mainly clear, cloud cover about 43%, about 11.3°C. The moon has set, and the site is in twilight only, with no floodlights.",
+  "alt_text": "AI-generated artistic interpretation of the Mystras ruins at pre-dawn, without floodlights",
+  "file_16x9": "library/world/Greece/Mystras/gr-01-049-16x9.png",
+  "file_4x5": "library/world/Greece/Mystras/gr-01-049-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
