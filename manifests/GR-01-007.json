@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Epidaurus/gr-01-007-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: circular stone orchestra at bottom center with the horseshoe of limestone seating divided by radiating stairways rising to the diazoma, pine hills beyond the open side — a plausible night view from the upper seating at Epidaurus; empty theatre in broken moonlight under 50% cloud cover, clean framing, no artifacts. Gate 2: 1920x1080 and 864x1080 verified; on-image text reads 'Ancient Theatre, Epidaurus', 'Scenario: 24 September 2026 · 03:19 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right on a legible gradient scrim; weather retrieval 2026-09-24T00:17:07Z fresh for the 03:15 valid hour with location-specific values (13.1°C, 50% cloud cover). Gate 3: approvals file records text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:33:20.220276+00:00",
+  "sha256_16x9": "55e619afccebc1881adacdf09f01eb70bb78c28c814d9013678831bba9322d89",
+  "sha256_4x5": "a36c3c587756f3cca5eb64a81c7dc8d5ce988bc91c83e852a482b3b0933a379d"
 }
