@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Thessaloniki/gr-01-013-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: cylindrical whitewashed tower with crenellated crown and smaller turret on the Thermaic Gulf waterfront, promenade lamps curving beside it — recognizably the White Tower, Thessaloniki from the Nikis Avenue promenade; framing clean, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'White Tower, Thessaloniki', scenario '24 September 2026 · 03:19 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', signature 'Jason D's Vision' bottom-right on gradient scrim; weather retrieval 2026-09-24T00:17:07Z valid 03:15 predates scenario — fresh, not reused. Architectural illumination on the tower is consistent with the cited Ministry of Culture 2026 night-lighting project, not invented floodlighting. Gate 3: notes document text-prompt-only lineage, no photographic inputs reported. Gate 4: no visible people, logos, or recognizable private property — public monument, documented only. Gate 5: no blockers.",
   "approved_at": "2026-09-25T05:31:28.632285+00:00",
   "sha256_16x9": "93c4385fd6fce82db66c3ba929727f6c3e2d8a8be46639b4085a800b690a24f9",
-  "sha256_4x5": "fbfca4fc0130eef434ee469efc15310b7e07cd4eb92d827b9d0b60ed66e5ea12"
+  "sha256_4x5": "fbfca4fc0130eef434ee469efc15310b7e07cd4eb92d827b9d0b60ed66e5ea12",
+  "reverted_at": "2026-09-25T12:44:33.450674+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:44:33.450674+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
