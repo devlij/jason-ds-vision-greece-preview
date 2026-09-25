@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Delphi/gr-01-046-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual: steep cliff gorge between the Phaedriades, carved niches and fountain remains at the base of the rock, stone path and stream bed, no temple colonnade and no theater seating in frame — matches the Castalian Spring gorge arrangement. G2 technical: exact 1920x1080 + 864x1080, exact signature, caption 'Castalian Spring, Delphi' + 'Scenario: 24 September 2026 · 06:09 Europe/Athens' + disclosure on bottom gradient. Weather retrieval 2026-09-24T03:02:05Z valid 06:00 (clear, 12.4C), scenario 06:09 consistent. G3: text-prompt-only lineage. G4: no identifiable people or logos (documented only). G5: no blockers.",
+  "approved_at": "2026-09-25T08:32:04.973040+00:00",
+  "sha256_16x9": "524c37eb0c91da2b5c458508f8fe2e736490bfcd44b79f8eafbe3f043d445e85",
+  "sha256_4x5": "df528c80e5ce4583fff1e39e3b9a8abbf998b728a7f37ef509d7fea7ff59ab29"
 }
