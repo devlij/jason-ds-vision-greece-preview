@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Nafplio/gr-01-014-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: low Venetian islet fort with bastions and tiled-roof chapel tower, neoclassical waterfront quay with street lamps along the left, Palamidi castle dark on the hill behind the town — recognizably Bourtzi, Nafplio from Akti Miaouli; clean night framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Bourtzi, Nafplio', scenario '24 September 2026 · 03:19 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', signature 'Jason D's Vision' bottom-right on gradient scrim; weather retrieval 2026-09-24T00:17:07Z valid 03:15 predates scenario — fresh, not reused. Fort correctly kept unlit (no floodlight schedule confirmed for 03:15), quay lamps only. Gate 3: notes document text-prompt-only lineage, no photographic inputs reported. Gate 4: no visible people, logos, or recognizable private property — public monuments, documented only. Gate 5: no blockers.",
   "approved_at": "2026-09-25T05:31:42.845249+00:00",
   "sha256_16x9": "7973b223d1c360f3debdc47e3638934b7573878d9526cb8aacd1a4394b8c3286",
-  "sha256_4x5": "242ffbbd08a1ab4e7669f56bb5b1458ed7e619bb7824e004008bfc52183ce2ea"
+  "sha256_4x5": "242ffbbd08a1ab4e7669f56bb5b1458ed7e619bb7824e004008bfc52183ce2ea",
+  "reverted_at": "2026-09-25T12:44:36.012574+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:44:36.012574+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
