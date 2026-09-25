@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-027-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: the octagonal Tower of the Winds with its pyramidal roof, relief friezes of the wind gods and sundial lines, standing in the Roman Agora among scattered ruins with the Temple of Hephaestus colonnade visible at left — recognizably the Tower of the Winds, plausible tourist viewpoint, no artifacts. Gate 2: masters verified 1920x1080 and 864x1080 PNGs; exact caption 'Tower of the Winds, Athens', scenario '24 September 2026 · 05:53 Europe/Athens', disclosure and 'Jason D's Vision' signature bottom-right; weather retrieval 2026-09-24T02:52:59Z (Open-Meteo, central Athens cell, clear, 12.2°C, is_day 0) is fresh, consistent with the pre-dawn frame. Gate 3: approvals/GR-01-027.md documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, logos, or recognizable private property — documented only. Gate 5: all gates passed, no open blockers.",
   "approved_at": "2026-09-25T06:33:24.460241+00:00",
   "sha256_16x9": "d8d3a4d5fbbc4ec0aa38bc46edf5793244d5ebef4abd337d0a1da0211b33960f",
-  "sha256_4x5": "d3ff07afdf485f993e851ed66b126e3e2790ba2e07279e95fc51072e15709998"
+  "sha256_4x5": "d3ff07afdf485f993e851ed66b126e3e2790ba2e07279e95fc51072e15709998",
+  "reverted_at": "2026-09-25T12:45:15.206806+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:45:15.206806+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T02:52:59Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
