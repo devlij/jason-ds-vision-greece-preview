@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Kalambaka/gr-01-069-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1 PASS: one narrow Meteora pinnacle fills the center with the Rousanou monastery spreading across the whole summit, red tile roofs and a row of lit windows, a short stone bridge reaching the entrance from the ridge at the left, and a second rock pillar behind — matches the notes' anchors and is a different, closer viewpoint from GR-01-006. Gate 2 PASS: dimensions verified; exact caption 'Rousanou Monastery, Kalambaka', scenario '24 September 2026 · 06:52 Europe/Athens', AI disclosure and curly-apostrophe 'Jason D's Vision' legible on the scrim; Open-Meteo weather location-specific (0% cloud, 9.1 C, wind 7.3 km/h, 386 m cell) from the 03:42:42Z batch fetch, fresh for the 06:30 valid hour — not Spain-style reuse. Gate 3 PASS: text-prompt-only lineage, no photographic inputs. Gate 4 documented only: no people or logos visible. Gate 5: no blockers.",
   "approved_at": "2026-09-25T11:34:25.039224+00:00",
   "sha256_16x9": "5fbb1f39b834ca3ead73d0d4a3744559331ee914c9cf0a4a5821a262e72652bd",
-  "sha256_4x5": "745cd4ded00a5357646f79bafa733916dea6dfd88f774b509dd39227ba27f586"
+  "sha256_4x5": "745cd4ded00a5357646f79bafa733916dea6dfd88f774b509dd39227ba27f586",
+  "reverted_at": "2026-09-25T12:47:13.750288+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:47:13.750288+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:42:42Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
