@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Rhodes/gr-01-011-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: crenellated stone palace with two round towers, monumental arch entrance, cobbled Street of the Knights curving right with lantern-lit stone inns — recognizably the Palace of the Grand Master from a plausible night viewpoint; framing clean, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Palace of the Grand Master, Rhodes', scenario '24 September 2026 · 03:19 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', signature 'Jason D's Vision' bottom-right on gradient scrim; weather retrieval 2026-09-24T00:17:07Z valid 03:15 predates scenario — fresh, not reused. Gate 3: notes document text-prompt-only lineage, no photographic inputs reported. Gate 4: no visible people, logos, or recognizable private property — ancient monument at night, documented only. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T05:31:03.219226+00:00",
+  "sha256_16x9": "21992c6eda3068ba2eab95ea0bc79cd8691d36ec29a4dabc493376ad86c6c845",
+  "sha256_4x5": "65d1cb3694d7cc272543c2a8bcf56f92588919d6d2617a5b811136c8d73254c9"
 }
