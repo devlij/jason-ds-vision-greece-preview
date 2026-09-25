@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Aegina/gr-01-032-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: the 16:9 master shows Aegina town's harbor at pre-dawn — fishing boats and caïques moored along the quay, a row of two-storey neoclassical houses in ochre, cream and pink, a domed church belfry in the roof line, lamp reflections on still water. Gate 2 PASS: 1920x1080 and 864x1080 verified; on-image caption 'Aegina Harbor, Aegina', scenario '24 September 2026 · 05:53 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and curly-apostrophe signature 'Jason D's Vision' exact and legible; weather retrieved 2026-09-24T02:52:59Z valid 05:45 — fresh, Aegina-specific values (19.7C, cloud 21%, weather code 1), not stale reuse. Gate 3 PASS: text-prompt-only lineage per approvals file, no photographic inputs reported. Gate 4: no identifiable people or focal logos — documented only. Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-09-25T07:33:32.112567+00:00",
+  "sha256_16x9": "e474faffae77371d8f591ede1b65bd0699e368f997b166e9a5cedd552097d8af",
+  "sha256_4x5": "3794e8ae2dc3bb7af39458234c55e542e91b8d54d5fd8478a38561261e6e4d5a"
 }
