@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kastoria/gr-01-081-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "The 16:9 master shows Lake Orestiada as a still mirror in the foreground, the Megalou Alexandrou waterfront lined with traditional mansions on stone bases with enclosed wooden balconies, lit street lamps, and the pre-dawn glow eastward — matching the geometry anchors. Minor realism note: the plane trees are leafless, which reads slightly wintery for 24 September, but it is not a glaring misconfiguration and does not fail the review-based visual gate. Baked strings verified verbatim: caption 'Kastoria Lake, Kastoria', scenario '24 September 2026 · 06:59 Europe/Athens', the AI-generation disclosure, and the exact Jason D's Vision signature with curly apostrophe bottom-right. Both masters mechanically verified (1920x1080 / 864x1080). Weather evidence card claims Open-Meteo retrieval 2026-09-24T03:58:28Z valid 06:45 Athens (7.6°C, cloud 16%) — fresh, per-scene values consistent with the streaky high cloud in the frame; no stale/reused-weather flag. Lineage text-prompt-only; no photographic inputs reported. No identifiable people or logos. Gate 5 passes with the foliage note recorded, no open blockers.",
+  "approved_at": "2026-09-25T12:32:45.396167+00:00",
+  "sha256_16x9": "2f8735aabacc38d172e38ced3ce6639513ef2ba5eab4fd4460404a2ab9e8d12a",
+  "sha256_4x5": "a2105ca795dbabafe0cd08e031874ac11c428794a858bc5eb2671ff21349f29a"
 }
