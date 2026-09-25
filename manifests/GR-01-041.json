@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Parnassus/gr-01-041-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "G1 visual: alpine slope at nautical twilight with a chairlift line and dark pylons crossing the frame, chairs empty and unlit, unlit chalet, rocky alpine grass with light frost, no skiers or floodlights — honest closed-season Parnassos ski terrain. G2 technical: exact 1920x1080 + 864x1080, exact signature, caption 'Parnassus Slopes, Parnassus' + 'Scenario: 24 September 2026 · 06:08 Europe/Athens' + disclosure on bottom gradient. Weather retrieval 2026-09-24T03:02:05Z valid 06:00 (clear, 2.4C, 2065m elevation cell), scenario 06:08 consistent. G3: text-prompt-only lineage. G4: no people or logos (documented only). G5: no blockers.",
   "approved_at": "2026-09-25T08:31:16.551136+00:00",
   "sha256_16x9": "ad48382e37c781fa3ead4b77cb96bc950482fc7e727c7074d2febb2d17c17eba",
-  "sha256_4x5": "56be04514769ec5f075d121e15e494b7de53942d3b7c9ba24bb93ab22ac02743"
+  "sha256_4x5": "56be04514769ec5f075d121e15e494b7de53942d3b7c9ba24bb93ab22ac02743",
+  "reverted_at": "2026-09-25T12:45:56.201238+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:45:56.201238+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:02:05Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
