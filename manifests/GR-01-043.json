@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Amphissa/gr-01-043-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual: stone old town with red-roofed houses stepping up the hill, unlit castle walls and keep crowning the hill as a silhouette, olive plain visible only as dark distance — plausible lane viewpoint looking up at the castle. G2 technical: exact 1920x1080 + 864x1080, exact signature, caption 'Old Town, Amphissa' + 'Scenario: 24 September 2026 · 06:08 Europe/Athens' + disclosure on bottom gradient. Weather retrieval 2026-09-24T03:02:05Z valid 06:00 (clear, 13.9C), scenario 06:08 consistent. G3: text-prompt-only lineage. G4: no prominent identifiable people or focal logos (documented only). G5: no blockers.",
+  "approved_at": "2026-09-25T08:31:51.596465+00:00",
+  "sha256_16x9": "54a658032b2cb978dd0d2cc18c0258a08fb856432227cd76d83ed39e8b6421c8",
+  "sha256_4x5": "e0466583733fb8b63045441c3fe176e1dbcd499d547beb7583117fc95a22f449"
 }
