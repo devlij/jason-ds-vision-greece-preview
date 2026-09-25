@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Xanthi/gr-01-086-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "The 16:9 master shows a cobbled lane climbing between 19th-century mansions in ochre and rose plaster with projecting enclosed wooden balconies, wrought-iron lamp brackets, lit street lamps, and the wooded hillside closing the view — matching the anchors, and the heavy cloud deck matches the claimed 79% cover; the 4:5 master is a consistent portrait composition of the same lane with the dawn glow behind the slope. Baked strings verified verbatim: caption 'Xanthi Old Town, Xanthi', scenario '24 September 2026 · 06:59 Europe/Athens', the AI-generation disclosure, and the exact Jason D's Vision signature with curly apostrophe bottom-right. Both masters mechanically verified (1920x1080 / 864x1080). Weather evidence card claims Open-Meteo retrieval 2026-09-24T03:58:28Z valid 06:45 Athens (12.7°C, cloud 79%, code 2) — fresh, per-scene values, no stale/reused-weather flag. Lineage text-prompt-only; no photographic inputs reported. No readable shop names, identifiable people, or logos. Gate 5 passes with no open blockers.",
   "approved_at": "2026-09-25T12:34:00.732746+00:00",
   "sha256_16x9": "ad3cdf6b16f7d7553fb18e4921735360645da69382a539e602fcf73825bcf4e2",
-  "sha256_4x5": "ad128e690f3462909432e1904657b4ed5d05a35092bfd631eb95199e1e03818a"
+  "sha256_4x5": "ad128e690f3462909432e1904657b4ed5d05a35092bfd631eb95199e1e03818a",
+  "reverted_at": "2026-09-25T12:48:04.138654+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:48:04.138654+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:58:28Z identical across 7 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
