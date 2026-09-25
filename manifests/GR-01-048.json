@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Eretria/gr-01-048-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: 16:9 master shows Eretria's signature vaulted passage crossing the orchestra, framed by the curved stone cavea, viewed from the seating toward the sea and mountains at twilight - a plausible tourist viewpoint, clean framing, no artifacts. Gate 2: 1920x1080 and 864x1080 verified mechanically; caption 'Ancient Theater, Eretria', scenario '24 September 2026 06:09 Europe/Athens', the AI disclosure, and the exact curly-apostrophe signature verified on-image on both formats; Open-Meteo retrieval 2026-09-24T03:02:05Z valid 06:00, consistent with the scenario and the clear pre-dawn sky. Gate 3: note records text-prompt-only lineage, no photographic inputs reported. Gate 4: no identifiable people, logos, or private property - ancient ruins at twilight; documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-25T09:33:42.654299+00:00",
   "sha256_16x9": "855f16a1a571db4e21b77fee0ea613f835c4809889d0155a11a65ceddd7df350",
-  "sha256_4x5": "50179380f7b43235c7d0c69c18ba02d9665217788ec8f242680a87618a394a28"
+  "sha256_4x5": "50179380f7b43235c7d0c69c18ba02d9665217788ec8f242680a87618a394a28",
+  "reverted_at": "2026-09-25T12:46:14.005434+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:46:14.005434+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:02:05Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
