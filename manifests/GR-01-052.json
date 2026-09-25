@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Mani/gr-01-052-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: 16:9 master shows the rocky promontory path leading out to the white Tenaro lighthouse at the point, rough sea and storm-cloud twilight sky - recognizably Cape Matapan, clean framing, no artifacts. Gate 2: exact dimensions verified mechanically; caption 'Cape Matapan, Mani', scenario '24 September 2026 06:21 Europe/Athens', disclosure, and exact signature verified on both formats; Open-Meteo retrieval 2026-09-24T03:16:31Z valid 06:15, same model hour as the scenario, code 2 matching the heavy cloud. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no identifiable people, logos, or private property; documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T09:34:02.221597+00:00",
+  "sha256_16x9": "129c88a1d1911ded9363fca9535bdec7c1e00d685b3cb6337a757d32d7e47254",
+  "sha256_4x5": "dfa6212112477c6aaddad870c067883dfba6c5c2a741600bd36732495f728b6d"
 }
