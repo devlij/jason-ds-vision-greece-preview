@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Corfu/gr-01-012-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: arcaded neoclassical Liston along the left of the frame, contrafossa water strip, Old Fortress on twin rocky heights with the church of St George visible inside the walls — recognizably Corfu's Old Fortress from the Spianada; clean night framing, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Old Fortress, Corfu', scenario '24 September 2026 · 03:19 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', signature 'Jason D's Vision' bottom-right on gradient scrim; weather retrieval 2026-09-24T00:17:07Z valid 03:15 predates scenario — fresh, not reused. Observation: the fortress mass renders with warm floodlit tones while the build note claims moonlight-only; no official shutoff schedule found at 03:15, recorded as a lighting-honesty caveat, not a gate failure. Gate 3: notes document text-prompt-only lineage, no photographic inputs reported. Gate 4: no visible people, logos, or recognizable private property — ancient fortress, documented only. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T05:31:15.860552+00:00",
+  "sha256_16x9": "ca1664c153a879c971b65e8eafb8d3412e308b1f56b08f5d907d934593e38cbd",
+  "sha256_4x5": "d99cc9c4aac1041c205eb2d0c05696754ab1087c55f8b708e54b9d668ceaeffe"
 }
