@@ -23,6 +23,11 @@
       "at": "2026-09-25T05:30:49.129893+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 FAIL — relief lions rendered with heads/maned heads; the actual Lion Gate relief's lions are headless (the build agent's own geometry anchor). Left as Candidate; needs regeneration with headless lions."
+    },
+    {
+      "at": "2026-09-25T06:31:43.847491+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 (visual/location) FAILED: the triangular relief slab above the Lion Gate lintel depicts two full-bodied maned lions WITH intact heads turned toward the central column; the real monument's lions are famously headless (heads lost, likely ivory/wood originals). The build-agent note claims the 4:5 crop 'keeps the headless relief', but the 16:9 master visibly shows headed lions — a glaring misconfiguration of the site's signature element. Held as Candidate; needs a rebuild with headless relief before Cosmo QC approval."
     }
   ]
 }
