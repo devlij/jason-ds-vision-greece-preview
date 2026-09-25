@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-021-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: view from the Lycabettus summit terrace — the white domed chapel of St. George at left with a lit lamp, the floodlit Parthenon/Acropolis glowing center-frame, the city light field and the Saronic Gulf on the horizon — the classic Lycabettus night panorama, plausible tourist viewpoint. Gate 2: masters verified 1920x1080 and 864x1080 PNGs; exact caption 'Lycabettus Hill, Athens', scenario '24 September 2026 · 05:53 Europe/Athens', AI disclosure, and 'Jason D's Vision' signature bottom-right, all legible on the scrim; weather retrieval 2026-09-24T02:52:59Z (Open-Meteo, Lycabettus cell, clear, 11.8°C, is_day 0) is fresh and consistent with the night sky in-frame. Gate 3: approvals/GR-01-021.md documents text-prompt-only lineage, no photographic inputs (notes the 207m model-cell elevation caveat). Gate 4: no people, logos, or recognizable private property — documented only. Gate 5: all gates passed, no open blockers.",
+  "approved_at": "2026-09-25T06:32:09.666766+00:00",
+  "sha256_16x9": "fe7445b1090f240a652acf333e00699505f6afc21b970fc18ca865197f64e6ed",
+  "sha256_4x5": "be1ae174d7605215ffd9a8cf27e35b10a3e1dc46846080101e680a9242597dea"
 }
