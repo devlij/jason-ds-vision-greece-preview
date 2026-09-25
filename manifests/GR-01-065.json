@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Makrinitsa/gr-01-065-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gate 1: from the central square of Makrinitsa the stone terrace with its marble fountain and overhanging plane tree sits foreground, slate-roofed houses step down the steep slope, and Volos is a scatter of lights above the dark Pagasetic Gulf — the balcony-over-Volos viewpoint, matching anchors. Gate 2: 1920×1080/864×1080 verified; on-image 'Makrinitsa, Makrinitsa', 'Scenario: 24 September 2026 · 06:52 Europe/Athens', disclosure, and exact 'Jason D's Vision' signature on the gradient; weather retrieved 2026-09-24T03:42:42Z valid 06:30, consistent with scenario. Gate 3: approvals/GR-01-065.md documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or logos; generic village houses. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T10:32:11.371336+00:00",
+  "sha256_16x9": "d7b3909c0db87bac11079846699eb1a71213497f27a8bb35f5eb7d1dbd73ec64",
+  "sha256_4x5": "f74eb5652982179ce0bed353bc1671ab88dbad286aa38ef7e056860f1a01a906"
 }
