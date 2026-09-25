@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-021-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: view from the Lycabettus summit terrace — the white domed chapel of St. George at left with a lit lamp, the floodlit Parthenon/Acropolis glowing center-frame, the city light field and the Saronic Gulf on the horizon — the classic Lycabettus night panorama, plausible tourist viewpoint. Gate 2: masters verified 1920x1080 and 864x1080 PNGs; exact caption 'Lycabettus Hill, Athens', scenario '24 September 2026 · 05:53 Europe/Athens', AI disclosure, and 'Jason D's Vision' signature bottom-right, all legible on the scrim; weather retrieval 2026-09-24T02:52:59Z (Open-Meteo, Lycabettus cell, clear, 11.8°C, is_day 0) is fresh and consistent with the night sky in-frame. Gate 3: approvals/GR-01-021.md documents text-prompt-only lineage, no photographic inputs (notes the 207m model-cell elevation caveat). Gate 4: no people, logos, or recognizable private property — documented only. Gate 5: all gates passed, no open blockers.",
   "approved_at": "2026-09-25T06:32:09.666766+00:00",
   "sha256_16x9": "fe7445b1090f240a652acf333e00699505f6afc21b970fc18ca865197f64e6ed",
-  "sha256_4x5": "be1ae174d7605215ffd9a8cf27e35b10a3e1dc46846080101e680a9242597dea"
+  "sha256_4x5": "be1ae174d7605215ffd9a8cf27e35b10a3e1dc46846080101e680a9242597dea",
+  "reverted_at": "2026-09-25T12:44:58.312975+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:44:58.312975+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T02:52:59Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
