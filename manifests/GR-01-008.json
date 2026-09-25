@@ -12,5 +12,12 @@
   "file_4x5": "library/world/Greece/Mycenae/gr-01-008-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T04:31:45.819385+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 FAIL (visual/location): the triangular relief shows both lions with complete maned heads, but the Mycenae Lion Gate's defining feature is the two HEADLESS lions flanking the column (confirmed in a 2x zoom of the downloaded 16:9 master). The approvals note's claim that this frame 'keeps the headless relief' is false. Geometry anchor 'two lions whose heads are missing' not met. Card stays Candidate pending rebuild."
+    }
+  ]
 }
