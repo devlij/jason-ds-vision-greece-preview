@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Vathia/gr-01-051-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: 16:9 master shows the dense cluster of Maniot stone tower houses on the rocky hilltop ridge above the sea under broken cloud - recognizably Vathia, no modern intrusions, clean framing, no artifacts. Gate 2: exact dimensions verified mechanically; caption 'Tower Houses, Vathia', scenario '24 September 2026 06:21 Europe/Athens', disclosure, and exact signature verified on both formats; Open-Meteo retrieval 2026-09-24T03:16:31Z valid 06:15, same model hour as the scenario, code 2 matching the cloudy twilight sky. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no identifiable people, logos, or private property; documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T09:33:57.207249+00:00",
+  "sha256_16x9": "55826edd016c0541739aa283a5ebf7db593e5c8e3bf16e32b767502e165f02c6",
+  "sha256_4x5": "6ac42bd92922322a32e8dc9d789db7e77ef9eb8ea2e7d746822f4336976b4027"
 }
