@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Aegina/gr-01-024-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: the hexastyle Doric peripteral temple with intact pediment among pine trees on the Aegina hill, viewed through foreground pines — recognizably the Temple of Aphaia from a plausible tourist viewpoint; framing is clean with no artifacts. Gate 2: masters verified 1920x1080 and 864x1080 PNGs; exact caption 'Temple of Aphaia, Aegina', scenario '24 September 2026 · 05:53 Europe/Athens', disclosure and 'Jason D's Vision' signature bottom-right; weather retrieval 2026-09-24T02:52:59Z (Open-Meteo, Aphaia-hill cell, code 1 mainly clear, 15% cloud, 18.7°C, is_day 0) is fresh — the pre-dawn sky reads mostly dark with some cloud gradation, acceptable for code 1 at night. Gate 3: approvals/GR-01-024.md documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, logos, or recognizable private property — documented only. Gate 5: all gates passed, no open blockers.",
+  "approved_at": "2026-09-25T06:32:45.625469+00:00",
+  "sha256_16x9": "eea76c2a7ecb8138cc89184225acbf3b4f26f2cae6e745994a4f41e683a95867",
+  "sha256_4x5": "35e900f1a43f7dc5c85352d75fcdd780abf477c75836479b42b62b2d1fe8432e"
 }
