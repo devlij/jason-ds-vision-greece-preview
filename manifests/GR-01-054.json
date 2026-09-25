@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Corinth/gr-01-054-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: 16:9 master shows fortress walls and bastions climbing the rocky acropolis massif at twilight with pines in the foreground - recognizably Acrocorinth, clean framing, no artifacts. Gate 2: exact dimensions verified mechanically; caption 'Acrocorinth, Corinth', scenario '24 September 2026 06:21 Europe/Athens', disclosure, and exact signature verified on both formats; Open-Meteo retrieval 2026-09-24T03:16:31Z valid 06:15, same model hour as the scenario, code 0 matching the clear sky. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no identifiable people, logos, or private property; documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T09:34:11.000590+00:00",
+  "sha256_16x9": "335865a5490b2aeaa99ad31d15270e8a4d1d1eca4551d1924f608c7f6c3c66df",
+  "sha256_4x5": "ce93d834d9763c52ae03854c226cc74c815c2089c2968e25b6e7f0d0aa029953"
 }
