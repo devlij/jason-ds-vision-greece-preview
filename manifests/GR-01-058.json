@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Nafplio/gr-01-058-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gate 1: Palamidi's angular Venetian bastions crown the rocky hilltop with the long stair climbing from the town and town roofs at the bottom edge, a plausible stair-approach viewpoint in pre-dawn twilight. Gate 2: 1920×1080/864×1080 verified; on-image 'Palamidi, Nafplio', 'Scenario: 24 September 2026 · 06:24 Europe/Athens', disclosure, and exact 'Jason D's Vision' (curly apostrophe) signature legible on the bottom gradient; weather retrieved 2026-09-24T03:16:31Z valid 06:15, consistent with the scenario label. Gate 3: approvals/GR-01-058.md documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, logos, or focal private property; public fortress. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T10:30:42.948575+00:00",
+  "sha256_16x9": "b48d002d3e1845b081856e357b4a2fc2a32e81faaf8a988503a58bee1f15de98",
+  "sha256_4x5": "203ca3347f06464af8d8514e87142437b0f66a412a60806a48e0b39877792df4"
 }
