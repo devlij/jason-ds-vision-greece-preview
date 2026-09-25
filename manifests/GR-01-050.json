@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Monemvasia/gr-01-050-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: 16:9 master shows the great rock massif with the walled lower town at its base, lit windows, the causeway reaching in from the left, and dawn glow over the sea - the iconic Monemvasia view, clean framing, no artifacts. Gate 2: exact dimensions verified mechanically; caption 'Monemvasia, Monemvasia', scenario '24 September 2026 06:21 Europe/Athens', disclosure, and exact signature verified on both formats; Open-Meteo retrieval 2026-09-24T03:16:31Z valid 06:15, same model hour as the scenario, code 1 matching the lit-dawn sky. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no identifiable people, logos, or private property; documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T09:33:53.017129+00:00",
+  "sha256_16x9": "37d6d2b9c5a4aed22449195e40e4ee38cff164cd8fb429fc3d9f61a87674f078",
+  "sha256_4x5": "4e3573dbdc4be5fae2a3755b4714f67bacca858121c3198ab03cc1827537cfd3"
 }
