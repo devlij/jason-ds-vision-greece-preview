@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Itea/gr-01-042-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual: palm-lined promenade with fishing boats moored along the quay, calm gulf water, dark mountain silhouettes on the far shore, street lamps glowing — recognizable Itea waterfront from a plausible quay viewpoint. G2 technical: exact 1920x1080 + 864x1080, exact signature, caption 'Itea Waterfront, Itea' + 'Scenario: 24 September 2026 · 06:08 Europe/Athens' + disclosure on bottom gradient. Weather retrieval 2026-09-24T03:02:05Z valid 06:00 (clear, 15.2C), scenario 06:08 consistent. G3: text-prompt-only lineage. G4: no prominent identifiable people or logos (documented only). G5: no blockers.",
+  "approved_at": "2026-09-25T08:31:21.469030+00:00",
+  "sha256_16x9": "3b805660d22a22a55b9a15bfc918c1dcd1aa3e3443ead6db34c37ee4def29ac4",
+  "sha256_4x5": "2e5e2975dac3c589fa9ec32c1655e428fc69c1afd295279bfb5a625502ce22a5"
 }
