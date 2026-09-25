@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kalamata/gr-01-055-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: 16:9 master shows the castle walls and keep above old-town houses with lit streetlamps at pre-dawn - recognizably Kalamata Castle, clean framing, no artifacts. Gate 2: exact dimensions verified mechanically; caption 'Kalamata Castle, Kalamata', scenario '24 September 2026 06:21 Europe/Athens', disclosure, and exact signature verified on both formats; Open-Meteo retrieval 2026-09-24T03:16:31Z valid 06:15, same model hour as the scenario, code 0 matching the clear sky. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no identifiable people, logos, or private property; documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T09:34:15.265035+00:00",
+  "sha256_16x9": "46feb8f837218189acce7fb683b4ada09aab15accfb63cbdf6695c138bf399ba",
+  "sha256_4x5": "732b0dc0ebd622263924092327df06b6f4cbe59fccf45df583e99f5a3fdeb6ec"
 }
