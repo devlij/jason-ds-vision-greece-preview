@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Gythio/gr-01-063-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gate 1: Gythio's waterfront promenade with the row of neoclassical quay houses, the causeway running to the islet of Cranae with its stone tower and the lighthouse behind, street lamps lit along the quay — pre-dawn view matching the claimed geometry anchors. Gate 2: 1920×1080/864×1080 verified; on-image 'Gythio Waterfront, Gythio', 'Scenario: 24 September 2026 · 06:24 Europe/Athens', disclosure, and exact 'Jason D's Vision' signature on the gradient; weather retrieved 2026-09-24T03:16:31Z valid 06:15, consistent with scenario. Gate 3: approvals/GR-01-063.md documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or logos; generic quay architecture. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T10:31:45.251707+00:00",
+  "sha256_16x9": "9b935d7bd7fe272da7e6f5d8fce950c11d97a4bd6dc2a3ab2ec957dccaef8a35",
+  "sha256_4x5": "c5273130d2789b98ab86f9896c70290e133f5ca598eb217be5a91ece73766627"
 }
