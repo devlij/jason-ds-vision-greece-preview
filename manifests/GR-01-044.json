@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Lamia/gr-01-044-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual: Lamia Castle's dark stone mass on its steep hill — curtain walls and a square keep forming the silhouette, town roofs and street lamps in the lower frame, castle deliberately unlit per no floodlight schedule found. G2 technical: exact 1920x1080 + 864x1080, exact signature, caption 'Lamia Castle, Lamia' + 'Scenario: 24 September 2026 · 06:08 Europe/Athens' + disclosure on bottom gradient. Weather retrieval 2026-09-24T03:02:05Z valid 06:00 (clear, 10.1C), scenario 06:08 consistent. G3: text-prompt-only lineage. G4: no identifiable people or logos (documented only). G5: no blockers.",
+  "approved_at": "2026-09-25T08:31:56.243169+00:00",
+  "sha256_16x9": "219ccbe0e57552c2084f073d89d4f9d99b33ae56eb1d347245f00158475f1b4f",
+  "sha256_4x5": "2e9bdaa6359b09f2a13d1957a9438d3bb23475166350c5a50f99a1a4589edf7f"
 }
