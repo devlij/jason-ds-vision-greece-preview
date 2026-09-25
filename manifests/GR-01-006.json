@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Kalambaka/gr-01-006-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: sandstone pillars rising abruptly from the plain, a small red-tile-roofed monastery on a narrow pillar in the foreground group and a larger monastery on a broader pillar behind — a plausible night view from the valley road near Kalambaka; moonlit rock, few lit windows, valley mist, clean framing, no artifacts. Gate 2: 1920x1080 and 864x1080 verified; on-image text reads 'Meteora, Kalambaka', 'Scenario: 24 September 2026 · 03:19 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right on a legible gradient scrim; weather retrieval 2026-09-24T00:17:07Z fresh for the 03:15 valid hour with location-specific values (9.7°C, code 0). Gate 3: approvals file records text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-25T04:33:06.743862+00:00",
   "sha256_16x9": "00e58c8d03e20b000de5fcaee47b3ea5ab6d9a31545376df2164496b639cb07c",
-  "sha256_4x5": "3f4bfc2d2e3f26a8e49f0824100d8c3917b911514ec461d8a796331b0ac95af6"
+  "sha256_4x5": "3f4bfc2d2e3f26a8e49f0824100d8c3917b911514ec461d8a796331b0ac95af6",
+  "reverted_at": "2026-09-25T12:44:13.680224+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:44:13.680224+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
