@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Portaria/gr-01-066-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gate 1: Melina Merkouri Square in Portaria is a broad cobbled square enclosed by two-story stone houses with tile roofs, dominated by the huge plane tree with the stone fountain at its foot, and the church bell tower visible down the lamp-lit street — the square viewpoint, matching anchors. Gate 2: 1920×1080/864×1080 verified; on-image 'Portaria, Portaria', 'Scenario: 24 September 2026 · 06:52 Europe/Athens', disclosure, and exact 'Jason D's Vision' signature on the gradient; weather retrieved 2026-09-24T03:42:42Z valid 06:30, consistent with scenario. Gate 3: approvals/GR-01-066.md documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or logos; generic village square. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T10:32:24.280941+00:00",
+  "sha256_16x9": "ae18c423559ae4aaea85e5dd60db12e1b0e46a72fc90bbdd0c10084ea8064df7",
+  "sha256_4x5": "9934cdcdb58a239860236a512e3a1066d4677fabe9905cc91d14744c268f1ddb"
 }
