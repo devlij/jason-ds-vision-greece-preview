@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Sounion/gr-01-023-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: the floodlit Doric colonnade on the rocky Cape Sounion headland, starry sky above and the dark Aegean to the right — recognizably the Temple of Poseidon at night, a plausible tourist viewpoint; the floodlighting is consistent with the DARC sunset-to-sunrise lighting scheme documented in the agent notes. Gate 2: masters verified 1920x1080 and 864x1080 PNGs; exact caption 'Temple of Poseidon, Sounion', scenario '24 September 2026 · 05:53 Europe/Athens', disclosure and 'Jason D's Vision' signature bottom-right, all legible; weather retrieval 2026-09-24T02:52:59Z (Open-Meteo, Sounion cell, clear, 15.2°C, wind 8.1 km/h, is_day 0) is fresh — the starry sky in-frame matches the clear-sky code 0. Gate 3: approvals/GR-01-023.md documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, logos, or recognizable private property — documented only. Gate 5: all gates passed, no open blockers.",
+  "approved_at": "2026-09-25T06:32:32.858513+00:00",
+  "sha256_16x9": "c437fa4a9328c75676adcf6c33dc18e8b5963bc0ca65624bf585f2478928d51c",
+  "sha256_4x5": "8e904a52e683c0251fa9a409e362bc79a9c627f6e3604bb40a331ede09caf3e4"
 }
