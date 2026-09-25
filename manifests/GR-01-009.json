@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Olympia/gr-01-009-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: roofless row of standing Doric columns of uneven girth with partial capitals, wooded Kronos Hill rising behind, and a single re-erected column on the low Temple of Zeus footprint at right — a plausible night view from the Altis at Olympia; moonlit, unlit sanctuary, clean framing, no artifacts. Gate 2: 1920x1080 and 864x1080 verified; on-image text reads 'Temple of Hera, Olympia', 'Scenario: 24 September 2026 · 03:19 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right on a legible gradient scrim; weather retrieval 2026-09-24T00:17:07Z fresh for the 03:15 valid hour with location-specific values (14.1°C, code 1). Gate 3: approvals file records text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:33:33.872519+00:00",
+  "sha256_16x9": "221792ffb5a0d5a3fae089173d767c58d938ae0b1709dd7cb43d2df041fd0bd9",
+  "sha256_4x5": "79d540392e95a6ffad880dc503079b88574f137da9775846dfe4ba54e6b60fbe"
 }
