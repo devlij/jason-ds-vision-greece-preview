@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Piraeus/gr-01-030-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: the 16:9 master shows Mikrolimano's tight circular marina from the quay — moored fishing boats and yachts in a horseshoe, low waterfront houses with dark taverna awnings, Kastella hill rising behind, pre-dawn with harbor lamps reflecting on calm water. Gate 2 PASS: 1920x1080 and 864x1080 verified; on-image caption 'Mikrolimano, Piraeus', scenario '24 September 2026 · 05:53 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and curly-apostrophe signature 'Jason D's Vision' exact and legible; weather retrieved 2026-09-24T02:52:59Z valid 05:45 — fresh, Piraeus-specific values (11.1C, cloud 1%), not stale reuse. Gate 3 PASS: text-prompt-only lineage per approvals file, no photographic inputs reported. Gate 4: no identifiable people or focal logos — documented only. Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-09-25T07:33:00.139137+00:00",
+  "sha256_16x9": "465af9842329ce932f05687b3f2ae5546e6eea521331d69c7fc4ecd79464a915",
+  "sha256_4x5": "a77e85eda1a369b147e12bce1d73f0b3217a61dc0632fd47ed2ff68407f7ac4f"
 }
