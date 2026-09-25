@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Karpenisi/gr-01-035-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1 PASS: the 16:9 master shows Karpenisi at pre-dawn — red-tiled houses in the valley floor with warm street lamps lit and windows dark, the dark fir slopes of Mount Tymfristos rising behind the roofs, no snow, matching the mountain-town geometry. Gate 2 PASS: 1920x1080 and 864x1080 verified; on-image caption 'Karpenisi, Karpenisi', scenario '24 September 2026 · 06:05 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and curly-apostrophe signature 'Jason D's Vision' exact and legible; weather retrieved 2026-09-24T03:02:05Z valid 06:00 — fresh with Karpenisi-specific values (7.4C, cloud 0%, elevation ~923 m), not stale reuse. Gate 3 PASS: text-prompt-only lineage per approvals file, no photographic inputs reported. Gate 4: no identifiable people, logos, or focal private property — documented only. Gate 5 PASS: no open blockers.",
   "approved_at": "2026-09-25T07:34:13.825715+00:00",
   "sha256_16x9": "32459536adfd7bdfdd8ec1f8b15c8641f7e11e3695a89e8d09ed9512f0e0df15",
-  "sha256_4x5": "cacc4ffb9ee15b96864d9f0bf2558f6f1e40dd6f17ec8bdb760a71dff373f027"
+  "sha256_4x5": "cacc4ffb9ee15b96864d9f0bf2558f6f1e40dd6f17ec8bdb760a71dff373f027",
+  "reverted_at": "2026-09-25T12:45:40.123814+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:45:40.123814+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:02:05Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
