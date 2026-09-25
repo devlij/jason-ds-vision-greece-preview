@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Dion/gr-01-074-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gate 1 PASS: four standing columns of the portico reflected in the still shallow lagoon, reed beds and ruined walls around it, and the Mount Olympus massif looming behind — matches the notes' geometry anchors exactly from a plausible marsh-boardwalk viewpoint; pre-dawn calm water, no misconfiguration. Gate 2 PASS: 1920x1080/864x1080 verified; exact caption 'Sanctuary of Isis, Dion', scenario '24 September 2026 · 06:52 Europe/Athens', disclosure and curly-apostrophe 'Jason D's Vision' legible on the scrim; Open-Meteo weather location-specific (7% cloud, 10.7 C, wind 7.3 km/h, 13 m cell) from the 03:42:42Z batch fetch, valid 06:30 — fresh, not Spain-style reuse. Gate 3 PASS: text-prompt-only lineage. Gate 4 documented only: no people or logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T11:35:28.880464+00:00",
+  "sha256_16x9": "33a76a3e091599bd483297b2c2570e6a568490d53658bb95cb9319501fe13979",
+  "sha256_4x5": "1c42932d84c69ed19705848a20ac80dbd0a0f57e4c877c0c15f26a41b31f8b7d"
 }
