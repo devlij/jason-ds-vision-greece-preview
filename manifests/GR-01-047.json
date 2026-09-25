@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Distomo/gr-01-047-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual: Distomo memorial as civic monumental stone volumes on Kanales hill seen from the road approach, village lying lower as context, exterior only — no interior, no remains, no graphic content, name panels not legible. G2 technical: exact 1920x1080 + 864x1080, exact signature, caption 'Distomo Memorial, Distomo' + 'Scenario: 24 September 2026 · 06:09 Europe/Athens' + disclosure on bottom gradient. Weather retrieval 2026-09-24T03:02:05Z valid 06:00 (clear, 12.6C), scenario 06:09 consistent. G3: text-prompt-only lineage. G4: no identifiable people or logos (documented only). G5: no blockers.",
+  "approved_at": "2026-09-25T08:32:09.835105+00:00",
+  "sha256_16x9": "e14d770f87de07b57e0ab925525f92c68382e301e80fcc66f3e03ddef1c26164",
+  "sha256_4x5": "1b5f5fcf9855df4a06643e206e98efa139cb17b7bbcca98b63b749986c942a04"
 }
