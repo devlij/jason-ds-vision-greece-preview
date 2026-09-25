@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Thermopylae/gr-01-033-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1 PASS: the 16:9 master shows the Leonidas Monument from the tourist terrace — the bronze hoplite with spear and shield standing on a tall stone pedestal, framed by cypresses, with the rocky Kolonos hill behind and the broad plain extending to the right under a deep-blue nautical-twilight sky. Gate 2 PASS: 1920x1080 and 864x1080 verified; on-image caption 'Leonidas Monument, Thermopylae', scenario '24 September 2026 · 06:03 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and curly-apostrophe signature 'Jason D's Vision' exact and legible; weather retrieved 2026-09-24T03:02:05Z valid 06:00 — fresh (1 min before scenario hour) with Thermopylae-specific values (14.7C, cloud 0%), not stale reuse. Gate 3 PASS: text-prompt-only lineage per approvals file, no photographic inputs reported. Gate 4: no identifiable people, logos, or focal private property — documented only. Gate 5 PASS: no open blockers.",
   "approved_at": "2026-09-25T07:33:45.871426+00:00",
   "sha256_16x9": "0dfb6e2eb60ae2e009673efba85ee4e737deff410b055f9a93ac27bd8968eded",
-  "sha256_4x5": "dd5712c3a3e99743ada15809219df4af7aa6c02d3f3f9ce96af2e929f17d8d0a"
+  "sha256_4x5": "dd5712c3a3e99743ada15809219df4af7aa6c02d3f3f9ce96af2e929f17d8d0a",
+  "reverted_at": "2026-09-25T12:45:34.782556+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:45:34.782556+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:02:05Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
