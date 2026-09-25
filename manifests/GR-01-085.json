@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kavala/gr-01-085-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "The 16:9 master shows the medieval fortress crowning the Panagia peninsula above Kavala, old houses packed on the slope below, the Imaret's row of low gray domes along the waterline, and harbor boats in front — matching the anchors; the Kamares aqueduct arches visible at the far left edge are the genuine separate monument, correctly not the subject of the frame. The fortress is not floodlit, honest to the 'no lighting schedule' note, and the cloud cover reads consistent with the claimed 49%. Baked strings verified verbatim: caption 'Kavala Fortress, Kavala', scenario '24 September 2026 · 06:59 Europe/Athens', the AI-generation disclosure, and the exact Jason D's Vision signature with curly apostrophe bottom-right. Both masters mechanically verified (1920x1080 / 864x1080). Weather evidence card claims Open-Meteo retrieval 2026-09-24T03:58:28Z valid 06:45 Athens (14.3°C, cloud 49%, code 2) — fresh, per-scene values, no stale/reused-weather flag. Lineage text-prompt-only; no photographic inputs reported. No identifiable people or logos. Gate 5 passes with no open blockers.",
+  "approved_at": "2026-09-25T12:33:45.693406+00:00",
+  "sha256_16x9": "6818a03edacc5a9e159c400e4712af8063f0642ce091c8d6a6a7a55a2abb8dd2",
+  "sha256_4x5": "bbe71270dfb5a845f2baf4115428219082497ac06c534f6d428b0539112941f3"
 }
