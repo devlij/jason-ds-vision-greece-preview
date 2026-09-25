@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Greece/Mycenae/gr-01-008-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "qc_notes": [
     {
       "at": "2026-09-25T04:31:45.819385+00:00",
@@ -35,6 +35,10 @@
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
-  "qc_status": "Candidate — masters rebuilt 2026-09-25 (headless relief, one fresh Open-Meteo fetch); awaiting Cosmo QC",
-  "reverted_at": "2026-09-25T12:44:18.862263+00:00"
+  "qc_status": "Approved · Cosmo QC 5/5 · Gate 1 re-audit",
+  "reverted_at": "2026-09-25T12:44:18.862263+00:00",
+  "approval_basis": "Gate 1: the rebuilt relief shows two rampant lions flanking the central column, front paws on altar bases, necks ending at broken surfaces with dowel holes — no face, ear, snout, or mane; the Gate 1 failure is fixed. Conglomerate ashlar, heavy lintel, plausible tourist framing of the relief. Gate 2: caption 'Lion Gate, Mycenae', scenario 25 Sept 2026 15:35 Europe/Athens, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:35:33Z (unique to this scene), valid 15:00, scenario inside the hour; code 3, 100% cloud matches the soft overcast daylight. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: no people/logos of note. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
+  "approved_at": "2026-09-25T13:03:42.873502+00:00",
+  "sha256_16x9": "36455d28e7efe861e2ab0dab7b2d1b83599db17c05e9099550e05bc7b77b3176",
+  "sha256_4x5": "83b19a3d0494f0599f25afc91130f5f43cc2155cec121cb27a2be89ce18a2407"
 }
