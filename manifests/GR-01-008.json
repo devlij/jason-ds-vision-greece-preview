@@ -18,6 +18,11 @@
       "at": "2026-09-25T04:31:45.819385+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 FAIL (visual/location): the triangular relief shows both lions with complete maned heads, but the Mycenae Lion Gate's defining feature is the two HEADLESS lions flanking the column (confirmed in a 2x zoom of the downloaded 16:9 master). The approvals note's claim that this frame 'keeps the headless relief' is false. Geometry anchor 'two lions whose heads are missing' not met. Card stays Candidate pending rebuild."
+    },
+    {
+      "at": "2026-09-25T05:30:49.129893+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 FAIL — relief lions rendered with heads/maned heads; the actual Lion Gate relief's lions are headless (the build agent's own geometry anchor). Left as Candidate; needs regeneration with headless lions."
     }
   ]
 }
