@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Mystras/gr-01-049-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: 16:9 master shows the Byzantine citadel climbing its hill - curtain walls and ruined towers at the summit, red-tiled domed churches mid-slope, dense cypress and olive forest, mountain ranges behind at pre-dawn - recognizably Mystras, clean framing, no artifacts. Gate 2: exact dimensions verified mechanically; caption 'Mystras, Mystras', scenario '24 September 2026 06:21 Europe/Athens', disclosure, and exact curly-apostrophe signature verified on both formats; Open-Meteo retrieval 2026-09-24T03:16:31Z valid 06:15, same model hour as the scenario, code 1 matching the brightening eastern sky. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no identifiable people, logos, or private property; documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T09:33:47.845172+00:00",
+  "sha256_16x9": "2a11a4a37da21f87815e01032aaba1f73fccc7a5024c2976f7b21efb51cce191",
+  "sha256_4x5": "421839d0b1b036653cb54612862b2b40355b8dde6bca561db8116d513c1670d8"
 }
