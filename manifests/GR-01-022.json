@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-022-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: the neoclassical façade with its columned portico, pediment and symmetric wings, set behind a fenced garden with palm trees and glowing street lamps at dawn — recognizably the National Archaeological Museum, Athens, from across the street. Gate 2: masters verified 1920x1080 and 864x1080 PNGs; exact caption 'National Archaeological Museum, Athens', scenario '24 September 2026 · 05:53 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D's Vision' signature bottom-right on the scrim; weather retrieval 2026-09-24T02:52:59Z (Open-Meteo, central Athens cell, clear, 12.2°C, is_day 0) is fresh, matching the pre-dawn lighting. Gate 3: approvals/GR-01-022.md documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, logos, or recognizable private property — documented only. Gate 5: all gates passed, no open blockers.",
+  "approved_at": "2026-09-25T06:32:22.062833+00:00",
+  "sha256_16x9": "0e7cf94fa956d7db8a24272159e28d7f04b12d767895c8494b732f6f895a4fb5",
+  "sha256_4x5": "8d8fff66624b509edd4038830418abc57daf15c633723f3ee5cc343047068589"
 }
