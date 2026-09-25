@@ -4,10 +4,10 @@
   "region": "Peloponnese",
   "city": "Mycenae",
   "caption": "Lion Gate, Mycenae",
-  "scenario_label": "24 September 2026 · 03:19 Europe/Athens",
+  "scenario_label": "25 September 2026 · 15:35 Europe/Athens",
   "composition": "Headless lion relief above the citadel gate · AI-generated artistic interpretation",
-  "description": "From the approach outside the citadel, the Lion Gate fills the frame: conglomerate walls, a heavy lintel, and the triangular relief of two headless lions flanking a column. Cloud cover is about 57%, about 15.2°C, and the site is unlit, so the relief is in moonlight. The portrait master is a tighter crop of this same frame.",
-  "alt_text": "AI-generated artistic interpretation of the Lion Gate at Mycenae in moonlight, lions without heads",
+  "description": "From the approach outside the citadel, the Lion Gate fills the frame: conglomerate walls, a heavy lintel, and the triangular relief of two headless lions flanking a column, front paws on the altar bases. The afternoon is overcast, cloud cover about 100 percent, about 23.0°C, and dry, so the stone is in soft daylight. The grave circle inside the citadel is not in this view.",
+  "alt_text": "AI-generated artistic interpretation of the Lion Gate at Mycenae under an overcast afternoon sky, lions without heads",
   "file_16x9": "library/world/Greece/Mycenae/gr-01-008-16x9.png",
   "file_4x5": "library/world/Greece/Mycenae/gr-01-008-4x5.png",
   "license_badge": "Free · no credit needed",
@@ -35,10 +35,6 @@
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
-  "approval_basis": "Gate 1 PASS: the 16:9 master recognizably depicts the Lion Gate at Mycenae from the exterior approach — massive conglomerate ashlar courses, heavy lintel, and the triangular relieving relief showing two headless lions with paws on a base flanking a central column, under a 92%-moonlit partly cloudy sky. Gate 2 PASS: 1920x1080 and 864x1080 verified; on-image caption 'Lion Gate, Mycenae', scenario '24 September 2026 · 03:19 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and curly-apostrophe signature 'Jason D's Vision' all exact and legible on the bottom scrim; weather retrieved 2026-09-24T00:17:07Z valid 03:15 Europe/Athens — fresh (4 min before scenario), location-specific, not stale reuse. Gate 3 PASS: approvals file documents text-prompt-only lineage, no photographic inputs reported. Gate 4: no identifiable people, logos, or private-property focal subjects — documented only, no chain certified. Gate 5 PASS: no open blockers.",
-  "approved_at": "2026-09-25T07:32:22.115502+00:00",
-  "sha256_16x9": "36455d28e7efe861e2ab0dab7b2d1b83599db17c05e9099550e05bc7b77b3176",
-  "sha256_4x5": "83b19a3d0494f0599f25afc91130f5f43cc2155cec121cb27a2be89ce18a2407",
+  "qc_status": "Candidate — masters rebuilt 2026-09-25 (headless relief, one fresh Open-Meteo fetch); awaiting Cosmo QC",
   "reverted_at": "2026-09-25T12:44:18.862263+00:00"
 }
