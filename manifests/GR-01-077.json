@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Thessaloniki/gr-01-077-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gate 1 PASS: a narrow cobbled lane of Ladadika's historic brick-and-arch buildings with wrought-iron balconies, lit wall lanterns and cafe tables, the deep-blue pre-dawn sky above — the old warehouse district's streetscape reads authentically from a plausible pedestrian viewpoint; clean framing, no artifacts. Gate 2 PASS: dimensions verified; exact caption 'Ladadika, Thessaloniki', scenario '24 September 2026 · 06:52 Europe/Athens', disclosure and curly-apostrophe 'Jason D's Vision' legible on the scrim; Open-Meteo weather location-specific (0% cloud, 13.9 C, wind 6.2 km/h, 8 m cell) from the 03:42:42Z batch fetch, valid 06:30 — fresh, not Spain-style reuse (values consistent with the adjacent GR-01-076 cell, not copied). Gate 3 PASS: text-prompt-only lineage. Gate 4 documented only: no people or logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T11:36:08.300478+00:00",
+  "sha256_16x9": "3675c2b3ae8a84ff35bbb1c32534faba80e74dcf6375831146e3cb43660b8882",
+  "sha256_4x5": "a99f8485c16d0706b08e2a847ae4e2e61530558a3cb61f637c67e9bd9a49b70d"
 }
