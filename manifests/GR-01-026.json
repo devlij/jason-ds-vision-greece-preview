@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-026-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: Hadrian's Arch at night from the roadside — the tall Roman triumphal arch with its Corinthian pilasters and attic, the floodlit Acropolis behind to the left and the Olympieion columns at right — the exact real-world sightline, plausible tourist viewpoint, clean framing. Gate 2: masters verified 1920x1080 and 864x1080 PNGs; exact caption 'Hadrian's Arch, Athens', scenario '24 September 2026 · 05:53 Europe/Athens', disclosure and 'Jason D's Vision' signature bottom-right; weather retrieval 2026-09-24T02:52:59Z (Open-Meteo, central Athens cell, clear, 12.2°C, is_day 0) is fresh, consistent with the lit night frame. Gate 3: approvals/GR-01-026.md documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, logos, or recognizable private property — documented only. Gate 5: all gates passed, no open blockers.",
   "approved_at": "2026-09-25T06:33:12.278072+00:00",
   "sha256_16x9": "c57aaf2534a656a83b17a605479a68fc53f86f5c3c7a0753de89619aacc6bd02",
-  "sha256_4x5": "8c7b2aaeb113b42b9b602f7b6f505f333e59fc35ccebc15dbbe6ceb88c466b92"
+  "sha256_4x5": "8c7b2aaeb113b42b9b602f7b6f505f333e59fc35ccebc15dbbe6ceb88c466b92",
+  "reverted_at": "2026-09-25T12:45:12.077616+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:45:12.077616+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T02:52:59Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
