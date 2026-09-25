@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Sounion/gr-01-031-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: the 16:9 master is the wide coast view — rocky shoreline and coast road in the left foreground, open sea, and the distant headland tip where the Temple of Poseidon reads as a small warm-lit group of columns under a starry pre-dawn sky, distinct from any colonnade close view. Gate 2 PASS: 1920x1080 and 864x1080 verified; on-image caption 'Cape Sounion, Sounion', scenario '24 September 2026 · 05:53 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and curly-apostrophe signature 'Jason D's Vision' exact and legible; weather retrieved 2026-09-24T02:52:59Z valid 05:45 — fresh, Sounion-specific values (15.2C, clear, wind 8.1 km/h), not stale reuse. Gate 3 PASS: text-prompt-only lineage per approvals file, no photographic inputs reported. Gate 4: no identifiable people, logos, or focal private property — documented only. Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-09-25T07:33:13.726797+00:00",
+  "sha256_16x9": "4fda6d39951952af396efbffec18ba1ea19f6deb13d41badacb9e208ef39c025",
+  "sha256_4x5": "3b2b0506899b94484e7d4f253fef33f9dc16c1963ff0a3459492934c884cda6a"
 }
