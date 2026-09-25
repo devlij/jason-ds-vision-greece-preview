@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-001-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: floodlit roofless Doric Parthenon centered on the Acropolis rock with the Propylaea mass lower-left and city lamps below the rock — a plausible night view from Filopappou Hill; clean framing, no artifacts. Gate 2: 1920x1080 and 864x1080 verified; on-image text reads 'Parthenon, Athens', 'Scenario: 24 September 2026 · 03:19 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right on a legible gradient scrim; weather retrieval 2026-09-24T00:17:07Z is fresh for the 03:15 valid hour with location-specific values (12.5°C, code 1). Gate 3: approvals file records text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:31:59.283170+00:00",
+  "sha256_16x9": "4d5aeb5305f976739bd4532a1a6d617c39fa2cf5fd642db6cd815d6d4fbaf69a",
+  "sha256_4x5": "ce1cac39a4b2614558a8d8742058aa48e2cf7e1e0c0fcc4dd910a4b3b0d0a195"
 }
