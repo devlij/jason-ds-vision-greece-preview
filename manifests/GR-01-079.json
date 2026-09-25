@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Volos/gr-01-079-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "The 16:9 master shows the Volos waterfront promenade lined with lit lamps and palms, two fishing boats at a small pier on the calm Pagasetic Gulf, and the dark Mount Pelion ridge closing the frame to the east — all matching the geometry anchors, with no invented castle. Baked strings verified verbatim: caption 'Volos Waterfront, Volos', scenario '24 September 2026 · 06:52 Europe/Athens', the AI-generation disclosure, and the exact Jason D's Vision signature with curly apostrophe bottom-right. Both masters mechanically verified (1920x1080 / 864x1080). Weather evidence card claims Open-Meteo retrieval 2026-09-24T03:42:42Z valid 06:30 Athens (13.5°C, cloud 0%, elevation ~13 m) — fresh, per-scene values, consistent with the clear pre-dawn sky in the frame. Lineage text-prompt-only; no photographic inputs reported. No identifiable people or logos. Gate 5 passes with no open blockers.",
+  "approved_at": "2026-09-25T12:32:15.815481+00:00",
+  "sha256_16x9": "a1d67575cc7b4ecb0c65a4b42c9dd8c28c6eeb19432c48992fbe2c23433a79f4",
+  "sha256_4x5": "30ce4ad82b55e93a546227c8f18ea8dc234db904bf2ba2b3b1e7985a6bb73510"
 }
