@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-029-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: the 16:9 master shows the curved marble Philopappos Monument facade as the foreground subject — seated figure in the upper niche, reliefs in the lower panels — with the floodlit Acropolis and roofless Parthenon across the valley to the northeast, matching the standing illumination convention. Gate 2 PASS: 1920x1080 and 864x1080 verified; on-image caption 'Philopappos Monument, Athens', scenario '24 September 2026 · 05:53 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and curly-apostrophe signature 'Jason D's Vision' all exact and legible on the bottom scrim; weather retrieved 2026-09-24T02:52:59Z valid 05:45 Europe/Athens — fresh batch fetch (1 min before scenario hour) with location-specific Athens values (12.2C, clear, cloud 3%), not stale reuse. Gate 3 PASS: text-prompt-only lineage per approvals file, no photographic inputs reported. Gate 4: no identifiable people, logos, or focal private property — documented only. Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-09-25T07:32:46.981340+00:00",
+  "sha256_16x9": "eaa9c3a9cc95f9551271a52b94a917c870b2069642b8fd79d6ebf686dcd5b7d4",
+  "sha256_4x5": "369738e2157f683ef977b18fe946d253f7cf8215b7335d0eb606472ea01390b8"
 }
