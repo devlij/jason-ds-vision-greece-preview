@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-020-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: the white-marble horseshoe stadium is viewed from track level toward the sphendone, with the dark arched tunnel entrance at left, floodlight pylons and cypress silhouettes on the Ardettos ridge — recognizably the Panathenaic Stadium. Gate 2: masters verified 1920x1080 and 864x1080 PNGs; on-image text exact — caption 'Panathenaic Stadium, Athens', scenario '24 September 2026 · 05:53 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', signature 'Jason D's Vision' bottom-right; weather retrieval 2026-09-24T02:52:59Z (Open-Meteo, clear, 12.2°C, is_day 0) is fresh, ~3h before the scenario — consistent with the dark pre-dawn frame. Gate 3: approvals/GR-01-020.md documents text-prompt-only generation, no photographic inputs. Gate 4: no people, logos, or recognizable private property — documented only, chain not certified. Gate 5: all gates passed, no open blockers.",
   "approved_at": "2026-09-25T06:31:56.401241+00:00",
   "sha256_16x9": "8288f187c1e8c2f07e4cb01a0028d8b93ff6efd22ca24f26e96082378628a34a",
-  "sha256_4x5": "9d701d40785e4d3d719f7f790edb21f30cef0ca4c81e9d8805409af33d17b6ca"
+  "sha256_4x5": "9d701d40785e4d3d719f7f790edb21f30cef0ca4c81e9d8805409af33d17b6ca",
+  "reverted_at": "2026-09-25T12:44:55.689096+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:44:55.689096+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T02:52:59Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
