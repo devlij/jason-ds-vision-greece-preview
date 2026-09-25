@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Trikala/gr-01-068-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gate 1 PASS: rectangular 1936 clock tower with clock faces and balcony rising above the fortress hill, Varousi tile-roof houses climbing the slope, and a low stone bridge crossing the dark Litheos river in the foreground — matches the notes' geometry anchors from a plausible riverbank viewpoint; pre-dawn blue hour with street lamps lit and the tower not floodlit. Gate 2 PASS: 1920x1080/864x1080 verified by sweep; exact caption 'Clock Tower, Trikala', 'Scenario: 24 September 2026 · 06:52 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.' and curly-apostrophe 'Jason D's Vision' all legible on the bottom gradient scrim; weather Open-Meteo retrieved 2026-09-24T03:42:42Z (single batch fetch, 10 min before the scenario), valid 06:30, with location-specific values (7% cloud, 9.7 C, wind 2.9 km/h) — fresh, not the Spain-style copied-data reuse. Gate 3 PASS: text-prompt-only lineage, no photographic inputs reported. Gate 4 documented only: no prominent identifiable people, no focal logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T11:34:10.241338+00:00",
+  "sha256_16x9": "269d157887a9cac8c16c1f5c557e35996a5a1178011e099a0cd9fbc68a1211da",
+  "sha256_4x5": "c6ec79463a0ff3457d99f15e0539d6df392a01e23afa8d64fbb6734e423fc270"
 }
