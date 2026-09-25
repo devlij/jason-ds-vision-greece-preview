@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Alexandroupoli/gr-01-087-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "The 16:9 master shows the white cylindrical Alexandroupoli lighthouse with its lantern gallery on the paved seafront plaza, a small lamp lit inside the lantern room, the Thracian Sea behind and beside the tower, and promenade lamps with low trees while the city stays set back — matching the anchors; the shaft is not floodlit and no invented beam is presented, honest to the notes. The broken cloud reads consistent with the claimed 54% cover. Baked strings verified verbatim: caption 'Alexandroupoli Lighthouse, Alexandroupoli', scenario '24 September 2026 · 06:59 Europe/Athens', the AI-generation disclosure, and the exact Jason D's Vision signature with curly apostrophe bottom-right. Both masters mechanically verified (1920x1080 / 864x1080). Weather evidence card claims Open-Meteo retrieval 2026-09-24T03:58:28Z valid 06:45 Athens (10.8°C, cloud 54%, code 2) — fresh, per-scene values, no stale/reused-weather flag. Lineage text-prompt-only; no photographic inputs reported. No identifiable people or logos. Gate 5 passes with no open blockers.",
   "approved_at": "2026-09-25T12:34:20.785685+00:00",
   "sha256_16x9": "e06487b6ecf730b9614bd4991f7393da8c8fd2d8d1dad98428d6df89bdb40215",
-  "sha256_4x5": "2f561a789b79b6c0ca1fc794f7a053c91f76a9ae94f8e552eb2b4af57d4872b7"
+  "sha256_4x5": "2f561a789b79b6c0ca1fc794f7a053c91f76a9ae94f8e552eb2b4af57d4872b7",
+  "reverted_at": "2026-09-25T12:48:06.993004+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:48:06.993004+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:58:28Z identical across 7 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
