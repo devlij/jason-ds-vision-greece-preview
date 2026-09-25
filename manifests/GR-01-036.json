@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Arachova/gr-01-036-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: the 16:9 master shows Arachova Village at pre-dawn — stone houses with red-tile roofs stacked on a steep slope around the central clock tower with visible clock faces, warm lamps in the lanes, and the dark rocky shoulder of Parnassus rising above with no ski infrastructure in frame. Gate 2 PASS: 1920x1080 and 864x1080 verified; on-image caption 'Arachova Village, Arachova', scenario '24 September 2026 · 06:05 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and curly-apostrophe signature 'Jason D's Vision' exact and legible; weather retrieved 2026-09-24T03:02:05Z valid 06:00 — fresh with Arachova-specific values (9.4C, cloud 0%), not stale reuse. Gate 3 PASS: text-prompt-only lineage per approvals file, no photographic inputs reported. Gate 4: no identifiable people or focal logos; shop lettering kept illegible per notes — documented only. Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-09-25T07:34:28.584004+00:00",
+  "sha256_16x9": "07545743d5c022884a3f20e38d51d698192e1e187f05acdcc042546def5efb82",
+  "sha256_4x5": "831cf034e6ec99be1c00c12f7af825ff1eb1f53fa361c0236424e344551ddf6f"
 }
