@@ -34,6 +34,11 @@
       "at": "2026-09-25T14:31:07.362580+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 FAIL: Open-Meteo retrieval timestamp 2026-09-24T00:17:07Z identical-to-the-second across this batch of candidates (shared/batch retrieval). Per Jason's hardened 2026-09-25 rule, identical retrieval timestamps = Gate 2 fail regardless of per-location weather-code differences. Awaiting Grok per-scene weather rework (fresh fetch per scene, own retrieval timestamp)."
+    },
+    {
+      "at": "2026-09-25T15:32:53.285219+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 fail: shared Open-Meteo retrieval. approvals/GR-01-006.md cites retrieval 2026-09-24T00:17:07Z, identical to the second across all 10 audited scenes (GR-01-001-011; Greece rework for per-scene retrievals not yet landed). Gates 1/3/4 pass as claims/visual review (floodlit Parthenon; Plaka moonrise w/ Tzistarakis Mosque; Oia caldera; Mykonos mills; Delphi colonnade; Meteora mist; Epidaurus theatre; Hera colonnade; Knossos red columns; Rhodes Palace). Card stays Candidate."
     }
   ]
 }
