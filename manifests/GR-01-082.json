@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Prespa/gr-01-082-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "The 16:9 master shows the Psarades village shoreline: stone fishing houses stepping up the juniper slope with lit windows, a wooden jetty with two moored boats, reeds edging the near shore, and Great Prespa opening toward dark mountains under a pre-dawn sky — matching all geometry anchors. Baked strings verified verbatim: caption 'Prespa Lakes, Prespa', scenario '24 September 2026 · 06:59 Europe/Athens', the AI-generation disclosure, and the exact Jason D's Vision signature with curly apostrophe bottom-right. Both masters mechanically verified (1920x1080 / 864x1080). Weather evidence card claims Open-Meteo retrieval 2026-09-24T03:58:28Z valid 06:45 Athens (11.7°C, cloud 19%, code 1) — fresh, per-scene values consistent with the light cloud streaks in the frame; no stale/reused-weather flag. Lineage text-prompt-only; no photographic inputs reported. No identifiable people, logos, or shore floodlighting. Gate 5 passes with no open blockers.",
+  "approved_at": "2026-09-25T12:33:01.505838+00:00",
+  "sha256_16x9": "e5fa916832797cb30cab597b8eabab0b7fe503583d0145a9c94f4d0de2227b27",
+  "sha256_4x5": "05822fa6c084d7015e2867211aa3bb135c9ef60a18b24b8ead4e3d9bed6e0094"
 }
