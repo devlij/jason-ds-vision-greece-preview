@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Nafpaktos/gr-01-038-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual: circular stone harbor basin ringed by walls, entrance tower at the mouth, castle walls and keep rising behind town roofs, moored boats and warm harbor lamps — plausible tourist viewpoint across the harbor. G2 technical: exact 1920x1080 + 864x1080, exact 'Jason D's Vision' signature bottom-right, caption 'Nafpaktos Harbor, Nafpaktos' + 'Scenario: 24 September 2026 · 06:05 Europe/Athens' + AI disclosure on bottom-left gradient, legible and unobtrusive. Weather retrieval 2026-09-24T03:02:05Z, valid 2026-09-24T06:00 (clear, 17.5C) — scenario 06:05 within the valid window, site-specific values, not reused. G3: approvals file records text-prompt-only lineage, no photographic inputs. G4: no prominent identifiable people, no focal logos (documented only). G5: no open blockers.",
+  "approved_at": "2026-09-25T08:31:01.134312+00:00",
+  "sha256_16x9": "ea7a0031ea3fdd4feb990a198c3bbacbe2ce917481429079c774c66832b23a16",
+  "sha256_4x5": "afca9dd94a6ab7a21a9c97eac292db13e19eb7519fdfc7299624b4f2f46887dc"
 }
