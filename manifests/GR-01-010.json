@@ -24,6 +24,11 @@
       "at": "2026-09-25T12:44:23.745958+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-25T13:30:50.030174+00:00",
+      "by": "Cosmo QC",
+      "note": "REJECT Gate 2 — Technical: weather retrieval timestamp 2026-09-24T00:17:07Z identical to the second across GR-01-001–011 batch = shared/batch Open-Meteo retrieval; per-scene retrieval required"
     }
   ]
 }
