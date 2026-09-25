@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-019-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: roofed Doric Temple of Hephaestus on its low hill center-right, floodlit Acropolis on a separate hill to the left, low ruins, olive trees and paths filling the open ground — recognizably the Ancient Agora, Athens looking west; framing clean, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Ancient Agora, Athens', scenario '24 September 2026 · 05:53 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', signature 'Jason D's Vision' bottom-right on gradient scrim; weather retrieval 2026-09-24T02:52:59Z valid 05:45 predates scenario — fresh, not reused. Hephaestus correctly kept in skyglow only (no night-lighting timetable found); Acropolis keeps the standing illumination. Gate 3: notes document text-prompt-only lineage, no photographic inputs reported. Gate 4: no visible people, logos, or private property — archaeological site, documented only. Gate 5: no blockers.",
   "approved_at": "2026-09-25T05:32:48.965404+00:00",
   "sha256_16x9": "c207070ec9044ed9f02a38e3b7fdec5b95241828570eacc00ab0754c08886287",
-  "sha256_4x5": "2a4e657aa4c93d71fe4a92a8d09263becdef74194f8d073339e30f80cd366f76"
+  "sha256_4x5": "2a4e657aa4c93d71fe4a92a8d09263becdef74194f8d073339e30f80cd366f76",
+  "reverted_at": "2026-09-25T12:44:52.862993+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:44:52.862993+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T02:52:59Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
