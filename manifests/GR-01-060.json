@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Pylos/gr-01-060-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: Niokastro's high bastioned walls rise on the headland above the lit harbor and waterfront houses, with the long dark silhouette of Sfaktiria island across Navarino Bay — the harbor-side viewpoint. Gate 2: 1920×1080/864×1080 verified; on-image 'Niokastro, Pylos', 'Scenario: 24 September 2026 · 06:24 Europe/Athens', disclosure, and exact 'Jason D's Vision' signature on the gradient; weather retrieved 2026-09-24T03:16:31Z valid 06:15, consistent with scenario. Gate 3: approvals/GR-01-060.md documents text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or logos; generic harbor lamps and houses. Gate 5: no open blockers.",
   "approved_at": "2026-09-25T10:31:09.692247+00:00",
   "sha256_16x9": "6894778716bd922135d019f03828c01b953f6d0f3d3cd6600ab34ef566884e9a",
-  "sha256_4x5": "f57155672a002649edfc6f4549c4e7c9697c6b2f705137b23b4cc16920ad03d4"
+  "sha256_4x5": "f57155672a002649edfc6f4549c4e7c9697c6b2f705137b23b4cc16920ad03d4",
+  "reverted_at": "2026-09-25T12:46:47.932301+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:46:47.932301+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:16:31Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
