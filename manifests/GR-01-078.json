@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Edessa/gr-01-078-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "The 16:9 master shows the Karanos fall as a broad white sheet dropping from a vegetated cliff at pre-dawn, with the railed stone path and one lit path lamp at frame left and the plain beyond under a clear sky — matching all three geometry anchors. Baked strings verified verbatim: caption 'Edessa Waterfalls, Edessa', scenario '24 September 2026 · 06:52 Europe/Athens', the 'AI-generated artistic interpretation · Not a photograph.' disclosure, and the exact Jason D's Vision signature with curly apostrophe bottom-right. Both masters mechanically verified (1920x1080 / 864x1080). Weather evidence card claims Open-Meteo retrieval 2026-09-24T03:42:42Z valid 06:30 Athens — retrieval precedes valid and scenario times, with scene-specific values (11.6°C, cloud 1%, elevation ~318 m), so no stale/reused-weather flag. Lineage text-prompt-only with no photographic inputs reported. No identifiable people, logos, or floodlighting beyond the one path lamp. Gate 5 passes with no open blockers.",
+  "approved_at": "2026-09-25T12:32:00.912607+00:00",
+  "sha256_16x9": "cfb3afbdef904cd599533d7077f150fb7e29c4546c9d3da3c1cc13483a6844ca",
+  "sha256_4x5": "b6c6903d121dd3c117d20917d912d717c89a01c7f1396653eb1e7ba94d43f9de"
 }
