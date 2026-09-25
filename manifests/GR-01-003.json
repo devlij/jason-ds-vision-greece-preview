@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Santorini/gr-01-003-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: whitewashed cubic houses stepping down the Oia cliff with blue church domes, dark caldera water right and the low silhouette of the volcanic islets — a plausible night view from the Kastro ruins; moonlit sea path, sparse village lamps, clean framing, no artifacts. Gate 2: 1920x1080 and 864x1080 verified; on-image text reads 'Oia, Santorini', 'Scenario: 24 September 2026 · 03:19 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right on a legible gradient scrim; weather retrieval 2026-09-24T00:17:07Z fresh for the 03:15 valid hour with location-specific values (18.9°C, code 0). Gate 3: approvals file records text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-25T04:32:26.920439+00:00",
   "sha256_16x9": "772b75ac57785ffdf8634a6a0a6b4706d62d7831b57d8c603d28dbdc6d114c85",
-  "sha256_4x5": "e20aef46d68ee9bad715eaffb46d4fab1032bfd529553d620e7e5b0d4281a40c"
+  "sha256_4x5": "e20aef46d68ee9bad715eaffb46d4fab1032bfd529553d620e7e5b0d4281a40c",
+  "reverted_at": "2026-09-25T12:44:05.599566+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:44:05.599566+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
