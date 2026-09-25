@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-002-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: domed Tzistarakis Mosque at left on Monastiraki Square, row of tiled-roof Plaka houses with lit wall lamps along the lane, and the floodlit Parthenon on the Acropolis rock above the rooftops — a plausible southeast night view; full moon in frame, clean framing, no artifacts. Gate 2: 1920x1080 and 864x1080 verified; on-image text reads 'Plaka, Athens', 'Scenario: 24 September 2026 · 03:19 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right on a legible gradient scrim; weather retrieval 2026-09-24T00:17:07Z fresh for the 03:15 valid hour with location-specific values (13.1°C, code 1). Gate 3: approvals file records text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T04:32:12.839149+00:00",
+  "sha256_16x9": "8da9a1b4fb8ac707bf1b04c48b9290171ab60f2c11a5ba9ad1d55fba3374ec5e",
+  "sha256_4x5": "b41e63796bc2e9675fb1ea2d03d5ed5e2d1aec97d36a8f2ce3ee98f8bfcc9826"
 }
