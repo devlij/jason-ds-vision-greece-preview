@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Ouranoupoli/gr-01-075-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gate 1 PASS: the Byzantine Prosforion tower at left over the stone quay, fishing boats moored in the calm harbor, whitewashed houses along the waterfront, and the Mount Athos silhouette across the water — recognizable Ouranoupoli harbor with Athos beyond, a plausible tourist viewpoint; the notes record a second Open-Meteo cell for the summit area. Gate 2 PASS: dimensions verified; exact caption 'Mount Athos, Ouranoupoli', scenario '24 September 2026 · 06:52 Europe/Athens', disclosure and curly-apostrophe 'Jason D's Vision' legible on the scrim; Open-Meteo weather location-specific (2% cloud, 17.1 C, wind 7.9 km/h, 12 m cell plus summit cell) from the 03:42:42Z batch fetch, valid 06:30 — fresh, not Spain-style reuse. Gate 3 PASS: text-prompt-only lineage. Gate 4 documented only: no identifiable people or logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T11:35:42.171684+00:00",
+  "sha256_16x9": "40f8262e8f6f19b9ebd93a4bd8eeb5430014f7a67da35b8a0b2da2bccf19767c",
+  "sha256_4x5": "19e84f68b44d567d4e8e9ac1f0a064eb45dc4e97ab8764a21792b5c7bee4c978"
 }
