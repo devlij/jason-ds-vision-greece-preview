@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Pella/gr-01-073-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gate 1 PASS: a standing column row at left over excavated city-block foundations spreading across the middle ground, with the acropolis ridge on the horizon carrying a stoa-like structure — recognizable ancient Pella archaeological park from a plausible elevated tourist viewpoint; dawn breaking over the plain to the east. Gate 2 PASS: dimensions verified; exact caption 'Ancient Pella, Pella', scenario '24 September 2026 · 06:52 Europe/Athens', AI disclosure and curly-apostrophe 'Jason D's Vision' legible on the gradient scrim; Open-Meteo weather location-specific (0% cloud, 8.2 C, wind 4.1 km/h, 21 m cell) from the 03:42:42Z batch fetch, valid 06:30 — fresh, not Spain-style reuse. Gate 3 PASS: text-prompt-only lineage. Gate 4 documented only: no people or logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T11:35:16.513675+00:00",
+  "sha256_16x9": "8e5161f3e38c7fffc2ff1357afdeccef39c8093cf3a3d05f8dea7eb87d5bdada",
+  "sha256_4x5": "80b6681f4f7379e1413def85ac68a0eb382fffb24a0dc343b168f3487f48397d"
 }
