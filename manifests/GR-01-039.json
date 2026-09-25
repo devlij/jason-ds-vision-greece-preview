@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Chalkida/gr-01-039-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "G1 visual: short low bridge over the narrow Euripus channel with piers, waterfront buildings lining both banks, street lamps along the quays — recognizable Chalkida old-bridge scene from a plausible waterfront viewpoint. G2 technical: exact 1920x1080 + 864x1080, exact 'Jason D's Vision' signature bottom-right, caption 'Evripos Bridge, Chalkida' + 'Scenario: 24 September 2026 · 06:06 Europe/Athens' + AI disclosure on bottom-left gradient, legible. Weather retrieval 2026-09-24T03:02:05Z, valid 2026-09-24T06:00 (mainly clear, 13.7C) — scenario within valid window, site-specific. G3: text-prompt-only lineage per approvals file, no photographic inputs. G4: no identifiable people, no focal logos (documented only). G5: no blockers.",
+  "approved_at": "2026-09-25T08:31:07.215537+00:00",
+  "sha256_16x9": "f0ea83144adb5e8963959eef238b73e50586a216ea8b76e7cbe7ac48170d12ff",
+  "sha256_4x5": "a353eb0d3f0ded7e0ba59013ceba1433a6cfa82ae69b6b139f4f6e9ea29eb84c"
 }
