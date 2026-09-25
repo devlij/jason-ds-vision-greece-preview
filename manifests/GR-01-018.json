@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-018-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: cluster of tall Corinthian columns still carrying a length of entablature, standing and isolated columns, a fallen column of drums on the grass, floodlit Acropolis glowing in the distance — recognizably the Temple of Olympian Zeus from inside the precinct looking northwest; framing clean, no artifacts. Gate 2: exact 1920x1080/864x1080 masters, caption 'Temple of Olympian Zeus, Athens', scenario '24 September 2026 · 05:53 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', signature 'Jason D's Vision' bottom-right on gradient scrim; weather retrieval 2026-09-24T02:52:59Z valid 05:45 predates scenario — fresh, not reused. Olympieion kept in skyglow only (no confirmed floodlights at 05:53); the distant Acropolis glow is the separate standing installation. Gate 3: notes document text-prompt-only lineage, no photographic inputs reported. Gate 4: no visible people, logos, or private property — archaeological site, documented only. Gate 5: no blockers.",
   "approved_at": "2026-09-25T05:32:36.244079+00:00",
   "sha256_16x9": "86845440b82a83cf2638866b4a3d5e3c74419c2cff7e9773779e8e37058c42bf",
-  "sha256_4x5": "5a552ebd8ffb278d1162f6f9b84094e596024ea693e24563bd431753a6dc92f2"
+  "sha256_4x5": "5a552ebd8ffb278d1162f6f9b84094e596024ea693e24563bd431753a6dc92f2",
+  "reverted_at": "2026-09-25T12:44:50.049647+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:44:50.049647+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T02:52:59Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
