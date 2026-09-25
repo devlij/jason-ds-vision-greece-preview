@@ -44,6 +44,11 @@
       "at": "2026-09-25T16:31:46.084178+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 FAIL: weather retrieval 2026-09-24T00:17:07Z identical across all 10 batch scenes = shared batch retrieval; per-scene rework pending. Gates 1/3 pass on review (Meteora monasteries atop rock pillars in moonlit mist, text-prompt-only lineage). Gate 4: no identifiable people or logos."
+    },
+    {
+      "at": "2026-09-25T17:32:22.371487+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 FAIL: weather retrieval 2026-09-24T00:17:07Z identical to the second across the whole 10-scene batch (GR-01-001/002/003/004/005/006/007/009/010/011) = shared/batch retrieval; hardened rule (2026-09-25) requires one Open-Meteo retrieval per scene, so per-scene weather rework is owed. Gate 1 pass: scene-specific visual verified on the 16:9 master; exact caption, scenario label 24 September 2026 03:19 Europe/Athens, AI disclosure, and exact Jason D's Vision signature all present bottom; Gate 3: text-prompt-only lineage per approvals note; Gate 4 documented only, no identifiable people or focal logos observed. Left as Candidate."
     }
   ]
 }
