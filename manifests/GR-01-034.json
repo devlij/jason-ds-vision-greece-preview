@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Distomo/gr-01-034-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: the 16:9 master shows Hosios Loukas at nautical twilight — the large domed katholikon with stone-and-brick Byzantine masonry and arched narthex windows, the smaller domed Church of the Theotokos across the stone courtyard with the bell tower between, set in a wooded valley. Gate 2 PASS: 1920x1080 and 864x1080 verified; on-image caption 'Hosios Loukas Monastery, Distomo', scenario '24 September 2026 · 06:03 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and curly-apostrophe signature 'Jason D's Vision' exact and legible; weather retrieved 2026-09-24T03:02:05Z valid 06:00 — fresh with Distomo-specific values (12.7C, cloud 0%), not stale reuse. Gate 3 PASS: text-prompt-only lineage per approvals file, no photographic inputs reported. Gate 4: no identifiable people, logos, or focal private property — documented only. Gate 5 PASS: no open blockers.",
+  "approved_at": "2026-09-25T07:33:59.710478+00:00",
+  "sha256_16x9": "d03201e84666b7c10e101dc3d32f79d28cbdf1088aa008291480b59ea87c04c3",
+  "sha256_4x5": "0ed1010f77ac48191902a6e7a2b6e24644877f7065ac33be9c347db1350c4b78"
 }
