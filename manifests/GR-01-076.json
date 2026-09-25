@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Thessaloniki/gr-01-076-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gate 1 PASS: the grand arcaded facades of Aristotelous Square flanking the broad paved square as it opens to the sea, lamps still lit, dawn glow on the eastern horizon — the square's signature architecture and seafront axis are recognizable from a plausible central viewpoint. Gate 2 PASS: 1920x1080/864x1080 verified; exact caption 'Aristotelous Square, Thessaloniki', scenario '24 September 2026 · 06:52 Europe/Athens', AI disclosure and curly-apostrophe 'Jason D's Vision' legible on the gradient scrim; Open-Meteo weather location-specific (0% cloud, 13.9 C, wind 6.2 km/h, 16 m cell) from the 03:42:42Z batch fetch, valid 06:30 — fresh, not Spain-style reuse. Gate 3 PASS: text-prompt-only lineage. Gate 4 documented only: empty square, no people or logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T11:35:55.067934+00:00",
+  "sha256_16x9": "c1ced09e9ab9f4709d371b1fccb95a6d616faecf99bfdc1e945448b824a36578",
+  "sha256_4x5": "de3e4258687836feceaaee7d330bf43e0575a364f548d897f66d184f9415eeb4"
 }
