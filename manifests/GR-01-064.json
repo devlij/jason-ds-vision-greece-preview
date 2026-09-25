@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Pirgos Dirou/gr-01-064-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: the Diros cave mouth reads as a low dark opening at the waterline in limestone coastal cliffs, with the railed shore path in the foreground and no invented interior lighting or stalactites — the coastal-approach viewpoint per the geometry anchors. Gate 2: 1920×1080/864×1080 verified; on-image 'Diros Caves, Pirgos Dirou', 'Scenario: 24 September 2026 · 06:24 Europe/Athens', disclosure, and exact 'Jason D's Vision' signature on the gradient; weather retrieved 2026-09-24T03:16:31Z valid 06:15, consistent with scenario. Gate 3: approvals/GR-01-064.md documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, logos, or private property; natural coast. Gate 5: no open blockers.",
   "approved_at": "2026-09-25T10:31:58.343497+00:00",
   "sha256_16x9": "c57aed0d6b9f58d7a41f4b74e6032c378f60667d62c2972840a0a6d32cef4734",
-  "sha256_4x5": "6e8d46fe8d046571611678b95e26e14b63d9702865619722a4614d7f352e5f14"
+  "sha256_4x5": "6e8d46fe8d046571611678b95e26e14b63d9702865619722a4614d7f352e5f14",
+  "reverted_at": "2026-09-25T12:46:57.629271+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:46:57.629271+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:16:31Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
