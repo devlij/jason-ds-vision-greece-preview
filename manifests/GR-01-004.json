@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Greece/Mykonos/gr-01-004-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: row of white cylindrical Kato Mili windmills with dark conical thatched caps and lattice sails on the ridge above Little Venice's whitewashed houses and wooden balconies over the water, Aegean in the foreground — a plausible northwest night view from the south; moonlit sea, clean framing, no artifacts. Gate 2: 1920x1080 and 864x1080 verified; on-image text reads 'Windmills, Mykonos', 'Scenario: 24 September 2026 · 03:19 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right on a legible gradient scrim; weather retrieval 2026-09-24T00:17:07Z fresh for the 03:15 valid hour with location-specific values (19.4°C, 33% cloud cover). Gate 3: approvals file records text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-25T04:32:40.693749+00:00",
   "sha256_16x9": "5c0c783d4e51b875c52d0bf0ba2d79b8da204e2e2749052c22c04e1008e6cc21",
-  "sha256_4x5": "8a76ef6d961d707622e1051598400aabbe602c8fce19508fbed9c13233bc1a08"
+  "sha256_4x5": "8a76ef6d961d707622e1051598400aabbe602c8fce19508fbed9c13233bc1a08",
+  "reverted_at": "2026-09-25T12:44:08.092225+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:44:08.092225+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
