@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Koukouli/gr-01-102-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
+  "approval_basis": "Gate 1: single high stone arch of Kokkori Bridge over a stream in a wooded valley, twin side arches in the spandrels, autumn-toned foliage and dawn glow. Gate 2: exact 1920x1080/864x1080; on-image caption 'Kokkori Bridge, Koukouli', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:40Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T05:36:51.972043+00:00",
+  "sha256_16x9": "7ec85a8ba4bd9d97a0c5c3876eaf9fc7dc08dadc62d836c8586218c11805cedf",
+  "sha256_4x5": "17b52c14c33ac741a61d3e1fe7e3e0c2279cbc3ca83d629e95cb269fc07475b6"
 }
