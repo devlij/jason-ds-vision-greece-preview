@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Delos/gr-01-132-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the 16:9 master shows the Delos sacred harbor's colonnade of standing and fallen marble columns running along the waterline, with Mount Kynthos rising behind the ruins — a recognizable shore-level view of the ancient port in early morning light. Gate 2: exact 1920x1080 + 864x1080 masters; on-image caption 'Sacred Harbor, Delos' and scenario 'Scenario: 24 September 2026 · 07:55 Europe/Athens' with 'AI-generated artistic interpretation · Not a photograph.' legible on the bottom gradient; exact 'Jason D’s Vision' signature bottom-right. Weather retrieval 2026-09-25T23:44:10Z is unique to this scene (separate request for 37.4006, 25.2674, matching HTTP Date); scenario minute 07:55 sits inside the model-valid hour 07:00–07:59 and the mainly-clear sky with high cloud matches code 1 / 23% cover. Gate 3: notes record text-prompt-only lineage, no photographic reference. Gate 4: no people or logos visible; commercial call remains Jason's.",
+  "approved_at": "2026-09-26T07:36:01.517207+00:00",
+  "sha256_16x9": "d20d48ecaa91a106e47bc020c21a097aca4adbec202fdbc4be1c32f4da100165",
+  "sha256_4x5": "f71c7a2605fe45f879c83638d407dfd1a2c3bce3c595ba2ab3da33dfb032e698"
 }
