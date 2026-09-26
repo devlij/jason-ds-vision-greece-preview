@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Milos/gr-01-310-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Klima's famous syrmata row — white cubist houses with bright blue, yellow, red and green boat-house doors at water level, five small boats on turquoise water beneath the rocky headland — recognizably the captioned Klima, Milos from a plausible waterfront viewpoint; 4:5 is a closer framing of the same door row with a fishing boat, subject identity agrees. Gate 2: sweep MECHANICAL PASS (1920x1080 / 864x1080 valid PNGs); on-image verified caption 'Klima, Milos', scenario '24 September 2026 · 11:45 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right, legible on the scrim; weather is this scene's own Open-Meteo retrieval recorded 2026-09-25T23:50:15Z, unique repo-wide across all 62 candidates, scenario minute inside the model-valid 11:00-11:59 hour, is_day 1 matching the daylight master. Gate 3: note documents text-prompt-only generation, no photographic input. Gate 4: no visible people or logos; public waterfront — documented only, commercial call is Jason's. Gate 5: all gates pass, no open blockers.",
+  "approved_at": "2026-09-26T23:46:32.838742+00:00",
+  "sha256_16x9": "6b022d275f4b32429a22242e01ab8b2eaa0ff3a3c1ef222d5bdcda9d33d6b9f0",
+  "sha256_4x5": "1c8ba2f72f2630e6db7da6725ff204c62468cbdee81aa858d389a9ec656c8feb"
 }
