@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Skopelos/gr-01-182-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 pass: 16:9 master unmistakably shows Agios Ioannis Kastri — the tall sheer grey-rock pinnacle center with a long zigzag stone staircase climbing to the small whitewashed domed chapel with a cross at the summit, dense green pines on the lower right slope, calm sea and rocky headland at left under a clear sky; morning light strikes the rock from the left; staircase clearly defined, no figures, no artifacts. Gate 2 pass: caption 'Agios Ioannis Chapel, Skopelos' and scenario '24 September 2026 · 09:00 Europe/Athens' exact, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim. Weather per-scene retrieval 2026-09-25T23:45:00Z, unique to the second repo-wide, 09:00 model step, scenario inside 09:00-09:59 model hour, clear 19.6C. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos; chapel is a landmark, not private property. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:38:51.872232+00:00",
+  "sha256_16x9": "dad069effb61164ac72321f1a86fda3699eeeee4a6afcc2d534baba072ded926",
+  "sha256_4x5": "e28165320bcca2328fed5fa0c7c72186ff0d33864049e30d473a4d8bd716ef4d"
 }
