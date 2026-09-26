@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kalambaka/gr-01-314-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Agia Triada monastery complex with red-tile roofs on the sheer Meteora rock pinnacle, the long stone staircase zigzagging down the rock face, the Thessalian plain and neighboring rock towers below — recognizably the captioned Agia Triada Monastery, Kalambaka from a classic elevated viewpoint; 4:5 shows the same monastery and pinnacle from a slightly different angle, subject identity agrees. Gate 2: sweep MECHANICAL PASS (1920x1080 / 864x1080 valid PNGs); on-image verified caption 'Agia Triada Monastery, Kalambaka', scenario '24 September 2026 · 11:45 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right, legible on the scrim; weather is this scene's own Open-Meteo retrieval recorded 2026-09-25T23:50:19Z, unique repo-wide across all 62 candidates, scenario minute inside the model-valid 11:00-11:59 hour, is_day 1 matching the daylight master. Gate 3: note documents text-prompt-only generation, no photographic input. Gate 4: no visible people or logos; monastery exterior — documented only, commercial call is Jason's. Gate 5: all gates pass, no open blockers.",
+  "approved_at": "2026-09-26T23:47:28.209833+00:00",
+  "sha256_16x9": "c126c271d724d21ecec99aa9c57f335190373695bd346cd13b669db23b4c8bd6",
+  "sha256_4x5": "ce715d429e2221c83d1a87cf3c14da7c95a9210c806d996d2d0b5f9bdd122851"
 }
