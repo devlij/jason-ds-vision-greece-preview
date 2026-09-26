@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Glossa/gr-01-181-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 pass: 16:9 master shows a traditional stone village lane descending through Glossa — red-tiled roofs, whitewashed walls, dark wooden balconies, olive trees — with the view dropping right toward Loutraki's small harbor, curved breakwater, moored boats, and a large hazy island (Alonissos) on the horizon; hilltop-village-over-the-sea composition matches the documented viewpoint; morning light, clear sky, no artifacts. Gate 2 pass: caption 'Glossa Village, Glossa' and scenario '24 September 2026 · 09:00 Europe/Athens' exact, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim. Weather per-scene retrieval 2026-09-25T23:44:59Z, unique to the second repo-wide, 09:00 model step, scenario inside 09:00-09:59 model hour, clear 18.1C. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, signage; generic houses only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:38:47.458746+00:00",
+  "sha256_16x9": "7463014aa992ae97fd3e9ac52465c06cffe4a05fbac72f9d02bfc3d8d2b5aaf7",
+  "sha256_4x5": "1db8a5681b7fce192b6a23260fdd197ed59c6dd33ed164700c931d61f0d0b548"
 }
