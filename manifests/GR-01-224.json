@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Porto Lagos/gr-01-224-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Porto Lagos lagoon with the red-roofed Saint Nicholas monastery islets at center, long wooden footbridges on both sides, moored boats on the left jetty, and a line of flamingos wading in the shallows — matches the builder note's described replacement composition; clean framing, no artifacts. Gate 2: exact dims verified; on-image 'Porto Lagos, Porto Lagos' caption and scenario '24 September 2026 · 09:35 Europe/Athens' confirmed; 'Jason D's Vision' signature bottom-right, disclosure bottom-left, legible on-photo; weather retrieval 2026-09-25T23:45:42Z unique to this scene, valid 09:30 Europe/Athens within scenario hour. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no people, logos, or private property — documented only. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T15:38:16.626332+00:00",
+  "sha256_16x9": "a980309b62a10a09bcd26bd71ff8ab2488cf3a2fb1d2a91018797bb57a3167ab",
+  "sha256_4x5": "0ab29d7a4ffea5690f0f5c53ec1e5dc2893503bd38d18e6374a7f9c79eeccff0"
 }
