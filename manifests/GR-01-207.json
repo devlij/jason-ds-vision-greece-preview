@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Heraklion/gr-01-207-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Morosini Fountain head-on in Lions Square — octagonal carved stone basin on steps, four seated stone lions supporting the central pedestal, wide tiered upper bowl, no crowning statue (consistent with the note's independent description of the destroyed Poseidon); weathered Venetian-era buildings with arcaded ground floors and shuttered windows framing the square, a bare tree at right; flat grey overcast daylight — a weather condition, not a lighting misconfiguration — under the 09:15 morning scenario; unmistakably the Liondaria landmark, no artifacts. Gate 2: 1920x1080/864x1080 verified; on-image 'Morosini Fountain, Heraklion', 'Scenario: 24 September 2026 · 09:15 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:25Z in approvals/GR-01-207.md, unique to this scene across notes 150–240. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people in the empty square, no vehicles, no logos; surrounding buildings are generic old facades with no readable signage. Daylight.",
+  "approved_at": "2026-09-26T13:45:01.849003+00:00",
+  "sha256_16x9": "aa926e958b235b04882186ecc5bb9db81399d1bd113e4b2d4d3fefef1fbbd96f",
+  "sha256_4x5": "2c5c645fa8598a628c835190a5cbd5aa289c4667eb7ad34f13d3af82ad1964d0"
 }
