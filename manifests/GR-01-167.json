@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Pythagoreio/gr-01-167-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: 16:9 master shows the medieval tower fortress crowning the headland above Pythagoreio's waterfront row of houses, a long stone breakwater reaching into the bay, and moored fishing boats, with a sunrise glitter path on the sea at frame right under the ESE sun — matches the evidence card's harbor viewpoint (37.689, 26.944). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Pythagoreio Harbor, Pythagoreio', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:45Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
+  "approved_at": "2026-09-26T10:38:08.774758+00:00",
+  "sha256_16x9": "d19507f293d634c1eb634321e43c3e77a0641cad8e8737ff6abd2fe44db84193",
+  "sha256_4x5": "0dce03bb888d0a231e5f9ff87758771a4439aa4469939dc2badaa5bf99150b3f"
 }
