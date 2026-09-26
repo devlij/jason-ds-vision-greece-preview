@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Heraklion/gr-01-191-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 visual: Koules fortress at Heraklion — the square Venetian sea-fort with its gunport row standing in the harbor water, the stone breakwater promenade in the right foreground, calm sea reflections, partly cloudy morning sky matching the note's ‘morning daylight under heavy cloud’, clean framing, no artifacts. G2 technical: exact 1920x1080 / 864x1080 masters verified by sweep; on-image caption ‘Koules, Heraklion’, scenario ‘Scenario: 24 September 2026 · 09:00 Europe/Athens’, disclosure ‘AI-generated artistic interpretation · Not a photograph.’ bottom-left, exact ‘Jason D’s Vision’ bottom-right, legible; builder note records per-scene Open-Meteo retrieval 2026-09-25T23:45:09Z, verified unique repo-wide across all 365 notes and consistent with the baked 09:00 scenario hour. G3 provenance: text-prompt-only lineage documented, no photographic inputs. G4: no visible people, no logos, no recognizable private property. G5: no open blockers.",
+  "approved_at": "2026-09-26T12:48:07.747584+00:00",
+  "sha256_16x9": "1bb8f3d26bb284ba2fcb63624205c08a852070adc89b15b1aa53c58acea013f9",
+  "sha256_4x5": "de8d2536cbc4cc637a87f2be0afe518ec8319ac55719003f9250481fa0bfedf5"
 }
