@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Symi/gr-01-266-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows the Panormitis monastic complex at the water's edge at the head of the bay with its tall multi-storey bell tower rising above the roofs, pine and cypress hills enclosing the bay, and boats moored at the waterfront — matching all three geometry anchors; the 4:5 shows the same complex and tower from the water — formats agree on the subject. Gate 2: caption 'Panormitis Monastery, Symi', scenario '24 September 2026 · 10:45 Europe/Athens', AI-disclosure, and exact 'Jason D's Vision' signature all legible on the bottom gradient; exact 1920x1080/864x1080 masters. Weather: per-scene Open-Meteo retrieval 2026-09-25T23:47:27Z, unique to the second across the GR-01-236–268 window; clear values consistent with the cloudless sky. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or focal logos, documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T18:42:01.095387+00:00",
+  "sha256_16x9": "1e4098a832691812a32ee25761eec1eabee0061600742d1436296d5d2b1e5e03",
+  "sha256_4x5": "1aeeaebac10b0e2fd9a7667263c65c167ccb9d104c72cc2127b7b47691634dd4"
 }
