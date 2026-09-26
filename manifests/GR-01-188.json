@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Skyros/gr-01-188-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 visual: sandy crescent of Magazia Beach curving along a calm morning sea, the Chora castle hill and white cubic houses rising at the right, beachfront houses at the treeline, warm east light consistent with a 09:00 scenario, clean framing, no artifacts. G2 technical: exact 1920x1080 / 864x1080 masters verified by sweep; on-image caption ‘Magazia Beach, Skyros’, scenario ‘Scenario: 24 September 2026 · 09:00 Europe/Athens’, disclosure ‘AI-generated artistic interpretation · Not a photograph.’ bottom-left, exact ‘Jason D’s Vision’ bottom-right, legible; builder note records per-scene Open-Meteo retrieval 2026-09-25T23:45:06Z, verified unique repo-wide across all 365 notes and consistent with the baked 09:00 scenario hour. G3 provenance: text-prompt-only lineage documented, no photographic inputs. G4: no visible people, no logos, no recognizable private property. G5: no open blockers.",
+  "approved_at": "2026-09-26T12:47:54.910463+00:00",
+  "sha256_16x9": "341ad4266a88952109c473bf9a4d419c0bbdf537760a52872aa2a5aa2aa79ef6",
+  "sha256_4x5": "4047fa404caca6c61af509829f7e8e57ff658406de77c5b6be97ed38479ef8e5"
 }
