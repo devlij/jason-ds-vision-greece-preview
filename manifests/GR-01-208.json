@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Chania/gr-01-208-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Chania old town lane — narrow cobbled street climbing between old Venetian/Ottoman buildings with ochre and rose plaster facades, dark wooden enclosed balconies, shutters, potted plants at doorways, a wall lantern at left, and a stone arch spanning the street in the mid-distance; soft overcast morning light; the arch, wooden balconies and cobbles match the old town's character from a plausible atmospheric viewpoint, framing leads the eye naturally, no artifacts. Gate 2: 1920x1080/864x1080 verified; on-image 'Chania Old Town, Chania', 'Scenario: 24 September 2026 · 09:15 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:26Z in approvals/GR-01-208.md, unique to this scene across notes 150–240. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people on the lane, no vehicles, no logos, no readable signage; buildings are generic historic facades. Daylight.",
+  "approved_at": "2026-09-26T13:45:21.073442+00:00",
+  "sha256_16x9": "3eae624270ed454274dbeeab6f771fc317b4d4b6aa448e02d746504544e5a041",
+  "sha256_4x5": "8c841f768e3580b4cfbe8eccf87d5695135ff999be29bf9c2fc22b44a5791bfa"
 }
