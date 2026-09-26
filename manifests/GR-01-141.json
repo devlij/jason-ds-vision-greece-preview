@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Ios/gr-01-141-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Chora, Ios — the cascading hilltop town of cubist white houses with blue doors and shutters climbing to the domed church crowning the summit, open sea beyond; the classic Ios Chora postcard viewpoint, clean framing, no artifacts. Gate 2: mechanical 1920x1080 + 864x1080 PASS; 'Jason D's Vision' signature bottom-right; caption 'Chora, Ios', scenario '24 September 2026 · 07:55 Europe/Athens', AI disclosure bottom-left on scrim, all legible. Weather: Open-Meteo retrieved 2026-09-25T23:44:19Z per approvals/GR-01-141.md — unique to this scene across all 365 Greece notes; scenario minute 07:55 inside model-valid hour 07:00-07:59. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no visible people, logos, or recognizable private property (documented only; commercial call is Jason's). Gate 5: no blockers.",
+  "approved_at": "2026-09-26T08:40:00.762838+00:00",
+  "sha256_16x9": "0aa101c7be038c9d6e90133ed3bcdc5263aa5d4cac68e0c5f7d15e812d86d850",
+  "sha256_4x5": "9af147a862349a1e9b20293f191ee27af2530999a982937f6cd53d89336b2a88"
 }
