@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Gerolimenas/gr-01-292-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: both masters show Gerolimenas as a Mani stone tower-house village climbing the rocky hillside above a small harbor of turquoise water with wooden fishing boats moored; 16:9 from across the cove, 4:5 closer in — same stepped grey-stone settlement, consistent subject identity; clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image 'Gerolimenas Harbor, Gerolimenas', 'Scenario: 24 September 2026 · 11:15 Europe/Athens', AI disclosure and exact 'Jason D's Vision' signature verified; weather retrieval 2026-09-25T23:48:55Z unique to this scene, valid 11:15 = scenario 11:15. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: only generic unmarked fishing boats, no identifiable people or logos.",
+  "approved_at": "2026-09-26T21:31:57.541512+00:00",
+  "sha256_16x9": "43b631be9daf6f40981327dfae75a6cb08f30273acf73a07ee39dd64cadc9875",
+  "sha256_4x5": "645a7cd89d3aa89261fa219f87620e751b54b854d6862e06209c685c8bb3cebe"
 }
