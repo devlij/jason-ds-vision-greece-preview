@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kavala/gr-01-233-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Kavala Aqueduct (Kamares) — the two-tier stone arcade curving across the frame from the left, weathered voussoirs and massive piers, Ottoman-roofed houses below and the sea with an offshore island at right; the landmark aqueduct rendered recognizably, no artifacts. Gate 2: exact dims verified; caption 'Kavala Aqueduct, Kavala' and scenario '24 September 2026 · 10:05 Europe/Athens' verified on-image; 'Jason D's Vision' bottom-right, disclosure bottom-left legible; weather retrieval 2026-09-25T23:45:51Z unique to this scene, valid 10:00 Europe/Athens within the scenario hour. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no people, logos, or private property visible — documented only. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T15:41:23.335926+00:00",
+  "sha256_16x9": "62c2538022ccc0f9618ff4308926536adda23df249b33e5eda2b7fa800eee9b8",
+  "sha256_4x5": "a85c35879d8cd61ed6c9704093970a92b4c9ff96fc035b63d68b6fe91a053ee6"
 }
