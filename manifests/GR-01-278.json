@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Rethymno/gr-01-278-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5. Visual: Rimondi Fountain in Rethymno — three lion-head spouts set in arched niches between fluted columns, stone basins catching the water, old-town street setting; 4:5 agrees (same three lion spouts, columns and basins from a side angle). Clean framing, no artifacts. Technical: 1920x1080/864x1080 exact; caption 'Rimondi Fountain, Rethymno', scenario '24 September 2026 · 11:00 Europe/Athens', disclosure and exact signature Jason D's Vision legible on the scrim. Weather: own Open-Meteo retrieval 2026-09-25T23:48:41Z, unique to this scene repo-wide, scenario inside the model-valid hour — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: public fountain, no people, no logos; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
+  "approved_at": "2026-09-26T19:36:41.611255+00:00",
+  "sha256_16x9": "8009c39bcb4d09b1c56af731a59e4d9e461332e49377cfac4c6d215eb81e73de",
+  "sha256_4x5": "0e442e25b4ce73ae76636688be09e29124cd03ae64eb060cca5210697df78400"
 }
