@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Rhodes/gr-01-263-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows the short row of restored Doric columns with a fragment of entablature on the rectangular stone platform at Monte Smith, pines and the sea horizon behind, the ancient stadium track lying lower on the hill to the right (visible but not the subject, per anchors); the 4:5 shows the same column row and horizon — formats agree on the subject. Gate 2: caption 'Temple of Apollo, Rhodes', scenario '24 September 2026 · 10:45 Europe/Athens', AI-disclosure, and exact 'Jason D's Vision' signature all legible on the bottom gradient; exact 1920x1080/864x1080 masters. Weather: per-scene Open-Meteo retrieval 2026-09-25T23:47:24Z, unique to the second across the GR-01-236–268 window; clear values consistent with the cloudless sky. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or focal logos, documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T18:41:03.950191+00:00",
+  "sha256_16x9": "330956a62edd223eebec44be2275ef9903eef1868ec7a65a8c4edbcb15bc845f",
+  "sha256_4x5": "3b2db0cdcedc84df5df1227bd14cd6377cbd0e5ceeb00ae3b9eee86e7232bb2a"
 }
