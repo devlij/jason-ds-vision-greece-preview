@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Lindos/gr-01-264-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows the wide sandy crescent of Megali Paralia with shallow turquoise water, the white cubic houses of Lindos stepping up the slope behind the beach, and the acropolis fortress small on the high rock above — matching all three geometry anchors; the 4:5 is a tighter crop of the same beach, houses, and acropolis rock — formats agree on the subject. Gate 2: caption 'Lindos Beach, Lindos', scenario '24 September 2026 · 10:45 Europe/Athens', AI-disclosure, and exact 'Jason D's Vision' signature all legible on the bottom gradient; exact 1920x1080/864x1080 masters. Weather: per-scene Open-Meteo retrieval 2026-09-25T23:47:25Z, unique to the second across the GR-01-236–268 window; clear values consistent with the cloudless sky. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or focal logos, documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T18:41:25.856007+00:00",
+  "sha256_16x9": "dbefd160b5fc015884f5dc0513498f15684891ab31d4dbf103fdcf003193fe4b",
+  "sha256_4x5": "5af45dcd3a55ebd83744e7d0b3def7e654cf4e50b7d2118c78ea8fa9ca71b3b7"
 }
