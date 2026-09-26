@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Sivota/gr-01-110-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
+  "approval_basis": "Gate 1: village quay with fishing boats, whitewashed and stone houses, pine-covered cove headlands and a small islet, dawn pastel sky. Gate 2: exact 1920x1080/864x1080; on-image caption 'Sivota Harbor, Sivota', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:48Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T05:37:59.678746+00:00",
+  "sha256_16x9": "f449cc66ced16f97e82c33e5a3926b71147f70d63a58d6e0a67280864d28439d",
+  "sha256_4x5": "15105c5dba79a4155e2fcf82f44a12dbdb28bbe4b72ae783d2e35137bb6b8cbe"
 }
