@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Areopoli/gr-01-256-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Areopoli's cobbled street lined with Maniot stone tower houses rising to the Taxiarchon church's tall stone bell tower, mountains behind — the documented town composition; 4:5 agrees on the same bell tower, stone houses and street. Gate 2: exact 1920x1080/864x1080; on-image 'Areopoli, Areopoli', scenario '24 September 2026 · 10:30 Europe/Athens', AI-disclosure and 'Jason D's Vision' signature (curly apostrophe) legible; note records separate Open-Meteo retrieval 2026-09-25T23:46:14Z valid 10:30, unique repo-wide, scenario minute inside the 10:00-10:59 model hour (code 0, matches clear sky). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or private property; public town street. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T17:44:31.961219+00:00",
+  "sha256_16x9": "2a5657222974a557bee000cc313582a4c47a024fd5a19fe7e7ea8ce3ca0e702d",
+  "sha256_4x5": "296da7e5b57489a9ca505d0afecab195e7a1e33153436e76ce819e6c913397c8"
 }
