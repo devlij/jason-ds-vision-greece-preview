@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Rhodes/gr-01-160-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows the narrow turquoise cove enclosed by pine-topped limestone cliffs, the pebble pocket at the cove head, and the stone stair cut into the right cliff — all three geometry anchors, plausible head-of-cove viewpoint, clean framing, no artifacts; no portrait of Anthony Quinn despite the name (my own independent spot-check of the 16:9 confirmed the same elements). Gate 2: exact 1920x1080 / 864x1080 (sweep-verified); on-image strings verified: 'Anthony Quinn Bay, Rhodes', 'Scenario: 24 September 2026 · 08:15 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', curly-apostrophe 'Jason D's Vision' signature on the bottom gradient; 08:15 inside model-valid hour 08:00–08:59 and clear sky matches retrieval 2026-09-25T23:44:38Z (per-second-unique, cross-checked against the authoritative repo note). Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or logos — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:43:05.049127+00:00",
+  "sha256_16x9": "e8e959a4c3ff04a64727a812c8d677613e9fa326a6166a5790b14b355197ca55",
+  "sha256_4x5": "d67405e6c993f3988de8a9eda7ca2434d9b2c06fdd7bca6c5a824cd14f957d57"
 }
