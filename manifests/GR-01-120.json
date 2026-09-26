@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Zakynthos/gr-01-120-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: open paved square with the standing Solomos statue on its pedestal, the neoclassical town hall with its clock, the low church of Agios Nikolaos of the Mole (no tall campanile, as the note requires), the harbor with moored boats beyond, sunrise glow at the left — matches the north-end-of-harbor camera point and geometry anchors. Gate 2: 1920x1080 + 864x1080 verified; on-image 'Solomos Square, Zakynthos', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right; per-scene Open-Meteo retrieval 2026-09-25T23:43:58Z (unique repo-wide), model clear / 2% cloud matches the depicted clear dawn; a few quay lamps still lit, consistent with the note. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, no logos — documented, commercial call is Jason's.",
+  "approved_at": "2026-09-26T06:43:35.617729+00:00",
+  "sha256_16x9": "0a0d898a8e2894f213ba9c71fcc4388ad22291ce37e00e6cf0917446b3152913",
+  "sha256_4x5": "bbda43b2c26e1a628f5c7aa9c3ef1d2bd90ebe99fb2c6d986ea165cb80412b61"
 }
