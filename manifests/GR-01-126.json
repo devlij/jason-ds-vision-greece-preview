@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Antipaxos/gr-01-126-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: boat-distance view of pale cliffs holding two neighboring coves (Voutoumi and Vrika), deep blue offshore water changing to turquoise in the shallows, a few pines, no village front — matches the offshore camera point and geometry anchors; the sun low at the left horizon is consistent with the recorded azimuth 91.7 degrees for this southwest-facing view from the boat. Gate 2: 1920x1080 + 864x1080 verified; on-image 'Antipaxos Coves, Antipaxos', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right; per-scene Open-Meteo retrieval 2026-09-25T23:44:04Z (unique repo-wide), model clear / 0% cloud / 16.8 km/h wind matches the depicted clear morning with a light chop. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, no logos — documented, commercial call is Jason's.",
+  "approved_at": "2026-09-26T06:44:36.803776+00:00",
+  "sha256_16x9": "10d5f686dd4aa691b6b5b59b643b9b1921e47cd46a93f5f1f90e4c4d0105ae08",
+  "sha256_4x5": "6ae4188cf218ac5077bf1772c2cf6c0558e192cd83600c8871b25394152f3d6a"
 }
