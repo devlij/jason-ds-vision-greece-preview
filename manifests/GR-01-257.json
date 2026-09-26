@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Corfu/gr-01-257-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Pontikonisi islet off Corfu with the whitewashed Vlacherna monastery, red tile roofs and cypresses, the stone causeway leading out, Mouse Island and the mainland coast beyond — the iconic composition; 4:5 agrees on the same islet, monastery and causeway. Gate 2: exact 1920x1080/864x1080; on-image 'Pontikonisi, Corfu', scenario '24 September 2026 · 10:45 Europe/Athens', AI-disclosure and 'Jason D's Vision' signature (curly apostrophe) legible; note records separate Open-Meteo retrieval 2026-09-25T23:46:15Z valid 10:45 with the 10:45 model step, unique repo-wide, scenario minute inside the 10:00-10:59 model hour (code 0, matches clear sky). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or private property; public monastery islet. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T17:44:55.948130+00:00",
+  "sha256_16x9": "4a8db3c0fe36a7bc0607d4b78f3b7e8e5edd9402948270ec1e54c779bbf36e7d",
+  "sha256_4x5": "dc0ae8e90c89fc14a16c6ebe9f02e58b68b4da253e0174591335cfc3823a40af"
 }
