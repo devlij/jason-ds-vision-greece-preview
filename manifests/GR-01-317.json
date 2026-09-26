@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Nafplio/gr-01-317-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Akronafplia fortress rock rising straight from the sea, rampart walls along the ridge, a second fortified hill behind, deep blue water — recognizably the captioned Akronafplia, Nafplio from a plausible sea viewpoint; 4:5 is a closer view of the same sea walls and round bastion tower, subject identity agrees. Gate 2: sweep MECHANICAL PASS (1920x1080 / 864x1080 valid PNGs); on-image verified caption 'Akronafplia, Nafplio', scenario '24 September 2026 · 11:45 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right, legible on the scrim; weather is this scene's own Open-Meteo retrieval recorded 2026-09-25T23:50:22Z, unique repo-wide across all 62 candidates, scenario minute inside the model-valid 11:00-11:59 hour, is_day 1 matching the daylight master. Gate 3: note documents text-prompt-only generation, no photographic input. Gate 4: no visible people or logos; fortress exterior — documented only, commercial call is Jason's. Gate 5: all gates pass, no open blockers.",
+  "approved_at": "2026-09-26T23:48:06.380816+00:00",
+  "sha256_16x9": "e63afc775cdde5048d5a75567bcda3f7a7399c0c4d908c0ad9f1540943700cf7",
+  "sha256_4x5": "7efdb31ed9e4d3718dc3d0ded690c94882e4aff4ba8b2a49fba7c767675f235d"
 }
