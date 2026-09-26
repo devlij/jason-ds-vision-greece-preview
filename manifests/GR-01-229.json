@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Skiathos/gr-01-229-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Koukounaries beach — long curving sandy shoreline, glassy turquoise sea at right, the dense green pine wall backing the sand at left, distant headland on the horizon; the signature pine-backed beach, no artifacts. Gate 2: exact dims verified; caption 'Koukounaries, Skiathos' and scenario '24 September 2026 · 10:05 Europe/Athens' verified on-image; 'Jason D's Vision' bottom-right, disclosure bottom-left legible; weather retrieval 2026-09-25T23:45:47Z unique to this scene, valid 10:00 Europe/Athens within the scenario hour. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no people, logos, or private property — documented only. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T15:39:59.382629+00:00",
+  "sha256_16x9": "d4675a215a0f7f87ba0062dd4140c511fd37304451cd63d2e5c805dbfd2bffc4",
+  "sha256_4x5": "ffe8530fdcadc76c0fbc7eb68b9e4bb4bed9dcd43959c64c8f3a964093b125d7"
 }
