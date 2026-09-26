@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Nafplio/gr-01-254-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Nafplio's Syntagma Square with the long Venetian arcade building, plane trees, cafe awnings, historic facades and the Palamidi fortress above on the hill — matches the square's documented composition; 4:5 agrees on the same arcade, domed building and trees. Gate 2: exact 1920x1080/864x1080; on-image 'Syntagma Square, Nafplio', scenario '24 September 2026 · 10:30 Europe/Athens', AI-disclosure and 'Jason D's Vision' signature (curly apostrophe) legible; note records separate Open-Meteo retrieval 2026-09-25T23:46:12Z valid 10:30, unique repo-wide, scenario minute inside the 10:00-10:59 model hour (code 0, matches clear sky). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or private property; public square. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T17:43:42.049372+00:00",
+  "sha256_16x9": "a6f749fa47e0c7535fbd2092aae46dc443e49dfd44cab8058986fd519b33f5cf",
+  "sha256_4x5": "49a3ba8a1e0484315ca14174ec5f4489a0b10f948732561b448e2294c17d8929"
 }
