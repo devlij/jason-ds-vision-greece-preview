@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Mesta/gr-01-165-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: 16:9 master shows Mesta's signature vaulted stone passage with receding arches, rough rubble-masonry walls, and a Byzantine church facade glowing in warm morning light at the passage's end — matches the evidence card's street-interior viewpoint (38.260393, 25.922111). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Mesta Streets, Mesta', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:43Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
+  "approved_at": "2026-09-26T10:37:37.857909+00:00",
+  "sha256_16x9": "b4fd306abdae8615fa5e7f05ac73c14bb92ec7946ca964031779b78a08bb7f23",
+  "sha256_4x5": "5376abea67840af9b3c2d1347987325d484defb01a42579cad33bd30d4f6d396"
 }
