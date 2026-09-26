@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Chios/gr-01-166-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: 16:9 master shows Nea Moni's domed katholikon with cloisonne brick-and-stone masonry and arched drum windows rising behind the monastery enclosure wall, framed by cypress and pine with forested slopes beyond — morning light rakes the east face, matching the evidence card's monastery viewpoint (38.37389, 26.05556). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Nea Moni, Chios', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:44Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
+  "approved_at": "2026-09-26T10:38:03.514121+00:00",
+  "sha256_16x9": "64236fb2e8a70f4a73028ce169cce321586ebdc6eae95c5a3a60e184a2de8b00",
+  "sha256_4x5": "33354d241416d7dd721d57eb0f488d25b2d6420d2680e0e6a6c58f9ce0b4cccd"
 }
