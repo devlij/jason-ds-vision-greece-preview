@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Thasos/gr-01-093-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gates 1-5 pass. Gate 1: Limenas harbor, Thasos at pre-dawn — ancient quay ruins with a round tholos in the foreground, three fishing boats moored, lit waterfront neoclassical buildings, the ancient theater carved into the hill behind the town, pink dawn band over the sea; plausible harbor viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Limenas Harbor, Thasos', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T23:43:31Z verified unique across all 365 repo notes; model-valid hour covers 06:59; 53% cloud / 16.7C matches the partly cloudy sky. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only.",
+  "approved_at": "2026-09-26T04:44:28.767067+00:00",
+  "sha256_16x9": "4161c59d5dc858afe98b1c49083afc1abb83c4885492666ace8a1126f33bd38a",
+  "sha256_4x5": "6501652dc4e628d2d129cdee776b8846dc1206c60c93ae468f091a5da3c299f2"
 }
