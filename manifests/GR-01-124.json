@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Ithaca/gr-01-124-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: deep almost-enclosed bay with a thin band of tile-roof houses at the waterline, steep hills rising immediately behind, the narrow gap to the open sea carrying the dawn glow, anchored sailboats on calm water — matches the waterfront camera point and geometry anchors; the glow at the bay's eastern gap is consistent with the 07:40 sunrise. Gate 2: 1920x1080 + 864x1080 verified; on-image 'Vathy Harbor, Ithaca', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right; per-scene Open-Meteo retrieval 2026-09-25T23:44:02Z (unique repo-wide), model weather code 2 / 48% cloud matches the depicted broken-cloud morning. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, no logos — documented, commercial call is Jason's.",
+  "approved_at": "2026-09-26T06:44:05.885556+00:00",
+  "sha256_16x9": "6326a4f86528c75f80311d9722307807f0b384ee13f73ec1ec45bc488fd9344b",
+  "sha256_4x5": "55dd54ff40c7cc4cd4a04e2655eb5ee0a77153ee5881bb24fe4c8e36c6f42a57"
 }
