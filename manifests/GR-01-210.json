@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Nymfaio/gr-01-210-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Nymfaio heritage village — steep cobbled street winding up through stone houses with dark wooden balconies and slate roofs, a wooden-roofed bridge/arch crossing the lane mid-frame, dense green autumn forest rising on the hillside at right under a bright morning sky; soft shadows in the lane, recognizably the stone-architecture village from a plausible viewpoint, no artifacts. Gate 2: 1920x1080/864x1080 verified; on-image caption verified at 4x zoom reads 'Nymfaio, Nymfaio' exactly matching the card caption 'Nymfaio, Nymfaio' (the audit assistant's 'ph' variant claim was refuted — Nymfaio/Nymfaio/Nymfaio all render identically and the card, note file, and on-image text agree); 'Scenario: 24 September 2026 · 09:35 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:28Z in approvals/GR-01-210.md, unique to this scene across notes 150–240. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, vehicles, logos, or readable signage; houses are generic stone village architecture. Daylight.",
+  "approved_at": "2026-09-26T13:46:02.208156+00:00",
+  "sha256_16x9": "d754dc18ae6382fec073b7d4ed5e0b4bd44fe24bb1de9b3a454073a92beb280f",
+  "sha256_4x5": "cfd2ba225f1062999af7e1ce90c3464df76842d424d093a5a58229ba9154029e"
 }
