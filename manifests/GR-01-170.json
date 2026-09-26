@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Agios Kirykos/gr-01-170-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: 16:9 master shows the large blue-and-white ferry alongside the stone quay at Agios Kirykos, the small-boat marina packed with white motorboats in the foreground, and the amphitheater hillside town climbing behind the harbor road — morning light from the east, matching the evidence card's harbor viewpoint (37.61490, 26.29648). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Agios Kirykos Harbor, Agios Kirykos', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:48Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
+  "approved_at": "2026-09-26T10:39:00.125461+00:00",
+  "sha256_16x9": "d8d2d7c2efc5e500ff8803621ef452213dc7cf4296f454b83edb92736953312d",
+  "sha256_4x5": "bddb5a0b95edcb884a352dce8279c719ca8f2216649e4ca51f25c9edd026e3b8"
 }
