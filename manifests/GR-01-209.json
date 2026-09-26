@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Dispilio/gr-01-209-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Dispilio Neolithic pile-dwelling reconstruction on Lake Orestiada — thatched round and rectangular wattle-and-daub huts on wooden stilts linked by plank boardwalks over still water, a small white chapel with a dome on the far shore at left, forested hills beyond, the water mirroring the huts; warm low-angle light within plausible autumn-morning conditions for the 09:35 scenario; recognizably the reconstruction settlement from a plausible lakeside viewpoint, no artifacts. Gate 2: 1920x1080/864x1080 verified; on-image 'Dispilio Settlement, Dispilio', 'Scenario: 24 September 2026 · 09:35 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:27Z in approvals/GR-01-209.md, unique to this scene across notes 150–240, valid for the 09:30 model hour under the 09:35 scenario label. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no modern vehicles, no logos; the distant chapel is a generic white building. Daylight.",
+  "approved_at": "2026-09-26T13:45:40.716236+00:00",
+  "sha256_16x9": "0791547c2aa60db8e39fa6335e3f61a533cf7f85fde7a687229ec9478494a528",
+  "sha256_4x5": "934f8b7254b960aafefb0063fca4ab62960c4996fda275d5fa781a39d5a54a04"
 }
