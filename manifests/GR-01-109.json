@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Igoumenitsa/gr-01-109-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
+  "approval_basis": "Gate 1: white ferry at the floodlit quay with town lights and hills behind, calm water at dawn, no visible hull logos. Gate 2: exact 1920x1080/864x1080; on-image caption 'Igoumenitsa Harbor, Igoumenitsa', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:47Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: deliberate logo-free quay, no people. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T05:37:55.726588+00:00",
+  "sha256_16x9": "a5ca28894d559027daafa828c4b92c29704c8aafc63a4526c24b4a5c68fd2c1d",
+  "sha256_4x5": "1eb1abfc09e3171e147b04006b5a35512f84900924e51b7f8a4537f6c5133287"
 }
