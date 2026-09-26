@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Skopelos/gr-01-183-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 pass: 16:9 master shows Kastani as a recognizable sandy pine-backed cove — steep pine-clad headland dropping to a rocky shoreline at left, open turquoise cove center with a small vegetated islet on the horizon, sandy beach curving along the cove edge right with a small open-sided beach bar/taverna tucked under tall pines; warm morning light, clean framing, no artifacts; consistent with the clear 19.6C 09:00 scenario. Gate 2 pass: caption 'Kastani Beach, Skopelos' and scenario '24 September 2026 · 09:00 Europe/Athens' exact, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim. Weather per-scene retrieval 2026-09-25T23:45:01Z, unique to the second repo-wide, 09:00 model step, scenario inside 09:00-09:59 model hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no branded signage. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:38:56.430457+00:00",
+  "sha256_16x9": "793ae37a4827280eb6535c2f3e2c6b860c4fdcde5bc8461ec4273e7ff60c9b3e",
+  "sha256_4x5": "bd6d08d454eee55318a72307190efde72bbfa7c70882addb8e5c85dcfa80c603"
 }
