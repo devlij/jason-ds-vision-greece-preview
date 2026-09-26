@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Toplou/gr-01-203-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Toplou monastery on rocky scrub terrain — tall crenellated stone perimeter wall with a large arched wooden doorway centered, the slender stone bell tower with arched openings and domed cupola rising behind it, flat sea on the horizon at left under a partly cloudy sky; morning light catching the tower face; recognizably the fortress-like monastery with its landmark bell tower, no artifacts. Gate 2: 1920x1080/864x1080 verified; on-image 'Toplou Monastery, Toplou', 'Scenario: 24 September 2026 · 09:15 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:21Z in approvals/GR-01-203.md, unique to this scene across notes 150–240. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, vehicles, logos, or private property — rocky wasteland and monastery only. Daylight.",
+  "approved_at": "2026-09-26T13:43:45.092994+00:00",
+  "sha256_16x9": "12f7216081921223835ba7b8c6b0b2581a8d2ccce8cfddacbda292cc77693baa",
+  "sha256_4x5": "a6ba11d57da814ddd53604dca8b8ee2f4bf0df876c8e7774ba90375ee9d3cc5d"
 }
