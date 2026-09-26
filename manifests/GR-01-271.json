@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Vikos/gr-01-271-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5. Visual: Vikos village square of rough-stone houses with slate roofs and wooden balconies, cobbled kalderimi, small stone church with arched belfry, forested Zagori slopes rising behind; 4:5 agrees (same slate-stone village fabric, church down the lane, identical hill backdrop). Clean framing, no artifacts. Technical: 1920x1080/864x1080 exact; caption 'Vikos Village, Vikos', scenario '24 September 2026 · 10:45 Europe/Athens', disclosure and exact signature Jason D's Vision legible on the scrim. Weather: own Open-Meteo retrieval 2026-09-25T23:48:34Z, unique to this scene repo-wide, scenario inside the model-valid hour (code 0 clear, 16.0C, is_day 1) — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: no prominent people, no readable signage; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
+  "approved_at": "2026-09-26T19:35:34.769943+00:00",
+  "sha256_16x9": "e20a09b4a1a9effaf40b3a18280d5dc093749599c145248ec117f55188c8e853",
+  "sha256_4x5": "10a4d185ae85906a419c621387117dc2bedfdac2927619945528b41601df529d"
 }
