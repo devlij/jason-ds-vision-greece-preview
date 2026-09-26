@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Agios Nikolaos/gr-01-201-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Lake Voulismeni from an elevated promenade viewpoint — the deep-blue near-circular crater lake filling the frame, steep red-brown cliffs at left, the white and pastel houses of Agios Nikolaos cascading down the hillside center-right, a cafe promenade with awnings along the shore, a few small white boats moored on the water, open sea at the far right; bright morning light, recognizably the landmark sunken lake, no artifacts. Gate 2: 1920x1080/864x1080 verified; on-image 'Lake Voulismeni, Agios Nikolaos', 'Scenario: 24 September 2026 · 09:15 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:19Z in approvals/GR-01-201.md, unique to this scene across notes 150–240. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no discernible people or faces (terraces empty at this scale), no logos; boats are small generic hulls with no readable marks; hillside buildings are generic tourist-town facades, not identifiable private property. Daylight.",
+  "approved_at": "2026-09-26T13:43:09.795447+00:00",
+  "sha256_16x9": "cbca8a2d5bc349a15a3ddaedfd70d640ec7811c2c5620f6f182b9b584e71d79c",
+  "sha256_4x5": "8d4b2e5c82f80b82611efe55c79fe4bc96cb01beccefaba612cf490bc607258b"
 }
