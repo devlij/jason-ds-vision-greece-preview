@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Skiathos/gr-01-179-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 pass: 16:9 master unmistakably shows Lalaria's boat-accessible cove — sheer white limestone cliff rising left out of the water, a curved arc of white pebbles center sloping into turquoise shallows grading to deep blue, and the signature Tripia Petra rock arch at right framing the open sea; no boats, no people; thin cirrus consistent with the 2% cloud clear-morning scenario; clean framing, no artifacts. Gate 2 pass: caption 'Lalaria Beach, Skiathos' and scenario '24 September 2026 · 09:00 Europe/Athens' exact, curly-apostrophe signature bottom-right, 'AI-generated artistic interpretation · Not a photograph.' disclosure legible on the scrim. Weather per-scene retrieval 2026-09-25T23:44:57Z, unique to the second repo-wide, 09:00 model step, scenario inside 09:00-09:59 model hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: empty landscape, nothing to document. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:38:38.123625+00:00",
+  "sha256_16x9": "b89ce239399f7d5ca6f96d06ed60bc07a8297ac5a8093b881c4de3745b8dece0",
+  "sha256_4x5": "2616960d201a7f20eb16d2e282c1097fac2882a5f541186b87287db40306676c"
 }
