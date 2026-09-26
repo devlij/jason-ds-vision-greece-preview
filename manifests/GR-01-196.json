@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Frangokastello/gr-01-196-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 visual: Frangokastello — the square crenellated Venetian castle with corner towers and arched gate standing directly on the sandy beach, the White Mountains hazy behind, calm morning sea in the foreground, clean framing, no artifacts. G2 technical: exact 1920x1080 / 864x1080 masters verified by sweep; on-image caption ‘Frangokastello, Frangokastello’, scenario ‘Scenario: 24 September 2026 · 09:15 Europe/Athens’, disclosure ‘AI-generated artistic interpretation · Not a photograph.’ bottom-left, exact ‘Jason D’s Vision’ bottom-right, legible; builder note records per-scene Open-Meteo retrieval 2026-09-25T23:45:14Z, verified unique repo-wide across all 365 notes and consistent with the baked 09:15 scenario hour. G3 provenance: text-prompt-only lineage documented, no photographic inputs. G4: no visible people, no logos, no recognizable private property. G5: no open blockers.",
+  "approved_at": "2026-09-26T12:48:29.830281+00:00",
+  "sha256_16x9": "aa0c16759e774aa779a2c92c9ba02d4541b379cffa691403a7e3cd511da1b95b",
+  "sha256_4x5": "d3e6a3cd43672fb2429977003422e6039daae63519d2d5f0748d8bf011493a8b"
 }
