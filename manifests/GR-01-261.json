@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Zakynthos/gr-01-261-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows the large basilica with pitched tile roof at the harbor edge with the freestanding campanile beside it, the quay and boats in front and the harbor town rising left; the 4:5 shows the same church and tower from the waterfront — formats agree on the subject, and no blue dome is present as the anchors require. Gate 2: caption 'Agios Dionysios, Zakynthos', scenario '24 September 2026 · 10:45 Europe/Athens', AI-disclosure, and exact 'Jason D's Vision' signature all legible on the bottom gradient; exact 1920x1080/864x1080 masters. Weather: per-scene Open-Meteo retrieval 2026-09-25T23:46:19Z, unique to the second across the GR-01-236–268 window; clear values consistent with the cloudless sky. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or focal logos, documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T18:40:17.984510+00:00",
+  "sha256_16x9": "d48361d8b0645179b6d05dc6d4a6ec655f7a3128bdaf98cee378cae9654d194b",
+  "sha256_4x5": "0680b4e37f3c012d080403b2b25bee541412c42422c92d5a3f878aebac1dc300"
 }
