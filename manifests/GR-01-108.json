@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Glyki/gr-01-108-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
+  "approval_basis": "Gate 1: crystal-clear Acheron river with pebbled bed, small stone arch bridge mid-distance, overhanging plane-tree branches framing the view. Gate 2: exact 1920x1080/864x1080; on-image caption 'Acheron Springs, Glyki', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:46Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T05:37:51.270637+00:00",
+  "sha256_16x9": "52a87ef4d64c4033309954d3b35849a8be1ee3db3544aa0233b087418d6bb4d8",
+  "sha256_4x5": "7b30dba7714734982a7c6d2156fd4b316ab29e99f74e64aeac26af351c2847ba"
 }
