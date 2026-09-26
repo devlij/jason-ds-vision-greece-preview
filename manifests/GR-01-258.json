@@ -12,5 +12,12 @@
   "file_4x5": "library/world/Greece/Corfu/gr-01-258-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "qc_notes": [
+    {
+      "at": "2026-09-26T18:37:57.683766+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 hold — inter-format subject disagreement, verified by Cosmo QC 2026-09-26 on both masters: the 4:5 shows a prominent clock tower rising above the fortress complex, while the 16:9 shows clear sky above the barrack block with no tower — the two formats disagree on a defining feature (the build note itself anchors 'no clock tower; that clock belongs to the Old Fortress', which the 4:5 contradicts). Awaiting builder re-render or rework resolving which side is correct."
+    }
+  ]
 }
