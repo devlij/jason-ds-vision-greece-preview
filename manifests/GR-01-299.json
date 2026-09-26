@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kea/gr-01-299-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: whitewashed hill town stepping up a green inland hillside, Venetian castle ruins on the crest, no sea horizon — matches Ioulida anchors. Gate 2: 1920x1080/864x1080 verified; on-image caption 'Ioulida, Kea', scenario 'Scenario: 24 September 2026 · 11:15 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', signature 'Jason D's Vision' all exact and legible; weather retrieval 2026-09-25T23:50:04Z (Open-Meteo per-scene fetch, valid 11:15) — unique to this scene repo-wide (scanned all 365 notes, no second occurrence); visual partly-cloudy matches the claimed code 2 / 43% cover. Gate 3: note records text-prompt-only lineage, no photographic input. Gate 4: no prominent people, no logos; private hillside houses documented only. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T22:36:39.863652+00:00",
+  "sha256_16x9": "ea2efd8fefadfdcb7faa14b1ae60018fc92241a52f0dad8a643669a4d557f258",
+  "sha256_4x5": "7eaafe61bf1a17c60557b8962ce515c9d7b46f8b5479f8c93ca4cb56beed80e2"
 }
