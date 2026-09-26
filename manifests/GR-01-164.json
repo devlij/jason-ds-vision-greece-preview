@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Chios/gr-01-164-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: 16:9 master shows the reddish stone fortress walls and round bastions of Chios Castle fronting the harbor, white-and-blue fishing boats moored in the foreground water, and the town rising behind the walls in clear 08:35 morning light from the east — matches the evidence card's castle-over-harbor viewpoint (38.374, 26.137). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Chios Castle, Chios', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:42Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
+  "approved_at": "2026-09-26T10:37:33.048710+00:00",
+  "sha256_16x9": "761672a648fdb5894a1fd0e053ef26a97a80ea6c1027b7a1fad014faa05dd83a",
+  "sha256_4x5": "d5b2f40d5f914b57ecb0a7a8e0fe101a25a7900b4a944c3bd7e5bbe4d39b13ea"
 }
