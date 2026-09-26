@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Oinousses/gr-01-174-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: 16:9 master shows the Oinousses harbor with fishing boats rafted at the stone quay, the blue-domed church rising among the hillside town's stone houses, rocky islets offshore to the west, and warm morning light on the facades — matching the evidence card's harbor viewpoint (38.51333, 26.21833). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Oinousses Harbor, Oinousses', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:52Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
+  "approved_at": "2026-09-26T10:39:49.282064+00:00",
+  "sha256_16x9": "fb5339477605a0f36348358a2be1fac1f71b3d264d4b5b381b336f514c261fcb",
+  "sha256_4x5": "83866a9de7e6d21d93d3af267e5472699e95e87c92f8ae8cd331b56e82be8200"
 }
