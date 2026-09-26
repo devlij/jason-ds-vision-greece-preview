@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Spileo/gr-01-213-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Portitsa bridge at Spileo: two unequal stone arches with cobbled deck and low parapets carrying the Venetikos out of a slot of vertical rock, gravel bank in the foreground, morning sun low at frame right. Caption 'Portitsa Bridge, Spileo', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, 'Jason D’s Vision' verified on-image; exact dims. Gate 1 pass: gorge-mouth bridge matching the Portitsa anchors, no concrete-repaired arch depicted, clean framing. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:31Z, unique second repo-wide in the checked window, scenario minute inside the cited model-valid hour. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no people or logos – documented only.",
+  "approved_at": "2026-09-26T14:37:57.858070+00:00",
+  "sha256_16x9": "93762b9ca951eb1d1c5f864f387ccc0c2568f239c58a28d8e8fbb1ce5a80a536",
+  "sha256_4x5": "81ade6311b55454311a10d55146c36cbf80385baed20e7bf2ec6ed866cf46214"
 }
