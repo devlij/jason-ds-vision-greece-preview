@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Elounda/gr-01-273-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5. Visual: Elounda harbor with blue fishing boats moored at the stone quay in turquoise water, whitewashed waterfront houses, and the Spinalonga fortress island on the horizon; 4:5 agrees (same quay, boats, white houses, fortress island silhouette). Clean framing, no artifacts. Technical: 1920x1080/864x1080 exact; caption 'Elounda Harbor, Elounda', scenario '24 September 2026 · 11:00 Europe/Athens', disclosure and exact signature Jason D's Vision legible on the scrim. Weather: own Open-Meteo retrieval 2026-09-25T23:48:36Z, unique to this scene repo-wide, scenario inside the 11:00 model-valid hour — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: boats generic, no readable names or logos, no prominent people; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
+  "approved_at": "2026-09-26T19:35:52.479254+00:00",
+  "sha256_16x9": "99f535b04ce19f75913792a5a3a44d589f4fc052b123ce46f5ed3461be558e0b",
+  "sha256_4x5": "d6b5a80b8df3bddb431b258a9f0b65d62648575f5432ddc3cd7fd21243c37a18"
 }
