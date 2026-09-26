@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Plakias/gr-01-206-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Plakias Bay looking along the strand — long sandy bay curving away with small white breakers lapping the shore, a row of whitewashed houses with tamarisk and olive trees along the back of the beach at left, big rugged grey mountains (Lefka Ori foothills) rising steeply at right under a blue morning sky; beach-level viewpoint, clean daylight, recognizably Plakias Bay's wide beach with the mountains behind, no artifacts. Gate 2: 1920x1080/864x1080 verified; on-image 'Plakias Bay, Plakias', 'Scenario: 24 September 2026 · 09:15 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:24Z in approvals/GR-01-206.md, unique to this scene across notes 150–240. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people on the empty beach, no vehicles, no logos; beachfront houses are generic white tourist buildings with no identifiable private property or readable signage. Daylight.",
+  "approved_at": "2026-09-26T13:44:41.812868+00:00",
+  "sha256_16x9": "0d7781f7c80a4d5515ca4a35e572f54ced6c350b1b892105f013ea3231c83c52",
+  "sha256_4x5": "a46447a9d0643396ddb25699e22e2bd0e9be9165362dbe1dc3091fd9297dbe00"
 }
