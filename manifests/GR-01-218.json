@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Larissa/gr-01-218-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Ancient Theater of Larissa: semicircular stone cavea, orchestra circle, and the ruined multi-arched scaenae frons, with the modern city of Larissa rising behind the pines. Caption 'Ancient Theater, Larissa', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, 'Jason D’s Vision' verified on-image; exact dims. Gate 1 pass: recognizable Larissa theater arrangement, plausible elevated tourist viewpoint, clean framing, no artifacts. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:36Z, unique second, scenario inside the cited model-valid hour. Gate 3: text-prompt-only, no photographic input reported. Gate 4: no people or logos – documented only.",
+  "approved_at": "2026-09-26T14:38:20.866463+00:00",
+  "sha256_16x9": "8aa228fd7aecd52f929ca43ca146e8f23b2ae1fc9fc03da98ee590cd74035fc2",
+  "sha256_4x5": "42b4c14ecd79e6c269ebde3c76052525cc69b2b8a69d2d1f0ca2c742f2586ea8"
 }
