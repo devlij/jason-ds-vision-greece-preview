@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Parga/gr-01-100-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
+  "approval_basis": "Gate 1: ruined hilltop castle walls above the amphitheatrical tiled town of Parga, lamplit harbor front and small fishing boats on a calm dawn cove. Gate 2: exact 1920x1080/864x1080; on-image caption 'Parga Castle, Parga', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:38Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T05:36:20.934812+00:00",
+  "sha256_16x9": "9a34d2d2b80745965d6bde6fc87b3cf370924f39171608f9deddc344c44334b2",
+  "sha256_4x5": "012439dc993fba073e3f06cbbde2d8b35cd049ee430e2b5c88338e8d998cb391"
 }
