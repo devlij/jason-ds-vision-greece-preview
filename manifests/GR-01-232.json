@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Skyros/gr-01-232-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Atsitsa cove — pebbled shoreline at left with four old stone jetty pillars standing in the clear turquoise shallows, pine forest sweeping down to the water, a small rocky islet offshore; plausible Skyros cove, no artifacts. Gate 2: exact dims verified; caption 'Atsitsa, Skyros' and scenario '24 September 2026 · 10:05 Europe/Athens' verified on-image; 'Jason D's Vision' bottom-right, AI-disclosure legible at bottom; weather retrieval 2026-09-25T23:45:50Z unique to this scene, valid 10:00 Europe/Athens within the scenario hour. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no people, logos, or private property — documented only. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T15:41:02.346526+00:00",
+  "sha256_16x9": "231ed4924147d6b862696a9b8eb4f14cc5d9882665c013ad0fe9e940e9ceabdd",
+  "sha256_4x5": "e8ac335f367cc5d145182f71596d8c155d7268c748aa76b0fde80efed0f21156"
 }
