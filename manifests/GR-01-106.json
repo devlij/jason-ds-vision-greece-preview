@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Preveza/gr-01-106-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
+  "approval_basis": "Gate 1: seafront promenade of pastel waterfront houses and palms with lit street lamps, the stone fortress of Agios Andreas on the point, dawn sky reflected on the gulf. Gate 2: exact 1920x1080/864x1080; on-image caption 'Preveza Waterfront, Preveza', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:44Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: waterfront buildings documented only, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T05:37:42.124584+00:00",
+  "sha256_16x9": "3d669f121f10ec654d5aa5f2bebb1564838c5c374e6c422313354fc5cb5b0f34",
+  "sha256_4x5": "3ce21a6544ea9a72cd7ca535a91c743adb925187b0421e759388bf8a9d4dee44"
 }
