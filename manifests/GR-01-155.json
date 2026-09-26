@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Nisyros/gr-01-155-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: both masters depict the Stefanos crater from the rim path — an oval pale sulfur-and-ash floor with yellow fumarolic patches enclosed by barren stratified rock walls, a dark winding walking path crossing the floor with tiny walkers, no harbor or lake, matching the note's geometry anchors (my own independent spot-check of the 16:9 confirmed the same elements); framing clean and artifact-free. Gate 2: exact 1920x1080 / 864x1080 (sweep-verified); on-image strings verified: 'Stefanos Crater, Nisyros', 'Scenario: 24 September 2026 · 08:15 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', curly-apostrophe 'Jason D's Vision' signature on the bottom gradient; 08:15 inside model-valid hour 08:00–08:59 from per-scene unique Open-Meteo retrieval 2026-09-25T23:44:33Z (cross-checked against the authoritative repo note). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: tiny unidentifiable walkers on the path only; no logos or signage — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:41:54.250679+00:00",
+  "sha256_16x9": "d9b6137c326e05288ad387bd7cfbabf30ee105dde004219e702b6614ef18d392",
+  "sha256_4x5": "0e04caee79f451a1ce05a619723501a57599be25f9702c550cdb0ecc4c996278"
 }
