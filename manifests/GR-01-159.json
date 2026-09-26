@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Tilos/gr-01-159-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows Livadia's whitewashed waterfront houses along a short quay with five moored fishing boats, the pebble beach curving to the right, and hills rising behind — all three geometry anchors, plausible harbor viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080 / 864x1080 (sweep-verified); on-image strings verified: 'Livadia Harbor, Tilos', 'Scenario: 24 September 2026 · 08:15 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', curly-apostrophe 'Jason D's Vision' signature on the bottom gradient; 08:15 inside model-valid hour 08:00–08:59 and clear sky matches retrieval 2026-09-25T23:44:37Z (per-second-unique, cross-checked against the authoritative repo note). Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or logos — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:42:50.867506+00:00",
+  "sha256_16x9": "48c91483f9f2690f1e33197e1bc6e267db2fc60cca3103c69697b109d96287a3",
+  "sha256_4x5": "b7ed3e9891117301871cf48424929348381cc09a8e048fd6e9ae5b6d8d0a2434"
 }
