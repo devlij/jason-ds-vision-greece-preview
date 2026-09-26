@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Litochoro/gr-01-220-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Litochoro Square: broad cobbled plateia shaded by mature plane trees, taverna awnings along stone-fronted buildings, forested Olympus foothills rising behind. Caption 'Litochoro Square, Litochoro', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, 'Jason D’s Vision' verified on-image; exact dims. Gate 1 pass: matches Litochoro square anchors, plausible tourist viewpoint, clean framing, no glaring misconfiguration. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:38Z, unique second, scenario minute inside the 09:00–09:59 Athens model hour. Gate 3: text-prompt-only, no photographic input reported. Gate 4: no identifiable people, logos, or readable signage – documented only.",
+  "approved_at": "2026-09-26T14:38:30.052125+00:00",
+  "sha256_16x9": "f0390aaa2ce861ff2ae466eaa48627a08160838e96274a7fb9c0919301b41a21",
+  "sha256_4x5": "20597e50fc3eb45872d91da414fbf215fa19b226916741e946e23607876dc3bc"
 }
