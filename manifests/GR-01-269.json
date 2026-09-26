@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Chalkida/gr-01-269-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5. Visual: stone quay promenade along the Evia strait, plane-tree row and cafe awnings along the walk, calm water with hazy hills beyond, no bridge in frame (kept distinct from GR-01-039); 4:5 agrees (same promenade fabric, tree-lined quay, mountain across water). Technical: 1920x1080/864x1080 exact; caption 'Chalkida Waterfront, Chalkida', scenario '24 September 2026 · 10:45 Europe/Athens', AI disclosure and exact signature Jason D's Vision all baked bottom-left/right, legible on the scrim. Weather: own Open-Meteo retrieval 2026-09-25T23:47:30Z, unique to this scene repo-wide, scenario minute inside the 10:00-10:59 model-valid hour (code 1, 1% cloud, is_day 1) — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: no prominent people, no readable logos; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
+  "approved_at": "2026-09-26T19:35:14.571291+00:00",
+  "sha256_16x9": "19421cd5761a911c301cb202bb9e80681efc214ff317720a0672b57573f797d1",
+  "sha256_4x5": "0a19ccab53d9c86f6fcaee6b0dba3e29e397d9a592d31171031a79970387927a"
 }
