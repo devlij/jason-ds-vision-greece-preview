@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Servia/gr-01-227-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: long modern concrete viaduct on rows of cylindrical piers spanning a wide reservoir between dry scrub hills — the Servia Bridge view from the lakeshore viewpoint in the note; cars on the deck are tiny and unreadable, no misconfiguration, clean framing. Gate 2: exact dims verified; caption 'Servia Bridge, Servia' and scenario '24 September 2026 · 10:05 Europe/Athens' verified on-image; 'Jason D's Vision' bottom-right, disclosure bottom-left legible; weather retrieval 2026-09-25T23:45:45Z unique to this scene, valid 10:00 Europe/Athens within the scenario hour. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no identifiable people or logos; tiny vehicles unreadable — documented only. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T15:39:20.739492+00:00",
+  "sha256_16x9": "5d5c9acf9d3a3d51448a37412a2d7b5cc4bc83b008d9928d9937823b42fee803",
+  "sha256_4x5": "b137497c324ea6d867bfb233b9ac8d8c0bc669c9245da4a2534a6c3cc9a53f03"
 }
