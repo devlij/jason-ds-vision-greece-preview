@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-251-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the Pnyx bedrock bema (speaker's platform) carved in the foreground rock with the Acropolis and Parthenon rising beyond — the canonical tourist viewpoint from the Pnyx; 4:5 agrees on the same bema stone and Acropolis view. Gate 2: exact 1920x1080/864x1080; on-image 'Pnyx, Athens', scenario '24 September 2026 · 10:30 Europe/Athens', AI-disclosure and 'Jason D's Vision' signature (curly apostrophe) legible; note records separate Open-Meteo retrieval 2026-09-25T23:46:09Z valid 10:30, unique repo-wide, scenario minute inside the 10:00-10:59 model hour (code 0, matches clear rendered sky). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or private property; ancient public site. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T17:42:26.447796+00:00",
+  "sha256_16x9": "d7033459cd57c840a962ae6c9d30925a35e93d01b16cfe505ecd5ada384b5bce",
+  "sha256_4x5": "af24e85ffe718a027b071626f6d27e6e1455aa7db7f48011ec0a7b6cb61ce878"
 }
