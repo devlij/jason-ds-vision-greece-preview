@@ -12,17 +12,23 @@
   "file_4x5": "library/world/Greece/Lefkada/gr-01-122-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "qc_notes": [
     {
       "at": "2026-09-26T06:44:59.044848+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 hold — scenario-light inconsistency: the master shows a distinct sun disk with a glitter path low over the water at the left edge of frame, but the scenario is 24 September 2026 · 07:40 sunrise with the note's solar azimuth about 92 degrees (east); the recorded viewpoint (town quay looking north toward Santa Maura castle and the floating bridge) puts the true sun roughly 90 degrees to the right of the depicted position, out of frame. Left as Candidate; needs a re-render with sunrise light consistent with the recorded solar geometry, no approval."
+    },
+    {
+      "at": "2026-09-26T08:46:12.718478+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp None identical across 3 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: sunrise over the Lefkada canal — fishing boats moored along the stone waterfront quay, pastel houses lining the left bank, a large bastion fortress (Santa Maura type) closing the right side across calm reflective water; plausible tourist viewpoint, clean framing, no artifacts. Gate 2: mechanical 1920x1080 + 864x1080 PASS; 'Jason D's Vision' signature bottom-right; caption 'Lefkada Canal, Lefkada', scenario '24 September 2026 · 07:40 Europe/Athens', AI disclosure bottom-left on scrim, all legible. Weather: Open-Meteo retrieved 2026-09-25T23:44:00Z per approvals/GR-01-122.md — unique to this scene across all 365 Greece notes; scenario minute 07:40 inside model-valid hour 07:00-07:59. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no visible people, logos, or recognizable private property (documented only; commercial call is Jason's). Gate 5: no blockers.",
   "approved_at": "2026-09-26T08:38:52.779526+00:00",
   "sha256_16x9": "86bedecda48f913fc518cdf4c50815f30d4c442e95d3bbe56ce221b0ff68ae93",
-  "sha256_4x5": "380a8463e0edf6c01141e88e610818661ae87514d94e8027f66b9007c104582a"
+  "sha256_4x5": "380a8463e0edf6c01141e88e610818661ae87514d94e8027f66b9007c104582a",
+  "reverted_at": "2026-09-26T08:46:12.718478+00:00"
 }
