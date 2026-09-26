@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Chania/gr-01-189-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1 visual: Venetian Harbor Chania — fishing boats moored along the quay, the ochre/terracotta/white Venetian waterfront, Firka fortress with its dome at the mole, and the stone lighthouse on the eastern breakwater; partly cloudy sky matching the note's ‘morning daylight under cloud’, clean framing, no artifacts. G2 technical: exact 1920x1080 / 864x1080 masters verified by sweep; on-image caption ‘Venetian Harbor, Chania’, scenario ‘Scenario: 24 September 2026 · 09:00 Europe/Athens’, disclosure ‘AI-generated artistic interpretation · Not a photograph.’ bottom-left, exact ‘Jason D’s Vision’ bottom-right, legible; builder note records per-scene Open-Meteo retrieval 2026-09-25T23:45:07Z, verified unique repo-wide across all 365 notes and consistent with the baked 09:00 scenario hour. G3 provenance: text-prompt-only lineage documented, no photographic inputs. G4: only distant unidentifiable figures on the quay, no logos, no recognizable private property. G5: no open blockers.",
+  "approved_at": "2026-09-26T12:47:59.263606+00:00",
+  "sha256_16x9": "5851f4b128a1ca417bbea80c3e8d867537dd77cd97c7d86ff691dd0b76f0a891",
+  "sha256_4x5": "028e5552d6e627449e69c457cc8f2e97b43dd9c5ab41882966cccfc927179ad4"
 }
