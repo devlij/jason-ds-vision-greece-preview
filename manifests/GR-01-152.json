@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Symi/gr-01-152-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows Symi's Gialos horseshoe harbor — pastel neoclassical houses in yellow, pink, and ochre climbing the amphitheater hills around the turquoise anchorage, many small fishing boats moored in the water, and the white church bell tower with its dome near the quay; facades are varied colored neoclassical, not plain white cubes, matching the anchor; 4:5 gives a closer waterfront view of the same multicolored facades and blue-domed bell tower. Gate 2: exact 1920x1080 / 864x1080 (sweep-verified); on-image strings verified: 'Symi Harbor, Symi', 'Scenario: 24 September 2026 · 08:15 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature on the bottom gradient; 08:15 inside model-valid hour 08:00–08:59 from per-scene unique Open-Meteo retrieval 2026-09-25T23:44:30Z (cross-checked against the authoritative repo note). Gate 3: text-prompt-only, no photographic inputs. Gate 4: no prominent identifiable people or focal logos — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:41:10.584119+00:00",
+  "sha256_16x9": "c174ace8b68b71409002b03ffe4534eed0c17845d866ad988896e3615c45499c",
+  "sha256_4x5": "0854b016fe46c6df9d127a2a3b9ab9d1e5be9d1de9ec95b1127fbc2cc267f319"
 }
