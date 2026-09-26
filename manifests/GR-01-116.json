@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kefalonia/gr-01-116-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: underground lake with the debris islet left by the roof collapse, a large oval opening in the chamber ceiling, a wooden pier with a moored rowboat, no tour group — matches the visitor-pier camera point and geometry anchors; soft daylight from the opening with no invented noon sun shaft. Gate 2: 1920x1080 + 864x1080 verified; on-image 'Melissani Cave, Kefalonia', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right; per-scene Open-Meteo retrieval 2026-09-25T23:43:54Z (unique repo-wide), model mainly-clear consistent with the soft daylight in the chamber. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, no logos — documented, commercial call is Jason's.",
+  "approved_at": "2026-09-26T06:42:54.905903+00:00",
+  "sha256_16x9": "00041938845c54e70c31863c601306fc553bd5e4317bf2b288bc81e301c02b51",
+  "sha256_4x5": "571dd4901bf9757fd9502aa63c18efa0036f942081f8a22c5dd09b1a094706c1"
 }
