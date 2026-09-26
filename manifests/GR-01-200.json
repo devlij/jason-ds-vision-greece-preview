@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Gortyn/gr-01-200-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Roman odeon at Gortyn — curved concentric stone seating tiers in the foreground, the tall curved wall behind it covered in engraved ancient text blocks (the Great Inscription), brick-arched side structure at right, olive trees framing both sides, long morning shadows; recognizably Gortyn from a plausible tourist viewpoint, no artifacts. Gate 2: 1920x1080/864x1080 verified; on-image 'Gortyn, Gortyn', 'Scenario: 24 September 2026 · 09:15 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible scrim; weather retrieval 2026-09-25T23:45:18Z in approvals/GR-01-200.md, unique to this scene across notes 150–240. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, vehicles, logos, or private property — ruins and trees only. Daylight.",
+  "approved_at": "2026-09-26T13:42:50.601336+00:00",
+  "sha256_16x9": "3b7c799cd763317878c524e3954af4c7fa747411cced6d120f4bbd63c48ae9b3",
+  "sha256_4x5": "e071fc23c581e60411488fc64727a050ca6fdd4e1382f87508cd7af59fe9ad97"
 }
