@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Myrina/gr-01-172-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: 16:9 master shows the Myrina fortress crowning the rugged rocky headland, the town's pastel houses clustered at its foot along the shoreline, and calm water with a reflective surface in the foreground — warm morning light on the cliffs, matching the evidence card's bay viewpoint (39.87761, 25.05528). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Myrina Castle, Myrina', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:50Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
+  "approved_at": "2026-09-26T10:39:28.043683+00:00",
+  "sha256_16x9": "e080a5c85ef9e4f5707f54582a2490d7eb49bc7ab7210a4502b1ff1bc3a41440",
+  "sha256_4x5": "c62ef6aa6f6653d3a75880294a9ffe039b6403d40f465c23b60030c7e03def5c"
 }
