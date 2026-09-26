@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Limnochori/gr-01-214-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Lake Zazari at Limnochori: calm open water, reed band along the near grass bank, two plain wooden picnic tables set back on the grass, wooded low hills closing the far shore under morning haze. Caption 'Lake Zazari, Limnochori', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, 'Jason D’s Vision' verified on-image; 1920x1080/864x1080. Gate 1 pass: arrangement matches anchors (Zazari, not Cheimaditida or Kastoria), clean framing, no artifacts. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:32Z, unique second, model-valid hour 09:00–09:59 covers the 09:35 scenario. Gate 3: text-prompt-only, no photographic input reported. Gate 4: no people, logos, or signage – documented only.",
+  "approved_at": "2026-09-26T14:38:02.490102+00:00",
+  "sha256_16x9": "1caf1913fafc6cfaea7f5ffb8b566f9d61dafca46f09f92f956ebcd6fa6dd679",
+  "sha256_4x5": "e63340f522ba8e9352f7e0ac0cb6487e4fc2286d158fa4df876af9327e86ffc6"
 }
