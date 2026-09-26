@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Sigri/gr-01-163-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: 16:9 master shows rooted petrified trunks and stumps scattered over dry scrubby ground, a stone-edged dirt trail with a wooden bench on a stone base in the foreground, and Sigri Bay on the horizon under a low ESE sun with a glitter path — matches the evidence card's Sigri Park trail viewpoint (39.2114, 25.8548). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Petrified Forest, Sigri', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:41Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
+  "approved_at": "2026-09-26T10:37:05.188560+00:00",
+  "sha256_16x9": "9f4923c9ee87fdc26087f4ec5167c1bfed8e506f98a4b57ceec082ee22c246b0",
+  "sha256_4x5": "3d73b32998269e7e736171f5b12a4f24cf7a1a336bc48cd1a164c7582a84bee1"
 }
