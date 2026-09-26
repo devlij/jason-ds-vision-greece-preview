@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Nestos/gr-01-094-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gates 1-5 pass. Gate 1: Nestos Gorge at pre-dawn — elevated roadside view over the river winding through steep forested slopes, the riverside railway with a tunnel portal on the right bank, heavy overcast with a dawn glow band on the horizon; viewpoint matches the note's roadside-between-Stavroupoli-and-Galani claim (not the 891 m Thea overlook), clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Nestos Gorge, Nestos', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T23:43:32Z verified unique across all 365 repo notes; model-valid hour covers 06:59; 73% cloud / 8.5C matches the overcast sky. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only.",
+  "approved_at": "2026-09-26T04:44:33.064577+00:00",
+  "sha256_16x9": "4d641726845ee83a947f503cb8055220015f16c0e4e0943c42634da33cb40726",
+  "sha256_4x5": "64a1e5539c99c4ac123119008f2a0347b922bf0f0c069f73288e0b8e9b8811c8"
 }
