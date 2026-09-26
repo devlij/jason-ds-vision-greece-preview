@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Vai/gr-01-202-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Vai beach at beach level — empty crescent of pale sand curving along gentle turquoise surf, backed by dunes lined with a dense grove of tall date palms that thins toward a distant point of land; bright morning light under a partly cloudy sky; recognizably the Vai palm-forest beach, clean framing, no artifacts. Gate 2: 1920x1080/864x1080 verified; on-image 'Vai Beach, Vai', 'Scenario: 24 September 2026 · 09:15 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:20Z in approvals/GR-01-202.md, unique to this scene across notes 150–240. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, vehicles, logos, or private property — beach, palms, sea, sky only. Daylight.",
+  "approved_at": "2026-09-26T13:43:26.994824+00:00",
+  "sha256_16x9": "9630abf1e6a0c156a656ac48097934e3235015e5659ec60e7c686582745b6740",
+  "sha256_4x5": "d08e807e161ca5180d28ac13c67bf05ef09c2eef757397c46332c30c74246342"
 }
