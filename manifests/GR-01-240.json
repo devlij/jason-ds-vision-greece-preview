@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kalambaka/gr-01-240-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: stone monastery with red-tile domed churches atop a single sheer sandstone pillar, long stair bridge winding up from the neighboring rock at lower left, other Meteora pillars hazed in the distance — one monastery on one pillar per the note's anchors; warm morning light on east-facing facades consistent with 10:05 and azimuth 118.5° ESE. The 4:5 shows the same pillar, stair bridge entering lower-left, crenellated walls and red-domed summit church — subject identity agrees. Gate 2 PASS: on-image 'Varlaam Monastery, Kalambaka', 'Scenario: 24 September 2026 · 10:05 Europe/Athens', disclosure, and curly-apostrophe 'Jason D's Vision' signature verified; note's own Open-Meteo retrieval 2026-09-25T23:45:58Z (unique second), 10:05 inside the 10:00–10:59 model hour. Gate 3 PASS: text-prompt-only lineage documented, no photographic inputs. Gate 4: no people or logos; UNESCO-listed monastic complex, not private property — documented only. Gate 5: manifest has no qc_notes, no open blockers.",
+  "approved_at": "2026-09-26T16:50:20.282627+00:00",
+  "sha256_16x9": "314bb01ec859e04ac1dbf72a576e48a9fd5e8aadeb6333de9dea6db85a8c2ed5",
+  "sha256_4x5": "405cb1e7617f079ed50293e1f8e132cb0830121f3e8ead33e79a3a86f62de979"
 }
