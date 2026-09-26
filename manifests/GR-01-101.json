@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kipoi/gr-01-101-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
+  "approval_basis": "Gate 1: the three stone arches of Plakidas Bridge spanning a rocky ravine stream, dense woodland and dawn sky, cobbled approach path. Gate 2: exact 1920x1080/864x1080; on-image caption 'Plakidas Bridge, Kipoi', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:39Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T05:36:24.971758+00:00",
+  "sha256_16x9": "b255ec121450f5c6940f5d6ac5e0bc48495a60ab5eeb8b5a93bd770f6c4e8b3d",
+  "sha256_4x5": "d8908a5a89a257ffa915eacd8852393787178ed0340144f2dc0c05d44479877e"
 }
