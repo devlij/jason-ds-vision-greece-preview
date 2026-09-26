@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Agia Triada/gr-01-274-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5. Visual: Minoan stone wall ruins of the Royal Villa on the hillside at Agia Triada, ashlar foundations, white hilltop chapel, olive trees, Messara plain stretching beyond under clear sky; 4:5 agrees (same ruin walls, olive trees, white chapel, dry hillside). Clean framing, no artifacts. Technical: 1920x1080/864x1080 exact; caption 'Royal Villa, Agia Triada', scenario '24 September 2026 · 11:00 Europe/Athens', disclosure and exact signature Jason D's Vision legible on the scrim. Weather: own Open-Meteo retrieval 2026-09-25T23:48:37Z, unique to this scene repo-wide, scenario inside the model-valid hour — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: ruins and landscape, no people, no logos; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
+  "approved_at": "2026-09-26T19:36:01.147971+00:00",
+  "sha256_16x9": "6c691452b748b3c656616e3058428714785826e8c4fac7569ae829ddf19a8ec8",
+  "sha256_4x5": "c79e6fcd7afa61c8ddd6485a0f5038953bd9d70b6f957bee04ce438c04eecb53"
 }
