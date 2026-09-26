@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kerkini/gr-01-302-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: lake from the shore with tall reeds in the foreground, Dalmatian pelicans and cormorants on calm water, forested mountain ridge across the lake — matches Lake Kerkini anchors; 4:5 shows the same lake, pelicans, reeds, and mountain ridge. Gate 2: exact dims verified; caption 'Lake Kerkini, Kerkini', scenario 'Scenario: 24 September 2026 · 11:15 Europe/Athens', disclosure, signature 'Jason D's Vision' exact on-image; weather retrieval 2026-09-25T23:50:07Z unique repo-wide; clear sky matches claimed code 0 / 0% cloud. Gate 3: text-prompt-only, no photographic input. Gate 4: no people, no logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T22:37:21.909356+00:00",
+  "sha256_16x9": "7b48d5b31310ef77deb633221d9e91f7226dfebef7663873075adbfda7f5446f",
+  "sha256_4x5": "775c0228c78ba5a25e84e5b39dd2fe7a28cad0b9090a60af518cd5b87f7698f5"
 }
