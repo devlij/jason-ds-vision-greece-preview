@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Milos/gr-01-248-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: hilltop Plaka on Milos with dense white cube houses cascading toward the bay, Frankish castle ruins crowning the summit, Aegean sea to the left, morning light — matches the note's viewpoint anchors; 4:5 shows the same castle-crowned town and cobbled lane, subject identity agreed. Gate 2: exact 1920x1080/864x1080; on-image 'Plaka, Milos', scenario '24 September 2026 · 10:30 Europe/Athens', AI-disclosure and 'Jason D's Vision' signature (curly apostrophe) all legible; note records separate Open-Meteo retrieval 2026-09-25T23:46:06Z valid 10:30, unique repo-wide, scenario minute inside the 10:00-10:59 model hour. Gate 3: text-prompt-only lineage documented, no photographic inputs. Gate 4: no visible people, logos, or private property; public hill town. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T17:41:15.396743+00:00",
+  "sha256_16x9": "543f9e4e524fd6f99d8fa72bfb3338b97d937febfa09b7e6f051fd4d967e8ff8",
+  "sha256_4x5": "b294cb7c6ad9116ef460826466dbadf5c58922adb795495907c183d6d7280b3c"
 }
