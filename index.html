@@ -153,8 +153,19 @@
     .flag-chip.flag-fr{background:linear-gradient(to right,#0055A4 0 33.34%,#fff 0 66.67%,#EF4135 0)}
     .flag-chip.flag-es{background:linear-gradient(to bottom,#AA151B 0 25%,#F1BF00 0 75%,#AA151B 0)}
     .flag-chip.flag-gr{background:repeating-linear-gradient(to bottom,#0D5EAF 0 3px,#fff 0 6px)}
-.flag-chip.flag-ch{background:linear-gradient(#fff,#fff) center/45% 22% no-repeat,linear-gradient(#fff,#fff) center/22% 65% no-repeat,#DA291C}.flag-chip.flag-dk,.flag-dk{background:linear-gradient(to bottom,transparent 38%,#fff 38%,#fff 62%,transparent 62%),linear-gradient(to right,transparent 28%,#fff 28%,#fff 44%,transparent 44%),#C8102E}.flag-no{background:linear-gradient(#00205B,#00205B) center/100% 20% no-repeat,linear-gradient(#00205B,#00205B) center/22% 100% no-repeat,linear-gradient(#fff,#fff) center/100% 38% no-repeat,linear-gradient(#fff,#fff) center/40% 100% no-repeat,#BA0C2F}
+.flag-chip.flag-ch{background:linear-gradient(#fff,#fff) center/45% 22% no-repeat,linear-gradient(#fff,#fff) center/22% 65% no-repeat,#DA291C}.flag-chip.flag-dk,.flag-dk
+.flag-chip.flag-nl{background:linear-gradient(to bottom,#AE1C28 0 33.34%,#fff 0 66.67%,#21468B 0)}{background:linear-gradient(to bottom,transparent 38%,#fff 38%,#fff 62%,transparent 62%),linear-gradient(to right,transparent 28%,#fff 28%,#fff 44%,transparent 44%),#C8102E}.flag-no{background:linear-gradient(#00205B,#00205B) center/100% 20% no-repeat,linear-gradient(#00205B,#00205B) center/22% 100% no-repeat,linear-gradient(#fff,#fff) center/100% 38% no-repeat,linear-gradient(#fff,#fff) center/40% 100% no-repeat,#BA0C2F}
   .lb{position:fixed;inset:0;z-index:60;display:none;flex-direction:column;align-items:center;justify-content:center;background:rgba(7,10,16,.93)}.lb.open{display:flex}.lb figure{margin:0;max-width:94vw}.lb img{max-width:94vw;max-height:72vh;display:block;border-radius:6px}.lb figcaption{display:flex;justify-content:space-between;gap:16px;color:#edf2f8;font-size:14px;padding:10px 2px 0}.lb-count{color:#9db0c4;white-space:nowrap;font-variant-numeric:tabular-nums}.lb-navrow{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:12px}.lb-playrow{display:flex;justify-content:center;margin:12px 0 0}.lb-close{position:absolute;top:14px;right:14px;background:rgba(11,20,32,.85);color:#edf2f8;border:1px solid #27405c;border-radius:999px;width:46px;height:46px;font-size:20px;cursor:pointer;line-height:1}.lb-prev,.lb-next,.lb-play{background:rgba(11,20,32,.85);color:#edf2f8;border:1px solid #27405c;border-radius:999px;width:46px;height:46px;font-size:20px;cursor:pointer;line-height:1;display:inline-flex;align-items:center;justify-content:center}.lb-play.playing{background:#d4a437;border-color:#d4a437;color:#0b1420}@media(max-width:640px){.lb-navrow{gap:12px}}
+
+.wotd{border-top:1px solid #e6e1d5;border-bottom:1px solid #e6e1d5;background:#faf8f3;padding:10px 24px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;font-size:14px;line-height:1.5}
+.wotd .kicker{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8a8578;font-weight:600;white-space:nowrap}
+.wotd .word{font-weight:700;font-size:15px}
+.wotd .gloss{color:#55555c}
+.wotd .sep{color:#c9c3b4}
+.wotd .phrase{font-style:italic}
+.wotd .day{margin-left:auto;font-size:11px;color:#a09a89;white-space:nowrap}
+.wotd .translit{color:#8a8578;font-size:12.5px}
+@media (max-width:520px){.wotd .day{margin-left:0;width:100%}}
 </style>
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="Jason D's Vision"/>
@@ -184,9 +195,3301 @@
     <p class="pointer">Every image is free to use — no credit required. See <a href="#license">license</a> below.</p>
     <h1><span class="flag" aria-hidden="true"><svg viewBox="0 0 27 18" xmlns="http://www.w3.org/2000/svg"><rect width="27" height="18" fill="#fff"/><g fill="#0D5EAF"><rect width="27" height="2"/><rect y="4" width="27" height="2"/><rect y="8" width="27" height="2"/><rect y="12" width="27" height="2"/><rect y="16" width="27" height="2"/><rect width="10" height="10"/></g><g fill="#fff"><rect x="4" width="2" height="10"/><rect y="4" width="10" height="2"/></g></svg></span>Jason D’s Vision — Greece</h1>
     <p class="qc-count" id="qc-count"></p>
-    <nav class="country-switch" aria-label="Country galleries"><a href="https://germany.jdvision.org/"><span class="flag-chip flag-de" aria-hidden="true"></span>Germany</a><span class="sep" aria-hidden="true">|</span><a href="https://italy.jdvision.org/"><span class="flag-chip flag-it" aria-hidden="true"></span>Italy</a><span class="sep" aria-hidden="true">|</span><a href="https://france.jdvision.org/"><span class="flag-chip flag-fr" aria-hidden="true"></span>France</a><span class="sep" aria-hidden="true">|</span><span aria-current="page"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</span><span class="sep" aria-hidden="true">|</span><a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-norway-preview/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-denmark-preview/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-switzerland-preview/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a></nav>
+    <nav class="country-switch" aria-label="Country galleries"><a href="https://germany.jdvision.org/"><span class="flag-chip flag-de" aria-hidden="true"></span>Germany</a><span class="sep" aria-hidden="true">|</span><a href="https://italy.jdvision.org/"><span class="flag-chip flag-it" aria-hidden="true"></span>Italy</a><span class="sep" aria-hidden="true">|</span><a href="https://france.jdvision.org/"><span class="flag-chip flag-fr" aria-hidden="true"></span>France</a><span class="sep" aria-hidden="true">|</span><span aria-current="page"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</span><span class="sep" aria-hidden="true">|</span><a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-norway-preview/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-denmark-preview/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-switzerland-preview/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-netherlands-preview/"><span class="flag-chip flag-nl" aria-hidden="true"></span>Netherlands</a></nav>
     <p class="sub">Preview gallery · Country → Region → City · Candidate scenes until an independent QC pass</p>
   </header>
+<div class="wotd" id="wotd" lang="el">
+  <span class="kicker">Λέξη της ημέρας · Word of the day</span>
+  <span class="wotd-body" aria-live="polite"></span>
+  <span class="day" id="wotd-day"></span>
+</div>
+<script type="application/json" id="wotd-data">[
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το φως του ήλιου",
+  "phrase_en": "The sunlight",
+  "phrase_translit": "To fos tou iliou",
+  "translit": "to fos",
+  "word": "το φως",
+  "word_en": "light"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο ήλιος ανατέλλει",
+  "phrase_en": "The sun is rising",
+  "phrase_translit": "O ilios anatellei",
+  "translit": "o ilios",
+  "word": "ο ήλιος",
+  "word_en": "sun"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Καλημέρα!",
+  "phrase_en": "Good morning!",
+  "phrase_translit": "Kalimera!",
+  "translit": "i mera",
+  "word": "η μέρα",
+  "word_en": "day"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Καληνύχτα!",
+  "phrase_en": "Good night!",
+  "phrase_translit": "Kalinyhta!",
+  "translit": "i nychta",
+  "word": "η νύχτα",
+  "word_en": "night"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Μετράω τ' αστέρια",
+  "phrase_en": "I'm counting the stars",
+  "phrase_translit": "Metrao t' asteria",
+  "translit": "to asteri",
+  "word": "το αστέρι",
+  "word_en": "star"
+ },
+ {
+  "note": "Neuter noun, colloquial for the moon.",
+  "phrase": "Πανσέληνος απόψε",
+  "phrase_en": "Full moon tonight",
+  "phrase_translit": "Panselinos apopse",
+  "translit": "to fengari",
+  "word": "το φεγγάρι",
+  "word_en": "moon"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η ανατολή του ηλίου",
+  "phrase_en": "The sunrise",
+  "phrase_translit": "I anatoli tou iliou",
+  "translit": "i anatoli",
+  "word": "η ανατολή",
+  "word_en": "sunrise"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Τι όμορφο ηλιοβασίλεμα!",
+  "phrase_en": "What a beautiful sunset!",
+  "phrase_translit": "Ti omorfo iliovasilema!",
+  "translit": "to iliovasilema",
+  "word": "το ηλιοβασίλεμα",
+  "word_en": "sunset"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Γαλάζιος ουρανός",
+  "phrase_en": "Blue sky",
+  "phrase_translit": "Galazios ouranos",
+  "translit": "o ouranos",
+  "word": "ο ουρανός",
+  "word_en": "sky"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Σύννεφα στον ορίζοντα",
+  "phrase_en": "Clouds on the horizon",
+  "phrase_translit": "Synnefa ston orizonta",
+  "translit": "to synnefo",
+  "word": "το σύννεφο",
+  "word_en": "cloud"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Βρέχει απαλά",
+  "phrase_en": "It's raining softly",
+  "phrase_translit": "Vrechei apala",
+  "translit": "i vrochi",
+  "word": "η βροχή",
+  "word_en": "rain"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Φυσάει δυνατός άνεμος",
+  "phrase_en": "A strong wind is blowing",
+  "phrase_translit": "Fysaei dynatos anemos",
+  "translit": "o anemos",
+  "word": "ο άνεμος",
+  "word_en": "wind"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η θάλασσα είναι γαλήνια",
+  "phrase_en": "The sea is calm",
+  "phrase_translit": "I thalassa einai galinia",
+  "translit": "i thalassa",
+  "word": "η θάλασσα",
+  "word_en": "sea"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Τα κύματα σκάνε στην ακτή",
+  "phrase_en": "The waves break on the shore",
+  "phrase_translit": "Ta kymata skane stin akti",
+  "translit": "to kyma",
+  "word": "το κύμα",
+  "word_en": "wave"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Περπατάω στην ακτή",
+  "phrase_en": "I'm walking along the shore",
+  "phrase_translit": "Perpatao stin akti",
+  "translit": "i akti",
+  "word": "η ακτή",
+  "word_en": "shore"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Πάμε στην παραλία",
+  "phrase_en": "Let's go to the beach",
+  "phrase_translit": "Pame stin paralia",
+  "translit": "i paralia",
+  "word": "η παραλία",
+  "word_en": "beach"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Ένα νησί στο πέλαγος",
+  "phrase_en": "An island in the open sea",
+  "phrase_translit": "Ena nisi sto pelagos",
+  "translit": "to nisi",
+  "word": "το νησί",
+  "word_en": "island"
+ },
+ {
+  "note": "Neuter noun, poetic for open sea.",
+  "phrase": "Γαλάζιο πέλαγος",
+  "phrase_en": "Blue open sea",
+  "phrase_translit": "Galazio pelagos",
+  "translit": "to pelagos",
+  "word": "το πέλαγος",
+  "word_en": "open sea"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο ήλιος χάνεται στον ορίζοντα",
+  "phrase_en": "The sun sinks into the horizon",
+  "phrase_translit": "O ilios chanetai ston orizonta",
+  "translit": "o orizontas",
+  "word": "ο ορίζοντας",
+  "word_en": "horizon"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Ψηλά στο βουνό",
+  "phrase_en": "High up on the mountain",
+  "phrase_translit": "Psila sto vouno",
+  "translit": "to vouno",
+  "word": "το βουνό",
+  "word_en": "mountain"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Στην κορυφή του βουνού",
+  "phrase_en": "At the mountain's summit",
+  "phrase_translit": "Stin koryfi tou vounou",
+  "translit": "i koryfi",
+  "word": "η κορυφή",
+  "word_en": "summit"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Πράσινη κοιλάδα",
+  "phrase_en": "Green valley",
+  "phrase_translit": "Prasini koilada",
+  "translit": "i koilada",
+  "word": "η κοιλάδα",
+  "word_en": "valley"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Περπάτημα στο δάσος",
+  "phrase_en": "A walk in the forest",
+  "phrase_translit": "Perpatima sto dasos",
+  "translit": "to dasos",
+  "word": "το δάσος",
+  "word_en": "forest"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Κάτω απ' το δέντρο",
+  "phrase_en": "Under the tree",
+  "phrase_translit": "Kato ap' to dentro",
+  "translit": "to dentro",
+  "word": "το δέντρο",
+  "word_en": "tree"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Αρχαίες ελιές",
+  "phrase_en": "Ancient olive trees",
+  "phrase_translit": "Archaies elies",
+  "translit": "i elia",
+  "word": "η ελιά",
+  "word_en": "olive tree"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Μυρίζει λουλούδια",
+  "phrase_en": "It smells of flowers",
+  "phrase_translit": "Myrizei louloudia",
+  "translit": "to louloudi",
+  "word": "το λουλούδι",
+  "word_en": "flower"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ήρθε η άνοιξη",
+  "phrase_en": "Spring has come",
+  "phrase_translit": "Irthe i anoixi",
+  "translit": "i anoixi",
+  "word": "η άνοιξη",
+  "word_en": "spring"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Καλό καλοκαίρι!",
+  "phrase_en": "Have a good summer!",
+  "phrase_translit": "Kalo kalokairi!",
+  "translit": "to kalokairi",
+  "word": "το καλοκαίρι",
+  "word_en": "summer"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Φθινοπωρινά χρώματα",
+  "phrase_en": "Autumn colours",
+  "phrase_translit": "Fthinoporina chromata",
+  "translit": "to fthinoporo",
+  "word": "το φθινόπωρο",
+  "word_en": "autumn"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Βαρύς χειμώνας",
+  "phrase_en": "Harsh winter",
+  "phrase_translit": "Varys cheimonas",
+  "translit": "o cheimonas",
+  "word": "ο χειμώνας",
+  "word_en": "winter"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Χιονισμένα βουνά",
+  "phrase_en": "Snow-covered mountains",
+  "phrase_translit": "Chionismena vouna",
+  "translit": "to chioni",
+  "word": "το χιόνι",
+  "word_en": "snow"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Μακρύς δρόμος μπροστά μας",
+  "phrase_en": "A long road ahead of us",
+  "phrase_translit": "Makrys dromos brosta mas",
+  "translit": "o dromos",
+  "word": "ο δρόμος",
+  "word_en": "road"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Καλό ταξίδι!",
+  "phrase_en": "Have a good trip!",
+  "phrase_translit": "Kalo taxidi!",
+  "translit": "to taxidi",
+  "word": "το ταξίδι",
+  "word_en": "journey"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο ταξιδιώτης ξεκουράζεται",
+  "phrase_en": "The traveller is resting",
+  "phrase_translit": "O taxidiotis xekourazetai",
+  "translit": "o taxidiotis",
+  "word": "ο ταξιδιώτης",
+  "word_en": "traveller"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Έτοιμη η βαλίτσα",
+  "phrase_en": "The suitcase is packed",
+  "phrase_translit": "Etoimi i valitsa",
+  "translit": "i valitsa",
+  "word": "η βαλίτσα",
+  "word_en": "suitcase"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το πλοίο σαλπάρει",
+  "phrase_en": "The ship is setting sail",
+  "phrase_translit": "To ploio salparei",
+  "translit": "to ploio",
+  "word": "το πλοίο",
+  "word_en": "ship"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Φτάσαμε στο λιμάνι",
+  "phrase_en": "We arrived at the harbour",
+  "phrase_translit": "Ftasame sto limani",
+  "translit": "to limani",
+  "word": "το λιμάνι",
+  "word_en": "harbour"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Μια βάρκα στο πέλαγος",
+  "phrase_en": "A boat on the open sea",
+  "phrase_translit": "Mia varka sto pelagos",
+  "translit": "i varka",
+  "word": "η βάρκα",
+  "word_en": "boat"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο φάρος φωτίζει τη νύχτα",
+  "phrase_en": "The lighthouse lights up the night",
+  "phrase_translit": "O faros fotizei ti nychta",
+  "translit": "o faros",
+  "word": "ο φάρος",
+  "word_en": "lighthouse"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Ένα γραφικό χωριό",
+  "phrase_en": "A picturesque village",
+  "phrase_translit": "Ena grafiko chorio",
+  "translit": "to chorio",
+  "word": "το χωριό",
+  "word_en": "village"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η πόλη ξυπνάει",
+  "phrase_en": "The city is waking up",
+  "phrase_translit": "I poli xypnaei",
+  "translit": "i poli",
+  "word": "η πόλη",
+  "word_en": "city"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Συναντιόμαστε στην πλατεία",
+  "phrase_en": "We'll meet at the square",
+  "phrase_translit": "Synantiomaste stin plateia",
+  "translit": "i plateia",
+  "word": "η πλατεία",
+  "word_en": "town square"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Λευκή εκκλησία στο λόφο",
+  "phrase_en": "A white church on the hill",
+  "phrase_translit": "Lefki ekklisia sto lofo",
+  "translit": "i ekklisia",
+  "word": "η εκκλησία",
+  "word_en": "church"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το παλιό κάστρο",
+  "phrase_en": "The old castle",
+  "phrase_translit": "To palio kastro",
+  "translit": "to kastro",
+  "word": "το κάστρο",
+  "word_en": "castle"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Περνάμε τη γέφυρα",
+  "phrase_en": "We're crossing the bridge",
+  "phrase_translit": "Pername ti gefyra",
+  "translit": "i gefyra",
+  "word": "η γέφυρα",
+  "word_en": "bridge"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Φρέσκο ψωμί",
+  "phrase_en": "Fresh bread",
+  "phrase_translit": "Fresko psomi",
+  "translit": "to psomi",
+  "word": "το ψωμί",
+  "word_en": "bread"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Κρύο νερό",
+  "phrase_en": "Cold water",
+  "phrase_translit": "Kryo nero",
+  "translit": "to nero",
+  "word": "το νερό",
+  "word_en": "water"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ένας ελληνικός καφές",
+  "phrase_en": "A Greek coffee",
+  "phrase_translit": "Enas ellinikos kafes",
+  "translit": "o kafes",
+  "word": "ο καφές",
+  "word_en": "coffee"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Κόκκινο κρασί",
+  "phrase_en": "Red wine",
+  "phrase_translit": "Kokkino krasi",
+  "translit": "to krasi",
+  "word": "το κρασί",
+  "word_en": "wine"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Καλό φαγητό",
+  "phrase_en": "Good food",
+  "phrase_translit": "Kalo fagito",
+  "translit": "to fagito",
+  "word": "το φαγητό",
+  "word_en": "food"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Λάδι από την Κρήτη",
+  "phrase_en": "Olive oil from Crete",
+  "phrase_translit": "Ladi apo tin Kriti",
+  "translit": "to elaiolado",
+  "word": "το ελαιόλαδο",
+  "word_en": "olive oil"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Θυμαρίσιο μέλι",
+  "phrase_en": "Thyme honey",
+  "phrase_translit": "Thymarisio meli",
+  "translit": "to meli",
+  "word": "το μέλι",
+  "word_en": "honey"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Φέτα με ελαιόλαδο",
+  "phrase_en": "Feta with olive oil",
+  "phrase_translit": "Feta me elaiolado",
+  "translit": "to tyri",
+  "word": "το τυρί",
+  "word_en": "cheese"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Φρέσκο ψάρι",
+  "phrase_en": "Fresh fish",
+  "phrase_translit": "Fresko psari",
+  "translit": "to psari",
+  "word": "το ψάρι",
+  "word_en": "fish"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Στην ταβέρνα δίπλα στο κύμα",
+  "phrase_en": "At the taverna by the waves",
+  "phrase_translit": "Stin taverna dipla sto kyma",
+  "translit": "i taverna",
+  "word": "η ταβέρνα",
+  "word_en": "taverna"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Ελληνικό πρωινό",
+  "phrase_en": "Greek breakfast",
+  "phrase_translit": "Elliniko proino",
+  "translit": "to proino",
+  "word": "το πρωινό",
+  "word_en": "breakfast"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Δείπνο με θέα",
+  "phrase_en": "Dinner with a view",
+  "phrase_translit": "Deipno me thea",
+  "translit": "to deipno",
+  "word": "το δείπνο",
+  "word_en": "dinner"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Γεύσεις του τόπου",
+  "phrase_en": "Flavours of the place",
+  "phrase_translit": "Gefseis tou topou",
+  "translit": "i gefsi",
+  "word": "η γεύση",
+  "word_en": "flavour"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Σπίτι μου, σπιτάκι μου",
+  "phrase_en": "Home sweet home (traditional saying)",
+  "phrase_translit": "Spiti mou, spitaki mou",
+  "translit": "to spiti",
+  "word": "το σπίτι",
+  "word_en": "home"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η πόρτα είναι ανοιχτή",
+  "phrase_en": "The door is open",
+  "phrase_translit": "I porta einai anoichti",
+  "translit": "i porta",
+  "word": "η πόρτα",
+  "word_en": "door"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Θέα από το παράθυρο",
+  "phrase_en": "View from the window",
+  "phrase_translit": "Thea apo to parathyro",
+  "translit": "to parathyro",
+  "word": "το παράθυρο",
+  "word_en": "window"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ανθισμένος κήπος",
+  "phrase_en": "Garden in bloom",
+  "phrase_translit": "Anthismenos kipos",
+  "translit": "o kipos",
+  "word": "ο κήπος",
+  "word_en": "garden"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Στην αυλή του σπιτιού",
+  "phrase_en": "In the house's courtyard",
+  "phrase_translit": "Stin avli tou spitiou",
+  "translit": "i avli",
+  "word": "η αυλή",
+  "word_en": "courtyard"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Καφές στο μπαλκόνι",
+  "phrase_en": "Coffee on the balcony",
+  "phrase_translit": "Kafes sto balkoni",
+  "translit": "to balkoni",
+  "word": "το μπαλκόνι",
+  "word_en": "balcony"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ανεβαίνουμε τη σκάλα",
+  "phrase_en": "We're climbing the stairs",
+  "phrase_translit": "Anevenoume ti skala",
+  "translit": "i skala",
+  "word": "η σκάλα",
+  "word_en": "stairs"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ασβεστωμένος τοίχος",
+  "phrase_en": "Whitewashed wall",
+  "phrase_translit": "Asvestomenos toichos",
+  "translit": "o toichos",
+  "word": "ο τοίχος",
+  "word_en": "wall"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Κόκκινη στέγη",
+  "phrase_en": "Red roof",
+  "phrase_translit": "Kokkini stegi",
+  "translit": "i stegi",
+  "word": "η στέγη",
+  "word_en": "roof"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Στο κατώφλι του σπιτιού",
+  "phrase_en": "On the house's threshold",
+  "phrase_translit": "Sto katofli tou spitiou",
+  "translit": "to katofli",
+  "word": "το κατώφλι",
+  "word_en": "threshold"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το κλειδί της πόρτας",
+  "phrase_en": "The door key",
+  "phrase_translit": "To kleidi tis portas",
+  "translit": "to kleidi",
+  "word": "το κλειδί",
+  "word_en": "key"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Αναμμένη λάμπα",
+  "phrase_en": "Lit lamp",
+  "phrase_translit": "Anammeni lampa",
+  "translit": "i lampa",
+  "word": "η λάμπα",
+  "word_en": "lamp"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Στρωμένο τραπέζι",
+  "phrase_en": "A set table",
+  "phrase_translit": "Stromeno trapezi",
+  "translit": "to trapezi",
+  "word": "το τραπέζι",
+  "word_en": "table"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Κάθισε στην καρέκλα",
+  "phrase_en": "Sit down on the chair",
+  "phrase_translit": "Kathise stin karekla",
+  "translit": "i karekla",
+  "word": "η καρέκλα",
+  "word_en": "chair"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Ζεστό κρεβάτι",
+  "phrase_en": "Warm bed",
+  "phrase_translit": "Zesto krevati",
+  "translit": "to krevati",
+  "word": "το κρεβάτι",
+  "word_en": "bed"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Γλυκός ύπνος",
+  "phrase_en": "Sweet sleep",
+  "phrase_translit": "Glykos ypnos",
+  "translit": "o ypnos",
+  "word": "ο ύπνος",
+  "word_en": "sleep"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Γλυκά όνειρα!",
+  "phrase_en": "Sweet dreams!",
+  "phrase_translit": "Glyka oneira!",
+  "translit": "to oneiro",
+  "word": "το όνειρο",
+  "word_en": "dream"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Νωρίς το πρωί",
+  "phrase_en": "Early in the morning",
+  "phrase_translit": "Noris to proi",
+  "translit": "to proi",
+  "word": "το πρωί",
+  "word_en": "morning"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Καλό μεσημέρι!",
+  "phrase_en": "Good afternoon!",
+  "phrase_translit": "Kalo mesimeri!",
+  "translit": "to mesimeri",
+  "word": "το μεσημέρι",
+  "word_en": "midday"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Όμορφο απόγευμα",
+  "phrase_en": "Lovely afternoon",
+  "phrase_translit": "Omorfo apoyevma",
+  "translit": "to apoyevma",
+  "word": "το απόγευμα",
+  "word_en": "afternoon"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Καλησπέρα!",
+  "phrase_en": "Good evening!",
+  "phrase_translit": "Kalispera!",
+  "translit": "to vrady",
+  "word": "το βράδυ",
+  "word_en": "evening"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Τι ώρα είναι;",
+  "phrase_en": "What time is it?",
+  "phrase_translit": "Ti ora einai?",
+  "translit": "i ora",
+  "word": "η ώρα",
+  "word_en": "hour"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο χρόνος περνάει",
+  "phrase_en": "Time passes",
+  "phrase_translit": "O chronos pernaei",
+  "translit": "o chronos",
+  "word": "ο χρόνος",
+  "word_en": "time"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Απόλαυσε τη στιγμή",
+  "phrase_en": "Enjoy the moment",
+  "phrase_translit": "Apolavse ti stigmi",
+  "translit": "i stigmi",
+  "word": "η στιγμή",
+  "word_en": "moment"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Μια εβδομάδα διακοπές",
+  "phrase_en": "A week of holidays",
+  "phrase_translit": "Mia evdomada diakopes",
+  "translit": "i evdomada",
+  "word": "η εβδομάδα",
+  "word_en": "week"
+ },
+ {
+  "note": "Feminine plural noun.",
+  "phrase": "Καλές διακοπές!",
+  "phrase_en": "Happy holidays!",
+  "phrase_translit": "Kales diakopes!",
+  "translit": "oi diakopes",
+  "word": "οι διακοπές",
+  "word_en": "holidays"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Εκδρομή το Σαββατοκύριακο",
+  "phrase_en": "A trip at the weekend",
+  "phrase_translit": "Ekdromi to Savvatokyriako",
+  "translit": "to Savvatokyriako",
+  "word": "το Σαββατοκύριακο",
+  "word_en": "weekend"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ένας μήνας στην Ελλάδα",
+  "phrase_en": "A month in Greece",
+  "phrase_translit": "Enas minas stin Ellada",
+  "translit": "o minas",
+  "word": "ο μήνας",
+  "word_en": "month"
+ },
+ {
+  "note": "Feminine noun, proper.",
+  "phrase": "Η Ελλάδα μας",
+  "phrase_en": "Our Greece",
+  "phrase_translit": "I Ellada mas",
+  "translit": "i Ellada",
+  "word": "η Ελλάδα",
+  "word_en": "Greece"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Έλληνας ταξιδιώτης",
+  "phrase_en": "Greek traveller",
+  "phrase_translit": "Ellinas taxidiotis",
+  "translit": "o Ellinas",
+  "word": "ο Έλληνας",
+  "word_en": "Greek man"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η ελληνική γλώσσα",
+  "phrase_en": "The Greek language",
+  "phrase_translit": "I elliniki glossa",
+  "translit": "i glossa",
+  "word": "η γλώσσα",
+  "word_en": "language"
+ },
+ {
+  "note": "Verb, 1st person singular dictionary form.",
+  "phrase": "Περπατάω κάθε πρωί",
+  "phrase_en": "I walk every morning",
+  "phrase_translit": "Perpatao kathe proi",
+  "translit": "perpatao",
+  "word": "περπατάω",
+  "word_en": "to walk"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Τρέχω προς τη θάλασσα",
+  "phrase_en": "I'm running towards the sea",
+  "phrase_translit": "Trecho pros ti thalassa",
+  "translit": "trecho",
+  "word": "τρέχω",
+  "word_en": "to run"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Κολυμπάω στα βαθιά",
+  "phrase_en": "I swim in the deep water",
+  "phrase_translit": "Kolympao sta vathia",
+  "translit": "kolympao",
+  "word": "κολυμπάω",
+  "word_en": "to swim"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Ταξιδεύω συχνά",
+  "phrase_en": "I travel often",
+  "phrase_translit": "Taxidevo sychna",
+  "translit": "taxidevo",
+  "word": "ταξιδεύω",
+  "word_en": "to travel"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Φεύγω αύριο",
+  "phrase_en": "I'm leaving tomorrow",
+  "phrase_translit": "Fevgo avrio",
+  "translit": "fevgo",
+  "word": "φεύγω",
+  "word_en": "to leave"
+ },
+ {
+  "note": "Verb, deponent.",
+  "phrase": "Έρχομαι σύντομα",
+  "phrase_en": "I'm coming soon",
+  "phrase_translit": "Erchomai syntoma",
+  "translit": "erchomai",
+  "word": "έρχομαι",
+  "word_en": "to come"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Φτάσαμε!",
+  "phrase_en": "We arrived!",
+  "phrase_translit": "Ftasame!",
+  "translit": "ftano",
+  "word": "φτάνω",
+  "word_en": "to arrive"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Μένω λίγες μέρες",
+  "phrase_en": "I'm staying a few days",
+  "phrase_translit": "Meno liges meres",
+  "translit": "meno",
+  "word": "μένω",
+  "word_en": "to stay"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Βλέπω το πέλαγος",
+  "phrase_en": "I see the open sea",
+  "phrase_translit": "Vlepo to pelagos",
+  "translit": "vlepo",
+  "word": "βλέπω",
+  "word_en": "to see"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Κοίτα ψηλά!",
+  "phrase_en": "Look up!",
+  "phrase_translit": "Koita psila!",
+  "translit": "koitazo",
+  "word": "κοιτάζω",
+  "word_en": "to look at"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Ακούω τα κύματα",
+  "phrase_en": "I hear the waves",
+  "phrase_translit": "Akouo ta kymata",
+  "translit": "akouo",
+  "word": "ακούω",
+  "word_en": "to hear"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Μυρίζει γιασεμί",
+  "phrase_en": "It smells of jasmine",
+  "phrase_translit": "Myrizei yasemi",
+  "translit": "myrizo",
+  "word": "μυρίζω",
+  "word_en": "to smell"
+ },
+ {
+  "note": "Verb, deponent.",
+  "phrase": "Γεύσου το μέλι",
+  "phrase_en": "Taste the honey",
+  "phrase_translit": "Gefsou to meli",
+  "translit": "gevomai",
+  "word": "γεύομαι",
+  "word_en": "to taste"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Άγγιξε το νερό",
+  "phrase_en": "Touch the water",
+  "phrase_translit": "Angixe to nero",
+  "translit": "angizo",
+  "word": "αγγίζω",
+  "word_en": "to touch"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Αγαπάω τη θάλασσα",
+  "phrase_en": "I love the sea",
+  "phrase_translit": "Agapao ti thalassa",
+  "translit": "agapao",
+  "word": "αγαπάω",
+  "word_en": "to love"
+ },
+ {
+  "note": "Verb, deponent.",
+  "phrase": "Χαίρομαι που ήρθες",
+  "phrase_en": "I'm glad you came",
+  "phrase_translit": "Chairomai pou irthes",
+  "translit": "chairomai",
+  "word": "χαίρομαι",
+  "word_en": "to be glad"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Γελάμε δυνατά",
+  "phrase_en": "We laugh loudly",
+  "phrase_translit": "Gelame dynata",
+  "translit": "gelao",
+  "word": "γελάω",
+  "word_en": "to laugh"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Τραγουδάει το αηδόνι",
+  "phrase_en": "The nightingale is singing",
+  "phrase_translit": "Tragoudaei to aidoni",
+  "translit": "tragoudao",
+  "word": "τραγουδάω",
+  "word_en": "to sing"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Χορεύουμε συρτάκι",
+  "phrase_en": "We're dancing the syrtaki",
+  "phrase_translit": "Chorevoume syrtaki",
+  "translit": "chorevo",
+  "word": "χορεύω",
+  "word_en": "to dance"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Διαβάζω ένα βιβλίο",
+  "phrase_en": "I'm reading a book",
+  "phrase_translit": "Diavazo ena vivlio",
+  "translit": "diavazo",
+  "word": "διαβάζω",
+  "word_en": "to read"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Γράφω καρτ ποστάλ",
+  "phrase_en": "I'm writing a postcard",
+  "phrase_translit": "Grafo kart postal",
+  "translit": "grafo",
+  "word": "γράφω",
+  "word_en": "to write"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Φωτογραφίζω το ηλιοβασίλεμα",
+  "phrase_en": "I'm photographing the sunset",
+  "phrase_translit": "Fotografizo to iliovasilema",
+  "translit": "fotografizo",
+  "word": "φωτογραφίζω",
+  "word_en": "to photograph"
+ },
+ {
+  "note": "Verb, deponent.",
+  "phrase": "Θα το θυμάμαι για πάντα",
+  "phrase_en": "I'll remember it forever",
+  "phrase_translit": "Tha to thymamai gia panta",
+  "translit": "thymamai",
+  "word": "θυμάμαι",
+  "word_en": "to remember"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Δεν ξεχνάω τίποτα",
+  "phrase_en": "I forget nothing",
+  "phrase_translit": "Den xechnao tipota",
+  "translit": "xechnao",
+  "word": "ξεχνάω",
+  "word_en": "to forget"
+ },
+ {
+  "note": "Verb, deponent.",
+  "phrase": "Ονειρεύομαι ταξίδια",
+  "phrase_en": "I dream of journeys",
+  "phrase_translit": "Oneirevomai taxidia",
+  "translit": "oneirevomai",
+  "word": "ονειρεύομαι",
+  "word_en": "to dream"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Ελπίζω να ξανάρθω",
+  "phrase_en": "I hope to come again",
+  "phrase_translit": "Elpizo na xanartho",
+  "translit": "elpizo",
+  "word": "ελπίζω",
+  "word_en": "to hope"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Περιμένω το πλοίο",
+  "phrase_en": "I'm waiting for the ship",
+  "phrase_translit": "Perimeno to ploio",
+  "translit": "perimeno",
+  "word": "περιμένω",
+  "word_en": "to wait"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Ψάχνω τον δρόμο",
+  "phrase_en": "I'm looking for the way",
+  "phrase_translit": "Psachno ton dromo",
+  "translit": "psachno",
+  "word": "ψάχνω",
+  "word_en": "to search for"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Βρήκα τον παράδεισο",
+  "phrase_en": "I found paradise",
+  "phrase_translit": "Vrika ton paradeiso",
+  "translit": "vrisko",
+  "word": "βρίσκω",
+  "word_en": "to find"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Χάθηκα στα στενά",
+  "phrase_en": "I got lost in the alleys",
+  "phrase_translit": "Chathika sta stena",
+  "translit": "chano",
+  "word": "χάνω",
+  "word_en": "to lose"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Ανεβαίνουμε στο κάστρο",
+  "phrase_en": "We're going up to the castle",
+  "phrase_translit": "Anevenoume sto kastro",
+  "translit": "aneveno",
+  "word": "ανεβαίνω",
+  "word_en": "to go up"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Κατεβαίνουμε στο λιμάνι",
+  "phrase_en": "We're going down to the harbour",
+  "phrase_translit": "Katevenoume sto limani",
+  "translit": "kateveno",
+  "word": "κατεβαίνω",
+  "word_en": "to go down"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Μπαίνουμε στο μουσείο",
+  "phrase_en": "We're entering the museum",
+  "phrase_translit": "Bainoume sto mouseio",
+  "translit": "baino",
+  "word": "μπαίνω",
+  "word_en": "to enter"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Βγαίνουμε βόλτα",
+  "phrase_en": "We're going out for a stroll",
+  "phrase_translit": "Vginoume volta",
+  "translit": "vgaino",
+  "word": "βγαίνω",
+  "word_en": "to go out"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Γυρίζω πάντα πίσω",
+  "phrase_en": "I always come back",
+  "phrase_translit": "Gyrizo panta piso",
+  "translit": "gyrizo",
+  "word": "γυρίζω",
+  "word_en": "to return"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Ξεκινάμε νωρίς",
+  "phrase_en": "We're starting early",
+  "phrase_translit": "Xekiname noris",
+  "translit": "xekinao",
+  "word": "ξεκινάω",
+  "word_en": "to start"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Σταματάμε για καφέ",
+  "phrase_en": "We're stopping for coffee",
+  "phrase_translit": "Stamatame gia kafe",
+  "translit": "stamato",
+  "word": "σταματάω",
+  "word_en": "to stop"
+ },
+ {
+  "note": "Verb, deponent.",
+  "phrase": "Καθόμαστε στη σκιά",
+  "phrase_en": "We're sitting in the shade",
+  "phrase_translit": "Kathomaste sti skia",
+  "translit": "kathomai",
+  "word": "κάθομαι",
+  "word_en": "to sit"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Ξαπλώνω στην άμμο",
+  "phrase_en": "I'm lying on the sand",
+  "phrase_translit": "Xaplono stin ammo",
+  "translit": "xaplono",
+  "word": "ξαπλώνω",
+  "word_en": "to lie down"
+ },
+ {
+  "note": "Verb, deponent.",
+  "phrase": "Ξεκουράζομαι στη βεράντα",
+  "phrase_en": "I'm resting on the terrace",
+  "phrase_translit": "Xekourazomai sti veranta",
+  "translit": "xekourazomai",
+  "word": "ξεκουράζομαι",
+  "word_en": "to rest"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Ξυπνάω με τον ήλιο",
+  "phrase_en": "I wake up with the sun",
+  "phrase_translit": "Xypnao me ton ilio",
+  "translit": "xypnao",
+  "word": "ξυπνάω",
+  "word_en": "to wake up"
+ },
+ {
+  "note": "Verb, deponent.",
+  "phrase": "Κοιμάμαι βαθιά",
+  "phrase_en": "I sleep deeply",
+  "phrase_translit": "Koimamai vathia",
+  "translit": "koimamai",
+  "word": "κοιμάμαι",
+  "word_en": "to sleep"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Τρώμε φρέσκο ψάρι",
+  "phrase_en": "We're eating fresh fish",
+  "phrase_translit": "Trome fresko psari",
+  "translit": "troo",
+  "word": "τρώω",
+  "word_en": "to eat"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Πίνουμε κρασί",
+  "phrase_en": "We're drinking wine",
+  "phrase_translit": "Pinoume krasi",
+  "translit": "pino",
+  "word": "πίνω",
+  "word_en": "to drink"
+ },
+ {
+  "note": "Verb.",
+  "phrase": "Μαγειρεύουμε με αγάπη",
+  "phrase_en": "We cook with love",
+  "phrase_translit": "Mageirevoume me agapi",
+  "translit": "mageirevo",
+  "word": "μαγειρεύω",
+  "word_en": "to cook"
+ },
+ {
+  "note": "Adjective, masc. nom. sg.",
+  "phrase": "Όμορφη μέρα",
+  "phrase_en": "Beautiful day",
+  "phrase_translit": "Omorfi mera",
+  "translit": "omorfos",
+  "word": "όμορφος",
+  "word_en": "beautiful"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Ωραία θέα",
+  "phrase_en": "Lovely view",
+  "phrase_translit": "Oraia thea",
+  "translit": "oraios",
+  "word": "ωραίος",
+  "word_en": "lovely"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Μεγάλο ταξίδι",
+  "phrase_en": "Grand journey",
+  "phrase_translit": "Megalo taxidi",
+  "translit": "megalos",
+  "word": "μεγάλος",
+  "word_en": "big"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Μικρό νησί",
+  "phrase_en": "Small island",
+  "phrase_translit": "Mikro nisi",
+  "translit": "mikros",
+  "word": "μικρός",
+  "word_en": "small"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Ψηλό βουνό",
+  "phrase_en": "High mountain",
+  "phrase_translit": "Psilo vouno",
+  "translit": "psilos",
+  "word": "ψηλός",
+  "word_en": "high"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Βαθιά θάλασσα",
+  "phrase_en": "Deep sea",
+  "phrase_translit": "Vathia thalassa",
+  "translit": "vathys",
+  "word": "βαθύς",
+  "word_en": "deep"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Πλατύς ορίζοντας",
+  "phrase_en": "Wide horizon",
+  "phrase_translit": "Platys orizontas",
+  "translit": "platys",
+  "word": "πλατύς",
+  "word_en": "wide"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Στενά σοκάκια",
+  "phrase_en": "Narrow alleys",
+  "phrase_translit": "Stena sokakia",
+  "translit": "stenos",
+  "word": "στενός",
+  "word_en": "narrow"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Μακρύ καλοκαίρι",
+  "phrase_en": "Long summer",
+  "phrase_translit": "Makry kalokairi",
+  "translit": "makrys",
+  "word": "μακρύς",
+  "word_en": "long"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Κοντινό λιμάνι",
+  "phrase_en": "Nearby harbour",
+  "phrase_translit": "Kontino limani",
+  "translit": "kontinos",
+  "word": "κοντινός",
+  "word_en": "near"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Μακρινά ταξίδια",
+  "phrase_en": "Distant journeys",
+  "phrase_translit": "Makrina taxidia",
+  "translit": "makrinos",
+  "word": "μακρινός",
+  "word_en": "distant"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Καινούρια μέρα",
+  "phrase_en": "A new day",
+  "phrase_translit": "Kainouria mera",
+  "translit": "kainourios",
+  "word": "καινούριος",
+  "word_en": "new"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Παλιά πόλη",
+  "phrase_en": "Old town",
+  "phrase_translit": "Palia poli",
+  "translit": "palios",
+  "word": "παλιός",
+  "word_en": "old"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Αρχαία ερείπια",
+  "phrase_en": "Ancient ruins",
+  "phrase_translit": "Archaia ereipia",
+  "translit": "archaios",
+  "word": "αρχαίος",
+  "word_en": "ancient"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Νέοι φίλοι",
+  "phrase_en": "New friends",
+  "phrase_translit": "Neoi filoi",
+  "translit": "neos",
+  "word": "νέος",
+  "word_en": "young"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Ζεστός ήλιος",
+  "phrase_en": "Warm sun",
+  "phrase_translit": "Zestos ilios",
+  "translit": "zestos",
+  "word": "ζεστός",
+  "word_en": "warm"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Κρύα θάλασσα",
+  "phrase_en": "Cold sea",
+  "phrase_translit": "Krya thalassa",
+  "translit": "kryos",
+  "word": "κρύος",
+  "word_en": "cold"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Δροσερό αεράκι",
+  "phrase_en": "Cool breeze",
+  "phrase_translit": "Drosero aeraki",
+  "translit": "droseros",
+  "word": "δροσερός",
+  "word_en": "cool"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Γλυκό κρασί",
+  "phrase_en": "Sweet wine",
+  "phrase_translit": "Glyko krasi",
+  "translit": "glykos",
+  "word": "γλυκός",
+  "word_en": "sweet"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Πικρός καφές",
+  "phrase_en": "Bitter coffee",
+  "phrase_translit": "Pikros kafes",
+  "translit": "pikros",
+  "word": "πικρός",
+  "word_en": "bitter"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Αλμυρός αέρας",
+  "phrase_en": "Salty air",
+  "phrase_translit": "Almyros aeras",
+  "translit": "almyros",
+  "word": "αλμυρός",
+  "word_en": "salty"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Φρέσκος αέρας",
+  "phrase_en": "Fresh air",
+  "phrase_translit": "Freskos aeras",
+  "translit": "freskos",
+  "word": "φρέσκος",
+  "word_en": "fresh"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Ήσυχο πρωινό",
+  "phrase_en": "Quiet morning",
+  "phrase_translit": "Isycho proino",
+  "translit": "isychos",
+  "word": "ήσυχος",
+  "word_en": "quiet"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Θορυβώδης πόλη",
+  "phrase_en": "Noisy city",
+  "phrase_translit": "Thoryvodis poli",
+  "translit": "thoryvodis",
+  "word": "θορυβώδης",
+  "word_en": "noisy"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Φωτεινό πρωί",
+  "phrase_en": "Bright morning",
+  "phrase_translit": "Foteino proi",
+  "translit": "foteinos",
+  "word": "φωτεινός",
+  "word_en": "bright"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Σκοτεινός ουρανός",
+  "phrase_en": "Dark sky",
+  "phrase_translit": "Skoteinos ouranos",
+  "translit": "skoteinos",
+  "word": "σκοτεινός",
+  "word_en": "dark"
+ },
+ {
+  "note": "Adjective, sky-blue.",
+  "phrase": "Γαλάζια σημαία",
+  "phrase_en": "Blue Flag (the beach eco-award)",
+  "phrase_translit": "Galazia simaia",
+  "translit": "galazios",
+  "word": "γαλάζιος",
+  "word_en": "sky-blue"
+ },
+ {
+  "note": "Adjective, indeclinable.",
+  "phrase": "Μπλε πόρτες",
+  "phrase_en": "Blue doors",
+  "phrase_translit": "Ble portes",
+  "translit": "ble",
+  "word": "μπλε",
+  "word_en": "blue"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Λευκά σπίτια",
+  "phrase_en": "White houses",
+  "phrase_translit": "Lefka spitia",
+  "translit": "lefkos",
+  "word": "λευκός",
+  "word_en": "white"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Πράσινοι λόφοι",
+  "phrase_en": "Green hills",
+  "phrase_translit": "Prasinoi lofoi",
+  "translit": "prasinos",
+  "word": "πράσινος",
+  "word_en": "green"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Κόκκινα κεραμίδια",
+  "phrase_en": "Red roof tiles",
+  "phrase_translit": "Kokkina keramidia",
+  "translit": "kokkinos",
+  "word": "κόκκινος",
+  "word_en": "red"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Χρυσή άμμος",
+  "phrase_en": "Golden sand",
+  "phrase_translit": "Chrysi ammos",
+  "translit": "chrysos",
+  "word": "χρυσός",
+  "word_en": "golden"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Ασημένιο φεγγάρι",
+  "phrase_en": "Silvery moon",
+  "phrase_translit": "Asimenio fengari",
+  "translit": "asimenios",
+  "word": "ασημένιος",
+  "word_en": "silvery"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Καθαρός ουρανός",
+  "phrase_en": "Clear sky",
+  "phrase_translit": "Katharos ouranos",
+  "translit": "katharos",
+  "word": "καθαρός",
+  "word_en": "clear"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Ήρεμο κύμα",
+  "phrase_en": "Calm wave",
+  "phrase_translit": "Iremo kyma",
+  "translit": "iremos",
+  "word": "ήρεμος",
+  "word_en": "calm"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Άγρια ομορφιά",
+  "phrase_en": "Wild beauty",
+  "phrase_translit": "Agria omorfia",
+  "translit": "agrios",
+  "word": "άγριος",
+  "word_en": "wild"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Γρήγορη βάρκα",
+  "phrase_en": "Fast boat",
+  "phrase_translit": "Grigori varka",
+  "translit": "grigoros",
+  "word": "γρήγορος",
+  "word_en": "fast"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Αργά απογεύματα",
+  "phrase_en": "Slow afternoons",
+  "phrase_translit": "Arga apoyevmata",
+  "translit": "argos",
+  "word": "αργός",
+  "word_en": "slow"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Εύκολος δρόμος",
+  "phrase_en": "Easy road",
+  "phrase_translit": "Efkolos dromos",
+  "translit": "efkolos",
+  "word": "εύκολος",
+  "word_en": "easy"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Δύσκολη ανάβαση",
+  "phrase_en": "Difficult climb",
+  "phrase_translit": "Dyskoli anavasi",
+  "translit": "dyskolos",
+  "word": "δύσκολος",
+  "word_en": "difficult"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Χαρούμενα πρόσωπα",
+  "phrase_en": "Happy faces",
+  "phrase_translit": "Charoumena prosopa",
+  "translit": "charoumenos",
+  "word": "χαρούμενος",
+  "word_en": "happy"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Λυπημένο αντίο",
+  "phrase_en": "Sad farewell",
+  "phrase_translit": "Lypimeno antio",
+  "translit": "lypimenos",
+  "word": "λυπημένος",
+  "word_en": "sad"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Γλυκιά κούραση",
+  "phrase_en": "Sweet tiredness",
+  "phrase_translit": "Glykia kourasi",
+  "translit": "kourasmenos",
+  "word": "κουρασμένος",
+  "word_en": "tired"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Ξύπνιος από νωρίς",
+  "phrase_en": "Awake since early",
+  "phrase_translit": "Xypnios apo noris",
+  "translit": "xypnios",
+  "word": "ξύπνιος",
+  "word_en": "awake"
+ },
+ {
+  "note": "Adjective.",
+  "phrase": "Γεμάτο φεγγάρι",
+  "phrase_en": "Full moon",
+  "phrase_translit": "Gemato fengari",
+  "translit": "gematos",
+  "word": "γεμάτος",
+  "word_en": "full"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Άρωμα γιασεμιού",
+  "phrase_en": "Scent of jasmine",
+  "phrase_translit": "Aroma yasemiou",
+  "translit": "to yasemi",
+  "word": "το γιασεμί",
+  "word_en": "jasmine"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ανθισμένη λεμονιά",
+  "phrase_en": "Lemon tree in blossom",
+  "phrase_translit": "Anthismeni lemonia",
+  "translit": "i lemonia",
+  "word": "η λεμονιά",
+  "word_en": "lemon tree"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Πορτοκαλιές στον κήπο",
+  "phrase_en": "Orange trees in the garden",
+  "phrase_translit": "Portokalies ston kipo",
+  "translit": "i portokalia",
+  "word": "η πορτοκαλιά",
+  "word_en": "orange tree"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Ψηλά κυπαρίσσια",
+  "phrase_en": "Tall cypresses",
+  "phrase_translit": "Psila kyparissia",
+  "translit": "to kyparissi",
+  "word": "το κυπαρίσσι",
+  "word_en": "cypress"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Κάτω από την πεύκη",
+  "phrase_en": "Under the pine",
+  "phrase_translit": "Kato apo tin pefki",
+  "translit": "i pefki",
+  "word": "η πεύκη",
+  "word_en": "pine"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Πλάτανος στην πλατεία",
+  "phrase_en": "A plane tree on the square",
+  "phrase_translit": "Platanos stin plateia",
+  "translit": "o platanos",
+  "word": "ο πλάτανος",
+  "word_en": "plane tree"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Σύκα από τη συκιά",
+  "phrase_en": "Figs from the fig tree",
+  "phrase_translit": "Syka apo ti sykia",
+  "translit": "i sykia",
+  "word": "η συκιά",
+  "word_en": "fig tree"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το αμπέλι ωριμάζει",
+  "phrase_en": "The vineyard is ripening",
+  "phrase_translit": "To ambeli orimazei",
+  "translit": "to ambeli",
+  "word": "το αμπέλι",
+  "word_en": "vineyard"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Γλυκά σταφύλια",
+  "phrase_en": "Sweet grapes",
+  "phrase_translit": "Glyka stafylia",
+  "translit": "to stafyli",
+  "word": "το σταφύλι",
+  "word_en": "grape"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ρόδια του φθινοπώρου",
+  "phrase_en": "Autumn pomegranates",
+  "phrase_translit": "Rodia tou fthinoporou",
+  "translit": "i rodia",
+  "word": "η ροδιά",
+  "word_en": "pomegranate tree"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Μυρωδιά θυμαριού",
+  "phrase_en": "Smell of thyme",
+  "phrase_translit": "Myrodia thymariou",
+  "translit": "to thymari",
+  "word": "το θυμάρι",
+  "word_en": "thyme"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ρίγανη του βουνού",
+  "phrase_en": "Mountain oregano",
+  "phrase_translit": "Rigani tou vounou",
+  "translit": "i rigani",
+  "word": "η ρίγανη",
+  "word_en": "oregano"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Τσάι χαμομήλι",
+  "phrase_en": "Chamomile tea",
+  "phrase_translit": "Tsai chamomili",
+  "translit": "to chamomili",
+  "word": "το χαμομήλι",
+  "word_en": "chamomile"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Βασιλικός στο περβάζι",
+  "phrase_en": "Basil on the windowsill",
+  "phrase_translit": "Vasilikos sto pervazi",
+  "translit": "o vasilikos",
+  "word": "ο βασιλικός",
+  "word_en": "basil"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Λουλούδια στη γλάστρα",
+  "phrase_en": "Flowers in the pot",
+  "phrase_translit": "Louloudia sti glastra",
+  "translit": "i glastra",
+  "word": "η γλάστρα",
+  "word_en": "flowerpot"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Σπόροι της άνοιξης",
+  "phrase_en": "Seeds of spring",
+  "phrase_translit": "Sporoi tis anoixis",
+  "translit": "o sporos",
+  "word": "ο σπόρος",
+  "word_en": "seed"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Βαθιές ρίζες",
+  "phrase_en": "Deep roots",
+  "phrase_translit": "Vathies rizes",
+  "translit": "i riza",
+  "word": "η ρίζα",
+  "word_en": "root"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Πράσινα φύλλα",
+  "phrase_en": "Green leaves",
+  "phrase_translit": "Prasina fylla",
+  "translit": "to fyllo",
+  "word": "το φύλλο",
+  "word_en": "leaf"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Κλαδιά ελιάς",
+  "phrase_en": "Olive branches",
+  "phrase_translit": "Kladia elias",
+  "translit": "to kladi",
+  "word": "το κλαδί",
+  "word_en": "branch"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ώριμοι καρποί",
+  "phrase_en": "Ripe fruit",
+  "phrase_translit": "Orimoi karpoi",
+  "translit": "o karpos",
+  "word": "ο καρπός",
+  "word_en": "fruit"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Πουλί στον ουρανό",
+  "phrase_en": "A bird in the sky",
+  "phrase_translit": "Pouli ston ourano",
+  "translit": "to pouli",
+  "word": "το πουλί",
+  "word_en": "bird"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Κελαηδάει τ' αηδόνι",
+  "phrase_en": "The nightingale is trilling",
+  "phrase_translit": "Kelaedaei t' aidoni",
+  "translit": "to aidoni",
+  "word": "το αηδόνι",
+  "word_en": "nightingale"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Γλάροι στο λιμάνι",
+  "phrase_en": "Seagulls at the harbour",
+  "phrase_translit": "Glaroi sto limani",
+  "translit": "o glaros",
+  "word": "ο γλάρος",
+  "word_en": "seagull"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Πεταλούδες στον κήπο",
+  "phrase_en": "Butterflies in the garden",
+  "phrase_translit": "Petaloudes ston kipo",
+  "translit": "i petalouda",
+  "word": "η πεταλούδα",
+  "word_en": "butterfly"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Οι μέλισσες δουλεύουν",
+  "phrase_en": "The bees are working",
+  "phrase_translit": "Oi melisses doulevoun",
+  "translit": "i melissa",
+  "word": "η μέλισσα",
+  "word_en": "bee"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Τζιτζίκια το καλοκαίρι",
+  "phrase_en": "Cicadas in summer",
+  "phrase_translit": "Tzitzikia to kalokairi",
+  "translit": "to tzitziki",
+  "word": "το τζιτζίκι",
+  "word_en": "cicada"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η γάτα λιάζεται",
+  "phrase_en": "The cat is sunbathing",
+  "phrase_translit": "I gata liazeta",
+  "translit": "i gata",
+  "word": "η γάτα",
+  "word_en": "cat"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Πιστός σκύλος",
+  "phrase_en": "Loyal dog",
+  "phrase_translit": "Pistos skylos",
+  "translit": "o skylos",
+  "word": "ο σκύλος",
+  "word_en": "dog"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Λευκό άλογο",
+  "phrase_en": "White horse",
+  "phrase_translit": "Lefko alogo",
+  "translit": "to alogo",
+  "word": "το άλογο",
+  "word_en": "horse"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Πρόβατα στο λιβάδι",
+  "phrase_en": "Sheep in the meadow",
+  "phrase_translit": "Provata sto livadi",
+  "translit": "to provato",
+  "word": "το πρόβατο",
+  "word_en": "sheep"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Κατσίκες στα βράχια",
+  "phrase_en": "Goats on the rocks",
+  "phrase_translit": "Katsikes sta vrachia",
+  "translit": "i katsika",
+  "word": "η κατσίκα",
+  "word_en": "goat"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Πράσινο λιβάδι",
+  "phrase_en": "Green meadow",
+  "phrase_translit": "Prasino livadi",
+  "translit": "to livadi",
+  "word": "το λιβάδι",
+  "word_en": "meadow"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο λόφος με τις ελιές",
+  "phrase_en": "The hill with the olive trees",
+  "phrase_translit": "O lofos me tis elies",
+  "translit": "o lofos",
+  "word": "ο λόφος",
+  "word_en": "hill"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ηλιόλουστη πλαγιά",
+  "phrase_en": "Sunny slope",
+  "phrase_translit": "Iliolousti plagia",
+  "translit": "i plagia",
+  "word": "η πλαγιά",
+  "word_en": "slope"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Βράχος στη θάλασσα",
+  "phrase_en": "A rock in the sea",
+  "phrase_translit": "Vrachos sti thalassa",
+  "translit": "o vrachos",
+  "word": "ο βράχος",
+  "word_en": "rock"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Γαλάζια σπηλιά",
+  "phrase_en": "Blue cave",
+  "phrase_translit": "Galazia spilia",
+  "translit": "i spilia",
+  "word": "η σπηλιά",
+  "word_en": "cave"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ορμητικός καταρράκτης",
+  "phrase_en": "Rushing waterfall",
+  "phrase_translit": "Ormitikos katarraktis",
+  "translit": "o katarraktis",
+  "word": "ο καταρράκτης",
+  "word_en": "waterfall"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το ποτάμι κυλάει",
+  "phrase_en": "The river flows",
+  "phrase_translit": "To potami kylaei",
+  "translit": "to potami",
+  "word": "το ποτάμι",
+  "word_en": "river"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ήρεμη λίμνη",
+  "phrase_en": "Calm lake",
+  "phrase_translit": "Iremi limni",
+  "translit": "i limni",
+  "word": "η λίμνη",
+  "word_en": "lake"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Κρύα πηγή",
+  "phrase_en": "Cold spring (water source)",
+  "phrase_translit": "Krya pigi",
+  "translit": "i pigi",
+  "word": "η πηγή",
+  "word_en": "spring (water source)"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το ρυάκι κελαρύζει",
+  "phrase_en": "The stream murmurs",
+  "phrase_translit": "To ryaki kelaryzei",
+  "translit": "to ryaki",
+  "word": "το ρυάκι",
+  "word_en": "stream"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ζεστή άμμος",
+  "phrase_en": "Warm sand",
+  "phrase_translit": "Zesti ammos",
+  "translit": "i ammos",
+  "word": "η άμμος",
+  "word_en": "sand"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Βότσαλα στην ακτή",
+  "phrase_en": "Pebbles on the shore",
+  "phrase_translit": "Votsala stin akti",
+  "translit": "to votsalo",
+  "word": "το βότσαλο",
+  "word_en": "pebble"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Κοχύλια για ενθύμιο",
+  "phrase_en": "Shells as souvenirs",
+  "phrase_translit": "Kochylia gia enthymio",
+  "translit": "to kochyli",
+  "word": "το κοχύλι",
+  "word_en": "seashell"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο βυθός της θάλασσας",
+  "phrase_en": "The seabed",
+  "phrase_translit": "O vythos tis thalassas",
+  "translit": "o vythos",
+  "word": "ο βυθός",
+  "word_en": "seabed"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η υπομονή είναι αρετή",
+  "phrase_en": "Patience is a virtue",
+  "phrase_translit": "I ypomoni einai areti",
+  "translit": "i ypomoni",
+  "word": "η υπομονή",
+  "word_en": "patience"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Τα αγαθά κόποις κτώνται",
+  "phrase_en": "Good things are gained through toil (ancient proverb)",
+  "phrase_translit": "Ta agatha kopois ktontai",
+  "translit": "o kopos",
+  "word": "ο κόπος",
+  "word_en": "effort, toil"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η αρχή είναι το ήμισυ του παντός",
+  "phrase_en": "The beginning is half of everything",
+  "phrase_translit": "I archi einai to imisy tou pantos",
+  "translit": "i archi",
+  "word": "η αρχή",
+  "word_en": "beginning"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Τέλος καλό, όλα καλά",
+  "phrase_en": "All's well that ends well",
+  "phrase_translit": "Telos kalo, ola kala",
+  "translit": "to telos",
+  "word": "το τέλος",
+  "word_en": "end"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η τύχη βοηθάει τους τολμηρούς",
+  "phrase_en": "Fortune favours the bold",
+  "phrase_translit": "I tychi voithaei tous tolmirous",
+  "translit": "i tychi",
+  "word": "η τύχη",
+  "word_en": "luck"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Κάλλιο αργά παρά ποτέ",
+  "phrase_en": "Better late than never",
+  "phrase_translit": "Kallio arga para pote",
+  "translit": "to roloi",
+  "word": "το ρολόι",
+  "word_en": "clock"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η σιωπή είναι χρυσός",
+  "phrase_en": "Silence is golden",
+  "phrase_translit": "I siopi einai chrysos",
+  "translit": "i siopi",
+  "word": "η σιωπή",
+  "word_en": "silence"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Τα πολλά λόγια είναι φτώχεια",
+  "phrase_en": "Too many words are poverty (saying)",
+  "phrase_translit": "Ta polla logia einai ftocheia",
+  "translit": "o logos",
+  "word": "ο λόγος",
+  "word_en": "speech"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η αλήθεια να λέγεται",
+  "phrase_en": "Let the truth be told",
+  "phrase_translit": "I alitheia na legetai",
+  "translit": "i alitheia",
+  "word": "η αλήθεια",
+  "word_en": "truth"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το ψέμα έχει κοντά ποδάρια",
+  "phrase_en": "Lies have short legs (saying)",
+  "phrase_translit": "To psema echei konta podaria",
+  "translit": "to psema",
+  "word": "το ψέμα",
+  "word_en": "lie"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Οι φίλοι στα δύσκολα φαίνονται",
+  "phrase_en": "Friends are known in hard times",
+  "phrase_translit": "Oi filoi sta dyskola fainontai",
+  "translit": "o filos",
+  "word": "ο φίλος",
+  "word_en": "friend"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η αγάπη όλα τα νικά",
+  "phrase_en": "Love conquers all",
+  "phrase_translit": "I agapi ola ta nika",
+  "translit": "i agapi",
+  "word": "η αγάπη",
+  "word_en": "love"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Με όλη μου την καρδιά",
+  "phrase_en": "With all my heart",
+  "phrase_translit": "Me oli mou tin kardia",
+  "translit": "i kardia",
+  "word": "η καρδιά",
+  "word_en": "heart"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το γέλιο είναι υγεία",
+  "phrase_en": "Laughter is health",
+  "phrase_translit": "To yelio einai ygeia",
+  "translit": "to yelio",
+  "word": "το γέλιο",
+  "word_en": "laughter"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Δάκρυα χαράς",
+  "phrase_en": "Tears of joy",
+  "phrase_translit": "Dakrya charas",
+  "translit": "to dakry",
+  "word": "το δάκρυ",
+  "word_en": "tear"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η χαρά μοιράζεται",
+  "phrase_en": "Joy is meant to be shared",
+  "phrase_translit": "I chara moirazetai",
+  "translit": "i chara",
+  "word": "η χαρά",
+  "word_en": "joy"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η λύπη περνάει",
+  "phrase_en": "Sorrow passes",
+  "phrase_translit": "I lypi pernaei",
+  "translit": "i lypi",
+  "word": "η λύπη",
+  "word_en": "sorrow"
+ },
+ {
+  "note": "Feminine noun; traditional proverb about mutual help (verified in proverb collections).",
+  "phrase": "Κράτα με να σε κρατώ ν' ανεβούμε το βουνό",
+  "phrase_en": "Hold me so I hold you, and we'll climb the mountain (proverb)",
+  "phrase_translit": "Krata me na se krato n' anevoume to vouno",
+  "translit": "i voithia",
+  "word": "η βοήθεια",
+  "word_en": "help"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Θάρρος!",
+  "phrase_en": "Courage!",
+  "phrase_translit": "Tharros!",
+  "translit": "to tharros",
+  "word": "το θάρρος",
+  "word_en": "courage"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η ελπίδα πεθαίνει τελευταία",
+  "phrase_en": "Hope dies last",
+  "phrase_translit": "I elpida pethainei telefteaia",
+  "translit": "i elpida",
+  "word": "η ελπίδα",
+  "word_en": "hope"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η πίστη μετακινεί βουνά",
+  "phrase_en": "Faith moves mountains",
+  "phrase_translit": "I pisti metakinei vouna",
+  "translit": "i pisti",
+  "word": "η πίστη",
+  "word_en": "faith"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η σοφία έρχεται με τα χρόνια",
+  "phrase_en": "Wisdom comes with the years",
+  "phrase_translit": "I sofia erchetai me ta chronia",
+  "translit": "i sofia",
+  "word": "η σοφία",
+  "word_en": "wisdom"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η γνώση είναι δύναμη",
+  "phrase_en": "Knowledge is power",
+  "phrase_translit": "I gnosi einai dynami",
+  "translit": "i gnosi",
+  "word": "η γνώση",
+  "word_en": "knowledge"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η ισχύς εν τη ενώσει",
+  "phrase_en": "Strength through unity (national motto)",
+  "phrase_translit": "I ischys en ti enosei",
+  "translit": "i dynami",
+  "word": "η δύναμη",
+  "word_en": "strength"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ελευθερία ή θάνατος",
+  "phrase_en": "Freedom or death (national motto)",
+  "phrase_translit": "Eleftheria i thanatos",
+  "translit": "i eleftheria",
+  "word": "η ελευθερία",
+  "word_en": "freedom"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Γλυκιά πατρίδα",
+  "phrase_en": "Sweet homeland",
+  "phrase_translit": "Glykia patrida",
+  "translit": "i patrida",
+  "word": "η πατρίδα",
+  "word_en": "homeland"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η ελληνική φιλοξενία",
+  "phrase_en": "Greek hospitality",
+  "phrase_translit": "I elliniki filoxenia",
+  "translit": "i filoxenia",
+  "word": "η φιλοξενία",
+  "word_en": "hospitality"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Τα έθιμα του τόπου",
+  "phrase_en": "The customs of the place",
+  "phrase_translit": "Ta ethima tou topou",
+  "translit": "to ethimo",
+  "word": "το έθιμο",
+  "word_en": "custom"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Παράδοση και ιστορία",
+  "phrase_en": "Tradition and history",
+  "phrase_translit": "Paradosi kai istoria",
+  "translit": "i paradosi",
+  "word": "η παράδοση",
+  "word_en": "tradition"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Κάθε πέτρα μια ιστορία",
+  "phrase_en": "Every stone a story",
+  "phrase_translit": "Kathe petra mia istoria",
+  "translit": "i istoria",
+  "word": "η ιστορία",
+  "word_en": "history"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Μύθοι του Αιγαίου",
+  "phrase_en": "Myths of the Aegean",
+  "phrase_translit": "Mythoi tou Aigaiou",
+  "translit": "o mythos",
+  "word": "ο μύθος",
+  "word_en": "myth"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Οι θεοί του Ολύμπου",
+  "phrase_en": "The gods of Olympus",
+  "phrase_translit": "Oi theoi tou Olympou",
+  "translit": "o theos",
+  "word": "ο θεός",
+  "word_en": "god"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ήρωες της θάλασσας",
+  "phrase_en": "Heroes of the sea",
+  "phrase_translit": "Iroes tis thalassas",
+  "translit": "o iroas",
+  "word": "ο ήρωας",
+  "word_en": "hero"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Σπεύδε βραδέως",
+  "phrase_en": "Make haste slowly (ancient maxim)",
+  "phrase_translit": "Spevde vradeos",
+  "translit": "i viasyni",
+  "word": "η βιασύνη",
+  "word_en": "haste"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Γνώθι σαυτόν",
+  "phrase_en": "Know thyself (Delphic maxim)",
+  "phrase_translit": "Gnothi safton",
+  "translit": "o eaftos",
+  "word": "ο εαυτός",
+  "word_en": "self"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Μέτρον άριστον",
+  "phrase_en": "Moderation is best (Delphic maxim)",
+  "phrase_translit": "Metron ariston",
+  "translit": "to metro",
+  "word": "το μέτρο",
+  "word_en": "measure"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Κοντά στη φύση",
+  "phrase_en": "Close to nature",
+  "phrase_translit": "Konta sti fysi",
+  "translit": "i fysi",
+  "word": "η φύση",
+  "word_en": "nature"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η γη μας τρέφει",
+  "phrase_en": "The earth feeds us",
+  "phrase_translit": "I gi mas trefei",
+  "translit": "i gi",
+  "word": "η γη",
+  "word_en": "earth"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Όλος ο κόσμος",
+  "phrase_en": "The whole world",
+  "phrase_translit": "Olos o kosmos",
+  "translit": "o kosmos",
+  "word": "ο κόσμος",
+  "word_en": "world"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η ζωή είναι ωραία",
+  "phrase_en": "Life is beautiful",
+  "phrase_translit": "I zoi einai oraia",
+  "translit": "i zoi",
+  "word": "η ζωή",
+  "word_en": "life"
+ },
+ {
+  "note": "Feminine noun, of Greek origin.",
+  "phrase": "Νοσταλγία για το Αιγαίο",
+  "phrase_en": "Nostalgia for the Aegean",
+  "phrase_translit": "Nostalgia gia to Aigaio",
+  "translit": "i nostalgia",
+  "word": "η νοσταλγία",
+  "word_en": "nostalgia"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η επιστροφή στο νησί",
+  "phrase_en": "The return to the island",
+  "phrase_translit": "I epistrofi sto nisi",
+  "translit": "i epistrofi",
+  "word": "η επιστροφή",
+  "word_en": "return"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το αντίο είναι δύσκολο",
+  "phrase_en": "Farewells are hard",
+  "phrase_translit": "To antio einai dyskolo",
+  "translit": "to antio",
+  "word": "το αντίο",
+  "word_en": "farewell"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ένας θερμός αποχαιρετισμός",
+  "phrase_en": "A warm goodbye",
+  "phrase_translit": "Enas thermos apochairetismos",
+  "translit": "o apochairetismos",
+  "word": "ο αποχαιρετισμός",
+  "word_en": "goodbye"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Χαρούμενη συνάντηση",
+  "phrase_en": "Happy reunion",
+  "phrase_translit": "Charoumeni synantisi",
+  "translit": "i synantisi",
+  "word": "η συνάντηση",
+  "word_en": "reunion"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Επίσκεψη στο μουσείο",
+  "phrase_en": "A visit to the museum",
+  "phrase_translit": "Episkepsi sto mouseio",
+  "translit": "to mouseio",
+  "word": "το μουσείο",
+  "word_en": "museum"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η τέχνη του τόπου",
+  "phrase_en": "The art of the place",
+  "phrase_translit": "I techni tou topou",
+  "translit": "i techni",
+  "word": "η τέχνη",
+  "word_en": "art"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ντόπιος καλλιτέχνης",
+  "phrase_en": "Local artist",
+  "phrase_translit": "Topios kallitechnis",
+  "translit": "o kallitechnis",
+  "word": "ο καλλιτέχνης",
+  "word_en": "artist"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Πίνακας με το Αιγαίο",
+  "phrase_en": "A painting of the Aegean",
+  "phrase_translit": "Pinakas me to Aigaio",
+  "translit": "o pinakas",
+  "word": "ο πίνακας",
+  "word_en": "painting"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Αρχαίο άγαλμα",
+  "phrase_en": "Ancient statue",
+  "phrase_translit": "Archaio agalma",
+  "translit": "to agalma",
+  "word": "το άγαλμα",
+  "word_en": "statue"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Μαρμάρινες στήλες",
+  "phrase_en": "Marble columns",
+  "phrase_translit": "Marmarines stiles",
+  "translit": "i stili",
+  "word": "η στήλη",
+  "word_en": "column"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Λευκό μάρμαρο",
+  "phrase_en": "White marble",
+  "phrase_translit": "Lefko marmaro",
+  "translit": "to marmaro",
+  "word": "το μάρμαρο",
+  "word_en": "marble"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Πέτρινα σπίτια",
+  "phrase_en": "Stone houses",
+  "phrase_translit": "Petrina spitia",
+  "translit": "i petra",
+  "word": "η πέτρα",
+  "word_en": "stone"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Μονοπάτι στο βουνό",
+  "phrase_en": "Mountain path",
+  "phrase_translit": "Monopati sto vouno",
+  "translit": "to monopati",
+  "word": "το μονοπάτι",
+  "word_en": "path"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Όμορφη διαδρομή",
+  "phrase_en": "Beautiful route",
+  "phrase_translit": "Omorfi diadromi",
+  "translit": "i diadromi",
+  "word": "η διαδρομή",
+  "word_en": "route"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Χάρτης του νησιού",
+  "phrase_en": "Map of the island",
+  "phrase_translit": "Chartis tou nisiou",
+  "translit": "o chartis",
+  "word": "ο χάρτης",
+  "word_en": "map"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Πυξίδα και χάρτης",
+  "phrase_en": "Compass and map",
+  "phrase_translit": "Pyxida kai chartis",
+  "translit": "i pyxida",
+  "word": "η πυξίδα",
+  "word_en": "compass"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Εισιτήριο για το πλοίο",
+  "phrase_en": "Ticket for the ship",
+  "phrase_translit": "Eisitirio gia to ploio",
+  "translit": "to eisitirio",
+  "word": "το εισιτήριο",
+  "word_en": "ticket"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Θέση με θέα",
+  "phrase_en": "A seat with a view",
+  "phrase_translit": "Thesi me thea",
+  "translit": "i thesi",
+  "word": "η θέση",
+  "word_en": "seat"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Στάση για φωτογραφία",
+  "phrase_en": "A stop for a photo",
+  "phrase_translit": "Stasi gia fotografia",
+  "translit": "i stasi",
+  "word": "η στάση",
+  "word_en": "stop"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το λεωφορείο φεύγει",
+  "phrase_en": "The bus is leaving",
+  "phrase_translit": "To leoforeio fevgei",
+  "translit": "to leoforeio",
+  "word": "το λεωφορείο",
+  "word_en": "bus"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Ταξίδι με τρένο",
+  "phrase_en": "Journey by train",
+  "phrase_translit": "Taxidi me treno",
+  "translit": "to treno",
+  "word": "το τρένο",
+  "word_en": "train"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το αεροπλάνο προσγειώνεται",
+  "phrase_en": "The plane is landing",
+  "phrase_translit": "To aeroplano prosgeionetai",
+  "translit": "to aeroplano",
+  "word": "το αεροπλάνο",
+  "word_en": "aeroplane"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Στο αεροδρόμιο",
+  "phrase_en": "At the airport",
+  "phrase_translit": "Sto aerodromio",
+  "translit": "to aerodromio",
+  "word": "το αεροδρόμιο",
+  "word_en": "airport"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Καλή πτήση!",
+  "phrase_en": "Have a good flight!",
+  "phrase_translit": "Kali ptisi!",
+  "translit": "i ptisi",
+  "word": "η πτήση",
+  "word_en": "flight"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο προορισμός μας",
+  "phrase_en": "Our destination",
+  "phrase_translit": "O proorismos mas",
+  "translit": "o proorismos",
+  "word": "ο προορισμός",
+  "word_en": "destination"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ώρα αναχώρησης",
+  "phrase_en": "Departure time",
+  "phrase_translit": "Ora anachorisis",
+  "translit": "i anachorisi",
+  "word": "η αναχώρηση",
+  "word_en": "departure"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ώρα άφιξης",
+  "phrase_en": "Arrival time",
+  "phrase_translit": "Ora afixis",
+  "translit": "i afixi",
+  "word": "η άφιξη",
+  "word_en": "arrival"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο οδηγός μας περιμένει",
+  "phrase_en": "Our driver is waiting",
+  "phrase_translit": "O odigos mas perimenei",
+  "translit": "o odigos",
+  "word": "ο οδηγός",
+  "word_en": "driver"
+ },
+ {
+  "note": "Feminine noun; 'ξενάγηση' has no Wiktionary entry, replaced with verified synonym.",
+  "phrase": "Περιήγηση στην παλιά πόλη",
+  "phrase_en": "A tour of the old town",
+  "phrase_translit": "Periigisi stin palia poli",
+  "translit": "i periigisi",
+  "word": "η περιήγηση",
+  "word_en": "sightseeing tour"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Καλοδεχούμενος επισκέπτης",
+  "phrase_en": "Welcome visitor",
+  "phrase_translit": "Kalodechoumenos episkeptis",
+  "translit": "o episkeptis",
+  "word": "ο επισκέπτης",
+  "word_en": "visitor"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Αναμνήσεις από το ταξίδι",
+  "phrase_en": "Memories of the trip",
+  "phrase_translit": "Anamniseis apo to taxidi",
+  "translit": "i anamnisi",
+  "word": "η ανάμνηση",
+  "word_en": "memory"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Ενθύμια από την Ελλάδα",
+  "phrase_en": "Souvenirs from Greece",
+  "phrase_translit": "Enthymia apo tin Ellada",
+  "translit": "to enthymio",
+  "word": "το ενθύμιο",
+  "word_en": "souvenir"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Δώρο για τους φίλους",
+  "phrase_en": "A gift for friends",
+  "phrase_translit": "Doro gia tous filous",
+  "translit": "to doro",
+  "word": "το δώρο",
+  "word_en": "gift"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Βόλτα στην αγορά",
+  "phrase_en": "A stroll through the market",
+  "phrase_translit": "Volta stin agora",
+  "translit": "i agora",
+  "word": "η αγορά",
+  "word_en": "market"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Μικρά μαγαζιά",
+  "phrase_en": "Little shops",
+  "phrase_translit": "Mikra magazia",
+  "translit": "to magazi",
+  "word": "το μαγαζί",
+  "word_en": "shop"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Καλή τιμή",
+  "phrase_en": "Good price",
+  "phrase_translit": "Kali timi",
+  "translit": "i timi",
+  "word": "η τιμή",
+  "word_en": "price"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Χρήματα για το ταξίδι",
+  "phrase_en": "Money for the trip",
+  "phrase_translit": "Chrimata gia to taxidi",
+  "translit": "to chrima",
+  "word": "το χρήμα",
+  "word_en": "money"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Τον λογαριασμό, παρακαλώ",
+  "phrase_en": "The bill, please",
+  "phrase_translit": "Ton logariasmo, parakalo",
+  "translit": "o logariasmos",
+  "word": "ο λογαριασμός",
+  "word_en": "bill"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο σερβιτόρος χαμογελάει",
+  "phrase_en": "The waiter is smiling",
+  "phrase_translit": "O servitoros chamogelaei",
+  "translit": "o servitoros",
+  "word": "ο σερβιτόρος",
+  "word_en": "waiter"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Μεγάλη μερίδα",
+  "phrase_en": "Generous portion",
+  "phrase_translit": "Megali merida",
+  "translit": "i merida",
+  "word": "η μερίδα",
+  "word_en": "portion"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Παραδοσιακή συνταγή",
+  "phrase_en": "Traditional recipe",
+  "phrase_translit": "Paradosiaki syntagi",
+  "translit": "i syntagi",
+  "word": "η συνταγή",
+  "word_en": "recipe"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Γλυκό κουταλιού",
+  "phrase_en": "Spoon sweet (traditional preserve)",
+  "phrase_translit": "Glyko koutaliou",
+  "translit": "to glyko",
+  "word": "το γλυκό",
+  "word_en": "dessert"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Μεζέδες και ούζο",
+  "phrase_en": "Meze and ouzo",
+  "phrase_translit": "Mezedes kai ouzo",
+  "translit": "o mezes",
+  "word": "ο μεζές",
+  "word_en": "meze"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Ούζο με πάγο",
+  "phrase_en": "Ouzo with ice",
+  "phrase_translit": "Ouzo me pago",
+  "translit": "to ouzo",
+  "word": "το ούζο",
+  "word_en": "ouzo"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ρακή στην Κρήτη",
+  "phrase_en": "Raki in Crete",
+  "phrase_translit": "Raki stin Kriti",
+  "translit": "i raki",
+  "word": "η ρακή",
+  "word_en": "raki"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Τσίπουρο με μεζέ",
+  "phrase_en": "Tsipouro with meze",
+  "phrase_translit": "Tsipouro me meze",
+  "translit": "to tsipouro",
+  "word": "το τσίπουρο",
+  "word_en": "tsipouro"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Κρύα μπύρα",
+  "phrase_en": "Cold beer",
+  "phrase_translit": "Krya byra",
+  "translit": "i byra",
+  "word": "η μπύρα",
+  "word_en": "beer"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Φρέσκος χυμός πορτοκάλι",
+  "phrase_en": "Fresh orange juice",
+  "phrase_translit": "Freskos chymos portokali",
+  "translit": "o chymos",
+  "word": "ο χυμός",
+  "word_en": "juice"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Διακοπές με την οικογένεια",
+  "phrase_en": "Holidays with the family",
+  "phrase_translit": "Diakopes me tin oikogeneia",
+  "translit": "i oikogeneia",
+  "word": "η οικογένεια",
+  "word_en": "family"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο πατέρας μου",
+  "phrase_en": "My father",
+  "phrase_translit": "O pateras mou",
+  "translit": "o pateras",
+  "word": "ο πατέρας",
+  "word_en": "father"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η μητέρα μου μαγειρεύει",
+  "phrase_en": "My mother is cooking",
+  "phrase_translit": "I mitera mou mageirevei",
+  "translit": "i mitera",
+  "word": "η μητέρα",
+  "word_en": "mother"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Χαρούμενα παιδιά",
+  "phrase_en": "Happy children",
+  "phrase_translit": "Charoumena paidia",
+  "translit": "to paidi",
+  "word": "το παιδί",
+  "word_en": "child"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο αδερφός μου",
+  "phrase_en": "My brother",
+  "phrase_translit": "O aderfos mou",
+  "translit": "o aderfos",
+  "word": "ο αδερφός",
+  "word_en": "brother"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η αδερφή μου",
+  "phrase_en": "My sister",
+  "phrase_translit": "I aderfi mou",
+  "translit": "i aderfi",
+  "word": "η αδερφή",
+  "word_en": "sister"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Καλοί γείτονες",
+  "phrase_en": "Good neighbours",
+  "phrase_translit": "Kaloi geitones",
+  "translit": "o geitonas",
+  "word": "ο γείτονας",
+  "word_en": "neighbour"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Τουρίστες από παντού",
+  "phrase_en": "Tourists from everywhere",
+  "phrase_translit": "Touristes apo pantou",
+  "translit": "o touristas",
+  "word": "ο τουρίστας",
+  "word_en": "tourist"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Καλή παρέα",
+  "phrase_en": "Good company",
+  "phrase_translit": "Kali parea",
+  "translit": "i parea",
+  "word": "η παρέα",
+  "word_en": "company (of friends)"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Ένα μεγάλο χαμόγελο",
+  "phrase_en": "A big smile",
+  "phrase_translit": "Ena megalo chamogelo",
+  "translit": "to chamogelo",
+  "word": "το χαμόγελο",
+  "word_en": "smile"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το βλέμμα στον ορίζοντα",
+  "phrase_en": "Gaze fixed on the horizon",
+  "phrase_translit": "To vlemma ston orizonta",
+  "translit": "to vlemma",
+  "word": "το βλέμμα",
+  "word_en": "gaze"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Γλυκιά φωνή",
+  "phrase_en": "Sweet voice",
+  "phrase_translit": "Glykia foni",
+  "translit": "i foni",
+  "word": "η φωνή",
+  "word_en": "voice"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Παλιό τραγούδι",
+  "phrase_en": "Old song",
+  "phrase_translit": "Palio tragoudi",
+  "translit": "to tragoudi",
+  "word": "το τραγούδι",
+  "word_en": "song"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ελληνική μουσική",
+  "phrase_en": "Greek music",
+  "phrase_translit": "Elliniki mousiki",
+  "translit": "i mousiki",
+  "word": "η μουσική",
+  "word_en": "music"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Παραδοσιακός χορός",
+  "phrase_en": "Traditional dance",
+  "phrase_translit": "Paradosiakos choros",
+  "translit": "o choros",
+  "word": "ο χορός",
+  "word_en": "dance"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το πανηγύρι του χωριού",
+  "phrase_en": "The village festival",
+  "phrase_translit": "To panigyri tou choriou",
+  "translit": "to panigyri",
+  "word": "το πανηγύρι",
+  "word_en": "festival"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Μεγάλη γιορτή",
+  "phrase_en": "Great celebration",
+  "phrase_translit": "Megali giorti",
+  "translit": "i giorti",
+  "word": "η γιορτή",
+  "word_en": "celebration"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Επέτειος γάμου",
+  "phrase_en": "Wedding anniversary",
+  "phrase_translit": "Epeteios gamou",
+  "translit": "i epeteios",
+  "word": "η επέτειος",
+  "word_en": "anniversary"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Γάμος στο νησί",
+  "phrase_en": "Wedding on the island",
+  "phrase_translit": "Gamos sto nisi",
+  "translit": "o gamos",
+  "word": "ο γάμος",
+  "word_en": "wedding"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Καλές ευχές",
+  "phrase_en": "Good wishes",
+  "phrase_translit": "Kales efches",
+  "translit": "i efchi",
+  "word": "η ευχή",
+  "word_en": "wish"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Το θαύμα του Αιγαίου",
+  "phrase_en": "The miracle of the Aegean",
+  "phrase_translit": "To thavma tou Aigaiou",
+  "translit": "to thavma",
+  "word": "το θαύμα",
+  "word_en": "miracle"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η μοίρα μας έφερε εδώ",
+  "phrase_en": "Fate brought us here",
+  "phrase_translit": "I moira mas efere edo",
+  "translit": "i moira",
+  "word": "η μοίρα",
+  "word_en": "fate"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Όμορφη σύμπτωση",
+  "phrase_en": "Lovely coincidence",
+  "phrase_translit": "Omorfi symptosi",
+  "translit": "i symptosi",
+  "word": "η σύμπτωση",
+  "word_en": "coincidence"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ευχάριστη έκπληξη",
+  "phrase_en": "Pleasant surprise",
+  "phrase_translit": "Efcharisti ekplixi",
+  "translit": "i ekplixi",
+  "word": "η έκπληξη",
+  "word_en": "surprise"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Μια αξέχαστη περιπέτεια",
+  "phrase_en": "An unforgettable adventure",
+  "phrase_translit": "Mia axechasti peripeteia",
+  "translit": "i peripeteia",
+  "word": "η περιπέτεια",
+  "word_en": "adventure"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Χωρίς κίνδυνο",
+  "phrase_en": "Without danger",
+  "phrase_translit": "Choris kindyno",
+  "translit": "o kindynos",
+  "word": "ο κίνδυνος",
+  "word_en": "danger"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ασφάλεια πάνω απ' όλα",
+  "phrase_en": "Safety above all",
+  "phrase_translit": "Asfaleia pano ap' ola",
+  "translit": "i asfaleia",
+  "word": "η ασφάλεια",
+  "word_en": "safety"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Απόλυτη ηρεμία",
+  "phrase_en": "Absolute calm",
+  "phrase_translit": "Apolyti iremia",
+  "translit": "i iremia",
+  "word": "η ηρεμία",
+  "word_en": "calmness"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Γαλήνη ψυχής",
+  "phrase_en": "Serenity of soul",
+  "phrase_translit": "Galini psychis",
+  "translit": "i galini",
+  "word": "η γαλήνη",
+  "word_en": "serenity"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η ψυχή του τόπου",
+  "phrase_en": "The soul of the place",
+  "phrase_translit": "I psychi tou topou",
+  "translit": "i psychi",
+  "word": "η ψυχή",
+  "word_en": "soul"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Καθαρό μυαλό",
+  "phrase_en": "Clear mind",
+  "phrase_translit": "Katharo myalo",
+  "translit": "to myalo",
+  "word": "το μυαλό",
+  "word_en": "mind"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Όμορφες σκέψεις",
+  "phrase_en": "Beautiful thoughts",
+  "phrase_translit": "Omorfes skepseis",
+  "translit": "i skepsi",
+  "word": "η σκέψη",
+  "word_en": "thought"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Δυνατά συναισθήματα",
+  "phrase_en": "Strong feelings",
+  "phrase_translit": "Dynata synaisthimata",
+  "translit": "to synaisthima",
+  "word": "το συναίσθημα",
+  "word_en": "feeling"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Μεγάλη συγκίνηση",
+  "phrase_en": "Deep emotion",
+  "phrase_translit": "Megali sygkinisi",
+  "translit": "i sygkinisi",
+  "word": "η συγκίνηση",
+  "word_en": "emotion"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Ζεστή αγκαλιά",
+  "phrase_en": "Warm hug",
+  "phrase_translit": "Zesti angalia",
+  "translit": "i angalia",
+  "word": "η αγκαλιά",
+  "word_en": "hug"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Φιλί στο μέτωπο",
+  "phrase_en": "A kiss on the forehead",
+  "phrase_translit": "Fili sto metopo",
+  "translit": "to fili",
+  "word": "το φιλί",
+  "word_en": "kiss"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Χέρι χέρι",
+  "phrase_en": "Hand in hand",
+  "phrase_translit": "Cheri cheri",
+  "translit": "to cheri",
+  "word": "το χέρι",
+  "word_en": "hand"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Ξυπόλητα πόδια",
+  "phrase_en": "Bare feet",
+  "phrase_translit": "Xypolita podia",
+  "translit": "to podi",
+  "word": "το πόδι",
+  "word_en": "foot"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Γαλανά μάτια",
+  "phrase_en": "Blue eyes",
+  "phrase_translit": "Galana matia",
+  "translit": "to mati",
+  "word": "το μάτι",
+  "word_en": "eye"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Μουσικό αυτί",
+  "phrase_en": "A musical ear",
+  "phrase_translit": "Mousiko afti",
+  "translit": "to afti",
+  "word": "το αυτί",
+  "word_en": "ear"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η πλάτη στον ήλιο",
+  "phrase_en": "Back to the sun",
+  "phrase_translit": "I plati ston ilio",
+  "translit": "i plati",
+  "word": "η πλάτη",
+  "word_en": "back"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ώμος με ώμο",
+  "phrase_en": "Shoulder to shoulder",
+  "phrase_translit": "Omos me omo",
+  "translit": "o omos",
+  "word": "ο ώμος",
+  "word_en": "shoulder"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Βαθιά ανάσα",
+  "phrase_en": "Deep breath",
+  "phrase_translit": "Vathia anasa",
+  "translit": "i anasa",
+  "word": "η ανάσα",
+  "word_en": "breath"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Ο παλμός της πόλης",
+  "phrase_en": "The pulse of the city",
+  "phrase_translit": "O palmos tis polis",
+  "translit": "o palmos",
+  "word": "ο παλμός",
+  "word_en": "pulse"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Βήμα βήμα",
+  "phrase_en": "Step by step",
+  "phrase_translit": "Vima vima",
+  "translit": "to vima",
+  "word": "το βήμα",
+  "word_en": "step"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Απογευματινή βόλτα",
+  "phrase_en": "Afternoon stroll",
+  "phrase_translit": "Apogevmatini volta",
+  "translit": "i volta",
+  "word": "η βόλτα",
+  "word_en": "stroll"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Εκδρομή στη φύση",
+  "phrase_en": "Excursion into nature",
+  "phrase_translit": "Ekdromi sti fysi",
+  "translit": "i ekdromi",
+  "word": "η εκδρομή",
+  "word_en": "excursion"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Γλυκιά περιπλάνηση",
+  "phrase_en": "Sweet wandering",
+  "phrase_translit": "Glykia periplanisi",
+  "translit": "i periplanisi",
+  "word": "η περιπλάνηση",
+  "word_en": "wandering"
+ },
+ {
+  "note": "Masculine noun.",
+  "phrase": "Περίπατος στην ακρογιαλιά",
+  "phrase_en": "A walk along the waterfront",
+  "phrase_translit": "Peripatos stin akrogialia",
+  "translit": "o peripatos",
+  "word": "ο περίπατος",
+  "word_en": "walk"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Πρωινή δροσιά",
+  "phrase_en": "Morning coolness",
+  "phrase_translit": "Proini drosia",
+  "translit": "i drosia",
+  "word": "η δροσιά",
+  "word_en": "coolness"
+ },
+ {
+  "note": "Neuter noun.",
+  "phrase": "Στο σούρουπο",
+  "phrase_en": "At dusk",
+  "phrase_translit": "Sto souroupo",
+  "translit": "to souroupo",
+  "word": "το σούρουπο",
+  "word_en": "dusk"
+ },
+ {
+  "note": "Feminine noun.",
+  "phrase": "Η αυγή χαράζει",
+  "phrase_en": "Dawn is breaking",
+  "phrase_translit": "I avgi charazei",
+  "translit": "i avgi",
+  "word": "η αυγή",
+  "word_en": "dawn"
+ }
+]</script>
 
   <section class="promise">
     <h2>Our promise to creators</h2>
@@ -6260,6 +9563,25 @@
     else if(e.key==='ArrowRight'){show(idx+1);bumpTimer();}
     else if(e.key===' '){e.preventDefault();setPlaying(!playing);}
   });
+})();
+</script>
+<script>
+(function(){
+  try{
+    var data=JSON.parse(document.getElementById('wotd-data').textContent);
+    if(!data||!data.length)return;
+    var now=new Date();
+    var doy=Math.floor((now-new Date(now.getFullYear(),0,0))/864e5); /* Jan 1 -> 1 */
+    var e=data[(doy-1)%data.length];
+    var esc=function(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});};
+    var h='<span class="word">'+esc(e.word)+'</span>';
+    if(e.translit)h+=' <span class="translit">('+esc(e.translit)+')</span>';
+    h+=' <span class="gloss">&ldquo;'+esc(e.word_en)+'&rdquo;</span> <span class="sep">&middot;</span> <span class="phrase">&ldquo;'+esc(e.phrase)+'&rdquo;</span>';
+    if(e.phrase_translit)h+=' <span class="translit">('+esc(e.phrase_translit)+')</span>';
+    h+=' <span class="gloss">&ldquo;'+esc(e.phrase_en)+'&rdquo;</span>';
+    document.querySelector('#wotd .wotd-body').innerHTML=h;
+    document.getElementById('wotd-day').textContent='Day '+doy+' of 365';
+  }catch(err){}
 })();
 </script>
 </body>
