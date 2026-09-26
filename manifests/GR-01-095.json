@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Maronia/gr-01-095-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gates 1-5 pass. Gate 1: Ancient Theater of Maronia at pre-dawn — the cavea sweeping around the orchestra with skene ruins, plain stretching to the Aegean on the horizon, dawn glow under broken cloud; plausible hillside tourist viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Ancient Theater, Maronia', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T23:43:33Z verified unique across all 365 repo notes; model-valid hour covers 06:59; 61% cloud / 15.4C matches the partly cloudy sky. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only.",
+  "approved_at": "2026-09-26T04:44:37.250452+00:00",
+  "sha256_16x9": "1420a4ef35476bb3fbdb47f510bef5a056a6392820aa6077de5a2a6ca4f5507b",
+  "sha256_4x5": "ec8da2c09b82509b4dc28fc77e522569241e1faa7294c695f052bcf3347b345d"
 }
