@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Argostoli/gr-01-260-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows the long low multi-arched stone De Bosset Bridge with the square stone obelisk rising from the water at mid-span, the lagoon on one side and the harbor town on the wooded hillside on the other; the 4:5 is a closer axial crop of the same bridge and obelisk — formats agree on the subject. Gate 2: caption 'De Bosset Bridge, Argostoli', scenario '24 September 2026 · 10:45 Europe/Athens', AI-disclosure, and exact 'Jason D's Vision' signature all legible on the bottom gradient; exact 1920x1080/864x1080 masters. Weather: per-scene Open-Meteo retrieval 2026-09-25T23:46:18Z, unique to the second across the GR-01-236–268 window; overcast values plausible against the broken-cloud sky. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or focal logos, documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T18:39:55.513200+00:00",
+  "sha256_16x9": "c981352dd6a15393e34e1a50fa00e1f8508f6fe41e06dfd5e2afc32aadbe823d",
+  "sha256_4x5": "2e13df6a43bf507741780904c77c8bb447f4fff11198d4df8ca6926d88531d47"
 }
