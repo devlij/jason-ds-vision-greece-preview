@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Phaistos/gr-01-199-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: sunlit Minoan west court — broad ceremonial stone staircase descending toward the viewer, paved central court behind it, scattered masonry, olive trees and dry grass at the edges, the Messara plain and the Ida massif center-right; recognizably Phaistos from a standard visitor viewpoint, clean framing, no artifacts. Gate 2: 1920x1080/864x1080 verified by sweep; on-image 'Palace of Phaistos, Phaistos', 'Scenario: 24 September 2026 · 09:15 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D's Vision' with curly apostrophe bottom-right on a legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:17Z recorded in approvals/GR-01-199.md, unique to this scene across notes GR-01-150–240, valid for the 09:15 scenario hour. Gate 3: text-prompt-only lineage, no photographic inputs per the note. Gate 4: no people, vehicles, logos, or private property visible — ruins and landscape only. Daylight.",
+  "approved_at": "2026-09-26T13:42:27.049033+00:00",
+  "sha256_16x9": "9c7651b6ce989d1fa34e2aeee92ddef4f4a636dd0754a130740e245601ffb71c",
+  "sha256_4x5": "b9aadc73ed8a6eb43cb8dfab1131dfa6342963b3aaf1bab278d1d16259b4e2d2"
 }
