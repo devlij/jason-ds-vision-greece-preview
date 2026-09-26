@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Veria/gr-01-237-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: cobbled lane curving beside the shallow Tripotamos river with a low stone embankment, Macedonian houses with stone lower floors and projecting timber upper floors under red tile roofs, tall plane trees along the bank — plausible tourist viewpoint in the lane, no synagogue interior, matching the note's documented scope; morning light from the east consistent with solar azimuth 119.3° ESE at 10:05; the 4:5 shows the same lane archetype (cobbled lane, stone-based timber-upper houses, shallow river with plane trees) — defining features agree. Gate 2 PASS: on-image 'Barbouta, Veria', 'Scenario: 24 September 2026 · 10:05 Europe/Athens', disclosure, and curly-apostrophe 'Jason D's Vision' signature verified; note's own Open-Meteo retrieval 2026-09-25T23:45:55Z (unique second), scenario inside the model-valid hour. Gate 3 PASS: text-prompt-only lineage documented, no photographic inputs. Gate 4: no visible people, logos, or focal artwork — documented only. Gate 5: manifest has no qc_notes, no open blockers.",
+  "approved_at": "2026-09-26T16:43:51.341737+00:00",
+  "sha256_16x9": "23eee22e1965db9e151a5e0fdcf9e782720f0daaa50fc42bf6e24eab474d903a",
+  "sha256_4x5": "63b07c62656cb59c6e2e9c25da7a5fc52d27a327fa3c3329b2c2aef62fbbfa56"
 }
