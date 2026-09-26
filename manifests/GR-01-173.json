@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Hephaistia/gr-01-173-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: 16:9 master shows Hephaistia's restored Hellenistic theater — the full stone cavea with radial stairways curving around the circular orchestra and the rectangular skene building with door openings — set on a scrubby headland with the sea behind, morning light raking across the seats, matching the evidence card's theater viewpoint (39.964606, 25.318311). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Ancient Theater, Hephaistia', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:51Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
+  "approved_at": "2026-09-26T10:39:32.767635+00:00",
+  "sha256_16x9": "b094aa03f5cd264ec41486f2a70739aa8792a918366353157140984a71426238",
+  "sha256_4x5": "841d430361613cf06a5fcc0b1ae1349cc19ffbbc2dcd530f42ca5448bca5890a"
 }
