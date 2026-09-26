@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kleidonia/gr-01-304-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: single-arch stone bridge over a clear green river, dirt path on the near bank, forested mountains closing the valley — matches Kleidonia Bridge anchors; 4:5 shows the same single arch, river, and mountains. Gate 2: exact dims; caption 'Kleidonia Bridge, Kleidonia', scenario 11:15, disclosure, signature exact; weather retrieval 2026-09-25T23:50:09Z unique repo-wide; clear sky matches claimed code 0 (4:5 carries a couple of small clouds, trivial against 0%). Gate 3: text-prompt-only. Gate 4: no people, no logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T22:37:47.137679+00:00",
+  "sha256_16x9": "ee2de515081507621e3c5a699c6339b7437ae80c7e29a4ef1f661471d23979ff",
+  "sha256_4x5": "3ff054dc078025dd23b0104ea45bf59bd6cdf55ac949c9e9d1000e098bb8d466"
 }
