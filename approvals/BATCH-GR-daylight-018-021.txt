@@ -1,0 +1,106 @@
+BATCH GR daylight variants — GR-01-018 through GR-01-021
+Date: 2026-09-26
+Country: Greece
+Repo: devlij/jason-ds-vision-greece-preview
+Base tip before this batch: 0d7e5ad14645fd20c86453512c8224fd4841597d
+Directive: 2026-09-25 Jason daylight-variants workstream, Greece batch 2 (remaining approved night scenes GR-01-018 through GR-01-021).
+Scope scanned: GR-01-001 through GR-01-365 (365 scenes, no gaps). Germany and other countries not touched. Weather fields not edited. Night images not regenerated. Candidates not varianted.
+
+Scan rule: Approved night interpretation (Cosmo QC, solar line begins with Night, including nautical twilight still labeled Night, Open-Meteo is_day 0) AND both night masters present (1920x1080 and 864x1080) AND no existing *-daylight-* file AND not a daylight-only or dusk-only master.
+
+Qualifying approved night scenes in ID order: 20.
+  GR-01-001, GR-01-002, GR-01-003, GR-01-004, GR-01-005, GR-01-006, GR-01-007,
+  GR-01-009, GR-01-010, GR-01-011, GR-01-012, GR-01-013, GR-01-014, GR-01-015,
+  GR-01-016, GR-01-017, GR-01-018, GR-01-019, GR-01-020, GR-01-021.
+Already built in batch 1 (16 scenes): GR-01-001, GR-01-002, GR-01-003, GR-01-004, GR-01-005, GR-01-006, GR-01-007, GR-01-009, GR-01-010, GR-01-011, GR-01-012, GR-01-013, GR-01-014, GR-01-015, GR-01-016, GR-01-017.
+Selected this batch: GR-01-018, GR-01-019, GR-01-020, GR-01-021.
+
+Built: 4 scenes × 2 masters = 8 variant masters.
+  gr-01-XXX-daylight-16x9.png (1920×1080)
+  gr-01-XXX-daylight-4x5.png (864×1080)
+Path layout: beside the night masters under library/world/Greece/Athens/.
+
+SKIP SUMMARY
+- GR-01-008 SKIP — already-daylight-only. Approved afternoon daylight. No night master. Not rewritten.
+- GR-01-001 through GR-01-007 and GR-01-009 through GR-01-017 — daylight variants already landed in batch 1. Not regenerated.
+- GR-01-022 through GR-01-365 SKIP — not approved (approval_status Candidate). Candidates wait. No variant was derived from a Candidate.
+- Gallery: Greece cards switch 16:9 / 4:5 only. Gallery wiring deferred. index.html was not edited.
+
+On-image text, exact, on every variant: caption identical to the night master; signature Jason D’s Vision (curly apostrophe U+2019); disclosure AI-generated artistic interpretation · Not a photograph.; plus ☀ Daylight variant · derived from the night interpretation. No weather claim. No scenario timestamp.
+Metadata: EU AI Act Art. 50 five PNG chunks (Title iTXt, Description tEXt, Copyright iTXt, Software tEXt, Comment tEXt), Country = Greece, embedded after pixels were final. Title and Copyright use a straight apostrophe and an em dash. Night IDAT was not touched.
+Derivative disclosure: daylight re-interpretation of the same viewpoint and composition as the night master. Not a new scene. Not an independently modelled weather scenario.
+
+RUNWAY
+After this batch, every Cosmo-approved Greece night scene (20 of 20) has a same-viewpoint daylight variant. GR-01-008 remains the daylight-only exception and has no night master to derive from. The approved-night daylight runway for Greece is complete pending Cosmo approving more Candidates (GR-01-022 through GR-01-365).
+
+NIGHT-UNCHANGED CONFIRMATION
+Night masters: byte-unchanged. SHA-256 recorded before any variant write and again after. Pre and post are identical for every night file of the 4 selected scenes. No night image was regenerated.
+
+========================================================================
+GR-01-018  Temple of Olympian Zeus, Athens
+  night 16x9  library/world/Greece/Athens/gr-01-018-16x9.png
+    sha256 before  86845440b82a83cf2638866b4a3d5e3c74419c2cff7e9773779e8e37058c42bf
+    sha256 after   86845440b82a83cf2638866b4a3d5e3c74419c2cff7e9773779e8e37058c42bf
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Athens/gr-01-018-daylight-16x9.png
+    sha256         f9ec5156b97ddb2e20c96cfeaf4823f50c8979beabe9eb5ca60a1cfd42b67eba
+  night 4x5  library/world/Greece/Athens/gr-01-018-4x5.png
+    sha256 before  5a552ebd8ffb278d1162f6f9b84094e596024ea693e24563bd431753a6dc92f2
+    sha256 after   5a552ebd8ffb278d1162f6f9b84094e596024ea693e24563bd431753a6dc92f2
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Athens/gr-01-018-daylight-4x5.png
+    sha256         0d8931b0896231c0c3f3a718ee2bdb75ab76168ce0624242e8c9f565ef519d7c
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-019  Ancient Agora, Athens
+  night 16x9  library/world/Greece/Athens/gr-01-019-16x9.png
+    sha256 before  c207070ec9044ed9f02a38e3b7fdec5b95241828570eacc00ab0754c08886287
+    sha256 after   c207070ec9044ed9f02a38e3b7fdec5b95241828570eacc00ab0754c08886287
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Athens/gr-01-019-daylight-16x9.png
+    sha256         9c70cac9c2d6b916ce295425b54c0131fa949587ec9cf63ecd9f0b7a87ce0020
+  night 4x5  library/world/Greece/Athens/gr-01-019-4x5.png
+    sha256 before  2a4e657aa4c93d71fe4a92a8d09263becdef74194f8d073339e30f80cd366f76
+    sha256 after   2a4e657aa4c93d71fe4a92a8d09263becdef74194f8d073339e30f80cd366f76
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Athens/gr-01-019-daylight-4x5.png
+    sha256         036c41cae62d1bb1d384ca5f64ba10e78f45c43da1a442923cfda104083b4e34
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-020  Panathenaic Stadium, Athens
+  night 16x9  library/world/Greece/Athens/gr-01-020-16x9.png
+    sha256 before  8288f187c1e8c2f07e4cb01a0028d8b93ff6efd22ca24f26e96082378628a34a
+    sha256 after   8288f187c1e8c2f07e4cb01a0028d8b93ff6efd22ca24f26e96082378628a34a
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Athens/gr-01-020-daylight-16x9.png
+    sha256         2fc6da1fdd2c1bb027d7b9e17c4f49fcc061760c4883b30dc21fd973102a899d
+  night 4x5  library/world/Greece/Athens/gr-01-020-4x5.png
+    sha256 before  9d701d40785e4d3d719f7f790edb21f30cef0ca4c81e9d8805409af33d17b6ca
+    sha256 after   9d701d40785e4d3d719f7f790edb21f30cef0ca4c81e9d8805409af33d17b6ca
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Athens/gr-01-020-daylight-4x5.png
+    sha256         7bfd30645544c1a531b1eab7b89debdd0df60261ae84fa00da91b8cde66b289f
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-021  Lycabettus Hill, Athens
+  night 16x9  library/world/Greece/Athens/gr-01-021-16x9.png
+    sha256 before  fe7445b1090f240a652acf333e00699505f6afc21b970fc18ca865197f64e6ed
+    sha256 after   fe7445b1090f240a652acf333e00699505f6afc21b970fc18ca865197f64e6ed
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Athens/gr-01-021-daylight-16x9.png
+    sha256         212603ceeb43bed224b547b0029a8a5ba917695d6e8ccd21d934e153e39cfa1c
+  night 4x5  library/world/Greece/Athens/gr-01-021-4x5.png
+    sha256 before  be1ae174d7605215ffd9a8cf27e35b10a3e1dc46846080101e680a9242597dea
+    sha256 after   be1ae174d7605215ffd9a8cf27e35b10a3e1dc46846080101e680a9242597dea
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Athens/gr-01-021-daylight-4x5.png
+    sha256         4d64cb661ec76d1458592907cb8a00703ef67cbd3720861a4fba83be9dde2219
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+ALL SELECTED NIGHT MASTERS BYTE-UNCHANGED: YES
+Variant scenes: 4. Variant masters: 8.
+Approved-night daylight runway for Greece: COMPLETE pending Cosmo approving more Candidates.
