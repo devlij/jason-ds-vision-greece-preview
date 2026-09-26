@@ -12,5 +12,12 @@
   "file_4x5": "library/world/Greece/Kastoria/gr-01-243-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "qc_notes": [
+    {
+      "at": "2026-09-26T16:52:55.544302+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 hold — inter-format subject disagreement, verified by Cosmo QC 2026-09-26 on both masters: the 16:9 shows a Byzantine lakeside church with weathered beige stone, a weathered brown pitched-tile main roof, and a cylindrical apse with half-dome tile roof at the lake shore; the 4:5 shows a materially different building — gray rubble-stone walls, vivid red-orange tile roofs on two gabled volumes, no apse. Three independent disagreements (roof color, stone treatment, massing) read as a different church, not a different angle. Left as Candidate; needs the builder to re-render one format to match the other's subject identity."
+    }
+  ]
 }
