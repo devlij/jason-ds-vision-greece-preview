@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Skiathos/gr-01-178-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 pass: 16:9 master shows the landward approach to Skiathos Kastro looking north onto the promontory — a dirt path through a stone archway in the ruined fortress wall, the flat clifftop crowned with three small white-domed chapels and scattered masonry, sunlit cliff face dropping to white surf at left, open sea horizon at right under a clear sky; morning light, no artifacts, correct landmark arrangement. Gate 2 pass: caption 'Kastro, Skiathos' and scenario '24 September 2026 · 09:00 Europe/Athens' exact on-image, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim. Weather is a per-scene Open-Meteo retrieval 2026-09-25T23:44:56Z, unique to the second repo-wide, valid 09:00 model step, scenario inside 09:00-09:59 model hour, 2% cloud 19.7C. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no people, logos; medieval ruins are heritage. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:38:33.397245+00:00",
+  "sha256_16x9": "283049229baf13a3587c5e78222ce47565ce546e636feec27e2c7dec1a19c772",
+  "sha256_4x5": "04036a9187a5ac6b16a48076f0949ef9cf41d311881e24b152e42cc33ce9ea26"
 }
