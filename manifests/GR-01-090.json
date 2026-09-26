@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Drama/gr-01-090-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gates 1-5 pass. Gate 1: Agia Varvara park, Drama at pre-dawn — grove of massive plane trees over a spring stream with a small waterfall weir, wooden footbridge, lamp-lit path, white tiled-roof chapel building on the right, dawn glow; plausible tourist viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Agia Varvara, Drama', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T23:43:28Z verified unique across all 365 repo notes; model-valid hour covers 06:59; 51% cloud / 9.6C matches the partly cloudy sky. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only.",
+  "approved_at": "2026-09-26T04:44:15.772229+00:00",
+  "sha256_16x9": "bcda9b2911e8a4e9575eda6af37716857d15fafdee2407eb531ea96b75ba0481",
+  "sha256_4x5": "18339c83d57a1f0b14716018b1fd638a1ede212faa1f94c8190ba44682d3096d"
 }
