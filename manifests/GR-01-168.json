@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Samos/gr-01-168-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: 16:9 master shows the Heraion's single standing fluted column amid scattered column drums and foundation ruins on dry grassland, the sea on the horizon and the low morning sun at frame left casting long shadows — matches the evidence card's sanctuary viewpoint (37.67194, 26.88556). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Heraion of Samos, Samos', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:46Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
+  "approved_at": "2026-09-26T10:38:31.237732+00:00",
+  "sha256_16x9": "b45d64bb58773c7679fa54e2e98e95ebe7f23ecffe3afc3989baf59b8bf059a5",
+  "sha256_4x5": "2a74800f71bdc44565d72e1458d8bed60d3e0e1ea203dd9ba458eec443e707a1"
 }
