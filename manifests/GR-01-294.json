@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Marathon/gr-01-294-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: both masters show the Marathon Soros as a smooth grass-covered burial mound rising from open meadow — 16:9 with a curving path and a pine row at the base under blue sky, 4:5 the same green mound framed by pines; consistent subject identity; clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image 'Marathon Tumulus, Marathon', 'Scenario: 24 September 2026 · 11:15 Europe/Athens', AI disclosure and exact 'Jason D's Vision' signature verified; weather retrieval 2026-09-25T23:48:57Z unique to this scene, valid 11:15 = scenario 11:15. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: protected archaeological mound, no people, logos or private property.",
+  "approved_at": "2026-09-26T21:32:13.673577+00:00",
+  "sha256_16x9": "0f40278e66d7bebef76cfd8b4e5e2613e3a61622e2aa8644c3c9afc5d5429714",
+  "sha256_4x5": "81348802b71c72a4f9847a108f0c1233794108030f6e7a0d449115312d776fdd"
 }
