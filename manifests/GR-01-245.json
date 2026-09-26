@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Santorini/gr-01-245-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: whitewashed cubic houses cascading down a rounded hill, ruined Venetian kasteli walls crowning the summit, white church with a vivid blue dome in the mid-left foreground, dark volcanic caldera sea to the left with distant caldera-rim islands — not Oia/Fira cliff towns, per the note's anchors; bright morning with short shadows consistent with 10:30 / azimuth 125.6° ESE. The 4:5 shows a cobbled lane rising toward the same blue-domed church with the same kasteli mass above and caldera sea at left — strong inter-format agreement. Gate 2 PASS: on-image 'Pyrgos, Santorini', 'Scenario: 24 September 2026 · 10:30 Europe/Athens', disclosure, and curly-apostrophe 'Jason D's Vision' signature verified; note's own Open-Meteo retrieval 2026-09-25T23:46:03Z (unique second), 10:30 inside the 10:00–10:59 model hour. Gate 3 PASS: text-prompt-only lineage documented, no photographic inputs. Gate 4: no people, logos, or focal artwork — documented only. Gate 5: manifest has no qc_notes, no open blockers.",
+  "approved_at": "2026-09-26T16:52:01.238839+00:00",
+  "sha256_16x9": "ad214ae373d7faa12939404103a8b4fadc267f210a22968a036f30348dfb597d",
+  "sha256_4x5": "f0d3b88be8a8e64d4e1e1b56cc24feb63620dffc22164ca439af791e72c26c3d"
 }
