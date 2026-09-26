@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Florina/gr-01-244-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: two-storey stone-and-brick station building — hipped red tile roof with dormers, brick arched window surrounds, chimney — iron-column platform canopy, two red freight wagons on converging tracks, big plane trees, forested mountains behind; 4:5 shows the same station typology and palette (stone-and-brick, red tile, brick-trimmed windows, buffer stop on the single track) — read as different sides of the Florina station complex, no subject-identity contradiction; clean framing, no artifacts. Gate 2 PASS: on-image 'Railway Station, Florina', 'Scenario: 24 September 2026 · 10:30 Europe/Athens', disclosure, and curly-apostrophe 'Jason D's Vision' signature verified; note's own Open-Meteo retrieval 2026-09-25T23:46:02Z (unique second), 10:30 inside the 10:00–10:59 model hour. Gate 3 PASS: text-prompt-only lineage documented, no photographic inputs. Gate 4: no people, logos, or focal artwork — documented only. Gate 5: manifest has no qc_notes, no open blockers.",
+  "approved_at": "2026-09-26T16:51:37.296703+00:00",
+  "sha256_16x9": "8191a1c494dc82679e0d433aa57fb0c25f7712978e001783054e42110693bded",
+  "sha256_4x5": "858cba5271438141d85bd91b3b417695b7010c8f86c8b46b99e451c65de253cb"
 }
