@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Siatista/gr-01-211-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Siatista lane: cobbled street climbing between 18th-century mansions with stone ground floors, projecting enclosed wooden upper storeys, clay tile roofs, high courtyard walls and a plain wooden gate. Caption 'Siatista, Siatista', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, and 'Jason D’s Vision' signature all verified legible on-image; sweep confirmed 1920x1080/864x1080. Gate 1 pass: plausible Gerania-quarter viewpoint matching the geometry anchors, clean framing, no artifacts. Gate 2 pass: per-scene Open-Meteo retrieval 2026-09-25T23:45:29Z unique to this scene (no second shared across the 195–235 note window), scenario 09:35 falls inside the model-valid hour 09:00–09:59 Europe/Athens. Gate 3: text-prompt-only lineage recorded, no photographic input reported. Gate 4: no visible people, logos, or readable signage – documented only.",
+  "approved_at": "2026-09-26T14:37:48.503368+00:00",
+  "sha256_16x9": "8b2ec9a0b2bb1c6131bd81c8fd443cefe375bbd9ba0d9c401b031e310b46f1ff",
+  "sha256_4x5": "b5f6235055199955c1a542fdfd18a61067898879be0cd072b651bb665cb3f008"
 }
