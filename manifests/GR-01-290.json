@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Nemea/gr-01-290-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: both masters show the Nemea colonnade — the same row of 11 fluted Doric columns with a partial architrave section on the stepped crepidoma, fallen column drums in the foreground, valley and mountains beyond, vineyards to the right in 16:9; no defining-feature disagreement between formats; clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image 'Temple of Zeus, Nemea', 'Scenario: 24 September 2026 · 11:15 Europe/Athens', AI disclosure and exact 'Jason D's Vision' signature verified; weather retrieval 2026-09-25T23:48:53Z unique to this scene, valid 11:15 = scenario 11:15. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: open archaeological site, no people, logos or private property.",
+  "approved_at": "2026-09-26T21:31:40.525366+00:00",
+  "sha256_16x9": "1100cc1efeb882084074073a397c53e2fa478f9754b2b3aee68b13c4458da901",
+  "sha256_4x5": "aebf614797e8f97021f662f9852a2994ad9198402953d97577c6db669e58c9cc"
 }
