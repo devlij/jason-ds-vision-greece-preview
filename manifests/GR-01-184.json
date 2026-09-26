@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Alonissos/gr-01-184-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 pass: 16:9 master shows Patitiri's ferry quay — a large blue-and-white working vessel moored tight to the concrete quay with its bow dominating the foreground, small white and blue fishing boats at anchor, and the whitewashed hillside town stacking steeply up a pine-topped rocky headland center-right with a large white passenger ferry at the pier and two small islets on the horizon; bright morning sun from the left, calm deep-blue water, no artifacts. Gate 2 pass: caption 'Patitiri Harbor, Alonissos' and scenario '24 September 2026 · 09:00 Europe/Athens' exact, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim. Weather per-scene retrieval 2026-09-25T23:45:02Z, unique to the second repo-wide, 09:00 model step, scenario inside 09:00-09:59 model hour, clear 19.5C. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no readable vessel branding, no people on the quay. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:39:01.308469+00:00",
+  "sha256_16x9": "0029bdce671b2e37409fe13e358b0fc1a7ac5dee6b504c00613040f8352cd81a",
+  "sha256_4x5": "5d8b8f7d7a8a610f09b7dbc48af7b8d842b9bb13f6ad5a36ce88975a2bbbe875"
 }
