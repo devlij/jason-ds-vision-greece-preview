@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Tsagarada/gr-01-217-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Tsagarada: the famous giant plane tree dominating the cobbled square, stone fountain at its base, stone church with arched bell tower, stone houses with balconies around the square. Caption 'Tsagarada, Tsagarada', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, 'Jason D’s Vision' verified on-image; 1920x1080/864x1080. Gate 1 pass: matches the Agia Paraskevi square anchors (millennial plane tree, church, fountain), clean framing. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:35Z, unique second, scenario minute inside 09:00–09:59 Athens model hour. Gate 3: text-prompt-only lineage, no photo inputs reported. Gate 4: no people, logos, or signage – documented only.",
+  "approved_at": "2026-09-26T14:38:15.979910+00:00",
+  "sha256_16x9": "e8b51c64332ffb94cc7607a7543cc316135990ff0505f72e28ea9a5017a89132",
+  "sha256_4x5": "6e5bc874599720bec14af8e44ba3b6f3ba9aace85eef68e1bf84210f09f8db18"
 }
