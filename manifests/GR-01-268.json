@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Thermopylae/gr-01-268-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows the natural mineral pool among rocks at the foot of the hill with yellow and white mineral deposits staining the stone and steam rising over the water, the coastal plain opening beyond — matching the geometry anchors, and no bronze warrior or Leonidas monument in frame; the 4:5 is a closer crop of the same steaming pool and rocks — formats agree on the subject. Gate 2: caption 'Thermopylae Hot Springs, Thermopylae', scenario '24 September 2026 · 10:45 Europe/Athens', AI-disclosure, and exact 'Jason D's Vision' signature all legible on the bottom gradient; exact 1920x1080/864x1080 masters. Weather: per-scene Open-Meteo retrieval 2026-09-25T23:47:29Z, unique to the second across the GR-01-236–268 window; clear values consistent with the cloudless sky. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or focal logos, documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T18:42:46.380036+00:00",
+  "sha256_16x9": "e82531d853ba185cb903cb49ed45f348fa59bfb2f7f9aca7fc1a94fa5f560ab1",
+  "sha256_4x5": "cdaafed8b4abf93a5308e31c857bfa55a98f4303ea9f0e19986409af78907e78"
 }
