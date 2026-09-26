@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Fournoi/gr-01-176-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 pass: 16:9 master shows Fournoi's concrete town quay with a moored fleet of roughly fourteen white-and-blue wooden caiques reflected in calm inner-harbor water, the whitewashed waterfront row climbing the slope behind, and the long stone breakwater reaching seaward with white-capped open water beyond — matches the town-quay viewpoint across fishing boats to the ferry jetty and enclosing hills; morning daylight, coherent framing, no artifacts. Gate 2 pass: on-image caption 'Fournoi Harbor, Fournoi' and scenario '24 September 2026 · 08:35 Europe/Athens' exact, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim, legible. Weather is a per-scene Open-Meteo retrieval 2026-09-25T23:44:54Z, unique to the second across the repo, valid 08:30 model step, scenario 08:35 inside the 08:00-08:59 model hour, clear 19.2C. Gate 3: text-prompt-only lineage recorded, no photographic inputs. Gate 4: no people or logos; boat names unreadable. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:38:24.782972+00:00",
+  "sha256_16x9": "8a34eb6dbf14517ad428b13a9c5e35fe2eda7ff8ca6d6063ad65d4dff79f78a5",
+  "sha256_4x5": "c183a13ee784b43a25addcb0b065c95a615de9ac1e5e85f233a5ac32775502c7"
 }
