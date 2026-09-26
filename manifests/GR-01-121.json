@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Lefkada/gr-01-121-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: sheer white cliff with the zigzag stair descending to a small pebble beach, turquoise water, a sea-cave notch at the cliff base, Kefalonia across the water — matches the cliff-road-overlook camera point and geometry anchors; the frame shows the stair's zigzag without claiming a tread count, as the note records. Gate 2: 1920x1080 + 864x1080 verified; on-image 'Porto Katsiki, Lefkada', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right; per-scene Open-Meteo retrieval 2026-09-25T23:43:59Z (unique repo-wide), model mainly-clear / 23% cloud matches the depicted bright morning. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, no logos — documented, commercial call is Jason's.",
+  "approved_at": "2026-09-26T06:43:50.374698+00:00",
+  "sha256_16x9": "feb0050148eb8069951b3bd2af22f2f9e8ea3e3996e388bca14762ee15734d2a",
+  "sha256_4x5": "e3501fd7e4929b6c79d5623be88833031ac59d1dcdc4a6c5aa16589585d91672"
 }
