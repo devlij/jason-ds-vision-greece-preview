@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Thessaloniki/gr-01-301-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows the pedimented arched Ermou facade of the market hall with the glazed roof behind; 4:5 shows the corner-tower elevation with pediment and glazed roof — the note's independent description anchors 'pedimented entrances, corner towers, and a glazed roof', so the two formats are two documented elevations of the same Modiano Market (not an NL-01-205-style disagreement). Gate 2: exact dims; caption 'Modiano Market, Thessaloniki', scenario 11:15, disclosure, signature exact; weather retrieval 2026-09-25T23:50:06Z unique repo-wide; clear sky matches code 0. Gate 3: text-prompt-only. Gate 4: no people/logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T22:37:05.812743+00:00",
+  "sha256_16x9": "75be7c0d870e36960374ab7e807b34d36da5178b70e33dd36437cc0fd2609cf7",
+  "sha256_4x5": "24acd1524ffecf0f9d1d6a88693b4efba64118e411844616fe5f2028925bdba8"
 }
