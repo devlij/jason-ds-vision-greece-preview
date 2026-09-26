@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Metsovo/gr-01-270-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5. Visual: grey-stone Averoff Gallery building with slate roof and chimney among Metsovo's stone-slate houses, balconied neighbors, forested mountain ridges behind under a clear morning sky; 4:5 agrees (stone wall facade, slate hip roof, same mountain/timberline backdrop). Technical: 1920x1080/864x1080 exact; caption 'Averoff Gallery, Metsovo', scenario '24 September 2026 · 10:45 Europe/Athens', disclosure and exact signature Jason D's Vision baked on the bottom gradient, legible. Weather: own Open-Meteo retrieval 2026-09-25T23:47:31Z, unique to this scene repo-wide, scenario inside the cited model-valid hour (code 0 clear, 12.7C, model cell near 39.77, 21.18 Metsovo) — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: no prominent people or focal logos; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
+  "approved_at": "2026-09-26T19:35:25.565348+00:00",
+  "sha256_16x9": "3bfc28010fa3b84b21ef7da7b8a107148b597baa1880ea0fd9bb4e1ac15a0d86",
+  "sha256_4x5": "27d5c39d13beb29f475ba18cec40aae0998fe80f12f9af25361490e6ce1c9377"
 }
