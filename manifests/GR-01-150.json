@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Patmos/gr-01-150-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Monastery of Saint John, Patmos — the great crenellated fortress-monastery with its central tower and domed katholikon crowning the hill above the white cubist Chora houses; the defining Patmos silhouette, clean framing, no artifacts. Gate 2: mechanical 1920x1080 + 864x1080 PASS; 'Jason D's Vision' signature bottom-right; caption 'Monastery of Saint John, Patmos', scenario '24 September 2026 · 08:15 Europe/Athens', AI disclosure bottom-left on scrim, all legible. Weather: Open-Meteo retrieved 2026-09-25T23:44:28Z per approvals/GR-01-150.md — unique to this scene across all 365 Greece notes; scenario minute 08:15 inside model-valid hour 08:00-08:59. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no visible people, logos, or recognizable private property (documented only; commercial call is Jason's). Gate 5: no blockers.",
+  "approved_at": "2026-09-26T08:42:41.894716+00:00",
+  "sha256_16x9": "136b278e54336e2576110256f53e344404a1d6e692aed64b81d3498b17e6cf05",
+  "sha256_4x5": "80e1b1a21e2ad93f902f125759493a24ea75d216ca0f8309c82c9360a12bffb0"
 }
