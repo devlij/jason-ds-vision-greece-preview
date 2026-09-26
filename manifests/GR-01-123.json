@@ -12,17 +12,23 @@
   "file_4x5": "library/world/Greece/Lefkada/gr-01-123-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "qc_notes": [
     {
       "at": "2026-09-26T06:45:08.368179+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 hold — scenario-light inconsistency: the master places the warm dawn glow on the right (west) horizon while the camera faces south toward the lighthouse tip and the note's solar azimuth about 92 degrees (east) puts the 07:40 sunrise to the left; the bright side of the sky is on the wrong side. Left as Candidate; needs a re-render with the dawn glow on the eastern (left) horizon consistent with the recorded solar geometry, no approval."
+    },
+    {
+      "at": "2026-09-26T08:46:15.196198+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp None identical across 3 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: Cape Lefkatas — the white cylindrical lighthouse standing on the chalk cliff tip, a worn footpath running the scrubby ridge toward it, open sea and soft morning haze all around; the classic Lefkada cape viewpoint, clean framing, no artifacts. Gate 2: mechanical 1920x1080 + 864x1080 PASS; 'Jason D's Vision' signature bottom-right; caption 'Cape Lefkatas, Lefkada', scenario '24 September 2026 · 07:40 Europe/Athens', AI disclosure bottom-left on scrim, all legible. Weather: Open-Meteo retrieved 2026-09-25T23:44:01Z per approvals/GR-01-123.md — unique to this scene across all 365 Greece notes; scenario minute 07:40 inside model-valid hour 07:00-07:59. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no visible people, logos, or recognizable private property (documented only; commercial call is Jason's). Gate 5: no blockers.",
   "approved_at": "2026-09-26T08:39:09.159501+00:00",
   "sha256_16x9": "75fe63dc1b6a6d32fd0f78bb6ce53670e461e4414ac6fea5cd2ba1c975cd9ac6",
-  "sha256_4x5": "10dd77335097c3039c51c8b9df5cdfd47f3f494ee3f529f867a344ba296f9b45"
+  "sha256_4x5": "10dd77335097c3039c51c8b9df5cdfd47f3f494ee3f529f867a344ba296f9b45",
+  "reverted_at": "2026-09-26T08:46:15.196198+00:00"
 }
