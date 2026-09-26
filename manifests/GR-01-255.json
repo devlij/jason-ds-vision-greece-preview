@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Sparta/gr-01-255-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the ancient theatre at Sparta with its stone cavea in a mountain valley, olive trees and Taygetus-range hills behind — the documented site composition; 4:5 agrees on the same cavea, stone walls and mountains. Gate 2: exact 1920x1080/864x1080; on-image 'Ancient Theatre, Sparta', scenario '24 September 2026 · 10:30 Europe/Athens', AI-disclosure and 'Jason D's Vision' signature (curly apostrophe) legible; note records separate Open-Meteo retrieval 2026-09-25T23:46:13Z valid 10:30, unique repo-wide, scenario minute inside the 10:00-10:59 model hour (code 0, matches clear sky). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or private property; ancient public site. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T17:44:06.897291+00:00",
+  "sha256_16x9": "5054be0f6b6f13eb154d65c72b9072030b6537e66f9c0af0c419044e72a321a5",
+  "sha256_4x5": "3be63a631211fa5f0fe00ce003d076694ca5c078871f85c9968b7b7e8893bb72"
 }
