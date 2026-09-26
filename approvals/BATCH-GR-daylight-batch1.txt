@@ -1,0 +1,318 @@
+BATCH GR daylight variants — batch 1
+Date: 2026-09-25
+Country: Greece
+Repo: devlij/jason-ds-vision-greece-preview
+Base tip before this batch: f498e9ff1c44666ccdb2226d01d4d88251334c7a
+Directive: 2026-09-25 Jason daylight-variants workstream, Greece batch 1 (first up-to-16 approved night scenes).
+Scope scanned: GR-01-001 through GR-01-365 (365 scenes, no gaps). Germany and other countries not touched. Weather fields not edited. Night images not regenerated.
+
+Scan rule: Approved night interpretation (Cosmo QC, solar line begins with Night, including nautical twilight still labeled Night, Open-Meteo is_day 0) AND both night masters present (1920x1080 and 864x1080) AND no existing *-daylight-* file AND not a daylight-only or dusk-only master.
+Do not assume GR-01-001–016 are night. GR-01-008 is the exception inside that range: Approved afternoon daylight (is_day 1), no separate night master.
+
+Qualifying approved night scenes in ID order: 20.
+  GR-01-001, GR-01-002, GR-01-003, GR-01-004, GR-01-005, GR-01-006, GR-01-007,
+  GR-01-009, GR-01-010, GR-01-011, GR-01-012, GR-01-013, GR-01-014, GR-01-015,
+  GR-01-016, GR-01-017, GR-01-018, GR-01-019, GR-01-020, GR-01-021.
+Selected (first 16): GR-01-001, GR-01-002, GR-01-003, GR-01-004, GR-01-005, GR-01-006, GR-01-007, GR-01-009, GR-01-010, GR-01-011, GR-01-012, GR-01-013, GR-01-014, GR-01-015, GR-01-016, GR-01-017.
+
+Built: 16 scenes × 2 masters = 32 variant masters.
+  gr-01-XXX-daylight-16x9.png (1920×1080)
+  gr-01-XXX-daylight-4x5.png (864×1080)
+Path layout: beside the night masters under library/world/Greece/<City>/.
+
+SKIP SUMMARY
+- GR-01-008 SKIP — already-daylight-only. Approved afternoon daylight (Cosmo QC 5/5 · Gate 1 re-audit). Scenario 25 September 2026 · 15:35 Europe/Athens. Open-Meteo is_day 1. No night master. No daylight variant invented from the daylight master.
+- GR-01-018, GR-01-019, GR-01-020, GR-01-021 DEFERRED — also Approved night (nautical twilight, is_day 0, sun altitude about -16.7). They are past the 16-scene cap for batch 1. No variants written.
+- GR-01-022 through GR-01-365 SKIP — not approved (approval_status Candidate, 344 scenes). Candidates wait. No variant was derived from a Candidate, from a dusk master, or from a daylight master.
+- Existing *-daylight-* files before this batch: 0.
+
+Gallery: Greece cards switch 16:9 / 4:5 only. No night/day control already expects *-daylight-* paths. Gallery wiring deferred. index.html was not edited.
+
+On-image text, exact, on every variant: caption identical to the night master; signature Jason D’s Vision (curly apostrophe U+2019); disclosure AI-generated artistic interpretation · Not a photograph.; plus ☀ Daylight variant · derived from the night interpretation. No weather claim. No scenario timestamp.
+Metadata: EU AI Act Art. 50 five PNG chunks (Title iTXt, Description tEXt, Copyright iTXt, Software tEXt, Comment tEXt), Country = Greece, embedded after pixels were final. Title and Copyright use a straight apostrophe and an em dash. Night IDAT was not touched.
+Derivative disclosure: daylight re-interpretation of the same viewpoint and composition as the night master. Not a new scene. Not an independently modelled weather scenario.
+
+NIGHT-UNCHANGED CONFIRMATION
+Night masters: byte-unchanged. SHA-256 recorded before any variant write and again after. Pre and post are identical for every night file of the 16 selected scenes. No night image was regenerated. GR-01-008 daylight masters were not rewritten either.
+
+========================================================================
+GR-01-008
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Gate 1 re-audit
+scenario_label: 25 September 2026 · 15:35 Europe/Athens
+caption: Lion Gate, Mycenae
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Greece/Mycenae/gr-01-008-16x9.png
+  pre  SHA-256: 3eb2635fde7537fa31cd78844f047f55d270f5b09d1915468591e05dbbb285a9
+  post SHA-256: 3eb2635fde7537fa31cd78844f047f55d270f5b09d1915468591e05dbbb285a9
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Greece/Mycenae/gr-01-008-4x5.png
+  pre  SHA-256: ad691fd108a65e2757b2c76319b77f3e993eae616a8cc2e1428390e406064577
+  post SHA-256: ad691fd108a65e2757b2c76319b77f3e993eae616a8cc2e1428390e406064577
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+variant paths: none
+
+========================================================================
+GR-01-001  Parthenon, Athens
+  night 16x9  library/world/Greece/Athens/gr-01-001-16x9.png
+    sha256 before  4d5aeb5305f976739bd4532a1a6d617c39fa2cf5fd642db6cd815d6d4fbaf69a
+    sha256 after   4d5aeb5305f976739bd4532a1a6d617c39fa2cf5fd642db6cd815d6d4fbaf69a
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Athens/gr-01-001-daylight-16x9.png
+    sha256         b29c69a25095668cf75ee8ddd15218b442482bcfaa41d9cbc95442357541d040
+  night 4x5  library/world/Greece/Athens/gr-01-001-4x5.png
+    sha256 before  ce1cac39a4b2614558a8d8742058aa48e2cf7e1e0c0fcc4dd910a4b3b0d0a195
+    sha256 after   ce1cac39a4b2614558a8d8742058aa48e2cf7e1e0c0fcc4dd910a4b3b0d0a195
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Athens/gr-01-001-daylight-4x5.png
+    sha256         1fd1c69c58aec79899095838e84640eb60901551bf00f979240e050c0423bd44
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-002  Plaka, Athens
+  night 16x9  library/world/Greece/Athens/gr-01-002-16x9.png
+    sha256 before  8da9a1b4fb8ac707bf1b04c48b9290171ab60f2c11a5ba9ad1d55fba3374ec5e
+    sha256 after   8da9a1b4fb8ac707bf1b04c48b9290171ab60f2c11a5ba9ad1d55fba3374ec5e
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Athens/gr-01-002-daylight-16x9.png
+    sha256         f7feb1fd0ea5ad86ce0e3aec77327f8b32ab90df2ad29a306c0498a2e8867348
+  night 4x5  library/world/Greece/Athens/gr-01-002-4x5.png
+    sha256 before  b41e63796bc2e9675fb1ea2d03d5ed5e2d1aec97d36a8f2ce3ee98f8bfcc9826
+    sha256 after   b41e63796bc2e9675fb1ea2d03d5ed5e2d1aec97d36a8f2ce3ee98f8bfcc9826
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Athens/gr-01-002-daylight-4x5.png
+    sha256         fe31d45463a75b4e4f4d5fb0f97403ab166712eba6c8bf56affee4e35e17d8fc
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-003  Oia, Santorini
+  night 16x9  library/world/Greece/Santorini/gr-01-003-16x9.png
+    sha256 before  772b75ac57785ffdf8634a6a0a6b4706d62d7831b57d8c603d28dbdc6d114c85
+    sha256 after   772b75ac57785ffdf8634a6a0a6b4706d62d7831b57d8c603d28dbdc6d114c85
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Santorini/gr-01-003-daylight-16x9.png
+    sha256         afc2eddfbec2d305724f3d1340e4a54960123ce470d73dd7d51536f5254e0709
+  night 4x5  library/world/Greece/Santorini/gr-01-003-4x5.png
+    sha256 before  e20aef46d68ee9bad715eaffb46d4fab1032bfd529553d620e7e5b0d4281a40c
+    sha256 after   e20aef46d68ee9bad715eaffb46d4fab1032bfd529553d620e7e5b0d4281a40c
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Santorini/gr-01-003-daylight-4x5.png
+    sha256         d3c026ae3855b639148911740ae0534deabf76ca89e577e1e10848ce8afc830b
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-004  Windmills, Mykonos
+  night 16x9  library/world/Greece/Mykonos/gr-01-004-16x9.png
+    sha256 before  5c0c783d4e51b875c52d0bf0ba2d79b8da204e2e2749052c22c04e1008e6cc21
+    sha256 after   5c0c783d4e51b875c52d0bf0ba2d79b8da204e2e2749052c22c04e1008e6cc21
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Mykonos/gr-01-004-daylight-16x9.png
+    sha256         627900f8c3abbef8dd56d9a13cb231058485eb91749baec69a8fb1671229af80
+  night 4x5  library/world/Greece/Mykonos/gr-01-004-4x5.png
+    sha256 before  8a76ef6d961d707622e1051598400aabbe602c8fce19508fbed9c13233bc1a08
+    sha256 after   8a76ef6d961d707622e1051598400aabbe602c8fce19508fbed9c13233bc1a08
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Mykonos/gr-01-004-daylight-4x5.png
+    sha256         0d090ccf3f03c46b1eca75b574cfe76b16d4ae072127e345566208db1939b518
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-005  Temple of Apollo, Delphi
+  night 16x9  library/world/Greece/Delphi/gr-01-005-16x9.png
+    sha256 before  93c8c9f9b27f319a15c50c3226596040b6b035dff595149d350963d027136011
+    sha256 after   93c8c9f9b27f319a15c50c3226596040b6b035dff595149d350963d027136011
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Delphi/gr-01-005-daylight-16x9.png
+    sha256         421d591cd54a9b0e3b275db09a9367d9e560be28b256c87fd29bc92645b02f96
+  night 4x5  library/world/Greece/Delphi/gr-01-005-4x5.png
+    sha256 before  29fc24ba4af0bcb46e6c011f26ff5df2ed69d6547881cbcaa3ff84e8554492a2
+    sha256 after   29fc24ba4af0bcb46e6c011f26ff5df2ed69d6547881cbcaa3ff84e8554492a2
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Delphi/gr-01-005-daylight-4x5.png
+    sha256         05f5e20139e75962703c1dae3d2772b989eef82222759ca1ed67edd8067e6e4b
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-006  Meteora, Kalambaka
+  night 16x9  library/world/Greece/Kalambaka/gr-01-006-16x9.png
+    sha256 before  00e58c8d03e20b000de5fcaee47b3ea5ab6d9a31545376df2164496b639cb07c
+    sha256 after   00e58c8d03e20b000de5fcaee47b3ea5ab6d9a31545376df2164496b639cb07c
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Kalambaka/gr-01-006-daylight-16x9.png
+    sha256         887fead188b79c113c4f87ac8ceca1f3ec084975e97fde98dafc30d0faba06ba
+  night 4x5  library/world/Greece/Kalambaka/gr-01-006-4x5.png
+    sha256 before  3f4bfc2d2e3f26a8e49f0824100d8c3917b911514ec461d8a796331b0ac95af6
+    sha256 after   3f4bfc2d2e3f26a8e49f0824100d8c3917b911514ec461d8a796331b0ac95af6
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Kalambaka/gr-01-006-daylight-4x5.png
+    sha256         df5c7fc73af5af6f3794afd7e160317c779f78112c8d56e25fb4022f0d159b64
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-007  Ancient Theatre, Epidaurus
+  night 16x9  library/world/Greece/Epidaurus/gr-01-007-16x9.png
+    sha256 before  55e619afccebc1881adacdf09f01eb70bb78c28c814d9013678831bba9322d89
+    sha256 after   55e619afccebc1881adacdf09f01eb70bb78c28c814d9013678831bba9322d89
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Epidaurus/gr-01-007-daylight-16x9.png
+    sha256         61bb7a32e684db1526239fff676207bf6cf0814bd5dcdd94115470e8e1dc8c20
+  night 4x5  library/world/Greece/Epidaurus/gr-01-007-4x5.png
+    sha256 before  a36c3c587756f3cca5eb64a81c7dc8d5ce988bc91c83e852a482b3b0933a379d
+    sha256 after   a36c3c587756f3cca5eb64a81c7dc8d5ce988bc91c83e852a482b3b0933a379d
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Epidaurus/gr-01-007-daylight-4x5.png
+    sha256         493118c6e67e6ec1f4c60e60db1b941d0293b2599dd0a6397737fef142b56c60
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-009  Temple of Hera, Olympia
+  night 16x9  library/world/Greece/Olympia/gr-01-009-16x9.png
+    sha256 before  221792ffb5a0d5a3fae089173d767c58d938ae0b1709dd7cb43d2df041fd0bd9
+    sha256 after   221792ffb5a0d5a3fae089173d767c58d938ae0b1709dd7cb43d2df041fd0bd9
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Olympia/gr-01-009-daylight-16x9.png
+    sha256         3712818c17c31c5ac2204544b7ee07c55968aa25685b6fdf6b5f82fada41eca3
+  night 4x5  library/world/Greece/Olympia/gr-01-009-4x5.png
+    sha256 before  79d540392e95a6ffad880dc503079b88574f137da9775846dfe4ba54e6b60fbe
+    sha256 after   79d540392e95a6ffad880dc503079b88574f137da9775846dfe4ba54e6b60fbe
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Olympia/gr-01-009-daylight-4x5.png
+    sha256         802a78d12bbd71387b45d8915ee1dbef8d4a1360b1ce746a663b1ea45c43a161
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-010  Knossos, Heraklion
+  night 16x9  library/world/Greece/Heraklion/gr-01-010-16x9.png
+    sha256 before  4ef34ee985adac78706557cd116cf10cc1640d0a0ff58e67903940a2f5fb3eba
+    sha256 after   4ef34ee985adac78706557cd116cf10cc1640d0a0ff58e67903940a2f5fb3eba
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Heraklion/gr-01-010-daylight-16x9.png
+    sha256         95df779a444bc3a3c131ed9588bc107ee1121ed3506595a023d04344f2d84c27
+  night 4x5  library/world/Greece/Heraklion/gr-01-010-4x5.png
+    sha256 before  df3cd0f071a200665cbdbc7563b487f44cc3930909ab18fce2cbb683a681f164
+    sha256 after   df3cd0f071a200665cbdbc7563b487f44cc3930909ab18fce2cbb683a681f164
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Heraklion/gr-01-010-daylight-4x5.png
+    sha256         7531a089d1788a98e157550cdf31bbb752806e2385a0b1467466f1d3d71e8169
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-011  Palace of the Grand Master, Rhodes
+  night 16x9  library/world/Greece/Rhodes/gr-01-011-16x9.png
+    sha256 before  21992c6eda3068ba2eab95ea0bc79cd8691d36ec29a4dabc493376ad86c6c845
+    sha256 after   21992c6eda3068ba2eab95ea0bc79cd8691d36ec29a4dabc493376ad86c6c845
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Rhodes/gr-01-011-daylight-16x9.png
+    sha256         4418569cd1384b2aa288330575fb16b69c83f025856efd08e765fae672bd907c
+  night 4x5  library/world/Greece/Rhodes/gr-01-011-4x5.png
+    sha256 before  65d1cb3694d7cc272543c2a8bcf56f92588919d6d2617a5b811136c8d73254c9
+    sha256 after   65d1cb3694d7cc272543c2a8bcf56f92588919d6d2617a5b811136c8d73254c9
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Rhodes/gr-01-011-daylight-4x5.png
+    sha256         91f0c320e7406486e182a8bd5fb2d5c7c3691a0517a4ecbc60d48338a8d87776
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-012  Old Fortress, Corfu
+  night 16x9  library/world/Greece/Corfu/gr-01-012-16x9.png
+    sha256 before  ca1664c153a879c971b65e8eafb8d3412e308b1f56b08f5d907d934593e38cbd
+    sha256 after   ca1664c153a879c971b65e8eafb8d3412e308b1f56b08f5d907d934593e38cbd
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Corfu/gr-01-012-daylight-16x9.png
+    sha256         61814b94a202c23d787e96bbb2c5fbf1c42946fa7124584961ca5e667dfc8236
+  night 4x5  library/world/Greece/Corfu/gr-01-012-4x5.png
+    sha256 before  d99cc9c4aac1041c205eb2d0c05696754ab1087c55f8b708e54b9d668ceaeffe
+    sha256 after   d99cc9c4aac1041c205eb2d0c05696754ab1087c55f8b708e54b9d668ceaeffe
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Corfu/gr-01-012-daylight-4x5.png
+    sha256         9e3bf13a4e730ea09163ab9f632da4c6c1e8d1b0b247b5e30ffba74aa44a6568
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-013  White Tower, Thessaloniki
+  night 16x9  library/world/Greece/Thessaloniki/gr-01-013-16x9.png
+    sha256 before  93c4385fd6fce82db66c3ba929727f6c3e2d8a8be46639b4085a800b690a24f9
+    sha256 after   93c4385fd6fce82db66c3ba929727f6c3e2d8a8be46639b4085a800b690a24f9
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Thessaloniki/gr-01-013-daylight-16x9.png
+    sha256         766f0db279bbf02d901daeb975df1ec9de25b67e80daa98dc3150197ca7a9780
+  night 4x5  library/world/Greece/Thessaloniki/gr-01-013-4x5.png
+    sha256 before  fbfca4fc0130eef434ee469efc15310b7e07cd4eb92d827b9d0b60ed66e5ea12
+    sha256 after   fbfca4fc0130eef434ee469efc15310b7e07cd4eb92d827b9d0b60ed66e5ea12
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Thessaloniki/gr-01-013-daylight-4x5.png
+    sha256         63c17bc7654fab4d05b8a448b7f1ff5a1403916e64acf7dd1e658808d5f22ccb
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-014  Bourtzi, Nafplio
+  night 16x9  library/world/Greece/Nafplio/gr-01-014-16x9.png
+    sha256 before  7973b223d1c360f3debdc47e3638934b7573878d9526cb8aacd1a4394b8c3286
+    sha256 after   7973b223d1c360f3debdc47e3638934b7573878d9526cb8aacd1a4394b8c3286
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Nafplio/gr-01-014-daylight-16x9.png
+    sha256         9948644ccae866aaf69ef56274d3631d6a5d295d4469efc302a6c8285ca9e130
+  night 4x5  library/world/Greece/Nafplio/gr-01-014-4x5.png
+    sha256 before  242ffbbd08a1ab4e7669f56bb5b1458ed7e619bb7824e004008bfc52183ce2ea
+    sha256 after   242ffbbd08a1ab4e7669f56bb5b1458ed7e619bb7824e004008bfc52183ce2ea
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Nafplio/gr-01-014-daylight-4x5.png
+    sha256         26b524de60b6320db6d63db4b9783f76835a76c54af17dc8bca6265317172d6b
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-015  Vikos Gorge, Monodendri
+  night 16x9  library/world/Greece/Monodendri/gr-01-015-16x9.png
+    sha256 before  30dcc992be3b2b92fbb064e980e8dde5acbea7d167e84e1d023d25735a873de8
+    sha256 after   30dcc992be3b2b92fbb064e980e8dde5acbea7d167e84e1d023d25735a873de8
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Monodendri/gr-01-015-daylight-16x9.png
+    sha256         3f4b1ce953abf039c7a96509dd14069ea840f91324da7c79b660793850f4ddb1
+  night 4x5  library/world/Greece/Monodendri/gr-01-015-4x5.png
+    sha256 before  bee2af8333fcb7407003ba526575739655ff1a6ea516a14cfebe2d465f3aa461
+    sha256 after   bee2af8333fcb7407003ba526575739655ff1a6ea516a14cfebe2d465f3aa461
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Monodendri/gr-01-015-daylight-4x5.png
+    sha256         2117d06db482574142aa85394c3afede6397e860cb22c1450b7e334891c35d7a
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-016  Mount Olympus, Litochoro
+  night 16x9  library/world/Greece/Litochoro/gr-01-016-16x9.png
+    sha256 before  f185f3e529cb684b9c9fa44ccee2e57e2aa8bcc87eb9945f1c216e82a9c19f4d
+    sha256 after   f185f3e529cb684b9c9fa44ccee2e57e2aa8bcc87eb9945f1c216e82a9c19f4d
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Litochoro/gr-01-016-daylight-16x9.png
+    sha256         c881200e6e6392299af2dee3c867df059451343be16a381589b13967dd9c7d4b
+  night 4x5  library/world/Greece/Litochoro/gr-01-016-4x5.png
+    sha256 before  55180fb38c8e35f2678b2e8ae0456d4be69bb2bbbd85b843dd247800d35bb995
+    sha256 after   55180fb38c8e35f2678b2e8ae0456d4be69bb2bbbd85b843dd247800d35bb995
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Litochoro/gr-01-016-daylight-4x5.png
+    sha256         541f714fd4ad73743cafe2f927a365ee042c6bb011f2e7eec58353b11e7607bf
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+GR-01-017  Erechtheion, Athens
+  night 16x9  library/world/Greece/Athens/gr-01-017-16x9.png
+    sha256 before  17ffaab3fdef54f27727d1c0b7ea898f9de5ca47934e7f627ed5b54a87fc2d20
+    sha256 after   17ffaab3fdef54f27727d1c0b7ea898f9de5ca47934e7f627ed5b54a87fc2d20
+    night master   IDENTICAL
+  variant 16x9  library/world/Greece/Athens/gr-01-017-daylight-16x9.png
+    sha256         8c92be635c2df33d50cacaac491594a9ea24d240d2cbec5f6eb428cde4d772ae
+  night 4x5  library/world/Greece/Athens/gr-01-017-4x5.png
+    sha256 before  76d27f19a2224ef8e36a3688805b1948d5f228f8fbc7c7ecb2d2b408c16744bb
+    sha256 after   76d27f19a2224ef8e36a3688805b1948d5f228f8fbc7c7ecb2d2b408c16744bb
+    night master   IDENTICAL
+  variant 4x5  library/world/Greece/Athens/gr-01-017-daylight-4x5.png
+    sha256         a808696ffee0b54e8060aeeb6716283accbde6af74886752c38c63eb5ad24de6
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+ALL SELECTED NIGHT MASTERS BYTE-UNCHANGED: YES
+Variant scenes: 16. Variant masters: 32.

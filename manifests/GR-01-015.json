@@ -25,5 +25,35 @@
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
     }
-  ]
+  ],
+  "daylight_variant": {
+    "variant_of_entry_id": "GR-01-015",
+    "derived_from": "Approved night master library/world/Greece/Monodendri/gr-01-015-16x9.png (16:9) and library/world/Greece/Monodendri/gr-01-015-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Greece/Monodendri/gr-01-015-16x9.png",
+        "sha256": "30dcc992be3b2b92fbb064e980e8dde5acbea7d167e84e1d023d25735a873de8"
+      },
+      "4x5": {
+        "path": "library/world/Greece/Monodendri/gr-01-015-4x5.png",
+        "sha256": "bee2af8333fcb7407003ba526575739655ff1a6ea516a14cfebe2d465f3aa461"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Greece/Monodendri/gr-01-015-daylight-16x9.png",
+      "4x5": "library/world/Greece/Monodendri/gr-01-015-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "3f4b1ce953abf039c7a96509dd14069ea840f91324da7c79b660793850f4ddb1",
+      "4x5": "2117d06db482574142aa85394c3afede6397e860cb22c1450b7e334891c35d7a"
+    },
+    "created_date": "2026-09-25",
+    "on_image_caption": "Vikos Gorge, Monodendri",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

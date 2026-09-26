@@ -55,5 +55,35 @@
       "by": "Cosmo QC",
       "note": "Shared-retrieval Gate-2 hold resolved: approvals/GR-01-011.md now documents its own per-scene Open-Meteo HTTP fetch, retrieval timestamp 2026-09-25T21:43:52Z, verified unique to the second across all 87 Greece notes (full note set checked 2026-09-25 18:30 EDT, zero collisions); scenario minute 03:19 falls inside the cited model-valid hour. Gate 2 now PASS. Earlier Gate-1/3/4 holds unaffected; no new Gate-1 issue on re-review of the 16:9 master."
     }
-  ]
+  ],
+  "daylight_variant": {
+    "variant_of_entry_id": "GR-01-011",
+    "derived_from": "Approved night master library/world/Greece/Rhodes/gr-01-011-16x9.png (16:9) and library/world/Greece/Rhodes/gr-01-011-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Greece/Rhodes/gr-01-011-16x9.png",
+        "sha256": "21992c6eda3068ba2eab95ea0bc79cd8691d36ec29a4dabc493376ad86c6c845"
+      },
+      "4x5": {
+        "path": "library/world/Greece/Rhodes/gr-01-011-4x5.png",
+        "sha256": "65d1cb3694d7cc272543c2a8bcf56f92588919d6d2617a5b811136c8d73254c9"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Greece/Rhodes/gr-01-011-daylight-16x9.png",
+      "4x5": "library/world/Greece/Rhodes/gr-01-011-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "4418569cd1384b2aa288330575fb16b69c83f025856efd08e765fae672bd907c",
+      "4x5": "91f0c320e7406486e182a8bd5fb2d5c7c3691a0517a4ecbc60d48338a8d87776"
+    },
+    "created_date": "2026-09-25",
+    "on_image_caption": "Palace of the Grand Master, Rhodes",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

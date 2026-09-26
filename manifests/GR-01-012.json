@@ -25,5 +25,35 @@
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
     }
-  ]
+  ],
+  "daylight_variant": {
+    "variant_of_entry_id": "GR-01-012",
+    "derived_from": "Approved night master library/world/Greece/Corfu/gr-01-012-16x9.png (16:9) and library/world/Greece/Corfu/gr-01-012-4x5.png (4:5) of the same scene; not an independently modelled weather/lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Greece/Corfu/gr-01-012-16x9.png",
+        "sha256": "ca1664c153a879c971b65e8eafb8d3412e308b1f56b08f5d907d934593e38cbd"
+      },
+      "4x5": {
+        "path": "library/world/Greece/Corfu/gr-01-012-4x5.png",
+        "sha256": "d99cc9c4aac1041c205eb2d0c05696754ab1087c55f8b708e54b9d668ceaeffe"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Greece/Corfu/gr-01-012-daylight-16x9.png",
+      "4x5": "library/world/Greece/Corfu/gr-01-012-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "61814b94a202c23d787e96bbb2c5fbf1c42946fa7124584961ca5e667dfc8236",
+      "4x5": "9e3bf13a4e730ea09163ab9f632da4c6c1e8d1b0b247b5e30ffba74aa44a6568"
+    },
+    "created_date": "2026-09-25",
+    "on_image_caption": "Old Fortress, Corfu",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
