@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-252-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Monastiraki Square with the domed Tsisdarakis mosque in the foreground, the Acropolis rising behind, the Pantanassa church with red tile roof at left — the square's documented composition; 4:5 agrees on the same mosque, colonnade and Acropolis backdrop. Gate 2: exact 1920x1080/864x1080; on-image 'Monastiraki Square, Athens', scenario '24 September 2026 · 10:30 Europe/Athens', AI-disclosure and 'Jason D's Vision' signature (curly apostrophe) legible; note records separate Open-Meteo retrieval 2026-09-25T23:46:10Z valid 10:30, unique repo-wide, scenario minute inside the 10:00-10:59 model hour (code 0, matches clear sky). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos; public square and monuments. Gate 5: all gates pass.",
+  "approved_at": "2026-09-26T17:42:48.699335+00:00",
+  "sha256_16x9": "57631b89dd7a695c5a648ccdc69d12a6157b399a7b7ffc25d02e155ab706ce74",
+  "sha256_4x5": "b66383a097cd691790d24b2d1ecb26a40c91e3d80ffc8a8af26f11d3109010ad"
 }
