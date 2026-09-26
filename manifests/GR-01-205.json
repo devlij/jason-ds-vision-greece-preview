@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Gramvousa/gr-01-205-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Gramvousa fortress from a headland approach — ruined pale-limestone curtain walls and tumbled rubble spread over bare windswept rock crowning the cape, the cliff dropping to dark blue sea at right; morning light from the left with soft shadows under a partly cloudy sky; recognizably the Venetian fortress ruins on the Gramvousa cape, no artifacts or framing problems. Gate 2: 1920x1080/864x1080 verified; on-image 'Gramvousa Fortress, Gramvousa', 'Scenario: 24 September 2026 · 09:15 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:23Z in approvals/GR-01-205.md, unique to this scene across notes 150–240. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, vehicles, logos, or private property — ruins, rock, sea only. Daylight.",
+  "approved_at": "2026-09-26T13:44:20.844334+00:00",
+  "sha256_16x9": "e7b617122ba62cdcecee026315b0936a38c2449f36452d7ccc86e27426babfc8",
+  "sha256_4x5": "b2ad43b21e5360199edf0ea58d98cf2b26fa9b3b11ba85721fe48dbcff428083"
 }
