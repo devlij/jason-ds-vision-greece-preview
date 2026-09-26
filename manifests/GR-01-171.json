@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Ikaria/gr-01-171-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: 16:9 master shows Nas's dark pebble beach, the Chalaris stream threading across the pebbles to the sea, the steep green gorge rising inland, and ancient temple ruins terraced on the right slope — low eastern sun with warm light on the headland, matching the evidence card's beach viewpoint (37.62194, 26.06000). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Nas Beach, Ikaria', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:49Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
+  "approved_at": "2026-09-26T10:39:04.004441+00:00",
+  "sha256_16x9": "501ce57a2a9f3bbbc21a391fd9455920162c54f4351be9316ca0d871e67d5f26",
+  "sha256_4x5": "24084764f5720781c4d2da87b19fd01412d638cb96e3359be6bb64a43f1d8211"
 }
