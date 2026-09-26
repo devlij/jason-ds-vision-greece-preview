@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Orestiada/gr-01-096-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gates 1-5 pass. Gate 1: Orestiada town square at pre-dawn — paved plaza with plane trees and benches, lit street lamps, plain modern municipal building, dawn glow on the left horizon, clear sky; plausible square viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Town Square, Orestiada', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T23:43:34Z verified unique across all 365 repo notes; model-valid hour covers 06:59; 6% cloud / 9.9C matches the clear sky. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only.",
+  "approved_at": "2026-09-26T04:44:42.213807+00:00",
+  "sha256_16x9": "85b898f1ac194354ce7a3929dfca65cb9e1ad765345f6bbbbb37c759e23dbcc4",
+  "sha256_4x5": "4c5127a59d0375881c74516adc3ba06e956924a20685153fbfbea16972822d72"
 }
