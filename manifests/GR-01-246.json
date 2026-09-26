@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Mykonos/gr-01-246-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: wide crescent of pale sand curving around a sheltered bay, turquoise water, seven beige beach umbrellas casting short morning shadows, low brown hills scattered with whitewashed houses and a white domed church on the right headland — matching the note's anchors (crescent pale sand, low hills with white houses and a small chapel, no windmills, no captains' houses); umbrella shadows consistent with 10:30 / azimuth 126.1° ESE. The 4:5 shows the same beach from the other end — turquoise water, whitewashed resort building on the rocky point, the same white domed church with cross on the hilltop — defining features agree. Gate 2 PASS: on-image 'Ornos Beach, Mykonos', 'Scenario: 24 September 2026 · 10:30 Europe/Athens', disclosure, and curly-apostrophe 'Jason D's Vision' signature verified; note's own Open-Meteo retrieval 2026-09-25T23:46:04Z (unique second), 10:30 inside the 10:00–10:59 model hour. Gate 3 PASS: text-prompt-only lineage documented, no photographic inputs. Gate 4: no people, logos, or focal artwork — documented only. Gate 5: manifest has no qc_notes, no open blockers.",
+  "approved_at": "2026-09-26T16:52:28.598613+00:00",
+  "sha256_16x9": "7db0ea865bbe98f0731a62b5443d75d533cd711f0b96d012a9570c3a11395958",
+  "sha256_4x5": "2aa5990c8b06f7b98fa7916ef108a9b0e4287c45c9761978cc0ac585f3d6999b"
 }
