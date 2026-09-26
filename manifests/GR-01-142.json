@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Folegandros/gr-01-142-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Chora, Folegandros — the whitewashed town perched on the cliff edge with the domed Panagia church on its paved terrace at the very brink of the sheer drop, blue sea below; the signature Folegandros cliff-town view, clean framing, no artifacts. Gate 2: mechanical 1920x1080 + 864x1080 PASS; 'Jason D's Vision' signature bottom-right; caption 'Chora, Folegandros', scenario '24 September 2026 · 07:55 Europe/Athens', AI disclosure bottom-left on scrim, all legible. Weather: Open-Meteo retrieved 2026-09-25T23:44:20Z per approvals/GR-01-142.md — unique to this scene across all 365 Greece notes; scenario minute 07:55 inside model-valid hour 07:00-07:59. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no visible people, logos, or recognizable private property (documented only; commercial call is Jason's). Gate 5: no blockers.",
+  "approved_at": "2026-09-26T08:40:18.271801+00:00",
+  "sha256_16x9": "955862f481667e0836de27020916c1334a675931786253d6652e9af78f17caf4",
+  "sha256_4x5": "9ba1ff90974a9922ec7d964bfe80d0d3c5f28c4c1d65f5bca319869bd1d02878"
 }
