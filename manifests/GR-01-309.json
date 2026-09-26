@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Naxos/gr-01-309-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: stone old-town alley in Kastro with the white church gable, round oculus and arched door framed at the street end, carved crests on the lane walls — recognizably the captioned Kastro, Naxos from a plausible tourist viewpoint; 4:5 shows the same old town's stair lane and church facade, no defining-feature disagreement. Gate 2: sweep MECHANICAL PASS (1920x1080 / 864x1080 valid PNGs); on-image verified caption 'Kastro, Naxos', scenario '24 September 2026 · 11:45 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right, legible on the scrim; weather is this scene's own Open-Meteo retrieval recorded 2026-09-25T23:50:14Z, unique repo-wide across all 62 candidates (no identical-to-the-second sharing), scenario minute inside the model-valid 11:00-11:59 hour, is_day 1 matching the daylight master. Gate 3: note documents text-prompt-only generation, no photographic input. Gate 4: no visible people or logos; public stone streetscape — documented only, commercial call is Jason's. Gate 5: all gates pass, no open blockers.",
+  "approved_at": "2026-09-26T23:46:21.079815+00:00",
+  "sha256_16x9": "f26e36effdd356171343b3c6a033db365affb5f9f4bb242ca635cee0a5b4bb6e",
+  "sha256_4x5": "6f6b0ca078b80558911283fc41f8fe53c510b797461bc0d9b2f81a28d27d707c"
 }
