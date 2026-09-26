@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Paxos/gr-01-125-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: pastel houses along the near quay, the islet of Agios Nikolaos with its low Venetian fort and tower, the islet of Panagia with the white monastery, the narrow channel between them, the sun low at the right horizon — matches the town-quay camera point and geometry anchors; the camera faces east toward the islets, so the sun's position is consistent with the recorded azimuth 91.7 degrees. Gate 2: 1920x1080 + 864x1080 verified; on-image 'Gaios Harbor, Paxos', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right; per-scene Open-Meteo retrieval 2026-09-25T23:44:03Z (unique repo-wide), model clear / 1% cloud matches the depicted clear morning. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, no logos — documented, commercial call is Jason's.",
+  "approved_at": "2026-09-26T06:44:20.986450+00:00",
+  "sha256_16x9": "d248cf41ef7302326881d87f8330f88d9e88e820c9a2718fea6976dd46a69a74",
+  "sha256_4x5": "7969ca6c389767e1d965d1e179ffeb2e02deacaa7e603081830dbe6a84e14aa7"
 }
