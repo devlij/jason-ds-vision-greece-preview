@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Milos/gr-01-135-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the 16:9 master shows Sarakiniko's smooth white volcanic ashstone formations sculpted into moon-like channels and hollows along the shoreline, meeting turquoise water — the unmistakable lunar coastline of Milos. Gate 2: exact 1920x1080 + 864x1080 masters; on-image caption 'Sarakiniko, Milos' and scenario 'Scenario: 24 September 2026 · 07:55 Europe/Athens' with 'AI-generated artistic interpretation · Not a photograph.' legible on the bottom gradient; exact 'Jason D’s Vision' signature bottom-right. Weather retrieval 2026-09-25T23:44:13Z is unique to this scene (separate request for 36.7454, 24.4570, matching HTTP Date); scenario minute 07:55 sits inside the model-valid hour 07:00–07:59 and the clear sky matches code 0 / 6% cover. Gate 3: notes record text-prompt-only lineage, no photographic reference. Gate 4: no people or logos visible; commercial call remains Jason's.",
+  "approved_at": "2026-09-26T07:36:55.305339+00:00",
+  "sha256_16x9": "df88f916982838b37a0cbf039859bf8c84b127cfd3525247d442527dabf20257",
+  "sha256_4x5": "5a8fbaa8c5af41464a9c2ffe60d57379861f72aee63f941cfa15b549eeffbc6d"
 }
