@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Samothrace/gr-01-235-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: hill village of white houses with red tile roofs climbing a slope, ruined medieval kastro at the summit, Mount Saos bulk behind — plausible tourist view; morning light from the east consistent with the note's solar azimuth 122.2° ESE; the 4:5 shows the same subject (kastro ruins, slope houses, mountain), no inter-format disagreement. Gate 2 PASS: on-image bottom-left reads 'Chora, Samothrace', 'Scenario: 24 September 2026 · 10:05 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', bottom-right 'Jason D's Vision' with curly apostrophe; note records its own Open-Meteo retrieval 2026-09-25T23:45:53Z (unique second, no sharing) and the 10:05 scenario falls inside the cited 10:00–10:59 model hour. Gate 3 PASS: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or focal artwork — documented only, commercial call is Jason's. Gate 5: manifest carries no qc_notes (no open hold), no blockers.",
+  "approved_at": "2026-09-26T16:42:56.620339+00:00",
+  "sha256_16x9": "4eb8d2aad6f9c2eadada196796d6a27d8baaca39ccba51a7b9dae98e4b4b372c",
+  "sha256_4x5": "1d4ef26f5cb7743a7c1adb8e0b48ba4c73948f43f806df3e5a624d3fc2a0f08c"
 }
