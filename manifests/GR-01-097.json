@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Ioannina/gr-01-097-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
+  "approval_basis": "Gate 1: dawn view from the Molos promenade of Ioannina Castle's crenellated curtain wall, square tower and the Its Kale minaret, plane trees and lamplit path foreground, Lake Pamvotida and Pindus foothills beyond. Gate 2: masters exact 1920x1080/864x1080; on-image caption 'Ioannina Castle, Ioannina', scenario '24 September 2026 · 07:20 Europe/Athens', AI disclosure bottom-left, 'Jason D’s Vision' signature bottom-right, all legible on the scrim; Open-Meteo retrieval 2026-09-25T23:43:35Z unique to this scene repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering the scenario minute. Gate 3: note records text-prompt-only generation, no photographic inputs. Gate 4: no people or logos; castle and lakefront documented, commercial call is Jason's. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T05:35:43.313863+00:00",
+  "sha256_16x9": "7305ad88f166bd32de5e30bd35bc39686992f61d3fc9f0a97a8fc46aea170735",
+  "sha256_4x5": "a270a0bf476d666f94af90cb881e7d79156ecb11b665cdaeb53111296c8a543f"
 }
