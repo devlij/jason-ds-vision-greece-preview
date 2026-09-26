@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Agios Panteleimon/gr-01-228-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: pebbled reed-fringed shore at Agios Panteleimon with the white red-roofed village houses on the point at left and the big Vegoritida mountain massif rising behind the lake — matches the note's village-shore viewpoint, no artifacts, calm framing. Gate 2: exact dims verified; caption 'Vegoritida Lake, Agios Panteleimon' and scenario '24 September 2026 · 10:05 Europe/Athens' verified on-image; 'Jason D's Vision' bottom-right, AI-disclosure legible at bottom; weather retrieval 2026-09-25T23:45:46Z unique to this scene, valid 10:00 Europe/Athens within the scenario hour. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no people, logos, or private property visible — documented only. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T15:39:40.714742+00:00",
+  "sha256_16x9": "425236a1597eda96bba6a484dd2891bc5bb9872033f04998e52dd96527808fa1",
+  "sha256_4x5": "da088ea120c409b17b9b27775e5995b6a43416aabab34c3461f8730afc157340"
 }
