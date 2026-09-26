@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Thessaloniki/gr-01-222-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Galerius Arch, Thessaloniki: the Kamara with relief-covered piers and the great brick arch, tree-lined pedestrian street running through it to the modern city. Caption 'Galerius Arch, Thessaloniki', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, 'Jason D’s Vision' verified on-image; exact dims. Gate 1 pass: recognizable Galerius Arch with carved piers and brick arch, plausible tourist viewpoint, clean framing, no artifacts. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:40Z, unique second (own request at its own coordinates), scenario inside the 09:00–09:59 Athens model hour. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no identifiable people or logos – documented only.",
+  "approved_at": "2026-09-26T14:38:43.036383+00:00",
+  "sha256_16x9": "5619865a7b8362ce20883ba93aaa14af06c3fb4d8e3e3dab36607043eddb67bf",
+  "sha256_4x5": "cacca3ea469bc7c49f089cd0fa4589829a2b0963b7c3b0899e84836b00f166cf"
 }
