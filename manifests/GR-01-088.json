@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Samothrace/gr-01-088-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gates 1-5 pass. Gate 1: Sanctuary of the Great Gods, Samothrace at pre-dawn — elevated view over the circular theater cavea left and row of column stumps on the temple terrace right, forested hills, sea visible at the right horizon, near-clear sky with dawn band; plausible tourist viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Sanctuary of the Great Gods, Samothrace', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T23:43:26Z verified unique across all 365 repo notes; model-valid hour covers 06:59; 3% cloud / 15.0C matches the clear sky. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only.",
+  "approved_at": "2026-09-26T04:44:06.817515+00:00",
+  "sha256_16x9": "7c8c8301e63568d5838d4b655052f1b57992ec6da1516c7d64340163360c91ec",
+  "sha256_4x5": "f5b9e494971ace963fdf2c3a048e97b31b7b7557b12b398f8deabe1455296a3c"
 }
