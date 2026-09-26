@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Psara/gr-01-175-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 pass: 16:9 master shows Psara's whitewashed waterfront town curving along the bay (flat-roofed cube houses, small boats at the town quay), two anchored fishing boats on the open Aegean at left, and the barren rocky massif of Mavri Rachi rising at right with a small white chapel on its crest above ancient stone ruins and a tall standing-stone obelisk in the foreground — a plausible morning tourist view, clean framing, no artifacts. Gate 2 pass: on-image caption 'Psara Harbor, Psara' and scenario '24 September 2026 · 08:35 Europe/Athens' exact, curly-apostrophe 'Jason D's Vision' signature bottom-right, 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on the scrim, legible and non-intrusive; weather is a per-scene Open-Meteo retrieval 2026-09-25T23:44:53Z (unique to the second, repo-wide), valid for the 08:30 model step, scenario minute 08:35 inside the 08:00-08:59 model hour, is_day 1, code 0 clear. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, logos, or identifiable private property. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:38:20.100349+00:00",
+  "sha256_16x9": "2b1cc7544970ab5760a37778d97186f47143a8ac5b19bb82c717ce0548cf2166",
+  "sha256_4x5": "cd1d4200b8564bad7d7dc38fda15926ae8055d08cd4482c96dad5c6ddc67dee9"
 }
