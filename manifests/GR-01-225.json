@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Ptolemaida/gr-01-225-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: circular tree-lined square with a two-tone modernist municipal building at center, pine ring around the lawn, low shopfronts and mountains behind — plausible Ptolemaida central square from the outer sidewalk viewpoint in the note; no artifacts, clean framing. Gate 2: exact dims verified; caption 'Central Square, Ptolemaida' and scenario '24 September 2026 · 10:05 Europe/Athens' verified on-image; 'Jason D's Vision' bottom-right, AI-disclosure legible at bottom; weather retrieval 2026-09-25T23:45:43Z unique to this scene, valid 10:00 Europe/Athens within the scenario hour. Gate 3: text-prompt-only lineage recorded, no photographic inputs. Gate 4: no visible people, logos, or private property — documented only. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T15:38:39.517319+00:00",
+  "sha256_16x9": "5f08d120bab7bf4bc5305553d28db965796b4125bb64be5d0266254d35812dd0",
+  "sha256_4x5": "71175f4f651e623dc97bc68a360277f110c3a914aee1daf1c2e588c0a42a8652"
 }
