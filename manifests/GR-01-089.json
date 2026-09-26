@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Dadia/gr-01-089-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gates 1-5 pass. Gate 1: Dadia Forest at pre-dawn — small white cabin with lit porch lamp beside a dirt track curving into dense oak forest, forested hills, broken cloud with dawn glow on the horizon; plausible reserve-track viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Dadia Forest, Dadia', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T23:43:27Z verified unique across all 365 repo notes; model-valid hour covers 06:59; 45% cloud / 8.8C matches the broken cloud. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only.",
+  "approved_at": "2026-09-26T04:44:10.870384+00:00",
+  "sha256_16x9": "d2bd748f50b4f42171be701dc82a2c56bda629e8a603de666c3ee499e262dc28",
+  "sha256_4x5": "a6122731844a511ff02830e88233a890f6c7bc97f38956f08d64326dd7c1119a"
 }
