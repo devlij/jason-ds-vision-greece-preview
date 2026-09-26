@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Serres/gr-01-091-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gates 1-5 pass. Gate 1: Serres Bezesteni at pre-dawn — Ottoman domed stone market hall with its row of lead domes on the empty square, lit street lamps, old town houses around, thin dawn band; plausible square viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Bezesteni, Serres', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T23:43:29Z verified unique across all 365 repo notes; model-valid hour covers 06:59; 0% cloud / 8.3C matches the clear sky. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only.",
+  "approved_at": "2026-09-26T04:44:20.062799+00:00",
+  "sha256_16x9": "a409b5bce389af7ac7e6141f4e421ab29012e519e832e790b271317c41dbf9c8",
+  "sha256_4x5": "7e868f9c8f84b763ed2478e2434f439ebae8840ef43bc1e089699f7bdbd6d547"
 }
