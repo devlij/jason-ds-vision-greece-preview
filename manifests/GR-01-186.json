@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Alonissos/gr-01-186-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 pass: 16:9 master shows Steni Vala's small fishing quay — weathered stone quay edge in the bottom-left foreground, a white harborside house with blue shutters and stone seawall frontage at left, a cluster of small moored fishing boats in blue, white, and cream with an orange life-ring center-left, calm deep-blue bay center-right stretching toward a rocky pine-forested headland; coherent water reflections, morning light, no artifacts; consistent with the clear 20.4C 09:00 scenario. Gate 2 pass: caption 'Steni Vala, Alonissos' and scenario '24 September 2026 · 09:00 Europe/Athens' exact, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim. Weather per-scene retrieval 2026-09-25T23:45:04Z, unique to the second repo-wide, 09:00 model step, scenario inside 09:00-09:59 model hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no legible boat name-boards, generic coastal dwelling. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:39:10.604639+00:00",
+  "sha256_16x9": "b6d0e55c1af30451504d1d63f3f3e919933307894b3c7adf09e6f3b070a1e33d",
+  "sha256_4x5": "5cb9bed010a490a4531f220cbdea06d4ceb9e4bf37c58e8522606ad3a57028ac"
 }
