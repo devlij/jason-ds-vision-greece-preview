@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Milies/gr-01-216-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Milies station: single rail track curving through the left foreground, stone station house with tile roof, stone village houses climbing the wooded hill behind, a large plane tree at frame right. Caption 'Milies Station, Milies', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, 'Jason D’s Vision' verified on-image; exact dims. Gate 1 pass: Pelion narrow-gauge terminus setting matches anchors, plausible viewpoint, clean framing, no artifacts. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:34Z, unique second, scenario inside the model-valid hour. Gate 3: text-prompt-only, no photographic input reported. Gate 4: no people or logos – documented only.",
+  "approved_at": "2026-09-26T14:38:11.345967+00:00",
+  "sha256_16x9": "78c5d8022e0422e59f6ec5c5340eb96686158178afe83e066ab77dc42028afdc",
+  "sha256_4x5": "cf5a4ef98cb5d17ad2a37368920329a00a30356e4ebf283ce1b135da8cf28d9f"
 }
