@@ -3560,6 +3560,24 @@
       out.sort(function(a, b) { return a[0] - b[0] || a[1] - b[1] || (a[2] < b[2] ? -1 : 1); });
       return out.slice(0, 4).map(function(x) { return x[2]; });
     }
+    /* sceneAlt(): '{caption} — {site}, {City}'. Site is the caption with the
+       ', {City}' suffix removed, the same split the image sitemap uses. */
+    function sceneAlt(caption, city) {
+      var cap = caption || '';
+      var placeCity = city || '';
+      var site = cap;
+      var suffix = ', ' + placeCity;
+      if (placeCity && cap.slice(-suffix.length) === suffix) {
+        site = cap.slice(0, -suffix.length);
+      } else {
+        var cut = cap.lastIndexOf(', ');
+        if (cut >= 0) {
+          site = cap.slice(0, cut);
+          if (!placeCity) placeCity = cap.slice(cut + 2);
+        }
+      }
+      return cap + ' \u2014 ' + site + ', ' + placeCity;
+    }
     /* phase1Enhance(): injected per card after every render() — the Greece
        grid re-builds cards on each filter keystroke, so related rows and
        copy-link buttons must be re-added each time. Guards keep it duplicate-free. */
@@ -3603,7 +3621,7 @@
               var m = GREECE_META[rid];
               if (!m || !m[3]) return;
               var a = document.createElement('a'); a.className = 'related-link'; a.href = '#' + rid;
-              var im = document.createElement('img'); im.loading = 'lazy'; im.src = m[3]; im.alt = m[4];
+              var im = document.createElement('img'); im.loading = 'lazy'; im.src = m[3]; im.alt = sceneAlt(m[4], '');
               var sp = document.createElement('span'); sp.textContent = m[4];
               a.appendChild(im); a.appendChild(sp); row.appendChild(a);
             });
@@ -9530,7 +9548,7 @@
         card.innerHTML = `
           <div class="preview">
             ${primary ? `<a class="thumb${primary === file45 ? " tall" : ""}${primary === file916 ? " tall916" : ""}" href="${esc(primary)}" target="_blank" rel="noopener">
-              <img src="${esc(primary)}" alt="${esc(s.alt_text)}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${file16Day ? ` data-src-16-day="${esc(file16Day)}"` : ""}${file45Day ? ` data-src-45-day="${esc(file45Day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${file916Day ? ` data-src-916-day="${esc(file916Day)}"` : ""} />
+              <img src="${esc(primary)}" alt="${esc(sceneAlt(s.caption, s.city))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${file16Day ? ` data-src-16-day="${esc(file16Day)}"` : ""}${file45Day ? ` data-src-45-day="${esc(file45Day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${file916Day ? ` data-src-916-day="${esc(file916Day)}"` : ""} />
             </a>` : ""}
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -9665,7 +9683,13 @@
     }).filter(function(x){return x.src;});
     if(!items.length)return;
     idx=(i+items.length)%items.length;
-    img.src=items[idx].src;img.alt=items[idx].cap;cap.textContent=items[idx].cap;
+    img.src=items[idx].src;
+    var rawCap=items[idx].cap||'';
+    var dayMark=' \u2014 \u2600 Daylight variant';
+    var baseCap=rawCap.slice(-dayMark.length)===dayMark?rawCap.slice(0,-dayMark.length):rawCap;
+    img.alt=(typeof sceneAlt==='function')?sceneAlt(baseCap,''):rawCap;
+    if(baseCap!==rawCap)img.alt+=dayMark;
+    cap.textContent=items[idx].cap;
     count.textContent=(idx+1)+' / '+items.length;
     overlay.classList.add('open');overlay.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';
   }
