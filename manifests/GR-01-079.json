@@ -12,18 +12,49 @@
   "file_4x5": "library/world/Greece/Volos/gr-01-079-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
-  "approval_basis": "Volos Waterfront, Volos: palm-lined promenade with lit street lamps, fishing boats at a small pier, the city front and the Pelion silhouette beyond at dawn. Gate 1 visual PASS — recognizable Volos waterfront with the Pelion backdrop, no artifacts. Gate 2 PASS — exact 1920x1080/864x1080; caption 'Volos Waterfront, Volos', scenario '24 September 2026 · 06:52 Europe/Athens', disclosure and signature exact and legible; weather retrieved 2026-09-25T21:46:08Z, unique per-scene Open-Meteo fetch verified unique, scenario minute inside the model-valid hour. Gate 3 PASS — text-prompt-only lineage. Gate 4 documented — no people or logos. Gate 5 PASS.",
-  "approved_at": "2026-09-26T03:38:41.931725+00:00",
-  "sha256_16x9": "a1d67575cc7b4ecb0c65a4b42c9dd8c28c6eeb19432c48992fbe2c23433a79f4",
-  "sha256_4x5": "30ce4ad82b55e93a546227c8f18ea8dc234db904bf2ba2b3b1e7985a6bb73510",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:42Z (Sun, 27 Sep 2026 16:54:42 GMT), separate request for 39.3615, 22.948, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 0%, 13.0°C, wind 6.3 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "78e32efc6150f41e27b37463d16dbb1399249c8e907a99c4d65ec14ea5e1539f",
+  "sha256_4x5": "01a06f55bc018da3058f7627d4e45eb44534bba1fdbf8ac64678397ec0de3b0f",
   "reverted_at": "2026-09-25T12:47:40.615179+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:47:40.615179+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:42:42Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:42Z unique to the second; scenario 06:52 inside the model-valid hour; code 0, cloud 0%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Greece/Volos/gr-01-079-9x16.png",
+  "sha256_9x16": "08f46f5e8af63fc22167d133607a788cf7dfddea7bd0f6da3ade2b68fc00bc54",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:54:42Z",
+    "http_date": "Sun, 27 Sep 2026 16:54:42 GMT",
+    "valid_local": "2026-09-24T06:45",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "06:00-06:59",
+    "scenario_minute": "06:52",
+    "latitude": 39.3615,
+    "longitude": 22.948,
+    "model_cell_latitude": 39.375,
+    "model_cell_longitude": 22.9375,
+    "elevation_m": 13.0,
+    "minutely_15_index": 219,
+    "weather_code": 0,
+    "weather_code_name": "clear",
+    "cloud_cover_percent": 0,
+    "temperature_c": 13.0,
+    "wind_kmh": 6.3,
+    "relative_humidity_percent": 59,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:42Z, valid 2026-09-24T06:45 Europe/Athens — not a verified on-site observation."
+  }
 }
