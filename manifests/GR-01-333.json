@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-333-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: tall limestone skene outer face of the Odeon with two rows of arched openings, Acropolis rock and the Parthenon behind, street-exterior view; partly cloudy matches code-2 28%. Gate 2: exact 1920x1080 and 864x1080, 'Odeon of Herodes Atticus, Athens', scenario 12:15, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:50:38Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-27T06:57:18.286236+00:00",
+  "sha256_16x9": "a2ba7ef6ac0b80e4112ffc0428218eb045d3abcc0adc440fd5af642e0d3e1721",
+  "sha256_4x5": "cb66b94ce748282362fe97240559e60adccd4d126383999f2deeaeee0c7e47b9"
 }
