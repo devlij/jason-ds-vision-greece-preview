@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-354-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows the monument on its square podium — solid cylindrical core with six engaged Corinthian columns, conical roof with acanthus finial, tripod gone, Acropolis rock behind — matching all three anchors; the 4:5 agrees on the same monument subject. Gate 2: exact dims; on-image 'Lysicrates Monument, Athens', 'Scenario: 24 September 2026 · 12:58 Europe/Athens', disclosure, and signature verified; retrieval 2026-09-25T23:52:01Z unique to the second across the window; broken cumulus matches code 2 / 47% cover. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-27T13:38:08.430146+00:00",
+  "sha256_16x9": "c24c983dd325d8404dcdfb6f2ad3ad4762ad11c3440f9c1c9cb0fa14949f99c0",
+  "sha256_4x5": "3d76f9c578941c46a8a3667992f9e49c4161e63b9c7497380e334d4b7e1055ef"
 }
