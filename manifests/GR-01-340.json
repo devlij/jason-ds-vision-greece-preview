@@ -12,5 +12,12 @@
   "file_4x5": "library/world/Greece/Ermoupoli/gr-01-340-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "qc_notes": [
+    {
+      "at": "2026-09-27T12:54:56.631651+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 hold — inter-format subject disagreement, verified by Cosmo QC 2026-09-27 on both masters: the 16:9 shows the Cathedral of St. George with a large dome and a modest two-tier triple-arch bell structure, while the 4:5 shows the same cathedral with a tall three-tier campanile-style bell tower rising well above the dome — the two formats disagree on the defining feature of the crowned cathedral. Left as Candidate; needs the builder to re-render one format to match the other's subject identity. (Gate 2-4 otherwise clean for 340: exact dims, on-image text exact, Open-Meteo retrieval 2026-09-25T23:51:47Z per-scene and unique to the second, text-prompt-only lineage, no people or logos.)"
+    }
+  ]
 }
