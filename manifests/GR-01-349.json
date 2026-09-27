@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Olympia/gr-01-349-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 frames the stone-vaulted Krypte tunnel opening onto the packed-earth track with grass banks rising on both sides and pines beyond — no marble seating — matching all three anchors; the 4:5 agrees on the tunnel-to-track subject. Gate 2: exact dims; on-image 'Ancient Stadium, Olympia', scenario 12:45, disclosure, and signature verified; Open-Meteo retrieval 2026-09-25T23:51:56Z unique to the second across the 340–365 window; clear sky matches code 0. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-27T13:37:38.790640+00:00",
+  "sha256_16x9": "0b384adce0c4b33c711a5229054322e9cadb1e64ddd5604ad3061171d35abf1e",
+  "sha256_4x5": "aaca59292ee549baeda86a8de531b6e0009f68780a064e58bdcdc9c2c7237ec3"
 }
