@@ -200,18 +200,23 @@ def main() -> None:
     ids = [entry["entry_id"] for entry in entries]
     if "GR-01-340" in ids or any(entry_id in ids for entry_id in skipped):
         raise SystemExit("a Candidate was written into the image sitemap")
-    if len(entries) != 347:
-        raise SystemExit(f"expected 347 approved scenes, got {len(entries)}")
-    sample = next(entry for entry in entries if entry["entry_id"] == "GR-01-001")
-    if sample["loc"] != "https://greece.jdvision.org/#GR-01-001":
+    # 347 was the approved count before the weather rework. GR-01-001–087
+    # are Candidate after that merge, so they stay out of the sitemap.
+    weather = [f"GR-01-{i:03d}" for i in range(1, 88)]
+    if any(entry_id not in skipped for entry_id in weather):
+        raise SystemExit("a weather-rework scene was not left Candidate")
+    if len(entries) != 260:
+        raise SystemExit(f"expected 260 approved scenes, got {len(entries)}")
+    sample = next(entry for entry in entries if entry["entry_id"] == "GR-01-088")
+    if sample["loc"] != "https://greece.jdvision.org/#GR-01-088":
         raise SystemExit(f"copy-link loc {sample['loc']}")
     formats = [image["format"] for image in sample["images"]]
     if formats != ["16:9", "4:5"]:
-        raise SystemExit(f"GR-01-001 formats {formats}")
+        raise SystemExit(f"GR-01-088 formats {formats}")
     image = sample["images"][0]
-    if image["title"] != "Parthenon, Athens" or image["geo_location"] != "Athens, Greece":
+    if image["title"] != "Sanctuary of the Great Gods, Samothrace" or image["geo_location"] != "Samothrace, Greece":
         raise SystemExit(f"place fields {image['title']!r} {image['geo_location']!r}")
-    if image["caption"] != "Parthenon, Athens":
+    if image["caption"] != "Sanctuary of the Great Gods, Samothrace":
         raise SystemExit("caption was not the scene caption")
     if " " in image["loc"]:
         raise SystemExit("image:loc left a space unencoded")
