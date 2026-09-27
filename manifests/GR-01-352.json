@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Thessaloniki/gr-01-352-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows the long brick basilica from the west square — pitched roofs stepping down from nave to aisles, rows of arched windows, arched west portals — matching all three anchors (basilica, not a domed rotunda); the 4:5 shows the same brick basilica with its east apse, so the formats agree on subject identity. Gate 2: exact dims; on-image 'Saint Demetrios, Thessaloniki', scenario 12:45, disclosure, and signature verified; retrieval 2026-09-25T23:51:59Z unique to the second across the window; clear sky matches code 0. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-27T13:37:58.204653+00:00",
+  "sha256_16x9": "e3084d27c9ff76f331c3e5e611b9ed316438e5ba8cde352766b3f36caba95ae0",
+  "sha256_4x5": "ed23d31407b7ce9a910f1712e268ef864bd5555bcd78529bdc74a6e044ddc31e"
 }
