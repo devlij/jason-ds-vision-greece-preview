@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Ierapetra/gr-01-322-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gates 1-5 PASS. G1: Kales Fortress, Ierapetra — 16:9 low rectangular fort with corner towers at the harbor entrance, fishing boats beside it, open sea beyond; 4:5 the same fort massing with rounded bastion ends and boat-filled foreground, consistent. G2: dims exact; on-image 'Kales Fortress, Ierapetra', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible; scenario inside model-valid hour. Weather retrieval 2026-09-25T23:50:27Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
+  "approved_at": "2026-09-27T01:12:51.713905+00:00",
+  "sha256_16x9": "02627748c0327ae999b380844ca1a38b0658870f5ef6df5eea753f0e4e6726fc",
+  "sha256_4x5": "1da09b59679ffc4e83d7d07d9e09ea9b5018a49a090934728614b7cbe68f8b7b"
 }
