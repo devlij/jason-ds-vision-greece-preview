@@ -7,7 +7,8 @@ anchors) lives in tools/gallery_shell.html. Re-running this script keeps those
 controls. It does not rewrite master images.
 
 A format tab, download, daylight control, or related thumbnail is emitted only
-when that master file is on disk.
+when that master file is on disk. The same run rewrites image-sitemap.xml from
+the live approval status on each manifest.
 """
 
 from __future__ import annotations
@@ -279,6 +280,19 @@ def main() -> None:
     print("phase1: search+region, day/night, mood, result-count, clear-all, related, copy-link, deep-link")
     for warning in warnings:
         print("warn:", warning, file=sys.stderr)
+    # Import lazily so loading this module does not cycle through the sitemap writer.
+    import build_image_sitemap
+
+    sitemap = build_image_sitemap.write_outputs()
+    counts = sitemap["formats"]
+    print(
+        f"wrote image-sitemap.xml with {sitemap['scenes']} approved scenes, "
+        f"{sitemap['images']} images "
+        f"(16:9={counts['16:9']} 4:5={counts['4:5']} 9:16={counts['9:16']})"
+    )
+    if sitemap["problems"]:
+        for problem in sitemap["problems"]:
+            print("warn:", problem, file=sys.stderr)
 
 
 if __name__ == "__main__":

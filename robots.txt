@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://greece.jdvision.org/sitemap.xml
+Sitemap: https://greece.jdvision.org/image-sitemap.xml

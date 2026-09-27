@@ -158,12 +158,17 @@ def main() -> None:
     if 'id="removed-daynight"' in restored or "function removedRelated" in restored:
         raise SystemExit("regenerate kept a clobbered page")
 
-    # Second run is byte-stable.
+    # Second run is byte-stable, including the image sitemap the generator writes.
     first = (ROOT / "index.html").read_bytes()
+    sitemap_path = ROOT / "image-sitemap.xml"
+    first_sitemap = sitemap_path.read_bytes()
     subprocess.check_call([sys.executable, str(TOOLS / "build_index.py")], cwd=ROOT)
     second = (ROOT / "index.html").read_bytes()
+    second_sitemap = sitemap_path.read_bytes()
     if first != second:
         raise SystemExit("two generator runs diverged")
+    if first_sitemap != second_sitemap:
+        raise SystemExit("two image-sitemap runs diverged")
     page = first.decode("utf-8")
     if "function relatedFor" not in page or 'id="f-mood"' not in page:
         raise SystemExit("on-disk index.html lost Phase-1")
@@ -181,6 +186,57 @@ def main() -> None:
             proc = subprocess.run([node, "--check", str(path)], capture_output=True, text=True)
             if proc.returncode != 0:
                 raise SystemExit(f"script {index} failed syntax check:\n{proc.stderr}")
+
+    sitemap_mod = importlib.util.spec_from_file_location(
+        "build_image_sitemap", TOOLS / "build_image_sitemap.py"
+    )
+    sitemap = importlib.util.module_from_spec(sitemap_mod)
+    sitemap_mod.loader.exec_module(sitemap)
+    entries, skipped, problems = sitemap.collect()
+    if problems:
+        raise SystemExit("image sitemap problems:\n" + "\n".join(problems))
+    if "GR-01-340" not in skipped:
+        raise SystemExit("GR-01-340 was not skipped as a Candidate")
+    ids = [entry["entry_id"] for entry in entries]
+    if "GR-01-340" in ids or any(entry_id in ids for entry_id in skipped):
+        raise SystemExit("a Candidate was written into the image sitemap")
+    # 347 was the approved count before the weather rework. GR-01-001–087
+    # are Candidate after that merge, so they stay out of the sitemap.
+    weather = [f"GR-01-{i:03d}" for i in range(1, 88)]
+    if any(entry_id not in skipped for entry_id in weather):
+        raise SystemExit("a weather-rework scene was not left Candidate")
+    if len(entries) != 260:
+        raise SystemExit(f"expected 260 approved scenes, got {len(entries)}")
+    sample = next(entry for entry in entries if entry["entry_id"] == "GR-01-088")
+    if sample["loc"] != "https://greece.jdvision.org/#GR-01-088":
+        raise SystemExit(f"copy-link loc {sample['loc']}")
+    formats = [image["format"] for image in sample["images"]]
+    if formats != ["16:9", "4:5"]:
+        raise SystemExit(f"GR-01-088 formats {formats}")
+    image = sample["images"][0]
+    if image["title"] != "Sanctuary of the Great Gods, Samothrace" or image["geo_location"] != "Samothrace, Greece":
+        raise SystemExit(f"place fields {image['title']!r} {image['geo_location']!r}")
+    if image["caption"] != "Sanctuary of the Great Gods, Samothrace":
+        raise SystemExit("caption was not the scene caption")
+    if " " in image["loc"]:
+        raise SystemExit("image:loc left a space unencoded")
+    spaced = next(entry for entry in entries if entry["entry_id"] == "GR-01-224")
+    if "Porto%20Lagos" not in spaced["images"][0]["loc"]:
+        raise SystemExit(f"space not encoded: {spaced['images'][0]['loc']}")
+    if any(image["format"] == "9:16" for entry in entries for image in entry["images"]):
+        raise SystemExit("9:16 image emitted without a master on disk")
+    tree_problems = sitemap.validate_tree(sitemap_path.read_text(encoding="utf-8"), entries)
+    if tree_problems:
+        raise SystemExit("sitemap tree:\n" + "\n".join(tree_problems))
+    robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
+    if "Sitemap: https://greece.jdvision.org/sitemap.xml" not in robots:
+        raise SystemExit("existing sitemap line was dropped")
+    if "Sitemap: https://greece.jdvision.org/image-sitemap.xml" not in robots:
+        raise SystemExit("image sitemap line missing from robots.txt")
+    if "function sceneAlt" not in page or "sceneAlt(s.caption, s.city)" not in page:
+        raise SystemExit("gallery alt is not {caption} — {site}, {City}")
+    if "sceneAlt(m[4], '')" not in page:
+        raise SystemExit("related thumb alt was not updated")
 
     print("proof: regenerate kept Phase-1")
     print("related GR-01-001:", ", ".join(rel))
