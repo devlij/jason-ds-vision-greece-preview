@@ -12,18 +12,49 @@
   "file_4x5": "library/world/Greece/Corinth/gr-01-053-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
-  "approval_basis": "Gate 1: Corinth Canal — the narrow waterway cut straight through the rock isthmus, viewed from the bridge with foreground railings and a lit street lamp on each bank, calm dark water; recognizably the canal, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: sweep-verified exact 1920x1080/864x1080; on-image caption 'Corinth Canal, Corinth', scenario '24 September 2026 · 06:21 Europe/Athens', AI disclosure, and 'Jason D's Vision' bottom-right on the gradient scrim. Own separate Open-Meteo retrieval 2026-09-25T21:45:16Z for 37.935, 22.983 (matching HTTP Date) — unique across all 87 GR-01-001–087 notes; scenario minute inside the 06:00–06:59 model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos.",
-  "approved_at": "2026-09-26T02:38:48.545124+00:00",
-  "sha256_16x9": "9db09220997e29dccac3c7b8eeb9926b92c5a1dd1e311b401e2d43239d98a1f4",
-  "sha256_4x5": "a4534a6ed6b9f39e42c7afa192ff5f250a40df95c3fab12a4c2c4d7b98258e39",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:09Z (Sun, 27 Sep 2026 16:54:09 GMT), separate request for 37.935, 22.983, valid 2026-09-24T06:15 Europe/Athens, scenario 06:21 inside 06:00–06:59. Code 0 (clear), cloud 38%, 16.8°C, wind 1.3 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 928–1031 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "1d14f55731d172382135b3ca00de1f6bb63272372bd241dd2a495172bcd5b90c",
+  "sha256_4x5": "641897e004587b9dfefe5987e43470656314b6145b688bc2937d62d830c41cc6",
   "reverted_at": "2026-09-25T12:46:30.454433+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:46:30.454433+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:16:31Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:09Z unique to the second; scenario 06:21 inside the model-valid hour; code 0, cloud 38%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Greece/Corinth/gr-01-053-9x16.png",
+  "sha256_9x16": "6acb4e02309e3849b24b9ed678432c2e30b247ab02cfa0ea3a95ff8559dbec35",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:54:09Z",
+    "http_date": "Sun, 27 Sep 2026 16:54:09 GMT",
+    "valid_local": "2026-09-24T06:15",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "06:00-06:59",
+    "scenario_minute": "06:21",
+    "latitude": 37.935,
+    "longitude": 22.983,
+    "model_cell_latitude": 37.9375,
+    "model_cell_longitude": 23.0,
+    "elevation_m": 0.0,
+    "minutely_15_index": 217,
+    "weather_code": 0,
+    "weather_code_name": "clear",
+    "cloud_cover_percent": 38,
+    "temperature_c": 16.8,
+    "wind_kmh": 1.3,
+    "relative_humidity_percent": 77,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:09Z, valid 2026-09-24T06:15 Europe/Athens — not a verified on-site observation."
+  }
 }
