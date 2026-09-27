@@ -12,18 +12,49 @@
   "file_4x5": "library/world/Greece/Arachova/gr-01-036-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Gate 1: the stone village of Arachova at night — red-roofed houses with lit windows and the clock tower climbing the rocky Parnassus slope — recognizably the village. Gate 2: exact 1920×1080/864×1080 dims (sweep-verified); on-image 'Arachova Village, Arachova', scenario '24 September 2026 · 06:05 Europe/Athens', AI disclosure, and 'Jason D's Vision' signature present and legible; weather note cites per-scene Open-Meteo retrieval 2026-09-25T21:44:42Z unique to this scene repo-wide, valid hour 06:00–06:59 containing the scenario minute (code 0 clear, 0% cloud, 9°C). Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no visible people, logos, or private property — documented, final call Jason's. Gate 5: no open blockers.",
-  "approved_at": "2026-09-26T00:45:14.239104+00:00",
-  "sha256_16x9": "07545743d5c022884a3f20e38d51d698192e1e187f05acdcc042546def5efb82",
-  "sha256_4x5": "831cf034e6ec99be1c00c12f7af825ff1eb1f53fa361c0236424e344551ddf6f",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:48Z (Sun, 27 Sep 2026 16:53:48 GMT), separate request for 38.4803, 22.5838, valid 2026-09-24T06:00 Europe/Athens, scenario 06:05 inside 06:00–06:59. Code 0 (clear), cloud 0%, 9.2°C, wind 6.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 963–1053 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "bbec61eed5434e98b1fdcd794fb74ff5c58030f9c53f918bc5fffcf1ae4d6acc",
+  "sha256_4x5": "6e248106b877a746b416ec3c38b0ad2b962d7189d5db3f4a5483cd3b66a7d37a",
   "reverted_at": "2026-09-25T12:45:42.612376+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:45:42.612376+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:02:05Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:53:48Z unique to the second; scenario 06:05 inside the model-valid hour; code 0, cloud 0%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Greece/Arachova/gr-01-036-9x16.png",
+  "sha256_9x16": "ac91e074c611de121933df956fc8bd13b7c1e65fe27f16bca456bc03b73aee95",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:53:48Z",
+    "http_date": "Sun, 27 Sep 2026 16:53:48 GMT",
+    "valid_local": "2026-09-24T06:00",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "06:00-06:59",
+    "scenario_minute": "06:05",
+    "latitude": 38.4803,
+    "longitude": 22.5838,
+    "model_cell_latitude": 38.5,
+    "model_cell_longitude": 22.5625,
+    "elevation_m": 973.0,
+    "minutely_15_index": 216,
+    "weather_code": 0,
+    "weather_code_name": "clear",
+    "cloud_cover_percent": 0,
+    "temperature_c": 9.2,
+    "wind_kmh": 6.9,
+    "relative_humidity_percent": 60,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:48Z, valid 2026-09-24T06:00 Europe/Athens — not a verified on-site observation."
+  }
 }
