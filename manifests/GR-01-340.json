@@ -5,11 +5,12 @@
   "city": "Ermoupoli",
   "caption": "Ano Syros, Ermoupoli",
   "scenario_label": "24 September 2026 · 12:45 Europe/Athens",
-  "composition": "Catholic hill lanes up to the cathedral dome · AI-generated artistic interpretation",
-  "description": "Cobbled lanes and white houses climb the Catholic hill of Ano Syros to the Cathedral of Saint George, a white church with one dome and a triple bell gable. The harbor of Ermoupoli shows below the hill. Midday is partly cloudy, cloud cover about 41 percent, about 20.9°C, and dry. The Town Hall and Vaporia are not the subject.",
-  "alt_text": "AI-generated artistic interpretation of Ano Syros climbing to the Catholic cathedral above Ermoupoli",
+  "composition": "Catholic hill lanes up to the three-story bell tower · AI-generated artistic interpretation",
+  "description": "Cobbled lanes and white houses climb the Catholic hill of Ano Syros to the Cathedral of Saint George, a white basilica with a cylindrical vault and one three-story bell tower: an arched door, a round clock, and a triple-arch belfry under a small cupola. The harbor of Ermoupoli shows below the hill. Midday is partly cloudy, cloud cover about 41 percent, about 20.9°C, and dry. The Town Hall and Vaporia are not the subject.",
+  "alt_text": "AI-generated artistic interpretation of Ano Syros climbing to the Catholic cathedral and its three-story bell tower above Ermoupoli",
   "file_16x9": "library/world/Greece/Ermoupoli/gr-01-340-16x9.png",
   "file_4x5": "library/world/Greece/Ermoupoli/gr-01-340-4x5.png",
+  "file_9x16": "library/world/Greece/Ermoupoli/gr-01-340-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
@@ -18,6 +19,11 @@
       "at": "2026-09-27T12:54:56.631651+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 hold — inter-format subject disagreement, verified by Cosmo QC 2026-09-27 on both masters: the 16:9 shows the Cathedral of St. George with a large dome and a modest two-tier triple-arch bell structure, while the 4:5 shows the same cathedral with a tall three-tier campanile-style bell tower rising well above the dome — the two formats disagree on the defining feature of the crowned cathedral. Left as Candidate; needs the builder to re-render one format to match the other's subject identity. (Gate 2-4 otherwise clean for 340: exact dims, on-image text exact, Open-Meteo retrieval 2026-09-25T23:51:47Z per-scene and unique to the second, text-prompt-only lineage, no people or logos.)"
+    },
+    {
+      "at": "2026-09-27T16:36:31Z",
+      "by": "builder",
+      "note": "Re-rendered 16:9, 4:5, and 9:16 so all three show the same bell tower: a square three-story campanile (arched door, round clock on the middle story, triple-arch belfry, small cupola and cross) on the barrel-vaulted basilica, matching the documented 1855 tower rather than the old gable-versus-campanile split. Finish is 1920×1270 / 864×1270 / 1080×2110 with a 190px #0e0e12 label bar under the photo, curly Jason D’s Vision and Allura Jason A. Devlin. Still Candidate for Cosmo QC. No Art.50 stamp."
     }
   ]
 }
