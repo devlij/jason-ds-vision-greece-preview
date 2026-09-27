@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Chania/gr-01-323-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gates 1-5 PASS. G1: Firka Fortress, Chania — 16:9 bastion fills the frame at the harbor's west end with arched openings along the seaward wall and the long Maritime Museum building at the entrance, lighthouse correctly not the subject; 4:5 a tighter bastion-wall view with the same arched openings and building line, consistent. G2: dims exact; on-image 'Firka Fortress, Chania', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible. Weather retrieval 2026-09-25T23:50:28Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
+  "approved_at": "2026-09-27T01:12:56.259067+00:00",
+  "sha256_16x9": "bd66a3b3df82980fb2afa5ad3182f58bfab97ad832c048d28ed908b1cff5a8fa",
+  "sha256_4x5": "e73a9edde5ec722f51d57ba7987598307acc10d635dd5b9bfb7fee6ffd0dff12"
 }
