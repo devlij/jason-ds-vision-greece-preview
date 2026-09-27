@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kimolos/gr-01-328-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gates 1-5 PASS. G1: Chora, Kimolos — 16:9 whitewashed houses surrounding the dark sideropetra kastro core with a white domed church inside the castle walls, no beach in view; 4:5 the same rocky kastro hill over the white town with the sea beyond, consistent. G2: dims exact; on-image 'Chora, Kimolos', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible. Weather retrieval 2026-09-25T23:50:33Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
+  "approved_at": "2026-09-27T01:13:19.041144+00:00",
+  "sha256_16x9": "de406e3541025a9a9ff929dc6d57fd235f5d140b4598dfc6024631e780e7bfd4",
+  "sha256_4x5": "4ccca963354d06445f505e379d5bb1029b9690f7dda474427bbae82068d2f9b9"
 }
