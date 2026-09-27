@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Greece/Mycenae/gr-01-008-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "qc_notes": [
     {
       "at": "2026-09-25T04:31:45.819385+00:00",
@@ -33,12 +33,43 @@
       "at": "2026-09-25T12:44:18.862263+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:53:14Z unique to the second; scenario 15:35 inside the model-valid hour; code 3, cloud 100%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
   ],
-  "qc_status": "Approved · Cosmo QC 5/5 · Gate 1 re-audit",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "reverted_at": "2026-09-25T12:44:18.862263+00:00",
-  "approval_basis": "Gate 1: the rebuilt relief shows two rampant lions flanking the central column, front paws on altar bases, necks ending at broken surfaces with dowel holes — no face, ear, snout, or mane; the Gate 1 failure is fixed. Conglomerate ashlar, heavy lintel, plausible tourist framing of the relief. Gate 2: caption 'Lion Gate, Mycenae', scenario 25 Sept 2026 15:35 Europe/Athens, 'Jason D's Vision' signature and AI disclosure verified on-image; own Open-Meteo retrieval 2026-09-25T12:35:33Z (unique to this scene), valid 15:00, scenario inside the hour; code 3, 100% cloud matches the soft overcast daylight. Gate 3: text-prompt-only rebuild, no photographic inputs reported. Gate 4: no people/logos of note. Gate 5: Art. 50 PNG metadata present; exact 1920x1080 / 864x1080.",
-  "approved_at": "2026-09-25T13:03:42.873502+00:00",
-  "sha256_16x9": "3eb2635fde7537fa31cd78844f047f55d270f5b09d1915468591e05dbbb285a9",
-  "sha256_4x5": "ad691fd108a65e2757b2c76319b77f3e993eae616a8cc2e1428390e406064577"
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:14Z (Sun, 27 Sep 2026 16:53:14 GMT), separate request for 37.7303, 22.7563, valid 2026-09-25T15:30 Europe/Athens, scenario 15:35 inside 15:00–15:59. Code 3 (overcast), cloud 100%, 23.5°C, wind 11.4 km/h, precipitation 0.0 mm, is_day 1. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 963–1053 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "cdaf3a6efdc463a9e29a5458f1d78e428b0e0133ea5d7e8cbdbd5e0804b605f8",
+  "sha256_4x5": "3c028a0671124a18b36844841f24c9876427e8ae29dea056df8d9b644d76e54c",
+  "file_9x16": "library/world/Greece/Mycenae/gr-01-008-9x16.png",
+  "sha256_9x16": "9bd93da7b5338ef82bc3979bd19678142bc2b4313c07c8099adc86a2c1d7525c",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:53:14Z",
+    "http_date": "Sun, 27 Sep 2026 16:53:14 GMT",
+    "valid_local": "2026-09-25T15:30",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "15:00-15:59",
+    "scenario_minute": "15:35",
+    "latitude": 37.7303,
+    "longitude": 22.7563,
+    "model_cell_latitude": 37.75,
+    "model_cell_longitude": 22.75,
+    "elevation_m": 230.0,
+    "minutely_15_index": 350,
+    "weather_code": 3,
+    "weather_code_name": "overcast",
+    "cloud_cover_percent": 100,
+    "temperature_c": 23.5,
+    "wind_kmh": 11.4,
+    "relative_humidity_percent": 40,
+    "precipitation_mm": 0.0,
+    "is_day": 1,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:14Z, valid 2026-09-25T15:30 Europe/Athens — not a verified on-site observation."
+  }
 }
