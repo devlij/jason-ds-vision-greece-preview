@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Paros/gr-01-339-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: the 16:9 master shows the tall cylindrical Frankish castle tower in pale stone rising over white cubic houses with the Parikia seafront below; the 4:5 shows the same tower from the lanes with houses pressing against its base — subject identity agrees across formats, matching the anchor of houses built into the walls; midday light, clean framing, no artifacts. Gate 2: exact master dims 1920x1080 / 864x1080; verified on-image bottom-left text — caption 'Parikia Kastro, Paros', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.' — and 'Jason D's Vision' bottom-right; Open-Meteo retrieval 2026-09-25T23:51:46Z is per-scene (unique to the second across all cached notes), valid hour 12:00–12:59 covers the 12:45 scenario minute. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no identifiable people or logos. Gate 5: no open blockers — publication ready.",
+  "approved_at": "2026-09-27T12:55:11.430996+00:00",
+  "sha256_16x9": "f6eb71b50e3103dca770bff6a7bdf552043c99f4f1d4f17e67c1d7ff5e045b8f",
+  "sha256_4x5": "93faf0f2271538aad2d9b4b2258bda46a6bc36d8b47bf86e6b2497917147e3f6"
 }
