@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Olympos/gr-01-343-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: the 16:9 master shows the Karpathos village of colored plaster houses stacking up the slope with the stone windmills with wooden sails on the ridge and the sea beyond — the windmills are the defining feature and render as stone towers with lattice sails; the 4:5 shows the same three windmills above the same colored houses from a tighter angle, subject identity agrees across formats; midday light, clean framing, no artifacts. Gate 2: exact master dims 1920x1080 / 864x1080; verified on-image bottom-left text — caption 'Olympos Village, Olympos', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.' — and 'Jason D's Vision' bottom-right; Open-Meteo retrieval 2026-09-25T23:51:50Z is per-scene (unique to the second across all cached notes), valid hour 12:00–12:59 covers the 12:45 scenario minute. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no identifiable people or logos. Gate 5: no open blockers — publication ready.",
+  "approved_at": "2026-09-27T12:55:29.452056+00:00",
+  "sha256_16x9": "e8cd6373aa148f2a0f2c3d8a104fe441cc685150ffeedcadeff3447aa070b9f5",
+  "sha256_4x5": "19e45bdb550a7e1282ee7ce7ac1a9687792131fbcfb924de3f0fddc51c944981"
 }
