@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Delos/gr-01-337-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: five marble lions in a row in profile facing the dry Sacred Lake basin, one palm rising from the oval basin, low ruined walls and loose blocks around; mostly clear sky matches code-1 31%; scenario 12:45 inside the cited model-valid hour. Gate 2: exact 1920x1080 and 864x1080, 'Terrace of the Lions, Delos', scenario 12:45, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:51:44Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-27T06:57:18.286236+00:00",
+  "sha256_16x9": "fa5db9d4811e82721e1ef70c633f7d6cb05b0f5a689521b504fd8bdf67f6aad6",
+  "sha256_4x5": "2556aefc01a082faa81436cb2bc199c887f8edf5d245de3ff15675e2df128e02"
 }
