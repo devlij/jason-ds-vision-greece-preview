@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Sami/gr-01-330-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: horseshoe bay from the roadside lookout, steep green hills enclosing both sides, pebble beach at the cove head, turquoise-to-deep-blue water; partly cloudy sky matches code-2 79% cloud. Gate 2: exact 1920x1080 and 864x1080, 'Antisamos Beach, Sami' caption (single-t variant attested in builder reference URL and consistent across card, on-image text and evidence file), scenario 12:15, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:50:35Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-27T06:57:18.286236+00:00",
+  "sha256_16x9": "60437b2f64fe864adde8ef6ef63d6fd32b9a0d9b6a759761a1074882937c9eee",
+  "sha256_4x5": "0814356de86c276e7b11c71ef14928f18b52379bcc3cd7d8521047ac6c4170f8"
 }
