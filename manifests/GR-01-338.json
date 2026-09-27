@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Santorini/gr-01-338-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: the 16:9 master shows the caldera footpath curving past whitewashed cubic houses with two blue domes toward Skaros Rock's dark flat-topped volcanic promontory, caldera sea and Thirasia beyond — matching the geometry anchors; the 4:5 shows the same path, house cascade, and rock from a tighter angle, so subject identity agrees across formats; clean framing, no artifacts. Gate 2: exact master dims 1920x1080 / 864x1080; verified on-image bottom-left text — caption 'Imerovigli, Santorini', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.' — and 'Jason D's Vision' bottom-right on the gradient scrim, legible and non-interfering; Open-Meteo retrieval 2026-09-25T23:51:45Z is per-scene (unique to the second across all cached notes), valid hour 12:00–12:59 Europe/Athens covers the 12:45 scenario minute. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no identifiable people or logos. Gate 5: no open blockers — publication ready.",
+  "approved_at": "2026-09-27T12:55:06.604454+00:00",
+  "sha256_16x9": "b9f0993b4bd90f41b91f2aa0799fff59fdd8a18cc7c9bc268f42a1c3d446e442",
+  "sha256_4x5": "2ed86995881b97cec1ba387bea9a804871a383ff346ffd899a3b3990ccbbd48a"
 }
