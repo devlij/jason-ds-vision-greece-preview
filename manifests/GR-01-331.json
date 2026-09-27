@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Zakynthos/gr-01-331-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: from a boat off Cape Skinari — white limestone cliffs with arched cave mouths at water level, glowing blue water in the openings, boat bow in frame; overcast-partly cloudy sky matches code-3 72% cloud. Gate 2: exact 1920x1080 and 864x1080, 'Blue Caves, Zakynthos', scenario 12:15, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:50:36Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-27T06:57:18.286236+00:00",
+  "sha256_16x9": "fc74bcb642d19bb2dd89fbea010d2ed88c271924f89b6a01193df34ba807c2d0",
+  "sha256_4x5": "21f5e38cbe1cf3f1d973c2d9ca32f6548d8de46aff123342a04d529b3713c4dd"
 }
