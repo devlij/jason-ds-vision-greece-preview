@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Parnassus/gr-01-350-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows the dark cave mouth in grey limestone framed by Greek firs on a rocky slope with a footpath, no snow and no ski lift — matching all three anchors; the 4:5 agrees on the cave-mouth subject. Gate 2: exact dims; on-image 'Corycian Cave, Parnassus', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', disclosure, and signature verified; retrieval 2026-09-25T23:51:57Z unique to the second across the window; broken cumulus consistent with code 2 / 64% cover. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-27T13:37:45.114994+00:00",
+  "sha256_16x9": "083c2cd56fdf1292e3f5ab01683143a695f89f69cb103dbc843d1cfdcca62c8f",
+  "sha256_4x5": "080d1e04bc0a321ce4ee6b7d746c08313301b0341605678464f003ea67d5910b"
 }
