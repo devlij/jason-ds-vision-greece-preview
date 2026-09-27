@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Haidari/gr-01-320-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gates 1-5 PASS. G1: Daphni Monastery, Haidari — 16:9 shows the broad lead-gray dome on a tall cloisonne drum, pale stone framed by brick courses, and the columned west porch with pointed arches against a pine hillside; 4:5 shows the same dome/drum/porch from a closer angle with the crenellated enclosure wall — subject identity consistent. G2: 1920x1080 + 864x1080 exact; on-image 'Daphni Monastery, Haidari', 'Scenario: 24 September 2026 · 11:45 Europe/Athens', exact 'Jason D’s Vision' signature + 'AI-generated artistic interpretation · Not a photograph.' disclosure legible; scenario 11:45 inside the cited 11:00-11:59 model-valid hour. Weather retrieval 2026-09-25T23:50:25Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only lineage per note (builder claim). G4: no people/logos of note (documents only). G5: no blockers.",
+  "approved_at": "2026-09-27T01:12:42.151841+00:00",
+  "sha256_16x9": "b6a5369b093807e04e29128ead3ce8be51eb74f7b952ed751c9dec980380a02c",
+  "sha256_4x5": "9d29bde4aeffe65778e39e6e05dd422c0ac6e997081bde6ff890f43bfff04935"
 }
