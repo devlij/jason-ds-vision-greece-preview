@@ -12,18 +12,49 @@
   "file_4x5": "library/world/Greece/Xanthi/gr-01-086-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
-  "approval_basis": "Gates 1-5 pass. Gate 1: Xanthi old town cobblestone street at pre-dawn — colorful neoclassical houses with overhanging wooden sahnisi balconies, wrought-iron sign bracket, glowing street lamps, church at the street's end, forested hill behind; plausible tourist viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Xanthi Old Town, Xanthi', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T21:46:22Z verified unique across all 365 repo notes; model-valid hour covers 06:59; 71% cloud / 12.4C matches the heavy blue-hour cloud cover. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only.",
-  "approved_at": "2026-09-26T04:43:58.453004+00:00",
-  "sha256_16x9": "ad3cdf6b16f7d7553fb18e4921735360645da69382a539e602fcf73825bcf4e2",
-  "sha256_4x5": "ad128e690f3462909432e1904657b4ed5d05a35092bfd631eb95199e1e03818a",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:50Z (Sun, 27 Sep 2026 16:54:50 GMT), separate request for 41.1415, 24.888, valid 2026-09-24T06:45 Europe/Athens, scenario 06:59 inside 06:00–06:59. Code 2 (partly cloudy), cloud 71%, 12.4°C, wind 8.7 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 956–1053 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "20833545b6eea8721a9246d3a285021b6800928e0db6aa38258ce32c1bacff25",
+  "sha256_4x5": "82191215be2194919020f72bd1a19f97700d538ddae656d63c9fd895e051b9bf",
   "reverted_at": "2026-09-25T12:48:04.138654+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:48:04.138654+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:58:28Z identical across 7 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:50Z unique to the second; scenario 06:59 inside the model-valid hour; code 2, cloud 71%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Greece/Xanthi/gr-01-086-9x16.png",
+  "sha256_9x16": "eb1481d8452423cadff6a5fbac5bab61af20783e47f232a6335ea3bce04c3cf1",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:54:50Z",
+    "http_date": "Sun, 27 Sep 2026 16:54:50 GMT",
+    "valid_local": "2026-09-24T06:45",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "06:00-06:59",
+    "scenario_minute": "06:59",
+    "latitude": 41.1415,
+    "longitude": 24.888,
+    "model_cell_latitude": 41.125,
+    "model_cell_longitude": 24.875,
+    "elevation_m": 87.0,
+    "minutely_15_index": 219,
+    "weather_code": 2,
+    "weather_code_name": "partly cloudy",
+    "cloud_cover_percent": 71,
+    "temperature_c": 12.4,
+    "wind_kmh": 8.7,
+    "relative_humidity_percent": 58,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:50Z, valid 2026-09-24T06:45 Europe/Athens — not a verified on-site observation."
+  }
 }

@@ -12,18 +12,22 @@
   "file_4x5": "library/world/Greece/Nafplio/gr-01-014-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Night view of Bourtzi, Nafplio: the island fortress sits low on its islet in the harbor center-right with its small red-domed church tower visible, Palamidi's long ramparts climbing the rocky hill behind, and Nafplio's lamplit neoclassical waterfront row at left with amber reflections on the water — the classic Bourtzi-plus-Palamidi pairing, instantly recognizable. Technical: masters at exact 1920x1080 / 864x1080 (sweep-verified); on-image caption 'Bourtzi, Nafplio', scenario '24 September 2026 · 03:19 Europe/Athens', AI disclosure and exact 'Jason D's Vision' signature legible on the bottom gradient. Gate 2 weather: note cites its own Open-Meteo fetch, retrieved 2026-09-25T21:43:58Z — repo-wide unique, separate request for 37.5676,22.7906, scenario 03:19 inside the 03:15 model-valid hour, weather code 3 overcast/82% cloud/17.5°C — the moon-glow through broken cloud in-frame matches that modelled overcast. Gate 3: text-prompt-only lineage. Gate 4: no prominent people, no focal logos. 5/5.",
-  "approved_at": "2026-09-25T23:35:32.809066+00:00",
-  "sha256_16x9": "7973b223d1c360f3debdc47e3638934b7573878d9526cb8aacd1a4394b8c3286",
-  "sha256_4x5": "242ffbbd08a1ab4e7669f56bb5b1458ed7e619bb7824e004008bfc52183ce2ea",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:21Z (Sun, 27 Sep 2026 16:53:21 GMT), separate request for 37.5676, 22.7906, valid 2026-09-24T03:15 Europe/Athens, scenario 03:19 inside 03:00–03:59. Code 3 (overcast), cloud 82%, 17.5°C, wind 4.6 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 963–1058 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "3a95aaf7033989642ecdc2050351de5a32157d7102e33ab0658432d57999bccc",
+  "sha256_4x5": "7985164c323549b4b0326ffd5e484ebcae1443db50247c23f7bbaaf1c59cfa10",
   "reverted_at": "2026-09-25T12:44:36.012574+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:44:36.012574+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:53:21Z unique to the second; scenario 03:19 inside the model-valid hour; code 3, cloud 82%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
   ],
   "daylight_variant": {
@@ -55,5 +59,32 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  },
+  "file_9x16": "library/world/Greece/Nafplio/gr-01-014-9x16.png",
+  "sha256_9x16": "aea4760209d0d64c3847c5b431ac39e1fef658994761873e500aeb20660f5a27",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:53:21Z",
+    "http_date": "Sun, 27 Sep 2026 16:53:21 GMT",
+    "valid_local": "2026-09-24T03:15",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "03:00-03:59",
+    "scenario_minute": "03:19",
+    "latitude": 37.5676,
+    "longitude": 22.7906,
+    "model_cell_latitude": 37.5625,
+    "model_cell_longitude": 22.8125,
+    "elevation_m": 0.0,
+    "minutely_15_index": 205,
+    "weather_code": 3,
+    "weather_code_name": "overcast",
+    "cloud_cover_percent": 82,
+    "temperature_c": 17.5,
+    "wind_kmh": 4.6,
+    "relative_humidity_percent": 93,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:21Z, valid 2026-09-24T03:15 Europe/Athens — not a verified on-site observation."
   }
 }

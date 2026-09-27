@@ -12,18 +12,49 @@
   "file_4x5": "library/world/Greece/Patras/gr-01-056-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
-  "approval_basis": "Gate 1: Patras Castle — the hilltop fortress with round towers and crenellated curtain walls above the town, scattered lights below and the gulf and mountains fading into the pre-dawn haze; recognizably the castle, plausible elevated viewpoint, clean framing, no artifacts. Gate 2: sweep-verified exact 1920x1080/864x1080; on-image caption 'Patras Castle, Patras', scenario '24 September 2026 · 06:21 Europe/Athens', AI disclosure, and 'Jason D's Vision' bottom-right on the gradient scrim. Own separate Open-Meteo retrieval 2026-09-25T21:45:22Z for 38.245, 21.743 (matching HTTP Date) — unique across all 87 GR-01-001–087 notes; scenario minute inside the 06:00–06:59 model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos.",
-  "approved_at": "2026-09-26T02:39:35.409696+00:00",
-  "sha256_16x9": "0aa91674240341d989b272740291fe24aac6552571c482246d9d7cde862f30a2",
-  "sha256_4x5": "caafa0eb3d68b128f70c0cbc0d8c93a2a78782f3edfb98a408c3ecb2ad458805",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:13Z (Sun, 27 Sep 2026 16:54:13 GMT), separate request for 38.245, 21.743, valid 2026-09-24T06:15 Europe/Athens, scenario 06:21 inside 06:00–06:59. Code 0 (clear), cloud 0%, 17.6°C, wind 9.8 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 928–1031 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "3848583b7a76cbca12a1b575e41922f8390be94271f320d6d8b7e49b23f76e1c",
+  "sha256_4x5": "1c978594b4d5a315242cde54f15c9b98974157b7072b0bfade3f1350f0fe7e63",
   "reverted_at": "2026-09-25T12:46:37.765060+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:46:37.765060+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:16:31Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:13Z unique to the second; scenario 06:21 inside the model-valid hour; code 0, cloud 0%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Greece/Patras/gr-01-056-9x16.png",
+  "sha256_9x16": "6b280bda486b5ff6926466ac479235a44986ed94048f449263a2315ac835fbb4",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:54:13Z",
+    "http_date": "Sun, 27 Sep 2026 16:54:13 GMT",
+    "valid_local": "2026-09-24T06:15",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "06:00-06:59",
+    "scenario_minute": "06:21",
+    "latitude": 38.245,
+    "longitude": 21.743,
+    "model_cell_latitude": 38.25,
+    "model_cell_longitude": 21.75,
+    "elevation_m": 78.0,
+    "minutely_15_index": 217,
+    "weather_code": 0,
+    "weather_code_name": "clear",
+    "cloud_cover_percent": 0,
+    "temperature_c": 17.6,
+    "wind_kmh": 9.8,
+    "relative_humidity_percent": 61,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:13Z, valid 2026-09-24T06:15 Europe/Athens — not a verified on-site observation."
+  }
 }

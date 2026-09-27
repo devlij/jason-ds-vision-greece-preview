@@ -12,18 +12,49 @@
   "file_4x5": "library/world/Greece/Edessa/gr-01-078-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
-  "approval_basis": "Edessa Waterfalls, Edessa: the Karanos fall plunging over the cliff face, park path with railing and lamp at left, the plain stretching below at dawn. Gate 1 visual PASS — the classic Edessa Karanos viewpoint, no artifacts. Gate 2 PASS — exact dims; caption 'Edessa Waterfalls, Edessa', scenario '24 September 2026 · 06:52 Europe/Athens', disclosure and signature exact and legible; weather retrieved 2026-09-25T21:46:06Z, unique per-scene fetch verified unique, scenario minute inside the model-valid hour. Gate 3 PASS — text-prompt-only, no photographic inputs. Gate 4 documented — no people or logos. Gate 5 PASS.",
-  "approved_at": "2026-09-26T03:38:37.205304+00:00",
-  "sha256_16x9": "cfb3afbdef904cd599533d7077f150fb7e29c4546c9d3da3c1cc13483a6844ca",
-  "sha256_4x5": "b6c6903d121dd3c117d20917d912d717c89a01c7f1396653eb1e7ba94d43f9de",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:40Z (Sun, 27 Sep 2026 16:54:40 GMT), separate request for 40.8015, 22.0455, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 1%, 10.6°C, wind 10.5 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "b415b1ab47be47289bc069472006d2d8826f31fc2b8396ab031c4b4b0f79d1f6",
+  "sha256_4x5": "654366b9bc561e4093c4e91e07bd4845e3264242a44742e0445686cb40f0ff63",
   "reverted_at": "2026-09-25T12:47:38.047152+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:47:38.047152+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:42:42Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:40Z unique to the second; scenario 06:52 inside the model-valid hour; code 0, cloud 1%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Greece/Edessa/gr-01-078-9x16.png",
+  "sha256_9x16": "06545a27683878331425f795b9dc9ac43727232914657ece22679c86db4b4e92",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:54:40Z",
+    "http_date": "Sun, 27 Sep 2026 16:54:40 GMT",
+    "valid_local": "2026-09-24T06:45",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "06:00-06:59",
+    "scenario_minute": "06:52",
+    "latitude": 40.8015,
+    "longitude": 22.0455,
+    "model_cell_latitude": 40.8125,
+    "model_cell_longitude": 22.0625,
+    "elevation_m": 318.0,
+    "minutely_15_index": 219,
+    "weather_code": 0,
+    "weather_code_name": "clear",
+    "cloud_cover_percent": 1,
+    "temperature_c": 10.6,
+    "wind_kmh": 10.5,
+    "relative_humidity_percent": 52,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:40Z, valid 2026-09-24T06:45 Europe/Athens — not a verified on-site observation."
+  }
 }

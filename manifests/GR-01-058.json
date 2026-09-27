@@ -12,18 +12,49 @@
   "file_4x5": "library/world/Greece/Nafplio/gr-01-058-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
-  "approval_basis": "Gate 1: Palamidi — the huge hilltop fortress with long zigzag curtain walls climbing the rocky summit, the town's red roofs at its foot, cloudy pre-dawn sky; recognizably the Palamidi, plausible viewpoint from below, clean framing, no artifacts. Gate 2: sweep-verified exact 1920x1080/864x1080; on-image caption 'Palamidi, Nafplio', scenario '24 September 2026 · 06:24 Europe/Athens', AI disclosure, and 'Jason D's Vision' bottom-right on the gradient scrim. Own separate Open-Meteo retrieval 2026-09-25T21:45:26Z for 37.563, 22.796 (matching HTTP Date) — unique across all 87 GR-01-001–087 notes; scenario minute inside the 06:00–06:59 model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos.",
-  "approved_at": "2026-09-26T02:40:06.903390+00:00",
-  "sha256_16x9": "b48d002d3e1845b081856e357b4a2fc2a32e81faaf8a988503a58bee1f15de98",
-  "sha256_4x5": "203ca3347f06464af8d8514e87142437b0f66a412a60806a48e0b39877792df4",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:16Z (Sun, 27 Sep 2026 16:54:16 GMT), separate request for 37.563, 22.796, valid 2026-09-24T06:15 Europe/Athens, scenario 06:24 inside 06:00–06:59. Code 2 (partly cloudy), cloud 61%, 16.2°C, wind 4.8 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 968–1031 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "7950eb36750131f6245356bcf91ff895dbaf27f0c058e34eff0f6ecd44a8d593",
+  "sha256_4x5": "5d2dbd05f2e4aeddb1cecd3aab23bdab9843bf9ab758ac27784a62af652c132f",
   "reverted_at": "2026-09-25T12:46:43.118795+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:46:43.118795+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:16:31Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:16Z unique to the second; scenario 06:24 inside the model-valid hour; code 2, cloud 61%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Greece/Nafplio/gr-01-058-9x16.png",
+  "sha256_9x16": "7f9e31710129c05decc45729666e4bea577778bde46bfd6d140e7601331c9cfc",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:54:16Z",
+    "http_date": "Sun, 27 Sep 2026 16:54:16 GMT",
+    "valid_local": "2026-09-24T06:15",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "06:00-06:59",
+    "scenario_minute": "06:24",
+    "latitude": 37.563,
+    "longitude": 22.796,
+    "model_cell_latitude": 37.5625,
+    "model_cell_longitude": 22.8125,
+    "elevation_m": 42.0,
+    "minutely_15_index": 217,
+    "weather_code": 2,
+    "weather_code_name": "partly cloudy",
+    "cloud_cover_percent": 61,
+    "temperature_c": 16.2,
+    "wind_kmh": 4.8,
+    "relative_humidity_percent": 89,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:16Z, valid 2026-09-24T06:15 Europe/Athens — not a verified on-site observation."
+  }
 }

@@ -12,18 +12,49 @@
   "file_4x5": "library/world/Greece/Portaria/gr-01-066-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
-  "approval_basis": "Gate 1: Portaria — the village square at dusk dominated by the giant plane tree, stone houses with balconies and lit windows around the cobbled square, the church bell tower at the end of the street; recognizably Portaria, plausible square viewpoint, clean framing, no artifacts. Gate 2: sweep-verified exact 1920x1080/864x1080; on-image caption 'Portaria, Portaria', scenario '24 September 2026 · 06:52 Europe/Athens', AI disclosure, and 'Jason D's Vision' bottom-right on the gradient scrim. Own separate Open-Meteo retrieval 2026-09-25T21:45:42Z for 39.3892, 23.0025 (matching HTTP Date) — unique across all 87 GR-01-001–087 notes; scenario minute inside the 06:00–06:59 model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos.",
-  "approved_at": "2026-09-26T02:42:11.969635+00:00",
-  "sha256_16x9": "ae18c423559ae4aaea85e5dd60db12e1b0e46a72fc90bbdd0c10084ea8064df7",
-  "sha256_4x5": "9934cdcdb58a239860236a512e3a1066d4677fabe9905cc91d14744c268f1ddb",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:26Z (Sun, 27 Sep 2026 16:54:26 GMT), separate request for 39.3892, 23.0025, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 0%, 13.1°C, wind 10.2 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "e872a0891c176b94a63d1fd794a182f04195a70c513998594b58b506a8e91098",
+  "sha256_4x5": "65f8c52aaab297e1c60f32e375f501e20e785b58679ad2fc2874a978519ab7e7",
   "reverted_at": "2026-09-25T12:47:06.564667+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:47:06.564667+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:42:42Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:26Z unique to the second; scenario 06:52 inside the model-valid hour; code 0, cloud 0%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Greece/Portaria/gr-01-066-9x16.png",
+  "sha256_9x16": "44d39e7088fb0bd23eb2c466c8dccd7302bdc1c0d270302379a7a0b2233e9b49",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:54:26Z",
+    "http_date": "Sun, 27 Sep 2026 16:54:26 GMT",
+    "valid_local": "2026-09-24T06:45",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "06:00-06:59",
+    "scenario_minute": "06:52",
+    "latitude": 39.3892,
+    "longitude": 23.0025,
+    "model_cell_latitude": 39.4375,
+    "model_cell_longitude": 23.0,
+    "elevation_m": 702.0,
+    "minutely_15_index": 219,
+    "weather_code": 0,
+    "weather_code_name": "clear",
+    "cloud_cover_percent": 0,
+    "temperature_c": 13.1,
+    "wind_kmh": 10.2,
+    "relative_humidity_percent": 63,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:26Z, valid 2026-09-24T06:45 Europe/Athens — not a verified on-site observation."
+  }
 }

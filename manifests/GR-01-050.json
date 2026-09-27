@@ -12,18 +12,49 @@
   "file_4x5": "library/world/Greece/Monemvasia/gr-01-050-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
-  "approval_basis": "Gate 1: Monemvasia — the great Rock with the walled lower town and the causeway, dawn sky over the sea. Clean framing, no artifacts. Gate 2: sweep-confirmed exact 1920x1080/864x1080; on-image caption 'Monemvasia, Monemvasia', scenario '24 September 2026 · 06:21 Europe/Athens', AI disclosure, and 'Jason D's Vision' bottom-right on a gradient scrim. Scenario minute inside the note's model-valid hour 06:00-06:59 Europe/Athens; the note cites this scene's own separate Open-Meteo retrieval 2026-09-25T21:45:10Z (unique timestamp, per-scene coordinates 36.688, 23.046, matching HTTP Date) — not shared. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no focal logos.",
-  "approved_at": "2026-09-26T01:36:52.289124+00:00",
-  "sha256_16x9": "37d6d2b9c5a4aed22449195e40e4ee38cff164cd8fb429fc3d9f61a87674f078",
-  "sha256_4x5": "4e3573dbdc4be5fae2a3755b4714f67bacca858121c3198ab03cc1827537cfd3",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:06Z (Sun, 27 Sep 2026 16:54:06 GMT), separate request for 36.688, 23.046, valid 2026-09-24T06:15 Europe/Athens, scenario 06:21 inside 06:00–06:59. Code 1 (mainly clear), cloud 24%, 18.5°C, wind 10.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 928–1031 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "5c572ff904500fc14ed868df7da12e210e59d85edffae3ee66da8cffc5e957bb",
+  "sha256_4x5": "40ae0bdd6a4e99fa7480ccaa4b167dc19464907a8a9ccb3275e06abc0d43546c",
   "reverted_at": "2026-09-25T12:46:22.678731+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:46:22.678731+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:16:31Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:06Z unique to the second; scenario 06:21 inside the model-valid hour; code 1, cloud 24%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Greece/Monemvasia/gr-01-050-9x16.png",
+  "sha256_9x16": "3d15c9a89c1717bbe5f49b5ead288cedbf49dde0a9c1b63e0ddb92126ae6bf3a",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:54:06Z",
+    "http_date": "Sun, 27 Sep 2026 16:54:06 GMT",
+    "valid_local": "2026-09-24T06:15",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "06:00-06:59",
+    "scenario_minute": "06:21",
+    "latitude": 36.688,
+    "longitude": 23.046,
+    "model_cell_latitude": 36.75,
+    "model_cell_longitude": 23.0625,
+    "elevation_m": 41.0,
+    "minutely_15_index": 217,
+    "weather_code": 1,
+    "weather_code_name": "mainly clear",
+    "cloud_cover_percent": 24,
+    "temperature_c": 18.5,
+    "wind_kmh": 10.9,
+    "relative_humidity_percent": 74,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:06Z, valid 2026-09-24T06:15 Europe/Athens — not a verified on-site observation."
+  }
 }
