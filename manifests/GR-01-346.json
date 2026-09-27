@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-346-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: the 16:9 master shows the worn bare limestone of the Areopagus summit in the foreground with the Acropolis rock beyond — Parthenon and the Odeon of Herodes Atticus reading on the citadel and slope — matching the anchors; the 4:5 shows the same bare rock foreground and citadel with the theatre below, subject identity agrees across formats; clean framing, no artifacts. Gate 2: exact master dims 1920x1080 / 864x1080; verified on-image bottom-left text — caption 'Areopagus, Athens', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.' — and 'Jason D's Vision' bottom-right; Open-Meteo retrieval 2026-09-25T23:51:53Z is per-scene (unique to the second across all cached notes), valid hour 12:00–12:59 covers the 12:45 scenario minute. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no identifiable people or logos. Gate 5: no open blockers — publication ready.",
+  "approved_at": "2026-09-27T12:55:51.622374+00:00",
+  "sha256_16x9": "2e027abff49273e63de1b4f4563e320095c7260cb50fcf5547e5d6e5d0c60ccf",
+  "sha256_4x5": "514fad5599ed43566440b8087d43c8a1cddd922f0907cc85971bc408de92dd5c"
 }
