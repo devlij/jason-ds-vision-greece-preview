@@ -12,18 +12,22 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-021-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Night panorama from Lycabettus Hill, Athens: the domed chapel of St George anchors the left foreground with its lamp-lit terrace, the floodlit Acropolis and Parthenon glow center-frame above the sprawling city lights, the sea and mountains on the horizon — the definitive Lycabettus overlook composition. Technical: masters at exact 1920x1080 / 864x1080 (sweep-verified); on-image caption 'Lycabettus Hill, Athens', scenario '24 September 2026 · 05:53 Europe/Athens', AI disclosure and exact 'Jason D's Vision' signature legible on the bottom gradient. Gate 2 weather: note cites its own Open-Meteo fetch, retrieved 2026-09-25T21:44:12Z — repo-wide unique, separate request for 37.9818,23.7433, scenario 05:53 inside the 05:45 model-valid hour, clear/11.3°C consistent with the clear night shown. Gate 3: text-prompt-only lineage. Gate 4: no prominent people, no focal logos. 5/5.",
-  "approved_at": "2026-09-25T23:37:51.083644+00:00",
-  "sha256_16x9": "fe7445b1090f240a652acf333e00699505f6afc21b970fc18ca865197f64e6ed",
-  "sha256_4x5": "be1ae174d7605215ffd9a8cf27e35b10a3e1dc46846080101e680a9242597dea",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:30Z (Sun, 27 Sep 2026 16:53:30 GMT), separate request for 37.9818, 23.7433, valid 2026-09-24T05:45 Europe/Athens, scenario 05:53 inside 05:00–05:59. Code 0 (clear), cloud 1%, 11.3°C, wind 5.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 952–1057 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "3e371fcb227420acbc6629a22b456db5e491d662c4544b46d4ca0ee77710ede5",
+  "sha256_4x5": "02eed23c7db6f0364cf422aa67c139411460ca1a2d23c76447056db2e8d420da",
   "reverted_at": "2026-09-25T12:44:58.312975+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:44:58.312975+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T02:52:59Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:53:30Z unique to the second; scenario 05:53 inside the model-valid hour; code 0, cloud 1%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
   ],
   "daylight_variant": {
@@ -55,5 +59,32 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  },
+  "file_9x16": "library/world/Greece/Athens/gr-01-021-9x16.png",
+  "sha256_9x16": "bd0e552fa8e8b87ae9010d4378fe0f914aa13aa1622d243642a664d94c57cebd",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:53:30Z",
+    "http_date": "Sun, 27 Sep 2026 16:53:30 GMT",
+    "valid_local": "2026-09-24T05:45",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "05:00-05:59",
+    "scenario_minute": "05:53",
+    "latitude": 37.9818,
+    "longitude": 23.7433,
+    "model_cell_latitude": 38.0,
+    "model_cell_longitude": 23.75,
+    "elevation_m": 207.0,
+    "minutely_15_index": 215,
+    "weather_code": 0,
+    "weather_code_name": "clear",
+    "cloud_cover_percent": 1,
+    "temperature_c": 11.3,
+    "wind_kmh": 5.9,
+    "relative_humidity_percent": 62,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:30Z, valid 2026-09-24T05:45 Europe/Athens — not a verified on-site observation."
   }
 }

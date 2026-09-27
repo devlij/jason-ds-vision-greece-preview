@@ -12,18 +12,22 @@
   "file_4x5": "library/world/Greece/Corfu/gr-01-012-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "Night view of the Old Fortress, Corfu from the Spianada: the arcaded Liston runs along the left of the wide frame, lamplit esplanade below, and the fortress stands on its rocky heights across the contrafossa with St George's church lit inside the walls — recognizable Corfu Old Fortress composition from a plausible tourist viewpoint. Technical: masters at exact 1920x1080 / 864x1080 (sweep-verified); on-image caption 'Old Fortress, Corfu', scenario '24 September 2026 · 03:19 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph' disclosure and exact 'Jason D's Vision' signature all legible on the bottom gradient. Gate 2 weather: note cites its own Open-Meteo fetch, retrieved 2026-09-25T21:43:54Z — repo-wide unique (verified against all 366 Greece notes), separate request for 39.6243,19.9217, scenario minute 03:19 inside the 03:15 model-valid hour, values clear/19.7°C consistent with the clear night sky shown. Noted nuance: fortress walls appear floodlit in-frame though note says floodlighting unconfirmed at 03:15 — documented research gap, caption honest. Gate 3: text-prompt-only lineage per note. Gate 4: no prominent people, no focal logos. 5/5.",
-  "approved_at": "2026-09-25T23:34:49.235066+00:00",
-  "sha256_16x9": "ca1664c153a879c971b65e8eafb8d3412e308b1f56b08f5d907d934593e38cbd",
-  "sha256_4x5": "d99cc9c4aac1041c205eb2d0c05696754ab1087c55f8b708e54b9d668ceaeffe",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:19Z (Sun, 27 Sep 2026 16:53:19 GMT), separate request for 39.6243, 19.9217, valid 2026-09-24T03:15 Europe/Athens, scenario 03:19 inside 03:00–03:59. Code 0 (clear), cloud 0%, 19.7°C, wind 4.5 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 964–1058 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "7bda6240008ecad2edcb00a617cc561b0237b17a80db0e5522ec07e953273790",
+  "sha256_4x5": "073de422287bd4416a46202f689923cb3b77bce98f730e8cfab3e592ac2c0f0f",
   "reverted_at": "2026-09-25T12:44:30.697891+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:44:30.697891+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T00:17:07Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:53:19Z unique to the second; scenario 03:19 inside the model-valid hour; code 0, cloud 0%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
   ],
   "daylight_variant": {
@@ -55,5 +59,32 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  },
+  "file_9x16": "library/world/Greece/Corfu/gr-01-012-9x16.png",
+  "sha256_9x16": "2067f11bdba4c018ca3110359684870f394eb48146b5199e4250f29e8d546235",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:53:19Z",
+    "http_date": "Sun, 27 Sep 2026 16:53:19 GMT",
+    "valid_local": "2026-09-24T03:15",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "03:00-03:59",
+    "scenario_minute": "03:19",
+    "latitude": 39.6243,
+    "longitude": 19.9217,
+    "model_cell_latitude": 39.625,
+    "model_cell_longitude": 19.875,
+    "elevation_m": 18.0,
+    "minutely_15_index": 205,
+    "weather_code": 0,
+    "weather_code_name": "clear",
+    "cloud_cover_percent": 0,
+    "temperature_c": 19.7,
+    "wind_kmh": 4.5,
+    "relative_humidity_percent": 63,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:19Z, valid 2026-09-24T03:15 Europe/Athens — not a verified on-site observation."
   }
 }

@@ -12,18 +12,49 @@
   "file_4x5": "library/world/Greece/Methoni/gr-01-059-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
-  "approval_basis": "Gate 1: Methoni Castle — the sea fortress on the rocky promontory with the arched stone bridge causeway, waves breaking on the rocks, overcast dawn sea and sky; recognizably the castle, plausible viewpoint, clean framing, no artifacts. Gate 2: sweep-verified exact 1920x1080/864x1080; on-image caption 'Methoni Castle, Methoni', scenario '24 September 2026 · 06:24 Europe/Athens', AI disclosure, and 'Jason D's Vision' bottom-right on the gradient scrim. Own separate Open-Meteo retrieval 2026-09-25T21:45:28Z for 36.816, 21.705 (matching HTTP Date) — unique across all 87 GR-01-001–087 notes; scenario minute inside the 06:00–06:59 model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos.",
-  "approved_at": "2026-09-26T02:40:22.993921+00:00",
-  "sha256_16x9": "ada62e4b4bc76adf0d7b03027310db182a3eba6ba2119716ce593ef1f9c50e95",
-  "sha256_4x5": "ee7d0e0068aa64b70756299b496253f9bcd916c923a3d52c83f0fbd9886d9d03",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:17Z (Sun, 27 Sep 2026 16:54:17 GMT), separate request for 36.816, 21.705, valid 2026-09-24T06:15 Europe/Athens, scenario 06:24 inside 06:00–06:59. Code 1 (mainly clear), cloud 46%, 17.4°C, wind 2.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 917–1031 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "ef7c9b706ea6fec71ad83d730581937c8f2b00cd24d9d1a8b38ea4a5324dda0c",
+  "sha256_4x5": "fdf400d06433e146cdb194a8882f47c0c085cf21c2a354de40415264700f3dc2",
   "reverted_at": "2026-09-25T12:46:45.473580+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:46:45.473580+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:16:31Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:17Z unique to the second; scenario 06:24 inside the model-valid hour; code 1, cloud 46%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Greece/Methoni/gr-01-059-9x16.png",
+  "sha256_9x16": "a8bc69872db86eb7237785bfc3ea65c429f7176728b2b553391e435b9a770bc5",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:54:17Z",
+    "http_date": "Sun, 27 Sep 2026 16:54:17 GMT",
+    "valid_local": "2026-09-24T06:15",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "06:00-06:59",
+    "scenario_minute": "06:24",
+    "latitude": 36.816,
+    "longitude": 21.705,
+    "model_cell_latitude": 36.8125,
+    "model_cell_longitude": 21.75,
+    "elevation_m": 10.0,
+    "minutely_15_index": 217,
+    "weather_code": 1,
+    "weather_code_name": "mainly clear",
+    "cloud_cover_percent": 46,
+    "temperature_c": 17.4,
+    "wind_kmh": 2.9,
+    "relative_humidity_percent": 85,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:17Z, valid 2026-09-24T06:15 Europe/Athens — not a verified on-site observation."
+  }
 }

@@ -12,18 +12,49 @@
   "file_4x5": "library/world/Greece/Pirgos Dirou/gr-01-064-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
-  "approval_basis": "Gate 1: Diros Caves — the grey limestone coastal cliff with the dark cave mouth opening at sea level, the paved path and stone quay in the foreground, headland stretching into the calm sea under an overcast dawn sky; recognizably the cave entrance area, plausible viewpoint, clean framing, no artifacts. Gate 2: sweep-verified exact 1920x1080/864x1080; on-image caption 'Diros Caves, Pirgos Dirou', scenario '24 September 2026 · 06:24 Europe/Athens', AI disclosure, and 'Jason D's Vision' bottom-right on the gradient scrim. Own separate Open-Meteo retrieval 2026-09-25T21:45:38Z for 36.638, 22.381 (matching HTTP Date) — unique across all 87 GR-01-001–087 notes; scenario minute inside the 06:00–06:59 model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos.",
-  "approved_at": "2026-09-26T02:41:40.755425+00:00",
-  "sha256_16x9": "c57aed0d6b9f58d7a41f4b74e6032c378f60667d62c2972840a0a6d32cef4734",
-  "sha256_4x5": "6e8d46fe8d046571611678b95e26e14b63d9702865619722a4614d7f352e5f14",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:23Z (Sun, 27 Sep 2026 16:54:23 GMT), separate request for 36.638, 22.381, valid 2026-09-24T06:15 Europe/Athens, scenario 06:24 inside 06:00–06:59. Code 0 (clear), cloud 15%, 17.4°C, wind 8.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 968–1031 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "9146ede8afe82b93349407df7a7aa2a173506561d84d206b8211841d0a92cb1b",
+  "sha256_4x5": "dc0d04706861a1c54c51d02bf3d198b7c3f5bcba7e56882ddcbc2fbddd6d000e",
   "reverted_at": "2026-09-25T12:46:57.629271+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:46:57.629271+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:16:31Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:23Z unique to the second; scenario 06:24 inside the model-valid hour; code 0, cloud 15%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Greece/Pirgos Dirou/gr-01-064-9x16.png",
+  "sha256_9x16": "c8cd916cccf7ab9647b26a7d08f813b47e47c8890c7c07ce005a2b937f1b88e0",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:54:23Z",
+    "http_date": "Sun, 27 Sep 2026 16:54:23 GMT",
+    "valid_local": "2026-09-24T06:15",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "06:00-06:59",
+    "scenario_minute": "06:24",
+    "latitude": 36.638,
+    "longitude": 22.381,
+    "model_cell_latitude": 36.6875,
+    "model_cell_longitude": 22.375,
+    "elevation_m": 13.0,
+    "minutely_15_index": 217,
+    "weather_code": 0,
+    "weather_code_name": "clear",
+    "cloud_cover_percent": 15,
+    "temperature_c": 17.4,
+    "wind_kmh": 8.9,
+    "relative_humidity_percent": 79,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:23Z, valid 2026-09-24T06:15 Europe/Athens — not a verified on-site observation."
+  }
 }

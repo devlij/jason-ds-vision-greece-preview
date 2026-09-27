@@ -12,12 +12,11 @@
   "file_4x5": "library/world/Greece/Mykonos/gr-01-004-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Night",
-  "approval_basis": "G1: six white cylindrical Mykonos windmills on the hilltop, lit Chora waterfront houses below, moon reflecting on the dark sea; classic postcard viewpoint from the water side, no artifacts. G2: dims 1920x1080/864x1080 verified, 'Jason D's Vision' bottom-right, caption 'Windmills, Mykonos' + scenario '24 September 2026 · 03:19 Europe/Athens' + disclosure bottom-left on scrim, legible; weather retrieval 2026-09-25T21:43:38Z per-scene fetch, unique to the second across all 87 Greece notes, scenario inside model-valid hour. G3: text-prompt-only lineage, no photo inputs. G4: no people/logos, documented only. G5: no blockers.",
-  "approved_at": "2026-09-25T22:36:13.389786+00:00",
-  "sha256_16x9": "5c0c783d4e51b875c52d0bf0ba2d79b8da204e2e2749052c22c04e1008e6cc21",
-  "sha256_4x5": "8a76ef6d961d707622e1051598400aabbe602c8fce19508fbed9c13233bc1a08",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:09Z (Sun, 27 Sep 2026 16:53:09 GMT), separate request for 37.4464, 25.326, valid 2026-09-24T03:15 Europe/Athens, scenario 03:19 inside 03:00–03:59. Code 1 (mainly clear), cloud 27%, 19.3°C, wind 18.0 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 963–1058 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "9c2649c61b76aafb4d1028f25ac179d371cd4d8df6974b03eb64a68742853d5a",
+  "sha256_4x5": "12c6a62ec692f9d8aacfe85d90076bb167cc5e9a4aaff9c7c0511b30fab58db2",
   "reverted_at": "2026-09-25T12:44:08.092225+00:00",
   "qc_notes": [
     {
@@ -54,6 +53,11 @@
       "at": "2026-09-25T22:34:58.114861+00:00",
       "by": "Cosmo QC",
       "note": "Shared-retrieval Gate-2 hold resolved: approvals/GR-01-004.md now documents its own per-scene Open-Meteo HTTP fetch, retrieval timestamp 2026-09-25T21:43:38Z, verified unique to the second across all 87 Greece notes (full note set checked 2026-09-25 18:30 EDT, zero collisions); scenario minute 03:19 falls inside the cited model-valid hour. Gate 2 now PASS. Earlier Gate-1/3/4 holds unaffected; no new Gate-1 issue on re-review of the 16:9 master."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:53:09Z unique to the second; scenario 03:19 inside the model-valid hour; code 1, cloud 27%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
   ],
   "daylight_variant": {
@@ -85,5 +89,32 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the approved night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  },
+  "file_9x16": "library/world/Greece/Mykonos/gr-01-004-9x16.png",
+  "sha256_9x16": "62f916b9b8db4710a4f0954311f75fab5be78a33853dc4ee8601d55f9644dd18",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:53:09Z",
+    "http_date": "Sun, 27 Sep 2026 16:53:09 GMT",
+    "valid_local": "2026-09-24T03:15",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "03:00-03:59",
+    "scenario_minute": "03:19",
+    "latitude": 37.4464,
+    "longitude": 25.326,
+    "model_cell_latitude": 37.4375,
+    "model_cell_longitude": 25.3125,
+    "elevation_m": 0.0,
+    "minutely_15_index": 205,
+    "weather_code": 1,
+    "weather_code_name": "mainly clear",
+    "cloud_cover_percent": 27,
+    "temperature_c": 19.3,
+    "wind_kmh": 18.0,
+    "relative_humidity_percent": 63,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:09Z, valid 2026-09-24T03:15 Europe/Athens — not a verified on-site observation."
   }
 }

@@ -12,18 +12,49 @@
   "file_4x5": "library/world/Greece/Prespa/gr-01-082-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
-  "approval_basis": "Gates 1-5 pass. Gate 1: pre-dawn Psarades-style lakeside village on Great Prespa — stone houses with lit windows climbing the shore, wooden jetty, two small boats on glassy water, layered mountain silhouettes, dawn gradient; plausible tourist viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Prespa Lakes, Prespa', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T21:46:14Z verified unique across all 365 repo notes; model-valid hour 06:00–06:59 covers scenario minute 06:59; 23% cloud / 11.5°C consistent with the clearing dawn sky. Gate 3: notes document text-prompt-only lineage, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only, final commercial call is Jason's.",
-  "approved_at": "2026-09-26T04:41:49.988715+00:00",
-  "sha256_16x9": "e5fa916832797cb30cab597b8eabab0b7fe503583d0145a9c94f4d0de2227b27",
-  "sha256_4x5": "05822fa6c084d7015e2867211aa3bb135c9ef60a18b24b8ead4e3d9bed6e0094",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:45Z (Sun, 27 Sep 2026 16:54:45 GMT), separate request for 40.829, 21.033, valid 2026-09-24T06:45 Europe/Athens, scenario 06:59 inside 06:00–06:59. Code 1 (mainly clear), cloud 23%, 11.5°C, wind 4.4 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 956–1053 on 16:9); not a new composition. Not approved.",
+  "sha256_16x9": "9460a2171d393de9c005a1e52bd1d0f95fbb58fa687ddba33c496cc6ffc1241f",
+  "sha256_4x5": "074d4089f3b8ea140f4ebbdc1b79775e68da00ec862700797eabb0dcaed2249f",
   "reverted_at": "2026-09-25T12:47:53.548869+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:47:53.548869+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:58:28Z identical across 7 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T16:55:00Z",
+      "by": "builder",
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:45Z unique to the second; scenario 06:59 inside the model-valid hour; code 1, cloud 23%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Greece/Prespa/gr-01-082-9x16.png",
+  "sha256_9x16": "86f8400ae8bc3a2ed8a40584e8fa0639613f8e8df21b4a76363bc4f5e6cd862f",
+  "weather": {
+    "provider": "Open-Meteo",
+    "retrieval_timestamp": "2026-09-27T16:54:45Z",
+    "http_date": "Sun, 27 Sep 2026 16:54:45 GMT",
+    "valid_local": "2026-09-24T06:45",
+    "timezone": "Europe/Athens",
+    "model_valid_hour": "06:00-06:59",
+    "scenario_minute": "06:59",
+    "latitude": 40.829,
+    "longitude": 21.033,
+    "model_cell_latitude": 40.8125,
+    "model_cell_longitude": 21.0,
+    "elevation_m": 871.0,
+    "minutely_15_index": 219,
+    "weather_code": 1,
+    "weather_code_name": "mainly clear",
+    "cloud_cover_percent": 23,
+    "temperature_c": 11.5,
+    "wind_kmh": 4.4,
+    "relative_humidity_percent": 73,
+    "precipitation_mm": 0.0,
+    "is_day": 0,
+    "snowfall_cm": 0.0,
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:45Z, valid 2026-09-24T06:45 Europe/Athens — not a verified on-site observation."
+  }
 }

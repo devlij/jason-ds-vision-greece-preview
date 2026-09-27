@@ -108,6 +108,30 @@ def existing_master(rel: str) -> str:
     return rel if master_exists(rel) else ""
 
 
+def paired_daylight(raw: dict) -> tuple[str, str]:
+    """16:9 and 4:5 daylight masters, or neither.
+
+    An explicit file_16x9_day / file_4x5_day pair wins. Otherwise the paths
+    already recorded under daylight_variant.files are used. A control is
+    published only when both files are on disk.
+    """
+    explicit16 = str(raw.get("file_16x9_day") or "")
+    explicit45 = str(raw.get("file_4x5_day") or "")
+    if explicit16 or explicit45:
+        day16 = existing_master(explicit16)
+        day45 = existing_master(explicit45)
+    else:
+        variant = raw.get("daylight_variant")
+        files = variant.get("files") if isinstance(variant, dict) else None
+        if not isinstance(files, dict):
+            return "", ""
+        day16 = existing_master(str(files.get("16x9") or ""))
+        day45 = existing_master(str(files.get("4x5") or ""))
+    if day16 and day45:
+        return day16, day45
+    return "", ""
+
+
 def daynight(label: str) -> str:
     """Scenario hour. 07:00–18:59 is day; every other hour is night.
 
@@ -167,12 +191,9 @@ def load_scenes(tags: dict) -> tuple[list[dict], dict, list[str]]:
             rel = existing_master(str(raw.get(src_key) or ""))
             if rel:
                 scene[dest_key] = rel
-        # Daylight derivative paths stay off the card unless a manifest already
-        # publishes file_16x9_day and file_4x5_day and both files exist. The
-        # shell still refuses to draw the control when either file is missing.
-        # The published Greece cards do not list those paths today.
-        day16 = existing_master(str(raw.get("file_16x9_day") or ""))
-        day45 = existing_master(str(raw.get("file_4x5_day") or ""))
+        # Daylight is a pair: both masters on disk, or no control. The shell
+        # also refuses to draw the button unless both paths are present.
+        day16, day45 = paired_daylight(raw)
         if day16 and day45:
             scene["file_16x9_day"] = day16
             scene["file_4x5_day"] = day45
