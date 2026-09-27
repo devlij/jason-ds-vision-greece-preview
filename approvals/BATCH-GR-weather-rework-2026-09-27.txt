@@ -5,13 +5,13 @@ Scenario minute sits inside the model-valid hour. Weather code, cloud, temperatu
 Finish: photo above the caption band is the prior master (pixel-identical above the inpainted type). Baked type was removed. Label bar is 190px #0e0e12 under the photo. Sizes 1920×1270, 864×1270, 1080×2110. Signature Jason D’s Vision (U+2019) and Jason A. Devlin in Allura. approval_status is Candidate. This packet does not approve any scene.
 9:16 is a center crop of the cleaned 16:9, then the same bar. No new composition. A trial image regeneration of GR-01-008 put heads back on the Lion Gate relief and was discarded.
 
-Batches of 16, last batch 7:
-  GR-01-001–GR-01-016
-  GR-01-017–GR-01-032
-  GR-01-033–GR-01-048
-  GR-01-049–GR-01-064
-  GR-01-065–GR-01-080
-  GR-01-081–GR-01-087
+Batches of 16, last batch 7. Tip SHA is the commit that adds that batch:
+  GR-01-001–GR-01-016  6f5506fbaf21c2efff7913bc3105e0b4284c95b2
+  GR-01-017–GR-01-032  3b516fae97280bb2658584b09e432e0551512a4f
+  GR-01-033–GR-01-048  85c3bcd52f57a8fbf03c1d5e2c09ba849f6e4067
+  GR-01-049–GR-01-064  5e1ce3818302b1b9c6692b70ebd7f521fcbeb5e1
+  GR-01-065–GR-01-080  324fddc9a9acd87d30a01b6ce40841aefea2ad1f
+  GR-01-081–GR-01-087  f2d82b536cee262f2ce4abe0d7d0b36e326d213e
 
 Scenes:
 GR-01-001  retrieved 2026-09-27T16:53:05Z  HTTP Date Sun, 27 Sep 2026 16:53:05 GMT  valid 2026-09-24T03:15 Europe/Athens  model-valid hour 03:00–03:59  minutely_15 index 205  scenario 03:19  code 1  cloud 5%  13.3°C  wind 6.4 km/h  is_day 0  precip 0.0 mm  lat 37.9674 lon 23.7214
