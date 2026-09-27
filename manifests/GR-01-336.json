@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Kavala/gr-01-336-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: from the harbor — long Imaret complex with many small lead domes, stone-and-brick walls with arches on the old sea wall, harbor water with small boats in the foreground; clear sky matches code-1 9% cloud. Gate 2: exact 1920x1080 and 864x1080, 'Imaret, Kavala', scenario 12:15, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:50:41Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-27T06:57:18.286236+00:00",
+  "sha256_16x9": "ce8787ee487ab2ecde8ac64847b543b05ffa1f1d82dff47f6bf104c50dcf9c38",
+  "sha256_4x5": "aa0de4db51b7de152befcd5d529e8897326d86790754248e9875910341073d6c"
 }
