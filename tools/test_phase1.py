@@ -78,6 +78,37 @@ def main() -> None:
     if not build.existing_master(sample):
         raise SystemExit("existing master was rejected")
 
+    # Daylight control paths: both masters, or neither. Manifest files stay untouched.
+    day_ids = [scene["entry_id"] for scene in scenes if scene.get("file_16x9_day")]
+    if day_ids != [
+        "GR-01-001", "GR-01-002", "GR-01-003", "GR-01-004", "GR-01-005",
+        "GR-01-006", "GR-01-007", "GR-01-009", "GR-01-010", "GR-01-011",
+        "GR-01-012", "GR-01-013", "GR-01-014", "GR-01-015", "GR-01-016",
+        "GR-01-017", "GR-01-018", "GR-01-019", "GR-01-020", "GR-01-021",
+    ]:
+        raise SystemExit(f"daylight pair set drifted: {day_ids}")
+    for scene in scenes:
+        has16 = bool(scene.get("file_16x9_day"))
+        has45 = bool(scene.get("file_4x5_day"))
+        if has16 != has45:
+            raise SystemExit(f"{scene['entry_id']} published a one-sided daylight pair")
+        if has16:
+            if not scene["file_16x9_day"].endswith(f"{scene['entry_id'].lower()}-daylight-16x9.png"):
+                raise SystemExit(f"unexpected daylight path {scene['file_16x9_day']}")
+            if not build.existing_master(scene["file_16x9_day"]) or not build.existing_master(scene["file_4x5_day"]):
+                raise SystemExit(f"{scene['entry_id']} daylight path is not on disk")
+    if build.paired_daylight({
+        "file_16x9_day": "library/world/Greece/no-such-day-16x9.png",
+        "file_4x5_day": scenes[0]["file_4x5"],
+    }) != ("", ""):
+        raise SystemExit("a missing daylight master still published a pair")
+    if build.paired_daylight({"daylight_variant": {"files": {"16x9": scenes[0]["file_16x9"]}}}) != ("", ""):
+        raise SystemExit("a 16:9-only daylight variant published a pair")
+    for scene in scenes:
+        raw = json.loads((ROOT / "manifests" / f"{scene['entry_id']}.json").read_text(encoding="utf-8"))
+        if scene.get("approval_status") != raw.get("approval_status"):
+            raise SystemExit(f"{scene['entry_id']} approval_status changed in the page record")
+
     html = build.render_html(scenes, meta)
     for token in ('id="f-daynight"', 'id="f-mood"', "function relatedFor", "Copy link", "phase1Enhance"):
         if token not in html:
@@ -100,6 +131,16 @@ def main() -> None:
             raise SystemExit(f"identity marker missing: {token}")
     if "dataset.src45" in html or "dataset.src16" in html:
         raise SystemExit("dataset.src accessor returned")
+    if html.count("G-PDJ4WSS725") != 2:
+        raise SystemExit("GA4 id must appear only as the loader and the config")
+    if "gr-01-001-daylight-16x9.png" not in html or "gr-01-001-daylight-4x5.png" not in html:
+        raise SystemExit("GR-01-001 daylight masters were not published")
+    if "gr-01-008-daylight" in html or "gr-01-022-daylight" in html:
+        raise SystemExit("a scene without a daylight pair was given a daylight path")
+    if 'class="narrate"' in html or ".mp3" in html:
+        raise SystemExit("Listen control rendered without an audio file")
+    if ".flag-chip.flag-no{background:linear-gradient(to bottom,transparent 35%,#00205B" not in html:
+        raise SystemExit("Norway flag chip is not the Spain offset cross")
 
     # A one-off index.html that has lost Phase-1 is replaced by the generator.
     index_path = ROOT / "index.html"
