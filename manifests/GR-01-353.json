@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-353-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: 16:9 shows the small Ionic temple with four columns on the front porch and solid cella walls, standing on the tall ashlar southwest bastion with the Propylaea approach at left — matching all three anchors; the 4:5 agrees on the bastion-temple subject. Gate 2: exact dims; on-image 'Temple of Athena Nike, Athens', 'Scenario: 24 September 2026 · 12:58 Europe/Athens', disclosure, and signature verified; retrieval 2026-09-25T23:52:00Z unique to the second across the window, scenario 12:58 inside the 12:00–12:59 model hour; broken cumulus matches code 2 / 47% cover. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-27T13:38:03.998894+00:00",
+  "sha256_16x9": "5b7ab9617d4bc605837eb15edc9b46f69d9dd91d0e7934e27b0024e640198163",
+  "sha256_4x5": "1e1ab994f61b00d8236eecfdc693ef1854d6d35e1043988ba1030ee73f57523c"
 }
