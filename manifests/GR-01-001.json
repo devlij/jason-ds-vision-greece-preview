@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-001-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:05Z (Sun, 27 Sep 2026 16:53:05 GMT), separate request for 37.9674, 23.7214, valid 2026-09-24T03:15 Europe/Athens, scenario 03:19 inside 03:00–03:59. Code 1 (mainly clear), cloud 5%, 13.3°C, wind 6.4 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 965–1058 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gates 1–5 pass. Gate 1: night frame shows the floodlit roofless Parthenon centered on the Acropolis rock from the Filopappou viewpoint, Propylaea mass lower-left, city lamps below the rock — recognizable, clean framing, no artifacts; 4:5 shows the same floodlit Parthenon (subject agreement). Gate 2: 16:9 1920×1270 and 4:5 864×1270 exact; label bar under the photo carries Parthenon, Athens, scenario 24 September 2026 · 03:19 Europe/Athens, AI-generated artistic interpretation disclosure, and exact Jason D's Vision (curly apostrophe) + Jason A. Devlin signature; per-scene Open-Meteo retrieval 2026-09-27T16:53:05Z unique to the second, scenario 03:19 inside the model-valid hour, weather code 1, 5% cloud matches the clear night sky. Gate 3: text-prompt-only lineage per build notes. Gate 4: no identifiable people or focal logos.",
   "sha256_16x9": "7f3ab9a2a279e16ee4b0f41a63b69e96040521f779bd2dc8994202cf86dbfdac",
   "sha256_4x5": "52094c26074e78912d1c1f10b171b1f3ea6e7423ec83424ac9f55775f6df869a",
   "reverted_at": "2026-09-25T12:44:00.206081+00:00",
@@ -116,5 +116,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:05Z, valid 2026-09-24T03:15 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T02:04:02.562414+00:00"
 }
