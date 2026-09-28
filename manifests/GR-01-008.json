@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Greece/Mycenae/gr-01-008-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "qc_notes": [
     {
       "at": "2026-09-25T04:31:45.819385+00:00",
@@ -45,9 +45,9 @@
       "note": "Gate-1 hold resolved 2026-09-28 (Cosmo re-audit): the builder rebuilt GR-01-008 from scratch — the new masters are genuinely new bytes, and the triangular relief now shows the two HEADLESS lions flanking the column with paws on the altar bases, matching the real Lion Gate; the headed-lion problem from the 2026-09-25 hold is gone. Cosmo inspected the live 16:9 master directly and confirmed the fix; all five gates pass. The 2026-09-25 hold is cleared."
     }
   ],
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "reverted_at": "2026-09-25T12:44:18.862263+00:00",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:14Z (Sun, 27 Sep 2026 16:53:14 GMT), separate request for 37.7303, 22.7563, valid 2026-09-25T15:30 Europe/Athens, scenario 15:35 inside 15:00–15:59. Code 3 (overcast), cloud 100%, 23.5°C, wind 11.4 km/h, precipitation 0.0 mm, is_day 1. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 963–1053 on 16:9); not a new composition. Not approved.",
+  "approval_basis": "Gates 1–5 pass. Gate 1: REBUILD of the failed night master — overcast afternoon close-up of the relief showing the two HEADLESS lions flanking the column with paws on the altar bases, triangular relieving slab, conglomerate masonry and heavy lintel; the headed-lion defect that failed Gate 1 is fixed and the masters are genuinely new; 4:5 shows the same gate and headless-lion relief (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Lion Gate, Mycenae, scenario 25 September 2026 · 15:35 Europe/Athens (afternoon daylight, matching the image), AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:14Z unique to the second, scenario 15:35 inside the 15:00–15:59 model-valid hour, code 3, 100% cloud consistent with the overcast frame. Gate 3: text-prompt-only rebuild. Gate 4: no identifiable people or focal logos.",
   "sha256_16x9": "cdaf3a6efdc463a9e29a5458f1d78e428b0e0133ea5d7e8cbdbd5e0804b605f8",
   "sha256_4x5": "3c028a0671124a18b36844841f24c9876427e8ae29dea056df8d9b644d76e54c",
   "file_9x16": "library/world/Greece/Mycenae/gr-01-008-9x16.png",
@@ -76,5 +76,6 @@
     "is_day": 1,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:14Z, valid 2026-09-25T15:30 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T02:06:06.726684+00:00"
 }
