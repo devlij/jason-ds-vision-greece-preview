@@ -38,6 +38,11 @@
       "at": "2026-09-27T16:55:00Z",
       "by": "builder",
       "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:53:14Z unique to the second; scenario 15:35 inside the model-valid hour; code 3, cloud 100%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
+    },
+    {
+      "at": "2026-09-28T02:05:59.720356+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate-1 hold resolved 2026-09-28 (Cosmo re-audit): the builder rebuilt GR-01-008 from scratch — the new masters are genuinely new bytes, and the triangular relief now shows the two HEADLESS lions flanking the column with paws on the altar bases, matching the real Lion Gate; the headed-lion problem from the 2026-09-25 hold is gone. Cosmo inspected the live 16:9 master directly and confirmed the fix; all five gates pass. The 2026-09-25 hold is cleared."
     }
   ],
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
