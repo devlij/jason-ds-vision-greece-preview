@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Thessaloniki/gr-01-013-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:20Z (Sun, 27 Sep 2026 16:53:20 GMT), separate request for 40.6264, 22.9484, valid 2026-09-24T03:15 Europe/Athens, scenario 03:19 inside 03:00–03:59. Code 0 (clear), cloud 0%, 14.9°C, wind 7.0 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 964–1058 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gates 1–5 pass. Gate 1: the floodlit cylindrical White Tower on the waterfront promenade at night with lamps and the sea — recognizable Thessaloniki, clean framing; 4:5 shows the same tower from the promenade (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has White Tower, Thessaloniki, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:20Z unique to the second, scenario inside model-valid hour, code 0, 0% cloud consistent with the clear night sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
   "sha256_16x9": "b58000fafafd6c9232b3b195920d51f6b19b67de6572f2cb90ed2a558e48cf98",
   "sha256_4x5": "d3762b118aee607bc3d61f8c79867124a0a4b05921ad27973e05fee3d36a8736",
   "reverted_at": "2026-09-25T12:44:33.450674+00:00",
@@ -86,5 +86,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:20Z, valid 2026-09-24T03:15 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T02:04:57.085121+00:00"
 }
