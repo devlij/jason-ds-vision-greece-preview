@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Delphi/gr-01-045-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:00Z (Sun, 27 Sep 2026 16:54:00 GMT), separate request for 38.4828, 22.5013, valid 2026-09-24T06:00 Europe/Athens, scenario 06:09 inside 06:00–06:59. Code 0 (clear), cloud 0%, 10.5°C, wind 7.7 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 963–1053 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Curved tiers of the theater cavea in the foreground, standing columns of the temple ruins and the Phaedriades cliffs behind, Pleistos valley at left; wider composition than GR-01-005 (not a replacement); caption 'Ancient Theater, Delphi', scenario '24 September 2026 · 06:09 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:54:00Z unique, 06:09 inside 06:00-06:59. Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
   "sha256_16x9": "48d26f9c3086a117cb3239ae70282fd893748e69f713aba3354efe629f9f3abd",
   "sha256_4x5": "7a10877b7bfc70e782ff39668299790ec404f9db1f709fe2b46975ada8ed3fa3",
   "reverted_at": "2026-09-25T12:46:06.517833+00:00",
@@ -61,5 +61,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:00Z, valid 2026-09-24T06:00 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T12:46:01.035449+00:00"
 }
