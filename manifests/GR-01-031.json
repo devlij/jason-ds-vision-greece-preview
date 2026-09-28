@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Sounion/gr-01-031-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:42Z (Sun, 27 Sep 2026 16:53:42 GMT), separate request for 37.656, 24.01, valid 2026-09-24T05:45 Europe/Athens, scenario 05:53 inside 05:00–05:59. Code 0 (clear), cloud 7%, 14.7°C, wind 8.4 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 954–1057 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Night frame shows the floodlit Temple of Poseidon on the Sounion headland at right from the rocky northwest coastal approach, star field above, Aegean below; caption 'Cape Sounion, Sounion', scenario '24 September 2026 · 05:53 Europe/Athens' verified on-image; exact 'Jason D's Vision' signature + script on the dark label bar with the AI disclosure. Weather retrieval 2026-09-27T16:53:42Z unique to this scene, 05:53 inside the 05:00-05:59 model hour (clear, 14.7°C). Gates: 1 pass (recognizable temple/headland), 2 pass (dims exact, weather fresh), 3 text-prompt claim recorded, 4 none (natural landscape), 5 ready. Inter-format subject agreement verified.",
   "sha256_16x9": "158deee0636e29f8f76a22a3b7c789920932fe0f5524425f21dd8aa780e984fa",
   "sha256_4x5": "3cff9d7869f6aaadf04e8ff7bb44a5622d206ce2cc3cb35d67e4d411bbbe37b1",
   "reverted_at": "2026-09-25T12:45:25.380265+00:00",
@@ -61,5 +61,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:42Z, valid 2026-09-24T05:45 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T12:30:57.176855+00:00"
 }
