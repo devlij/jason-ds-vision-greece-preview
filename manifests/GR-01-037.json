@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Galaxidi/gr-01-037-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:50Z (Sun, 27 Sep 2026 16:53:50 GMT), separate request for 38.3765, 22.3835, valid 2026-09-24T06:00 Europe/Athens, scenario 06:05 inside 06:00–06:59. Code 0 (clear), cloud 0%, 14.6°C, wind 6.6 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 964–1053 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Twilight row of pastel captain's mansions on the waterfront, clock/bell tower against the pine-covered hill, fishing boats and rowboats moored in the calm bay; caption 'Galaxidi Harbor, Galaxidi', scenario '24 September 2026 · 06:05 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:50Z unique, 06:05 inside 06:00-06:59 (clear, 14.6°C). Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
   "sha256_16x9": "939e9275889875a97a8c46ef86449ee88b546b6ff2895a8774e616d1160c1c4e",
   "sha256_4x5": "c0359ab9bd23043df92a376cddfbbc4d7b702929d3405fb5a961434cf0c010fd",
   "reverted_at": "2026-09-25T12:45:45.524536+00:00",
@@ -61,5 +61,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:50Z, valid 2026-09-24T06:00 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T12:37:28.015625+00:00"
 }
