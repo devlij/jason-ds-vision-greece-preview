@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Corfu/gr-01-012-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:19Z (Sun, 27 Sep 2026 16:53:19 GMT), separate request for 39.6243, 19.9217, valid 2026-09-24T03:15 Europe/Athens, scenario 03:19 inside 03:00–03:59. Code 0 (clear), cloud 0%, 19.7°C, wind 4.5 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 964–1058 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gates 1–5 pass. Gate 1: the Old Fortress headland at night with the pedimented church on the summit, viewed past the Liston arcades and lampposts from Spianada Square — recognizable Corfu, clean framing; 4:5 shows the same fortress headland with the church (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Old Fortress, Corfu, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:19Z unique to the second, scenario inside model-valid hour, code 0, 0% cloud consistent with the starry sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
   "sha256_16x9": "7bda6240008ecad2edcb00a617cc561b0237b17a80db0e5522ec07e953273790",
   "sha256_4x5": "073de422287bd4416a46202f689923cb3b77bce98f730e8cfab3e592ac2c0f0f",
   "reverted_at": "2026-09-25T12:44:30.697891+00:00",
@@ -86,5 +86,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:19Z, valid 2026-09-24T03:15 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T02:04:52.385883+00:00"
 }
