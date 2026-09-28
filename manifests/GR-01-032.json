@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Aegina/gr-01-032-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:43Z (Sun, 27 Sep 2026 16:53:43 GMT), separate request for 37.746, 23.425, valid 2026-09-24T05:45 Europe/Athens, scenario 05:53 inside 05:00–05:59. Code 1 (mainly clear), cloud 31%, 19.2°C, wind 6.2 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 954–1057 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Twilight waterfront of pastel neoclassical captain's houses, domed church bell tower, moored blue/white fishing boats with lamp reflections on calm water; caption 'Aegina Harbor, Aegina', scenario '24 September 2026 · 05:53 Europe/Athens' on-image; signature + disclosure exact on the bar. Weather retrieval 2026-09-27T16:53:43Z unique, 05:53 inside 05:00-05:59 (mainly clear, 19.2°C). Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
   "sha256_16x9": "75988cc95c5d18a482564fb84b69671bc3967501276d94627b6792c7c6bfe9b1",
   "sha256_4x5": "63eb2b94ad5b9a47260549a16d909b20767bae3e5cdf06e0dd6510a098b1c206",
   "reverted_at": "2026-09-25T12:45:27.959275+00:00",
@@ -61,5 +61,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:43Z, valid 2026-09-24T05:45 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T12:32:05.684897+00:00"
 }
