@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Itea/gr-01-042-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:56Z (Sun, 27 Sep 2026 16:53:56 GMT), separate request for 38.4322, 22.4245, valid 2026-09-24T06:00 Europe/Athens, scenario 06:08 inside 06:00–06:59. Code 0 (clear), cloud 0%, 14.6°C, wind 6.6 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 965–1053 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Night promenade of tall palms and lit neoclassical houses, fishing boats moored along the quay, mountains across the gulf under the pre-dawn sky; caption 'Itea Waterfront, Itea', scenario '24 September 2026 · 06:08 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:56Z unique, 06:08 inside 06:00-06:59 (clear, 14.6°C). Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
   "sha256_16x9": "8549d460e10f1610940f681b0170c72acb36843b35e9c1ea8083fe4e3e39d244",
   "sha256_4x5": "a29cc7bae395a142a9ff8907071d9c1230c7d9b57eaead047bb0bc9170642082",
   "reverted_at": "2026-09-25T12:45:59.155725+00:00",
@@ -61,5 +61,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:56Z, valid 2026-09-24T06:00 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T12:42:46.366216+00:00"
 }
