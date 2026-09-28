@@ -28,6 +28,11 @@
       "at": "2026-09-27T16:55:00Z",
       "by": "builder",
       "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:53:48Z unique to the second; scenario 06:05 inside the model-valid hour; code 0, cloud 0%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
+    },
+    {
+      "at": "2026-09-28T12:36:22.444823+00:00",
+      "by": "Cosmo QC",
+      "note": "Weather rework re-audit cleared: per-scene Open-Meteo retrieval 2026-09-27T16:53:48Z unique to the second across the batch, scenario minute inside the model-valid hour, masters re-finished with the 190px label bar (sha changed vs the withdrawn batch). Prior shared-retrieval withdrawal resolved. Re-audited by Cosmo QC, approved."
     }
   ],
   "file_9x16": "library/world/Greece/Arachova/gr-01-036-9x16.png",
