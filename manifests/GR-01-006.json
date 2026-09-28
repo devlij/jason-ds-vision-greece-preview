@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Kalambaka/gr-01-006-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:11Z (Sun, 27 Sep 2026 16:53:11 GMT), separate request for 39.7217, 21.6306, valid 2026-09-24T03:15 Europe/Athens, scenario 03:19 inside 03:00–03:59. Code 0 (clear), cloud 0%, 9.4°C, wind 5.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 965–1058 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gates 1–5 pass. Gate 1: monasteries atop towering sandstone pillars with valley mist under a full moon — recognizable Meteora, clean framing; 4:5 shows the same monastery-on-pillar subject (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Meteora, Kalambaka, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:11Z unique to the second, scenario inside model-valid hour, code 0, 0% cloud consistent with the starry sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
   "sha256_16x9": "6519e674cedc017f9caa9538bb5ed48f5680befb10b01663303045a345d78164",
   "sha256_4x5": "74da9e00843bf03eb7bfd5114e02c2aeb337ae69145613f2d8189598f655b0c6",
   "reverted_at": "2026-09-25T12:44:13.680224+00:00",
@@ -116,5 +116,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:11Z, valid 2026-09-24T03:15 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T02:04:27.545889+00:00"
 }
