@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-027-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:37Z (Sun, 27 Sep 2026 16:53:37 GMT), separate request for 37.9742, 23.7264, valid 2026-09-24T05:45 Europe/Athens, scenario 05:53 inside 05:00–05:59. Code 0 (clear), cloud 1%, 12.2°C, wind 5.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 952–1057 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: the octagonal marble tower with its pyramidal roof and wind-figure frieze center-frame, colonnaded ruins to the left, dark-blue evening sky. Gate 2: caption \"Tower of the Winds, Athens\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:37Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
   "sha256_16x9": "777a8cb8febde82b5e8ba90c3a8d03d3332cf3172e3afe8192d362c0c705d89d",
   "sha256_4x5": "f12adaa5fdef7821f487389c327a96e87a80a619082c708307c6453a493e6f4d",
   "reverted_at": "2026-09-25T12:45:15.206806+00:00",
@@ -56,5 +56,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:37Z, valid 2026-09-24T05:45 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T07:59:38.805513+00:00"
 }
