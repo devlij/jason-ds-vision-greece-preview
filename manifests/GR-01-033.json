@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Thermopylae/gr-01-033-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:45Z (Sun, 27 Sep 2026 16:53:45 GMT), separate request for 38.7963, 22.5364, valid 2026-09-24T06:00 Europe/Athens, scenario 06:03 inside 06:00–06:59. Code 0 (clear), cloud 0%, 14.2°C, wind 8.2 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 963–1053 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Bronze hoplite with crested helmet, round shield and upright spear on the tall stone pedestal, cypresses and the rocky Kolonos hill behind, twilight blue sky; pedestal inscription left in shadow (no false text); caption 'Leonidas Monument, Thermopylae', scenario '24 September 2026 · 06:03 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:45Z unique, 06:03 inside 06:00-06:59 (clear, 14.2°C). Gates: 1 pass (monument identity correct), 2 pass, 3 text-prompt claim recorded, 4 documented — public historical monument statue, 5 ready. Inter-format subject agreement verified.",
   "sha256_16x9": "0d3a9fdf949ff81a88464d0e0a2bfb4fbc56574710f5fdf473e258ae71e2289e",
   "sha256_4x5": "d99b8801fbdcae41203a68640ea8511576d4245ddd804c30bf7fafe0f4dceeec",
   "reverted_at": "2026-09-25T12:45:34.782556+00:00",
@@ -61,5 +61,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:45Z, valid 2026-09-24T06:00 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T12:33:09.111434+00:00"
 }
