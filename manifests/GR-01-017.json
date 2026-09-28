@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Athens/gr-01-017-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:53:25Z (Sun, 27 Sep 2026 16:53:25 GMT), separate request for 37.9721, 23.7267, valid 2026-09-24T05:45 Europe/Athens, scenario 05:53 inside 05:00–05:59. Code 0 (clear), cloud 1%, 11.9°C, wind 5.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 954–1057 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: floodlit Acropolis at blue hour — the Erechtheion's Ionic east portico foreground right, the Caryatid porch (six maidens) mid-frame, the lit Parthenon behind left, city lights below; recognizable. Gate 2: caption \"Erechtheion, Athens\", scenario \"24 September 2026 · 05:53 Europe/Athens\", disclosure, exact signature on the bar; dims sweep-verified; per-scene Open-Meteo retrieval 2026-09-27T16:53:25Z unique to the second; scenario inside the 05:00–05:59 model hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: clear.",
   "sha256_16x9": "f991e5a26a8cfaf5f4f9edf5bf255d7db36b891cada51d4a77231bce2a41d598",
   "sha256_4x5": "d28261c3bf2480278f5e856fa159e1047b5122dfbfeb692214080cc2c0a39ad1",
   "reverted_at": "2026-09-25T12:44:47.569662+00:00",
@@ -86,5 +86,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:25Z, valid 2026-09-24T05:45 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-28T07:58:22.693135+00:00"
 }
