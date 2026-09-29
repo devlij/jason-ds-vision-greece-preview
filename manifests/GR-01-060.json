@@ -28,6 +28,11 @@
       "at": "2026-09-27T16:55:00Z",
       "by": "builder",
       "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:18Z unique to the second; scenario 06:24 inside the model-valid hour; code 1, cloud 7%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
+    },
+    {
+      "at": "2026-09-29T12:46:18.691176+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 hold (Cosmo QC): the legacy caption 'Niokastro, Pylos' and 'Jason D's Vision' are still baked over the photo area ABOVE the 190px label bar — the 2026-09-29 re-finish did not lift the old text off the artwork. Gate 1 visuals are plausible (fortress above the lit waterfront, bay and Sphacteria silhouette at dawn). Rework: re-finish with a clean photo area (zero text over the artwork), then append a new note recording the re-finish."
     }
   ],
   "file_9x16": "library/world/Greece/Pylos/gr-01-060-9x16.png",
