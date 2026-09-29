@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Eretria/gr-01-048-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:03Z (Sun, 27 Sep 2026 16:54:03 GMT), separate request for 38.3986, 23.7915, valid 2026-09-24T06:00 Europe/Athens, scenario 06:09 inside 06:00–06:59. Code 1 (mainly clear), cloud 17%, 14.7°C, wind 8.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 964–1053 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
+  "approval_basis": "Gate 1: curved stone cavea tiers around the orchestra with an arched entry passage, open plain and sea to the horizon under blue twilight — the coastal setting fits Eretria's ancient theater. Gate 2: dims exact per sweep; 190px label bar exact with caption 'Ancient Theater, Eretria', scenario '24 September 2026 · 06:09 Europe/Athens', AI disclosure and signature; photo area clean. Per-scene Open-Meteo retrieval 2026-09-27T16:54:03Z, unique to the second, scenario inside the model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, logos, or private property visible. Gate 5: no open blockers.",
   "sha256_16x9": "e8a7486545c1e673ec87c78ca6b87d9addadb8cf636824bb8cfa2f405edd2346",
   "sha256_4x5": "8b8663f14c5dd7cdfcc13b89d5a3d298e4c46240416ea1a2abc18507e6a29c60",
   "reverted_at": "2026-09-25T12:46:14.005434+00:00",
@@ -56,5 +56,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:03Z, valid 2026-09-24T06:00 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-29T12:44:59.640287+00:00"
 }
