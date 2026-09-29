@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Delphi/gr-01-046-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:01Z (Sun, 27 Sep 2026 16:54:01 GMT), separate request for 38.4816, 22.5052, valid 2026-09-24T06:00 Europe/Athens, scenario 06:09 inside 06:00–06:59. Code 0 (clear), cloud 0%, 11.8°C, wind 8.7 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 963–1053 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
+  "approval_basis": "Gate 1: dawn gorge between the dark Phaedriades cliffs with carved ancient niches and stone steps in the left wall, stream through boulders — plausibly the Castalian Spring ravine at Delphi. Gate 2: dims exact per sweep; 190px label bar baked under the photo with caption 'Castalian Spring, Delphi', scenario '24 September 2026 · 06:09 Europe/Athens', AI disclosure, Jason D's Vision + Jason A. Devlin script signature; zero text over the photo area. Per-scene Open-Meteo retrieval 2026-09-27T16:54:01Z, unique to the second, scenario inside the 06:00-06:59 model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, logos, or private property visible. Gate 5: no open blockers.",
   "sha256_16x9": "74149d8c42ffdcf75b4854e625828606c875ff37dbc1cafef7c42597b23037d6",
   "sha256_4x5": "1037458050a850e4accc899457c8050f39ecf8a6ed228b9a063eda25efb3bef5",
   "reverted_at": "2026-09-25T12:46:08.985157+00:00",
@@ -56,5 +56,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:01Z, valid 2026-09-24T06:00 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-29T12:44:41.384703+00:00"
 }
