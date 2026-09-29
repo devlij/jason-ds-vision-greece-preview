@@ -28,6 +28,11 @@
       "at": "2026-09-27T16:55:00Z",
       "by": "builder",
       "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:08Z unique to the second; scenario 06:21 inside the model-valid hour; code 1, cloud 33%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
+    },
+    {
+      "at": "2026-09-29T12:46:09.827179+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 hold (Cosmo QC): the legacy caption 'Cape Matapan, Mani' and 'Jason D's Vision' are still baked over the photo area ABOVE the 190px label bar — the 2026-09-29 re-finish did not lift the old text off the artwork. Gate 1 visuals are plausible (white lighthouse on the rocky cape tip at dawn). Rework: re-finish with a clean photo area (zero text over the artwork), then append a new note recording the re-finish."
     }
   ],
   "file_9x16": "library/world/Greece/Mani/gr-01-052-9x16.png",
