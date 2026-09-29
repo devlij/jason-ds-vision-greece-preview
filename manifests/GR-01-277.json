@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5. Visual: Venetian Loggia in Heraklion — Palladian stone building with arcaded ground-floor loggia, pilastered upper floor with arched bays and balustrades, stone cornice, adjacent old-town buildings under overcast sky; 4:5 agrees (same arcade columns and upper-floor pilasters at the building's corner). Clean framing, no artifacts. Technical: 1920x1080/864x1080 exact; caption 'Venetian Loggia, Heraklion', scenario '24 September 2026 · 11:00 Europe/Athens', disclosure and exact signature Jason D's Vision legible on the scrim. Weather: own Open-Meteo retrieval 2026-09-25T23:48:40Z, unique to this scene repo-wide, scenario inside the model-valid hour — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: public building exterior, no people, no logos; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
   "approved_at": "2026-09-26T19:36:29.938233+00:00",
-  "sha256_16x9": "39cbd0c1e76a578e1c44c2a474436ff6109231969935cd2e0fe77e1e0c5d4a05",
-  "sha256_4x5": "33bd5565fece99659e0156c5976d03dd08ab2ad9aecde046dd2652d76c09eb86"
+  "sha256_16x9": "2845d41f15f5afa1406762ef2b0609387b1b42ee40d17c1602e85b5acaccc871",
+  "sha256_4x5": "cf6600a3c2c754362545b284690bd692952ffc6ed3793da90f695238ad9390c5"
 }

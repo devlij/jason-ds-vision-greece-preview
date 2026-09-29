@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Two large wooden watermills beside the stone spring channel, plane trees and a stone bridge, Livadeia castle on the crag behind, lamps along the path; caption 'Krya Springs, Livadeia', scenario '24 September 2026 · 06:06 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:53Z unique, 06:06 inside 06:00-06:59 (clear, 10.6°C). Gates: 1 pass (springs + mills + castle composition), 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "b18e45f8472c8ff5c8d9a9a9e47a268dd07fc3bad9d912814d38cbe7994492a0",
-  "sha256_4x5": "c4e850bf76f2cc6aa3e980824f86a34e5a99a879a14d8378215394a07111bec0",
+  "sha256_16x9": "ff553195c88913bfbd87dfd42f2642ae880d5d379a4796187ab35b3a2e9aac4b",
+  "sha256_4x5": "8678c5ad688c5c84965cbf6e175d9c443200c927c8bce98ff2f8ccb90aa00b03",
   "reverted_at": "2026-09-25T12:45:53.428443+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Livadeia/gr-01-040-9x16.png",
-  "sha256_9x16": "65b01ce799d8ff29b77fbc9c7c1a0cb56d9d7c723678131bee2aa305ea6625d0",
+  "sha256_9x16": "c420c5e4552982f87712f6e1fec9ecaf11435952233e236192b0ab29d876ecd6",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:53Z",

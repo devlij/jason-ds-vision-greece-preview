@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: cobbled lane in Doltso with massive stone archon mansions — timber oriel windows on corbels, tiled roofs, high stone walls — a domed stone church with cross in the gap and a lake glimpse beyond; unmistakably the historic Doltso quarter, no artifacts. Gate 2: exact dims verified; caption 'Doltso, Kastoria' and scenario '24 September 2026 · 10:05 Europe/Athens' verified on-image; signature 'Jason D's Vision' bottom-right and disclosure bottom-left legible; weather retrieval 2026-09-25T23:45:44Z unique to this scene, valid 10:00 Europe/Athens within the scenario hour. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no people, logos, or private property visible — documented only. Gate 5: no blockers.",
   "approved_at": "2026-09-26T15:38:59.613282+00:00",
-  "sha256_16x9": "ebba9a9c23621090bd8a8f0053ac3fb79c9b04ea276b2303c739ce3f9f41b31b",
-  "sha256_4x5": "8dfb89ed6055434e996b11457eccab493f594586e0cefb7fee9395f40366185c"
+  "sha256_16x9": "29d3f8f157b65ba2356b380db4e89655890f8af2e25516e82d876ab6d01290ac",
+  "sha256_4x5": "40e3e332ede9c597a47fd9a4067d677ea41999e1e6e3ea0ebddfed571a66b42c"
 }

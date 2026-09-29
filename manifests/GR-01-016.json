@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: moonlit limestone massif — Stefani's sheer amphitheater and the higher Mytikas summit, a cairned path winding over scree in the foreground, waxing moon and stars, wispy cloud; matches the anchors (no buildings, no ski lifts, no snow, per the model). Gate 2: sweep-verified dims; label bar reads \"Mount Olympus, Litochoro\", \"Scenario: 24 September 2026 · 03:19 Europe/Athens\", \"AI-generated artistic interpretation · Not a photograph.\", exact \"Jason D's Vision\" signature with Jason A. Devlin script; own per-scene Open-Meteo retrieval 2026-09-27T16:53:24Z, unique to the second across the note set, scenario minute inside the 03:00–03:59 model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, logos, or recognizable private property — documented only. Gate 5: no open blockers.",
-  "sha256_16x9": "ebef8b328ba317d7a035a77a0616eb84c152ee2ef44cbd7d0ddad4552fc1271b",
-  "sha256_4x5": "dbec281bac3fac7e740aa61bc5b9ce00e7ce01d32d048a2f3d4e9f418679b9b2",
+  "sha256_16x9": "5f35740e05d50ef584763ac95a3d2e150db9576da56f827d302ad7df244dd57c",
+  "sha256_4x5": "fe2697132e2223ee2c61ed76e93e4a6d6bae607e5cc101c8f97896211da189da",
   "reverted_at": "2026-09-25T12:44:40.860583+00:00",
   "qc_notes": [
     {
@@ -49,8 +49,8 @@
       "4x5": "library/world/Greece/Litochoro/gr-01-016-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c881200e6e6392299af2dee3c867df059451343be16a381589b13967dd9c7d4b",
-      "4x5": "541f714fd4ad73743cafe2f927a365ee042c6bb011f2e7eec58353b11e7607bf"
+      "16x9": "ab1a7cc74613260599a33485c74085bd131b9721d862e12e4eed4899ccd0f5f4",
+      "4x5": "cc8e89bf30544500c7db7962d6733fc05de045adf4e0a772912e710291aaff23"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Mount Olympus, Litochoro",
@@ -61,7 +61,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Litochoro/gr-01-016-9x16.png",
-  "sha256_9x16": "b57f89101c9167f529fd98a547b499c5935ab1fe8a5294cd2eaf2b5e51d4c198",
+  "sha256_9x16": "a5aeecea0f929effe9fa31a82ff7e1a1ee117c31f0794424c42313b516d06496",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:24Z",

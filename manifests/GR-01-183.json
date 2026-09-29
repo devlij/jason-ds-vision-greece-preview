@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1 pass: 16:9 master shows Kastani as a recognizable sandy pine-backed cove — steep pine-clad headland dropping to a rocky shoreline at left, open turquoise cove center with a small vegetated islet on the horizon, sandy beach curving along the cove edge right with a small open-sided beach bar/taverna tucked under tall pines; warm morning light, clean framing, no artifacts; consistent with the clear 19.6C 09:00 scenario. Gate 2 pass: caption 'Kastani Beach, Skopelos' and scenario '24 September 2026 · 09:00 Europe/Athens' exact, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim. Weather per-scene retrieval 2026-09-25T23:45:01Z, unique to the second repo-wide, 09:00 model step, scenario inside 09:00-09:59 model hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no branded signage. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:38:56.430457+00:00",
-  "sha256_16x9": "793ae37a4827280eb6535c2f3e2c6b860c4fdcde5bc8461ec4273e7ff60c9b3e",
-  "sha256_4x5": "bd6d08d454eee55318a72307190efde72bbfa7c70882addb8e5c85dcfa80c603"
+  "sha256_16x9": "a3281e65336a6e32778956ac4cdd94cafd5814df0f93a77d82c0c1d5092cc14b",
+  "sha256_4x5": "417d61ddb774815bf5c8e6e3a61bf4c25dc160a67d6c0cb43ee0e1c4c091e196"
 }

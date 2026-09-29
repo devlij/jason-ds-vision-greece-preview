@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the Street of the Tombs — rows of grave stelae along the dirt path, the marble bull monument on its pedestal at right, ruined gatehouse behind, pines and city lights; recognizable Kerameikos. Gate 2: caption \"Kerameikos, Athens\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:39Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "2c51a660a5d6106438e9a8e778dcad7eb193890cf0c741a82b79e4aab3d01093",
-  "sha256_4x5": "9ff4b85f65a7a4598b9732f3f7809c4d1af03e8682cea8394a6fe0ef99e5a383",
+  "sha256_16x9": "283236e10d4e668808509e83395c557f5cb546cc7bc19b29d1b3d06a3845410b",
+  "sha256_4x5": "3561195679a71db490c551c327d07535694149ad31a32cfed2eeb9a16d858397",
   "reverted_at": "2026-09-25T12:45:17.679699+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Athens/gr-01-028-9x16.png",
-  "sha256_9x16": "67b9fd61e748782eaf3032b9fbe23c5bdeef8420f2ebd0e3fae4d0c2f978fa93",
+  "sha256_9x16": "15a6a4351b4c978c810cda46b9e9b1d887a89f45be0ed0d703545c742cae8ced",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:39Z",

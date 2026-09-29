@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Twilight waterfront of pastel neoclassical captain's houses, domed church bell tower, moored blue/white fishing boats with lamp reflections on calm water; caption 'Aegina Harbor, Aegina', scenario '24 September 2026 · 05:53 Europe/Athens' on-image; signature + disclosure exact on the bar. Weather retrieval 2026-09-27T16:53:43Z unique, 05:53 inside 05:00-05:59 (mainly clear, 19.2°C). Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "75988cc95c5d18a482564fb84b69671bc3967501276d94627b6792c7c6bfe9b1",
-  "sha256_4x5": "63eb2b94ad5b9a47260549a16d909b20767bae3e5cdf06e0dd6510a098b1c206",
+  "sha256_16x9": "a583aa40033ce5a97830b615cffdd27f5527b8b7965a1851cec66a9b71865d43",
+  "sha256_4x5": "938dc8a75fdc29da3d77ab933df269ef40d51816e643a1894553771909fc455f",
   "reverted_at": "2026-09-25T12:45:27.959275+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Aegina/gr-01-032-9x16.png",
-  "sha256_9x16": "5c80094e2015160d56ac3c9925f8a27a02a09b08c94c4feafa0dd18a353bf644",
+  "sha256_9x16": "bb6e9ed2baae7620b9e80cfa7bac8bbdb465a7e1d985dd964f13b9c3e1397dee",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:43Z",

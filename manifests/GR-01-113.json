@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: cream two-story villa with a one-story Ionic colonnade, statues along the roofline balustrade, a reclining marble garden figure, tall cypresses, and the Ionian Sea beyond at sunrise — matches the Achilleion garden-terrace camera point and geometry anchors. Gate 2: 1920x1080 + 864x1080 verified; on-image 'Achilleion Palace, Corfu', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right; per-scene Open-Meteo retrieval 2026-09-25T23:43:51Z (unique repo-wide), model clear/17.9C consistent with the depicted clear sunrise. Gate 3: note documents text-prompt-only lineage, no photographic inputs; garden figure not claimed as a measured copy of a specific statue. Gate 4: no people, no logos — documented, commercial call is Jason's.",
   "approved_at": "2026-09-26T06:42:11.137243+00:00",
-  "sha256_16x9": "1e942802d462f0f612ce71a6c43411fa962d05916ccaee402a6a7659363649b3",
-  "sha256_4x5": "396b6c5fd8d4c7f9381e7211783850307d211fce2ecd6ad05816003da19cc3fc"
+  "sha256_16x9": "3258eb55440ffb7377694654e2fc58ebdf2f11c77627f93c24ad7b3594b99baa",
+  "sha256_4x5": "1a053714ba920ead15efddb0f1f10cb2d8ceb396f703d115289b707e60699df5"
 }

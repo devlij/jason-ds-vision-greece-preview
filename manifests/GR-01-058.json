@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:16Z (Sun, 27 Sep 2026 16:54:16 GMT), separate request for 37.563, 22.796, valid 2026-09-24T06:15 Europe/Athens, scenario 06:24 inside 06:00–06:59. Code 2 (partly cloudy), cloud 61%, 16.2°C, wind 4.8 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 968–1031 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "7950eb36750131f6245356bcf91ff895dbaf27f0c058e34eff0f6ecd44a8d593",
-  "sha256_4x5": "5d2dbd05f2e4aeddb1cecd3aab23bdab9843bf9ab758ac27784a62af652c132f",
+  "sha256_16x9": "f7dd49cfe0a48a1cda9c3418c1a72ecab79e50b42de3c6a63ae9297f42f228c2",
+  "sha256_4x5": "25dea1886a41fadbc96b36bb63746cce937b53b69da4ac009c2307102a407a30",
   "reverted_at": "2026-09-25T12:46:43.118795+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Nafplio/gr-01-058-9x16.png",
-  "sha256_9x16": "7f9e31710129c05decc45729666e4bea577778bde46bfd6d140e7601331c9cfc",
+  "sha256_9x16": "65d8ee101fc3d3c5a8589e7ab78194da83396105d5b76c3163c246540f6b9e4e",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:16Z",

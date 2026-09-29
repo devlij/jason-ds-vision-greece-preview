@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:06Z (Sun, 27 Sep 2026 16:54:06 GMT), separate request for 36.688, 23.046, valid 2026-09-24T06:15 Europe/Athens, scenario 06:21 inside 06:00–06:59. Code 1 (mainly clear), cloud 24%, 18.5°C, wind 10.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 928–1031 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "5c572ff904500fc14ed868df7da12e210e59d85edffae3ee66da8cffc5e957bb",
-  "sha256_4x5": "40ae0bdd6a4e99fa7480ccaa4b167dc19464907a8a9ccb3275e06abc0d43546c",
+  "sha256_16x9": "77227c3a841c8b9c482e5c1259f952d4d8f22519ea99a4c5b5a4509b898ae257",
+  "sha256_4x5": "d54471d031adebb89e259f0828e3f7fc3708e05aa57c177a31b653a8b847f716",
   "reverted_at": "2026-09-25T12:46:22.678731+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Monemvasia/gr-01-050-9x16.png",
-  "sha256_9x16": "3d15c9a89c1717bbe5f49b5ead288cedbf49dde0a9c1b63e0ddb92126ae6bf3a",
+  "sha256_9x16": "3cb4dfd289f495dd9f02a8637c6e43b68840cbcd7a5842cd89da0710c40168c3",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:06Z",

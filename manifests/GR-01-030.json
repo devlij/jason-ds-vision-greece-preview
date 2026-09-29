@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the small circular harbor with fishing boats and yachts, lit waterfront taverna awnings curving around the quay, the Kastella hillside town rising above — recognizable Mikrolimano. Gate 2: caption \"Mikrolimano, Piraeus\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:41Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "2a33c032b4d357a1bd590e8156817ff7380c1d365392838902861a92b8c8b71f",
-  "sha256_4x5": "ab972a6ba9636d76a941e4b02bbf962d61d53f07c17f226b9f608b35af2a6295",
+  "sha256_16x9": "5fa02fbe0ff7aea4d5a3fa7ccd18d091020f0b75f96c3732acaf8b995da7caec",
+  "sha256_4x5": "d762bee462a2e2c0f4ea4d8afc033e805e2e0fead4e4f55d676239a60172876e",
   "reverted_at": "2026-09-25T12:45:22.936028+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Piraeus/gr-01-030-9x16.png",
-  "sha256_9x16": "ad911e4daa9a432ab066ed412b6d064be9e74512d50942ae005b928f334ad698",
+  "sha256_9x16": "3beb2443326343b405e8bd868c14a3251548f1421c9230dfbe3f01f2dfc4a59a",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:41Z",

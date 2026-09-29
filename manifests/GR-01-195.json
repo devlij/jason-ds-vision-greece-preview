@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "G1 visual: Spinalonga Fortress from the Plaka quay — the Venetian curtain walls and hilltop ruins across the water, two blue fishing boats moored at the stone quay in the foreground, low warm light on the walls consistent with 09:15, clean framing, no artifacts. G2 technical: exact 1920x1080 / 864x1080 masters verified by sweep; on-image caption ‘Spinalonga Fortress, Spinalonga’, scenario ‘Scenario: 24 September 2026 · 09:15 Europe/Athens’, disclosure ‘AI-generated artistic interpretation · Not a photograph.’ bottom-left, exact ‘Jason D’s Vision’ bottom-right, legible; builder note records per-scene Open-Meteo retrieval 2026-09-25T23:45:13Z, verified unique repo-wide across all 365 notes and consistent with the baked 09:15 scenario hour. G3 provenance: text-prompt-only lineage documented, no photographic inputs. G4: boats only, no visible people, no logos, no recognizable private property. G5: no open blockers.",
   "approved_at": "2026-09-26T12:48:25.253694+00:00",
-  "sha256_16x9": "c9be00489521942e3b7a90663f772cb64fd97391c9b0e496b8f4f9fa5df828a5",
-  "sha256_4x5": "51ac2afc8513152d21a1e55a33bd1335641ce715ca1cc0b1a539d9612faaa876"
+  "sha256_16x9": "c8f8a2d5a0d812c58b411e7e3e6c2c5f7a8347b132e680ed023f23e4e977f229",
+  "sha256_4x5": "82f2474f6da22ec761f2c45e966e71c5dbed6d1e9e57c27705b503a24c476b02"
 }

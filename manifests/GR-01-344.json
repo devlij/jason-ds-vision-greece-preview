@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: the 16:9 master shows the famous Petra rock rising from the middle of the village with the small white church with red tile roof on its summit and the sandy bay behind the red-tiled roofs — matching all anchors including the steps cut in the rock visible on the crag face; the 4:5 shows the same rock and red-roofed summit church from closer with the zigzag rock-cut staircase, subject identity agrees across formats; clean framing, no artifacts. Gate 2: exact master dims 1920x1080 / 864x1080; verified on-image bottom-left text — caption 'Petra Bay, Petra', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.' — and 'Jason D's Vision' bottom-right; Open-Meteo retrieval 2026-09-25T23:51:51Z is per-scene (unique to the second across all cached notes), valid hour 12:00–12:59 covers the 12:45 scenario minute. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no identifiable people or logos. Gate 5: no open blockers — publication ready.",
   "approved_at": "2026-09-27T12:55:37.277696+00:00",
-  "sha256_16x9": "1fdc2d3cab00ebd0a94604fba17304ab7c1b1e9ce9f2ea3c09af6477ad1dc3e9",
-  "sha256_4x5": "e4a742712069a9d2c6f8283a2fa73808cf7078e0b06a99cdbcb24833c2480a66"
+  "sha256_16x9": "1805593bf468a89211a540659c745104b20547ef3fd60552feffccbf9b997bb8",
+  "sha256_4x5": "a0aa8345b481373799eb93fcb625dcb75c6708f6ec2d4dc5f6d9d9ab859dcc61"
 }

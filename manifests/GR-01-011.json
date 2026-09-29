@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gates 1–5 pass. Gate 1: the Palace of the Grand Master at night — crenellated stone walls, twin machicolated round towers, arched entrance onto the lamplit cobbled Street of the Knights under a full moon — recognizable Rhodes, clean framing; 4:5 shows the same crenellated wall and arched entrance (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Palace of the Grand Master, Rhodes, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:18Z unique to the second, scenario inside model-valid hour, code 0, 0% cloud consistent with the clear starry sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
-  "sha256_16x9": "00502b6e1ae215a4f787f3a07b6b853ec7136518010d01b54c84fbd49db5fff6",
-  "sha256_4x5": "9d210ae57df4aee65b16d90fcbfcac10aab5aa11561ecc0cd76e44f8d4907177",
+  "sha256_16x9": "5792697faf3909446d75a4c824515026858b91df5e690c628e70c6f78274f07b",
+  "sha256_4x5": "3cbaae5822a2917942b606eff1eabb8582627f866e3a226b276a815ea41d7776",
   "reverted_at": "2026-09-25T12:44:26.087382+00:00",
   "qc_notes": [
     {
@@ -79,8 +79,8 @@
       "4x5": "library/world/Greece/Rhodes/gr-01-011-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "4418569cd1384b2aa288330575fb16b69c83f025856efd08e765fae672bd907c",
-      "4x5": "91f0c320e7406486e182a8bd5fb2d5c7c3691a0517a4ecbc60d48338a8d87776"
+      "16x9": "c9b788bd587475e9512e062473150bc151629f2cf42922146f4584c15d9ac04f",
+      "4x5": "9e7860785160a3dbe43d26b06ab8e25e27ce01523bde2d8391ee5132a1dfce8e"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Palace of the Grand Master, Rhodes",
@@ -91,7 +91,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Rhodes/gr-01-011-9x16.png",
-  "sha256_9x16": "57395e344dd799c116e8a0c600368f90ebf7e9f8d07ba5117a705ce91b7a485f",
+  "sha256_9x16": "84fea2c8e5828c4f8757d6736514b4a9e9e6a188ddc841ea43d19743dbfc61d3",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:18Z",

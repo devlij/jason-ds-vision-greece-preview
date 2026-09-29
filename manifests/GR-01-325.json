@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gates 1-5 PASS. G1: Gate d'Amboise, Rhodes — 16:9 stone bridge crossing the defensive ditch toward the gate, two round towers flanking the pointed arched entrance, battlemented limestone walls to either side; 4:5 the same gate/bridge/towers composition, consistent. G2: dims exact; on-image 'Gate d'Amboise, Rhodes', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible. Weather retrieval 2026-09-25T23:50:30Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
   "approved_at": "2026-09-27T01:13:05.537221+00:00",
-  "sha256_16x9": "98fd7745a3931633f2c53ce177eab6c8bbd058027c1b04ca1e346f3fdba41a1f",
-  "sha256_4x5": "e376b002284e6aed065bd423d4f95d06cef9e8c4f7d862b86944cbb47631fc35"
+  "sha256_16x9": "e74efb93b6d1608360cae5aec970709bbeba4ed876fd2a45f2b4999a5b47a496",
+  "sha256_4x5": "340bc585856048a3048d6dc245e7705ae5aa8f127bac991fd83ab4fcd9c21a9a"
 }

@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
   "approval_basis": "Gate 1: cliff-edge stone village with slate roofs climbing a ridge, domed church tower, dawn light over the Tzoumerka valleys and ravine. Gate 2: exact 1920x1080/864x1080; on-image caption 'Syrrako, Syrrako', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:43Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T05:37:05.042302+00:00",
-  "sha256_16x9": "87e0c5916fdf4ce56bd570712133c42908b6c74888f591d7d88ac099253e7231",
-  "sha256_4x5": "a454fa2d6eceebe711072f3b586c8d38035b6f7628debc7677f5af120871bbbd"
+  "sha256_16x9": "b2f715c43aacf5e92b67f8d645417400900c0b10af64df2137a4c023df214bb3",
+  "sha256_4x5": "c05ed9d6374d952b9db134a00a75bbac8cebde598eed4ea9374eafcdbb1dea51"
 }

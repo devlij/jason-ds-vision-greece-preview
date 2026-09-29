@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Stone village climbing the slope at twilight, tall clock tower center-frame, red-tiled roofs with lit windows, rocky Parnassus flank behind; caption 'Arachova Village, Arachova', scenario '24 September 2026 · 06:05 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:48Z unique, 06:05 inside 06:00-06:59 (clear, 9.2°C). Gates: 1 pass (village + clock tower recognizable), 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "bbec61eed5434e98b1fdcd794fb74ff5c58030f9c53f918bc5fffcf1ae4d6acc",
-  "sha256_4x5": "6e248106b877a746b416ec3c38b0ad2b962d7189d5db3f4a5483cd3b66a7d37a",
+  "sha256_16x9": "5f338683d6273806b0bab709bae1f8dd63c8e3b9cd0899a8c8977156672946b6",
+  "sha256_4x5": "1036d3aba38df93f3779b14b08bffdab346eb8d9dadd1add6c2b69669505c94c",
   "reverted_at": "2026-09-25T12:45:42.612376+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Arachova/gr-01-036-9x16.png",
-  "sha256_9x16": "ac91e074c611de121933df956fc8bd13b7c1e65fe27f16bca456bc03b73aee95",
+  "sha256_9x16": "c6ad1e0a48bee47b20b0d008414825f8469a303ee0d06559c5d893bd36cece40",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:48Z",

@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the arch with its tall attic center-frame, Olympieion columns to the right, the floodlit Acropolis to the left, empty lamplit avenue in the foreground — a plausible tourist view. Gate 2: caption \"Hadrian's Arch, Athens\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:36Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "01114b0af12bea8480283d54e9849fb8f9e405e6c7bc95c755c531ab75f2f1ea",
-  "sha256_4x5": "5f0437a2b3300e78f488ae36354f1f946543c64cd1283b9329de11f523e45bf1",
+  "sha256_16x9": "6b18abeafbf09a92a83c1ae4c8acc2dca12a10396cb8a94db46bc90825554a2e",
+  "sha256_4x5": "62b4e5fa3de5e1705d2994fb1c03ba9b82e0a94b3581c276f1dc27f725d07cbc",
   "reverted_at": "2026-09-25T12:45:12.077616+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Athens/gr-01-026-9x16.png",
-  "sha256_9x16": "4cf5022f51b3b59e91eaac79147a12019e0abd4cc5feb94432c79995f9a47767",
+  "sha256_9x16": "6012c3c796932af9372d2082226f9afd7b66f2b1976300549bdbb71a48ab0237",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:36Z",

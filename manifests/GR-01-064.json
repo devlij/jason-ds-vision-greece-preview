@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:23Z (Sun, 27 Sep 2026 16:54:23 GMT), separate request for 36.638, 22.381, valid 2026-09-24T06:15 Europe/Athens, scenario 06:24 inside 06:00–06:59. Code 0 (clear), cloud 15%, 17.4°C, wind 8.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 968–1031 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "9146ede8afe82b93349407df7a7aa2a173506561d84d206b8211841d0a92cb1b",
-  "sha256_4x5": "dc0d04706861a1c54c51d02bf3d198b7c3f5bcba7e56882ddcbc2fbddd6d000e",
+  "sha256_16x9": "666b55a61d01532fc930598c1d76a1d96d99dd045a6c2fc19eff2c8a01a79c5e",
+  "sha256_4x5": "44db33633318000fd84c8f676623e93f711e7990c45c5f4f7c1e3db7e9fada39",
   "reverted_at": "2026-09-25T12:46:57.629271+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Pirgos Dirou/gr-01-064-9x16.png",
-  "sha256_9x16": "c8cd916cccf7ab9647b26a7d08f813b47e47c8890c7c07ce005a2b937f1b88e0",
+  "sha256_9x16": "4abbee63a0a5057976420c50b186f5f3495c3b9ca93af250d78e55cdf7d3c606",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:23Z",

@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gates 1-5 PASS. G1: Agios Titos, Heraklion — 16:9 square stone church with a single central dome and tall arched windows, no bell tower and no minaret, paved square in front; 4:5 the same domed church volume with rose window and arched doorway, consistent. G2: dims exact; on-image 'Agios Titos, Heraklion', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible. Weather retrieval 2026-09-25T23:50:29Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
   "approved_at": "2026-09-27T01:13:01.113188+00:00",
-  "sha256_16x9": "9ae571ddab5218285c927a8e1240552cc67caaad01929bfd6ddca6ac0a0fb5b8",
-  "sha256_4x5": "496fa7acdc591ebb2c507cff6b184af1d9de2614abaaa1c0b765c5164f76ffdc"
+  "sha256_16x9": "20fa19cb240491e10c57ce3479765df361cb373e8a0f0cca6aac75fd2607329a",
+  "sha256_4x5": "21b857ef63f38e6abf82d0783c2917c070df4a2c17cd23ad985cfd8769ef8e85"
 }

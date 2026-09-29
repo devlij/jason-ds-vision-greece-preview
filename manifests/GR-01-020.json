@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: empty marble stadium — full U-shaped marble tiers, track, floodlight pylons, dark-blue night sky, wooded Ardettos hill behind; recognizable. Gate 2: caption \"Panathenaic Stadium, Athens\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:29Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "6e967bbcd03eb3cde58b227a3ea1ec6214e01b9b35eb6aed54fa56f1c23c1007",
-  "sha256_4x5": "2b3b7534b980a92901b1bed9fb19009281e35db7e5cb31f7ddd0236234af1ee7",
+  "sha256_16x9": "a43104bfb9c85d510bc43347c6d16afade33342d15a9280b94269946a0d85262",
+  "sha256_4x5": "a678917fb688a36470de8fdd23495e8fcc23f30ea0994c62a4ce135eaf470505",
   "reverted_at": "2026-09-25T12:44:55.689096+00:00",
   "qc_notes": [
     {
@@ -49,8 +49,8 @@
       "4x5": "library/world/Greece/Athens/gr-01-020-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "2fc6da1fdd2c1bb027d7b9e17c4f49fcc061760c4883b30dc21fd973102a899d",
-      "4x5": "7bfd30645544c1a531b1eab7b89debdd0df60261ae84fa00da91b8cde66b289f"
+      "16x9": "e623818217a00a4de840cac6fe2adb37af5afec8086bf1cb25013358f4a2ad97",
+      "4x5": "1d5422dfda0d917d66fec820b52094ffabc4f05b0ba90a85fa2b33fb683fc007"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Panathenaic Stadium, Athens",
@@ -61,7 +61,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Athens/gr-01-020-9x16.png",
-  "sha256_9x16": "aad5b97bef97494ef4f13d8c2c73c611b90c8ce6f8c190516afe993da31ee303",
+  "sha256_9x16": "f1581bfe6f27cc42ca7cf805b885e23036949601003604451a9cc38bc2c16d98",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:29Z",

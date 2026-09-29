@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gates 1–5 pass. Gate 1: the Bourtzi islet fortress in Nafplio bay at night with the Palamidi hill fortress behind and the lamplit waterfront promenade at left, moon behind clouds — recognizable Bourtzi composition, clean framing; 4:5 shows the same islet fort with Nafplio lights (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Bourtzi, Nafplio, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:21Z unique to the second, scenario inside model-valid hour, code 3, 82% cloud consistent with the clouded moonlit sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
-  "sha256_16x9": "3a95aaf7033989642ecdc2050351de5a32157d7102e33ab0658432d57999bccc",
-  "sha256_4x5": "7985164c323549b4b0326ffd5e484ebcae1443db50247c23f7bbaaf1c59cfa10",
+  "sha256_16x9": "21b644a5f6aa6142ae7bd9019a71479f4c91595385045529a6de464d855f8094",
+  "sha256_4x5": "2dfa3b33f034f9d33449843bcf88c3a2d8684ceb40491a1541a6aec86ae55846",
   "reverted_at": "2026-09-25T12:44:36.012574+00:00",
   "qc_notes": [
     {
@@ -49,8 +49,8 @@
       "4x5": "library/world/Greece/Nafplio/gr-01-014-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "9948644ccae866aaf69ef56274d3631d6a5d295d4469efc302a6c8285ca9e130",
-      "4x5": "26b524de60b6320db6d63db4b9783f76835a76c54af17dc8bca6265317172d6b"
+      "16x9": "9e7bc1a3bd415303a151b51b66cafca0eac760b81add68b70224c060fbfb4ac2",
+      "4x5": "8cc85c4424e1460cc0748e18a7194d32ba06da4871e519baa1865a3dbbd05bc4"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Bourtzi, Nafplio",
@@ -61,7 +61,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Nafplio/gr-01-014-9x16.png",
-  "sha256_9x16": "aea4760209d0d64c3847c5b431ac39e1fef658994761873e500aeb20660f5a27",
+  "sha256_9x16": "686f4649fa09238203c08791a49713897e9f941587794959b3b2054b620e9c05",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:21Z",

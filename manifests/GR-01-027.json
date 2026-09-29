@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the octagonal marble tower with its pyramidal roof and wind-figure frieze center-frame, colonnaded ruins to the left, dark-blue evening sky. Gate 2: caption \"Tower of the Winds, Athens\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:37Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "777a8cb8febde82b5e8ba90c3a8d03d3332cf3172e3afe8192d362c0c705d89d",
-  "sha256_4x5": "f12adaa5fdef7821f487389c327a96e87a80a619082c708307c6453a493e6f4d",
+  "sha256_16x9": "887a08346c8efe532236eaec3ff17f097b48debafa68d99b2947a2f4cf54875a",
+  "sha256_4x5": "23f929173841bbe3c6e73068130b564a6ddb877d886859bba4ce7d9bcc6cfc12",
   "reverted_at": "2026-09-25T12:45:15.206806+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Athens/gr-01-027-9x16.png",
-  "sha256_9x16": "3b0dcdd2d4d71affb9d26fe5214745dcf0f368810c3cd2bb1868ecde19a23ccf",
+  "sha256_9x16": "4df42e2e4ddab547cd23e5e12879e25b621294067b323aab33229b482aa55e6a",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:37Z",

@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: 16:9 shows the small Ionic temple with four columns on the front porch and solid cella walls, standing on the tall ashlar southwest bastion with the Propylaea approach at left — matching all three anchors; the 4:5 agrees on the bastion-temple subject. Gate 2: exact dims; on-image 'Temple of Athena Nike, Athens', 'Scenario: 24 September 2026 · 12:58 Europe/Athens', disclosure, and signature verified; retrieval 2026-09-25T23:52:00Z unique to the second across the window, scenario 12:58 inside the 12:00–12:59 model hour; broken cumulus matches code 2 / 47% cover. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T13:38:03.998894+00:00",
-  "sha256_16x9": "5b7ab9617d4bc605837eb15edc9b46f69d9dd91d0e7934e27b0024e640198163",
-  "sha256_4x5": "1e1ab994f61b00d8236eecfdc693ef1854d6d35e1043988ba1030ee73f57523c"
+  "sha256_16x9": "491ede27a502c7673c9e73c7825d8a1eb52672c8a258fc9d7251b9cfdc003e1c",
+  "sha256_4x5": "bda86a983fffcee860e3d7a29a5bd5c1ebf4880806b667f90d644739bf711499"
 }

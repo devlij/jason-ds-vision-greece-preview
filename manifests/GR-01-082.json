@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:45Z (Sun, 27 Sep 2026 16:54:45 GMT), separate request for 40.829, 21.033, valid 2026-09-24T06:45 Europe/Athens, scenario 06:59 inside 06:00–06:59. Code 1 (mainly clear), cloud 23%, 11.5°C, wind 4.4 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 956–1053 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "9460a2171d393de9c005a1e52bd1d0f95fbb58fa687ddba33c496cc6ffc1241f",
-  "sha256_4x5": "074d4089f3b8ea140f4ebbdc1b79775e68da00ec862700797eabb0dcaed2249f",
+  "sha256_16x9": "98319781e7a2c16274d8942ee7236c63f3132b1474ef8c9bb6c94e62ba883807",
+  "sha256_4x5": "5058f655f99b7b4156595960d46e0eb78e5ef13a97d0aad7ea0fc20dd0721fdf",
   "reverted_at": "2026-09-25T12:47:53.548869+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Prespa/gr-01-082-9x16.png",
-  "sha256_9x16": "86f8400ae8bc3a2ed8a40584e8fa0639613f8e8df21b4a76363bc4f5e6cd862f",
+  "sha256_9x16": "84b767faad05f0ff9a11c2be1a81c2e638e9e2618b8f6f6505d1ad60887aeedb",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:45Z",

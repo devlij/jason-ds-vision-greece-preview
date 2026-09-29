@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: the 16:9 master shows the Propylaea's Doric west facade with fluted columns, entablature, and the central ramp, with the smaller north-wing porch to the left — the frame is the gateway, not the Parthenon, per the anchors; the 4:5 shows the same Doric colonnade and central passage in a close-up from below, subject identity agrees across formats; midday light, clean framing, no artifacts. Gate 2: exact master dims 1920x1080 / 864x1080; verified on-image bottom-left text — caption 'Propylaea, Athens', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.' — and 'Jason D's Vision' bottom-right; Open-Meteo retrieval 2026-09-25T23:51:52Z is per-scene (unique to the second across all cached notes), valid hour 12:00–12:59 covers the 12:45 scenario minute. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no identifiable people or logos. Gate 5: no open blockers — publication ready.",
   "approved_at": "2026-09-27T12:55:44.829038+00:00",
-  "sha256_16x9": "f9e01912e3d2bcc9decd4d15819438b38402a8e4b494d74a435f8f5996c58fbd",
-  "sha256_4x5": "25e79e6af0aac5ceb22f64bacf69a28e1f8edf8d466e01871f88b249ecd0759e"
+  "sha256_16x9": "6eb250a0ca9dd2022be096a7f992863cd70f6116d588233ed2fc1f8baf517e72",
+  "sha256_4x5": "b0fd84904806c7f683381be0f9cf71713ca8b564f394e4d46267315c8844b3b4"
 }

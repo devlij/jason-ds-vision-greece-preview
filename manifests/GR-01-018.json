@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: tall standing Corinthian columns of the Olympieion at right, a fallen column drum on the grass in the foreground, the floodlit Acropolis rising behind — a plausible view from the temple precinct. Gate 2: caption \"Temple of Olympian Zeus, Athens\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:26Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "787264437b3aabe9977fdab14d8ab3d3980ec57a04c7954e6717b18a3104e669",
-  "sha256_4x5": "4d95e7e7499c32ed9c8e7d5aafd9764fc4d122b9bb86ded377f81ccb803813ee",
+  "sha256_16x9": "04ec7563ffe4801309b6b1bbc2c2dac9f028e2e05e77692d68957def80dca1a2",
+  "sha256_4x5": "2736d4cffc2100d68b3cb068379e00737b455c5fccebba0bd4e3a6c7ce6da8d2",
   "reverted_at": "2026-09-25T12:44:50.049647+00:00",
   "qc_notes": [
     {
@@ -49,8 +49,8 @@
       "4x5": "library/world/Greece/Athens/gr-01-018-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "f9ec5156b97ddb2e20c96cfeaf4823f50c8979beabe9eb5ca60a1cfd42b67eba",
-      "4x5": "0d8931b0896231c0c3f3a718ee2bdb75ab76168ce0624242e8c9f565ef519d7c"
+      "16x9": "ed88fea231e77b90cc89e3f6a3184f462b06780c7759af9e18808e19895f4900",
+      "4x5": "3b540f75b0cde6b2f08d042c26858cbaa80d68c10c978335c1b1fa385e6b26fe"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Temple of Olympian Zeus, Athens",
@@ -61,7 +61,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Athens/gr-01-018-9x16.png",
-  "sha256_9x16": "87a468cbe64cb8f2f35d84e1695100d9e9d7913c9542c89566727743e502f339",
+  "sha256_9x16": "b5cd94bc7cc0fceb74a5b8f0837065d4afcebf4fc7a05eb9418610ff3fd4177c",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:26Z",

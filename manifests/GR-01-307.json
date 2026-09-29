@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: crescent sandy bay with turquoise water, beach umbrellas and tavernas, rocky headlands, white Chora on the hill in the distance — matches Mylopotas anchors (from the sand along the crescent); 4:5 shows the same crescent beach, headland, and tavernas at sand level. Gate 2: exact dims; caption 'Mylopotas, Ios', scenario 11:45, disclosure, signature exact; weather retrieval 2026-09-25T23:50:12Z unique repo-wide; scattered small clouds match claimed code 1 / 18% cover. Gate 3: text-prompt-only. Gate 4: no prominent people, no logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T22:38:23.810576+00:00",
-  "sha256_16x9": "3a9ab73e6eb4f0fd8d0c241cf25f73038aa508c9338a22740c90ca4b6da7797b",
-  "sha256_4x5": "fa0c789960181a4ed5b7a620c41e89d711be0ec54e047a43827dea536bcde4fd"
+  "sha256_16x9": "22728631d484e659e4f3f7dada5bf588b2c093acbfba21377462c9050a29cb9d",
+  "sha256_4x5": "03b907893a7f43e4bb569d8a455af9d1f60604ea2828db35acd7916ca66cd787"
 }

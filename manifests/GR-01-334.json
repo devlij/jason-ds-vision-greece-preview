@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: long two-storey Stoa of Attalos filling the frame, Doric ground-floor colonnade, Ionic upper colonnade, open agora with ruins in front; mostly clear sky matches code-2 28%. Gate 2: exact 1920x1080 and 864x1080, 'Stoa of Attalos, Athens', scenario 12:15, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:50:39Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T06:57:18.286236+00:00",
-  "sha256_16x9": "605f509105365932a687c744618d1999f4ba5536be4b95cb0e44ec92a8389e53",
-  "sha256_4x5": "ff0c0d8e2a293c999353b3ded7d55130942d393ff074c820501ddb5e086de051"
+  "sha256_16x9": "10f444ea9e7ac5a0232fb71309b1187b8f989c62589232f4efe27b743aa95525",
+  "sha256_4x5": "10e602c29c6e93d00a2285f527e401955c7143c106a6ab8178a7d4c82c8d57aa"
 }

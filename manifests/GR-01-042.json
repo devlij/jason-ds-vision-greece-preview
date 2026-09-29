@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Night promenade of tall palms and lit neoclassical houses, fishing boats moored along the quay, mountains across the gulf under the pre-dawn sky; caption 'Itea Waterfront, Itea', scenario '24 September 2026 · 06:08 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:56Z unique, 06:08 inside 06:00-06:59 (clear, 14.6°C). Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "8549d460e10f1610940f681b0170c72acb36843b35e9c1ea8083fe4e3e39d244",
-  "sha256_4x5": "a29cc7bae395a142a9ff8907071d9c1230c7d9b57eaead047bb0bc9170642082",
+  "sha256_16x9": "4037a3d3f23df03d6d23a2536dfeb3d0ce5fccba06a910a08345a79f0d0f193d",
+  "sha256_4x5": "1b8240d7bca62a5ebc3ab3b2092dc48e56f9af5fd831d9384f8696894b9a739d",
   "reverted_at": "2026-09-25T12:45:59.155725+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Itea/gr-01-042-9x16.png",
-  "sha256_9x16": "aa88fd500d063b4300e1302263b43f2819be4611f873be5de3476372dfd32ca2",
+  "sha256_9x16": "2aab721d9f2c0e357c348d8d01c9bfd0022329ddd6e743916e9ad13a54b30fab",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:56Z",

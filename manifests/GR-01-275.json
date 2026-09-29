@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5. Visual: whitewashed Loutro village climbing the steep rocky hillside behind its turquoise cove, yellow and white fishing boats anchored in the bay; 4:5 agrees (same whitewashed cove village between rocky slopes, moored boats, turquoise water). Clean framing, no artifacts. Technical: 1920x1080/864x1080 exact; caption 'Loutro Harbor, Loutro', scenario '24 September 2026 · 11:00 Europe/Athens', disclosure and exact signature Jason D's Vision legible on the scrim. Weather: own Open-Meteo retrieval 2026-09-25T23:48:38Z, unique to this scene repo-wide, scenario inside the model-valid hour — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: boats generic with no readable names, no prominent people; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
   "approved_at": "2026-09-26T19:36:12.531263+00:00",
-  "sha256_16x9": "0039786fbb552beb8c1a284cefa6f32b3ea47a6d9ab8fc34d5dfb7a793c02b56",
-  "sha256_4x5": "4d52f50bdb49c66ae2f40886cc6104d8c3d17a6ded66947bcffca93c68a2c5e7"
+  "sha256_16x9": "dd3efa6ad72589c9bef47bfd25b7596d651ad4775194a3415eaa4a355dc08db0",
+  "sha256_4x5": "2b11c653c8bb1d12496eb95ea6b3d86d1317202f951c1951fe80f87a64032234"
 }

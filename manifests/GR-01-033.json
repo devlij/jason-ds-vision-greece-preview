@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Bronze hoplite with crested helmet, round shield and upright spear on the tall stone pedestal, cypresses and the rocky Kolonos hill behind, twilight blue sky; pedestal inscription left in shadow (no false text); caption 'Leonidas Monument, Thermopylae', scenario '24 September 2026 · 06:03 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:45Z unique, 06:03 inside 06:00-06:59 (clear, 14.2°C). Gates: 1 pass (monument identity correct), 2 pass, 3 text-prompt claim recorded, 4 documented — public historical monument statue, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "0d3a9fdf949ff81a88464d0e0a2bfb4fbc56574710f5fdf473e258ae71e2289e",
-  "sha256_4x5": "d99b8801fbdcae41203a68640ea8511576d4245ddd804c30bf7fafe0f4dceeec",
+  "sha256_16x9": "028ebe5eabc28a11c2da48c27c08d32a10cf7ab56f5de023eaa7028eefdc5d99",
+  "sha256_4x5": "853692af3cb73c06297b0813d99a1a6bde6c423ddc26b48880b009e94ff66dd8",
   "reverted_at": "2026-09-25T12:45:34.782556+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Thermopylae/gr-01-033-9x16.png",
-  "sha256_9x16": "024807d0b85aa26419b1567f82ac3737460b4af277296ab4371f320c5ea6292b",
+  "sha256_9x16": "8b8b53ca10dc46ac42a1fd7dec603553181813607bb367550cb490b05ce80ab3",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:45Z",

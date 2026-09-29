@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: long open crescent of coarse sand and pebbles, turquoise water, low headlands closing the far ends, coast road on the slope behind with Agios Nikitas' white buildings; partly cloudy matches code-2 28%. Gate 2: exact 1920x1080 and 864x1080, 'Kathisma Beach, Lefkada', scenario 12:15, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:50:37Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T06:57:18.286236+00:00",
-  "sha256_16x9": "439a26d021f1f36c5c3e58c8d3afa474f6d5d14ada1905e083a956dac089f2fe",
-  "sha256_4x5": "dd3ba7d71eb4a86a0ce113f88ecd7d8e5ee51fb91823c01955ff57570748248f"
+  "sha256_16x9": "32fa68aae9f1f80d80a9005d32a51b28be6dc7392def3a9ee5fa16fc6d82a0ab",
+  "sha256_4x5": "f27500009581c5b700baca026e057f76eb278de0a2bf20a1b9db46f0707aaa20"
 }

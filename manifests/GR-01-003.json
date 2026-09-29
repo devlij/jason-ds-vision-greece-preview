@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gates 1–5 pass. Gate 1: whitewashed Cycladic houses with blue-domed churches cascading down the caldera cliff, full moon over the sea, starry sky — recognizable Oia, clean framing; 4:5 shows the same blue domes and caldera (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Oia, Santorini, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:08Z unique to the second, scenario inside model-valid hour, code 0, 5% cloud consistent with the clear sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
-  "sha256_16x9": "253a0bad67876326990ac941d8c54975d44e284f99b75740bb68b1cca82ccc30",
-  "sha256_4x5": "9889bc6957214f7e66ab4d744a73fe99ec7dd4a23d40199c815cfdde329456ea",
+  "sha256_16x9": "426d37db0137e4564eff93a7e2a5411961aae280ed93ec4d90ad575de7b41ef1",
+  "sha256_4x5": "cfa6349f03454fe3744b4d3db3066cdfb4f2f2bfd5eba7eb917fb77aaae3cee8",
   "reverted_at": "2026-09-25T12:44:05.599566+00:00",
   "qc_notes": [
     {
@@ -79,8 +79,8 @@
       "4x5": "library/world/Greece/Santorini/gr-01-003-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "afc2eddfbec2d305724f3d1340e4a54960123ce470d73dd7d51536f5254e0709",
-      "4x5": "d3c026ae3855b639148911740ae0534deabf76ca89e577e1e10848ce8afc830b"
+      "16x9": "73b345576f4e52a33384aae8bcc50ba06e1b71b5a5face50ddbfb9d94f08895c",
+      "4x5": "2930e6cb5ef8b9fd4d9b73b47c253d4ee9281a4a83849c7f0e44e811b12bd626"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Oia, Santorini",
@@ -91,7 +91,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Santorini/gr-01-003-9x16.png",
-  "sha256_9x16": "f47ce328d9465342960316c3529f1914cb3d58bc837acb137d0f2fad02f1206e",
+  "sha256_9x16": "c85c1897a24a502678f7028c399ba52a2d8de9cfc90667c2dccfe737abe13759",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:08Z",

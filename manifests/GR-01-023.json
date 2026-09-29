@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: floodlit Doric columns of the temple on the rocky cape, sea to the right, starry night sky — the classic Sounion composition. Gate 2: caption \"Temple of Poseidon, Sounion\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:32Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "506ce431a3002961ebd6f59ae8b9cb72d88c70fda9b08eae870a79b470e9e11a",
-  "sha256_4x5": "60e308dc76720825aeb4925f5566e0799369e635ace11258f94d148723a3fcd1",
+  "sha256_16x9": "84ba55bf821f8bbb352ae80cfa8b6c48762660358e7e2ab6c0a405083c553738",
+  "sha256_4x5": "173e9a41435b491dde3038c2b4bcb7f7ccd86790e2a3ead9453b32002735a3c3",
   "reverted_at": "2026-09-25T12:45:03.519582+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Sounion/gr-01-023-9x16.png",
-  "sha256_9x16": "dfd0fd1c9d10c2ba00fa3776dc90b7d93bcbd8ed6f096e296847aba19b36dd21",
+  "sha256_9x16": "e66abbc51b22e0c6c7750899ebd5f56f631fdbce8617ae90851d98f3fb372e54",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:32Z",

@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. The low steel sliding bridge on two piers across the Euripus channel at night, lit Chalkida waterfronts on both sides, lamps reflected on the current (the newer high bridge is absent — correct, not the subject); caption 'Evripos Bridge, Chalkida', scenario '24 September 2026 · 06:06 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:52Z unique, 06:06 inside 06:00-06:59 (mainly clear, 13.2°C). Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "cea3cc8790f7ad32678de83485563dd2e725b1ad718d96826bdbd1f69fa33d7a",
-  "sha256_4x5": "1d59522f61874606345797eeb82ddc97e5d4b2e2b1b3c6f5a02c494b91217a95",
+  "sha256_16x9": "41d989cc8a4f8320e39786fd59987b7c47633b342a047a12e07e24e68889beef",
+  "sha256_4x5": "072419901b8825f78c64d951ab4b1bebd58057c9f31a38f0e690859ab286cb7c",
   "reverted_at": "2026-09-25T12:45:50.608470+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Chalkida/gr-01-039-9x16.png",
-  "sha256_9x16": "01fd65a1495f2b8bafabd372def55b0e2be02183b5d147b855806be1432d5ce1",
+  "sha256_9x16": "9ca59eb5ba425650cb1043295f0f3160d7027944414838d0998f0ce15fcbfe1e",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:52Z",

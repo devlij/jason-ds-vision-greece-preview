@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: 16:9 shows the Nydri quay with small boats in the near shore, Madouri the pine islet with its pale villa just offshore, and further green islets closing the bay — matching the geometry anchors; the 4:5 shows the same islet, villa, and quay — formats agree on the subject. Gate 2: caption 'Nydri Waterfront, Lefkada', scenario '24 September 2026 · 10:45 Europe/Athens', AI-disclosure, and exact 'Jason D's Vision' signature all legible on the bottom gradient; exact 1920x1080/864x1080 masters. Weather: per-scene Open-Meteo retrieval 2026-09-25T23:46:21Z, unique to the second across the GR-01-236–268 window; mainly-clear values consistent with the scattered-cloud sky. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or focal logos, documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T18:40:40.739027+00:00",
-  "sha256_16x9": "b938d8fdb448622cf18c6705e5cd92bf4e66b2f1decacd1425083c989dfe9b4d",
-  "sha256_4x5": "62fe71e099d8fd0358e67a6fed7c430db0d99c200acdb3758196f9c5ff167f7b"
+  "sha256_16x9": "e990b7547c1ac336218a272dbc8c1517f1540ad8d0112b352bdc3614f6f40b39",
+  "sha256_4x5": "0e3cb444fb295139b2cbcff504800a1b517bf416b678b24cb95fb42356718041"
 }

@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:26Z (Sun, 27 Sep 2026 16:54:26 GMT), separate request for 39.3892, 23.0025, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 0%, 13.1°C, wind 10.2 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "e872a0891c176b94a63d1fd794a182f04195a70c513998594b58b506a8e91098",
-  "sha256_4x5": "65f8c52aaab297e1c60f32e375f501e20e785b58679ad2fc2874a978519ab7e7",
+  "sha256_16x9": "82b57b6b1c4067b2178cb52dbaa03e149d15adf650350605619203fe52ad0dc4",
+  "sha256_4x5": "f81406df20a4e392c836b075520d23dc2b1c45d614ae3a7188e228bf3f4e7423",
   "reverted_at": "2026-09-25T12:47:06.564667+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Portaria/gr-01-066-9x16.png",
-  "sha256_9x16": "44d39e7088fb0bd23eb2c466c8dccd7302bdc1c0d270302379a7a0b2233e9b49",
+  "sha256_9x16": "77e1ccd0c9b5158b505b285c61755bb973a236d9b0f6c2292d6ae79c41a9f9cd",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:26Z",

@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: wide paved Nea Paralia promenade beside the Thermaic Gulf, plane trees and garden beds, Mount Olympus across the gulf; 4:5 shows the Garden of Sculptures' shallow reflecting pool; clear sky matches code-0 0%. Gate 2: exact 1920x1080 and 864x1080, 'Nea Paralia, Thessaloniki', scenario 12:15, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:50:40Z unique to this scene (same model cell returned at 09:13Z — the retrieval itself is this scene's own). Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T06:57:18.286236+00:00",
-  "sha256_16x9": "b3eb6902d3a6580d5a2b8f0ecfe6724eae2e9867ddd7a7c04459800ec9d7172b",
-  "sha256_4x5": "6eb6f6b8d54f256f412b9a46418213ef0f632f6e6a58322dec9c1196d8f611fa"
+  "sha256_16x9": "9c5854f738c233a99cd6b01219f5c22cf0c103050a0af72d513ac1096057b83b",
+  "sha256_4x5": "0378c5eff16b3fe9b3127d62ff756dc9719e2a5b879cbb655027fda52fb3ef1c"
 }

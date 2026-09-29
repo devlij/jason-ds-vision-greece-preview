@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Night frame shows the floodlit Temple of Poseidon on the Sounion headland at right from the rocky northwest coastal approach, star field above, Aegean below; caption 'Cape Sounion, Sounion', scenario '24 September 2026 · 05:53 Europe/Athens' verified on-image; exact 'Jason D's Vision' signature + script on the dark label bar with the AI disclosure. Weather retrieval 2026-09-27T16:53:42Z unique to this scene, 05:53 inside the 05:00-05:59 model hour (clear, 14.7°C). Gates: 1 pass (recognizable temple/headland), 2 pass (dims exact, weather fresh), 3 text-prompt claim recorded, 4 none (natural landscape), 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "158deee0636e29f8f76a22a3b7c789920932fe0f5524425f21dd8aa780e984fa",
-  "sha256_4x5": "3cff9d7869f6aaadf04e8ff7bb44a5622d206ce2cc3cb35d67e4d411bbbe37b1",
+  "sha256_16x9": "c706e4dacf7f320f98f9a00ba78f7623a713bb6106c0a329f31e5d276f7de45e",
+  "sha256_4x5": "c11d49cf60a03ea5ef72123fbda42e543e1c1d8b792e44cdf0f85e498f0032b2",
   "reverted_at": "2026-09-25T12:45:25.380265+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Sounion/gr-01-031-9x16.png",
-  "sha256_9x16": "ad15c83bb0d69858551b5ab3c621d7bdb627ca04ed76d9b53933b6c1b0f8e205",
+  "sha256_9x16": "f5d1468e0057264da21ec3fb59bcebf6ef993c7f37ed74bfc1aadc3a4df5e47e",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:42Z",

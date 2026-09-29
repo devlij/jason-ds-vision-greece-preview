@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: neoclassical museum front — pedimented Ionic portico centered, lit entrance, palm trees and lamps on the forecourt, street in the foreground; a plausible dusk view. Gate 2: caption \"National Archaeological Museum, Athens\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:31Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "a3bd7d43151c5f1b1efa037a50aa615343ec77394b93ca81a543e0a2ff117877",
-  "sha256_4x5": "8a4135f633c95046adf8c7e645552672903489041eaec98bae237f3171d461b6",
+  "sha256_16x9": "e570a8937ddbcd74dbfa379bbcd79fa2490df7820ef98056a77e98c3076102cd",
+  "sha256_4x5": "3602cf5c80de7667efff075d1f0bce6e556fd50350d7d4d74f737e36e98b291a",
   "reverted_at": "2026-09-25T12:45:00.942509+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Athens/gr-01-022-9x16.png",
-  "sha256_9x16": "ccb53df599857ae49b477e3b84f97d5aed40f86d0ec5921e53e24912087c235a",
+  "sha256_9x16": "c7d586399d4ff908ba7084f31d12aead85e0e97eca0f5516bd9f5609610ee222",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:31Z",

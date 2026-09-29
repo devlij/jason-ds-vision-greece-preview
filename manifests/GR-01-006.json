@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gates 1–5 pass. Gate 1: monasteries atop towering sandstone pillars with valley mist under a full moon — recognizable Meteora, clean framing; 4:5 shows the same monastery-on-pillar subject (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Meteora, Kalambaka, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:11Z unique to the second, scenario inside model-valid hour, code 0, 0% cloud consistent with the starry sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
-  "sha256_16x9": "6519e674cedc017f9caa9538bb5ed48f5680befb10b01663303045a345d78164",
-  "sha256_4x5": "74da9e00843bf03eb7bfd5114e02c2aeb337ae69145613f2d8189598f655b0c6",
+  "sha256_16x9": "e3cc1f2d76ab8db8c3343b63717d91450e0c0d525e0064ac9ea2fafe0bf6fe60",
+  "sha256_4x5": "e16b567f48d220d0bd67ea715dfc53a771471b5d9ae9324f78e0e28cb78dd990",
   "reverted_at": "2026-09-25T12:44:13.680224+00:00",
   "qc_notes": [
     {
@@ -79,8 +79,8 @@
       "4x5": "library/world/Greece/Kalambaka/gr-01-006-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "887fead188b79c113c4f87ac8ceca1f3ec084975e97fde98dafc30d0faba06ba",
-      "4x5": "df5c7fc73af5af6f3794afd7e160317c779f78112c8d56e25fb4022f0d159b64"
+      "16x9": "35cd68005940e93528c61d16ae4f8081fc0b56fa7835c8938f2c367c9ae62e29",
+      "4x5": "aa9b00f5277913e2c044375bed3c38465ba81d47733b48acc72abf6de3a11a0e"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Meteora, Kalambaka",
@@ -91,7 +91,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Kalambaka/gr-01-006-9x16.png",
-  "sha256_9x16": "53583e0b78ffcf90931ab81721c6f3c5a651c4c35cfd1b5b65506e4fcff03bfb",
+  "sha256_9x16": "0bc8422f31664582b0da281d4773b63745edd5f937bcb6c2811e0047f27b9581",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:11Z",

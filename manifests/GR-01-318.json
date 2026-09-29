@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Byzantine church of Christos Elkomenos with its tiled dome and tall separate bell tower, a cannon on the cobbled plaza in the foreground, the great rock mass of Monemvasia behind — recognizably the captioned Christos Elkomenos, Monemvasia from a plausible visitor viewpoint; 4:5 shows the same church, tower and cannon, subject identity agrees. Gate 2: sweep MECHANICAL PASS (1920x1080 / 864x1080 valid PNGs); on-image verified caption 'Christos Elkomenos, Monemvasia', scenario '24 September 2026 · 11:45 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right, legible on the scrim; weather is this scene's own Open-Meteo retrieval recorded 2026-09-25T23:50:23Z, unique repo-wide across all 62 candidates, scenario minute inside the model-valid 11:00-11:59 hour, is_day 1 matching the daylight master. Gate 3: note documents text-prompt-only generation, no photographic input. Gate 4: no visible people or logos; church exterior on public plaza — documented only, commercial call is Jason's. Gate 5: all gates pass, no open blockers.",
   "approved_at": "2026-09-26T23:48:17.763488+00:00",
-  "sha256_16x9": "e177c8b57b7a155990209cdbe1fa49aa4d59a2dc08632a2b4155ac701efa2858",
-  "sha256_4x5": "599fbf5afd24bf9a5991ef781cc2b8ff8bda19464dae9accfbe5551e8c331e1c"
+  "sha256_16x9": "b717ae4ed73da32bc03cdd6d7677fbe3ab5f4deae7e72a666afda2133e82c72c",
+  "sha256_4x5": "b0d0871ef6e22d0cfe52d18ec6041c5872765022ca2308f05e1eeca772ef133e"
 }

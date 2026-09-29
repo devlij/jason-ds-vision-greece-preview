@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:07Z (Sun, 27 Sep 2026 16:54:07 GMT), separate request for 36.453, 22.467, valid 2026-09-24T06:15 Europe/Athens, scenario 06:21 inside 06:00–06:59. Code 2 (partly cloudy), cloud 48%, 18.5°C, wind 10.7 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 928–1031 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "59d063812efdcc12e87da993e4a27e84a5657ced2a492f8c97641bf5448deed5",
-  "sha256_4x5": "321312bbbef0bf6661b139209a40e14056cb5ef357e10c5eebec7e081ea2bd5c",
+  "sha256_16x9": "414dfed5eafdb44f0a7f4454fcefb47c54969d15ca186556dd8acc552c328f3b",
+  "sha256_4x5": "798441652e535f9333cf8ef56709facd7d30b01408b29f51978e2e981fb4ea92",
   "reverted_at": "2026-09-25T12:46:25.368602+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Vathia/gr-01-051-9x16.png",
-  "sha256_9x16": "523c30e72967ae7d38a1508d8eb6376cab51f87950be1e93f23bfe80c0af4c65",
+  "sha256_9x16": "e378714c9715198691e0c07ec12462bb34ca0821ef97b74a3c7ee9750ce82369",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:07Z",

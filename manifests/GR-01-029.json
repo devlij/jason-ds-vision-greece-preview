@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the monument's curved-niche facade with its seated figure at left, the floodlit Acropolis and Parthenon across the valley at right, pine slope below — the Mouseion Hill viewpoint. Gate 2: caption \"Philopappos Monument, Athens\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:40Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "a0045f4d1cc7ab05e9761a92fa377f890af9f8026252d4a6bec39ef5503fecd1",
-  "sha256_4x5": "a9d64ba5b1c16e29adcaeee12374e2698d31fda8726ac9e698fd49e75f75fac7",
+  "sha256_16x9": "8e79a573de1349b11925112f46e5b507a0bb42300da6720fc9e424e318ada03b",
+  "sha256_4x5": "265985205385617f496d8105ade1dce155f9cf5e2ad3d14d348a9564b02ab877",
   "reverted_at": "2026-09-25T12:45:20.282396+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Athens/gr-01-029-9x16.png",
-  "sha256_9x16": "3d940ee1b42757740bba2678ff89c23a8ebc37b5e558a6eb04bda7ae4b5b4757",
+  "sha256_9x16": "c2c8cebdf0ec6866fc37f3c2ce8db60ba6429543dd0e48ff8ac564f8968df0ec",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:40Z",

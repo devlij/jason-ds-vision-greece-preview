@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1 PASS: broad cobbled open space with a large plane tree at center-left, stone houses with red tile roofs and wooden balconies ringing the plaza, wooded Holomontas slope rising directly behind — the town center at the foot of Holomontas, and no philosopher/statue anywhere (honoring the note's documented decline of the Aristotle focal subject); morning light from the east with the tree shadow stretching right, consistent with solar azimuth 120.4° ESE at 10:05; the 4:5 is a tighter framing of the same town center with all defining features in agreement, no contradiction. Gate 2 PASS: on-image 'Polygyros, Polygyros', 'Scenario: 24 September 2026 · 10:05 Europe/Athens', disclosure, and curly-apostrophe 'Jason D's Vision' signature verified; note's own Open-Meteo retrieval 2026-09-25T23:45:56Z (unique second), scenario inside the model-valid hour. Gate 3 PASS: text-prompt-only lineage documented, no photographic inputs. Gate 4: no visible people, logos, or focal artwork — documented only. Gate 5: manifest has no qc_notes, no open blockers.",
   "approved_at": "2026-09-26T16:44:16.710727+00:00",
-  "sha256_16x9": "714f6d6eae27a5f85811ba834bd6ec298ab736db1c82cae7c0f09313a68c21ef",
-  "sha256_4x5": "3858b20cc91c3904ea548c0f6b6f6fdb7ca34655d252adb7a0f4407275d0ae60"
+  "sha256_16x9": "f4b2fc940b68921993294f48936bfcd069fd0458bb4ccc2932de53e949ada842",
+  "sha256_4x5": "379ac5ae075a79e9a82b595f779b9634f84a9a79ed6cbc04bb1466b9e1bdb75f"
 }

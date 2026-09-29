@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gates 1–5 pass, verified by Cosmo QC 2026-09-26 on both masters. Gate 1: 16:9 shows the Philippeion at Olympia — a circular Ionic monument on a round stepped podium, volute-capital columns supporting an incomplete curved entablature, a genuine ruin with gaps in the colonnade standing in sanctuary grass among pines (no invented full roof, no full 18-column ring); 4:5 shows the same circular plan, round podium, and Ionic colonnade, no inter-format subject disagreement; plausible Altis viewpoint, clean framing, no artifacts. Gate 2: exact dims sweep-verified; on-image 'Philippeion, Olympia', 'Scenario: 24 September 2026 · 11:00 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.' bottom-left on scrim, exact 'Jason D's Vision' signature bottom-right, legible. Weather: per-scene Open-Meteo retrieval 2026-09-25T23:48:50Z unique to this scene (second-distinct), per-location request at 37.6387062, 21.6293341; scenario 11:00 inside 11:00–11:59 model hour; code 0 clear, is_day 1, no shared retrieval. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no identifiable people, logos, or private property (documented only). Gate 5: no open blockers; model scenario, not an on-site capture.",
   "approved_at": "2026-09-26T20:36:05.511203+00:00",
-  "sha256_16x9": "3b52a21ad2c0d1e2942c4d107ca7372a216ef0a80f0f772a7a4753ccda881e72",
-  "sha256_4x5": "c97466910b21bdd03afcd0820c1b24627c92b10463380e99991ff6c40a74294b"
+  "sha256_16x9": "8ad73d81e648403e4ecd66d0ef6890da8ffba43d767530e2cc2517e626c95b29",
+  "sha256_4x5": "bda1fea27ddaf8131cfe0ccbed12603ebe371171133cd227c6bca2b79659bf9b"
 }

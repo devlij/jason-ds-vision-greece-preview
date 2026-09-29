@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gates 1-5 PASS. G1: Sitia Harbor, Sitia — 16:9 fishing boats at the stone quay in the foreground, low waterfront buildings along the bay, the low Venetian Kazarma on the hill to the east; 4:5 same harbor from a wider angle, Kazarma and quay agree. G2: dims exact; on-image 'Sitia Harbor, Sitia', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible; scenario inside the model-valid hour. Weather retrieval 2026-09-25T23:50:26Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
   "approved_at": "2026-09-27T01:12:46.917815+00:00",
-  "sha256_16x9": "fc746313c3098c167438b89dcc25b520c70c535e8774d7084bc342ae18b8085d",
-  "sha256_4x5": "63453da144060199fb85d0cd041dae1a9815dc03b5d796aeb9409ab5a96c8c8a"
+  "sha256_16x9": "ef49160f33c9e14cf76a2841afb128c76511b068c717b981f98e2de191af0ad7",
+  "sha256_4x5": "d9d4cde55e47edd8424cba320dc4ab41ad7eab9747f5d07f8c8efe86505d1e45"
 }

@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:49Z (Sun, 27 Sep 2026 16:54:49 GMT), separate request for 40.933, 24.413, valid 2026-09-24T06:45 Europe/Athens, scenario 06:59 inside 06:00–06:59. Code 2 (partly cloudy), cloud 54%, 13.9°C, wind 8.2 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 957–1053 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "560cc98e139e339c58c7271dbf343e2654fa509489da67d8732260a8d8a422bb",
-  "sha256_4x5": "68c20f6da40964d8dbea5d937e76a32d7b415bc2da08e8df00b8a159e3040493",
+  "sha256_16x9": "1f8cb3845a30367529bc4cabb251f141eefb105ecb2e2d08a023819ea480a8bd",
+  "sha256_4x5": "1ffcd1b63a9ae92e21d2712bb5b90bc72e7c986a6e691d51caf53867a31bcc35",
   "reverted_at": "2026-09-25T12:48:01.619038+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Kavala/gr-01-085-9x16.png",
-  "sha256_9x16": "a0f06c96189dadfffe969deb0a759a768c61af631d347e3ba136b91a2fe9aae4",
+  "sha256_9x16": "2fec6864480fa1a2d7fa9aa9b1ee163c5258faf8f7cc459af6ae078ea1725971",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:49Z",

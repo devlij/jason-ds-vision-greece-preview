@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the Hephaisteion (Doric temple) right of center on its knoll, the floodlit Acropolis behind left, olive trees and ruins in the foreground — the classic Agora viewpoint. Gate 2: caption \"Ancient Agora, Athens\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:27Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "ce67271ad521aa3cdd25c11ac91a38d75c11b408a4a571223fdc6782dfeb89bc",
-  "sha256_4x5": "53f61229bcfb3b3b6ffd530e73d9ba0c31941378598f916728174565a9e4837f",
+  "sha256_16x9": "3e9ea806a9a8d1c0af4ba1a79df1a66aefb5727a6ded904c2625a203a316b864",
+  "sha256_4x5": "be77c8af6b0262395c70dd1461d5cc5fb4911a738ca9b2eb1e74ce7130e9774c",
   "reverted_at": "2026-09-25T12:44:52.862993+00:00",
   "qc_notes": [
     {
@@ -49,8 +49,8 @@
       "4x5": "library/world/Greece/Athens/gr-01-019-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "9c70cac9c2d6b916ce295425b54c0131fa949587ec9cf63ecd9f0b7a87ce0020",
-      "4x5": "036c41cae62d1bb1d384ca5f64ba10e78f45c43da1a442923cfda104083b4e34"
+      "16x9": "3a3600c1467281a3b8bc14b4d30d3b8dd2ef5bcd9fdc55406fb6f7dc8474f3e7",
+      "4x5": "a6ee26a124bf424d4bbc7cc3b500678fd7d72838da39daac80dd007b7ba88fb9"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Ancient Agora, Athens",
@@ -61,7 +61,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Athens/gr-01-019-9x16.png",
-  "sha256_9x16": "f53e581a2b25d857fcf3b50b0cc2c6ca90ec1af8559ae1e30bd8ae1b51a20caa",
+  "sha256_9x16": "21e67c2b588b3f9a885aa74216bc4fd493a0ebeae72c7b7f3f2684d8e6ce97af",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:27Z",

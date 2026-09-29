@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:24Z (Sun, 27 Sep 2026 16:54:24 GMT), separate request for 39.4042, 23.0372, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 0%, 6.5°C, wind 6.8 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "531cf4e76f1d88d50636edd1aca9f856366100fba6495a2b9e4f4609e8266f4b",
-  "sha256_4x5": "b4d77cfeed3806f35f71986efcdcd2a2ae6fd9d747d75c459c975ac4c0d00848",
+  "sha256_16x9": "b8a992d4f000faf5283cf693f51af0f04577f4d2d3976ec881dbc0a51bb10871",
+  "sha256_4x5": "9ea4de6786160d413bb29a81f3dce97105475cd33760615024ba4a50d0dc0e9c",
   "reverted_at": "2026-09-25T12:47:03.961157+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Makrinitsa/gr-01-065-9x16.png",
-  "sha256_9x16": "2e51f2989aa3110d9db4acb841029574d2fd911f458fa4e3c96d9df64f8d5d3e",
+  "sha256_9x16": "7bac46159b507c6ba920049e72b9617ccc46cef563d80da8e9fa36aa4b427d6d",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:24Z",

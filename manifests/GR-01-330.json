@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: horseshoe bay from the roadside lookout, steep green hills enclosing both sides, pebble beach at the cove head, turquoise-to-deep-blue water; partly cloudy sky matches code-2 79% cloud. Gate 2: exact 1920x1080 and 864x1080, 'Antisamos Beach, Sami' caption (single-t variant attested in builder reference URL and consistent across card, on-image text and evidence file), scenario 12:15, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:50:35Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T06:57:18.286236+00:00",
-  "sha256_16x9": "60437b2f64fe864adde8ef6ef63d6fd32b9a0d9b6a759761a1074882937c9eee",
-  "sha256_4x5": "0814356de86c276e7b11c71ef14928f18b52379bcc3cd7d8521047ac6c4170f8"
+  "sha256_16x9": "e0bac1823b915dc187116c50262f5501e895b2e2ce64aee3e35db0022f8551b7",
+  "sha256_4x5": "8e980c718855a4d71933e3a0b1490d4f26c57259a1d73254c81baed810b9a558"
 }

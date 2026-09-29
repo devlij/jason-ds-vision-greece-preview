@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:33Z (Sun, 27 Sep 2026 16:54:33 GMT), separate request for 40.4872, 22.3169, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 0%, 9.4°C, wind 9.2 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 950–1052 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "62971ae7d703b2db45a45ec196aed346aead58e16ca4e59fcf52f2971f75e763",
-  "sha256_4x5": "d900c872f3bb93373e49d23e91f82c463f73e6d63de621ed9a05fc8b3e672b75",
+  "sha256_16x9": "798631e88a6083c454097d08a54bcaac4a6c61e73dc35aa9365ac985e771457f",
+  "sha256_4x5": "da611d73fba157a7f445280376ab98a394d4b86d8b195a896502bbe0ce2c12f4",
   "reverted_at": "2026-09-25T12:47:22.046974+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Vergina/gr-01-072-9x16.png",
-  "sha256_9x16": "322de06113a656d7e18e86ef85bffc34a08920681c4d7f7b29ab21d32cfe2648",
+  "sha256_9x16": "14668c1144a5c8a5f5ddceb6c71cc3780230274ee53c3b0cd297bb5cd019257d",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:33Z",

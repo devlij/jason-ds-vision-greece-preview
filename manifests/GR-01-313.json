@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: ancient stone stadium bowl — curved tiered seating on both sides, dirt track, six weathered stone starting-block pillars in the foreground, pine-covered slopes rising behind — recognizably the captioned Stadium of Delphi, Delphi from a plausible on-site viewpoint; 4:5 shows the same stadium from the curved sphendone end, subject identity agrees. Gate 2: sweep MECHANICAL PASS (1920x1080 / 864x1080 valid PNGs); on-image verified caption 'Stadium of Delphi, Delphi', scenario '24 September 2026 · 11:45 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right, legible on the scrim; weather is this scene's own Open-Meteo retrieval recorded 2026-09-25T23:50:18Z, unique repo-wide across all 62 candidates, scenario minute inside the model-valid 11:00-11:59 hour, is_day 1 matching the daylight master; noted cloud cover 39% is consistent with the scattered clouds in the master. Gate 3: note documents text-prompt-only generation, no photographic input. Gate 4: no visible people or logos; archaeological site — documented only, commercial call is Jason's. Gate 5: all gates pass, no open blockers.",
   "approved_at": "2026-09-26T23:47:12.726170+00:00",
-  "sha256_16x9": "62efc1d100b924354d9166e7f06713e667c94fdc645d73f6fc2a2ae3f2d5a2f8",
-  "sha256_4x5": "c0fca8f6c1a253ae4348415c92216e271d594d657f29a6330d7eccc106be5fc5"
+  "sha256_16x9": "0e6a7df28197b73fcd32477145897bf7824cab539c775f65af915c80a1711621",
+  "sha256_4x5": "50976d241e06b8929838341eca52fe08bbfa0106406c32d3cec59bbf8261f456"
 }

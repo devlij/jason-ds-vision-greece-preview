@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: well-preserved Doric temple rising from a dark pine grove, sea visible beyond, overcast pre-dawn sky; recognizable. Gate 2: caption \"Temple of Aphaia, Aegina\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:34Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "db1563af8dc0fb0d6668155040c6f806a970a47e961f4591c452b365238e8e5f",
-  "sha256_4x5": "f4760984329878064155ed2fa8de36c0c7d4b08c170cc0999e069a1854d62922",
+  "sha256_16x9": "8dc44d68283442edc84f3f19c6dd73f179081cf64138e5acc2ff0f4b729efe4d",
+  "sha256_4x5": "d03ad36145699936c7f85d9779d47df36a70717cd304c86576d9d6ab5552a669",
   "reverted_at": "2026-09-25T12:45:06.023391+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Aegina/gr-01-024-9x16.png",
-  "sha256_9x16": "337c79db60698cee87ecf2af98b424eabf831816ad3a4f3c5c7decdd58f1ddd7",
+  "sha256_9x16": "7393073aeade3f7d0d06b5d025ffa961ce0be509beaeb4942c130373554e5ba1",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:34Z",

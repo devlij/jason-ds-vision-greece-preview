@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: cannon on the stone terrace foreground, white Vlacherna monastery with red roofs on its islet joined by a long causeway, wooded Pontikonisi cone beyond, airport runway crossing the lagoon; clear midday light matches the code-0 model sky. Gate 2: exact 1920x1080 and 864x1080 masters, 'Kanoni, Corfu' caption, 'Scenario: 24 September 2026 · 12:15 Europe/Athens', AI disclosure and exact Jason D’s Vision signature legible; scenario inside the model-valid hour; per-scene Open-Meteo retrieval 2026-09-25T23:50:34Z unique to this scene. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T06:57:18.286236+00:00",
-  "sha256_16x9": "06f5fa46a62ee8a12465902d4e88cca978270988102166110a1671c7f365a1b0",
-  "sha256_4x5": "85034a008a60e10ae8775217b9803b61656ee416181ec2807f39d4f317fd2d1c"
+  "sha256_16x9": "5a3f37ba0af2a25e5f049e38efa07770e22923249e9bec7623a99e89071bc598",
+  "sha256_4x5": "a1c782f37b28c461cfb5a0d5656f08fcffb3194cfbedbed12be4042a7c062fce"
 }

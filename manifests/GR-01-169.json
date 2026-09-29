@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1 PASS: 16:9 master shows Vathy's neoclassical waterfront facades, a white-and-blue ferry and small boats moored along the quay, and the amphitheater town climbing the green hillside behind — early light rakes the facades from the left, matching the evidence card's waterfront viewpoint (37.7547, 26.9727). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Vathy Waterfront, Samos', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:47Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
   "approved_at": "2026-09-26T10:38:36.609713+00:00",
-  "sha256_16x9": "53594c0a4df15833593eae2223ef007540f0c4ec01f18de47f41555da3446193",
-  "sha256_4x5": "ef63053bc00ec22db480cd3304dd492bc8ab3a631ff0286d3ac31b2acca984ab"
+  "sha256_16x9": "956ade1e58560b1a8e27c0573d6f0d6a6327b66565a857476010170a05649ba6",
+  "sha256_4x5": "2a123f19e323bd396dd6008738c168c12d22b78757752289d4ba345108f7115e"
 }

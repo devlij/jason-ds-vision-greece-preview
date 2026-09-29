@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: lush plane-tree forest at Seven Springs — a wooden footbridge over the clear spring, the stone tunnel mouth with water flowing through on the right, two ducks on the water — recognizably the captioned Seven Springs, Kolymbia from a plausible trailside viewpoint; 4:5 shows the same tunnel mouth and footbridge over green water, subject identity agrees. Gate 2: sweep MECHANICAL PASS (1920x1080 / 864x1080 valid PNGs); on-image verified caption 'Seven Springs, Kolymbia', scenario '24 September 2026 · 11:45 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right, legible on the scrim; weather is this scene's own Open-Meteo retrieval recorded 2026-09-25T23:50:16Z, unique repo-wide across all 62 candidates, scenario minute inside the model-valid 11:00-11:59 hour, is_day 1 matching the shaded-daylight master. Gate 3: note documents text-prompt-only generation, no photographic input. Gate 4: no visible people or logos; natural park setting — documented only, commercial call is Jason's. Gate 5: all gates pass, no open blockers.",
   "approved_at": "2026-09-26T23:46:48.774615+00:00",
-  "sha256_16x9": "f61358d767f8d18cc75fc59c74aa4c52332af0706e6170cd6d6b9ff703c453bf",
-  "sha256_4x5": "f9e977f46b6c75b6e1c999fb3af6e7f55be63722c453b6f7b2da7e609eacbb65"
+  "sha256_16x9": "b6679f12d92f87656c9a89ab99517a04c1db744271355126a3547a546b5a8d55",
+  "sha256_4x5": "4c184ea6540987d40a16a8c9da5d1323918e70e865ed80243325aaee31a0af59"
 }

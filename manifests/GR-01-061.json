@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:19Z (Sun, 27 Sep 2026 16:54:19 GMT), separate request for 36.962, 21.664, valid 2026-09-24T06:15 Europe/Athens, scenario 06:24 inside 06:00–06:59. Code 1 (mainly clear), cloud 7%, 18.5°C, wind 6.8 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 968–1031 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "882b308429e0ca3db4462219123f55cd69c96fb19a2fc7b7f198c1b3ebf13391",
-  "sha256_4x5": "a87870edba3750c57414675cb310eea03075382d258ecff4d6ff8570083f60af",
+  "sha256_16x9": "cf51ab60751ab2c62f320e7990b8a213cc9668b7a3f0452c74e9fa1576d052e8",
+  "sha256_4x5": "c4267597216e8b6c65c871db16224ea39670f69802c7fa2943dfe2812da4da62",
   "reverted_at": "2026-09-25T12:46:50.293302+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Pylos/gr-01-061-9x16.png",
-  "sha256_9x16": "f05ea79c7908733af8b164164421e0c29732722502e71ab0f14bc1236fa57dcc",
+  "sha256_9x16": "1079f1ab579a4b5e7d5829bf033b7809b37ae735a46d40c4065a7233573ae2e3",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:19Z",

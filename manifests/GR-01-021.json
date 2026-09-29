@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: panorama from the summit — St. George chapel with its lit terrace at left, the carpet of city lights, the floodlit Acropolis center-frame, the Saronic Gulf on the right horizon — the standard Lycabettus viewpoint. Gate 2: caption \"Lycabettus Hill, Athens\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:30Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "3e371fcb227420acbc6629a22b456db5e491d662c4544b46d4ca0ee77710ede5",
-  "sha256_4x5": "02eed23c7db6f0364cf422aa67c139411460ca1a2d23c76447056db2e8d420da",
+  "sha256_16x9": "e75a408a80a28b39d96ee21015466b38ade938efd0270ac9e2415ee30490aafc",
+  "sha256_4x5": "5363530c7e94ff9c011db680d5cb84b5d40d3b36ddd5d0ef5f956bc4296a7c24",
   "reverted_at": "2026-09-25T12:44:58.312975+00:00",
   "qc_notes": [
     {
@@ -49,8 +49,8 @@
       "4x5": "library/world/Greece/Athens/gr-01-021-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "212603ceeb43bed224b547b0029a8a5ba917695d6e8ccd21d934e153e39cfa1c",
-      "4x5": "4d64cb661ec76d1458592907cb8a00703ef67cbd3720861a4fba83be9dde2219"
+      "16x9": "f9a95df5e4b69d8854bc6ce35f53c0cef2f002bdc2445ea4fa2abe9d5d456756",
+      "4x5": "b512a50549fff9757883ad445fbacf6209c762237690a730be018eaf5c737ef3"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Lycabettus Hill, Athens",
@@ -61,7 +61,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Athens/gr-01-021-9x16.png",
-  "sha256_9x16": "bd0e552fa8e8b87ae9010d4378fe0f914aa13aa1622d243642a664d94c57cebd",
+  "sha256_9x16": "4e2136dafa9e09e36e9bf473831a6f248e6f360d059c9bc34272fd07228b7eca",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:30Z",

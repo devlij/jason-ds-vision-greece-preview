@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the Hephaisteion in the Ancient Agora — intact Doric peripteral temple with triglyphs, the Acropolis visible at left, pines and rocky ground framing — correct subject and plausible viewpoint; 4:5 agrees on the same colonnaded temple. Gate 2: exact 1920x1080/864x1080; on-image 'Temple of Hephaestus, Athens', scenario '24 September 2026 · 10:30 Europe/Athens', AI-disclosure and 'Jason D's Vision' signature (curly apostrophe) legible; note records separate Open-Meteo retrieval 2026-09-25T23:46:11Z valid 10:30, unique repo-wide, scenario minute inside the 10:00-10:59 model hour (code 0, matches clear sky). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or private property; ancient public monument. Gate 5: all gates pass.",
   "approved_at": "2026-09-26T17:43:16.061845+00:00",
-  "sha256_16x9": "5ad906ddb3f93ecdded91808391682dd4e6385ecc0563d69ffa7d0ee90d91a9c",
-  "sha256_4x5": "b7327474d8656af831dac4e03b000d789b6196917926c30e9d48f41510256b24"
+  "sha256_16x9": "59b515c155c18ee35ae7de14610a32aabffd2d0a9d7a74ef77c5a7e390f816b9",
+  "sha256_4x5": "0b17839c123ef82462a0f805f73a4bc46ba598be66a59af65d85d9f24137e190"
 }

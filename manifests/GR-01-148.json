@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Asklepieion, Kos — the terraced hillside sanctuary with standing Doric columns and column drums among the excavated stone foundations and stairways, cypresses and the sea in the distance; recognizably the ancient healing sanctuary of Kos, clean framing, no artifacts. Gate 2: mechanical 1920x1080 + 864x1080 PASS; 'Jason D's Vision' signature bottom-right; caption 'Asklepieion, Kos', scenario '24 September 2026 · 08:15 Europe/Athens', AI disclosure bottom-left on scrim, all legible. Weather: Open-Meteo retrieved 2026-09-25T23:44:26Z per approvals/GR-01-148.md — unique to this scene across all 365 Greece notes; scenario minute 08:15 inside model-valid hour 08:00-08:59. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no visible people, logos, or recognizable private property (documented only; commercial call is Jason's). Gate 5: no blockers.",
   "approved_at": "2026-09-26T08:42:08.635153+00:00",
-  "sha256_16x9": "a9fe5df7d151180fd159489631c10fac7f35961c58f9819cba6f38dd056e8f7c",
-  "sha256_4x5": "8bcf43a468999bdda599360fecdb773d4578145e6e9093bb6d8c70b1d3cf8e8b"
+  "sha256_16x9": "035620b89ca8f5794caf2f1b1ded63d621bb430e9b6b17518fb93e4d39703e03",
+  "sha256_4x5": "cfcaac6ff17d9714de7ffdf61a0522c4f57ab067d69600327cba6cc877d4477b"
 }

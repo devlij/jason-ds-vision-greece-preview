@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Evangelistria Monastery courtyard approach — stone church with octagonal dome and cross, whitewashed masonry, flanking two-storey monastic ranges with tiled roofs, pine trunks and forest pressing in; the correct hill monastery, no artifacts. Gate 2: exact dims verified; caption 'Evangelistria Monastery, Skiathos' and scenario '24 September 2026 · 10:05 Europe/Athens' verified on-image; 'Jason D's Vision' bottom-right, AI-disclosure legible at bottom; weather retrieval 2026-09-25T23:45:48Z unique to this scene, valid 10:00 Europe/Athens within the scenario hour. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no people, logos, or private property visible — documented only. Gate 5: no blockers.",
   "approved_at": "2026-09-26T15:40:19.308807+00:00",
-  "sha256_16x9": "3572b73e32a85deaf371f16a7163c1b77ba7295cd664d2f14df06bcebcafacc2",
-  "sha256_4x5": "e2f186500d044238106734e04683e32a339a7a02e1d0304ae093c43b90e9e63e"
+  "sha256_16x9": "f260f915c5174552accebc465f34e70e38c1b7e1419de76056a9ef466ba7cf8c",
+  "sha256_4x5": "d7244eacf7ab30a07f9543ea2b219a3e9de8524893d73f4d097f1bafad822650"
 }

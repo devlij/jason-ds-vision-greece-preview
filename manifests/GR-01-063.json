@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:22Z (Sun, 27 Sep 2026 16:54:22 GMT), separate request for 36.762, 22.564, valid 2026-09-24T06:15 Europe/Athens, scenario 06:24 inside 06:00–06:59. Code 1 (mainly clear), cloud 42%, 17.3°C, wind 7.7 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 927–1031 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "8859efb52e56e71b8d5bb54c05b1953bee0c71678edb4f6bd5271a24b35c2534",
-  "sha256_4x5": "ed425e79b2002a0f353f9eb97b29b1a313ede594505623c34e6c55f71ff39d03",
+  "sha256_16x9": "2534be79007af47218442a4780bf54395572ba2e157de810797477eaec5d39fb",
+  "sha256_4x5": "1592067f8f98c6e5e8beb62687093a57a60769e3ece952a41b63da15195b2440",
   "reverted_at": "2026-09-25T12:46:55.370742+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Gythio/gr-01-063-9x16.png",
-  "sha256_9x16": "0f985ddb3d88748892d7f358e7c5d409dc370bdc5d9ee5773a1561778f7fa781",
+  "sha256_9x16": "11ff584e690d3da8cbe0fa1677cc52deca9becd84680f966ded3c7be2343ca11",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:22Z",

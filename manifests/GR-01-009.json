@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gates 1–5 pass. Gate 1: Doric temple colonnade on the krepis under moonlit clouds with a forested hill behind — recognizable Temple of Hera, Olympia setting, clean framing; 4:5 shows the same column row (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Temple of Hera, Olympia, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:15Z unique to the second, scenario inside model-valid hour, code 1, 19% cloud consistent with the clouded moonlit sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
-  "sha256_16x9": "18139beb5f26498ec31dd9a1f973cf6a2040a186ded4f408e0578fac1857187c",
-  "sha256_4x5": "52555243cace8e66f8cac4f93545bf63a87c92b74f008b86712034d80bf4b28c",
+  "sha256_16x9": "b348386e8e5bb378116fc20278401de87b210bfe3c020ea8bcda5e81483a4eb5",
+  "sha256_4x5": "881687af0ced01cf1155b377e3f6bc9ee1d418b36bc923aab665875b0d90e398",
   "reverted_at": "2026-09-25T12:44:21.509996+00:00",
   "qc_notes": [
     {
@@ -79,8 +79,8 @@
       "4x5": "library/world/Greece/Olympia/gr-01-009-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "3712818c17c31c5ac2204544b7ee07c55968aa25685b6fdf6b5f82fada41eca3",
-      "4x5": "802a78d12bbd71387b45d8915ee1dbef8d4a1360b1ce746a663b1ea45c43a161"
+      "16x9": "b2f89c290fa6c58fc242c3b62d9f93c023fc018167ace7347365e53f3f058313",
+      "4x5": "657a1fba5b7a0e28ee965e643e1fa78b05a24a472c68dcf7a3f1449cfd7c9a54"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Temple of Hera, Olympia",
@@ -91,7 +91,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Olympia/gr-01-009-9x16.png",
-  "sha256_9x16": "433aee80c555321fa884f559323226aa2e1a2577433da722ecf42b2f19df9b65",
+  "sha256_9x16": "59be3106725402c803b05b61e663d6fa38b970db5d36e157dcda7522652f528f",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:15Z",

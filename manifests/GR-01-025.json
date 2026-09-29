@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: whitewashed Cycladic-style houses on stepped lanes climbing toward the floodlit Acropolis rock, bougainvillea in the foreground, warm window lights — the Anafiotika lanes below the Acropolis. Gate 2: caption \"Anafiotika, Athens\", scenario 05:53, disclosure, exact signature; per-scene retrieval 2026-09-27T16:53:35Z unique to the second; model hour match. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "8b943199541319b4c875985da117446b65bd17104dd05dfe97ec31d87592a9cb",
-  "sha256_4x5": "af6697d2404ae69d05337b8c6450fb1aa47666581d103abf3b08dcf7109d8fa9",
+  "sha256_16x9": "3417a442fe8ca576d1cfb2033dfe6a0908c29010ae0d904597d79a71cbd27458",
+  "sha256_4x5": "58a1652d38d116613bdbd2d181996500dac8c71322ef498d98fd310061f16638",
   "reverted_at": "2026-09-25T12:45:08.669280+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Athens/gr-01-025-9x16.png",
-  "sha256_9x16": "6d4c118ef232a40e346be42effa5eb46b9579ea3106c352a821d87913e569703",
+  "sha256_9x16": "7ff6068947a1d34ef4152fa32d1bdababa9970fecb137259d75b22b4d90b04d4",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:35Z",

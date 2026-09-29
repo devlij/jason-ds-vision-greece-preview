@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: both masters show Chora as a whitewashed hill town on a rocky peninsula — 16:9 with the arched stone bridge to the rocky islet and the white lighthouse on the second islet, mountains across the strait; 4:5 the same town, bridge and lighthouse islet; consistent subject identity; clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image 'Chora, Andros', 'Scenario: 24 September 2026 · 11:15 Europe/Athens', AI disclosure and exact 'Jason D's Vision' signature verified; weather retrieval 2026-09-25T23:49:01Z unique to this scene, valid 11:15 = scenario 11:15. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: public town and coastline, no people, logos or private property.",
   "approved_at": "2026-09-26T21:32:48.200559+00:00",
-  "sha256_16x9": "be5a93e8e6b7f0f4ff84f46d2896b77878e0d9b0fd26dbef102cea8386aeef40",
-  "sha256_4x5": "fdafa28244ecf802fb9a9690294e56803ed9d35d11211ec4a2c85d5ef7dd7096"
+  "sha256_16x9": "27e11c5e111ffc098eca107f0d1250ade6623a1ae41061d7876096a4277f0fde",
+  "sha256_4x5": "0cc482e9707e2bf98331cbcb5ed3addda4800fda8d4737be19161e46a96d8acd"
 }

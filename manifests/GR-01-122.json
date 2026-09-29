@@ -33,7 +33,7 @@
   "qc_status": "Candidate — reverted 2026-09-26 (see latest qc_note)",
   "approval_basis": "Gate 1: 16:9 shows the Lefkada town quay at sunrise — fishing boats moored along the near quay, red-roofed waterfront houses, low angular bastions of Santa Maura across the water, and the low pontoon bridge crossing the canal (no cable-stayed bridge shown, matching the anchor); quay lamps still lit, consistent with 07:40 just after sunrise; 4:5 shows the same arrangement from a lower quay angle with bridge and bastions intact. Gate 2: exact 1920x1080 / 864x1080 (sweep-verified); on-image strings verified: 'Lefkada Canal, Lefkada', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature on the bottom gradient; 07:40 inside model-valid hour 07:00–07:59 from per-scene unique Open-Meteo retrieval 2026-09-25T23:44:00Z (cross-checked against the authoritative repo note). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent identifiable people, no focal logos — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:40:26.675143+00:00",
-  "sha256_16x9": "86bedecda48f913fc518cdf4c50815f30d4c442e95d3bbe56ce221b0ff68ae93",
-  "sha256_4x5": "380a8463e0edf6c01141e88e610818661ae87514d94e8027f66b9007c104582a",
+  "sha256_16x9": "b3fe84ff5489118a8ca592e2f6189bb3a12c17cc2f8e3bdc1c5f2a9fd712b29d",
+  "sha256_4x5": "e5a38795eea07e9bf7af7c53c974a6b93f0cf2b92731c1245ee68ee481e0976d",
   "reverted_at": "2026-09-26T09:47:11.548971+00:00"
 }

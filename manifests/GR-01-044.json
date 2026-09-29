@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Crenellated castle with square tower on the rocky crag above the city at night, city lights spread below; caption 'Lamia Castle, Lamia', scenario '24 September 2026 · 06:08 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:58Z unique, 06:08 inside 06:00-06:59 (clear, 0% cloud). Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "c8c870aa9eba3d63ac04182612858056c379876099b1fddfefe066d0de800f62",
-  "sha256_4x5": "0edbd71597abeca45df808cde6e5992988b0a18697336b03aeb90b8c7b378ed3",
+  "sha256_16x9": "18983542f8531f74ed400fd04628487107b4bcdd12d9ae9e77531f5330d11421",
+  "sha256_4x5": "9181a8faca80bd6522d9304a54a7b5eb381703245df7549b2cf381179869a57a",
   "reverted_at": "2026-09-25T12:46:04.340941+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Lamia/gr-01-044-9x16.png",
-  "sha256_9x16": "d5ee649440e658924d3c5938e7faf5b0f72f493c4e95b4b6abebd94dd4bd92db",
+  "sha256_9x16": "032183e943a2b241e314bb55fd9310f6c1f718044c82ec33e2c8d5d1bbc2c1cf",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:58Z",

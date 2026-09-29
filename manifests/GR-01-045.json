@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Curved tiers of the theater cavea in the foreground, standing columns of the temple ruins and the Phaedriades cliffs behind, Pleistos valley at left; wider composition than GR-01-005 (not a replacement); caption 'Ancient Theater, Delphi', scenario '24 September 2026 · 06:09 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:54:00Z unique, 06:09 inside 06:00-06:59. Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "48d26f9c3086a117cb3239ae70282fd893748e69f713aba3354efe629f9f3abd",
-  "sha256_4x5": "7a10877b7bfc70e782ff39668299790ec404f9db1f709fe2b46975ada8ed3fa3",
+  "sha256_16x9": "5c8b82b2bd7b27b7862e9b8ca6d767a803d871c30e90897c2ced7824b0299b29",
+  "sha256_4x5": "655cdd21d5daea52349e092c5abe9750717060e7d816a068206a4db5937b8107",
   "reverted_at": "2026-09-25T12:46:06.517833+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Delphi/gr-01-045-9x16.png",
-  "sha256_9x16": "f235c55c8b2b3087b8d9d0f95278aa770a63364191742ec9b4b35b6ae6d4a349",
+  "sha256_9x16": "d72304542667154ba8e30822dd10657b007bfda149f767ea62ce60708d0699ca",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:00Z",

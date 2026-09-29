@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Stone old town under the ruined castle on the hill at twilight, red-tiled roofs with lit windows, street lamps, the plain stretching beyond; caption 'Old Town, Amphissa', scenario '24 September 2026 · 06:08 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:57Z unique, 06:08 inside 06:00-06:59 (clear, 13.5°C). Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "5354591a0d9bb12bb0eb661b222e1211dfa10ad26b8d3f68c295adf7df4483dd",
-  "sha256_4x5": "4cdc53c868c7c73b898b21500552ef1e5c0f07a7e62dbfad619aaef043600545",
+  "sha256_16x9": "42e6b81acf87dae51e0a985d8c431b9321fc5874020e5380ad2f4ae838948c29",
+  "sha256_4x5": "9832d746c3a179976865f5a25ea81ef4e80349fa325d47294e9d7870b16a3d24",
   "reverted_at": "2026-09-25T12:46:01.718495+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Amphissa/gr-01-043-9x16.png",
-  "sha256_9x16": "e30558e2a8a06f93e6dc14f04268d286e23d2ad21c74a19fbde26af86abe771e",
+  "sha256_9x16": "a1b880e9e0e62a533fd395f96b33d05a2e3ea4edfa79be901767f88063a98dd9",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:57Z",

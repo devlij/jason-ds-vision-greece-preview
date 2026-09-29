@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Zagori stone lane in Monodendri — slate-roofed houses flanking a cobbled street, a huge plane tree, and the village church tower against the mountains — recognizably the captioned Village Lanes, Monodendri from a plausible tourist viewpoint; 4:5 shows the same lane, tree and church tower, subject identity agrees. Gate 2: sweep MECHANICAL PASS (1920x1080 / 864x1080 valid PNGs); on-image verified caption 'Village Lanes, Monodendri', scenario '24 September 2026 · 11:45 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right, legible on the scrim; weather is this scene's own Open-Meteo retrieval recorded 2026-09-25T23:50:21Z, unique repo-wide across all 62 candidates, scenario minute inside the model-valid 11:00-11:59 hour, is_day 1 matching the daylight master. Gate 3: note documents text-prompt-only generation, no photographic input. Gate 4: no visible people or logos; public village lane — documented only, commercial call is Jason's. Gate 5: all gates pass, no open blockers.",
   "approved_at": "2026-09-26T23:47:54.923041+00:00",
-  "sha256_16x9": "14db22eb284b8f2e192910d022fda26c03b4f59a3285b4207615f271258c6ea8",
-  "sha256_4x5": "0b3f6c2f15c0d043953e783ecb066239f7c357e08a774649449a649cc4f7f3a4"
+  "sha256_16x9": "276d8252cbfbe1df1d166f3101bf66318efb89d7debc5903c1e423d34ff96ed9",
+  "sha256_4x5": "c710d0ee9cdc292305fd6780b17f2f675a0ad57803597174e25c73c9880c4eeb"
 }

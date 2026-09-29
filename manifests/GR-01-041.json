@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Pre-dawn limestone slope with chairlift pylons and empty chairs, small stone hut, rocky ridge, orange dawn glow on the left horizon, light frost on the ground matching the modeled 2.2°C; caption 'Parnassus Slopes, Parnassus', scenario '24 September 2026 · 06:08 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:55Z unique, 06:08 inside 06:00-06:59 (clear, 2.2°C). Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "d03d94afd9687226fec21e01f2ab6a8dbc95668cf840debaaa89b79989a0b08b",
-  "sha256_4x5": "45ab15f9c6f0174b8f18fd149497749bbb34b6b682c63aa7378d2b18aee8d370",
+  "sha256_16x9": "1d751530e215f6d33d72426fc02cc74b9428546cafaff05034cc75c0496a21f6",
+  "sha256_4x5": "69d09a4fb459b39901f17a8577251f0235d75c11025e9ed89b18d2dd2c23d627",
   "reverted_at": "2026-09-25T12:45:56.201238+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Parnassus/gr-01-041-9x16.png",
-  "sha256_9x16": "b60b49bbc46ff7c9b2a756cd98a2551dc2e685eb37b8ab5b98d834c6df16f8bd",
+  "sha256_9x16": "94a9cb8c14f5104548254dcf6211157eb090d0fb48170ac1db21c2c41de187c6",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:55Z",

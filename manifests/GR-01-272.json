@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5. Visual: stone Bridge of Arta with a grand central arch and three smaller arches spanning the calm green Arachthos, tree-lined rocky banks, arch reflections in the water; 4:5 agrees (same arched stone bridge, same river reach and banks). Clean framing, no artifacts. Technical: 1920x1080/864x1080 exact; caption 'Bridge of Arta, Arta', scenario '24 September 2026 · 10:45 Europe/Athens', disclosure and exact signature Jason D's Vision legible on the scrim. Weather: own Open-Meteo retrieval 2026-09-25T23:48:35Z, unique to this scene repo-wide, scenario inside the model-valid hour — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: no people, no logos, no private property focal; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
   "approved_at": "2026-09-26T19:35:43.615151+00:00",
-  "sha256_16x9": "948f4a972c93960c5fd3852f50e0e8b620bce0a80dba2c9c07a16bea6875e76f",
-  "sha256_4x5": "af676c4f7c4e0583f8b715f9807e5dfac35dad89b4defc65120807c585638cc6"
+  "sha256_16x9": "9df390e22ebd110298f7531982c706c4c83ed705efe3a5bfbab444c2efdff088",
+  "sha256_4x5": "19e5a3ab9f5ebc550970d9eb7515a3444a23ed10f49a6059c9214aa5a9347ef0"
 }

@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gates 1–5 pass. Gate 1: six re-erected Doric columns on the stone krepis against the Delphi cliff face under a full moon — recognizable Temple of Apollo arrangement, clean framing; 4:5 shows the same column row against the cliff (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Temple of Apollo, Delphi, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:10Z unique to the second, scenario inside model-valid hour, code 0, 1% cloud consistent with the clear sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
-  "sha256_16x9": "370f292eb43742c821f4620500b066c88d45fc49dd77acc889282b2d2f7187bd",
-  "sha256_4x5": "c1185ba5eff3464cd6f67721211afb9629c285cd7a429d5a641fe41ed04d1b2d",
+  "sha256_16x9": "06b910397a89361815551dc05eb4daf06591db6e9eef0fd91cb43d3653b61ad0",
+  "sha256_4x5": "b70fe0bab5f1d2e8425a30ac4c920626b95a388e2c84b312a46fd7fbf43e4221",
   "reverted_at": "2026-09-25T12:44:11.001589+00:00",
   "qc_notes": [
     {
@@ -79,8 +79,8 @@
       "4x5": "library/world/Greece/Delphi/gr-01-005-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "421d591cd54a9b0e3b275db09a9367d9e560be28b256c87fd29bc92645b02f96",
-      "4x5": "05f5e20139e75962703c1dae3d2772b989eef82222759ca1ed67edd8067e6e4b"
+      "16x9": "3560ac884a3295a525f4896b84cebb59b8dba7ec3d544013e3e5e7557e531eeb",
+      "4x5": "5a712d49075fcc58b428b672eac69d9bf5af8a6f90047db43288961d8121f332"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Temple of Apollo, Delphi",
@@ -91,7 +91,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Delphi/gr-01-005-9x16.png",
-  "sha256_9x16": "204436de39af8d6d913e42fbcd3e615ff25f3b5954ad25d4fc874ebfcaa25a21",
+  "sha256_9x16": "02bc96c0930936f4c8fdcad0b033eee4a1b445a254e999a1ad81e3fd415098c4",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:10Z",

@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gates 1–5 pass. Gate 1: the row of thatched-roof windmills above whitewashed Mykonos town with moonlit sea and moon reflection — recognizable Kato Mili view (six mills visible, plausible from this viewpoint), clean framing; 4:5 shows the same windmills with thatched caps above Little Venice balconies (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Windmills, Mykonos, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:09Z unique to the second, scenario inside model-valid hour, code 1, 27% cloud consistent with the partly cloudy moonlit sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
-  "sha256_16x9": "9c2649c61b76aafb4d1028f25ac179d371cd4d8df6974b03eb64a68742853d5a",
-  "sha256_4x5": "12c6a62ec692f9d8aacfe85d90076bb167cc5e9a4aaff9c7c0511b30fab58db2",
+  "sha256_16x9": "40d340ab0ca98db1876df6a408b55edb342341c4b892dc81a2d5a9f8cd3ba8bc",
+  "sha256_4x5": "ba890f0d6988abba2453ef3f4d28f77fcbaffb74fdaefe9cadbdc92a8b92acc6",
   "reverted_at": "2026-09-25T12:44:08.092225+00:00",
   "qc_notes": [
     {
@@ -79,8 +79,8 @@
       "4x5": "library/world/Greece/Mykonos/gr-01-004-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "627900f8c3abbef8dd56d9a13cb231058485eb91749baec69a8fb1671229af80",
-      "4x5": "0d090ccf3f03c46b1eca75b574cfe76b16d4ae072127e345566208db1939b518"
+      "16x9": "50d0e42143d1dc0a4d67616d4c397fdd4ebdb9358f9e4b4f4e12e227cb6f89a7",
+      "4x5": "1975ca301355a19a755137510b9bd063dc90310563d411aecd4dff3a7d732cb1"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Windmills, Mykonos",
@@ -91,7 +91,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Mykonos/gr-01-004-9x16.png",
-  "sha256_9x16": "62f916b9b8db4710a4f0954311f75fab5be78a33853dc4ee8601d55f9644dd18",
+  "sha256_9x16": "d983fb9265423104f038647161ae27fcae9956627fda078d61d891d7d77f1d46",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:09Z",

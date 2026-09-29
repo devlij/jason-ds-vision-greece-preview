@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1 PASS: low plain rubble-stone hall with terracotta tile roof and single wooden door, gravel forecourt framed by plane trees, wooded hill of ancient Aiani closing the background — a low public building, not a temple, matching the note's anchors and its honest research-gap note (exterior not surveyed in detail, plain stone hall rather than copied facade — a gap, not a defect); morning light consistent with 10:30 / azimuth 124.4° ESE. The 4:5 shows the same stone hall, tile roof, wooden door, plane tree and wooded hill. Gate 2 PASS: on-image 'Archaeological Museum, Aiani', 'Scenario: 24 September 2026 · 10:30 Europe/Athens', disclosure, and curly-apostrophe 'Jason D's Vision' signature verified; note's own Open-Meteo retrieval 2026-09-25T23:45:59Z (unique second), 10:30 inside the 10:00–10:59 model hour. Gate 3 PASS: text-prompt-only lineage documented, no photographic inputs. Gate 4: no people or logos; plain public museum building — documented only. Gate 5: manifest has no qc_notes, no open blockers.",
   "approved_at": "2026-09-26T16:50:46.051794+00:00",
-  "sha256_16x9": "d68376384364db396233389c172636766dfce46f5cc1bc032cad4b73c75367a8",
-  "sha256_4x5": "81ffe3cb9bcd56bbe6cafc2d1bd1cde15ec889749bb492e4863047299c6f2161"
+  "sha256_16x9": "d1707a8adac6ea37287c043fa36fba6495d73d35193faf80fdc1998b03216f79",
+  "sha256_4x5": "f6228dc34c70beb5f50206d2418efd0fa3510a433363110b2d86e82e117a5232"
 }

@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:28Z (Sun, 27 Sep 2026 16:54:28 GMT), separate request for 39.5556, 21.768, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 3%, 9.2°C, wind 2.6 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "45224d470855004a82fab83ad0d79e07e46b123b3ea5ddf14cb82698640b8f81",
-  "sha256_4x5": "9205a3fe3e6203e8665ce9524f31fa4a3b565516e45d165894503c4f687b2cb1",
+  "sha256_16x9": "1fc2e1150f3b240c2c39ecea69eaa9bf943344ac81c0907d2e01fcdfcc68e080",
+  "sha256_4x5": "ec93098c1c3385e4dfcf65e5d332ac24b265ef09782ff69f139c6cf5bc6b4409",
   "reverted_at": "2026-09-25T12:47:11.505210+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Trikala/gr-01-068-9x16.png",
-  "sha256_9x16": "1ad5b95eedba0839e6f31822060661f1c15295593b22dd1fa84bc98cbebd4536",
+  "sha256_9x16": "ff87615749843ffa19db635af1889ba6bc0a3fd8bcbcd63e46fc377e69fe40d9",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:28Z",

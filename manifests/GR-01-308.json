@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: concrete ferry mole with small boats, white harbor settlement, beach, enclosing rocky hills — matches Karavostasis anchors (from the shore toward the ferry mole and hills); 4:5 shows the same mole, boats, settlement, and hills. Gate 2: exact dims; caption 'Karavostasis, Folegandros', scenario 11:45, disclosure, signature exact; weather retrieval 2026-09-25T23:50:13Z unique repo-wide; scattered clouds match claimed code 1 / 24% cover. Gate 3: text-prompt-only. Gate 4: no people, no logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T22:38:36.002341+00:00",
-  "sha256_16x9": "2552228a09df41d2bc1b48d3aca6a793189a9891bde4f54c30f0c8301a5acd07",
-  "sha256_4x5": "1628d799c2cbc7392821dadfb0db433c4e98551431994bd324f09b1597078b5e"
+  "sha256_16x9": "2e1a9b496fc06cf18599ce701f0ad4d2bf806d80e9657e92ff78bcfe845c59f9",
+  "sha256_4x5": "a51af8b1a269e9e43c6b4bca9518be2f98dc4dc0404510db16fae971aac0cb43"
 }

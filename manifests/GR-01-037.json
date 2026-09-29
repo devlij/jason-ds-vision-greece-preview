@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Twilight row of pastel captain's mansions on the waterfront, clock/bell tower against the pine-covered hill, fishing boats and rowboats moored in the calm bay; caption 'Galaxidi Harbor, Galaxidi', scenario '24 September 2026 · 06:05 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:50Z unique, 06:05 inside 06:00-06:59 (clear, 14.6°C). Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "939e9275889875a97a8c46ef86449ee88b546b6ff2895a8774e616d1160c1c4e",
-  "sha256_4x5": "c0359ab9bd23043df92a376cddfbbc4d7b702929d3405fb5a961434cf0c010fd",
+  "sha256_16x9": "f1c5e9be11db432687a596ce34bda78e8608e47f18148b56cd39db372deeeee7",
+  "sha256_4x5": "34d4d303bc319fa5b3228925cfb15845e4bc9c4f0ab174d73a112fa1be7b330a",
   "reverted_at": "2026-09-25T12:45:45.524536+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Galaxidi/gr-01-037-9x16.png",
-  "sha256_9x16": "6fb38dac1fd0c3123b14cbd32373162ddd4d92f6cd922856d6e838c20dbcde77",
+  "sha256_9x16": "b06580c0a08c690504613f091185c4e4fd2d2cfaaea1daf95a8f4b456c7e5da2",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:50Z",

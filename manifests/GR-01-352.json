@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: 16:9 shows the long brick basilica from the west square — pitched roofs stepping down from nave to aisles, rows of arched windows, arched west portals — matching all three anchors (basilica, not a domed rotunda); the 4:5 shows the same brick basilica with its east apse, so the formats agree on subject identity. Gate 2: exact dims; on-image 'Saint Demetrios, Thessaloniki', scenario 12:45, disclosure, and signature verified; retrieval 2026-09-25T23:51:59Z unique to the second across the window; clear sky matches code 0. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T13:37:58.204653+00:00",
-  "sha256_16x9": "e3084d27c9ff76f331c3e5e611b9ed316438e5ba8cde352766b3f36caba95ae0",
-  "sha256_4x5": "ed23d31407b7ce9a910f1712e268ef864bd5555bcd78529bdc74a6e044ddc31e"
+  "sha256_16x9": "533759f677477ce83240ca9d16d7897061c8178e8d596fa10bae7a1d4fc4c55a",
+  "sha256_4x5": "c7d01eb994a3d9a299f1186d733327730a45bc7ae45ba77733db073eaa1ddc62"
 }

@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: both masters show Hydra's harbor — stone waterfront houses climbing the hill with the clock tower rising above (16:9 shows it from across the harbor with boats and historic cannons on the quay, 4:5 from within the harbor with the tower centered between stone buildings); same tower and settlement, consistent identity; clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image 'Clock Tower, Hydra', 'Scenario: 24 September 2026 · 11:15 Europe/Athens', AI disclosure and exact 'Jason D's Vision' signature verified; weather retrieval 2026-09-25T23:48:58Z unique to this scene, valid 11:15 = scenario 11:15. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: public harbor, unmarked boats and display cannons, no identifiable people or logos.",
   "approved_at": "2026-09-26T21:32:22.378752+00:00",
-  "sha256_16x9": "1a2d38e29d60bcc56b0b6f023ebdafe296fbb61af0477c033b1ef2b3d15e7598",
-  "sha256_4x5": "ff49755e3ab34d449c23e9af10f017b892e51c41c143ec9b07e17ceabff26bd3"
+  "sha256_16x9": "fad7cc7bf36c07fd9ccd8e48c37f959714d77ac325e422159eb223f75d4beb7a",
+  "sha256_4x5": "9bc6458b61b040b47a91a5a0e55ae7354a90e335d2342fc19eb327fd12053425"
 }

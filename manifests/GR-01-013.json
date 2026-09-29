@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gates 1–5 pass. Gate 1: the floodlit cylindrical White Tower on the waterfront promenade at night with lamps and the sea — recognizable Thessaloniki, clean framing; 4:5 shows the same tower from the promenade (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has White Tower, Thessaloniki, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:20Z unique to the second, scenario inside model-valid hour, code 0, 0% cloud consistent with the clear night sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
-  "sha256_16x9": "b58000fafafd6c9232b3b195920d51f6b19b67de6572f2cb90ed2a558e48cf98",
-  "sha256_4x5": "d3762b118aee607bc3d61f8c79867124a0a4b05921ad27973e05fee3d36a8736",
+  "sha256_16x9": "00a9a107f52e34e3e01f9dec6c47012323d786180197c43beb0957df36b7ae46",
+  "sha256_4x5": "2573ea91b6c8925eef97cc2a5696d24f98d795b4d1bee3292233004e70ca6d23",
   "reverted_at": "2026-09-25T12:44:33.450674+00:00",
   "qc_notes": [
     {
@@ -49,8 +49,8 @@
       "4x5": "library/world/Greece/Thessaloniki/gr-01-013-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "766f0db279bbf02d901daeb975df1ec9de25b67e80daa98dc3150197ca7a9780",
-      "4x5": "63c17bc7654fab4d05b8a448b7f1ff5a1403916e64acf7dd1e658808d5f22ccb"
+      "16x9": "b4733cd7728e757e9b8f9523c95fd94737598dcdff9007b1f1b26633180c62e6",
+      "4x5": "0cc4e8b6e06ce0190d19be12beaf251702d71aa412e625064884deb66dd88ab6"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "White Tower, Thessaloniki",
@@ -61,7 +61,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Thessaloniki/gr-01-013-9x16.png",
-  "sha256_9x16": "c7cbaacf137d3003ac99aa08591ce8bf1c1b9086fdacd93c315796de683784af",
+  "sha256_9x16": "d962daeebd42a389e8679373092f7881f1b48d0f3cc1230f10f5ff3a4378808c",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:20Z",

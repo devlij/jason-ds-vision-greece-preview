@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Byzantine cloisonné-masonry Katholikon with brick-arched windows and central dome at right, the smaller domed Theotokos church and bell tower at left, arched portico courtyard, dusk sky; caption 'Hosios Loukas Monastery, Distomo', scenario '24 September 2026 · 06:03 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:46Z unique, 06:03 inside 06:00-06:59 (clear, 12.5°C). Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "1d61a24697fa5f5dac9d4506d6ad21ec629a2fb234a340382d0d2dd1a859b37c",
-  "sha256_4x5": "0c0e4113377994d09c235f8408cd99011c9d148645151817690f8eceacaf7faa",
+  "sha256_16x9": "1ef13b38e438a45d66765c2e4650d779629cc04a7e2a2afe2d33338ce9cb6b40",
+  "sha256_4x5": "8b800a6c36d8f02cdc329e9d4dc4a2a26f6b5d1107a055429ffe4fa8c02aeb58",
   "reverted_at": "2026-09-25T12:45:37.471925+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Distomo/gr-01-034-9x16.png",
-  "sha256_9x16": "56db3e736da9e189788c5424cb3df98de3853ddc7f4511c302da2dfbac42ac86",
+  "sha256_9x16": "03269028eb4cdab276a4a3b76183000d706c1bd077c5639ec36918a464f0d2fb",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:46Z",

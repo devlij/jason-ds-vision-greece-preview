@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Trikala Fortress: crenellated stone ramparts with two square towers, a wall walk along the parapet, the town and river spread below under morning light. Caption 'Trikala Fortress, Trikala', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, 'Jason D’s Vision' verified on-image; 1920x1080/864x1080. Gate 1 pass: Byzantine fortress walls and towers match anchors, plausible viewpoint from the acropolis, clean framing. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:37Z, unique second, model-valid hour covers the 09:35 scenario. Gate 3: text-prompt-only lineage, no photo inputs reported. Gate 4: no people or logos – documented only.",
   "approved_at": "2026-09-26T14:38:25.491434+00:00",
-  "sha256_16x9": "3e003c1b0873ae7048742c02daaaf2a2539b8930ac0e4ec7a8893da3cd8be517",
-  "sha256_4x5": "7d75a8612fd92ae8bd40d12a99933199fc45b384a4e358efffbd0aec0bd2e6f3"
+  "sha256_16x9": "5a93f3da933ddcbd11fb19d0cc58b6fcb297914248777312f3e2b515b6d866ea",
+  "sha256_4x5": "405a021bb5b721ab2819d9e22608868e2128cc99ecaff9a01c2a8236b35ee80b"
 }

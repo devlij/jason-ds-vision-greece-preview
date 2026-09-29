@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gates 1–5 pass. Gate 1: the deep limestone Vikos Gorge at night from the stone-paved Oxia overlook, moonlit cliffs and starry sky — recognizable Vikos Gorge, clean framing; 4:5 shows the same gorge with the river below (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Vikos Gorge, Monodendri, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:23Z unique to the second, scenario inside model-valid hour, code 0, 0% cloud consistent with the starry sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
-  "sha256_16x9": "c2fc3280363a4e51fe491ee113fa2e970b1488797db77fc1dc6ddaf195eeba20",
-  "sha256_4x5": "8a024474cb436748c03944bb7cbeae7327f5b1487e1add8991ccd7e4a8a7fa0d",
+  "sha256_16x9": "36610271ce69c41e0018e52c052eeba325bc064022e93dd003c4ee080bd59e1c",
+  "sha256_4x5": "73db17b9205fb5bc1855097878797c6c7a1af2209d240a509a1a26e3d0803e84",
   "reverted_at": "2026-09-25T12:44:38.528958+00:00",
   "qc_notes": [
     {
@@ -49,8 +49,8 @@
       "4x5": "library/world/Greece/Monodendri/gr-01-015-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "3f4b1ce953abf039c7a96509dd14069ea840f91324da7c79b660793850f4ddb1",
-      "4x5": "2117d06db482574142aa85394c3afede6397e860cb22c1450b7e334891c35d7a"
+      "16x9": "a2da50c52832994267037288266ebef2e1522dfbc6fa99a31c9c63f05f8c4bcd",
+      "4x5": "8d2778138314b32e1b46dfa0d1ba23d4b2d7af613918fa56c678d5ec5792ef12"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Vikos Gorge, Monodendri",
@@ -61,7 +61,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Monodendri/gr-01-015-9x16.png",
-  "sha256_9x16": "94f60c179d097c67cfb4edbcf244bf420a1a0dd6fc03f6ac94298ce8b8a9bba1",
+  "sha256_9x16": "c002adbd5f28549692f4597d898548929688cdd40ffede0055910f598a10aa38",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:23Z",

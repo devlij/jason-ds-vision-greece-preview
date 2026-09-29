@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gates 1–5 pass. Gate 1: the theatre's koilon seating and round orchestra under moonlit clouds with hills behind — recognizable Epidaurus, clean framing; 4:5 shows the same koilon and orchestra (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Ancient Theatre, Epidaurus, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:13Z unique to the second, scenario inside model-valid hour, code 2, 64% cloud consistent with the clouded moonlit sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
-  "sha256_16x9": "059170dbfcae79aa229f1fe26c848baf1bb2ad7f2ad0c7218d732f062d01bc39",
-  "sha256_4x5": "557d7d4e2f3dbf80a762f22f8794fe70a270e7eeb34b9ca3dcf6b3b33b10d4e8",
+  "sha256_16x9": "a1fa3f29a18227d9eee71ec646187e13c26b05a159a71d1d4639158eb2285a87",
+  "sha256_4x5": "b13d6bfcc39692e0d34946e67a74e07af457995f51bffc8787a2d0a9d50687c4",
   "reverted_at": "2026-09-25T12:44:16.058713+00:00",
   "qc_notes": [
     {
@@ -79,8 +79,8 @@
       "4x5": "library/world/Greece/Epidaurus/gr-01-007-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "61bb7a32e684db1526239fff676207bf6cf0814bd5dcdd94115470e8e1dc8c20",
-      "4x5": "493118c6e67e6ec1f4c60e60db1b941d0293b2599dd0a6397737fef142b56c60"
+      "16x9": "92c202b83ac303d73ecbff4d2b178d0c6fe9f7e583634c3d32fa314cf30054b2",
+      "4x5": "4ad30894bff604305b41109fe310f232949300e97d80c46be25e44345a8a5887"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Ancient Theatre, Epidaurus",
@@ -91,7 +91,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Epidaurus/gr-01-007-9x16.png",
-  "sha256_9x16": "42a8cdc3c124edf41a776c869f30f59176d406103284996d370964e028b18971",
+  "sha256_9x16": "6216e9a50b3730635c60936bfb579a32b62f1b12a726b5c5a9b92f94a5745420",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:13Z",

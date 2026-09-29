@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:03Z (Sun, 27 Sep 2026 16:54:03 GMT), separate request for 38.3986, 23.7915, valid 2026-09-24T06:00 Europe/Athens, scenario 06:09 inside 06:00–06:59. Code 1 (mainly clear), cloud 17%, 14.7°C, wind 8.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 964–1053 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "7e8e1803dc6e82213319fc3f01f6ebbe77ffa0abdee3e8b130613de411633c98",
-  "sha256_4x5": "e1ea63d4b5b847b257e2e0f060903fecb4a590ad37e7da8faf9afc79302cc297",
+  "sha256_16x9": "e8a7486545c1e673ec87c78ca6b87d9addadb8cf636824bb8cfa2f405edd2346",
+  "sha256_4x5": "8b8663f14c5dd7cdfcc13b89d5a3d298e4c46240416ea1a2abc18507e6a29c60",
   "reverted_at": "2026-09-25T12:46:14.005434+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Eretria/gr-01-048-9x16.png",
-  "sha256_9x16": "f59989ccc557944879b1eedeec7d29b9d0746b53e48a57229d4a3f9854dcebc1",
+  "sha256_9x16": "64fe0fff1a8504351459ff96febc7ce9978c43307d17ea540ab53ae52f2d3944",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:03Z",

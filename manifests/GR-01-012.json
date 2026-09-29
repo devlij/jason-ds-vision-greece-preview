@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gates 1–5 pass. Gate 1: the Old Fortress headland at night with the pedimented church on the summit, viewed past the Liston arcades and lampposts from Spianada Square — recognizable Corfu, clean framing; 4:5 shows the same fortress headland with the church (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Old Fortress, Corfu, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:19Z unique to the second, scenario inside model-valid hour, code 0, 0% cloud consistent with the starry sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
-  "sha256_16x9": "7bda6240008ecad2edcb00a617cc561b0237b17a80db0e5522ec07e953273790",
-  "sha256_4x5": "073de422287bd4416a46202f689923cb3b77bce98f730e8cfab3e592ac2c0f0f",
+  "sha256_16x9": "fd5dd5574b6fd69da50d4ecad1e8df0e2a6a031a2fc68b1bb916dc21b38b3360",
+  "sha256_4x5": "5e9fd2bf92aacccb7796139d8d94f144225fd85e2145259106fb497fef392569",
   "reverted_at": "2026-09-25T12:44:30.697891+00:00",
   "qc_notes": [
     {
@@ -49,8 +49,8 @@
       "4x5": "library/world/Greece/Corfu/gr-01-012-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "61814b94a202c23d787e96bbb2c5fbf1c42946fa7124584961ca5e667dfc8236",
-      "4x5": "9e3bf13a4e730ea09163ab9f632da4c6c1e8d1b0b247b5e30ffba74aa44a6568"
+      "16x9": "403b57e41d24c4703c0b561975ee497cbc62b31ba962356b4d51eccd55be66b2",
+      "4x5": "55431594c10f4046503bc6d947a96d2f51fd908256e26f5aede92755e973f650"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Old Fortress, Corfu",
@@ -61,7 +61,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Corfu/gr-01-012-9x16.png",
-  "sha256_9x16": "2067f11bdba4c018ca3110359684870f394eb48146b5199e4250f29e8d546235",
+  "sha256_9x16": "b3a2697526a6f0e4e8f3a704bd25e87892f965690f29c3a837e8d9124a32fe98",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:19Z",

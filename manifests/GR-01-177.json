@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1 pass: 16:9 master shows the pine-covered Bourtzi peninsula rising from a rocky shoreline, crowned by the neoclassical white building with red-tiled hipped roof, viewed from the concrete breakwater quay with four old wooden fishing boats (white, blue, brown hulls) moored alongside at left and the newer port's masts faint on the horizon at right — exactly the old-port-to-newer-port composition; morning daylight, clean framing, no artifacts. Gate 2 pass: caption 'Bourtzi, Skiathos' and scenario '24 September 2026 · 09:00 Europe/Athens' exact on-image, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim, legible. Weather is a per-scene Open-Meteo retrieval 2026-09-25T23:44:55Z, unique to the second repo-wide, valid for the 09:00 model step, scenario 09:00 inside the 09:00-09:59 model hour, 2% cloud 19.7C. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos; heritage structure documented. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:38:29.127987+00:00",
-  "sha256_16x9": "36f0f084a234c66dc1c2cd4d8354d5782004ec7bfa486c6598f211f6fd02f148",
-  "sha256_4x5": "093e5a4faae3f15636202f898e21ffa2095638d5c7f286b8c457364abffc1958"
+  "sha256_16x9": "8464b5c9789b55277d8af3158a88fb924eb71dca27a83369bb63008ca170923f",
+  "sha256_4x5": "5461f70371c52bd4f5df769827c9cca8ca24bc493c3167865ab8beb1a3cc40e6"
 }

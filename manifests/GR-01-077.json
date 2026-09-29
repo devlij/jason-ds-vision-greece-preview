@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:39Z (Sun, 27 Sep 2026 16:54:39 GMT), separate request for 40.6356, 22.9367, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 0%, 13.3°C, wind 5.5 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "69897ac33c7e80755e3ba191549b5ec66b6ae5a00dce6b98af38ecc733f529d3",
-  "sha256_4x5": "05fa4c2f28e6280a5fe58a1975e3644094ec082e2c4dde956ae51fd8d429a6ee",
+  "sha256_16x9": "b7e7570196115310e9dab53e91cf036829c2d0d90740fcaf294b9e457c5c67b3",
+  "sha256_4x5": "e53fe3350406a823aa4c414809feee9b965d08f7f5c00d62b67ae16a84f22d59",
   "reverted_at": "2026-09-25T12:47:34.860644+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Thessaloniki/gr-01-077-9x16.png",
-  "sha256_9x16": "6428248ed1d20144a2addd9adff88ac0a893c0ee21911e3a44926c61872de3d9",
+  "sha256_9x16": "85f219af9f6c0c0d855ebbba248e4ed1f806fd6e1c3d2dd5b727d4b15a670fcc",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:39Z",

@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: 16:9 shows the broad circular Zea basin ringed by yachts at curved quays with the Piraeus city front behind, from an elevated promenade viewpoint; the 4:5 agrees on the same round-basin subject. Gate 2: exact 1920x1080/864x1080; on-image 'Zea Marina, Piraeus', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', and 'AI-generated artistic interpretation · Not a photograph.' bottom-left on the scrim, exact 'Jason D's Vision' bottom-right; Open-Meteo retrieval 2026-09-25T23:51:54Z unique to the second across the 340–365 build window, scenario 12:45 inside the 12:00–12:59 model-valid hour. Gate 3: claim file records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or focal logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-27T13:37:25.079057+00:00",
-  "sha256_16x9": "9c4199b144491708706c7e4874319f1c9d336476652ecc40c14bb3a34cad251c",
-  "sha256_4x5": "c7fdab26b3518aea13b7f99992fcc34b6ddb3160ded34277e407aa9ad01faa43"
+  "sha256_16x9": "2ebc6ee6b835a368fabab2eb443a71e095bf9e99664e7a85463094802ba7e5f5",
+  "sha256_4x5": "dbfcc8095fdc806e86582482197b5cd6582fcf8812d5a444118caa74851db629"
 }

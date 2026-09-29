@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gates 1-5 PASS. G1: Casa Romana, Kos — 16:9 plain masonry street wall with brick courses, eastern-side doorway, Roman tile roofline (columns only glimpsed at doorway, mosaics not the subject); 4:5 the same plain masonry wall with the entrance doorway and a column visible inside it, consistent (different wall segment of the same frontage). G2: dims exact; on-image 'Casa Romana, Kos', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible. Weather retrieval 2026-09-25T23:50:31Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
   "approved_at": "2026-09-27T01:13:09.942588+00:00",
-  "sha256_16x9": "07209362643c2cc9fc15488d288cf16d5800a2f4598c3da5c6678e828fcb7822",
-  "sha256_4x5": "1578a5faaa6c43174a748262509c9f670e645219f76288790e9c9d2ca851958f"
+  "sha256_16x9": "b9e43613a575055712f2168887660be71a57288d1d13a0e872b962d24e8e410d",
+  "sha256_4x5": "897cf4cb84397ae49f0f3db869517495d457d15d6835d28553a689642a044b09"
 }

@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: floodlit Acropolis at blue hour — the Erechtheion's Ionic east portico foreground right, the Caryatid porch (six maidens) mid-frame, the lit Parthenon behind left, city lights below; recognizable. Gate 2: caption \"Erechtheion, Athens\", scenario \"24 September 2026 · 05:53 Europe/Athens\", disclosure, exact signature on the bar; dims sweep-verified; per-scene Open-Meteo retrieval 2026-09-27T16:53:25Z unique to the second; scenario inside the 05:00–05:59 model hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: clear.",
-  "sha256_16x9": "f991e5a26a8cfaf5f4f9edf5bf255d7db36b891cada51d4a77231bce2a41d598",
-  "sha256_4x5": "d28261c3bf2480278f5e856fa159e1047b5122dfbfeb692214080cc2c0a39ad1",
+  "sha256_16x9": "0313f607c69795c6e80181c058b86cdf25bffb74ebe607f6b9266b1c2e27337b",
+  "sha256_4x5": "e82e27c11f346cb3c8f1af14a205cb4e488eebf3fd084caaef4150bc62eb3590",
   "reverted_at": "2026-09-25T12:44:47.569662+00:00",
   "qc_notes": [
     {
@@ -49,8 +49,8 @@
       "4x5": "library/world/Greece/Athens/gr-01-017-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "8c92be635c2df33d50cacaac491594a9ea24d240d2cbec5f6eb428cde4d772ae",
-      "4x5": "a808696ffee0b54e8060aeeb6716283accbde6af74886752c38c63eb5ad24de6"
+      "16x9": "03e990d78d4520f0a5d4fd0485d3cc2b0549f34818008bceca88e2719a1d50c1",
+      "4x5": "265859c46cf687f6965224d30dc274c1b05b45383f3cb670d9d343f5e679aea2"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Erechtheion, Athens",
@@ -61,7 +61,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Athens/gr-01-017-9x16.png",
-  "sha256_9x16": "49be3d8c2f5c5c6604bd097656f407ca7a9fcfd1ce6a3f7fa904ef954982bd8a",
+  "sha256_9x16": "9a307b24ea838abedb21c9e5fdd71a18384594318ef30137b20fc367d04316d8",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:25Z",

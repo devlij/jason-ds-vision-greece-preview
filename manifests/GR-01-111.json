@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
   "approval_basis": "Gate 1: the tall single stone arch of Konitsa Bridge over the Aoos, village houses on the hillside and layered dawn mountains behind. Gate 2: exact 1920x1080/864x1080; on-image caption 'Konitsa Bridge, Konitsa', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:49Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T05:38:04.071562+00:00",
-  "sha256_16x9": "b76625e7b64470cf09c744e51451652ffde2dc122e733947b2d90aae9dc97bd1",
-  "sha256_4x5": "4d5aaf51e5552beba4a4a7802589d4b8df17db3a746658edc1b1d546d052862c"
+  "sha256_16x9": "9fb346cf6307a7eb5619d7387563cb79829863e79e959b3800ef36e9e0882d36",
+  "sha256_4x5": "cbebeed0cdf9c8d34e21227e64a585499bd8b84060216b105b80e6a6021f7c4f"
 }

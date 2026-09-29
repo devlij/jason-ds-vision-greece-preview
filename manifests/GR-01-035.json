@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Approved · Cosmo QC 5/5 re-audit 2026-09-28. Mountain town of red-roofed houses with lit windows spread under the dark fir-forested Timfristos flank, pre-dawn blue sky; caption 'Karpenisi, Karpenisi', scenario '24 September 2026 · 06:05 Europe/Athens' on-image. Weather retrieval 2026-09-27T16:53:47Z unique, 06:05 inside 06:00-06:59 (mainly clear, 7.3°C). Gates: 1 pass, 2 pass, 3 text-prompt claim recorded, 4 none, 5 ready. Inter-format subject agreement verified.",
-  "sha256_16x9": "0786139eaf302092f6f48ae3639f49a76197eb5920dcaf5221d465e492ef9046",
-  "sha256_4x5": "6ad0a5c5a3d8bf54e087d3dabee19f80349abe0a54624bfdeb801587ff47d138",
+  "sha256_16x9": "ec6599143006a5fcfe18cbe1270203fa55346c3e0bb86eefc73c592271f4f176",
+  "sha256_4x5": "d38f608cd20a4fd4ed761605c1b543787f98811bc26c70dbc83a12eb856be878",
   "reverted_at": "2026-09-25T12:45:40.123814+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Karpenisi/gr-01-035-9x16.png",
-  "sha256_9x16": "e0986f12ecd1b28318139e95adab450b52c728e14250b111b91f9282129f63b7",
+  "sha256_9x16": "4d40cd026c77f7905ae33086762c76b92b34b7cca6384fc87cf869247f8825e3",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:47Z",

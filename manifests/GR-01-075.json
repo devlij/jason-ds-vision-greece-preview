@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:37Z (Sun, 27 Sep 2026 16:54:37 GMT), separate request for 40.3265, 23.9813, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 0%, 16.4°C, wind 7.6 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "8c050c0672797ff1fcb37c2e4c7776c5d8ab17e0e87fbc0a14ed8fdcb2f75563",
-  "sha256_4x5": "88776a71fc0378d0967bb752739e7b476e18a339a369f16e587d4f2846af79ee",
+  "sha256_16x9": "197a78f25e56fd67a5ac585837a043034b0cf9bdbffeecfdb2c24e94d7cd35d4",
+  "sha256_4x5": "b3585528180ac7da7720f23751db5f3c8c173c87bfddc7904a74713cebaeb742",
   "reverted_at": "2026-09-25T12:47:29.831900+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Ouranoupoli/gr-01-075-9x16.png",
-  "sha256_9x16": "8107539d16f3b775832a1ec50e48793a5f6ef070f35fea61b44e3d971aff17b8",
+  "sha256_9x16": "1f7b11658a540e2921f24125311f3f0115b5ba3427be873d09ec21c86ef4a3ce",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:37Z",

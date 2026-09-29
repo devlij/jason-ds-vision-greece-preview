@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: 16:9 shows the square stone hall with hemispherical dome, single minaret beside it, and the iron-railed tomb enclosure in the walled court with the lake beyond the wall — matching all three anchors; the 4:5 agrees on the hall+dome+minaret+tomb subject. Gate 2: exact dims; on-image 'Its Kale, Ioannina', scenario 12:45, disclosure, and signature verified; retrieval 2026-09-25T23:51:58Z unique to the second across the window; clear sky matches code 0. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T13:37:51.386841+00:00",
-  "sha256_16x9": "d0a1d64feea3d105ad8ef4c9b89c7e8e39f0d7d1e599d85b3f88904218e4ebe0",
-  "sha256_4x5": "7672cd860fffb12303af478916ecc43f353d452e9cdf5aebeb1fec190f9d29aa"
+  "sha256_16x9": "1d132af0e31d1bfca20d14b9949c85d225f703a96ac2289914ba8e0365da9153",
+  "sha256_4x5": "4d0aea51ff2a589e667ff0017111d925bfc6b9ffa3b99f539243a900866812b1"
 }

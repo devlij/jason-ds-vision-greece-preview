@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: 16:9 shows Skala's working harbor — moored fishing boats in the foreground, stone quay sweeping right, low white houses lining the waterfront, and the fortified Monastery of St. John as a large stone fortress on the hill above Chora kept correctly distant; 4:5 gives a quay-level view of the same arrangement with town and monastery hill behind the boats; clear morning sky matches the 08:15 clear-sky model. Gate 2: exact 1920x1080 / 864x1080 (sweep-verified); on-image strings verified: 'Skala Harbor, Patmos', 'Scenario: 24 September 2026 · 08:15 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature on the bottom gradient; 08:15 inside model-valid hour 08:00–08:59 from per-scene unique Open-Meteo retrieval 2026-09-25T23:44:29Z (cross-checked against the authoritative repo note). Gate 3: text-prompt-only, no photographic input. Gate 4: no prominent identifiable people or focal logos — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:40:55.612628+00:00",
-  "sha256_16x9": "3d84f613c41d5947526e88e58b6fa98be70593810167c14af5915bc755d536a5",
-  "sha256_4x5": "76556b15a796318e5993cbc7b6163a2effc78487f5337a97d496e89276604dae"
+  "sha256_16x9": "2994f9da96ef90aee503337136d93e0d0f8d7c38c098e53e681b166337777e5a",
+  "sha256_4x5": "65ce1ff1b4d9089fc50a0bce27dff7452d4868c690ea2a64c9d3fecfbaa739c1"
 }

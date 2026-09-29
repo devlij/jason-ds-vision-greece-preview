@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gates 1–5 pass. Gate 1: the Evans-reconstruction palace at night with the distinctive red tapered Minoan columns and the Grand Staircase under moonlit clouds — recognizable Knossos, clean framing; 4:5 shows the same red columns and staircase (subject agreement). Gate 2: 1920×1270 / 864×1270 exact; label bar has Knossos, Heraklion, scenario 24 September 2026 · 03:19 Europe/Athens, AI disclosure, exact Jason D's Vision + Jason A. Devlin; retrieval 2026-09-27T16:53:16Z unique to the second, scenario inside model-valid hour, code 2, 55% cloud consistent with the clouded sky. Gate 3: text-prompt-only. Gate 4: no identifiable people or focal logos.",
-  "sha256_16x9": "22148d5e806b1180e5e6e401575cfeb5352e9454a56fa9798795a190906ec885",
-  "sha256_4x5": "0d857c64407ee7798abc8e5e7246660c3f5ce3a97d3b76fb0acf4005fe57aa69",
+  "sha256_16x9": "f3b50953e1781a3e6cab61d2c1cba62de8aff34559e5d7dce5e10573343fa8bb",
+  "sha256_4x5": "cf3604730e2f56918e384fcefffb171e48989252381200451ff23e6a4c2d998e",
   "reverted_at": "2026-09-25T12:44:23.745958+00:00",
   "qc_notes": [
     {
@@ -79,8 +79,8 @@
       "4x5": "library/world/Greece/Heraklion/gr-01-010-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "95df779a444bc3a3c131ed9588bc107ee1121ed3506595a023d04344f2d84c27",
-      "4x5": "7531a089d1788a98e157550cdf31bbb752806e2385a0b1467466f1d3d71e8169"
+      "16x9": "92bad8238887f74c23cab7a1fbbda8e8952866c433d865fafe11341e37378657",
+      "4x5": "dbbcf03e9016efb3b1f2a28aa7e5a5ec83ff006d084770817337fdcddeb88d2c"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Knossos, Heraklion",
@@ -91,7 +91,7 @@
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
   },
   "file_9x16": "library/world/Greece/Heraklion/gr-01-010-9x16.png",
-  "sha256_9x16": "806482de584f2df6cd1c2ecc878cb8cc6d5705e44600baee15f31ab5a18addc3",
+  "sha256_9x16": "d5cc31d66c2a39e70bb5242c60433dd3af01f00205f6f51a6871795e5c7f5d33",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:53:16Z",
