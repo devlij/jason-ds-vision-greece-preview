@@ -28,6 +28,11 @@
       "at": "2026-09-27T16:55:00Z",
       "by": "builder",
       "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:14Z unique to the second; scenario 06:24 inside the model-valid hour; code 0, cloud 51%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
+    },
+    {
+      "at": "2026-09-29T12:46:12.567833+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 hold (Cosmo QC): the legacy caption 'Temple of Apollo, Corinth' and 'Jason D's Vision' are still baked over the photo area ABOVE the 190px label bar — the 2026-09-29 re-finish did not lift the old text off the artwork. Also check the standing Doric column count against the card's geometry anchors before re-finishing (the master shows 8 standing columns; the anchors record the site's surviving count). Gate 1 composition is the classic Corinth view with Acrocorinth behind. Rework: re-finish with a clean photo area (zero text over the artwork), then append a new note recording the re-finish."
     }
   ],
   "file_9x16": "library/world/Greece/Corinth/gr-01-057-9x16.png",
