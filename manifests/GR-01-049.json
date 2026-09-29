@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Mystras/gr-01-049-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:04Z (Sun, 27 Sep 2026 16:54:04 GMT), separate request for 37.074, 22.367, valid 2026-09-24T06:15 Europe/Athens, scenario 06:21 inside 06:00–06:59. Code 1 (mainly clear), cloud 49%, 11.3°C, wind 3.5 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 927–1031 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Dawn",
+  "approval_basis": "Gate 1: Byzantine fortress citadel on the crag top with ruined palace arcade mid-slope, red-domed churches and cypresses terracing below in blue-grey dawn — recognizably Mystras. Gate 2: dims exact per sweep; 190px label bar exact with caption 'Mystras, Mystras', scenario '24 September 2026 · 06:21 Europe/Athens', AI disclosure and signature; photo area clean. Per-scene Open-Meteo retrieval 2026-09-27T16:54:04Z, unique to the second; code 1/cloud 49% matches the overcast dawn. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, logos, or private property visible. Gate 5: no open blockers.",
   "sha256_16x9": "bce702e85a47219ac9c0a5053dd79fc8b6a69c4474a53d416d54fb8f4e865204",
   "sha256_4x5": "f812af5e9f297f3c646f3323f420a85eeadc369ffbf6d12b4befc7f68389a1a3",
   "reverted_at": "2026-09-25T12:46:20.446252+00:00",
@@ -56,5 +56,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:04Z, valid 2026-09-24T06:15 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-09-29T12:45:07.763564+00:00"
 }
