@@ -28,6 +28,11 @@
       "at": "2026-09-27T16:55:00Z",
       "by": "builder",
       "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:32Z unique to the second; scenario 06:52 inside the model-valid hour; code 0, cloud 0%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
+    },
+    {
+      "at": "2026-09-30T01:09:19.764431+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 hold — Cosmo QC 2026-09-29: legacy caption + \"Jason D's Vision\" signature baked over the photo area above the label bar (text over park). Gate 1 plausible. Needs builder re-finish to the label-bar-only standard; hold until the photo area is text-free."
     }
   ],
   "file_9x16": "library/world/Greece/Thessaloniki/gr-01-071-9x16.png",
