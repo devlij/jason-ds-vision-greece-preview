@@ -17,5 +17,14 @@
   "approval_basis": "Gate 1: the three stone arches of Plakidas Bridge spanning a rocky ravine stream, dense woodland and dawn sky, cobbled approach path. Gate 2: exact 1920x1080/864x1080; on-image caption 'Plakidas Bridge, Kipoi', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:39Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T05:36:24.971758+00:00",
   "sha256_16x9": "c358125473170605f06bd0c709086de562db6bdf408d11816cda133e9469b96d",
-  "sha256_4x5": "50af802520e80eadf937ea29ae47d89326be44cf9af14089a90bf1fe3d42a600"
+  "sha256_4x5": "50af802520e80eadf937ea29ae47d89326be44cf9af14089a90bf1fe3d42a600",
+  "file_9x16": "library/world/Greece/Kipoi/gr-01-101-9x16.png",
+  "sha256_9x16": "760832b63ea257aa031645d44285064884e6543ce7ca1887aae7019de3117268",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T17:45:00Z",
+      "by": "builder",
+      "note": "9:16 Candidate master added 2026-09-30 from the final 16:9 photo area (window x=656px, 608×1080, scaled to 1080×1920) with the 190px #0e0e12 label bar under the photo (1080×2110). Art. 50 disclosure embedded 2026-09-30. Portrait format is Candidate. This note is not Cosmo QC and does not change approval_status."
+    }
+  ]
 }

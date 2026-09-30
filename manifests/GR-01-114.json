@@ -17,5 +17,14 @@
   "approval_basis": "Gate 1: whitewashed monastery with terracotta roofs and a small bell gable on a wooded promontory, cypresses around the buildings, two sheltered coves below separated by a rocky headland, sunrise over the sea — matches the gate-lookout camera point and geometry anchors. Gate 2: 1920x1080 + 864x1080 verified; on-image 'Paleokastritsa Monastery, Corfu', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right; per-scene Open-Meteo retrieval 2026-09-25T23:43:52Z (unique repo-wide), model clear with a bright sunrise sky in frame. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, no logos — documented, commercial call is Jason's.",
   "approved_at": "2026-09-26T06:42:24.504512+00:00",
   "sha256_16x9": "f132878b5b3a871d03d2f0f5217526d1f2b74f0c6fd06a0629c6b171f976e350",
-  "sha256_4x5": "fb5cdee2724855ceeddea2a9ad45287f4600cbbadb4669c250a1ec1d707b01a0"
+  "sha256_4x5": "fb5cdee2724855ceeddea2a9ad45287f4600cbbadb4669c250a1ec1d707b01a0",
+  "file_9x16": "library/world/Greece/Corfu/gr-01-114-9x16.png",
+  "sha256_9x16": "9eadf926bfde86dacccaf0cebb290bd1ff4b9473fd189bef5aaadf475146f9d4",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T17:45:00Z",
+      "by": "builder",
+      "note": "9:16 Candidate master added 2026-09-30 from the final 16:9 photo area (window x=656px, 608×1080, scaled to 1080×1920) with the 190px #0e0e12 label bar under the photo (1080×2110). Art. 50 disclosure embedded 2026-09-30. Portrait format is Candidate. This note is not Cosmo QC and does not change approval_status."
+    }
+  ]
 }

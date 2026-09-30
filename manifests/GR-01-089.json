@@ -17,5 +17,14 @@
   "approval_basis": "Gates 1-5 pass. Gate 1: Dadia Forest at pre-dawn — small white cabin with lit porch lamp beside a dirt track curving into dense oak forest, forested hills, broken cloud with dawn glow on the horizon; plausible reserve-track viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Dadia Forest, Dadia', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T23:43:27Z verified unique across all 365 repo notes; model-valid hour covers 06:59; 45% cloud / 8.8C matches the broken cloud. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only.",
   "approved_at": "2026-09-26T04:44:10.870384+00:00",
   "sha256_16x9": "72af968dfa0a462bfabec6e03f10e2a0b8b2e22086776cf6bd3c9cc17f4079fd",
-  "sha256_4x5": "9531d1529b376a6c0c54ebedd6a239adea8977d77c066af5119ff8195ff831c3"
+  "sha256_4x5": "9531d1529b376a6c0c54ebedd6a239adea8977d77c066af5119ff8195ff831c3",
+  "file_9x16": "library/world/Greece/Dadia/gr-01-089-9x16.png",
+  "sha256_9x16": "123212b3dbd372397eb3ba38ce14ad94f7242b7c5eed807264960fd8ad8f9c03",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T17:45:00Z",
+      "by": "builder",
+      "note": "9:16 Candidate master added 2026-09-30 from the final 16:9 photo area (window x=656px, 608×1080, scaled to 1080×1920) with the 190px #0e0e12 label bar under the photo (1080×2110). Art. 50 disclosure embedded 2026-09-30. Portrait format is Candidate. This note is not Cosmo QC and does not change approval_status."
+    }
+  ]
 }

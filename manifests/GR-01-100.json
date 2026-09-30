@@ -17,5 +17,14 @@
   "approval_basis": "Gate 1: ruined hilltop castle walls above the amphitheatrical tiled town of Parga, lamplit harbor front and small fishing boats on a calm dawn cove. Gate 2: exact 1920x1080/864x1080; on-image caption 'Parga Castle, Parga', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:38Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T05:36:20.934812+00:00",
   "sha256_16x9": "5e56bf46ddf81f17b5838d6daa5a75d95b845891197694fa52854803c0063a97",
-  "sha256_4x5": "4e39eed7427f51048f5c90e3c822656f9b3e3653d31130ab021db7c297155922"
+  "sha256_4x5": "4e39eed7427f51048f5c90e3c822656f9b3e3653d31130ab021db7c297155922",
+  "file_9x16": "library/world/Greece/Parga/gr-01-100-9x16.png",
+  "sha256_9x16": "886ca8961092ba81d2128b5e0e874b7d6d0f5d7ef34ac42050d8eac46da3ced1",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T17:45:00Z",
+      "by": "builder",
+      "note": "9:16 Candidate master added 2026-09-30 from the final 16:9 photo area (window x=656px, 608×1080, scaled to 1080×1920) with the 190px #0e0e12 label bar under the photo (1080×2110). Art. 50 disclosure embedded 2026-09-30. Portrait format is Candidate. This note is not Cosmo QC and does not change approval_status."
+    }
+  ]
 }

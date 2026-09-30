@@ -17,5 +17,14 @@
   "approval_basis": "Gates 1-5 pass. Gate 1: Nestos Gorge at pre-dawn — elevated roadside view over the river winding through steep forested slopes, the riverside railway with a tunnel portal on the right bank, heavy overcast with a dawn glow band on the horizon; viewpoint matches the note's roadside-between-Stavroupoli-and-Galani claim (not the 891 m Thea overlook), clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Nestos Gorge, Nestos', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T23:43:32Z verified unique across all 365 repo notes; model-valid hour covers 06:59; 73% cloud / 8.5C matches the overcast sky. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only.",
   "approved_at": "2026-09-26T04:44:33.064577+00:00",
   "sha256_16x9": "70057fc044bd2e2b2dbee6d0b968e423391e12c73abbd6370eff257c092ef23e",
-  "sha256_4x5": "9af18fa6035cafda44d1124244d9be5a63cf07c14e96b2ee4e10b9dd2f371261"
+  "sha256_4x5": "9af18fa6035cafda44d1124244d9be5a63cf07c14e96b2ee4e10b9dd2f371261",
+  "file_9x16": "library/world/Greece/Nestos/gr-01-094-9x16.png",
+  "sha256_9x16": "a89978b0f00cc044a74e94fb168114da32bc66e685ccad3326fa56c9585676e0",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T17:45:00Z",
+      "by": "builder",
+      "note": "9:16 Candidate master added 2026-09-30 from the final 16:9 photo area (window x=656px, 608×1080, scaled to 1080×1920) with the 190px #0e0e12 label bar under the photo (1080×2110). Art. 50 disclosure embedded 2026-09-30. Portrait format is Candidate. This note is not Cosmo QC and does not change approval_status."
+    }
+  ]
 }
