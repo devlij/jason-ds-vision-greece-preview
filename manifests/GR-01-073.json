@@ -28,6 +28,11 @@
       "at": "2026-09-27T16:55:00Z",
       "by": "builder",
       "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:34Z unique to the second; scenario 06:52 inside the model-valid hour; code 0, cloud 0%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
+    },
+    {
+      "at": "2026-09-30T02:43:55.074935+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 hold (Cosmo QC): the 16:9 master's photo area still carries the full legacy caption 'Ancient Pella, Pella' (bottom-left) and 'Jason D's Vision' (bottom-right) baked over the photo above the 190px label bar — the same cohort defect as GR-01-052-071 — and the 4:5 master's photo area carries legacy text fragments at its bottom edge just above the label bar (partial disclosure glyphs, confirmed on the enlarged bottom-strip of the current gr-01-073-4x5.png). The 9:16 photo area is clean and the label-bar text itself is correct ('Ancient Pella, Pella' / 'Scenario: 24 September 2026 · 06:52 Europe/Athens' / disclosure + signature). Gate 1 is plausible (stone-walled ruined quarter, standing columns, hilltop building on the horizon, pre-dawn light). Weather evidence is sound — per-scene Open-Meteo retrieval 2026-09-27T16:54:34Z, unique to the second, scenario 06:52 inside the 06:00-06:59 model-valid hour, code 0, cloud 0%. Rework: re-finish the 16:9 and 4:5 with a clean photo area (zero text over the artwork; the label bar stays the only finish), then append a new note recording the re-finish."
     }
   ],
   "file_9x16": "library/world/Greece/Pella/gr-01-073-9x16.png",
