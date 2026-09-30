@@ -182,6 +182,7 @@ Rules: `country` is exactly "Greece". `region` is the Greek region / island grou
 Build your own preview page mirroring the canonical gallery's structure:
 
 - **Top pointer** (exact copy): "Every image is free to use — no credit required. See license below." (link → `#license`)
+- **Home** (first header switcher item, before the country links): `<a class="home-link" href="https://jdvision.org/">&#8962; Home</a>` then the switcher's separator. The only added rule is `.home-link{font-weight:700}`. It lives in `tools/gallery_shell.html` and in the Phase-1 preserve list, so a rebuild cannot drop it.
 - **Country switcher** (in the header, under the title, from day one): the current page marked as current, linking to the sibling galleries —
   `Greece | Germany | Italy | Spain | France`, where Germany → https://devlij.github.io/jason-ds-vision-germany/, Italy → https://devlij.github.io/jason-ds-vision-italy-preview/, Spain → https://devlij.github.io/Spain/, France → https://devlij.github.io/jason-ds-vision-france-preview/
 - **Promise section** (exact copy): heading "Our promise to creators"; body "Beautiful, realistic imagery should never stand between a creator and their work. Everything in this gallery is free to use — for any purpose, forever, with no credit required. We make these images so the people doing the work always have something stunning to build on."; link "Read the full license" → `#license`.

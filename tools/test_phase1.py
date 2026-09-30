@@ -117,6 +117,9 @@ def main() -> None:
     # Identity that must survive a rebuild.
     for token in (
         "G-PDJ4WSS725",
+        'class="home-link" href="https://jdvision.org/"',
+        ".home-link{font-weight:700}",
+        "&#8962; Home",
         "Free · no credit needed",
         "Download 16:9",
         "Download 4:5",
