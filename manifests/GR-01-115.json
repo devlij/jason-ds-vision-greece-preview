@@ -17,5 +17,14 @@
   "approval_basis": "Gate 1: bright white pebble crescent between two steep vegetated slopes, turquoise shallows deepening to blue water, stone road-edge parapet in the right foreground, no buildings on the beach — the classic signed-overlook composition of Myrtos, matching the camera point and geometry anchors. Gate 2: 1920x1080 + 864x1080 verified; on-image 'Myrtos Beach, Kefalonia', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right; per-scene Open-Meteo retrieval 2026-09-25T23:43:53Z (unique repo-wide), model weather code 2 / 47% cloud matches the depicted scattered-cloud morning. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, no logos — documented, commercial call is Jason's.",
   "approved_at": "2026-09-26T06:42:38.055649+00:00",
   "sha256_16x9": "93a0f13aedc9675ebcdbf1deae485489316bc9678b8f7c79c31f4717da530aee",
-  "sha256_4x5": "3fe48d207bb604da9cc138e2c8bc98e3b8d159bc335b4f84d999de8e1aefe741"
+  "sha256_4x5": "3fe48d207bb604da9cc138e2c8bc98e3b8d159bc335b4f84d999de8e1aefe741",
+  "file_9x16": "library/world/Greece/Kefalonia/gr-01-115-9x16.png",
+  "sha256_9x16": "612a1a651e76b10973e75255ca195d553867c9a56cb064d7d701c24b2833e85b",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T17:45:00Z",
+      "by": "builder",
+      "note": "9:16 Candidate master added 2026-09-30 from the final 16:9 photo area (window x=656px, 608×1080, scaled to 1080×1920) with the 190px #0e0e12 label bar under the photo (1080×2110). Art. 50 disclosure embedded 2026-09-30. Portrait format is Candidate. This note is not Cosmo QC and does not change approval_status."
+    }
+  ]
 }

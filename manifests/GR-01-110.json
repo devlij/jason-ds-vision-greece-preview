@@ -17,5 +17,14 @@
   "approval_basis": "Gate 1: village quay with fishing boats, whitewashed and stone houses, pine-covered cove headlands and a small islet, dawn pastel sky. Gate 2: exact 1920x1080/864x1080; on-image caption 'Sivota Harbor, Sivota', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:48Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T05:37:59.678746+00:00",
   "sha256_16x9": "d6f6e8240c24241ed9a88e87911211e9e50fed10fc508e52a2f346e115ae1845",
-  "sha256_4x5": "1467dccebc170ef0979fd7f12fbb1cde83db3355d0663aacc79b2d9adae6eeb7"
+  "sha256_4x5": "1467dccebc170ef0979fd7f12fbb1cde83db3355d0663aacc79b2d9adae6eeb7",
+  "file_9x16": "library/world/Greece/Sivota/gr-01-110-9x16.png",
+  "sha256_9x16": "625acda30e9f9495b2bbccdfe7839a851a1715d142aa31e4740432e31d10ab71",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T17:45:00Z",
+      "by": "builder",
+      "note": "9:16 Candidate master added 2026-09-30 from the final 16:9 photo area (window x=656px, 608×1080, scaled to 1080×1920) with the 190px #0e0e12 label bar under the photo (1080×2110). Art. 50 disclosure embedded 2026-09-30. Portrait format is Candidate. This note is not Cosmo QC and does not change approval_status."
+    }
+  ]
 }

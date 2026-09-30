@@ -17,5 +17,14 @@
   "approval_basis": "Gate 1: underground lake with the debris islet left by the roof collapse, a large oval opening in the chamber ceiling, a wooden pier with a moored rowboat, no tour group — matches the visitor-pier camera point and geometry anchors; soft daylight from the opening with no invented noon sun shaft. Gate 2: 1920x1080 + 864x1080 verified; on-image 'Melissani Cave, Kefalonia', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right; per-scene Open-Meteo retrieval 2026-09-25T23:43:54Z (unique repo-wide), model mainly-clear consistent with the soft daylight in the chamber. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, no logos — documented, commercial call is Jason's.",
   "approved_at": "2026-09-26T06:42:54.905903+00:00",
   "sha256_16x9": "7b95398989060fc52ed535e8667ffcd58a97c93c69c9ebdca8d5e783166058fd",
-  "sha256_4x5": "6f4fff20abf2ce8e24273001ccecc7f6ce673fa7f20f91ae98cb898f017e79a1"
+  "sha256_4x5": "6f4fff20abf2ce8e24273001ccecc7f6ce673fa7f20f91ae98cb898f017e79a1",
+  "file_9x16": "library/world/Greece/Kefalonia/gr-01-116-9x16.png",
+  "sha256_9x16": "3d6a7eec00353b08384875ae8fd4159667c54a0de9886b43f64f465e6b43b782",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T17:45:00Z",
+      "by": "builder",
+      "note": "9:16 Candidate master added 2026-09-30 from the final 16:9 photo area (window x=656px, 608×1080, scaled to 1080×1920) with the 190px #0e0e12 label bar under the photo (1080×2110). Art. 50 disclosure embedded 2026-09-30. Portrait format is Candidate. This note is not Cosmo QC and does not change approval_status."
+    }
+  ]
 }

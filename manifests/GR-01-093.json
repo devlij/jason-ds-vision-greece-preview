@@ -17,5 +17,14 @@
   "approval_basis": "Gates 1-5 pass. Gate 1: Limenas harbor, Thasos at pre-dawn — ancient quay ruins with a round tholos in the foreground, three fishing boats moored, lit waterfront neoclassical buildings, the ancient theater carved into the hill behind the town, pink dawn band over the sea; plausible harbor viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims; on-image caption 'Limenas Harbor, Thasos', scenario '24 September 2026 · 06:59 Europe/Athens', disclosure and exact 'Jason D's Vision' signature legible on bottom gradient scrim. Open-Meteo retrieval 2026-09-25T23:43:31Z verified unique across all 365 repo notes; model-valid hour covers 06:59; 53% cloud / 16.7C matches the partly cloudy sky. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no identifiable people, no logos; documented only.",
   "approved_at": "2026-09-26T04:44:28.767067+00:00",
   "sha256_16x9": "e6ab213090c2c8e7ba92219207233b540799bccf2ee564938d2281cfc08bca6a",
-  "sha256_4x5": "17d4679f3bb19956192fa048f505e55315ae1db8e91297cd2e48ae55215d6baa"
+  "sha256_4x5": "17d4679f3bb19956192fa048f505e55315ae1db8e91297cd2e48ae55215d6baa",
+  "file_9x16": "library/world/Greece/Thasos/gr-01-093-9x16.png",
+  "sha256_9x16": "64530b9ebc0c647673fa1d0d676aaa0680c4358e835f2eef61965568ce5a1b22",
+  "qc_notes": [
+    {
+      "at": "2026-09-30T17:45:00Z",
+      "by": "builder",
+      "note": "9:16 Candidate master added 2026-09-30 from the final 16:9 photo area (window x=1080px, 608×1080, scaled to 1080×1920) with the 190px #0e0e12 label bar under the photo (1080×2110). Art. 50 disclosure embedded 2026-09-30. Portrait format is Candidate. This note is not Cosmo QC and does not change approval_status. Center crop dropped the ancient theater on the hill. Window shifted right to x=1080 so the theater stays with the harbor and the agora ruins."
+    }
+  ]
 }
