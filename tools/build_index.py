@@ -82,6 +82,9 @@ PHASE1_MARKERS = (
     "card.id = s.entry_id",
     "phase1Enhance",
     "G-PDJ4WSS725",
+    'class="home-link" href="https://jdvision.org/"',
+    ".home-link{font-weight:700}",
+    "&#8962; Home",
     'class="badge"',
     "Download 16:9",
     "Download 4:5",
@@ -248,13 +251,60 @@ def related_ids(meta: dict, entry_id: str, limit: int = 4) -> list[str]:
     return [oid for _, _, oid in scored[:limit]]
 
 
+HOME_LINK = '<a class="home-link" href="https://jdvision.org/">&#8962; Home</a>'
+HOME_CSS = ".home-link{font-weight:700}"
+_HOME_SEP = '<span class="sep" aria-hidden="true">|</span>'
+_HOME_CSS_ANCHORS = (
+    "    .country-switch a {\n      color: var(--accent);\n      text-decoration: none;\n    }\n",
+    ".country-switch a { color: var(--accent); text-decoration: none; }\n",
+)
+
+
+def apply_home_link(html: str) -> str:
+    """Keep the hub Home link first in the country switcher.
+
+    Rebuilds re-apply this so a later publish cannot drop the nav chrome.
+    The link inherits .country-switch a color; only font-weight is added.
+    """
+    if HOME_CSS not in html:
+        placed = False
+        for anchor in _HOME_CSS_ANCHORS:
+            if anchor in html:
+                html = html.replace(anchor, anchor + "    " + HOME_CSS + "\n", 1)
+                placed = True
+                break
+        if not placed:
+            raise SystemExit("country-switch link rule missing; refusing to publish")
+    open_tag = '<nav class="country-switch" aria-label="Country galleries">'
+    start = html.find(open_tag)
+    if start < 0:
+        raise SystemExit("country switcher missing")
+    end = html.find("</nav>", start)
+    if end < 0:
+        raise SystemExit("country switcher unclosed")
+    body = html[start + len(open_tag):end]
+    if body.lstrip().startswith(HOME_LINK):
+        return html
+    body = body.replace(HOME_LINK, "")
+    if body.startswith("\n"):
+        indent = ""
+        i = 1
+        while i < len(body) and body[i] in " \t":
+            indent += body[i]
+            i += 1
+        body = "\n" + indent + HOME_LINK + "\n" + indent + _HOME_SEP + body
+    else:
+        body = HOME_LINK + _HOME_SEP + body
+    return html[:start] + open_tag + body + html[end:]
+
+
 def render_html(scenes: list[dict], meta: dict) -> str:
     shell = SHELL.read_text(encoding="utf-8")
     if shell.count("__SCENES__") != 1 or shell.count("__GREECE_META__") != 1:
         raise SystemExit("gallery shell must contain each placeholder once")
     scenes_json = json.dumps(scenes, ensure_ascii=False, indent=2)
     meta_json = json.dumps(meta, ensure_ascii=False, separators=(", ", ": "))
-    html = shell.replace("__SCENES__", scenes_json).replace("__GREECE_META__", meta_json)
+    html = apply_home_link(shell.replace("__SCENES__", scenes_json).replace("__GREECE_META__", meta_json))
     if "__SCENES__" in html or "__GREECE_META__" in html:
         raise SystemExit("placeholder left in index.html")
     if "dataset.src45" in html or "dataset.src16" in html:

@@ -117,6 +117,9 @@ def main() -> None:
     # Identity that must survive a rebuild.
     for token in (
         "G-PDJ4WSS725",
+        'class="home-link" href="https://jdvision.org/"',
+        ".home-link{font-weight:700}",
+        "&#8962; Home",
         "Free · no credit needed",
         "Download 16:9",
         "Download 4:5",
@@ -131,6 +134,25 @@ def main() -> None:
             raise SystemExit(f"identity marker missing: {token}")
     if "dataset.src45" in html or "dataset.src16" in html:
         raise SystemExit("dataset.src accessor returned")
+    open_tag = '<nav class="country-switch" aria-label="Country galleries">'
+    nav_body = html.split(open_tag, 1)[1].split("</nav>", 1)[0]
+    if not nav_body.lstrip().startswith('<a class="home-link" href="https://jdvision.org/">&#8962; Home</a>'):
+        raise SystemExit("Home is not the first switcher item")
+    if "https://jdvision.org/?" in html or 'href="https://jdvision.org"' in html.replace('href="https://jdvision.org/"', ""):
+        raise SystemExit("Home href is not exactly https://jdvision.org/")
+    stripped = (TOOLS / "gallery_shell.html").read_text(encoding="utf-8")
+    stripped = stripped.replace(build.HOME_LINK + build._HOME_SEP, "").replace("    " + build.HOME_CSS + "\n", "")
+    if build.HOME_LINK in stripped or build.HOME_CSS in stripped:
+        raise SystemExit("failed to strip Home from the shell fixture")
+    restored = build.apply_home_link(stripped.replace("__SCENES__", "[]").replace("__GREECE_META__", "{}"))
+    restored_nav = restored.split(open_tag, 1)[1].split("</nav>", 1)[0]
+    if not restored_nav.lstrip().startswith(build.HOME_LINK):
+        raise SystemExit("rebuild did not restore Home as the first switcher item")
+    if build.HOME_CSS not in restored:
+        raise SystemExit("rebuild did not restore .home-link weight")
+    again = build.apply_home_link(restored)
+    if again != restored:
+        raise SystemExit("apply_home_link is not idempotent")
     if html.count("G-PDJ4WSS725") != 2:
         raise SystemExit("GA4 id must appear only as the loader and the config")
     if "gr-01-001-daylight-16x9.png" not in html or "gr-01-001-daylight-4x5.png" not in html:
