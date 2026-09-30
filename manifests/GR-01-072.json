@@ -13,10 +13,10 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "qc_status": "Candidate — Gate 2 label-bar re-finish 2026-09-30, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:33Z (Sun, 27 Sep 2026 16:54:33 GMT), separate request for 40.4872, 22.3169, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 0%, 9.4°C, wind 9.2 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 950–1052 on 16:9); not a new composition. Not approved.",
   "sha256_16x9": "798631e88a6083c454097d08a54bcaac4a6c61e73dc35aa9365ac985e771457f",
-  "sha256_4x5": "da611d73fba157a7f445280376ab98a394d4b86d8b195a896502bbe0ce2c12f4",
+  "sha256_4x5": "90df92b208f54b74192b36e8bbf58a9414c945e3a7a3b67ddbf4cf8a048c7395",
   "reverted_at": "2026-09-25T12:47:22.046974+00:00",
   "qc_notes": [
     {
@@ -33,6 +33,11 @@
       "at": "2026-09-30T02:43:55.074935+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold (Cosmo QC): the 4:5 master's photo area still carries legacy on-photo text fragments at the bottom edge just above the 190px label bar — partially visible 'AI-generated artistic interpretation · Not a photograph.' glyphs over the path, confirmed on the enlarged bottom-strip of the current gr-01-072-4x5.png. The 16:9 and 9:16 photo areas are clean and the label bar itself is correct ('Royal Tombs, Vergina' / 'Scenario: 24 September 2026 · 06:52 Europe/Athens' / disclosure left; 'Jason D's Vision' + 'Jason A. Devlin' signature right). Gate 1 is plausible (grassy tumulus mound, museum entrance, stone walls, lit lamp post, blue-hour sky; 4:5 shows the same subject from a closer frontal viewpoint). Weather evidence is sound — per-scene Open-Meteo retrieval 2026-09-27T16:54:33Z, unique to the second, scenario 06:52 inside the 06:00-06:59 model-valid hour, code 0, cloud 0%. Rework: re-finish the 4:5 with a clean photo area (zero text over the artwork; the label bar stays the only finish), then append a new note recording the re-finish."
+    },
+    {
+      "at": "2026-09-30T13:42:40Z",
+      "by": "builder",
+      "note": "Gate 2 label-bar re-finish 2026-09-30. Legacy disclosure fragments baked over the 4:5 photo area were lifted and that master was re-finished to a text-free photo with the 190px #0e0e12 label bar only. 16:9 and 9:16 were already clean and were not rewritten. Still Candidate. Not an approval."
     }
   ],
   "file_9x16": "library/world/Greece/Vergina/gr-01-072-9x16.png",

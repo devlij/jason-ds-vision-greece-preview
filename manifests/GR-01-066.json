@@ -13,10 +13,10 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "qc_status": "Candidate — Gate 2 label-bar re-finish 2026-09-30, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:26Z (Sun, 27 Sep 2026 16:54:26 GMT), separate request for 39.3892, 23.0025, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 0%, 13.1°C, wind 10.2 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "82b57b6b1c4067b2178cb52dbaa03e149d15adf650350605619203fe52ad0dc4",
-  "sha256_4x5": "f81406df20a4e392c836b075520d23dc2b1c45d614ae3a7188e228bf3f4e7423",
+  "sha256_16x9": "70937d46675bda908f4b8c39f3eae26cf30a38c1ed9368e844cae19c9631de9e",
+  "sha256_4x5": "4b92620f0347efb6c58cfa6d043079ddccc3c28429a290a61f1498cb4d275227",
   "reverted_at": "2026-09-25T12:47:06.564667+00:00",
   "qc_notes": [
     {
@@ -33,10 +33,15 @@
       "at": "2026-09-30T01:09:05.669330+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold — Cosmo QC 2026-09-29: legacy caption + \"Jason D's Vision\" signature baked over the photo area above the label bar (text over plaza). Gate 1 plausible. Needs builder re-finish to the label-bar-only standard; hold until the photo area is text-free."
+    },
+    {
+      "at": "2026-09-30T13:42:40Z",
+      "by": "builder",
+      "note": "Gate 2 label-bar re-finish 2026-09-30. Legacy caption and signature baked over the photo area were lifted. Masters re-finished (16x9, 4x5, 9x16) to a text-free photo with the 190px #0e0e12 label bar only, hairline divider, left site/scenario/AI disclosure and right Jason D’s Vision plus Allura Jason A. Devlin. Still Candidate. Not an approval."
     }
   ],
   "file_9x16": "library/world/Greece/Portaria/gr-01-066-9x16.png",
-  "sha256_9x16": "77e1ccd0c9b5158b505b285c61755bb973a236d9b0f6c2292d6ae79c41a9f9cd",
+  "sha256_9x16": "4ed644556a8c493247b5000cf5f24faa6d6624600ab206b04b32fb3f9aebfbea",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:26Z",
