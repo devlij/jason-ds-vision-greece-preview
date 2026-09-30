@@ -28,6 +28,11 @@
       "at": "2026-09-27T16:55:00Z",
       "by": "builder",
       "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:33Z unique to the second; scenario 06:52 inside the model-valid hour; code 0, cloud 0%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
+    },
+    {
+      "at": "2026-09-30T02:43:55.074935+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 hold (Cosmo QC): the 4:5 master's photo area still carries legacy on-photo text fragments at the bottom edge just above the 190px label bar — partially visible 'AI-generated artistic interpretation · Not a photograph.' glyphs over the path, confirmed on the enlarged bottom-strip of the current gr-01-072-4x5.png. The 16:9 and 9:16 photo areas are clean and the label bar itself is correct ('Royal Tombs, Vergina' / 'Scenario: 24 September 2026 · 06:52 Europe/Athens' / disclosure left; 'Jason D's Vision' + 'Jason A. Devlin' signature right). Gate 1 is plausible (grassy tumulus mound, museum entrance, stone walls, lit lamp post, blue-hour sky; 4:5 shows the same subject from a closer frontal viewpoint). Weather evidence is sound — per-scene Open-Meteo retrieval 2026-09-27T16:54:33Z, unique to the second, scenario 06:52 inside the 06:00-06:59 model-valid hour, code 0, cloud 0%. Rework: re-finish the 4:5 with a clean photo area (zero text over the artwork; the label bar stays the only finish), then append a new note recording the re-finish."
     }
   ],
   "file_9x16": "library/world/Greece/Vergina/gr-01-072-9x16.png",
