@@ -86,6 +86,7 @@ PHASE1_MARKERS = (
     "Download 16:9",
     "Download 4:5",
     "fmt-tab",
+    "motion-tab",
     "className='lb'",
     "#0D5EAF",
     "getAttribute('data-src-45')",
@@ -106,6 +107,20 @@ def master_exists(rel: str) -> bool:
 
 def existing_master(rel: str) -> str:
     return rel if master_exists(rel) else ""
+
+
+def motion_files(entry_id: str, file_16x9: str) -> tuple[str, str]:
+    """360° clip and poster, or empty strings when the file is not on disk.
+
+    The button is published only for a scene whose mp4 is actually present.
+    """
+    if not entry_id or not file_16x9:
+        return "", ""
+    folder = Path(file_16x9).parent.as_posix()
+    slug = entry_id.lower()
+    motion = existing_master(f"{folder}/{slug}-motion-10s-4x5.mp4")
+    poster = existing_master(f"{folder}/{slug}-motion-10s-4x5-poster.jpg")
+    return motion, poster
 
 
 def paired_daylight(raw: dict) -> tuple[str, str]:
@@ -197,6 +212,11 @@ def load_scenes(tags: dict) -> tuple[list[dict], dict, list[str]]:
         if day16 and day45:
             scene["file_16x9_day"] = day16
             scene["file_4x5_day"] = day45
+        motion, poster = motion_files(entry_id, scene.get("file_16x9") or str(raw.get("file_16x9") or ""))
+        if motion:
+            scene["file_motion_10s_4x5"] = motion
+        if poster:
+            scene["file_motion_poster"] = poster
         scenes.append(scene)
 
         stored = tags.get(entry_id) or {}
