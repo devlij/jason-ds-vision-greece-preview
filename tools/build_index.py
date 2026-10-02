@@ -27,6 +27,7 @@ PUBLIC_KEYS = (
     "country",
     "region",
     "city",
+    "category",
     "caption",
     "scenario_label",
     "composition",
@@ -90,6 +91,9 @@ PHASE1_MARKERS = (
     "#0D5EAF",
     "getAttribute('data-src-45')",
     "getAttribute('data-src-16')",
+    "data-xmas-toggle",
+    'id="christmas"',
+    "#christmas[hidden]",
 )
 
 
