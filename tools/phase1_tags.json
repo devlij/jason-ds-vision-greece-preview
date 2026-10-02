@@ -1458,5 +1458,17 @@
   "GR-01-365": {
     "daynight": "day",
     "mood": "urban,historic"
+  },
+  "GR-01-366": {
+    "daynight": "night",
+    "mood": "urban,historic"
+  },
+  "GR-01-367": {
+    "daynight": "night",
+    "mood": "urban,coastal"
+  },
+  "GR-01-368": {
+    "daynight": "night",
+    "mood": "urban,historic"
   }
 }
