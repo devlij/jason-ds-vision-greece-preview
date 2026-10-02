@@ -104,6 +104,18 @@ def main() -> None:
         raise SystemExit("a missing daylight master still published a pair")
     if build.paired_daylight({"daylight_variant": {"files": {"16x9": scenes[0]["file_16x9"]}}}) != ("", ""):
         raise SystemExit("a 16:9-only daylight variant published a pair")
+    if build.daylight_9x16({"file_9x16": scenes[0].get("file_9x16") or ""}) != "":
+        raise SystemExit("a missing daylight 9:16 sibling was published")
+    if build.daylight_9x16({
+        "file_9x16_day": "library/world/Greece/no-such-day-9x16.png",
+    }) != "":
+        raise SystemExit("a missing explicit daylight 9:16 was published")
+    for scene in scenes:
+        day916 = scene.get("file_9x16_day") or ""
+        if day916 and not build.existing_master(day916):
+            raise SystemExit(f"{scene['entry_id']} daylight 9:16 is not on disk")
+        if day916 and not day916.endswith(f"{scene['entry_id'].lower()}-daylight-9x16.png"):
+            raise SystemExit(f"unexpected daylight 9:16 path {day916}")
     for scene in scenes:
         raw = json.loads((ROOT / "manifests" / f"{scene['entry_id']}.json").read_text(encoding="utf-8"))
         if scene.get("approval_status") != raw.get("approval_status"):
@@ -135,6 +147,8 @@ def main() -> None:
         raise SystemExit("GA4 id must appear only as the loader and the config")
     if "gr-01-001-daylight-16x9.png" not in html or "gr-01-001-daylight-4x5.png" not in html:
         raise SystemExit("GR-01-001 daylight masters were not published")
+    if "data-dl-day=" not in html or "a.setAttribute('download', fileName(u))" not in html:
+        raise SystemExit("daylight toggle does not retarget download href and filename")
     if "gr-01-008-daylight" in html or "gr-01-022-daylight" in html:
         raise SystemExit("a scene without a daylight pair was given a daylight path")
     if 'class="narrate"' in html or ".mp3" in html:
