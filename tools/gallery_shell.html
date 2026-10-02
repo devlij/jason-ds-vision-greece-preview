@@ -3727,9 +3727,9 @@
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
               <a class="badge" href="${esc(s.license_anchor)}">${esc(s.license_badge)}</a>
-              ${file16 ? `<a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>` : ""}
-              ${file45 ? `<a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>` : ""}
-              ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
+              ${file16 ? `<a class="download" data-dl="16x9" data-dl-night="${esc(file16)}"${file16Day ? ` data-dl-day="${esc(file16Day)}"` : ""} href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>` : ""}
+              ${file45 ? `<a class="download" data-dl="4x5" data-dl-night="${esc(file45)}"${file45Day ? ` data-dl-day="${esc(file45Day)}"` : ""} href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>` : ""}
+              ${file916 ? `<a class="download" data-dl="9x16" data-dl-night="${esc(file916)}"${file916Day ? ` data-dl-day="${esc(file916Day)}"` : ""} href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
               
             </div>
           </div>`;
@@ -3759,8 +3759,12 @@
         dcard.querySelectorAll('a.download').forEach((a) => {
           const f = a.getAttribute('data-dl');
           const dk = f === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : f === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
-          const u = dimg && dimg.getAttribute(dk);
-          if (u) a.href = u;
+          const fromLink = isDay ? a.getAttribute('data-dl-day') : a.getAttribute('data-dl-night');
+          const u = fromLink || (dimg && dimg.getAttribute(dk));
+          if (u) {
+            a.href = u;
+            a.setAttribute('download', fileName(u));
+          }
         });
         const sc = dcard.querySelector('p.scenario');
         if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');

@@ -43,7 +43,6 @@ PUBLIC_KEYS = (
 # points a control at a missing image. Daylight is a pair: both files or neither.
 OPTIONAL_FILES = (
     ("file_9x16", "file_9x16"),
-    ("file_9x16_day", "file_9x16_day"),
 )
 
 HOUR_RE = re.compile(r"(\d{1,2}):(\d{2})")
@@ -132,6 +131,30 @@ def paired_daylight(raw: dict) -> tuple[str, str]:
     return "", ""
 
 
+def daylight_9x16(raw: dict) -> str:
+    """9:16 daylight master, only when that file is already on disk.
+
+    An explicit file_9x16_day wins, then daylight_variant.files["9x16"],
+    then the sibling of the night 9:16 named *-daylight-9x16.png.
+    A missing file is omitted. This does not create a master.
+    """
+    explicit = existing_master(str(raw.get("file_9x16_day") or ""))
+    if explicit:
+        return explicit
+    variant = raw.get("daylight_variant")
+    files = variant.get("files") if isinstance(variant, dict) else None
+    if isinstance(files, dict):
+        named = existing_master(str(files.get("9x16") or ""))
+        if named:
+            return named
+    night = str(raw.get("file_9x16") or "")
+    suffix = "-9x16.png"
+    if night.endswith(suffix):
+        sibling = night[: -len(suffix)] + "-daylight-9x16.png"
+        return existing_master(sibling)
+    return ""
+
+
 def daynight(label: str) -> str:
     """Scenario hour. 07:00–18:59 is day; every other hour is night.
 
@@ -197,6 +220,9 @@ def load_scenes(tags: dict) -> tuple[list[dict], dict, list[str]]:
         if day16 and day45:
             scene["file_16x9_day"] = day16
             scene["file_4x5_day"] = day45
+        day916 = daylight_9x16(raw)
+        if day916:
+            scene["file_9x16_day"] = day916
         scenes.append(scene)
 
         stored = tags.get(entry_id) or {}
