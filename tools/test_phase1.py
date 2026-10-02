@@ -135,6 +135,31 @@ def main() -> None:
         raise SystemExit("GA4 id must appear only as the loader and the config")
     if "gr-01-001-daylight-16x9.png" not in html or "gr-01-001-daylight-4x5.png" not in html:
         raise SystemExit("GR-01-001 daylight masters were not published")
+    by_id = {scene["entry_id"]: scene for scene in scenes}
+    pack2_motion = [
+        "GR-01-014", "GR-01-015", "GR-01-016", "GR-01-017",
+        "GR-01-018", "GR-01-019", "GR-01-020", "GR-01-021",
+    ]
+    for entry_id in pack2_motion:
+        clip = by_id[entry_id].get("file_motion_10s_4x5") or ""
+        if not clip.endswith(f"{entry_id.lower()}-motion-10s-4x5.mp4"):
+            raise SystemExit(f"{entry_id} 360 clip was not published")
+        if clip not in html:
+            raise SystemExit(f"{entry_id} 360 clip missing from the page")
+    pack1_motion = [
+        "GR-01-001", "GR-01-002", "GR-01-003", "GR-01-004", "GR-01-005",
+        "GR-01-006", "GR-01-007", "GR-01-009", "GR-01-010", "GR-01-011",
+        "GR-01-012", "GR-01-013",
+    ]
+    for entry_id in pack1_motion + ["GR-01-008", "GR-01-022"]:
+        if by_id[entry_id].get("file_motion_10s_4x5"):
+            raise SystemExit(f"{entry_id} is outside pack 2 and published a 360 clip")
+        if f"{entry_id.lower()}-motion" in html:
+            raise SystemExit(f"{entry_id} is outside pack 2 and was given a 360 path")
+    if 'class="motion-tab"' not in html or "360\\u00B0" not in html:
+        raise SystemExit("360 button wiring missing from the page")
+    if "home-link" not in html or "jdvision.org/" not in html:
+        raise SystemExit("Home link was dropped from the country switcher")
     if "gr-01-008-daylight" in html or "gr-01-022-daylight" in html:
         raise SystemExit("a scene without a daylight pair was given a daylight path")
     if 'class="narrate"' in html or ".mp3" in html:

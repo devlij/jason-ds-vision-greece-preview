@@ -87,5 +87,26 @@
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:27Z, valid 2026-09-24T05:45 Europe/Athens — not a verified on-site observation."
   },
-  "approved_at": "2026-09-28T07:58:37.797502+00:00"
+  "approved_at": "2026-09-28T07:58:37.797502+00:00",
+  "file_motion_10s_4x5": "library/world/Greece/Athens/gr-01-019-motion-10s-4x5.mp4",
+  "file_motion_poster": "library/world/Greece/Athens/gr-01-019-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-2026-10-02",
+    "pack": 2,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "locked",
+    "anchor": "library/world/Greece/Athens/gr-01-019-daylight-4x5.png",
+    "anchor_kind": "genuine-daylight 4:5 master; night master not used",
+    "label_bar_px_cropped": 190,
+    "life": "sky, foliage; architecture stays locked",
+    "pedestrians": "Left on the locked plate. A synthetic walk would invent limbs.",
+    "forbidden_method_not_used": "orbit, sweep, viewpoint interpolation, optical-flow blend, pan/zoom drift",
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge."
+  }
 }

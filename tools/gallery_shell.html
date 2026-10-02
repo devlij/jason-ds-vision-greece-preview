@@ -56,7 +56,7 @@
       font-size: 0.95rem;
       color: var(--muted);
       letter-spacing: 0.01em;
-    }
+    }.country-switch .home-link{font-weight:700}
     .country-switch a { color: var(--accent); text-decoration: none; }
     .country-switch a:hover { text-decoration: underline; }
     .country-switch [aria-current="page"] { color: var(--text); font-weight: 600; }
@@ -97,6 +97,18 @@
     .fmt-tab:hover { border-color: var(--muted); }
     .fmt-tab.is-active {
       background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
+    }
+    .motion-tab {
+      background: #243049; color: var(--text); border: 1px solid var(--line);
+      border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
+    }
+    .motion-tab:hover { border-color: var(--accent); }
+    .motion-tab.is-active {
+      background: #e8b23a; border-color: #e8b23a; color: #1a1405; font-weight: 700;
+    }
+    .thumb video.motion-clip {
+      width: 100%; height: auto; display: block; border-radius: 8px; background: #000;
+      aspect-ratio: 4 / 5; object-fit: cover;
     }
     .day-tab {
       display: inline-block; background: #243049; color: var(--text);
@@ -208,7 +220,7 @@
     <p class="pointer">Every image is free to use — no credit required. See <a href="#license">license</a> below.</p>
     <h1><span class="flag" aria-hidden="true"><svg viewBox="0 0 27 18" xmlns="http://www.w3.org/2000/svg"><rect width="27" height="18" fill="#fff"/><g fill="#0D5EAF"><rect width="27" height="2"/><rect y="4" width="27" height="2"/><rect y="8" width="27" height="2"/><rect y="12" width="27" height="2"/><rect y="16" width="27" height="2"/><rect width="10" height="10"/></g><g fill="#fff"><rect x="4" width="2" height="10"/><rect y="4" width="10" height="2"/></g></svg></span>Jason D’s Vision — Greece</h1>
     <p class="qc-count" id="qc-count"></p>
-    <nav class="country-switch" aria-label="Country galleries"><a href="https://germany.jdvision.org/"><span class="flag-chip flag-de" aria-hidden="true"></span>Germany</a><span class="sep" aria-hidden="true">|</span><a href="https://italy.jdvision.org/"><span class="flag-chip flag-it" aria-hidden="true"></span>Italy</a><span class="sep" aria-hidden="true">|</span><a href="https://france.jdvision.org/"><span class="flag-chip flag-fr" aria-hidden="true"></span>France</a><span class="sep" aria-hidden="true">|</span><span aria-current="page"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</span><span class="sep" aria-hidden="true">|</span><a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-norway-preview/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-denmark-preview/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-switzerland-preview/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a></nav>
+    <nav class="country-switch" aria-label="Country galleries"><a class="home-link" href="https://jdvision.org/">&#8962; Home</a><span class="sep" aria-hidden="true">|</span><a href="https://germany.jdvision.org/"><span class="flag-chip flag-de" aria-hidden="true"></span>Germany</a><span class="sep" aria-hidden="true">|</span><a href="https://italy.jdvision.org/"><span class="flag-chip flag-it" aria-hidden="true"></span>Italy</a><span class="sep" aria-hidden="true">|</span><a href="https://france.jdvision.org/"><span class="flag-chip flag-fr" aria-hidden="true"></span>France</a><span class="sep" aria-hidden="true">|</span><span aria-current="page"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</span><span class="sep" aria-hidden="true">|</span><a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-norway-preview/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-denmark-preview/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a><span class="sep" aria-hidden="true">|</span><a href="https://devlij.github.io/jason-ds-vision-switzerland-preview/"><span class="flag-chip flag-ch" aria-hidden="true"></span>Switzerland</a></nav>
     <p class="sub">Preview gallery · Country → Region → City · Candidate scenes until an independent QC pass</p>
   </header>
 <div class="wotd" id="wotd" lang="el">
@@ -3703,6 +3715,8 @@
         const file16Day = (s.file_16x9_day && s.file_4x5_day) ? s.file_16x9_day : "";
         const file45Day = (s.file_16x9_day && s.file_4x5_day) ? s.file_4x5_day : "";
         const file916Day = s.file_9x16_day || "";
+        const motion = s.file_motion_10s_4x5 || "";
+        const motionPoster = s.file_motion_poster || "";
         const primary = file16 || file45 || file916;
         card.innerHTML = `
           <div class="preview">
@@ -3714,6 +3728,7 @@
               ${file16 ? `<button type="button" class="fmt-tab${primary === file16 ? " is-active" : ""}" data-format="16x9" aria-pressed="${primary === file16 ? "true" : "false"}">16:9</button>` : ""}
               ${file45 ? `<button type="button" class="fmt-tab${primary === file45 ? " is-active" : ""}" data-format="4x5" aria-pressed="${primary === file45 ? "true" : "false"}">4:5</button>` : ""}
               ${file916 ? `<button type="button" class="fmt-tab${primary === file916 ? " is-active" : ""}" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
+              ${motion ? `<button type="button" class="motion-tab" data-motion="${esc(motion)}"${motionPoster ? ` data-poster="${esc(motionPoster)}"` : ""} title="Play the 360° daylight motion clip" aria-pressed="false">\u25B6 360\u00B0</button>` : ""}
             </div>
           ${file16Day ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : ""}
           <div class="card-body">
@@ -3737,12 +3752,66 @@
       }
       phase1Enhance();
     }
+    function stopCardMotion(card) {
+      const v = card.querySelector('video.motion-clip');
+      if (v) v.remove();
+      const img = card.querySelector('a.thumb img');
+      if (img) img.style.display = '';
+      const mtab = card.querySelector('.motion-tab');
+      if (mtab) {
+        mtab.classList.remove('is-active');
+        mtab.setAttribute('aria-pressed', 'false');
+        mtab.innerHTML = '\u25B6 360\u00B0';
+      }
+      const link = card.querySelector('a.thumb');
+      const ftab = card.querySelector('.fmt-tab.is-active');
+      const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+      if (link) {
+        link.classList.toggle('tall', dfmt === '4x5');
+        link.classList.toggle('tall916', dfmt === '9x16');
+      }
+    }
     grid.addEventListener('click', (event) => {
+      if (event.target.closest('video.motion-clip')) {
+        event.preventDefault();
+        return;
+      }
+      const mtab = event.target.closest('.motion-tab');
+      if (mtab) {
+        event.preventDefault();
+        const mcard = mtab.closest('.card');
+        if (!mcard) return;
+        if (mcard.querySelector('video.motion-clip')) { stopCardMotion(mcard); return; }
+        stopCardMotion(mcard);
+        const mlink = mcard.querySelector('a.thumb');
+        const mimg = mlink && mlink.querySelector('img');
+        const vid = document.createElement('video');
+        vid.className = 'motion-clip';
+        vid.src = mtab.getAttribute('data-motion');
+        const poster = mtab.getAttribute('data-poster');
+        if (poster) vid.poster = poster;
+        vid.autoplay = true; vid.loop = true; vid.muted = true; vid.playsInline = true; vid.controls = false;
+        vid.defaultMuted = true;
+        vid.setAttribute('muted', '');
+        vid.setAttribute('autoplay', '');
+        vid.setAttribute('loop', '');
+        vid.setAttribute('playsinline', '');
+        vid.disablePictureInPicture = true;
+        vid.setAttribute('controlsList', 'nodownload nofullscreen noremoteplayback');
+        if (mimg) mimg.style.display = 'none';
+        if (mlink) { mlink.classList.add('tall'); mlink.classList.remove('tall916'); mlink.appendChild(vid); }
+        mtab.classList.add('is-active');
+        mtab.setAttribute('aria-pressed', 'true');
+        mtab.innerHTML = '\u2715 Close';
+        vid.play().catch(function () {});
+        return;
+      }
       const dtab = event.target.closest('.day-tab');
       if (dtab) {
         event.preventDefault();
         const dcard = dtab.closest('.card');
         if (!dcard) return;
+        stopCardMotion(dcard);
         const isDay = !dtab.classList.contains('is-active');
         dtab.classList.toggle('is-active', isDay);
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
@@ -3771,6 +3840,7 @@
       event.preventDefault();
       const card = tab.closest('.card');
       if (!card) return;
+      stopCardMotion(card);
       const fmt = tab.dataset.format;
       card.querySelectorAll('.fmt-tab').forEach((item) => {
         const on = item === tab;
