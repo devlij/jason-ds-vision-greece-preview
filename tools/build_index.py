@@ -9,6 +9,12 @@ controls. It does not rewrite master images.
 A format tab, download, daylight control, or related thumbnail is emitted only
 when that master file is on disk. The same run rewrites image-sitemap.xml from
 the live approval status on each manifest.
+
+Genuine daylight is the card default only when ``daylight_variant.provenance``
+is exactly ``genuine-daylight`` and the day 16:9 master exists. Night masters
+stay on ``file_16x9``, ``file_4x5``, and ``file_9x16``. Derivative daylight
+keeps the night card and the sun toggle. The flag is computed for the page
+and is not written back onto the manifest.
 """
 
 from __future__ import annotations
@@ -90,6 +96,8 @@ PHASE1_MARKERS = (
     "#0D5EAF",
     "getAttribute('data-src-45')",
     "getAttribute('data-src-16')",
+    "night-tab",
+    "daylight_primary",
 )
 
 
@@ -130,6 +138,36 @@ def paired_daylight(raw: dict) -> tuple[str, str]:
     if day16 and day45:
         return day16, day45
     return "", ""
+
+
+def daylight_rel(raw: dict, key: str) -> str:
+    """One daylight master path, if that file is already on disk.
+
+    Explicit ``file_*_day`` wins. Otherwise the path recorded under
+    ``daylight_variant.files`` is used. This does not require the 16:9/4:5 pair.
+    """
+    explicit_key = {"16x9": "file_16x9_day", "4x5": "file_4x5_day", "9x16": "file_9x16_day"}[key]
+    explicit = existing_master(str(raw.get(explicit_key) or ""))
+    if explicit:
+        return explicit
+    variant = raw.get("daylight_variant")
+    files = variant.get("files") if isinstance(variant, dict) else None
+    if not isinstance(files, dict):
+        return ""
+    return existing_master(str(files.get(key) or ""))
+
+
+def is_genuine_daylight(scene: dict) -> bool:
+    """True only when provenance is exactly genuine-daylight and the day 16:9 exists.
+
+    Derivative daylight (a relight of the night master, no ``provenance`` of
+    ``genuine-daylight``) does not qualify. The flag is computed for the page
+    payload and is not written back onto the manifest.
+    """
+    variant = scene.get("daylight_variant")
+    if not isinstance(variant, dict) or variant.get("provenance") != "genuine-daylight":
+        return False
+    return master_exists(scene.get("file_16x9_day"))
 
 
 def daynight(label: str) -> str:
@@ -193,10 +231,37 @@ def load_scenes(tags: dict) -> tuple[list[dict], dict, list[str]]:
                 scene[dest_key] = rel
         # Daylight is a pair: both masters on disk, or no control. The shell
         # also refuses to draw the button unless both paths are present.
+        # The sun toggle still requires the 16:9 and 4:5 pair. The genuine-daylight
+        # gate is separate: provenance plus the day 16:9 file, even if 4:5 is absent.
         day16, day45 = paired_daylight(raw)
         if day16 and day45:
             scene["file_16x9_day"] = day16
             scene["file_4x5_day"] = day45
+        resolved16 = day16 or daylight_rel(raw, "16x9")
+        probe = dict(raw)
+        if resolved16:
+            probe["file_16x9_day"] = resolved16
+        # Never trust a stale flag. Recompute from provenance + the day 16:9 file.
+        if is_genuine_daylight(probe):
+            scene["daylight_primary"] = True
+            scene["file_16x9_day"] = resolved16
+            resolved45 = day45 or daylight_rel(raw, "4x5")
+            if resolved45:
+                scene["file_4x5_day"] = resolved45
+            resolved916 = daylight_rel(raw, "9x16")
+            if resolved916:
+                scene["file_9x16_day"] = resolved916
+            variant = raw.get("daylight_variant")
+            if isinstance(variant, dict):
+                published: dict[str, str] = {}
+                provenance = variant.get("provenance")
+                if isinstance(provenance, str) and provenance:
+                    published["provenance"] = provenance
+                label = variant.get("scenario_label")
+                if isinstance(label, str) and label:
+                    published["scenario_label"] = label
+                if published:
+                    scene["daylight_variant"] = published
         scenes.append(scene)
 
         stored = tags.get(entry_id) or {}
@@ -213,7 +278,13 @@ def load_scenes(tags: dict) -> tuple[list[dict], dict, list[str]]:
         else:
             mood = infer_mood(scene)
             warnings.append(f"{entry_id} has no signed-off mood tag; inferred {mood!r}")
-        thumb = scene.get("file_16x9") or ""
+        # Related thumbnails follow the card default. Genuine daylight uses the
+        # daylight 16:9; every other card keeps the original master.
+        thumb = (
+            scene["file_16x9_day"]
+            if scene.get("daylight_primary") and scene.get("file_16x9_day")
+            else scene.get("file_16x9") or ""
+        )
         meta[entry_id] = [
             scene.get("region") or "",
             computed,
@@ -266,7 +337,46 @@ def render_html(scenes: list[dict], meta: dict) -> str:
     for guard in ("if (!o[3]) continue;", "if (!m || !m[3]) return;", "file16 ?"):
         if guard not in html:
             raise SystemExit(f"missing-master guard not in generated page: {guard}")
+    assert_daylight_law(scenes, html)
     return html
+
+
+def assert_daylight_law(scenes: list[dict], html: str) -> None:
+    """Greece uses the Netherlands genuine-daylight gate. Does not approve anything."""
+    genuine = [scene for scene in scenes if scene.get("daylight_primary") is True]
+    if html.count('"daylight_primary": true') != len(genuine):
+        raise SystemExit("daylight_primary flags in the page do not match the payload")
+    if "night-tab" not in html:
+        raise SystemExit("gallery page is missing the nighttime toggle")
+    for scene in scenes:
+        entry_id = scene.get("entry_id") or ""
+        raw_path = ROOT / "manifests" / f"{entry_id}.json"
+        raw = json.loads(raw_path.read_text(encoding="utf-8"))
+        if "daylight_primary" in raw:
+            raise SystemExit(f"{entry_id} daylight_primary was written onto the manifest")
+        if scene.get("approval_status") != raw.get("approval_status"):
+            raise SystemExit(f"{entry_id} approval_status changed in the page record")
+        for key in ("file_16x9", "file_4x5", "file_9x16"):
+            raw_rel = str(raw.get(key) or "")
+            page_rel = str(scene.get(key) or "")
+            if raw_rel and page_rel and raw_rel != page_rel:
+                raise SystemExit(f"{entry_id} night master {key} was rewritten")
+        probe = dict(raw)
+        resolved16 = str(scene.get("file_16x9_day") or "") or daylight_rel(raw, "16x9")
+        if resolved16:
+            probe["file_16x9_day"] = resolved16
+        qualifies = is_genuine_daylight(probe)
+        if qualifies and scene.get("daylight_primary") is not True:
+            raise SystemExit(f"{entry_id} genuine daylight is not the card default")
+        if scene.get("daylight_primary") and not qualifies:
+            raise SystemExit(f"{entry_id} is daylight-primary without genuine-daylight provenance")
+        if not scene.get("daylight_primary"):
+            continue
+        variant = scene.get("daylight_variant") or {}
+        if variant.get("provenance") != "genuine-daylight":
+            raise SystemExit(f"{entry_id} page payload lost genuine-daylight provenance")
+        if not master_exists(scene.get("file_16x9_day")):
+            raise SystemExit(f"{entry_id} daylight primary points at a missing master")
 
 
 def main() -> None:
@@ -276,7 +386,17 @@ def main() -> None:
     out = ROOT / "index.html"
     out.write_text(html, encoding="utf-8")
     thumbs = sum(1 for row in meta.values() if row[3])
+    genuine = sum(1 for scene in scenes if scene.get("daylight_primary") is True)
+    derivative = sum(
+        1 for scene in scenes
+        if scene.get("file_16x9_day") and scene.get("daylight_primary") is not True
+    )
+    night_only = sum(1 for scene in scenes if not scene.get("file_16x9_day"))
     print(f"wrote index.html with {len(scenes)} scenes, {thumbs} related thumbs")
+    print(
+        f"daylight-primary {genuine}, sun toggle {derivative}, "
+        f"no daylight file {night_only}"
+    )
     print("phase1: search+region, day/night, mood, result-count, clear-all, related, copy-link, deep-link")
     for warning in warnings:
         print("warn:", warning, file=sys.stderr)
