@@ -90,7 +90,7 @@ def main() -> None:
     for scene in scenes:
         has16 = bool(scene.get("file_16x9_day"))
         has45 = bool(scene.get("file_4x5_day"))
-        if has16 != has45:
+        if has16 != has45 and not scene.get("daylight_primary"):
             raise SystemExit(f"{scene['entry_id']} published a one-sided daylight pair")
         if has16:
             if not scene["file_16x9_day"].endswith(f"{scene['entry_id'].lower()}-daylight-16x9.png"):
@@ -104,6 +104,45 @@ def main() -> None:
         raise SystemExit("a missing daylight master still published a pair")
     if build.paired_daylight({"daylight_variant": {"files": {"16x9": scenes[0]["file_16x9"]}}}) != ("", ""):
         raise SystemExit("a 16:9-only daylight variant published a pair")
+
+    # Netherlands gate: provenance must be exactly genuine-daylight, and the day 16:9 must exist.
+    present = scenes[0]["file_16x9"]
+    genuine_probe = {
+        "daylight_variant": {"provenance": "genuine-daylight"},
+        "file_16x9_day": present,
+    }
+    if not build.is_genuine_daylight(genuine_probe):
+        raise SystemExit("genuine-daylight gate rejected an existing day 16:9")
+    if build.is_genuine_daylight({
+        "daylight_variant": {"provenance": "interim-ai"},
+        "file_16x9_day": present,
+    }):
+        raise SystemExit("a non-genuine provenance passed the daylight gate")
+    if build.is_genuine_daylight({
+        "daylight_variant": {"provenance": "genuine-daylight"},
+        "file_16x9_day": "library/world/Greece/no-such-day.png",
+    }):
+        raise SystemExit("a missing day 16:9 passed the daylight gate")
+    raw001 = json.loads((ROOT / "manifests" / "GR-01-001.json").read_text(encoding="utf-8"))
+    raw001["file_16x9_day"] = raw001["daylight_variant"]["files"]["16x9"]
+    if build.is_genuine_daylight(raw001):
+        raise SystemExit("derivative GR-01-001 was treated as genuine daylight")
+    for scene in scenes:
+        raw = json.loads((ROOT / "manifests" / f"{scene['entry_id']}.json").read_text(encoding="utf-8"))
+        if "daylight_primary" in raw:
+            raise SystemExit(f"{scene['entry_id']} wrote daylight_primary onto the manifest")
+        for key in ("file_16x9", "file_4x5"):
+            if scene.get(key) != raw.get(key):
+                raise SystemExit(f"{scene['entry_id']} night master {key} changed")
+        probe = dict(raw)
+        resolved = scene.get("file_16x9_day") or build.daylight_rel(raw, "16x9")
+        if resolved:
+            probe["file_16x9_day"] = resolved
+        qualifies = build.is_genuine_daylight(probe)
+        if bool(scene.get("daylight_primary")) != qualifies:
+            raise SystemExit(
+                f"{scene['entry_id']} daylight_primary does not match the genuine-daylight gate"
+            )
     for scene in scenes:
         raw = json.loads((ROOT / "manifests" / f"{scene['entry_id']}.json").read_text(encoding="utf-8"))
         if scene.get("approval_status") != raw.get("approval_status"):
@@ -137,6 +176,12 @@ def main() -> None:
         raise SystemExit("GR-01-001 daylight masters were not published")
     if "gr-01-008-daylight" in html or "gr-01-022-daylight" in html:
         raise SystemExit("a scene without a daylight pair was given a daylight path")
+    if 'class="home-link"' not in html or 'href="https://jdvision.org/"' not in html:
+        raise SystemExit("home link was dropped from the gallery")
+    if "night-tab" not in html or "daylight_primary" not in html:
+        raise SystemExit("daylight-primary mechanism missing from the page")
+    if '"daylight_primary": true' in html:
+        raise SystemExit("a card was marked daylight-primary without a genuine master on this tree")
     if 'class="narrate"' in html or ".mp3" in html:
         raise SystemExit("Listen control rendered without an audio file")
     if ".flag-chip.flag-no{background:linear-gradient(to bottom,transparent 35%,#00205B" not in html:
