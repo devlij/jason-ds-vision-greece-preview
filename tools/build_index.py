@@ -92,6 +92,7 @@ PHASE1_MARKERS = (
     "Download 16:9",
     "Download 4:5",
     "fmt-tab",
+    "motion-tab",
     "className='lb'",
     "#0D5EAF",
     "getAttribute('data-src-45')",
@@ -114,6 +115,31 @@ def master_exists(rel: str) -> bool:
 
 def existing_master(rel: str) -> str:
     return rel if master_exists(rel) else ""
+
+
+def motion_files(entry_id: str) -> tuple[str, str]:
+    """360° clip and poster, or empty strings when the file is not on disk.
+
+    The button is published only for a scene whose mp4 is actually present.
+    Kickoff clips live in assets/. A clip kept beside the 4:5 master still
+    counts, so an older path is not dropped.
+    """
+    if not entry_id:
+        return "", ""
+    slug = entry_id.lower()
+    name = f"{slug}-motion-10s-4x5.mp4"
+    poster_name = f"{slug}-motion-10s-4x5-poster.jpg"
+    motion = existing_master(f"assets/{name}")
+    poster = existing_master(f"assets/{poster_name}")
+    if motion:
+        return motion, poster
+    matches = sorted(ROOT.glob(f"library/**/{name}"))
+    if len(matches) != 1:
+        return "", ""
+    motion = matches[0].relative_to(ROOT).as_posix()
+    poster_path = matches[0].with_name(poster_name)
+    poster = poster_path.relative_to(ROOT).as_posix() if poster_path.is_file() else ""
+    return motion, poster
 
 
 def paired_daylight(raw: dict) -> tuple[str, str]:
@@ -262,6 +288,11 @@ def load_scenes(tags: dict) -> tuple[list[dict], dict, list[str]]:
                     published["scenario_label"] = label
                 if published:
                     scene["daylight_variant"] = published
+        motion, poster = motion_files(entry_id)
+        if motion:
+            scene["file_motion_10s_4x5"] = motion
+        if poster:
+            scene["file_motion_poster"] = poster
         scenes.append(scene)
 
         stored = tags.get(entry_id) or {}
