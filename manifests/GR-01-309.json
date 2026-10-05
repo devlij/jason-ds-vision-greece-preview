@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: stone old-town alley in Kastro with the white church gable, round oculus and arched door framed at the street end, carved crests on the lane walls — recognizably the captioned Kastro, Naxos from a plausible tourist viewpoint; 4:5 shows the same old town's stair lane and church facade, no defining-feature disagreement. Gate 2: sweep MECHANICAL PASS (1920x1080 / 864x1080 valid PNGs); on-image verified caption 'Kastro, Naxos', scenario '24 September 2026 · 11:45 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right, legible on the scrim; weather is this scene's own Open-Meteo retrieval recorded 2026-09-25T23:50:14Z, unique repo-wide across all 62 candidates (no identical-to-the-second sharing), scenario minute inside the model-valid 11:00-11:59 hour, is_day 1 matching the daylight master. Gate 3: note documents text-prompt-only generation, no photographic input. Gate 4: no visible people or logos; public stone streetscape — documented only, commercial call is Jason's. Gate 5: all gates pass, no open blockers.",
   "approved_at": "2026-09-26T23:46:21.079815+00:00",
   "sha256_16x9": "31c20bdb1953a365bce564551357ed1c0311a69519766bb52edc0d92b5ffc53c",
-  "sha256_4x5": "d9c1cfed8c8fc66c86c4a4b87639886f7a65811fbb5700d8dd5485302b004ed6"
+  "sha256_4x5": "d9c1cfed8c8fc66c86c4a4b87639886f7a65811fbb5700d8dd5485302b004ed6",
+  "file_motion_10s_4x5": "assets/gr-01-309-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-309-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Naxos/gr-01-309-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

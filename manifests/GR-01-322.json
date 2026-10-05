@@ -17,5 +17,24 @@
   "approval_basis": "Gates 1-5 PASS. G1: Kales Fortress, Ierapetra — 16:9 low rectangular fort with corner towers at the harbor entrance, fishing boats beside it, open sea beyond; 4:5 the same fort massing with rounded bastion ends and boat-filled foreground, consistent. G2: dims exact; on-image 'Kales Fortress, Ierapetra', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible; scenario inside model-valid hour. Weather retrieval 2026-09-25T23:50:27Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
   "approved_at": "2026-09-27T01:12:51.713905+00:00",
   "sha256_16x9": "65c0a4ff3aaac70ce49fd21386a7d8f60d68ff62a70fa54e259c328913abe5b7",
-  "sha256_4x5": "dccd39cb8820495c3d0b8ececf3d4463b9bca2eefd407f20864f4b17bd0adc48"
+  "sha256_4x5": "dccd39cb8820495c3d0b8ececf3d4463b9bca2eefd407f20864f4b17bd0adc48",
+  "file_motion_10s_4x5": "assets/gr-01-322-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-322-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Ierapetra/gr-01-322-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

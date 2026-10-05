@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: crescent sandy bay with turquoise water, beach umbrellas and tavernas, rocky headlands, white Chora on the hill in the distance — matches Mylopotas anchors (from the sand along the crescent); 4:5 shows the same crescent beach, headland, and tavernas at sand level. Gate 2: exact dims; caption 'Mylopotas, Ios', scenario 11:45, disclosure, signature exact; weather retrieval 2026-09-25T23:50:12Z unique repo-wide; scattered small clouds match claimed code 1 / 18% cover. Gate 3: text-prompt-only. Gate 4: no prominent people, no logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T22:38:23.810576+00:00",
   "sha256_16x9": "22728631d484e659e4f3f7dada5bf588b2c093acbfba21377462c9050a29cb9d",
-  "sha256_4x5": "03b907893a7f43e4bb569d8a455af9d1f60604ea2828db35acd7916ca66cd787"
+  "sha256_4x5": "03b907893a7f43e4bb569d8a455af9d1f60604ea2828db35acd7916ca66cd787",
+  "file_motion_10s_4x5": "assets/gr-01-307-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-307-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Ios/gr-01-307-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

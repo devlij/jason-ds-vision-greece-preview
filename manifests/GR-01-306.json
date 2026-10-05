@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: bay from above the beach — white port settlement on the sand, boats at the pier, turquoise water, enclosing green hills, white chapel on the headland — matches Kamares anchors; 4:5 shows the same bay from beach level with the same settlement, boats, hills, and chapel. Gate 2: exact dims; caption 'Kamares, Sifnos', scenario 'Scenario: 24 September 2026 · 11:45 Europe/Athens', disclosure, signature exact; weather retrieval 2026-09-25T23:50:11Z unique repo-wide; mostly-clear sky matches claimed code 1 / 20% cover. Gate 3: text-prompt-only. Gate 4: no people, no logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T22:38:11.678485+00:00",
   "sha256_16x9": "53a45bc5aaa28fb3cb4c8489dae7c60613f0f08b7ef7c2d116b47685dae654c5",
-  "sha256_4x5": "d547a8ec6ca0fb592a37a875bd3ca87eadc2a2658f21729c260b56afc1b1c775"
+  "sha256_4x5": "d547a8ec6ca0fb592a37a875bd3ca87eadc2a2658f21729c260b56afc1b1c775",
+  "file_motion_10s_4x5": "assets/gr-01-306-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-306-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Sifnos/gr-01-306-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }
