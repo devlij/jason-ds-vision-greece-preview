@@ -14,5 +14,6 @@
   "sha256_4x5": "94fdbba073cad796fa62c4b3802a3e1364d22ab5b675554706f0968b95a1420b",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Grok Bot QC 5/5"
 }

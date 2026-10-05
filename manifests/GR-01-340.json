@@ -16,7 +16,7 @@
   "sha256_9x16": "f2498b875068c778ba43656ca7472afd85730f82e98330f3ac44814b1ee4c062",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "qc_notes": [
     {
       "at": "2026-09-27T12:54:56.631651+00:00",
@@ -28,5 +28,6 @@
       "by": "builder",
       "note": "Re-rendered 16:9, 4:5, and 9:16 so all three show the same bell tower: a square three-story campanile (arched door, round clock on the middle story, triple-arch belfry, small cupola and cross) on the barrel-vaulted basilica, matching the documented 1855 tower rather than the old gable-versus-campanile split. Finish is 1920×1270 / 864×1270 / 1080×2110 with a 190px #0e0e12 label bar under the photo, curly Jason D’s Vision and Allura Jason A. Devlin. Still Candidate for Cosmo QC. No Art.50 stamp."
     }
-  ]
+  ],
+  "qc_status": "Approved · Grok Bot QC 5/5"
 }
