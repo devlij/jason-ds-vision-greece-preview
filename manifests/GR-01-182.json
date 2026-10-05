@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1 pass: 16:9 master unmistakably shows Agios Ioannis Kastri — the tall sheer grey-rock pinnacle center with a long zigzag stone staircase climbing to the small whitewashed domed chapel with a cross at the summit, dense green pines on the lower right slope, calm sea and rocky headland at left under a clear sky; morning light strikes the rock from the left; staircase clearly defined, no figures, no artifacts. Gate 2 pass: caption 'Agios Ioannis Chapel, Skopelos' and scenario '24 September 2026 · 09:00 Europe/Athens' exact, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim. Weather per-scene retrieval 2026-09-25T23:45:00Z, unique to the second repo-wide, 09:00 model step, scenario inside 09:00-09:59 model hour, clear 19.6C. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos; chapel is a landmark, not private property. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:38:51.872232+00:00",
   "sha256_16x9": "d905eaf5ba762bfc845c21f2e757915def314a87e96fc3a4fad6caa5766217a9",
-  "sha256_4x5": "1cdfd58fec179e15a2eb881cd2a453e1ec26a111075923a2e4f82ee92a2e1815"
+  "sha256_4x5": "1cdfd58fec179e15a2eb881cd2a453e1ec26a111075923a2e4f82ee92a2e1815",
+  "file_motion_10s_4x5": "assets/gr-01-182-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-182-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Skopelos/gr-01-182-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

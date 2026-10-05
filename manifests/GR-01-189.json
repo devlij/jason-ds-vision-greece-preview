@@ -17,5 +17,24 @@
   "approval_basis": "G1 visual: Venetian Harbor Chania — fishing boats moored along the quay, the ochre/terracotta/white Venetian waterfront, Firka fortress with its dome at the mole, and the stone lighthouse on the eastern breakwater; partly cloudy sky matching the note's ‘morning daylight under cloud’, clean framing, no artifacts. G2 technical: exact 1920x1080 / 864x1080 masters verified by sweep; on-image caption ‘Venetian Harbor, Chania’, scenario ‘Scenario: 24 September 2026 · 09:00 Europe/Athens’, disclosure ‘AI-generated artistic interpretation · Not a photograph.’ bottom-left, exact ‘Jason D’s Vision’ bottom-right, legible; builder note records per-scene Open-Meteo retrieval 2026-09-25T23:45:07Z, verified unique repo-wide across all 365 notes and consistent with the baked 09:00 scenario hour. G3 provenance: text-prompt-only lineage documented, no photographic inputs. G4: only distant unidentifiable figures on the quay, no logos, no recognizable private property. G5: no open blockers.",
   "approved_at": "2026-09-26T12:47:59.263606+00:00",
   "sha256_16x9": "08a0ce6c8bb337edf5f1d4ec4b943871913ca57e5913cbccd90af150c005b67f",
-  "sha256_4x5": "e819c3d093da07ad2b020d988aca2e2e9fa155862193fa590129b41145f86683"
+  "sha256_4x5": "e819c3d093da07ad2b020d988aca2e2e9fa155862193fa590129b41145f86683",
+  "file_motion_10s_4x5": "assets/gr-01-189-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-189-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Chania/gr-01-189-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

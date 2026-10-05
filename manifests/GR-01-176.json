@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1 pass: 16:9 master shows Fournoi's concrete town quay with a moored fleet of roughly fourteen white-and-blue wooden caiques reflected in calm inner-harbor water, the whitewashed waterfront row climbing the slope behind, and the long stone breakwater reaching seaward with white-capped open water beyond — matches the town-quay viewpoint across fishing boats to the ferry jetty and enclosing hills; morning daylight, coherent framing, no artifacts. Gate 2 pass: on-image caption 'Fournoi Harbor, Fournoi' and scenario '24 September 2026 · 08:35 Europe/Athens' exact, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim, legible. Weather is a per-scene Open-Meteo retrieval 2026-09-25T23:44:54Z, unique to the second across the repo, valid 08:30 model step, scenario 08:35 inside the 08:00-08:59 model hour, clear 19.2C. Gate 3: text-prompt-only lineage recorded, no photographic inputs. Gate 4: no people or logos; boat names unreadable. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:38:24.782972+00:00",
   "sha256_16x9": "d15ccac0e52b835ee9f3fbbc4400a540a4cefc188c3afe3d8ae852f832f62526",
-  "sha256_4x5": "3401170d922189bcddc648ecee2b97d15f107e7317283ecda8275dad5b8230f4"
+  "sha256_4x5": "3401170d922189bcddc648ecee2b97d15f107e7317283ecda8275dad5b8230f4",
+  "file_motion_10s_4x5": "assets/gr-01-176-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-176-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Fournoi/gr-01-176-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

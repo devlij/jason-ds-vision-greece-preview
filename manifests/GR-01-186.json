@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1 pass: 16:9 master shows Steni Vala's small fishing quay — weathered stone quay edge in the bottom-left foreground, a white harborside house with blue shutters and stone seawall frontage at left, a cluster of small moored fishing boats in blue, white, and cream with an orange life-ring center-left, calm deep-blue bay center-right stretching toward a rocky pine-forested headland; coherent water reflections, morning light, no artifacts; consistent with the clear 20.4C 09:00 scenario. Gate 2 pass: caption 'Steni Vala, Alonissos' and scenario '24 September 2026 · 09:00 Europe/Athens' exact, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim. Weather per-scene retrieval 2026-09-25T23:45:04Z, unique to the second repo-wide, 09:00 model step, scenario inside 09:00-09:59 model hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no legible boat name-boards, generic coastal dwelling. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:39:10.604639+00:00",
   "sha256_16x9": "6b5d4cf5e6c9b446c79fc2c1dec5fd7efd603eca2a422341a562e4aef90d3132",
-  "sha256_4x5": "416795bb6f0112574bb3af32603a6600d647dffb274c25985e1cf7a0735cc78c"
+  "sha256_4x5": "416795bb6f0112574bb3af32603a6600d647dffb274c25985e1cf7a0735cc78c",
+  "file_motion_10s_4x5": "assets/gr-01-186-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-186-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Alonissos/gr-01-186-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

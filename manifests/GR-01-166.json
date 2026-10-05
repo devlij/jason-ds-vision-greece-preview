@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1 PASS: 16:9 master shows Nea Moni's domed katholikon with cloisonne brick-and-stone masonry and arched drum windows rising behind the monastery enclosure wall, framed by cypress and pine with forested slopes beyond — morning light rakes the east face, matching the evidence card's monastery viewpoint (38.37389, 26.05556). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Nea Moni, Chios', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:44Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
   "approved_at": "2026-09-26T10:38:03.514121+00:00",
   "sha256_16x9": "93eaa077d99f26ed95b14f073e527db51cf00b97e79169939751078fb193380e",
-  "sha256_4x5": "46d08c10a500a47d0a6ea5b5465d66083d8f7ec12b950700d30e9a0ac4c7fac6"
+  "sha256_4x5": "46d08c10a500a47d0a6ea5b5465d66083d8f7ec12b950700d30e9a0ac4c7fac6",
+  "file_motion_10s_4x5": "assets/gr-01-166-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-166-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Chios/gr-01-166-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }
