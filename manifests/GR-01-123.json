@@ -33,7 +33,7 @@
   "qc_status": "Candidate — reverted 2026-09-26 (see latest qc_note)",
   "approval_basis": "Gate 1: 16:9 follows the dirt cliff path to the small white cylindrical lighthouse with its lantern on the narrow rocky tip, white cliffs falling to deep water on both sides, no village in frame — all three geometry anchors; 4:5 shows the same lighthouse from a path-level angle with the sun disk low over the sea, consistent with 07:40 just after sunrise; plausible tourist viewpoints, clean, no artifacts. Gate 2: exact 1920x1080 / 864x1080 (sweep-verified); on-image strings verified: 'Cape Lefkatas, Lefkada', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature on the bottom gradient; 07:40 inside model-valid hour 07:00–07:59 from per-scene unique Open-Meteo retrieval 2026-09-25T23:44:01Z (cross-checked against the authoritative repo note). Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or property of note — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:40:40.911257+00:00",
-  "sha256_16x9": "213a3af6ddde3907327faa87d471bb905bc1c7f3a5b2eddc4c17b15a3c26f4cc",
-  "sha256_4x5": "e0648eace609d74a51602c27d45fd8770d383cd5ceb45b5d159cecf67589ca20",
+  "sha256_16x9": "f7d2e9669bbe30a192fe4c0640064c34fec77c3e30cab4371ff638ca51286b4d",
+  "sha256_4x5": "717d60754677a21f667885c0c91f1add249433246ae7a2b85b24c201683a7c47",
   "reverted_at": "2026-09-26T09:47:13.020583+00:00"
 }
