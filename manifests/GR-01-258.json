@@ -21,5 +21,24 @@
       "by": "Cosmo QC",
       "note": "Gate 1 hold — inter-format subject disagreement, verified by Cosmo QC 2026-09-26 on both masters: the 4:5 shows a prominent clock tower rising above the fortress complex, while the 16:9 shows clear sky above the barrack block with no tower — the two formats disagree on a defining feature (the build note itself anchors 'no clock tower; that clock belongs to the Old Fortress', which the 4:5 contradicts). Awaiting builder re-render or rework resolving which side is correct."
     }
-  ]
+  ],
+  "file_motion_10s_4x5": "assets/gr-01-258-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-258-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Corfu/gr-01-258-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

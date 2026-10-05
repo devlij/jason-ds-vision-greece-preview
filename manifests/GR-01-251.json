@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: the Pnyx bedrock bema (speaker's platform) carved in the foreground rock with the Acropolis and Parthenon rising beyond — the canonical tourist viewpoint from the Pnyx; 4:5 agrees on the same bema stone and Acropolis view. Gate 2: exact 1920x1080/864x1080; on-image 'Pnyx, Athens', scenario '24 September 2026 · 10:30 Europe/Athens', AI-disclosure and 'Jason D's Vision' signature (curly apostrophe) legible; note records separate Open-Meteo retrieval 2026-09-25T23:46:09Z valid 10:30, unique repo-wide, scenario minute inside the 10:00-10:59 model hour (code 0, matches clear rendered sky). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or private property; ancient public site. Gate 5: all gates pass.",
   "approved_at": "2026-09-26T17:42:26.447796+00:00",
   "sha256_16x9": "7d32382905187b327eaeff6819e31e46ee3ddf1bed14b0379e8442d37bc33e73",
-  "sha256_4x5": "564830b383bb0453cfbee52ae3d4f997e32e5da0dcc6ddea9ac71afd11bc198c"
+  "sha256_4x5": "564830b383bb0453cfbee52ae3d4f997e32e5da0dcc6ddea9ac71afd11bc198c",
+  "file_motion_10s_4x5": "assets/gr-01-251-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-251-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Athens/gr-01-251-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }
