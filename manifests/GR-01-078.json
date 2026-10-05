@@ -28,6 +28,11 @@
       "at": "2026-09-27T16:55:00Z",
       "by": "builder",
       "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:40Z unique to the second; scenario 06:52 inside the model-valid hour; code 0, cloud 1%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
+    },
+    {
+      "at": "2026-09-30T21:46:49.729542+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 hold — Cosmo QC 2026-09-30: legacy caption 'Edessa Waterfalls, Edessa' and 'Jason D's Vision' signature still baked over the photo area above the 190px label bar (text over the lower-left foliage). The builder's note claims the caption was lifted off the photo, but the current master bytes contradict it — needs a true label-bar-only re-finish."
     }
   ],
   "file_9x16": "library/world/Greece/Edessa/gr-01-078-9x16.png",
