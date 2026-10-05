@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: Gramvousa fortress from a headland approach — ruined pale-limestone curtain walls and tumbled rubble spread over bare windswept rock crowning the cape, the cliff dropping to dark blue sea at right; morning light from the left with soft shadows under a partly cloudy sky; recognizably the Venetian fortress ruins on the Gramvousa cape, no artifacts or framing problems. Gate 2: 1920x1080/864x1080 verified; on-image 'Gramvousa Fortress, Gramvousa', 'Scenario: 24 September 2026 · 09:15 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:23Z in approvals/GR-01-205.md, unique to this scene across notes 150–240. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, vehicles, logos, or private property — ruins, rock, sea only. Daylight.",
   "approved_at": "2026-09-26T13:44:20.844334+00:00",
   "sha256_16x9": "3e4ccb05afd179d79ee47265b3eab843bb1ab19e46ea70dc1783897385157afc",
-  "sha256_4x5": "478d8b062db52f5c0bfa97eaf31536c389f0c4607c325bd7c9a3146738eac607"
+  "sha256_4x5": "478d8b062db52f5c0bfa97eaf31536c389f0c4607c325bd7c9a3146738eac607",
+  "file_motion_10s_4x5": "assets/gr-01-205-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-205-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Gramvousa/gr-01-205-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

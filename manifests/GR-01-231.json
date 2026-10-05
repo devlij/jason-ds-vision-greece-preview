@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: Agnontas harbor — a curved rock breakwater sheltering turquoise water full of small fishing boats, stone-and-white tavernas with canopies along the quay, steep pine-covered hillside behind; the classic Skopelos fishing port, no artifacts. Gate 2: exact dims verified; caption 'Agnontas, Skopelos' and scenario '24 September 2026 · 10:05 Europe/Athens' verified on-image; 'Jason D's Vision' bottom-right, disclosure bottom-left legible; weather retrieval 2026-09-25T23:45:49Z unique to this scene, valid 10:00 Europe/Athens within the scenario hour. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no people, logos, or private property visible — documented only. Gate 5: no blockers.",
   "approved_at": "2026-09-26T15:40:41.777874+00:00",
   "sha256_16x9": "112ffd896cc5b24942800a1328633e10d089084bb54c192b3466504380ee688f",
-  "sha256_4x5": "845a11bdccc1cad4c879146afa908c3dcee1b5db23b8832b80e3e2e25ae9460d"
+  "sha256_4x5": "845a11bdccc1cad4c879146afa908c3dcee1b5db23b8832b80e3e2e25ae9460d",
+  "file_motion_10s_4x5": "assets/gr-01-231-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-231-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Skopelos/gr-01-231-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

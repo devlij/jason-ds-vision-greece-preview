@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: circular tree-lined square with a two-tone modernist municipal building at center, pine ring around the lawn, low shopfronts and mountains behind — plausible Ptolemaida central square from the outer sidewalk viewpoint in the note; no artifacts, clean framing. Gate 2: exact dims verified; caption 'Central Square, Ptolemaida' and scenario '24 September 2026 · 10:05 Europe/Athens' verified on-image; 'Jason D's Vision' bottom-right, AI-disclosure legible at bottom; weather retrieval 2026-09-25T23:45:43Z unique to this scene, valid 10:00 Europe/Athens within the scenario hour. Gate 3: text-prompt-only lineage recorded, no photographic inputs. Gate 4: no visible people, logos, or private property — documented only. Gate 5: no blockers.",
   "approved_at": "2026-09-26T15:38:39.517319+00:00",
   "sha256_16x9": "1cc1e3b6dc686703218fb8301829beeb860a819062299c88d4db27a2e5d54b08",
-  "sha256_4x5": "231855f33c4c8b20714e1e7d68217dea23a5ba735d86177cd2684f2ef13881a8"
+  "sha256_4x5": "231855f33c4c8b20714e1e7d68217dea23a5ba735d86177cd2684f2ef13881a8",
+  "file_motion_10s_4x5": "assets/gr-01-225-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-225-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Ptolemaida/gr-01-225-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

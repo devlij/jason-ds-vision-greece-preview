@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: Toplou monastery on rocky scrub terrain — tall crenellated stone perimeter wall with a large arched wooden doorway centered, the slender stone bell tower with arched openings and domed cupola rising behind it, flat sea on the horizon at left under a partly cloudy sky; morning light catching the tower face; recognizably the fortress-like monastery with its landmark bell tower, no artifacts. Gate 2: 1920x1080/864x1080 verified; on-image 'Toplou Monastery, Toplou', 'Scenario: 24 September 2026 · 09:15 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:21Z in approvals/GR-01-203.md, unique to this scene across notes 150–240. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, vehicles, logos, or private property — rocky wasteland and monastery only. Daylight.",
   "approved_at": "2026-09-26T13:43:45.092994+00:00",
   "sha256_16x9": "77eb92134b3f3aecb6162d6a4a6d532f646fd3a37bed5ce56ec20a848695a455",
-  "sha256_4x5": "a912154ea7b29908ea4ae70a3ac4d43a389fc6cd9054655f1c4c0f662de02efc"
+  "sha256_4x5": "a912154ea7b29908ea4ae70a3ac4d43a389fc6cd9054655f1c4c0f662de02efc",
+  "file_motion_10s_4x5": "assets/gr-01-203-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-203-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Toplou/gr-01-203-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

@@ -17,5 +17,24 @@
   "approval_basis": "Portitsa bridge at Spileo: two unequal stone arches with cobbled deck and low parapets carrying the Venetikos out of a slot of vertical rock, gravel bank in the foreground, morning sun low at frame right. Caption 'Portitsa Bridge, Spileo', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, 'Jason D’s Vision' verified on-image; exact dims. Gate 1 pass: gorge-mouth bridge matching the Portitsa anchors, no concrete-repaired arch depicted, clean framing. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:31Z, unique second repo-wide in the checked window, scenario minute inside the cited model-valid hour. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no people or logos – documented only.",
   "approved_at": "2026-09-26T14:37:57.858070+00:00",
   "sha256_16x9": "a984db17dbf18d20b6ca5c5917ae04e1ce89550ee169da7d2cde3735d01eb5af",
-  "sha256_4x5": "ec8f63a41419850a058fbd9f723d67db92d6fad1ab036c7c1185c63814794bf2"
+  "sha256_4x5": "ec8f63a41419850a058fbd9f723d67db92d6fad1ab036c7c1185c63814794bf2",
+  "file_motion_10s_4x5": "assets/gr-01-213-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-213-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Spileo/gr-01-213-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

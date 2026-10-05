@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1 PASS: hill village of white houses with red tile roofs climbing a slope, ruined medieval kastro at the summit, Mount Saos bulk behind — plausible tourist view; morning light from the east consistent with the note's solar azimuth 122.2° ESE; the 4:5 shows the same subject (kastro ruins, slope houses, mountain), no inter-format disagreement. Gate 2 PASS: on-image bottom-left reads 'Chora, Samothrace', 'Scenario: 24 September 2026 · 10:05 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', bottom-right 'Jason D's Vision' with curly apostrophe; note records its own Open-Meteo retrieval 2026-09-25T23:45:53Z (unique second, no sharing) and the 10:05 scenario falls inside the cited 10:00–10:59 model hour. Gate 3 PASS: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or focal artwork — documented only, commercial call is Jason's. Gate 5: manifest carries no qc_notes (no open hold), no blockers.",
   "approved_at": "2026-09-26T16:42:56.620339+00:00",
   "sha256_16x9": "cf4f0a14575eb60426be0b31534c295de32bbc0c49c14777677102611b1ec242",
-  "sha256_4x5": "37934bf19a9ae591862bbfba643d4903ea757e558debd2a96059df7c91ba9d89"
+  "sha256_4x5": "37934bf19a9ae591862bbfba643d4903ea757e558debd2a96059df7c91ba9d89",
+  "file_motion_10s_4x5": "assets/gr-01-235-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-235-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Samothrace/gr-01-235-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }
