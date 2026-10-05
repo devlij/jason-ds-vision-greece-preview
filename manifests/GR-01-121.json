@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: sheer white cliff with the zigzag stair descending to a small pebble beach, turquoise water, a sea-cave notch at the cliff base, Kefalonia across the water — matches the cliff-road-overlook camera point and geometry anchors; the frame shows the stair's zigzag without claiming a tread count, as the note records. Gate 2: 1920x1080 + 864x1080 verified; on-image 'Porto Katsiki, Lefkada', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right; per-scene Open-Meteo retrieval 2026-09-25T23:43:59Z (unique repo-wide), model mainly-clear / 23% cloud matches the depicted bright morning. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, no logos — documented, commercial call is Jason's.",
   "approved_at": "2026-09-26T06:43:50.374698+00:00",
   "sha256_16x9": "01d9d5c847de7086196c7504e5e7ce74c98f18d46117b69152925f28f336b525",
-  "sha256_4x5": "214a366e2ea51b4ea13dfe3a8c877af33f815b180744e97fb080031615c9e992"
+  "sha256_4x5": "214a366e2ea51b4ea13dfe3a8c877af33f815b180744e97fb080031615c9e992",
+  "file_motion_10s_4x5": "assets/gr-01-121-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-121-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Lefkada/gr-01-121-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

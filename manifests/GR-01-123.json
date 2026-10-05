@@ -35,5 +35,24 @@
   "approved_at": "2026-09-26T09:40:40.911257+00:00",
   "sha256_16x9": "213a3af6ddde3907327faa87d471bb905bc1c7f3a5b2eddc4c17b15a3c26f4cc",
   "sha256_4x5": "e0648eace609d74a51602c27d45fd8770d383cd5ceb45b5d159cecf67589ca20",
-  "reverted_at": "2026-09-26T09:47:13.020583+00:00"
+  "reverted_at": "2026-09-26T09:47:13.020583+00:00",
+  "file_motion_10s_4x5": "assets/gr-01-123-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-123-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Lefkada/gr-01-123-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }
