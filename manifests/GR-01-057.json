@@ -13,10 +13,10 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "qc_status": "Candidate — Gate 2 label-bar re-finish 2026-09-30, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:14Z (Sun, 27 Sep 2026 16:54:14 GMT), separate request for 37.906, 22.879, valid 2026-09-24T06:15 Europe/Athens, scenario 06:24 inside 06:00–06:59. Code 0 (clear), cloud 51%, 13.2°C, wind 6.0 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 968–1031 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "7f7da095757b695f1740d99cbfccc3fca6934c447a36bf41ffdb6d9bcfa31551",
-  "sha256_4x5": "71d5abef883dd4def1b986c2c4363dbde4aa8200e21c7bc116847a80cf26b062",
+  "sha256_16x9": "19eb43fda70c5e3b62c6197a9d85286122afb92a5701db8234484b53ddb1dcae",
+  "sha256_4x5": "cca7f098bae48ace5e8aead5c8c3467814947d7643894525599f55e415cf949b",
   "reverted_at": "2026-09-25T12:46:40.467581+00:00",
   "qc_notes": [
     {
@@ -33,10 +33,15 @@
       "at": "2026-09-29T12:46:12.567833+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold (Cosmo QC): the legacy caption 'Temple of Apollo, Corinth' and 'Jason D's Vision' are still baked over the photo area ABOVE the 190px label bar — the 2026-09-29 re-finish did not lift the old text off the artwork. Also check the standing Doric column count against the card's geometry anchors before re-finishing (the master shows 8 standing columns; the anchors record the site's surviving count). Gate 1 composition is the classic Corinth view with Acrocorinth behind. Rework: re-finish with a clean photo area (zero text over the artwork), then append a new note recording the re-finish."
+    },
+    {
+      "at": "2026-09-30T13:42:40Z",
+      "by": "builder",
+      "note": "Gate 2 label-bar re-finish 2026-09-30. Legacy caption and signature baked over the photo area were lifted. Masters re-finished (16x9, 4x5, 9x16) to a text-free photo with the 190px #0e0e12 label bar only, hairline divider, left site/scenario/AI disclosure and right Jason D’s Vision plus Allura Jason A. Devlin. Still Candidate. Not an approval."
     }
   ],
   "file_9x16": "library/world/Greece/Corinth/gr-01-057-9x16.png",
-  "sha256_9x16": "e5b0dc12ef0218ff9e128c951308736069ccce74fca4b4284f6fd3c55c41d801",
+  "sha256_9x16": "4cd9b794b6b24520238dc9a7180bdc14580402e4b8681405aaa8dcb736a62d2e",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:14Z",
