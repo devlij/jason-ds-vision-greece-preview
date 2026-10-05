@@ -13,10 +13,10 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "qc_status": "Candidate — Gate 2 label-bar re-finish 2026-09-30, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:08Z (Sun, 27 Sep 2026 16:54:08 GMT), separate request for 36.389, 22.483, valid 2026-09-24T06:15 Europe/Athens, scenario 06:21 inside 06:00–06:59. Code 1 (mainly clear), cloud 33%, 20.4°C, wind 18.2 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 968–1031 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "bb3fe08377aab7a7ae86a4f3deb701903eb3951f943d2ca269251ae150e58b5f",
-  "sha256_4x5": "a3c0cf3afd434f452427ec998b9bb84f1f57843c08ec6e7b74f432b8b19ad6d2",
+  "sha256_16x9": "b633c57b00b7aa2f1df86d045e6955415a61703622af89214cd58e52e33e7787",
+  "sha256_4x5": "a9d7586c08efc9c05280c30e4bea228213991f9085a8099c855920f79555b7dc",
   "reverted_at": "2026-09-25T12:46:27.908664+00:00",
   "qc_notes": [
     {
@@ -33,10 +33,15 @@
       "at": "2026-09-29T12:46:09.827179+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold (Cosmo QC): the legacy caption 'Cape Matapan, Mani' and 'Jason D's Vision' are still baked over the photo area ABOVE the 190px label bar — the 2026-09-29 re-finish did not lift the old text off the artwork. Gate 1 visuals are plausible (white lighthouse on the rocky cape tip at dawn). Rework: re-finish with a clean photo area (zero text over the artwork), then append a new note recording the re-finish."
+    },
+    {
+      "at": "2026-09-30T13:42:40Z",
+      "by": "builder",
+      "note": "Gate 2 label-bar re-finish 2026-09-30. Legacy caption and signature baked over the photo area were lifted. Masters re-finished (16x9, 4x5, 9x16) to a text-free photo with the 190px #0e0e12 label bar only, hairline divider, left site/scenario/AI disclosure and right Jason D’s Vision plus Allura Jason A. Devlin. Still Candidate. Not an approval."
     }
   ],
   "file_9x16": "library/world/Greece/Mani/gr-01-052-9x16.png",
-  "sha256_9x16": "f5a696bb835aec5d4eeda63cb17a935cfc1e0c25c295d0f17af1fadb03ad2ab6",
+  "sha256_9x16": "de293fb15e1b0b01ede78e725e81528a693b8e8687e233ef4b3c2a1b55cfd3e6",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:08Z",

@@ -13,10 +13,10 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "qc_status": "Candidate — Gate 2 label-bar re-finish 2026-09-30, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:34Z (Sun, 27 Sep 2026 16:54:34 GMT), separate request for 40.7548, 22.5208, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 0%, 6.4°C, wind 4.5 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "88a8ee1838a75959767229db0b8c3bc504b3d1268a2d7e831f629d117697a993",
-  "sha256_4x5": "328e2043d06c141753821ec7a37841693ae3585bc79737a87e7d6e5e02cc950b",
+  "sha256_16x9": "13e34e3e1e3d355bab71aba279972a5cd51d3ae870a55ebaee25aefcc2718602",
+  "sha256_4x5": "917505178cf5379f57ca437b3879fff69fda91db81abd16a2feec3bf702f32c7",
   "reverted_at": "2026-09-25T12:47:24.521977+00:00",
   "qc_notes": [
     {
@@ -33,6 +33,11 @@
       "at": "2026-09-30T02:43:55.074935+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold (Cosmo QC): the 16:9 master's photo area still carries the full legacy caption 'Ancient Pella, Pella' (bottom-left) and 'Jason D's Vision' (bottom-right) baked over the photo above the 190px label bar — the same cohort defect as GR-01-052-071 — and the 4:5 master's photo area carries legacy text fragments at its bottom edge just above the label bar (partial disclosure glyphs, confirmed on the enlarged bottom-strip of the current gr-01-073-4x5.png). The 9:16 photo area is clean and the label-bar text itself is correct ('Ancient Pella, Pella' / 'Scenario: 24 September 2026 · 06:52 Europe/Athens' / disclosure + signature). Gate 1 is plausible (stone-walled ruined quarter, standing columns, hilltop building on the horizon, pre-dawn light). Weather evidence is sound — per-scene Open-Meteo retrieval 2026-09-27T16:54:34Z, unique to the second, scenario 06:52 inside the 06:00-06:59 model-valid hour, code 0, cloud 0%. Rework: re-finish the 16:9 and 4:5 with a clean photo area (zero text over the artwork; the label bar stays the only finish), then append a new note recording the re-finish."
+    },
+    {
+      "at": "2026-09-30T13:42:40Z",
+      "by": "builder",
+      "note": "Gate 2 label-bar re-finish 2026-09-30. Legacy caption on the 16:9 and disclosure fragments on the 4:5 were lifted; those masters were re-finished to a text-free photo with the 190px #0e0e12 label bar only. 9:16 was already clean and was not rewritten. Still Candidate. Not an approval."
     }
   ],
   "file_9x16": "library/world/Greece/Pella/gr-01-073-9x16.png",

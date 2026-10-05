@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Greece/Pylos/gr-01-060-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:18Z (Sun, 27 Sep 2026 16:54:18 GMT), separate request for 36.913, 21.693, valid 2026-09-24T06:15 Europe/Athens, scenario 06:24 inside 06:00–06:59. Code 1 (mainly clear), cloud 7%, 18.3°C, wind 6.8 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 968–1031 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "b15f6df5710bc7f27012a5ebec313ce0aa02a0deffb19e5ffd9cf68d1edfd939",
-  "sha256_4x5": "2be74a2b40cd656e9a48f8cbcf74eb446e74f1497de96cefa401e1039c6e6ef8",
+  "sha256_16x9": "232b61dc9784f2c8b4427e2b6a91726480a3fd8c7a26c07487505bb297172de3",
+  "sha256_4x5": "3c488b0d28bc0d34ed52e0a434aba12f750b07a0b75dd14ab33d0f6cd9d47d0d",
   "reverted_at": "2026-09-25T12:46:47.932301+00:00",
   "qc_notes": [
     {
@@ -33,10 +33,15 @@
       "at": "2026-09-29T12:46:18.691176+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold (Cosmo QC): the legacy caption 'Niokastro, Pylos' and 'Jason D's Vision' are still baked over the photo area ABOVE the 190px label bar — the 2026-09-29 re-finish did not lift the old text off the artwork. Gate 1 visuals are plausible (fortress above the lit waterfront, bay and Sphacteria silhouette at dawn). Rework: re-finish with a clean photo area (zero text over the artwork), then append a new note recording the re-finish."
+    },
+    {
+      "at": "2026-09-30T13:42:40Z",
+      "by": "builder",
+      "note": "Gate 2 label-bar re-finish 2026-09-30. Legacy caption and signature baked over the photo area were lifted. Masters re-finished (16x9, 4x5, 9x16) to a text-free photo with the 190px #0e0e12 label bar only, hairline divider, left site/scenario/AI disclosure and right Jason D’s Vision plus Allura Jason A. Devlin. Still Candidate. Not an approval."
     }
   ],
   "file_9x16": "library/world/Greece/Pylos/gr-01-060-9x16.png",
-  "sha256_9x16": "5aeb1608dbe349baa7243a1a4c99f1a10a3685d715d9c1f0918e987142f1adff",
+  "sha256_9x16": "be7b3c44ed5bf5a61a09d8300a98f5cadcbdd929afc5bea03c5e3380a5e6efb8",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:18Z",

@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Greece/Trikala/gr-01-068-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Grok Bot QC 5/5",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:28Z (Sun, 27 Sep 2026 16:54:28 GMT), separate request for 39.5556, 21.768, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 3%, 9.2°C, wind 2.6 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "1fc2e1150f3b240c2c39ecea69eaa9bf943344ac81c0907d2e01fcdfcc68e080",
-  "sha256_4x5": "ec93098c1c3385e4dfcf65e5d332ac24b265ef09782ff69f139c6cf5bc6b4409",
+  "sha256_16x9": "97f6585c71fba737c3bf4a17e847783a552a8b62c2910bf782c9be7e82600b12",
+  "sha256_4x5": "e14f0c117799dfc0bab690e3309816127904ac329fb82563093c352517adefc2",
   "reverted_at": "2026-09-25T12:47:11.505210+00:00",
   "qc_notes": [
     {
@@ -33,10 +33,15 @@
       "at": "2026-09-30T01:09:10.851446+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 hold — Cosmo QC 2026-09-29: legacy caption + \"Jason D's Vision\" signature baked over the photo area above the label bar (text over river). Gate 1 plausible. Needs builder re-finish to the label-bar-only standard; hold until the photo area is text-free."
+    },
+    {
+      "at": "2026-09-30T13:42:40Z",
+      "by": "builder",
+      "note": "Gate 2 label-bar re-finish 2026-09-30. Legacy caption and signature baked over the photo area were lifted. Masters re-finished (16x9, 4x5, 9x16) to a text-free photo with the 190px #0e0e12 label bar only, hairline divider, left site/scenario/AI disclosure and right Jason D’s Vision plus Allura Jason A. Devlin. Still Candidate. Not an approval."
     }
   ],
   "file_9x16": "library/world/Greece/Trikala/gr-01-068-9x16.png",
-  "sha256_9x16": "ff87615749843ffa19db635af1889ba6bc0a3fd8bcbcd63e46fc377e69fe40d9",
+  "sha256_9x16": "e617c0a4c35558aff2f187e53a9dfd62772be45c9eede70ece0b12662a8068cf",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:28Z",

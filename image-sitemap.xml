@@ -3,6 +3,1581 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://greece.jdvision.org/#GR-01-001</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-001-16x9.png</image:loc>
+      <image:caption>Parthenon, Athens</image:caption>
+      <image:title>Parthenon, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-001-4x5.png</image:loc>
+      <image:caption>Parthenon, Athens</image:caption>
+      <image:title>Parthenon, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-001-9x16.png</image:loc>
+      <image:caption>Parthenon, Athens</image:caption>
+      <image:title>Parthenon, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-002</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-002-16x9.png</image:loc>
+      <image:caption>Plaka, Athens</image:caption>
+      <image:title>Plaka, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-002-4x5.png</image:loc>
+      <image:caption>Plaka, Athens</image:caption>
+      <image:title>Plaka, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-002-9x16.png</image:loc>
+      <image:caption>Plaka, Athens</image:caption>
+      <image:title>Plaka, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-003</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Santorini/gr-01-003-16x9.png</image:loc>
+      <image:caption>Oia, Santorini</image:caption>
+      <image:title>Oia, Santorini</image:title>
+      <image:geo_location>Santorini, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Santorini/gr-01-003-4x5.png</image:loc>
+      <image:caption>Oia, Santorini</image:caption>
+      <image:title>Oia, Santorini</image:title>
+      <image:geo_location>Santorini, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Santorini/gr-01-003-9x16.png</image:loc>
+      <image:caption>Oia, Santorini</image:caption>
+      <image:title>Oia, Santorini</image:title>
+      <image:geo_location>Santorini, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-004</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Mykonos/gr-01-004-16x9.png</image:loc>
+      <image:caption>Windmills, Mykonos</image:caption>
+      <image:title>Windmills, Mykonos</image:title>
+      <image:geo_location>Mykonos, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Mykonos/gr-01-004-4x5.png</image:loc>
+      <image:caption>Windmills, Mykonos</image:caption>
+      <image:title>Windmills, Mykonos</image:title>
+      <image:geo_location>Mykonos, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Mykonos/gr-01-004-9x16.png</image:loc>
+      <image:caption>Windmills, Mykonos</image:caption>
+      <image:title>Windmills, Mykonos</image:title>
+      <image:geo_location>Mykonos, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-005</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Delphi/gr-01-005-16x9.png</image:loc>
+      <image:caption>Temple of Apollo, Delphi</image:caption>
+      <image:title>Temple of Apollo, Delphi</image:title>
+      <image:geo_location>Delphi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Delphi/gr-01-005-4x5.png</image:loc>
+      <image:caption>Temple of Apollo, Delphi</image:caption>
+      <image:title>Temple of Apollo, Delphi</image:title>
+      <image:geo_location>Delphi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Delphi/gr-01-005-9x16.png</image:loc>
+      <image:caption>Temple of Apollo, Delphi</image:caption>
+      <image:title>Temple of Apollo, Delphi</image:title>
+      <image:geo_location>Delphi, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-006</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Kalambaka/gr-01-006-16x9.png</image:loc>
+      <image:caption>Meteora, Kalambaka</image:caption>
+      <image:title>Meteora, Kalambaka</image:title>
+      <image:geo_location>Kalambaka, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Kalambaka/gr-01-006-4x5.png</image:loc>
+      <image:caption>Meteora, Kalambaka</image:caption>
+      <image:title>Meteora, Kalambaka</image:title>
+      <image:geo_location>Kalambaka, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Kalambaka/gr-01-006-9x16.png</image:loc>
+      <image:caption>Meteora, Kalambaka</image:caption>
+      <image:title>Meteora, Kalambaka</image:title>
+      <image:geo_location>Kalambaka, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-007</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Epidaurus/gr-01-007-16x9.png</image:loc>
+      <image:caption>Ancient Theatre, Epidaurus</image:caption>
+      <image:title>Ancient Theatre, Epidaurus</image:title>
+      <image:geo_location>Epidaurus, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Epidaurus/gr-01-007-4x5.png</image:loc>
+      <image:caption>Ancient Theatre, Epidaurus</image:caption>
+      <image:title>Ancient Theatre, Epidaurus</image:title>
+      <image:geo_location>Epidaurus, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Epidaurus/gr-01-007-9x16.png</image:loc>
+      <image:caption>Ancient Theatre, Epidaurus</image:caption>
+      <image:title>Ancient Theatre, Epidaurus</image:title>
+      <image:geo_location>Epidaurus, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-008</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Mycenae/gr-01-008-16x9.png</image:loc>
+      <image:caption>Lion Gate, Mycenae</image:caption>
+      <image:title>Lion Gate, Mycenae</image:title>
+      <image:geo_location>Mycenae, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Mycenae/gr-01-008-4x5.png</image:loc>
+      <image:caption>Lion Gate, Mycenae</image:caption>
+      <image:title>Lion Gate, Mycenae</image:title>
+      <image:geo_location>Mycenae, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Mycenae/gr-01-008-9x16.png</image:loc>
+      <image:caption>Lion Gate, Mycenae</image:caption>
+      <image:title>Lion Gate, Mycenae</image:title>
+      <image:geo_location>Mycenae, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-009</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Olympia/gr-01-009-16x9.png</image:loc>
+      <image:caption>Temple of Hera, Olympia</image:caption>
+      <image:title>Temple of Hera, Olympia</image:title>
+      <image:geo_location>Olympia, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Olympia/gr-01-009-4x5.png</image:loc>
+      <image:caption>Temple of Hera, Olympia</image:caption>
+      <image:title>Temple of Hera, Olympia</image:title>
+      <image:geo_location>Olympia, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Olympia/gr-01-009-9x16.png</image:loc>
+      <image:caption>Temple of Hera, Olympia</image:caption>
+      <image:title>Temple of Hera, Olympia</image:title>
+      <image:geo_location>Olympia, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-010</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Heraklion/gr-01-010-16x9.png</image:loc>
+      <image:caption>Knossos, Heraklion</image:caption>
+      <image:title>Knossos, Heraklion</image:title>
+      <image:geo_location>Heraklion, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Heraklion/gr-01-010-4x5.png</image:loc>
+      <image:caption>Knossos, Heraklion</image:caption>
+      <image:title>Knossos, Heraklion</image:title>
+      <image:geo_location>Heraklion, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Heraklion/gr-01-010-9x16.png</image:loc>
+      <image:caption>Knossos, Heraklion</image:caption>
+      <image:title>Knossos, Heraklion</image:title>
+      <image:geo_location>Heraklion, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-011</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Rhodes/gr-01-011-16x9.png</image:loc>
+      <image:caption>Palace of the Grand Master, Rhodes</image:caption>
+      <image:title>Palace of the Grand Master, Rhodes</image:title>
+      <image:geo_location>Rhodes, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Rhodes/gr-01-011-4x5.png</image:loc>
+      <image:caption>Palace of the Grand Master, Rhodes</image:caption>
+      <image:title>Palace of the Grand Master, Rhodes</image:title>
+      <image:geo_location>Rhodes, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Rhodes/gr-01-011-9x16.png</image:loc>
+      <image:caption>Palace of the Grand Master, Rhodes</image:caption>
+      <image:title>Palace of the Grand Master, Rhodes</image:title>
+      <image:geo_location>Rhodes, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-012</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Corfu/gr-01-012-16x9.png</image:loc>
+      <image:caption>Old Fortress, Corfu</image:caption>
+      <image:title>Old Fortress, Corfu</image:title>
+      <image:geo_location>Corfu, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Corfu/gr-01-012-4x5.png</image:loc>
+      <image:caption>Old Fortress, Corfu</image:caption>
+      <image:title>Old Fortress, Corfu</image:title>
+      <image:geo_location>Corfu, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Corfu/gr-01-012-9x16.png</image:loc>
+      <image:caption>Old Fortress, Corfu</image:caption>
+      <image:title>Old Fortress, Corfu</image:title>
+      <image:geo_location>Corfu, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-013</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Thessaloniki/gr-01-013-16x9.png</image:loc>
+      <image:caption>White Tower, Thessaloniki</image:caption>
+      <image:title>White Tower, Thessaloniki</image:title>
+      <image:geo_location>Thessaloniki, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Thessaloniki/gr-01-013-4x5.png</image:loc>
+      <image:caption>White Tower, Thessaloniki</image:caption>
+      <image:title>White Tower, Thessaloniki</image:title>
+      <image:geo_location>Thessaloniki, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Thessaloniki/gr-01-013-9x16.png</image:loc>
+      <image:caption>White Tower, Thessaloniki</image:caption>
+      <image:title>White Tower, Thessaloniki</image:title>
+      <image:geo_location>Thessaloniki, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-014</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Nafplio/gr-01-014-16x9.png</image:loc>
+      <image:caption>Bourtzi, Nafplio</image:caption>
+      <image:title>Bourtzi, Nafplio</image:title>
+      <image:geo_location>Nafplio, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Nafplio/gr-01-014-4x5.png</image:loc>
+      <image:caption>Bourtzi, Nafplio</image:caption>
+      <image:title>Bourtzi, Nafplio</image:title>
+      <image:geo_location>Nafplio, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Nafplio/gr-01-014-9x16.png</image:loc>
+      <image:caption>Bourtzi, Nafplio</image:caption>
+      <image:title>Bourtzi, Nafplio</image:title>
+      <image:geo_location>Nafplio, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-015</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Monodendri/gr-01-015-16x9.png</image:loc>
+      <image:caption>Vikos Gorge, Monodendri</image:caption>
+      <image:title>Vikos Gorge, Monodendri</image:title>
+      <image:geo_location>Monodendri, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Monodendri/gr-01-015-4x5.png</image:loc>
+      <image:caption>Vikos Gorge, Monodendri</image:caption>
+      <image:title>Vikos Gorge, Monodendri</image:title>
+      <image:geo_location>Monodendri, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Monodendri/gr-01-015-9x16.png</image:loc>
+      <image:caption>Vikos Gorge, Monodendri</image:caption>
+      <image:title>Vikos Gorge, Monodendri</image:title>
+      <image:geo_location>Monodendri, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-016</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Litochoro/gr-01-016-16x9.png</image:loc>
+      <image:caption>Mount Olympus, Litochoro</image:caption>
+      <image:title>Mount Olympus, Litochoro</image:title>
+      <image:geo_location>Litochoro, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Litochoro/gr-01-016-4x5.png</image:loc>
+      <image:caption>Mount Olympus, Litochoro</image:caption>
+      <image:title>Mount Olympus, Litochoro</image:title>
+      <image:geo_location>Litochoro, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Litochoro/gr-01-016-9x16.png</image:loc>
+      <image:caption>Mount Olympus, Litochoro</image:caption>
+      <image:title>Mount Olympus, Litochoro</image:title>
+      <image:geo_location>Litochoro, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-017</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-017-16x9.png</image:loc>
+      <image:caption>Erechtheion, Athens</image:caption>
+      <image:title>Erechtheion, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-017-4x5.png</image:loc>
+      <image:caption>Erechtheion, Athens</image:caption>
+      <image:title>Erechtheion, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-017-9x16.png</image:loc>
+      <image:caption>Erechtheion, Athens</image:caption>
+      <image:title>Erechtheion, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-018</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-018-16x9.png</image:loc>
+      <image:caption>Temple of Olympian Zeus, Athens</image:caption>
+      <image:title>Temple of Olympian Zeus, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-018-4x5.png</image:loc>
+      <image:caption>Temple of Olympian Zeus, Athens</image:caption>
+      <image:title>Temple of Olympian Zeus, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-018-9x16.png</image:loc>
+      <image:caption>Temple of Olympian Zeus, Athens</image:caption>
+      <image:title>Temple of Olympian Zeus, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-019</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-019-16x9.png</image:loc>
+      <image:caption>Ancient Agora, Athens</image:caption>
+      <image:title>Ancient Agora, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-019-4x5.png</image:loc>
+      <image:caption>Ancient Agora, Athens</image:caption>
+      <image:title>Ancient Agora, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-019-9x16.png</image:loc>
+      <image:caption>Ancient Agora, Athens</image:caption>
+      <image:title>Ancient Agora, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-020</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-020-16x9.png</image:loc>
+      <image:caption>Panathenaic Stadium, Athens</image:caption>
+      <image:title>Panathenaic Stadium, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-020-4x5.png</image:loc>
+      <image:caption>Panathenaic Stadium, Athens</image:caption>
+      <image:title>Panathenaic Stadium, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-020-9x16.png</image:loc>
+      <image:caption>Panathenaic Stadium, Athens</image:caption>
+      <image:title>Panathenaic Stadium, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-021</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-021-16x9.png</image:loc>
+      <image:caption>Lycabettus Hill, Athens</image:caption>
+      <image:title>Lycabettus Hill, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-021-4x5.png</image:loc>
+      <image:caption>Lycabettus Hill, Athens</image:caption>
+      <image:title>Lycabettus Hill, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-021-9x16.png</image:loc>
+      <image:caption>Lycabettus Hill, Athens</image:caption>
+      <image:title>Lycabettus Hill, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-022</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-022-16x9.png</image:loc>
+      <image:caption>National Archaeological Museum, Athens</image:caption>
+      <image:title>National Archaeological Museum, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-022-4x5.png</image:loc>
+      <image:caption>National Archaeological Museum, Athens</image:caption>
+      <image:title>National Archaeological Museum, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-022-9x16.png</image:loc>
+      <image:caption>National Archaeological Museum, Athens</image:caption>
+      <image:title>National Archaeological Museum, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-023</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Sounion/gr-01-023-16x9.png</image:loc>
+      <image:caption>Temple of Poseidon, Sounion</image:caption>
+      <image:title>Temple of Poseidon, Sounion</image:title>
+      <image:geo_location>Sounion, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Sounion/gr-01-023-4x5.png</image:loc>
+      <image:caption>Temple of Poseidon, Sounion</image:caption>
+      <image:title>Temple of Poseidon, Sounion</image:title>
+      <image:geo_location>Sounion, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Sounion/gr-01-023-9x16.png</image:loc>
+      <image:caption>Temple of Poseidon, Sounion</image:caption>
+      <image:title>Temple of Poseidon, Sounion</image:title>
+      <image:geo_location>Sounion, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-024</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Aegina/gr-01-024-16x9.png</image:loc>
+      <image:caption>Temple of Aphaia, Aegina</image:caption>
+      <image:title>Temple of Aphaia, Aegina</image:title>
+      <image:geo_location>Aegina, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Aegina/gr-01-024-4x5.png</image:loc>
+      <image:caption>Temple of Aphaia, Aegina</image:caption>
+      <image:title>Temple of Aphaia, Aegina</image:title>
+      <image:geo_location>Aegina, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Aegina/gr-01-024-9x16.png</image:loc>
+      <image:caption>Temple of Aphaia, Aegina</image:caption>
+      <image:title>Temple of Aphaia, Aegina</image:title>
+      <image:geo_location>Aegina, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-025</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-025-16x9.png</image:loc>
+      <image:caption>Anafiotika, Athens</image:caption>
+      <image:title>Anafiotika, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-025-4x5.png</image:loc>
+      <image:caption>Anafiotika, Athens</image:caption>
+      <image:title>Anafiotika, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-025-9x16.png</image:loc>
+      <image:caption>Anafiotika, Athens</image:caption>
+      <image:title>Anafiotika, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-026</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-026-16x9.png</image:loc>
+      <image:caption>Hadrian's Arch, Athens</image:caption>
+      <image:title>Hadrian's Arch, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-026-4x5.png</image:loc>
+      <image:caption>Hadrian's Arch, Athens</image:caption>
+      <image:title>Hadrian's Arch, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-026-9x16.png</image:loc>
+      <image:caption>Hadrian's Arch, Athens</image:caption>
+      <image:title>Hadrian's Arch, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-027</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-027-16x9.png</image:loc>
+      <image:caption>Tower of the Winds, Athens</image:caption>
+      <image:title>Tower of the Winds, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-027-4x5.png</image:loc>
+      <image:caption>Tower of the Winds, Athens</image:caption>
+      <image:title>Tower of the Winds, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-027-9x16.png</image:loc>
+      <image:caption>Tower of the Winds, Athens</image:caption>
+      <image:title>Tower of the Winds, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-028</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-028-16x9.png</image:loc>
+      <image:caption>Kerameikos, Athens</image:caption>
+      <image:title>Kerameikos, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-028-4x5.png</image:loc>
+      <image:caption>Kerameikos, Athens</image:caption>
+      <image:title>Kerameikos, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-028-9x16.png</image:loc>
+      <image:caption>Kerameikos, Athens</image:caption>
+      <image:title>Kerameikos, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-029</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-029-16x9.png</image:loc>
+      <image:caption>Philopappos Monument, Athens</image:caption>
+      <image:title>Philopappos Monument, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-029-4x5.png</image:loc>
+      <image:caption>Philopappos Monument, Athens</image:caption>
+      <image:title>Philopappos Monument, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-029-9x16.png</image:loc>
+      <image:caption>Philopappos Monument, Athens</image:caption>
+      <image:title>Philopappos Monument, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-030</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Piraeus/gr-01-030-16x9.png</image:loc>
+      <image:caption>Mikrolimano, Piraeus</image:caption>
+      <image:title>Mikrolimano, Piraeus</image:title>
+      <image:geo_location>Piraeus, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Piraeus/gr-01-030-4x5.png</image:loc>
+      <image:caption>Mikrolimano, Piraeus</image:caption>
+      <image:title>Mikrolimano, Piraeus</image:title>
+      <image:geo_location>Piraeus, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Piraeus/gr-01-030-9x16.png</image:loc>
+      <image:caption>Mikrolimano, Piraeus</image:caption>
+      <image:title>Mikrolimano, Piraeus</image:title>
+      <image:geo_location>Piraeus, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-031</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Sounion/gr-01-031-16x9.png</image:loc>
+      <image:caption>Cape Sounion, Sounion</image:caption>
+      <image:title>Cape Sounion, Sounion</image:title>
+      <image:geo_location>Sounion, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Sounion/gr-01-031-4x5.png</image:loc>
+      <image:caption>Cape Sounion, Sounion</image:caption>
+      <image:title>Cape Sounion, Sounion</image:title>
+      <image:geo_location>Sounion, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Sounion/gr-01-031-9x16.png</image:loc>
+      <image:caption>Cape Sounion, Sounion</image:caption>
+      <image:title>Cape Sounion, Sounion</image:title>
+      <image:geo_location>Sounion, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-032</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Aegina/gr-01-032-16x9.png</image:loc>
+      <image:caption>Aegina Harbor, Aegina</image:caption>
+      <image:title>Aegina Harbor, Aegina</image:title>
+      <image:geo_location>Aegina, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Aegina/gr-01-032-4x5.png</image:loc>
+      <image:caption>Aegina Harbor, Aegina</image:caption>
+      <image:title>Aegina Harbor, Aegina</image:title>
+      <image:geo_location>Aegina, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Aegina/gr-01-032-9x16.png</image:loc>
+      <image:caption>Aegina Harbor, Aegina</image:caption>
+      <image:title>Aegina Harbor, Aegina</image:title>
+      <image:geo_location>Aegina, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-033</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Thermopylae/gr-01-033-16x9.png</image:loc>
+      <image:caption>Leonidas Monument, Thermopylae</image:caption>
+      <image:title>Leonidas Monument, Thermopylae</image:title>
+      <image:geo_location>Thermopylae, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Thermopylae/gr-01-033-4x5.png</image:loc>
+      <image:caption>Leonidas Monument, Thermopylae</image:caption>
+      <image:title>Leonidas Monument, Thermopylae</image:title>
+      <image:geo_location>Thermopylae, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Thermopylae/gr-01-033-9x16.png</image:loc>
+      <image:caption>Leonidas Monument, Thermopylae</image:caption>
+      <image:title>Leonidas Monument, Thermopylae</image:title>
+      <image:geo_location>Thermopylae, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-034</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Distomo/gr-01-034-16x9.png</image:loc>
+      <image:caption>Hosios Loukas Monastery, Distomo</image:caption>
+      <image:title>Hosios Loukas Monastery, Distomo</image:title>
+      <image:geo_location>Distomo, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Distomo/gr-01-034-4x5.png</image:loc>
+      <image:caption>Hosios Loukas Monastery, Distomo</image:caption>
+      <image:title>Hosios Loukas Monastery, Distomo</image:title>
+      <image:geo_location>Distomo, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Distomo/gr-01-034-9x16.png</image:loc>
+      <image:caption>Hosios Loukas Monastery, Distomo</image:caption>
+      <image:title>Hosios Loukas Monastery, Distomo</image:title>
+      <image:geo_location>Distomo, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-035</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Karpenisi/gr-01-035-16x9.png</image:loc>
+      <image:caption>Karpenisi, Karpenisi</image:caption>
+      <image:title>Karpenisi, Karpenisi</image:title>
+      <image:geo_location>Karpenisi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Karpenisi/gr-01-035-4x5.png</image:loc>
+      <image:caption>Karpenisi, Karpenisi</image:caption>
+      <image:title>Karpenisi, Karpenisi</image:title>
+      <image:geo_location>Karpenisi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Karpenisi/gr-01-035-9x16.png</image:loc>
+      <image:caption>Karpenisi, Karpenisi</image:caption>
+      <image:title>Karpenisi, Karpenisi</image:title>
+      <image:geo_location>Karpenisi, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-036</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Arachova/gr-01-036-16x9.png</image:loc>
+      <image:caption>Arachova Village, Arachova</image:caption>
+      <image:title>Arachova Village, Arachova</image:title>
+      <image:geo_location>Arachova, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Arachova/gr-01-036-4x5.png</image:loc>
+      <image:caption>Arachova Village, Arachova</image:caption>
+      <image:title>Arachova Village, Arachova</image:title>
+      <image:geo_location>Arachova, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Arachova/gr-01-036-9x16.png</image:loc>
+      <image:caption>Arachova Village, Arachova</image:caption>
+      <image:title>Arachova Village, Arachova</image:title>
+      <image:geo_location>Arachova, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-037</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Galaxidi/gr-01-037-16x9.png</image:loc>
+      <image:caption>Galaxidi Harbor, Galaxidi</image:caption>
+      <image:title>Galaxidi Harbor, Galaxidi</image:title>
+      <image:geo_location>Galaxidi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Galaxidi/gr-01-037-4x5.png</image:loc>
+      <image:caption>Galaxidi Harbor, Galaxidi</image:caption>
+      <image:title>Galaxidi Harbor, Galaxidi</image:title>
+      <image:geo_location>Galaxidi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Galaxidi/gr-01-037-9x16.png</image:loc>
+      <image:caption>Galaxidi Harbor, Galaxidi</image:caption>
+      <image:title>Galaxidi Harbor, Galaxidi</image:title>
+      <image:geo_location>Galaxidi, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-038</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Nafpaktos/gr-01-038-16x9.png</image:loc>
+      <image:caption>Nafpaktos Harbor, Nafpaktos</image:caption>
+      <image:title>Nafpaktos Harbor, Nafpaktos</image:title>
+      <image:geo_location>Nafpaktos, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Nafpaktos/gr-01-038-4x5.png</image:loc>
+      <image:caption>Nafpaktos Harbor, Nafpaktos</image:caption>
+      <image:title>Nafpaktos Harbor, Nafpaktos</image:title>
+      <image:geo_location>Nafpaktos, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Nafpaktos/gr-01-038-9x16.png</image:loc>
+      <image:caption>Nafpaktos Harbor, Nafpaktos</image:caption>
+      <image:title>Nafpaktos Harbor, Nafpaktos</image:title>
+      <image:geo_location>Nafpaktos, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-039</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Chalkida/gr-01-039-16x9.png</image:loc>
+      <image:caption>Evripos Bridge, Chalkida</image:caption>
+      <image:title>Evripos Bridge, Chalkida</image:title>
+      <image:geo_location>Chalkida, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Chalkida/gr-01-039-4x5.png</image:loc>
+      <image:caption>Evripos Bridge, Chalkida</image:caption>
+      <image:title>Evripos Bridge, Chalkida</image:title>
+      <image:geo_location>Chalkida, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Chalkida/gr-01-039-9x16.png</image:loc>
+      <image:caption>Evripos Bridge, Chalkida</image:caption>
+      <image:title>Evripos Bridge, Chalkida</image:title>
+      <image:geo_location>Chalkida, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-040</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Livadeia/gr-01-040-16x9.png</image:loc>
+      <image:caption>Krya Springs, Livadeia</image:caption>
+      <image:title>Krya Springs, Livadeia</image:title>
+      <image:geo_location>Livadeia, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Livadeia/gr-01-040-4x5.png</image:loc>
+      <image:caption>Krya Springs, Livadeia</image:caption>
+      <image:title>Krya Springs, Livadeia</image:title>
+      <image:geo_location>Livadeia, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Livadeia/gr-01-040-9x16.png</image:loc>
+      <image:caption>Krya Springs, Livadeia</image:caption>
+      <image:title>Krya Springs, Livadeia</image:title>
+      <image:geo_location>Livadeia, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-041</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Parnassus/gr-01-041-16x9.png</image:loc>
+      <image:caption>Parnassus Slopes, Parnassus</image:caption>
+      <image:title>Parnassus Slopes, Parnassus</image:title>
+      <image:geo_location>Parnassus, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Parnassus/gr-01-041-4x5.png</image:loc>
+      <image:caption>Parnassus Slopes, Parnassus</image:caption>
+      <image:title>Parnassus Slopes, Parnassus</image:title>
+      <image:geo_location>Parnassus, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Parnassus/gr-01-041-9x16.png</image:loc>
+      <image:caption>Parnassus Slopes, Parnassus</image:caption>
+      <image:title>Parnassus Slopes, Parnassus</image:title>
+      <image:geo_location>Parnassus, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-042</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Itea/gr-01-042-16x9.png</image:loc>
+      <image:caption>Itea Waterfront, Itea</image:caption>
+      <image:title>Itea Waterfront, Itea</image:title>
+      <image:geo_location>Itea, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Itea/gr-01-042-4x5.png</image:loc>
+      <image:caption>Itea Waterfront, Itea</image:caption>
+      <image:title>Itea Waterfront, Itea</image:title>
+      <image:geo_location>Itea, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Itea/gr-01-042-9x16.png</image:loc>
+      <image:caption>Itea Waterfront, Itea</image:caption>
+      <image:title>Itea Waterfront, Itea</image:title>
+      <image:geo_location>Itea, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-043</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Amphissa/gr-01-043-16x9.png</image:loc>
+      <image:caption>Old Town, Amphissa</image:caption>
+      <image:title>Old Town, Amphissa</image:title>
+      <image:geo_location>Amphissa, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Amphissa/gr-01-043-4x5.png</image:loc>
+      <image:caption>Old Town, Amphissa</image:caption>
+      <image:title>Old Town, Amphissa</image:title>
+      <image:geo_location>Amphissa, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Amphissa/gr-01-043-9x16.png</image:loc>
+      <image:caption>Old Town, Amphissa</image:caption>
+      <image:title>Old Town, Amphissa</image:title>
+      <image:geo_location>Amphissa, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-044</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Lamia/gr-01-044-16x9.png</image:loc>
+      <image:caption>Lamia Castle, Lamia</image:caption>
+      <image:title>Lamia Castle, Lamia</image:title>
+      <image:geo_location>Lamia, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Lamia/gr-01-044-4x5.png</image:loc>
+      <image:caption>Lamia Castle, Lamia</image:caption>
+      <image:title>Lamia Castle, Lamia</image:title>
+      <image:geo_location>Lamia, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Lamia/gr-01-044-9x16.png</image:loc>
+      <image:caption>Lamia Castle, Lamia</image:caption>
+      <image:title>Lamia Castle, Lamia</image:title>
+      <image:geo_location>Lamia, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-045</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Delphi/gr-01-045-16x9.png</image:loc>
+      <image:caption>Ancient Theater, Delphi</image:caption>
+      <image:title>Ancient Theater, Delphi</image:title>
+      <image:geo_location>Delphi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Delphi/gr-01-045-4x5.png</image:loc>
+      <image:caption>Ancient Theater, Delphi</image:caption>
+      <image:title>Ancient Theater, Delphi</image:title>
+      <image:geo_location>Delphi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Delphi/gr-01-045-9x16.png</image:loc>
+      <image:caption>Ancient Theater, Delphi</image:caption>
+      <image:title>Ancient Theater, Delphi</image:title>
+      <image:geo_location>Delphi, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-046</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Delphi/gr-01-046-16x9.png</image:loc>
+      <image:caption>Castalian Spring, Delphi</image:caption>
+      <image:title>Castalian Spring, Delphi</image:title>
+      <image:geo_location>Delphi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Delphi/gr-01-046-4x5.png</image:loc>
+      <image:caption>Castalian Spring, Delphi</image:caption>
+      <image:title>Castalian Spring, Delphi</image:title>
+      <image:geo_location>Delphi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Delphi/gr-01-046-9x16.png</image:loc>
+      <image:caption>Castalian Spring, Delphi</image:caption>
+      <image:title>Castalian Spring, Delphi</image:title>
+      <image:geo_location>Delphi, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-047</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Distomo/gr-01-047-16x9.png</image:loc>
+      <image:caption>Distomo Memorial, Distomo</image:caption>
+      <image:title>Distomo Memorial, Distomo</image:title>
+      <image:geo_location>Distomo, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Distomo/gr-01-047-4x5.png</image:loc>
+      <image:caption>Distomo Memorial, Distomo</image:caption>
+      <image:title>Distomo Memorial, Distomo</image:title>
+      <image:geo_location>Distomo, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Distomo/gr-01-047-9x16.png</image:loc>
+      <image:caption>Distomo Memorial, Distomo</image:caption>
+      <image:title>Distomo Memorial, Distomo</image:title>
+      <image:geo_location>Distomo, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-048</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Eretria/gr-01-048-16x9.png</image:loc>
+      <image:caption>Ancient Theater, Eretria</image:caption>
+      <image:title>Ancient Theater, Eretria</image:title>
+      <image:geo_location>Eretria, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Eretria/gr-01-048-4x5.png</image:loc>
+      <image:caption>Ancient Theater, Eretria</image:caption>
+      <image:title>Ancient Theater, Eretria</image:title>
+      <image:geo_location>Eretria, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Eretria/gr-01-048-9x16.png</image:loc>
+      <image:caption>Ancient Theater, Eretria</image:caption>
+      <image:title>Ancient Theater, Eretria</image:title>
+      <image:geo_location>Eretria, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-049</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Mystras/gr-01-049-16x9.png</image:loc>
+      <image:caption>Mystras, Mystras</image:caption>
+      <image:title>Mystras, Mystras</image:title>
+      <image:geo_location>Mystras, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Mystras/gr-01-049-4x5.png</image:loc>
+      <image:caption>Mystras, Mystras</image:caption>
+      <image:title>Mystras, Mystras</image:title>
+      <image:geo_location>Mystras, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Mystras/gr-01-049-9x16.png</image:loc>
+      <image:caption>Mystras, Mystras</image:caption>
+      <image:title>Mystras, Mystras</image:title>
+      <image:geo_location>Mystras, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-050</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Monemvasia/gr-01-050-16x9.png</image:loc>
+      <image:caption>Monemvasia, Monemvasia</image:caption>
+      <image:title>Monemvasia, Monemvasia</image:title>
+      <image:geo_location>Monemvasia, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Monemvasia/gr-01-050-4x5.png</image:loc>
+      <image:caption>Monemvasia, Monemvasia</image:caption>
+      <image:title>Monemvasia, Monemvasia</image:title>
+      <image:geo_location>Monemvasia, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Monemvasia/gr-01-050-9x16.png</image:loc>
+      <image:caption>Monemvasia, Monemvasia</image:caption>
+      <image:title>Monemvasia, Monemvasia</image:title>
+      <image:geo_location>Monemvasia, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-051</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Vathia/gr-01-051-16x9.png</image:loc>
+      <image:caption>Tower Houses, Vathia</image:caption>
+      <image:title>Tower Houses, Vathia</image:title>
+      <image:geo_location>Vathia, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Vathia/gr-01-051-4x5.png</image:loc>
+      <image:caption>Tower Houses, Vathia</image:caption>
+      <image:title>Tower Houses, Vathia</image:title>
+      <image:geo_location>Vathia, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Vathia/gr-01-051-9x16.png</image:loc>
+      <image:caption>Tower Houses, Vathia</image:caption>
+      <image:title>Tower Houses, Vathia</image:title>
+      <image:geo_location>Vathia, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-053</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Corinth/gr-01-053-16x9.png</image:loc>
+      <image:caption>Corinth Canal, Corinth</image:caption>
+      <image:title>Corinth Canal, Corinth</image:title>
+      <image:geo_location>Corinth, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Corinth/gr-01-053-4x5.png</image:loc>
+      <image:caption>Corinth Canal, Corinth</image:caption>
+      <image:title>Corinth Canal, Corinth</image:title>
+      <image:geo_location>Corinth, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Corinth/gr-01-053-9x16.png</image:loc>
+      <image:caption>Corinth Canal, Corinth</image:caption>
+      <image:title>Corinth Canal, Corinth</image:title>
+      <image:geo_location>Corinth, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-054</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Corinth/gr-01-054-16x9.png</image:loc>
+      <image:caption>Acrocorinth, Corinth</image:caption>
+      <image:title>Acrocorinth, Corinth</image:title>
+      <image:geo_location>Corinth, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Corinth/gr-01-054-4x5.png</image:loc>
+      <image:caption>Acrocorinth, Corinth</image:caption>
+      <image:title>Acrocorinth, Corinth</image:title>
+      <image:geo_location>Corinth, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Corinth/gr-01-054-9x16.png</image:loc>
+      <image:caption>Acrocorinth, Corinth</image:caption>
+      <image:title>Acrocorinth, Corinth</image:title>
+      <image:geo_location>Corinth, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-055</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Kalamata/gr-01-055-16x9.png</image:loc>
+      <image:caption>Kalamata Castle, Kalamata</image:caption>
+      <image:title>Kalamata Castle, Kalamata</image:title>
+      <image:geo_location>Kalamata, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Kalamata/gr-01-055-4x5.png</image:loc>
+      <image:caption>Kalamata Castle, Kalamata</image:caption>
+      <image:title>Kalamata Castle, Kalamata</image:title>
+      <image:geo_location>Kalamata, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Kalamata/gr-01-055-9x16.png</image:loc>
+      <image:caption>Kalamata Castle, Kalamata</image:caption>
+      <image:title>Kalamata Castle, Kalamata</image:title>
+      <image:geo_location>Kalamata, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-056</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Patras/gr-01-056-16x9.png</image:loc>
+      <image:caption>Patras Castle, Patras</image:caption>
+      <image:title>Patras Castle, Patras</image:title>
+      <image:geo_location>Patras, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Patras/gr-01-056-4x5.png</image:loc>
+      <image:caption>Patras Castle, Patras</image:caption>
+      <image:title>Patras Castle, Patras</image:title>
+      <image:geo_location>Patras, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Patras/gr-01-056-9x16.png</image:loc>
+      <image:caption>Patras Castle, Patras</image:caption>
+      <image:title>Patras Castle, Patras</image:title>
+      <image:geo_location>Patras, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-058</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Nafplio/gr-01-058-16x9.png</image:loc>
+      <image:caption>Palamidi, Nafplio</image:caption>
+      <image:title>Palamidi, Nafplio</image:title>
+      <image:geo_location>Nafplio, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Nafplio/gr-01-058-4x5.png</image:loc>
+      <image:caption>Palamidi, Nafplio</image:caption>
+      <image:title>Palamidi, Nafplio</image:title>
+      <image:geo_location>Nafplio, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Nafplio/gr-01-058-9x16.png</image:loc>
+      <image:caption>Palamidi, Nafplio</image:caption>
+      <image:title>Palamidi, Nafplio</image:title>
+      <image:geo_location>Nafplio, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-059</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Methoni/gr-01-059-16x9.png</image:loc>
+      <image:caption>Methoni Castle, Methoni</image:caption>
+      <image:title>Methoni Castle, Methoni</image:title>
+      <image:geo_location>Methoni, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Methoni/gr-01-059-4x5.png</image:loc>
+      <image:caption>Methoni Castle, Methoni</image:caption>
+      <image:title>Methoni Castle, Methoni</image:title>
+      <image:geo_location>Methoni, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Methoni/gr-01-059-9x16.png</image:loc>
+      <image:caption>Methoni Castle, Methoni</image:caption>
+      <image:title>Methoni Castle, Methoni</image:title>
+      <image:geo_location>Methoni, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-060</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Pylos/gr-01-060-16x9.png</image:loc>
+      <image:caption>Niokastro, Pylos</image:caption>
+      <image:title>Niokastro, Pylos</image:title>
+      <image:geo_location>Pylos, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Pylos/gr-01-060-4x5.png</image:loc>
+      <image:caption>Niokastro, Pylos</image:caption>
+      <image:title>Niokastro, Pylos</image:title>
+      <image:geo_location>Pylos, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Pylos/gr-01-060-9x16.png</image:loc>
+      <image:caption>Niokastro, Pylos</image:caption>
+      <image:title>Niokastro, Pylos</image:title>
+      <image:geo_location>Pylos, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-061</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Pylos/gr-01-061-16x9.png</image:loc>
+      <image:caption>Voidokilia Beach, Pylos</image:caption>
+      <image:title>Voidokilia Beach, Pylos</image:title>
+      <image:geo_location>Pylos, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Pylos/gr-01-061-4x5.png</image:loc>
+      <image:caption>Voidokilia Beach, Pylos</image:caption>
+      <image:title>Voidokilia Beach, Pylos</image:title>
+      <image:geo_location>Pylos, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Pylos/gr-01-061-9x16.png</image:loc>
+      <image:caption>Voidokilia Beach, Pylos</image:caption>
+      <image:title>Voidokilia Beach, Pylos</image:title>
+      <image:geo_location>Pylos, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-062</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Messene/gr-01-062-16x9.png</image:loc>
+      <image:caption>Ancient Stadium, Messene</image:caption>
+      <image:title>Ancient Stadium, Messene</image:title>
+      <image:geo_location>Messene, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Messene/gr-01-062-4x5.png</image:loc>
+      <image:caption>Ancient Stadium, Messene</image:caption>
+      <image:title>Ancient Stadium, Messene</image:title>
+      <image:geo_location>Messene, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Messene/gr-01-062-9x16.png</image:loc>
+      <image:caption>Ancient Stadium, Messene</image:caption>
+      <image:title>Ancient Stadium, Messene</image:title>
+      <image:geo_location>Messene, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-063</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Gythio/gr-01-063-16x9.png</image:loc>
+      <image:caption>Gythio Waterfront, Gythio</image:caption>
+      <image:title>Gythio Waterfront, Gythio</image:title>
+      <image:geo_location>Gythio, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Gythio/gr-01-063-4x5.png</image:loc>
+      <image:caption>Gythio Waterfront, Gythio</image:caption>
+      <image:title>Gythio Waterfront, Gythio</image:title>
+      <image:geo_location>Gythio, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Gythio/gr-01-063-9x16.png</image:loc>
+      <image:caption>Gythio Waterfront, Gythio</image:caption>
+      <image:title>Gythio Waterfront, Gythio</image:title>
+      <image:geo_location>Gythio, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-064</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Pirgos%20Dirou/gr-01-064-16x9.png</image:loc>
+      <image:caption>Diros Caves, Pirgos Dirou</image:caption>
+      <image:title>Diros Caves, Pirgos Dirou</image:title>
+      <image:geo_location>Pirgos Dirou, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Pirgos%20Dirou/gr-01-064-4x5.png</image:loc>
+      <image:caption>Diros Caves, Pirgos Dirou</image:caption>
+      <image:title>Diros Caves, Pirgos Dirou</image:title>
+      <image:geo_location>Pirgos Dirou, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Pirgos%20Dirou/gr-01-064-9x16.png</image:loc>
+      <image:caption>Diros Caves, Pirgos Dirou</image:caption>
+      <image:title>Diros Caves, Pirgos Dirou</image:title>
+      <image:geo_location>Pirgos Dirou, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-066</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Portaria/gr-01-066-16x9.png</image:loc>
+      <image:caption>Portaria, Portaria</image:caption>
+      <image:title>Portaria, Portaria</image:title>
+      <image:geo_location>Portaria, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Portaria/gr-01-066-4x5.png</image:loc>
+      <image:caption>Portaria, Portaria</image:caption>
+      <image:title>Portaria, Portaria</image:title>
+      <image:geo_location>Portaria, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Portaria/gr-01-066-9x16.png</image:loc>
+      <image:caption>Portaria, Portaria</image:caption>
+      <image:title>Portaria, Portaria</image:title>
+      <image:geo_location>Portaria, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-067</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Plastira/gr-01-067-16x9.png</image:loc>
+      <image:caption>Lake Plastira, Plastira</image:caption>
+      <image:title>Lake Plastira, Plastira</image:title>
+      <image:geo_location>Plastira, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Plastira/gr-01-067-4x5.png</image:loc>
+      <image:caption>Lake Plastira, Plastira</image:caption>
+      <image:title>Lake Plastira, Plastira</image:title>
+      <image:geo_location>Plastira, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Plastira/gr-01-067-9x16.png</image:loc>
+      <image:caption>Lake Plastira, Plastira</image:caption>
+      <image:title>Lake Plastira, Plastira</image:title>
+      <image:geo_location>Plastira, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-068</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Trikala/gr-01-068-16x9.png</image:loc>
+      <image:caption>Clock Tower, Trikala</image:caption>
+      <image:title>Clock Tower, Trikala</image:title>
+      <image:geo_location>Trikala, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Trikala/gr-01-068-4x5.png</image:loc>
+      <image:caption>Clock Tower, Trikala</image:caption>
+      <image:title>Clock Tower, Trikala</image:title>
+      <image:geo_location>Trikala, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Trikala/gr-01-068-9x16.png</image:loc>
+      <image:caption>Clock Tower, Trikala</image:caption>
+      <image:title>Clock Tower, Trikala</image:title>
+      <image:geo_location>Trikala, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-070</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Thessaloniki/gr-01-070-16x9.png</image:loc>
+      <image:caption>Ano Poli, Thessaloniki</image:caption>
+      <image:title>Ano Poli, Thessaloniki</image:title>
+      <image:geo_location>Thessaloniki, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Thessaloniki/gr-01-070-4x5.png</image:loc>
+      <image:caption>Ano Poli, Thessaloniki</image:caption>
+      <image:title>Ano Poli, Thessaloniki</image:title>
+      <image:geo_location>Thessaloniki, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Thessaloniki/gr-01-070-9x16.png</image:loc>
+      <image:caption>Ano Poli, Thessaloniki</image:caption>
+      <image:title>Ano Poli, Thessaloniki</image:title>
+      <image:geo_location>Thessaloniki, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-071</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Thessaloniki/gr-01-071-16x9.png</image:loc>
+      <image:caption>Rotunda, Thessaloniki</image:caption>
+      <image:title>Rotunda, Thessaloniki</image:title>
+      <image:geo_location>Thessaloniki, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Thessaloniki/gr-01-071-4x5.png</image:loc>
+      <image:caption>Rotunda, Thessaloniki</image:caption>
+      <image:title>Rotunda, Thessaloniki</image:title>
+      <image:geo_location>Thessaloniki, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Thessaloniki/gr-01-071-9x16.png</image:loc>
+      <image:caption>Rotunda, Thessaloniki</image:caption>
+      <image:title>Rotunda, Thessaloniki</image:title>
+      <image:geo_location>Thessaloniki, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-072</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Vergina/gr-01-072-16x9.png</image:loc>
+      <image:caption>Royal Tombs, Vergina</image:caption>
+      <image:title>Royal Tombs, Vergina</image:title>
+      <image:geo_location>Vergina, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Vergina/gr-01-072-4x5.png</image:loc>
+      <image:caption>Royal Tombs, Vergina</image:caption>
+      <image:title>Royal Tombs, Vergina</image:title>
+      <image:geo_location>Vergina, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Vergina/gr-01-072-9x16.png</image:loc>
+      <image:caption>Royal Tombs, Vergina</image:caption>
+      <image:title>Royal Tombs, Vergina</image:title>
+      <image:geo_location>Vergina, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-081</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Kastoria/gr-01-081-16x9.png</image:loc>
+      <image:caption>Kastoria Lake, Kastoria</image:caption>
+      <image:title>Kastoria Lake, Kastoria</image:title>
+      <image:geo_location>Kastoria, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Kastoria/gr-01-081-4x5.png</image:loc>
+      <image:caption>Kastoria Lake, Kastoria</image:caption>
+      <image:title>Kastoria Lake, Kastoria</image:title>
+      <image:geo_location>Kastoria, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Kastoria/gr-01-081-9x16.png</image:loc>
+      <image:caption>Kastoria Lake, Kastoria</image:caption>
+      <image:title>Kastoria Lake, Kastoria</image:title>
+      <image:geo_location>Kastoria, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-082</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Prespa/gr-01-082-16x9.png</image:loc>
+      <image:caption>Prespa Lakes, Prespa</image:caption>
+      <image:title>Prespa Lakes, Prespa</image:title>
+      <image:geo_location>Prespa, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Prespa/gr-01-082-4x5.png</image:loc>
+      <image:caption>Prespa Lakes, Prespa</image:caption>
+      <image:title>Prespa Lakes, Prespa</image:title>
+      <image:geo_location>Prespa, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Prespa/gr-01-082-9x16.png</image:loc>
+      <image:caption>Prespa Lakes, Prespa</image:caption>
+      <image:title>Prespa Lakes, Prespa</image:title>
+      <image:geo_location>Prespa, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-083</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Florina/gr-01-083-16x9.png</image:loc>
+      <image:caption>Sakoulevas River, Florina</image:caption>
+      <image:title>Sakoulevas River, Florina</image:title>
+      <image:geo_location>Florina, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Florina/gr-01-083-4x5.png</image:loc>
+      <image:caption>Sakoulevas River, Florina</image:caption>
+      <image:title>Sakoulevas River, Florina</image:title>
+      <image:geo_location>Florina, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Florina/gr-01-083-9x16.png</image:loc>
+      <image:caption>Sakoulevas River, Florina</image:caption>
+      <image:title>Sakoulevas River, Florina</image:title>
+      <image:geo_location>Florina, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-084</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Philippi/gr-01-084-16x9.png</image:loc>
+      <image:caption>Ancient Philippi, Philippi</image:caption>
+      <image:title>Ancient Philippi, Philippi</image:title>
+      <image:geo_location>Philippi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Philippi/gr-01-084-4x5.png</image:loc>
+      <image:caption>Ancient Philippi, Philippi</image:caption>
+      <image:title>Ancient Philippi, Philippi</image:title>
+      <image:geo_location>Philippi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Philippi/gr-01-084-9x16.png</image:loc>
+      <image:caption>Ancient Philippi, Philippi</image:caption>
+      <image:title>Ancient Philippi, Philippi</image:title>
+      <image:geo_location>Philippi, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-085</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Kavala/gr-01-085-16x9.png</image:loc>
+      <image:caption>Kavala Fortress, Kavala</image:caption>
+      <image:title>Kavala Fortress, Kavala</image:title>
+      <image:geo_location>Kavala, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Kavala/gr-01-085-4x5.png</image:loc>
+      <image:caption>Kavala Fortress, Kavala</image:caption>
+      <image:title>Kavala Fortress, Kavala</image:title>
+      <image:geo_location>Kavala, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Kavala/gr-01-085-9x16.png</image:loc>
+      <image:caption>Kavala Fortress, Kavala</image:caption>
+      <image:title>Kavala Fortress, Kavala</image:title>
+      <image:geo_location>Kavala, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-086</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Xanthi/gr-01-086-16x9.png</image:loc>
+      <image:caption>Xanthi Old Town, Xanthi</image:caption>
+      <image:title>Xanthi Old Town, Xanthi</image:title>
+      <image:geo_location>Xanthi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Xanthi/gr-01-086-4x5.png</image:loc>
+      <image:caption>Xanthi Old Town, Xanthi</image:caption>
+      <image:title>Xanthi Old Town, Xanthi</image:title>
+      <image:geo_location>Xanthi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Xanthi/gr-01-086-9x16.png</image:loc>
+      <image:caption>Xanthi Old Town, Xanthi</image:caption>
+      <image:title>Xanthi Old Town, Xanthi</image:title>
+      <image:geo_location>Xanthi, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-087</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Alexandroupoli/gr-01-087-16x9.png</image:loc>
+      <image:caption>Alexandroupoli Lighthouse, Alexandroupoli</image:caption>
+      <image:title>Alexandroupoli Lighthouse, Alexandroupoli</image:title>
+      <image:geo_location>Alexandroupoli, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Alexandroupoli/gr-01-087-4x5.png</image:loc>
+      <image:caption>Alexandroupoli Lighthouse, Alexandroupoli</image:caption>
+      <image:title>Alexandroupoli Lighthouse, Alexandroupoli</image:title>
+      <image:geo_location>Alexandroupoli, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Alexandroupoli/gr-01-087-9x16.png</image:loc>
+      <image:caption>Alexandroupoli Lighthouse, Alexandroupoli</image:caption>
+      <image:title>Alexandroupoli Lighthouse, Alexandroupoli</image:title>
+      <image:geo_location>Alexandroupoli, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
     <loc>https://greece.jdvision.org/#GR-01-088</loc>
     <image:image>
       <image:loc>https://greece.jdvision.org/library/world/Greece/Samothrace/gr-01-088-16x9.png</image:loc>
@@ -3899,6 +5474,141 @@
       <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-354-4x5.png</image:loc>
       <image:caption>Lysicrates Monument, Athens</image:caption>
       <image:title>Lysicrates Monument, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-355</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Aegina/gr-01-355-16x9.png</image:loc>
+      <image:caption>Paleochora, Aegina</image:caption>
+      <image:title>Paleochora, Aegina</image:title>
+      <image:geo_location>Aegina, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Aegina/gr-01-355-4x5.png</image:loc>
+      <image:caption>Paleochora, Aegina</image:caption>
+      <image:title>Paleochora, Aegina</image:title>
+      <image:geo_location>Aegina, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-357</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Malia/gr-01-357-16x9.png</image:loc>
+      <image:caption>Malia Palace, Malia</image:caption>
+      <image:title>Malia Palace, Malia</image:title>
+      <image:geo_location>Malia, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Malia/gr-01-357-4x5.png</image:loc>
+      <image:caption>Malia Palace, Malia</image:caption>
+      <image:title>Malia Palace, Malia</image:title>
+      <image:geo_location>Malia, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-358</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Chrissi/gr-01-358-16x9.png</image:loc>
+      <image:caption>Chrissi Beach, Chrissi</image:caption>
+      <image:title>Chrissi Beach, Chrissi</image:title>
+      <image:geo_location>Chrissi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Chrissi/gr-01-358-4x5.png</image:loc>
+      <image:caption>Chrissi Beach, Chrissi</image:caption>
+      <image:title>Chrissi Beach, Chrissi</image:title>
+      <image:geo_location>Chrissi, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-359</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Sikinos/gr-01-359-16x9.png</image:loc>
+      <image:caption>Chora, Sikinos</image:caption>
+      <image:title>Chora, Sikinos</image:title>
+      <image:geo_location>Sikinos, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Sikinos/gr-01-359-4x5.png</image:loc>
+      <image:caption>Chora, Sikinos</image:caption>
+      <image:title>Chora, Sikinos</image:title>
+      <image:geo_location>Sikinos, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-360</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Anafi/gr-01-360-16x9.png</image:loc>
+      <image:caption>Kalamiotissa, Anafi</image:caption>
+      <image:title>Kalamiotissa, Anafi</image:title>
+      <image:geo_location>Anafi, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Anafi/gr-01-360-4x5.png</image:loc>
+      <image:caption>Kalamiotissa, Anafi</image:caption>
+      <image:title>Kalamiotissa, Anafi</image:title>
+      <image:geo_location>Anafi, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-361</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Leros/gr-01-361-16x9.png</image:loc>
+      <image:caption>Lakki Harbor, Leros</image:caption>
+      <image:title>Lakki Harbor, Leros</image:title>
+      <image:geo_location>Leros, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Leros/gr-01-361-4x5.png</image:loc>
+      <image:caption>Lakki Harbor, Leros</image:caption>
+      <image:title>Lakki Harbor, Leros</image:title>
+      <image:geo_location>Leros, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-363</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Koroni/gr-01-363-16x9.png</image:loc>
+      <image:caption>Koroni Castle, Koroni</image:caption>
+      <image:title>Koroni Castle, Koroni</image:title>
+      <image:geo_location>Koroni, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Koroni/gr-01-363-4x5.png</image:loc>
+      <image:caption>Koroni Castle, Koroni</image:caption>
+      <image:title>Koroni Castle, Koroni</image:title>
+      <image:geo_location>Koroni, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-364</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Dion/gr-01-364-16x9.png</image:loc>
+      <image:caption>Main Avenue, Dion</image:caption>
+      <image:title>Main Avenue, Dion</image:title>
+      <image:geo_location>Dion, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Dion/gr-01-364-4x5.png</image:loc>
+      <image:caption>Main Avenue, Dion</image:caption>
+      <image:title>Main Avenue, Dion</image:title>
+      <image:geo_location>Dion, Greece</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://greece.jdvision.org/#GR-01-365</loc>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-365-16x9.png</image:loc>
+      <image:caption>Presidential Mansion, Athens</image:caption>
+      <image:title>Presidential Mansion, Athens</image:title>
+      <image:geo_location>Athens, Greece</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://greece.jdvision.org/library/world/Greece/Athens/gr-01-365-4x5.png</image:loc>
+      <image:caption>Presidential Mansion, Athens</image:caption>
+      <image:title>Presidential Mansion, Athens</image:title>
       <image:geo_location>Athens, Greece</image:geo_location>
     </image:image>
   </url>
