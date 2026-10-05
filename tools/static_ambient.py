@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Greece 360 kickoff pack 1 — static-ambient Ken Burns clips.
+"""Greece 360 kickoff pack 2 — static-ambient Ken Burns clips.
 
 Daylight scenes only. A night scenario never gets a clip, and a derivative
-daylight plate of a night scene is not a source. The first 12 daylight
-scenes that do not already have a ``*-motion-10s-4x5.mp4`` are encoded.
+daylight plate of a night scene is not a source. Pack 1 clips stay on disk.
+The next 12 daylight scenes that do not already have a
+``*-motion-10s-4x5.mp4`` are encoded.
 
 Source is that scene's 4:5 master. The 190px label bar under the photo is
 cropped off (864×1080 from the top). ffmpeg then stores a 10.0s 864×1080
@@ -32,7 +33,9 @@ FRAMES = 240  # exactly 10.0s
 PHOTO_H = 1080
 PHOTO_W = 864
 PACK_LIMIT = 12
+PACK = 2
 WORK_ORDER = "wo-greece-360-kickoff-2026-10-05"
+EVIDENCE_NAME = "GR-360-kickoff-pack2-2026-10-05.json"
 HOUR_RE = re.compile(r"(\d{1,2}):(\d{2})")
 FROZEN_KEYS = (
     "approval_status",
@@ -303,7 +306,7 @@ def update_manifest(scene: dict, row: dict) -> None:
     data["motion_clip"] = {
         "status": "Candidate",
         "work_order": WORK_ORDER,
-        "pack": 1,
+        "pack": PACK,
         "method": "static-ambient",
         "duration_s": 10.0,
         "width": PHOTO_W,
@@ -326,6 +329,7 @@ def update_manifest(scene: dict, row: dict) -> None:
 
 
 def hold(scene: dict, reason: str) -> dict:
+    reason = reason.replace(str(ROOT) + "/", "")
     for rel in (scene["out"], scene["poster"]):
         path = ROOT / rel
         if path.is_file():
@@ -405,8 +409,8 @@ def write_evidence(
     remaining = remaining_daylight(manifests)
     evidence = {
         "work_order": WORK_ORDER,
-        "pack": 1,
-        "name": "Greece 360 kickoff pack 1",
+        "pack": PACK,
+        "name": "Greece 360 kickoff pack 2",
         "status": "ESCALATE" if escalated else "Candidate",
         "qc": "Not Cosmo QC. Not approved. Do not merge.",
         "method": "static-ambient",
@@ -436,7 +440,7 @@ def write_evidence(
         "remaining_daylight_without_clips": remaining,
         "remaining_daylight_without_clips_count": len(remaining),
     }
-    dest = ROOT / "evidence" / "motion" / "GR-360-kickoff-pack1-2026-10-05.json"
+    dest = ROOT / "evidence" / "motion" / EVIDENCE_NAME
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(evidence, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return dest

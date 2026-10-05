@@ -181,6 +181,9 @@ def main() -> None:
         "GR-01-008", "GR-01-097", "GR-01-098", "GR-01-099", "GR-01-100",
         "GR-01-101", "GR-01-102", "GR-01-103", "GR-01-104", "GR-01-105",
         "GR-01-106", "GR-01-107",
+        "GR-01-109", "GR-01-110", "GR-01-111", "GR-01-112", "GR-01-113",
+        "GR-01-114", "GR-01-115", "GR-01-116", "GR-01-117", "GR-01-118",
+        "GR-01-119",
     ]
     for entry_id in pack_motion:
         clip = by_id[entry_id].get("file_motion_10s_4x5") or ""
@@ -195,7 +198,10 @@ def main() -> None:
             raise SystemExit(f"{entry_id} motion method is not static-ambient")
         if raw.get("motion_clip", {}).get("status") != "Candidate":
             raise SystemExit(f"{entry_id} motion clip was promoted past Candidate")
-    for entry_id in ("GR-01-001", "GR-01-096", "GR-01-108"):
+        expected_pack = 2 if entry_id >= "GR-01-109" else 1
+        if raw.get("motion_clip", {}).get("pack") != expected_pack:
+            raise SystemExit(f"{entry_id} motion pack is not {expected_pack}")
+    for entry_id in ("GR-01-001", "GR-01-096", "GR-01-108", "GR-01-120"):
         if by_id[entry_id].get("file_motion_10s_4x5"):
             raise SystemExit(f"{entry_id} published a 360 clip outside this pack")
         if f"{entry_id.lower()}-motion" in html:
