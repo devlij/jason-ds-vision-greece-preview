@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: long open crescent of coarse sand and pebbles, turquoise water, low headlands closing the far ends, coast road on the slope behind with Agios Nikitas' white buildings; partly cloudy matches code-2 28%. Gate 2: exact 1920x1080 and 864x1080, 'Kathisma Beach, Lefkada', scenario 12:15, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:50:37Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T06:57:18.286236+00:00",
   "sha256_16x9": "32fa68aae9f1f80d80a9005d32a51b28be6dc7392def3a9ee5fa16fc6d82a0ab",
-  "sha256_4x5": "f27500009581c5b700baca026e057f76eb278de0a2bf20a1b9db46f0707aaa20"
+  "sha256_4x5": "f27500009581c5b700baca026e057f76eb278de0a2bf20a1b9db46f0707aaa20",
+  "file_motion_10s_4x5": "assets/gr-01-332-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-332-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Lefkada/gr-01-332-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

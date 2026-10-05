@@ -17,5 +17,24 @@
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: the 16:9 master shows the worn bare limestone of the Areopagus summit in the foreground with the Acropolis rock beyond — Parthenon and the Odeon of Herodes Atticus reading on the citadel and slope — matching the anchors; the 4:5 shows the same bare rock foreground and citadel with the theatre below, subject identity agrees across formats; clean framing, no artifacts. Gate 2: exact master dims 1920x1080 / 864x1080; verified on-image bottom-left text — caption 'Areopagus, Athens', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.' — and 'Jason D's Vision' bottom-right; Open-Meteo retrieval 2026-09-25T23:51:53Z is per-scene (unique to the second across all cached notes), valid hour 12:00–12:59 covers the 12:45 scenario minute. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no identifiable people or logos. Gate 5: no open blockers — publication ready.",
   "approved_at": "2026-09-27T12:55:51.622374+00:00",
   "sha256_16x9": "e6f7e26a4ffd7bc810b3649b73478fa16ffc0dbc9d7e617d29e3dbfb23852159",
-  "sha256_4x5": "43686198f537fc730fd382d8c4033e5e07dcc6fd6181e1fc25141b0d746e10fe"
+  "sha256_4x5": "43686198f537fc730fd382d8c4033e5e07dcc6fd6181e1fc25141b0d746e10fe",
+  "file_motion_10s_4x5": "assets/gr-01-346-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-346-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Athens/gr-01-346-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

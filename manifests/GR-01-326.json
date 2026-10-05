@@ -17,5 +17,24 @@
   "approval_basis": "Gates 1-5 PASS. G1: Casa Romana, Kos — 16:9 plain masonry street wall with brick courses, eastern-side doorway, Roman tile roofline (columns only glimpsed at doorway, mosaics not the subject); 4:5 the same plain masonry wall with the entrance doorway and a column visible inside it, consistent (different wall segment of the same frontage). G2: dims exact; on-image 'Casa Romana, Kos', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible. Weather retrieval 2026-09-25T23:50:31Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
   "approved_at": "2026-09-27T01:13:09.942588+00:00",
   "sha256_16x9": "b9e43613a575055712f2168887660be71a57288d1d13a0e872b962d24e8e410d",
-  "sha256_4x5": "897cf4cb84397ae49f0f3db869517495d457d15d6835d28553a689642a044b09"
+  "sha256_4x5": "897cf4cb84397ae49f0f3db869517495d457d15d6835d28553a689642a044b09",
+  "file_motion_10s_4x5": "assets/gr-01-326-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-326-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Kos/gr-01-326-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

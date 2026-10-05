@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: horseshoe bay from the roadside lookout, steep green hills enclosing both sides, pebble beach at the cove head, turquoise-to-deep-blue water; partly cloudy sky matches code-2 79% cloud. Gate 2: exact 1920x1080 and 864x1080, 'Antisamos Beach, Sami' caption (single-t variant attested in builder reference URL and consistent across card, on-image text and evidence file), scenario 12:15, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:50:35Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T06:57:18.286236+00:00",
   "sha256_16x9": "e0bac1823b915dc187116c50262f5501e895b2e2ce64aee3e35db0022f8551b7",
-  "sha256_4x5": "8e980c718855a4d71933e3a0b1490d4f26c57259a1d73254c81baed810b9a558"
+  "sha256_4x5": "8e980c718855a4d71933e3a0b1490d4f26c57259a1d73254c81baed810b9a558",
+  "file_motion_10s_4x5": "assets/gr-01-330-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-330-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Sami/gr-01-330-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

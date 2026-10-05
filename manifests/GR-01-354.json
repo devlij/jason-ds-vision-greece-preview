@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: 16:9 shows the monument on its square podium — solid cylindrical core with six engaged Corinthian columns, conical roof with acanthus finial, tripod gone, Acropolis rock behind — matching all three anchors; the 4:5 agrees on the same monument subject. Gate 2: exact dims; on-image 'Lysicrates Monument, Athens', 'Scenario: 24 September 2026 · 12:58 Europe/Athens', disclosure, and signature verified; retrieval 2026-09-25T23:52:01Z unique to the second across the window; broken cumulus matches code 2 / 47% cover. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T13:38:08.430146+00:00",
   "sha256_16x9": "f1b5a63a2177d2ff56083b2e64a9a8352a387655ff35ad743c5e57c27c9dc0e8",
-  "sha256_4x5": "ee17e55daf06b514b2cba6994c692a47e28dca0968c6f112203af2e29a57f392"
+  "sha256_4x5": "ee17e55daf06b514b2cba6994c692a47e28dca0968c6f112203af2e29a57f392",
+  "file_motion_10s_4x5": "assets/gr-01-354-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-354-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Athens/gr-01-354-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

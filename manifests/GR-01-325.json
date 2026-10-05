@@ -17,5 +17,24 @@
   "approval_basis": "Gates 1-5 PASS. G1: Gate d'Amboise, Rhodes — 16:9 stone bridge crossing the defensive ditch toward the gate, two round towers flanking the pointed arched entrance, battlemented limestone walls to either side; 4:5 the same gate/bridge/towers composition, consistent. G2: dims exact; on-image 'Gate d'Amboise, Rhodes', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible. Weather retrieval 2026-09-25T23:50:30Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
   "approved_at": "2026-09-27T01:13:05.537221+00:00",
   "sha256_16x9": "e74efb93b6d1608360cae5aec970709bbeba4ed876fd2a45f2b4999a5b47a496",
-  "sha256_4x5": "340bc585856048a3048d6dc245e7705ae5aa8f127bac991fd83ab4fcd9c21a9a"
+  "sha256_4x5": "340bc585856048a3048d6dc245e7705ae5aa8f127bac991fd83ab4fcd9c21a9a",
+  "file_motion_10s_4x5": "assets/gr-01-325-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-325-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Rhodes/gr-01-325-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

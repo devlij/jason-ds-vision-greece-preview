@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: five marble lions in a row in profile facing the dry Sacred Lake basin, one palm rising from the oval basin, low ruined walls and loose blocks around; mostly clear sky matches code-1 31%; scenario 12:45 inside the cited model-valid hour. Gate 2: exact 1920x1080 and 864x1080, 'Terrace of the Lions, Delos', scenario 12:45, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:51:44Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T06:57:18.286236+00:00",
   "sha256_16x9": "5d043f51fc3306d2d3981ea514dcbc8770b84adce4941afa970436eb26e79611",
-  "sha256_4x5": "f7ea5a9d9dacaaad9c27b9b1208dedc27f8521f332f17cbc9a56b400527a7b30"
+  "sha256_4x5": "f7ea5a9d9dacaaad9c27b9b1208dedc27f8521f332f17cbc9a56b400527a7b30",
+  "file_motion_10s_4x5": "assets/gr-01-337-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-337-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Delos/gr-01-337-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

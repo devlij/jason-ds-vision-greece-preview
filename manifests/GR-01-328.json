@@ -17,5 +17,24 @@
   "approval_basis": "Gates 1-5 PASS. G1: Chora, Kimolos — 16:9 whitewashed houses surrounding the dark sideropetra kastro core with a white domed church inside the castle walls, no beach in view; 4:5 the same rocky kastro hill over the white town with the sea beyond, consistent. G2: dims exact; on-image 'Chora, Kimolos', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible. Weather retrieval 2026-09-25T23:50:33Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
   "approved_at": "2026-09-27T01:13:19.041144+00:00",
   "sha256_16x9": "15348aa8d45a8d66f262a0a165041cdefb821b93eefd4798909af7e2197541f8",
-  "sha256_4x5": "0103e906cbd62781f33bb4c66ef2347c3f0d0708e7f3b2227fdce93e3cabf0a5"
+  "sha256_4x5": "0103e906cbd62781f33bb4c66ef2347c3f0d0708e7f3b2227fdce93e3cabf0a5",
+  "file_motion_10s_4x5": "assets/gr-01-328-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-328-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Kimolos/gr-01-328-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

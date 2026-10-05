@@ -17,5 +17,24 @@
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: the 16:9 master shows the famous Petra rock rising from the middle of the village with the small white church with red tile roof on its summit and the sandy bay behind the red-tiled roofs — matching all anchors including the steps cut in the rock visible on the crag face; the 4:5 shows the same rock and red-roofed summit church from closer with the zigzag rock-cut staircase, subject identity agrees across formats; clean framing, no artifacts. Gate 2: exact master dims 1920x1080 / 864x1080; verified on-image bottom-left text — caption 'Petra Bay, Petra', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.' — and 'Jason D's Vision' bottom-right; Open-Meteo retrieval 2026-09-25T23:51:51Z is per-scene (unique to the second across all cached notes), valid hour 12:00–12:59 covers the 12:45 scenario minute. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no identifiable people or logos. Gate 5: no open blockers — publication ready.",
   "approved_at": "2026-09-27T12:55:37.277696+00:00",
   "sha256_16x9": "1805593bf468a89211a540659c745104b20547ef3fd60552feffccbf9b997bb8",
-  "sha256_4x5": "a0aa8345b481373799eb93fcb625dcb75c6708f6ec2d4dc5f6d9d9ab859dcc61"
+  "sha256_4x5": "a0aa8345b481373799eb93fcb625dcb75c6708f6ec2d4dc5f6d9d9ab859dcc61",
+  "file_motion_10s_4x5": "assets/gr-01-344-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-344-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Petra/gr-01-344-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }
