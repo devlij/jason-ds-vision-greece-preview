@@ -77,5 +77,24 @@
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:53:14Z, valid 2026-09-25T15:30 Europe/Athens — not a verified on-site observation."
   },
-  "approved_at": "2026-09-28T02:06:06.726684+00:00"
+  "approved_at": "2026-09-28T02:06:06.726684+00:00",
+  "file_motion_10s_4x5": "assets/gr-01-008-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-008-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 1,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Mycenae/gr-01-008-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }
