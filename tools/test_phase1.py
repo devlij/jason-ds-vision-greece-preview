@@ -15,6 +15,19 @@ ROOT = Path(__file__).resolve().parents[1]
 TOOLS = Path(__file__).resolve().parent
 
 
+GROK_QC = "Approved · Grok Bot QC 5/5"
+# Weather-rework scenes re-approved by Cosmo QC before the 2026-10-05 zero-out
+# (approval_status Approved on main 7046a32). Frozen: new approvals use GROK_QC.
+PRIOR_WEATHER_APPROVALS = frozenset(
+    f"GR-01-{i:03d}" for i in (*range(1, 52), 53, 54, 55, 56, 59, 62, 63)
+)
+
+
+def grok_qc_approved(raw: dict) -> bool:
+    """Approved by a Jason-authorized Grok Bot QC approval PR (2026-10-05 on)."""
+    return raw.get("approval_status") == "Approved" and raw.get("qc_status") == GROK_QC
+
+
 def load_builder():
     spec = importlib.util.spec_from_file_location("build_index", TOOLS / "build_index.py")
     module = importlib.util.module_from_spec(spec)
@@ -240,18 +253,39 @@ def main() -> None:
     entries, skipped, problems = sitemap.collect()
     if problems:
         raise SystemExit("image sitemap problems:\n" + "\n".join(problems))
-    if "GR-01-340" not in skipped:
+    manifests = {
+        path.stem: json.loads(path.read_text(encoding="utf-8"))
+        for path in sorted((ROOT / "manifests").glob("GR-01-*.json"))
+    }
+    if "GR-01-340" not in skipped and not grok_qc_approved(manifests["GR-01-340"]):
         raise SystemExit("GR-01-340 was not skipped as a Candidate")
     ids = [entry["entry_id"] for entry in entries]
-    if "GR-01-340" in ids or any(entry_id in ids for entry_id in skipped):
+    if any(entry_id in ids for entry_id in skipped):
         raise SystemExit("a Candidate was written into the image sitemap")
     # 347 was the approved count before the weather rework. GR-01-001–087
-    # are Candidate after that merge, so they stay out of the sitemap.
+    # went Candidate in that merge. A weather-rework scene may be Approved
+    # again only by (a) a Cosmo QC re-approval already on main before the
+    # 2026-10-05 QC zero-out (frozen list below, as on main 7046a32), or
+    # (b) a Jason-authorized Grok Bot QC approval PR (#23, #24, #27 and later),
+    # which sets qc_status exactly GROK_QC. Anything else is a self-approval.
     weather = [f"GR-01-{i:03d}" for i in range(1, 88)]
-    if any(entry_id not in skipped for entry_id in weather):
-        raise SystemExit("a weather-rework scene was not left Candidate")
-    if len(entries) != 260:
-        raise SystemExit(f"expected 260 approved scenes, got {len(entries)}")
+    for entry_id in weather:
+        if entry_id in skipped:
+            continue
+        raw = manifests.get(entry_id) or {}
+        if grok_qc_approved(raw):
+            continue
+        if entry_id in PRIOR_WEATHER_APPROVALS and str(raw.get("qc_status") or "").startswith("Approved · Cosmo QC 5/5"):
+            continue
+        raise SystemExit(f"a weather-rework scene was not left Candidate: {entry_id}")
+    # The 260 approvals outside the weather rework are unchanged. Every other
+    # Approved scene is a prior weather re-approval or carries GROK_QC.
+    legacy = [eid for eid in ids if not grok_qc_approved(manifests.get(eid) or {}) and eid not in weather]
+    if len(legacy) != 260:
+        raise SystemExit(f"expected 260 legacy approved scenes, got {len(legacy)}")
+    approved = sorted(eid for eid, raw in manifests.items() if raw.get("approval_status") == "Approved")
+    if sorted(ids) != approved:
+        raise SystemExit("image sitemap scenes do not match the Approved manifests")
     sample = next(entry for entry in entries if entry["entry_id"] == "GR-01-088")
     if sample["loc"] != "https://greece.jdvision.org/#GR-01-088":
         raise SystemExit(f"copy-link loc {sample['loc']}")
@@ -268,8 +302,11 @@ def main() -> None:
     spaced = next(entry for entry in entries if entry["entry_id"] == "GR-01-224")
     if "Porto%20Lagos" not in spaced["images"][0]["loc"]:
         raise SystemExit(f"space not encoded: {spaced['images'][0]['loc']}")
-    if any(image["format"] == "9:16" for entry in entries for image in entry["images"]):
-        raise SystemExit("9:16 image emitted without a master on disk")
+    for entry in entries:
+        raw = manifests[entry["entry_id"]]
+        for image in entry["images"]:
+            if image["format"] == "9:16" and not (ROOT / str(raw.get("file_9x16") or "")).is_file():
+                raise SystemExit(f"9:16 image emitted without a master on disk: {entry['entry_id']}")
     tree_problems = sitemap.validate_tree(sitemap_path.read_text(encoding="utf-8"), entries)
     if tree_problems:
         raise SystemExit("sitemap tree:\n" + "\n".join(tree_problems))
