@@ -182,6 +182,29 @@ def main() -> None:
         raise SystemExit("daylight-primary mechanism missing from the page")
     if '"daylight_primary": true' in html:
         raise SystemExit("a card was marked daylight-primary without a genuine master on this tree")
+    if html.count("const GREECE_NIGHT=") != 1:
+        raise SystemExit("GREECE_NIGHT was duplicated or dropped")
+    if "data-src-16-night" not in html or "data-src-916-night" not in html or "data-dl-night" not in html:
+        raise SystemExit("night master attributes missing from the card template")
+    if "closest('.pc-tab, .motion-tab, .gday-tab')" not in html:
+        raise SystemExit("Night is not mutually exclusive with Postcard and 360")
+    night = build.load_night_masters()
+    if len(night) != 44:
+        raise SystemExit(f"expected 44 night cards, got {len(night)}")
+    for banned in ("GR-01-008", "GR-01-046", "GR-01-062", "GR-01-088", "GR-01-117"):
+        if banned in night:
+            raise SystemExit(f"{banned} must not get a Night button")
+    for required in ("GR-01-001", "GR-01-003", "GR-01-022", "GR-01-033"):
+        urls = night.get(required)
+        if not urls or not all(urls):
+            raise SystemExit(f"{required} is missing a recorded night master")
+        if not urls[2].endswith(f"{required.lower()}-9x16.png"):
+            raise SystemExit(f"{required} 9:16 night plate is not its own master")
+        if urls[2] == urls[0]:
+            raise SystemExit(f"{required} invented a 9:16 night plate from 16:9")
+    raw008 = json.loads((ROOT / "manifests" / "GR-01-008.json").read_text(encoding="utf-8"))
+    if build.lighting_label(raw008) != "Daylight":
+        raise SystemExit("GR-01-008 lighting label drifted")
     if 'class="narrate"' in html or ".mp3" in html:
         raise SystemExit("Listen control rendered without an audio file")
     if ".flag-chip.flag-no{background:linear-gradient(to bottom,transparent 35%,#00205B" not in html:

@@ -15,6 +15,14 @@ is exactly ``genuine-daylight`` and the day 16:9 master exists. Night masters
 stay on ``file_16x9``, ``file_4x5``, and ``file_9x16``. Derivative daylight
 keeps the night card and the sun toggle. The flag is computed for the page
 and is not written back onto the manifest.
+
+A Night button is emitted only for a format whose night master is already
+recorded and on disk. ``daylight_variant.source_night`` is the file-level
+record. Scenes without that block still qualify when ``weather.is_day`` is 0
+and the manifest's own lighting label is Night (the Greece equivalent of
+Sweden's ``daynight: night``). Dawn, pre-dawn, and daylight plates do not.
+Scenario hour is not a night-master record. A missing 9:16 is left empty and
+is never filled from 16:9 or 4:5.
 """
 
 from __future__ import annotations
@@ -98,6 +106,12 @@ PHASE1_MARKERS = (
     "getAttribute('data-src-16')",
     "night-tab",
     "daylight_primary",
+    "const GREECE_NIGHT=",
+    "data-src-16-night",
+    "data-src-916-night",
+    "data-dl-night",
+    "closest('.night-tab')",
+    "closest('.pc-tab, .motion-tab, .gday-tab')",
 )
 
 
@@ -168,6 +182,65 @@ def is_genuine_daylight(scene: dict) -> bool:
     if not isinstance(variant, dict) or variant.get("provenance") != "genuine-daylight":
         return False
     return master_exists(scene.get("file_16x9_day"))
+
+
+def lighting_label(raw: dict) -> str:
+    """Final lighting segment of qc_status. Read-only. Not written back."""
+    status = str(raw.get("qc_status") or "").strip()
+    if not status:
+        return ""
+    return status.split("·")[-1].strip()
+
+
+def load_night_masters() -> dict[str, list[str]]:
+    """Night-master URLs keyed by entry id: [16:9, 4:5, 9:16].
+
+    A slot is filled only when that format's own master is on disk and the
+    manifest records it as the night plate:
+
+    - ``daylight_variant.source_night`` names that exact path, or
+    - ``weather.is_day`` is 0 and the lighting label is exactly ``Night``.
+
+    An empty slot means that format has no night master. Another format is
+    never copied in, so a missing 9:16 stays missing. Scenario hour is ignored.
+    """
+    found: dict[str, list[str]] = {}
+    keys = (("16x9", "file_16x9"), ("4x5", "file_4x5"), ("9x16", "file_9x16"))
+    manifest_dir = ROOT / "manifests"
+    for path in sorted(manifest_dir.glob("GR-*.json")):
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(raw, dict):
+            continue
+        entry_id = str(raw.get("entry_id") or "")
+        if not entry_id:
+            continue
+        variant = raw.get("daylight_variant")
+        source = variant.get("source_night") if isinstance(variant, dict) else None
+        if not isinstance(source, dict):
+            source = {}
+        weather = raw.get("weather")
+        scene_night = (
+            isinstance(weather, dict)
+            and weather.get("is_day") == 0
+            and lighting_label(raw) == "Night"
+        )
+        if not scene_night and not source:
+            continue
+        urls = ["", "", ""]
+        for index, (fmt, key) in enumerate(keys):
+            scene_rel = str(raw.get(key) or "").split("?", 1)[0].strip()
+            info = source.get(fmt)
+            recorded = ""
+            if isinstance(info, dict):
+                recorded = str(info.get("path") or "").split("?", 1)[0].strip()
+            if recorded and recorded == scene_rel and master_exists(recorded):
+                urls[index] = scene_rel
+                continue
+            if scene_night and scene_rel and master_exists(scene_rel):
+                urls[index] = scene_rel
+        if any(urls):
+            found[entry_id] = urls
+    return found
 
 
 def daynight(label: str) -> str:
@@ -321,12 +394,22 @@ def related_ids(meta: dict, entry_id: str, limit: int = 4) -> list[str]:
 
 def render_html(scenes: list[dict], meta: dict) -> str:
     shell = SHELL.read_text(encoding="utf-8")
-    if shell.count("__SCENES__") != 1 or shell.count("__GREECE_META__") != 1:
+    if (
+        shell.count("__SCENES__") != 1
+        or shell.count("__GREECE_META__") != 1
+        or shell.count("__GREECE_NIGHT__") != 1
+    ):
         raise SystemExit("gallery shell must contain each placeholder once")
     scenes_json = json.dumps(scenes, ensure_ascii=False, indent=2)
     meta_json = json.dumps(meta, ensure_ascii=False, separators=(", ", ": "))
-    html = shell.replace("__SCENES__", scenes_json).replace("__GREECE_META__", meta_json)
-    if "__SCENES__" in html or "__GREECE_META__" in html:
+    night = load_night_masters()
+    night_json = json.dumps(night, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
+    html = (
+        shell.replace("__SCENES__", scenes_json)
+        .replace("__GREECE_META__", meta_json)
+        .replace("__GREECE_NIGHT__", night_json)
+    )
+    if "__SCENES__" in html or "__GREECE_META__" in html or "__GREECE_NIGHT__" in html:
         raise SystemExit("placeholder left in index.html")
     if "dataset.src45" in html or "dataset.src16" in html:
         raise SystemExit("refusing dataset.src accessors")
@@ -338,6 +421,7 @@ def render_html(scenes: list[dict], meta: dict) -> str:
         if guard not in html:
             raise SystemExit(f"missing-master guard not in generated page: {guard}")
     assert_daylight_law(scenes, html)
+    assert_night_law(night, html)
     return html
 
 
@@ -379,6 +463,63 @@ def assert_daylight_law(scenes: list[dict], html: str) -> None:
             raise SystemExit(f"{entry_id} daylight primary points at a missing master")
 
 
+def assert_night_law(night: dict[str, list[str]], html: str) -> None:
+    """Refuse a publish that invents a night plate or puts Night on a daylight card.
+
+    Does not approve anything and does not write manifests, approvals, or QC notes.
+    """
+    if html.count("const GREECE_NIGHT=") != 1:
+        raise SystemExit("GREECE_NIGHT was duplicated or dropped")
+    if html.count('class="night-tab"') != 1:
+        raise SystemExit("night button template was duplicated or dropped")
+    keys = (("16x9", "file_16x9"), ("4x5", "file_4x5"), ("9x16", "file_9x16"))
+    # Snapshot of this tree. A new night master must pass the same gate; this
+    # count is the gate's output, not a list of invented plates.
+    if len(night) != 44:
+        raise SystemExit(f"expected 44 night cards, got {len(night)}")
+    for banned in ("GR-01-008", "GR-01-046", "GR-01-062", "GR-01-088", "GR-01-117"):
+        if banned in night:
+            raise SystemExit(f"{banned} is not a night master and must not get Night")
+    for required in ("GR-01-001", "GR-01-003", "GR-01-022", "GR-01-033"):
+        urls = night.get(required)
+        if not urls or len(urls) != 3 or not all(urls):
+            raise SystemExit(f"{required} night record must be [16:9, 4:5, 9:16]")
+    for entry_id, urls in night.items():
+        if not isinstance(urls, list) or len(urls) != 3:
+            raise SystemExit(f"{entry_id} night record must be [16:9, 4:5, 9:16]")
+        raw = json.loads((ROOT / "manifests" / f"{entry_id}.json").read_text(encoding="utf-8"))
+        variant = raw.get("daylight_variant")
+        source = variant.get("source_night") if isinstance(variant, dict) else None
+        if not isinstance(source, dict):
+            source = {}
+        weather = raw.get("weather")
+        scene_night = (
+            isinstance(weather, dict)
+            and weather.get("is_day") == 0
+            and lighting_label(raw) == "Night"
+        )
+        if not any(urls):
+            raise SystemExit(f"{entry_id} has no night master on disk")
+        for index, (fmt, key) in enumerate(keys):
+            url = urls[index]
+            scene_rel = str(raw.get(key) or "")
+            if not url:
+                continue
+            if url != scene_rel:
+                raise SystemExit(f"{entry_id} {fmt} night URL is not the scene master")
+            if not master_exists(url):
+                raise SystemExit(f"{entry_id} {fmt} night master missing on disk")
+            if fmt == "9x16" and url == str(raw.get("file_16x9") or ""):
+                raise SystemExit(f"{entry_id} invented a 9:16 night plate from 16:9")
+            info = source.get(fmt) if isinstance(source.get(fmt), dict) else {}
+            recorded = str(info.get("path") or "")
+            recorded_match = bool(recorded) and recorded == scene_rel
+            if not recorded_match and not scene_night:
+                raise SystemExit(f"{entry_id} {fmt} night plate is not recorded")
+        if lighting_label(raw) in ("Dawn", "Pre-dawn", "Daylight"):
+            raise SystemExit(f"{entry_id} lighting label is not Night")
+
+
 def main() -> None:
     tags = load_tags()
     scenes, meta, warnings = load_scenes(tags)
@@ -392,10 +533,20 @@ def main() -> None:
         if scene.get("file_16x9_day") and scene.get("daylight_primary") is not True
     )
     night_only = sum(1 for scene in scenes if not scene.get("file_16x9_day"))
+    night = load_night_masters()
+    night_formats = {
+        "16:9": sum(1 for urls in night.values() if urls[0]),
+        "4:5": sum(1 for urls in night.values() if urls[1]),
+        "9:16": sum(1 for urls in night.values() if urls[2]),
+    }
     print(f"wrote index.html with {len(scenes)} scenes, {thumbs} related thumbs")
     print(
         f"daylight-primary {genuine}, sun toggle {derivative}, "
         f"no daylight file {night_only}"
+    )
+    print(
+        f"night buttons {len(night)} of {len(scenes)} "
+        f"(16:9={night_formats['16:9']} 4:5={night_formats['4:5']} 9:16={night_formats['9:16']})"
     )
     print("phase1: search+region, day/night, mood, result-count, clear-all, related, copy-link, deep-link")
     for warning in warnings:

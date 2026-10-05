@@ -90,7 +90,7 @@
     }
     .preview { position: relative; }
     .fmt-tabs { display: flex; gap: 6px; padding: 0.75rem 1.05rem 0; line-height: 1.4; }
-    .day-row { padding: 0.5rem 1.05rem 0; }
+    .day-row { display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; padding: 0.5rem 1.05rem 0; }
     .fmt-tab {
       background: rgba(15, 17, 21, 0.82); color: var(--text); border: 1px solid var(--line);
       border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
@@ -99,6 +99,7 @@
     .fmt-tab.is-active {
       background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
     }
+    .fmt-tab:disabled, .fmt-tab.is-disabled { opacity: 0.4; cursor: default; }
     .day-tab {
       display: inline-block; background: #243049; color: var(--text);
       border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
@@ -3555,6 +3556,10 @@
        GREECE_META data map + related-scene algorithm + per-card injection.
        This script MUST execute before the SCENES/render script below. */
     const GREECE_META = __GREECE_META__;
+    /* GREECE_NIGHT: [16:9, 4:5, 9:16] night-master URLs. Empty slot = no night
+       master in that format. A missing 9:16 is never filled from another format.
+       Built only from manifest records whose files are already on disk. */
+    const GREECE_NIGHT=__GREECE_NIGHT__;
     /* relatedFor(): Spain's algorithm verbatim — same region first, then most
        shared mood tags, deterministic id tiebreak, top 4. */
     function relatedFor(id) {
@@ -3682,10 +3687,11 @@
       return slash >= 0 ? path.slice(slash + 1) : path;
     }
 
-    /* Same card rule as the Netherlands gallery. Genuine daylight is the default;
-       the original night master sits behind the nighttime toggle. The chosen
-       format is remembered and reused only when that master exists. Derivative
-       daylight keeps the sun toggle and is not sent through this path. */
+    /* Genuine daylight is the card default; Night returns to the night master.
+       Every other card stays on its own master. The Night button is drawn only
+       when GREECE_NIGHT has a recorded night file for that card. Daylight,
+       Postcard, and 360 turn Night off, and Night turns them off. A format
+       with no night master is never filled from another format. */
     const FORMAT_KEY = "gr-gallery-format";
     function preferredFormat() {
       try {
@@ -3797,12 +3803,20 @@
         const file916Day = s.file_9x16_day || "";
         const dayKind = dayPrimary ? "genuine" : (file16Day ? "derived" : "");
         const dayScenario = (dayPrimary && s.daylight_variant && s.daylight_variant.scenario_label) ? s.daylight_variant.scenario_label : "";
+        /* GREECE_NIGHT lists only recorded night masters that are on disk. */
+        const nightRec = (typeof GREECE_NIGHT !== "undefined") ? GREECE_NIGHT[s.entry_id] : null;
+        const night16 = (nightRec && nightRec[0]) || "";
+        const night45 = (nightRec && nightRec[1]) || "";
+        const night916 = (nightRec && nightRec[2]) || "";
+        const hasNight = !!(night16 || night45 || night916);
+        const showNight = hasNight || dayPrimary;
+        const showDay = !dayPrimary && !!file16Day;
         const hero = dayPrimary ? file16Day : (file16 || file45 || file916);
         card.setAttribute("data-day-kind", dayKind);
         card.innerHTML = `
           <div class="preview">
             ${hero ? `<a class="thumb${hero === file45 ? " tall" : ""}${hero === file916 ? " tall916" : ""}" href="${esc(hero)}" target="_blank" rel="noopener">
-              <img src="${esc(hero)}" alt="${esc(sceneAlt(s.caption, s.city))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${file16Day ? ` data-src-16-day="${esc(file16Day)}"` : ""}${file45Day ? ` data-src-45-day="${esc(file45Day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${file916Day ? ` data-src-916-day="${esc(file916Day)}"` : ""} />
+              <img src="${esc(hero)}" alt="${esc(sceneAlt(s.caption, s.city))}" loading="lazy"${file16 ? ` data-src-16="${esc(file16)}"` : ""}${file45 ? ` data-src-45="${esc(file45)}"` : ""}${file16Day ? ` data-src-16-day="${esc(file16Day)}"` : ""}${file45Day ? ` data-src-45-day="${esc(file45Day)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""}${file916Day ? ` data-src-916-day="${esc(file916Day)}"` : ""}${night16 ? ` data-src-16-night="${esc(night16)}"` : ""}${night45 ? ` data-src-45-night="${esc(night45)}"` : ""}${night916 ? ` data-src-916-night="${esc(night916)}"` : ""} />
             </a>` : ""}
           </div>
           <div class="fmt-tabs" role="group" aria-label="Image size">
@@ -3810,7 +3824,7 @@
               ${file45 || file45Day ? `<button type="button" class="fmt-tab${hero === file45 ? " is-active" : ""}" data-format="4x5" aria-pressed="${hero === file45 ? "true" : "false"}">4:5</button>` : ""}
               ${file916 || file916Day ? `<button type="button" class="fmt-tab${hero === file916 ? " is-active" : ""}" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
             </div>
-          ${dayPrimary ? `<div class="day-row"><button type="button" class="night-tab" data-daynight="day" aria-pressed="false" title="Show the original night image">\uD83C\uDF19 Nighttime</button></div>` : (file16Day ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : "")}
+          ${(showNight || showDay) ? `<div class="day-row">${showNight ? `<button type="button" class="night-tab"${dayPrimary ? ` data-daynight="day"` : ""} aria-pressed="false" title="Show the night image">\uD83C\uDF19 Night</button>` : ""}${showDay ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button>` : ""}</div>` : ""}
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
@@ -3822,9 +3836,9 @@
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
               <a class="badge" href="${esc(s.license_anchor)}">${esc(s.license_badge)}</a>
-              ${(file16 || file16Day) ? `<a class="download" data-dl="16x9" href="${esc(dayPrimary ? file16Day : file16)}" download="${esc(fileName(dayPrimary ? file16Day : file16))}">Download 16:9</a>` : ""}
-              ${(file45 || file45Day) ? `<a class="download" data-dl="4x5" href="${esc(dayPrimary && file45Day ? file45Day : file45)}" download="${esc(fileName(dayPrimary && file45Day ? file45Day : file45))}">Download 4:5</a>` : ""}
-              ${(file916 || file916Day) ? `<a class="download" data-dl="9x16" href="${esc(dayPrimary && file916Day ? file916Day : file916)}" download="${esc(fileName(dayPrimary && file916Day ? file916Day : file916))}">Download 9:16</a>` : ""}
+              ${(file16 || file16Day) ? `<a class="download" data-dl="16x9"${night16 ? ` data-dl-night="${esc(night16)}"` : ""} href="${esc(dayPrimary ? file16Day : file16)}" download="${esc(fileName(dayPrimary ? file16Day : file16))}">Download 16:9</a>` : ""}
+              ${(file45 || file45Day) ? `<a class="download" data-dl="4x5"${night45 ? ` data-dl-night="${esc(night45)}"` : ""} href="${esc(dayPrimary && file45Day ? file45Day : file45)}" download="${esc(fileName(dayPrimary && file45Day ? file45Day : file45))}">Download 4:5</a>` : ""}
+              ${(file916 || file916Day) ? `<a class="download" data-dl="9x16"${night916 ? ` data-dl-night="${esc(night916)}"` : ""} href="${esc(dayPrimary && file916Day ? file916Day : file916)}" download="${esc(fileName(dayPrimary && file916Day ? file916Day : file916))}">Download 9:16</a>` : ""}
               
             </div>
           </div>`;
@@ -3842,17 +3856,64 @@
         event.preventDefault();
         const card = nightBtn.closest('.card');
         if (!card) return;
-        const turnOn = !nightBtn.classList.contains('is-active');
-        nightBtn.classList.toggle('is-active', turnOn);
-        nightBtn.setAttribute('aria-pressed', turnOn ? 'true' : 'false');
-        nightBtn.setAttribute('data-daynight', turnOn ? 'night' : 'day');
-        nightBtn.title = turnOn ? 'Return to the daylight image' : 'Show the original night image';
-        const activeFmt = card.querySelector('.fmt-tab.is-active');
-        const keepFmt = (activeFmt && !activeFmt.hidden && activeFmt.getAttribute('data-format'))
-          || card.dataset.wantedFormat
-          || preferredFormat();
-        applyView(card, lightMode(card), keepFmt);
+        /* Genuine daylight stays the default; Night toggles back to the night master. */
+        if (card.getAttribute('data-day-kind') === 'genuine') {
+          card.querySelectorAll('.day-tab.is-active, .gday-tab.is-active, .pc-tab.is-active, .motion-tab.is-active').forEach((b) => {
+            b.classList.remove('is-active');
+            b.setAttribute('aria-pressed', 'false');
+            if (b.classList.contains('day-tab') || b.classList.contains('gday-tab')) b.setAttribute('data-daynight', 'night');
+            if (b.classList.contains('pc-tab')) b.setAttribute('data-postcard', 'off');
+          });
+          const turnOn = !nightBtn.classList.contains('is-active');
+          nightBtn.classList.toggle('is-active', turnOn);
+          nightBtn.setAttribute('aria-pressed', turnOn ? 'true' : 'false');
+          nightBtn.setAttribute('data-daynight', turnOn ? 'night' : 'day');
+          nightBtn.title = turnOn ? 'Return to the daylight image' : 'Show the night image';
+          const activeFmt = card.querySelector('.fmt-tab.is-active');
+          const keepFmt = (activeFmt && !activeFmt.hidden && activeFmt.getAttribute('data-format'))
+            || card.dataset.wantedFormat
+            || preferredFormat();
+          applyView(card, lightMode(card), keepFmt);
+          return;
+        }
+        /* Night uses data-src-*-night only. It does not borrow another format. */
+        card.querySelectorAll('.day-tab.is-active, .gday-tab.is-active, .pc-tab.is-active, .motion-tab.is-active').forEach((b) => {
+          b.classList.remove('is-active');
+          b.setAttribute('aria-pressed', 'false');
+          if (b.classList.contains('day-tab') || b.classList.contains('gday-tab')) b.setAttribute('data-daynight', 'night');
+          if (b.classList.contains('pc-tab')) b.setAttribute('data-postcard', 'off');
+        });
+        nightBtn.classList.add('is-active');
+        nightBtn.setAttribute('aria-pressed', 'true');
+        const t916 = card.querySelector('.fmt-tab[data-format="9x16"]');
+        const t916img = card.querySelector('a.thumb img');
+        if (t916 && t916img && (t916img.getAttribute('data-src-916-night') || t916img.getAttribute('data-src-916'))) {
+          t916.disabled = false;
+          t916.classList.remove('is-disabled');
+        }
+        const nlink = card.querySelector('a.thumb');
+        const nimg = nlink && nlink.querySelector('img');
+        const nftab = card.querySelector('.fmt-tab.is-active:not([hidden]):not(:disabled)');
+        const nfmt = nftab ? nftab.getAttribute('data-format') : '16x9';
+        const nkey = nfmt === '4x5' ? 'data-src-45-night' : nfmt === '9x16' ? 'data-src-916-night' : 'data-src-16-night';
+        const nnext = nimg && nimg.getAttribute(nkey);
+        if (nnext && nimg && nlink) { nimg.src = nnext; nlink.href = nnext; }
+        card.querySelectorAll('a.download').forEach((a) => {
+          const u = a.getAttribute('data-dl-night');
+          if (u) { a.href = u; a.setAttribute('download', fileName(u)); }
+        });
+        const nsc = card.querySelector('p.scenario');
+        if (nsc) nsc.textContent = 'Scenario: ' + (nsc.getAttribute('data-scenario') || '');
         return;
+      }
+      const otherMode = event.target.closest('.pc-tab, .motion-tab, .gday-tab');
+      if (otherMode) {
+        const ocard = otherMode.closest('.card');
+        const nightOff = ocard && ocard.querySelector('.night-tab');
+        if (nightOff) {
+          nightOff.classList.remove('is-active');
+          nightOff.setAttribute('aria-pressed', 'false');
+        }
       }
       const dtab = event.target.closest('.day-tab');
       if (dtab) {
@@ -3863,10 +3924,31 @@
         dtab.classList.toggle('is-active', isDay);
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
-        const ftab = dcard.querySelector('.fmt-tab.is-active');
-        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        const nightOff = dcard.querySelector('.night-tab');
+        if (nightOff) {
+          nightOff.classList.remove('is-active');
+          nightOff.setAttribute('aria-pressed', 'false');
+        }
         const dlink = dcard.querySelector('a.thumb');
         const dimg = dlink && dlink.querySelector('img');
+        const t916 = dcard.querySelector('.fmt-tab[data-format="9x16"]');
+        if (t916) {
+          const day916src = dimg && dimg.getAttribute('data-src-916-day');
+          const night916src = dimg && (dimg.getAttribute('data-src-916-night') || dimg.getAttribute('data-src-916'));
+          const hide916 = isDay && !day916src;
+          t916.disabled = hide916;
+          t916.classList.toggle('is-disabled', hide916);
+          if (!isDay && night916src) {
+            t916.disabled = false;
+            t916.classList.remove('is-disabled');
+          }
+          if (hide916 && t916.classList.contains('is-active')) {
+            const t16 = dcard.querySelector('.fmt-tab[data-format="16x9"]') || dcard.querySelector('.fmt-tab[data-format="4x5"]');
+            if (t16) t16.click();
+          }
+        }
+        const ftab = dcard.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
         if (dimg && dlink) {
           const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
           const dnext = dimg.getAttribute(dkey);
@@ -3876,19 +3958,19 @@
           const f = a.getAttribute('data-dl');
           const dk = f === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : f === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
           const u = dimg && dimg.getAttribute(dk);
-          if (u) a.href = u;
+          if (u) { a.href = u; a.setAttribute('download', fileName(u)); }
         });
         const sc = dcard.querySelector('p.scenario');
         if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
         return;
       }
       const tab = event.target.closest('.fmt-tab');
-      if (!tab || tab.hidden) return;
+      if (!tab || tab.hidden || tab.disabled) return;
       event.preventDefault();
       const card = tab.closest('.card');
       if (!card) return;
       const fmt = tab.getAttribute('data-format');
-      if (card.querySelector('.night-tab')) {
+      if (card.getAttribute('data-day-kind') === 'genuine' && card.querySelector('.night-tab')) {
         card.dataset.wantedFormat = fmt;
         rememberFormat(fmt);
         applyView(card, lightMode(card), fmt);
@@ -3902,9 +3984,12 @@
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
       if (!img || !link) return;
+      const nightOn = card.querySelector('.night-tab.is-active');
       const dayOn = card.querySelector('.day-tab.is-active');
-      const useDay = dayOn && dayOn.getAttribute('data-daynight') === 'day';
-      const next = fmt === '4x5'
+      const useDay = !nightOn && dayOn && dayOn.getAttribute('data-daynight') === 'day';
+      const next = nightOn
+        ? (fmt === '4x5' ? img.getAttribute('data-src-45-night') : fmt === '9x16' ? img.getAttribute('data-src-916-night') : img.getAttribute('data-src-16-night'))
+        : fmt === '4x5'
         ? (useDay && img.getAttribute('data-src-45-day')) || img.getAttribute('data-src-45')
         : fmt === '9x16'
         ? (useDay && img.getAttribute('data-src-916-day')) || img.getAttribute('data-src-916')
@@ -3958,7 +4043,7 @@
     items=visibleCards().map(function(c){
       var im=c.querySelector('a.thumb img');var t=c.querySelector('.caption');
       var src='';var daySrc='';
-      if(im){var nk=lbFormat==='4x5'?'data-src-45':lbFormat==='9x16'?'data-src-916':'data-src-16',dk=lbFormat==='4x5'?'data-src-45-day':lbFormat==='9x16'?'data-src-916-day':'data-src-16-day';if(lbDay==='day'){daySrc=im.getAttribute(dk)||'';}src=daySrc||im.getAttribute(nk);}
+      if(im){var nk=lbFormat==='4x5'?'data-src-45':lbFormat==='9x16'?'data-src-916':'data-src-16',dk=lbFormat==='4x5'?'data-src-45-day':lbFormat==='9x16'?'data-src-916-day':'data-src-16-day',nightk=lbFormat==='4x5'?'data-src-45-night':lbFormat==='9x16'?'data-src-916-night':'data-src-16-night';if(lbDay==='night'){src=im.getAttribute(nightk)||im.getAttribute(nk)||'';}else if(lbDay==='day'){daySrc=im.getAttribute(dk)||'';src=daySrc||im.getAttribute(nk)||'';}else{src=im.getAttribute(nk)||'';}}
       if(!src){var a=c.querySelector('a.thumb');src=a?a.href:'';}
       var capT=t?t.textContent:'';var kind=c.getAttribute('data-day-kind')||'';if(daySrc && kind==='derived')capT=capT+' \u2014 \u2600 Daylight variant';
       return{src:src,cap:capT};
@@ -3978,7 +4063,7 @@
   function hide(){overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';if(playing)setPlaying(false);}
   document.addEventListener('click',function(e){
     var a=e.target.closest?e.target.closest('a.thumb'):null;
-    if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active:not([hidden])');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var nightTab=card.querySelector('.night-tab');var dayTab=card.querySelector('.day-tab');lbDay=nightTab?(nightTab.classList.contains('is-active')?'night':'day'):(dayTab&&dayTab.classList.contains('is-active')?'day':'night');show(cards.indexOf(card));return;}
+    if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active:not([hidden])');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var nightTab=card.querySelector('.night-tab');var dayTab=card.querySelector('.day-tab');var genuine=card.getAttribute('data-day-kind')==='genuine';lbDay=(nightTab&&nightTab.classList.contains('is-active'))?'night':(dayTab&&dayTab.classList.contains('is-active'))?'day':(genuine?'day':'night');show(cards.indexOf(card));return;}
     if(e.target===overlay||(e.target.closest&&e.target.closest('.lb-close')))hide();
     else if(e.target.closest&&e.target.closest('.lb-play'))setPlaying(!playing);
     else if(e.target.closest&&e.target.closest('.lb-prev')){show(idx-1);bumpTimer();}
