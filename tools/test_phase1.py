@@ -201,12 +201,32 @@ def main() -> None:
         expected_pack = 2 if entry_id >= "GR-01-109" else 1
         if raw.get("motion_clip", {}).get("pack") != expected_pack:
             raise SystemExit(f"{entry_id} motion pack is not {expected_pack}")
-    for entry_id in ("GR-01-001", "GR-01-096", "GR-01-108", "GR-01-120"):
-        if by_id[entry_id].get("file_motion_10s_4x5"):
-            raise SystemExit(f"{entry_id} published a 360 clip outside this pack")
-        if f"{entry_id.lower()}-motion" in html:
-            raise SystemExit(f"{entry_id} was given a 360 path")
-    if "360\\u00B0" not in html:
+    pack_motion_set = set(pack_motion)
+    for scene in scenes:
+        entry_id = scene["entry_id"]
+        clip = scene.get("file_motion_10s_4x5") or ""
+        disk = ROOT / "assets" / f"{entry_id.lower()}-motion-10s-4x5.mp4"
+        is_night = build.daynight(scene.get("scenario_label") or "") == "night"
+        if is_night or entry_id == "GR-01-108":
+            if clip or disk.is_file() or f"{entry_id.lower()}-motion-10s-4x5" in html:
+                raise SystemExit(f"{entry_id} night or held scene published a 360 clip")
+            continue
+        if disk.is_file():
+            if clip != f"assets/{entry_id.lower()}-motion-10s-4x5.mp4":
+                raise SystemExit(f"{entry_id} 360 clip was not published from assets/")
+            if clip not in html:
+                raise SystemExit(f"{entry_id} 360 clip missing from the page")
+            raw = json.loads((ROOT / "manifests" / f"{entry_id}.json").read_text(encoding="utf-8"))
+            motion = raw.get("motion_clip") or {}
+            if motion.get("method") != "static-ambient":
+                raise SystemExit(f"{entry_id} motion method is not static-ambient")
+            if motion.get("status") != "Candidate":
+                raise SystemExit(f"{entry_id} motion clip was promoted past Candidate")
+            if entry_id not in pack_motion_set and motion.get("pack") != 3:
+                raise SystemExit(f"{entry_id} daylight-gap motion pack is not 3")
+        elif clip or f"{entry_id.lower()}-motion-10s-4x5" in html:
+            raise SystemExit(f"{entry_id} published a 360 path without an mp4")
+    if "360\\u00B0" not in html or 'class="motion-tab"' not in html:
         raise SystemExit("360 button wiring missing from the page")
     if 'class="home-link"' not in html or 'href="https://jdvision.org/"' not in html:
         raise SystemExit("home link was dropped from the gallery")

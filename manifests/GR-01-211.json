@@ -17,5 +17,24 @@
   "approval_basis": "Siatista lane: cobbled street climbing between 18th-century mansions with stone ground floors, projecting enclosed wooden upper storeys, clay tile roofs, high courtyard walls and a plain wooden gate. Caption 'Siatista, Siatista', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, and 'Jason D’s Vision' signature all verified legible on-image; sweep confirmed 1920x1080/864x1080. Gate 1 pass: plausible Gerania-quarter viewpoint matching the geometry anchors, clean framing, no artifacts. Gate 2 pass: per-scene Open-Meteo retrieval 2026-09-25T23:45:29Z unique to this scene (no second shared across the 195–235 note window), scenario 09:35 falls inside the model-valid hour 09:00–09:59 Europe/Athens. Gate 3: text-prompt-only lineage recorded, no photographic input reported. Gate 4: no visible people, logos, or readable signage – documented only.",
   "approved_at": "2026-09-26T14:37:48.503368+00:00",
   "sha256_16x9": "406ed6742cf510335132c1d8692fd3ed92940919b21606e1f34a1ae2749eddec",
-  "sha256_4x5": "922a8721dbe97977de23f40facd26c3ad101e922d7d24040ddbc3db8fb84b798"
+  "sha256_4x5": "922a8721dbe97977de23f40facd26c3ad101e922d7d24040ddbc3db8fb84b798",
+  "file_motion_10s_4x5": "assets/gr-01-211-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-211-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Siatista/gr-01-211-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

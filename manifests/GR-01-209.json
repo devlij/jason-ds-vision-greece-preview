@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: Dispilio Neolithic pile-dwelling reconstruction on Lake Orestiada — thatched round and rectangular wattle-and-daub huts on wooden stilts linked by plank boardwalks over still water, a small white chapel with a dome on the far shore at left, forested hills beyond, the water mirroring the huts; warm low-angle light within plausible autumn-morning conditions for the 09:35 scenario; recognizably the reconstruction settlement from a plausible lakeside viewpoint, no artifacts. Gate 2: 1920x1080/864x1080 verified; on-image 'Dispilio Settlement, Dispilio', 'Scenario: 24 September 2026 · 09:35 Europe/Athens', AI disclosure, and 'Jason D's Vision' with curly apostrophe bottom-right, legible unobtrusive scrim; weather retrieval 2026-09-25T23:45:27Z in approvals/GR-01-209.md, unique to this scene across notes 150–240, valid for the 09:30 model hour under the 09:35 scenario label. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no modern vehicles, no logos; the distant chapel is a generic white building. Daylight.",
   "approved_at": "2026-09-26T13:45:40.716236+00:00",
   "sha256_16x9": "84aaa01ac0c791d80d160559a0df93c85b0f52abea033ecdd6c52fa27cb1b6bc",
-  "sha256_4x5": "1c26405578f4914cb5f400987b66690e835a16f9a50f307b24a79f3b09198820"
+  "sha256_4x5": "1c26405578f4914cb5f400987b66690e835a16f9a50f307b24a79f3b09198820",
+  "file_motion_10s_4x5": "assets/gr-01-209-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-209-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Dispilio/gr-01-209-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

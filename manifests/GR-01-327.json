@@ -17,5 +17,24 @@
   "approval_basis": "Gates 1-5 PASS. G1: Chora, Astypalea — 16:9 white cubic houses stepping up the hill, the stone castle crowning the ridge with two white domed churches inside the walls, sea below the village; 4:5 the same castle ridge and church pair rising over the white town, consistent. G2: dims exact; on-image 'Chora, Astypalea', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible. Weather retrieval 2026-09-25T23:50:32Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
   "approved_at": "2026-09-27T01:13:14.731115+00:00",
   "sha256_16x9": "44e87331f92f58411279fe9d52b7a8b3cd2b25b634c2e57d3d76769ff5af5d22",
-  "sha256_4x5": "56a96fdbd09ae554fc0817a5a5525f206cd1fb0f7172cb1e5f6e664dcc9153a1"
+  "sha256_4x5": "56a96fdbd09ae554fc0817a5a5525f206cd1fb0f7172cb1e5f6e664dcc9153a1",
+  "file_motion_10s_4x5": "assets/gr-01-327-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-327-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Astypalea/gr-01-327-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

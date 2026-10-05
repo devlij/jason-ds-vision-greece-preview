@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1 pass: 16:9 master shows the landward approach to Skiathos Kastro looking north onto the promontory — a dirt path through a stone archway in the ruined fortress wall, the flat clifftop crowned with three small white-domed chapels and scattered masonry, sunlit cliff face dropping to white surf at left, open sea horizon at right under a clear sky; morning light, no artifacts, correct landmark arrangement. Gate 2 pass: caption 'Kastro, Skiathos' and scenario '24 September 2026 · 09:00 Europe/Athens' exact on-image, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim. Weather is a per-scene Open-Meteo retrieval 2026-09-25T23:44:56Z, unique to the second repo-wide, valid 09:00 model step, scenario inside 09:00-09:59 model hour, 2% cloud 19.7C. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no people, logos; medieval ruins are heritage. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:38:33.397245+00:00",
   "sha256_16x9": "8016e53923603609cbb74b98dc91b72ea0f4dac1036375ccc6da1ff142ef40e0",
-  "sha256_4x5": "b223a9dd69474bed71600acd2b5ffc6c79d791a265795f8ba1d2b60b5af92c95"
+  "sha256_4x5": "b223a9dd69474bed71600acd2b5ffc6c79d791a265795f8ba1d2b60b5af92c95",
+  "file_motion_10s_4x5": "assets/gr-01-178-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-178-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Skiathos/gr-01-178-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

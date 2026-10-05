@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: 16:9 shows the broad circular Zea basin ringed by yachts at curved quays with the Piraeus city front behind, from an elevated promenade viewpoint; the 4:5 agrees on the same round-basin subject. Gate 2: exact 1920x1080/864x1080; on-image 'Zea Marina, Piraeus', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', and 'AI-generated artistic interpretation · Not a photograph.' bottom-left on the scrim, exact 'Jason D's Vision' bottom-right; Open-Meteo retrieval 2026-09-25T23:51:54Z unique to the second across the 340–365 build window, scenario 12:45 inside the 12:00–12:59 model-valid hour. Gate 3: claim file records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or focal logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-27T13:37:25.079057+00:00",
   "sha256_16x9": "2ebc6ee6b835a368fabab2eb443a71e095bf9e99664e7a85463094802ba7e5f5",
-  "sha256_4x5": "dbfcc8095fdc806e86582482197b5cd6582fcf8812d5a444118caa74851db629"
+  "sha256_4x5": "dbfcc8095fdc806e86582482197b5cd6582fcf8812d5a444118caa74851db629",
+  "file_motion_10s_4x5": "assets/gr-01-347-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-347-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Piraeus/gr-01-347-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

@@ -17,5 +17,24 @@
   "approval_basis": "Kozani clock tower: freestanding pale stone Mamatsios tower with clock faces and arched belfry rising over Nikis Square paving, plane trees, and neoclassical fronts. Caption 'Clock Tower, Kozani', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, and 'Jason D’s Vision' verified on-image; dims 1920x1080/864x1080. Gate 1 pass: tower arrangement matches anchors (26 m tower, belfry, flanking church and town hall), clean framing; the note's admitted dome-like form behind the tower is not asserted as Agios Nikolaos. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:30Z, unique second, scenario inside the 09:00–09:59 Athens model hour. Gate 3: text-prompt-only, no photo inputs reported. Gate 4: no people, logos, or readable shop names – documented only.",
   "approved_at": "2026-09-26T14:37:53.420474+00:00",
   "sha256_16x9": "a758573015494b6d7213867582db41a77a5469ed9fa16878464b9cc84c3e8573",
-  "sha256_4x5": "2fc8e5335d4d28c37be6885b62da1864c9eb438c83afb1f27c1a24150d0cc212"
+  "sha256_4x5": "2fc8e5335d4d28c37be6885b62da1864c9eb438c83afb1f27c1a24150d0cc212",
+  "file_motion_10s_4x5": "assets/gr-01-212-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-212-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Kozani/gr-01-212-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

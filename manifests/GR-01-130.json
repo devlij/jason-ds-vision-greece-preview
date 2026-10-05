@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: the 16:9 master shows the Red Beach's rust-red volcanic cliffs curving around a red-sand cove with clear turquoise water — a recognizable path-level view of the Akrotiri site in early morning light. Gate 2: exact 1920x1080 + 864x1080 masters; on-image caption 'Red Beach, Santorini' and scenario 'Scenario: 24 September 2026 · 07:55 Europe/Athens' with 'AI-generated artistic interpretation · Not a photograph.' legible on the bottom gradient; exact 'Jason D’s Vision' signature bottom-right. Weather retrieval 2026-09-25T23:44:08Z is unique to this scene (separate request for 36.3492, 25.3942, matching HTTP Date); scenario minute 07:55 sits inside the model-valid hour 07:00–07:59 and the clear sky matches code 1 / 6% cover. Gate 3: notes record text-prompt-only lineage, no photographic reference. Gate 4: no people or logos visible; commercial call remains Jason's.",
   "approved_at": "2026-09-26T07:35:27.540182+00:00",
   "sha256_16x9": "85bb26d7017e8e402e8417991173ac06fa0f74a3be1a08411a10b8370c2a935c",
-  "sha256_4x5": "a0f6d3dfa4c7116480dd16f200a8dd9384677a4557d2eeb632411a332332ba63"
+  "sha256_4x5": "a0f6d3dfa4c7116480dd16f200a8dd9384677a4557d2eeb632411a332332ba63",
+  "file_motion_10s_4x5": "assets/gr-01-130-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-130-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Santorini/gr-01-130-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

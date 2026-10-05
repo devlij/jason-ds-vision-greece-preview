@@ -17,5 +17,24 @@
   "approval_basis": "Approved · Cosmo QC 5/5. Visual: stone quay promenade along the Evia strait, plane-tree row and cafe awnings along the walk, calm water with hazy hills beyond, no bridge in frame (kept distinct from GR-01-039); 4:5 agrees (same promenade fabric, tree-lined quay, mountain across water). Technical: 1920x1080/864x1080 exact; caption 'Chalkida Waterfront, Chalkida', scenario '24 September 2026 · 10:45 Europe/Athens', AI disclosure and exact signature Jason D's Vision all baked bottom-left/right, legible on the scrim. Weather: own Open-Meteo retrieval 2026-09-25T23:47:30Z, unique to this scene repo-wide, scenario minute inside the 10:00-10:59 model-valid hour (code 1, 1% cloud, is_day 1) — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: no prominent people, no readable logos; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
   "approved_at": "2026-09-26T19:35:14.571291+00:00",
   "sha256_16x9": "759513d26f447fec18c80713c99f49034a57cceca0df016176db8ecf833c6719",
-  "sha256_4x5": "587bd3d0b92766c754cd96ecc920e63904f701d589f71ae7b478e328aebb7b70"
+  "sha256_4x5": "587bd3d0b92766c754cd96ecc920e63904f701d589f71ae7b478e328aebb7b70",
+  "file_motion_10s_4x5": "assets/gr-01-269-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-269-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Chalkida/gr-01-269-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

@@ -17,5 +17,24 @@
   "approval_basis": "Approved · Cosmo QC 5/5. Visual: whitewashed Loutro village climbing the steep rocky hillside behind its turquoise cove, yellow and white fishing boats anchored in the bay; 4:5 agrees (same whitewashed cove village between rocky slopes, moored boats, turquoise water). Clean framing, no artifacts. Technical: 1920x1080/864x1080 exact; caption 'Loutro Harbor, Loutro', scenario '24 September 2026 · 11:00 Europe/Athens', disclosure and exact signature Jason D's Vision legible on the scrim. Weather: own Open-Meteo retrieval 2026-09-25T23:48:38Z, unique to this scene repo-wide, scenario inside the model-valid hour — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: boats generic with no readable names, no prominent people; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
   "approved_at": "2026-09-26T19:36:12.531263+00:00",
   "sha256_16x9": "dd3efa6ad72589c9bef47bfd25b7596d651ad4775194a3415eaa4a355dc08db0",
-  "sha256_4x5": "2b11c653c8bb1d12496eb95ea6b3d86d1317202f951c1951fe80f87a64032234"
+  "sha256_4x5": "2b11c653c8bb1d12496eb95ea6b3d86d1317202f951c1951fe80f87a64032234",
+  "file_motion_10s_4x5": "assets/gr-01-275-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-275-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Loutro/gr-01-275-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

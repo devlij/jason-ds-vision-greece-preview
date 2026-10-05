@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: pastel houses along the near quay, the islet of Agios Nikolaos with its low Venetian fort and tower, the islet of Panagia with the white monastery, the narrow channel between them, the sun low at the right horizon — matches the town-quay camera point and geometry anchors; the camera faces east toward the islets, so the sun's position is consistent with the recorded azimuth 91.7 degrees. Gate 2: 1920x1080 + 864x1080 verified; on-image 'Gaios Harbor, Paxos', 'Scenario: 24 September 2026 · 07:40 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.', and the exact 'Jason D's Vision' signature bottom-right; per-scene Open-Meteo retrieval 2026-09-25T23:44:03Z (unique repo-wide), model clear / 1% cloud matches the depicted clear morning. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people, no logos — documented, commercial call is Jason's.",
   "approved_at": "2026-09-26T06:44:20.986450+00:00",
   "sha256_16x9": "d7edb41a8c083bc81a0bb9a7a23ef27d89e68124bf2502b5401dd2a9c4d2c8d3",
-  "sha256_4x5": "9c240a6b8bff5833bcd33422e294610b4e26c62d5d5dd7fb25845c2c9c5b2dbc"
+  "sha256_4x5": "9c240a6b8bff5833bcd33422e294610b4e26c62d5d5dd7fb25845c2c9c5b2dbc",
+  "file_motion_10s_4x5": "assets/gr-01-125-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-125-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Paxos/gr-01-125-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

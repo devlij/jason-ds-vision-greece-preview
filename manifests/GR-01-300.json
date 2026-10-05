@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: white barrel-vaulted chapel built against a gray rock face, cobbled path with tall cypresses on the slope, summit monastery out of frame — matches Apocalypse Cave anchors; 4:5 shows the same chapel, rock face, cypresses, stone path (different angle, same subject). Gate 2: exact dims verified; caption 'Apocalypse Cave, Patmos', scenario 'Scenario: 24 September 2026 · 11:15 Europe/Athens', disclosure, signature 'Jason D's Vision' exact on-image; weather retrieval 2026-09-25T23:50:05Z, unique repo-wide; clear blue sky matches claimed code 0 / 0% cloud. Gate 3: text-prompt-only, no photographic input per note. Gate 4: no people, no logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T22:36:52.674721+00:00",
   "sha256_16x9": "2fc9e6d7bc098a7264b0ba576875d1394b6da30be05bdb423cca7212f73f438f",
-  "sha256_4x5": "846a59fe6bd42c76ce1371dde62a7a32974969c58c8ce4e48884461f449da410"
+  "sha256_4x5": "846a59fe6bd42c76ce1371dde62a7a32974969c58c8ce4e48884461f449da410",
+  "file_motion_10s_4x5": "assets/gr-01-300-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-300-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Patmos/gr-01-300-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

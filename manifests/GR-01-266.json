@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: 16:9 shows the Panormitis monastic complex at the water's edge at the head of the bay with its tall multi-storey bell tower rising above the roofs, pine and cypress hills enclosing the bay, and boats moored at the waterfront — matching all three geometry anchors; the 4:5 shows the same complex and tower from the water — formats agree on the subject. Gate 2: caption 'Panormitis Monastery, Symi', scenario '24 September 2026 · 10:45 Europe/Athens', AI-disclosure, and exact 'Jason D's Vision' signature all legible on the bottom gradient; exact 1920x1080/864x1080 masters. Weather: per-scene Open-Meteo retrieval 2026-09-25T23:47:27Z, unique to the second across the GR-01-236–268 window; clear values consistent with the cloudless sky. Gate 3: note documents text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or focal logos, documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T18:42:01.095387+00:00",
   "sha256_16x9": "72649b9dc3d07c9047a7cebc42b7241f4aff5041d5f5a348d0705e82e9df6ba8",
-  "sha256_4x5": "bf530c0dd079cbce6daff5034f1d0d0a23dddf7cbbc8ac44d7030d38d78a8cdc"
+  "sha256_4x5": "bf530c0dd079cbce6daff5034f1d0d0a23dddf7cbbc8ac44d7030d38d78a8cdc",
+  "file_motion_10s_4x5": "assets/gr-01-266-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-266-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Symi/gr-01-266-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1 PASS: cobbled lane between traditional houses — stone ground floors, timber upper floors, red tile roofs — with a small stone church and bell arch mid-frame, wooded Pieria foothills behind, and a blue glimpse of the Polyfytos reservoir in the valley; not a waterfall or ski slope, per the note's anchors; clear morning sky with longish shadows consistent with 10:30 / azimuth 124.7° ESE. The 4:5 shows the same lane, house typology, church with bell arch, reservoir glimpse, plus peach-laden trees — subject identity agrees. Gate 2 PASS: on-image 'Velventos, Velventos' (spelling verified glyph-by-glyph against enlarged crops — no typo), 'Scenario: 24 September 2026 · 10:30 Europe/Athens', disclosure, and curly-apostrophe 'Jason D's Vision' signature verified; note's own Open-Meteo retrieval 2026-09-25T23:46:00Z (unique second), 10:30 inside the 10:00–10:59 model hour. Gate 3 PASS: text-prompt-only lineage documented, no photographic inputs. Gate 4: no people or logos; town lane of private houses viewed from the public lane — documented only. Gate 5: manifest has no qc_notes, no open blockers.",
   "approved_at": "2026-09-26T16:51:11.490407+00:00",
   "sha256_16x9": "a9996f5b7c0355cfa71d2b23a66f8234576bf9d3a1f746e026e5e1f0e2aa642a",
-  "sha256_4x5": "ffccaf431b92fe780ebf877d4bfe5c1d98ea5b14dc1ba0271c61873fabc27a31"
+  "sha256_4x5": "ffccaf431b92fe780ebf877d4bfe5c1d98ea5b14dc1ba0271c61873fabc27a31",
+  "file_motion_10s_4x5": "assets/gr-01-242-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-242-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Velventos/gr-01-242-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

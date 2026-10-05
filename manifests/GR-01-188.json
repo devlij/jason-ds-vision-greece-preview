@@ -17,5 +17,24 @@
   "approval_basis": "G1 visual: sandy crescent of Magazia Beach curving along a calm morning sea, the Chora castle hill and white cubic houses rising at the right, beachfront houses at the treeline, warm east light consistent with a 09:00 scenario, clean framing, no artifacts. G2 technical: exact 1920x1080 / 864x1080 masters verified by sweep; on-image caption ‘Magazia Beach, Skyros’, scenario ‘Scenario: 24 September 2026 · 09:00 Europe/Athens’, disclosure ‘AI-generated artistic interpretation · Not a photograph.’ bottom-left, exact ‘Jason D’s Vision’ bottom-right, legible; builder note records per-scene Open-Meteo retrieval 2026-09-25T23:45:06Z, verified unique repo-wide across all 365 notes and consistent with the baked 09:00 scenario hour. G3 provenance: text-prompt-only lineage documented, no photographic inputs. G4: no visible people, no logos, no recognizable private property. G5: no open blockers.",
   "approved_at": "2026-09-26T12:47:54.910463+00:00",
   "sha256_16x9": "c9dc843a5a4a9b83e091b06aec4190097b5754050001fa9ae215a19ca6b78904",
-  "sha256_4x5": "81bd0ed62e721be9ba3e129095de10ecf038ee39f71baa69ea1b6024f7c1227c"
+  "sha256_4x5": "81bd0ed62e721be9ba3e129095de10ecf038ee39f71baa69ea1b6024f7c1227c",
+  "file_motion_10s_4x5": "assets/gr-01-188-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-188-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Skyros/gr-01-188-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

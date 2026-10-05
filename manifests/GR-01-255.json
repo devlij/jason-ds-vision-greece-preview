@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: the ancient theatre at Sparta with its stone cavea in a mountain valley, olive trees and Taygetus-range hills behind — the documented site composition; 4:5 agrees on the same cavea, stone walls and mountains. Gate 2: exact 1920x1080/864x1080; on-image 'Ancient Theatre, Sparta', scenario '24 September 2026 · 10:30 Europe/Athens', AI-disclosure and 'Jason D's Vision' signature (curly apostrophe) legible; note records separate Open-Meteo retrieval 2026-09-25T23:46:13Z valid 10:30, unique repo-wide, scenario minute inside the 10:00-10:59 model hour (code 0, matches clear sky). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or private property; ancient public site. Gate 5: all gates pass.",
   "approved_at": "2026-09-26T17:44:06.897291+00:00",
   "sha256_16x9": "426edd3eac9a2dae046983d524fd6ec531b3152872b311d18f2e5315bfc71f65",
-  "sha256_4x5": "4df9e0f432fe33e9791782c410342de8d867bc4d977db5bab4466696bbc4d791"
+  "sha256_4x5": "4df9e0f432fe33e9791782c410342de8d867bc4d977db5bab4466696bbc4d791",
+  "file_motion_10s_4x5": "assets/gr-01-255-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-255-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Sparta/gr-01-255-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

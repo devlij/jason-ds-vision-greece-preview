@@ -17,5 +17,24 @@
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: the 16:9 master shows the curved sand beach inside Ormos Aegiali bay, fishing boats at the short stone mole, and white villages on the mountain slopes behind the low waterfront — matching all geometry anchors; the 4:5 shows the same beach, beached boats, and hillside village from closer in, subject identity agrees across formats; clean framing, no artifacts. Gate 2: exact master dims 1920x1080 / 864x1080; verified on-image bottom-left text — caption 'Aegiali, Amorgos', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.' — and 'Jason D's Vision' bottom-right; Open-Meteo retrieval 2026-09-25T23:51:48Z is per-scene (unique to the second across all cached notes), valid hour 12:00–12:59 covers the 12:45 scenario minute. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no identifiable people or logos. Gate 5: no open blockers — publication ready.",
   "approved_at": "2026-09-27T12:55:16.819590+00:00",
   "sha256_16x9": "30329f92fd55eb73ef6876f9bad6e64032309ff69986e852713b6531f781ae9c",
-  "sha256_4x5": "3bc36f76d6283cc1fe2cecda4a67ab08d6a7e19b5c705aef33c8ac992563c5be"
+  "sha256_4x5": "3bc36f76d6283cc1fe2cecda4a67ab08d6a7e19b5c705aef33c8ac992563c5be",
+  "file_motion_10s_4x5": "assets/gr-01-341-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-341-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Amorgos/gr-01-341-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

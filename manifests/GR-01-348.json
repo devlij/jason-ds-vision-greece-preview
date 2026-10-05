@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: 16:9 shows the paved Arvanitia coastal promenade with the gulf on the left and the pine-covered Acronafplia cliff on the right, Palamidi's walls small on the hill ahead — matches all three evidence-card anchors; clean midday light. Gate 2: exact dims; on-image 'Arvanitia, Nafplio', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', disclosure, and 'Jason D's Vision' all legible on the scrim; Open-Meteo retrieval 2026-09-25T23:51:55Z unique to the second across the 340–365 window; clear sky consistent with code 0 / 3% cover. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T13:37:32.276259+00:00",
   "sha256_16x9": "5d663da43b574e9ba7837a14be3b3d2bee64f4982936d12cd5bb8427b678703e",
-  "sha256_4x5": "8bc764b5c255fa393c9acc27d51293be3940832631ad5fa37a974ed1da1519c8"
+  "sha256_4x5": "8bc764b5c255fa393c9acc27d51293be3940832631ad5fa37a974ed1da1519c8",
+  "file_motion_10s_4x5": "assets/gr-01-348-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-348-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Nafplio/gr-01-348-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

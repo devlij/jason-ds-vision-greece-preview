@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: cannon on the stone terrace foreground, white Vlacherna monastery with red roofs on its islet joined by a long causeway, wooded Pontikonisi cone beyond, airport runway crossing the lagoon; clear midday light matches the code-0 model sky. Gate 2: exact 1920x1080 and 864x1080 masters, 'Kanoni, Corfu' caption, 'Scenario: 24 September 2026 · 12:15 Europe/Athens', AI disclosure and exact Jason D’s Vision signature legible; scenario inside the model-valid hour; per-scene Open-Meteo retrieval 2026-09-25T23:50:34Z unique to this scene. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T06:57:18.286236+00:00",
   "sha256_16x9": "5a3f37ba0af2a25e5f049e38efa07770e22923249e9bec7623a99e89071bc598",
-  "sha256_4x5": "a1c782f37b28c461cfb5a0d5656f08fcffb3194cfbedbed12be4042a7c062fce"
+  "sha256_4x5": "a1c782f37b28c461cfb5a0d5656f08fcffb3194cfbedbed12be4042a7c062fce",
+  "file_motion_10s_4x5": "assets/gr-01-329-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-329-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Corfu/gr-01-329-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

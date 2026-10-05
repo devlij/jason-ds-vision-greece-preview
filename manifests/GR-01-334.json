@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: long two-storey Stoa of Attalos filling the frame, Doric ground-floor colonnade, Ionic upper colonnade, open agora with ruins in front; mostly clear sky matches code-2 28%. Gate 2: exact 1920x1080 and 864x1080, 'Stoa of Attalos, Athens', scenario 12:15, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:50:39Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T06:57:18.286236+00:00",
   "sha256_16x9": "10f444ea9e7ac5a0232fb71309b1187b8f989c62589232f4efe27b743aa95525",
-  "sha256_4x5": "10e602c29c6e93d00a2285f527e401955c7143c106a6ab8178a7d4c82c8d57aa"
+  "sha256_4x5": "10e602c29c6e93d00a2285f527e401955c7143c106a6ab8178a7d4c82c8d57aa",
+  "file_motion_10s_4x5": "assets/gr-01-334-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-334-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Athens/gr-01-334-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

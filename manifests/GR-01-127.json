@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: the 16:9 master shows the Liston's long French-arcade facade in warm sunrise light, with café awnings, the Esplanade lawn and lamp posts receding to the left — a recognizable street-level view of Corfu Town's Spianada. Gate 2: exact 1920x1080 + 864x1080 masters; on-image caption 'Liston, Corfu' and scenario 'Scenario: 24 September 2026 · 07:40 Europe/Athens' with 'AI-generated artistic interpretation · Not a photograph.' legible on the bottom gradient; exact 'Jason D’s Vision' signature bottom-right. Weather retrieval 2026-09-25T23:44:05Z is unique to this scene (separate request for 39.6237, 19.9238, matching HTTP Date); scenario minute 07:40 sits inside the model-valid hour 07:00–07:59 and the clear sky matches code 0 / 0% cover. Gate 3: notes record text-prompt-only lineage, no photographic reference. Gate 4: no prominent people or logos; commercial call remains Jason's.",
   "approved_at": "2026-09-26T07:34:35.808994+00:00",
   "sha256_16x9": "e06f6ef0cbab3192071ac420b68e3b9e1f1e3044f430c5a3142718569265fdb0",
-  "sha256_4x5": "190cc107a798126637ede904a57e90c1869638f82e0b0099d144d75800fabdc0"
+  "sha256_4x5": "190cc107a798126637ede904a57e90c1869638f82e0b0099d144d75800fabdc0",
+  "file_motion_10s_4x5": "assets/gr-01-127-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-127-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Corfu/gr-01-127-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

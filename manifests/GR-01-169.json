@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1 PASS: 16:9 master shows Vathy's neoclassical waterfront facades, a white-and-blue ferry and small boats moored along the quay, and the amphitheater town climbing the green hillside behind — early light rakes the facades from the left, matching the evidence card's waterfront viewpoint (37.7547, 26.9727). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Vathy Waterfront, Samos', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:47Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
   "approved_at": "2026-09-26T10:38:36.609713+00:00",
   "sha256_16x9": "956ade1e58560b1a8e27c0573d6f0d6a6327b66565a857476010170a05649ba6",
-  "sha256_4x5": "2a123f19e323bd396dd6008738c168c12d22b78757752289d4ba345108f7115e"
+  "sha256_4x5": "2a123f19e323bd396dd6008738c168c12d22b78757752289d4ba345108f7115e",
+  "file_motion_10s_4x5": "assets/gr-01-169-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-169-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Samos/gr-01-169-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

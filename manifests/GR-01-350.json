@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: 16:9 shows the dark cave mouth in grey limestone framed by Greek firs on a rocky slope with a footpath, no snow and no ski lift — matching all three anchors; the 4:5 agrees on the cave-mouth subject. Gate 2: exact dims; on-image 'Corycian Cave, Parnassus', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', disclosure, and signature verified; retrieval 2026-09-25T23:51:57Z unique to the second across the window; broken cumulus consistent with code 2 / 64% cover. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T13:37:45.114994+00:00",
   "sha256_16x9": "15b548fe609d560996281d3818ad7f360231b5311c4a5196d841a052b1c5a268",
-  "sha256_4x5": "ffe0bf51af45dcbf463ca2246f300bb983854d0a30540eb4fda4e9bcc25c6988"
+  "sha256_4x5": "ffe0bf51af45dcbf463ca2246f300bb983854d0a30540eb4fda4e9bcc25c6988",
+  "file_motion_10s_4x5": "assets/gr-01-350-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-350-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Parnassus/gr-01-350-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

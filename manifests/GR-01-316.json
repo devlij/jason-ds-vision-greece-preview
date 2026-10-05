@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: Zagori stone lane in Monodendri — slate-roofed houses flanking a cobbled street, a huge plane tree, and the village church tower against the mountains — recognizably the captioned Village Lanes, Monodendri from a plausible tourist viewpoint; 4:5 shows the same lane, tree and church tower, subject identity agrees. Gate 2: sweep MECHANICAL PASS (1920x1080 / 864x1080 valid PNGs); on-image verified caption 'Village Lanes, Monodendri', scenario '24 September 2026 · 11:45 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right, legible on the scrim; weather is this scene's own Open-Meteo retrieval recorded 2026-09-25T23:50:21Z, unique repo-wide across all 62 candidates, scenario minute inside the model-valid 11:00-11:59 hour, is_day 1 matching the daylight master. Gate 3: note documents text-prompt-only generation, no photographic input. Gate 4: no visible people or logos; public village lane — documented only, commercial call is Jason's. Gate 5: all gates pass, no open blockers.",
   "approved_at": "2026-09-26T23:47:54.923041+00:00",
   "sha256_16x9": "276d8252cbfbe1df1d166f3101bf66318efb89d7debc5903c1e423d34ff96ed9",
-  "sha256_4x5": "c710d0ee9cdc292305fd6780b17f2f675a0ad57803597174e25c73c9880c4eeb"
+  "sha256_4x5": "c710d0ee9cdc292305fd6780b17f2f675a0ad57803597174e25c73c9880c4eeb",
+  "file_motion_10s_4x5": "assets/gr-01-316-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-316-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Monodendri/gr-01-316-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

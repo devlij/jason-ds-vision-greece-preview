@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: Pano Koufonisi — three wooden fishing boats (blue and ochre hulls) anchored in glassy turquoise shallows, the line of white cubist houses on the far shore; the calm Koufonisia lagoon mood, plausible tourist viewpoint, clean framing, no artifacts. Gate 2: mechanical 1920x1080 + 864x1080 PASS; 'Jason D's Vision' signature bottom-right; caption 'Pano Koufonisi, Koufonisia', scenario '24 September 2026 · 07:55 Europe/Athens', AI disclosure bottom-left on scrim, all legible. Weather: Open-Meteo retrieved 2026-09-25T23:44:22Z per approvals/GR-01-144.md — unique to this scene across all 365 Greece notes; scenario minute 07:55 inside model-valid hour 07:00-07:59. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no visible people, logos, or recognizable private property (documented only; commercial call is Jason's). Gate 5: no blockers.",
   "approved_at": "2026-09-26T08:40:55.256609+00:00",
   "sha256_16x9": "e4b73191bcb36050cfa73c7f7a7c2e426cd8a86a718678293322b7e78be76a04",
-  "sha256_4x5": "197d2876dbdd931a5792f317806c2f5c10dbcf8721e58b7066071bfebf9373e3"
+  "sha256_4x5": "197d2876dbdd931a5792f317806c2f5c10dbcf8721e58b7066071bfebf9373e3",
+  "file_motion_10s_4x5": "assets/gr-01-144-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-144-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Koufonisia/gr-01-144-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: Klima's famous syrmata row — white cubist houses with bright blue, yellow, red and green boat-house doors at water level, five small boats on turquoise water beneath the rocky headland — recognizably the captioned Klima, Milos from a plausible waterfront viewpoint; 4:5 is a closer framing of the same door row with a fishing boat, subject identity agrees. Gate 2: sweep MECHANICAL PASS (1920x1080 / 864x1080 valid PNGs); on-image verified caption 'Klima, Milos', scenario '24 September 2026 · 11:45 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right, legible on the scrim; weather is this scene's own Open-Meteo retrieval recorded 2026-09-25T23:50:15Z, unique repo-wide across all 62 candidates, scenario minute inside the model-valid 11:00-11:59 hour, is_day 1 matching the daylight master. Gate 3: note documents text-prompt-only generation, no photographic input. Gate 4: no visible people or logos; public waterfront — documented only, commercial call is Jason's. Gate 5: all gates pass, no open blockers.",
   "approved_at": "2026-09-26T23:46:32.838742+00:00",
   "sha256_16x9": "617b147a80351b0f8c411f17cae7d0828c6b25c79a64249f209c8f90eedbc12c",
-  "sha256_4x5": "27f5a491df72dd8430220265e511c30b1611e8023142523664a8f2d607c1edbb"
+  "sha256_4x5": "27f5a491df72dd8430220265e511c30b1611e8023142523664a8f2d607c1edbb",
+  "file_motion_10s_4x5": "assets/gr-01-310-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-310-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Milos/gr-01-310-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: Koukounaries beach — long curving sandy shoreline, glassy turquoise sea at right, the dense green pine wall backing the sand at left, distant headland on the horizon; the signature pine-backed beach, no artifacts. Gate 2: exact dims verified; caption 'Koukounaries, Skiathos' and scenario '24 September 2026 · 10:05 Europe/Athens' verified on-image; 'Jason D's Vision' bottom-right, disclosure bottom-left legible; weather retrieval 2026-09-25T23:45:47Z unique to this scene, valid 10:00 Europe/Athens within the scenario hour. Gate 3: text-prompt-only lineage, no photographic inputs recorded. Gate 4: no people, logos, or private property — documented only. Gate 5: no blockers.",
   "approved_at": "2026-09-26T15:39:59.382629+00:00",
   "sha256_16x9": "f442312bede8a5ead7e7319cc08db8fee3f5d29c01b78f231fd1a08266970cc5",
-  "sha256_4x5": "7a5b984102401dc2bb0e688dfa1ab8fac2cc657848604988a63aa8f764a0c9c9"
+  "sha256_4x5": "7a5b984102401dc2bb0e688dfa1ab8fac2cc657848604988a63aa8f764a0c9c9",
+  "file_motion_10s_4x5": "assets/gr-01-229-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-229-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Skiathos/gr-01-229-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

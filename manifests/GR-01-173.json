@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1 PASS: 16:9 master shows Hephaistia's restored Hellenistic theater — the full stone cavea with radial stairways curving around the circular orchestra and the rectangular skene building with door openings — set on a scrubby headland with the sea behind, morning light raking across the seats, matching the evidence card's theater viewpoint (39.964606, 25.318311). Gate 2 PASS: exact 1920x1080/864x1080 masters; on-image caption 'Ancient Theater, Hephaistia', scenario 'Scenario: 24 September 2026 · 08:35 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', and exact curly-apostrophe 'Jason D's Vision' verified legible on the bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:44:51Z, unique to the second across the full 365-note repo set (no duplicates repo-wide), scenario minute inside the note's model-valid hour 08:00–08:59 Europe/Athens. Gate 3: note records text-prompt-only generation, no photographic input. Gate 4: no prominent people or focal logos observed; documented only.",
   "approved_at": "2026-09-26T10:39:32.767635+00:00",
   "sha256_16x9": "95f470e9213a0c924fefe5b474aaf9fed02f79ed0ccebc89c303d645c7533a42",
-  "sha256_4x5": "2c72ce6b631cb847ec803892639eb3df4155ff74488c81cebaa782cdded213cf"
+  "sha256_4x5": "2c72ce6b631cb847ec803892639eb3df4155ff74488c81cebaa782cdded213cf",
+  "file_motion_10s_4x5": "assets/gr-01-173-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-173-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Hephaistia/gr-01-173-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

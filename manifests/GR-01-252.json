@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: Monastiraki Square with the domed Tsisdarakis mosque in the foreground, the Acropolis rising behind, the Pantanassa church with red tile roof at left — the square's documented composition; 4:5 agrees on the same mosque, colonnade and Acropolis backdrop. Gate 2: exact 1920x1080/864x1080; on-image 'Monastiraki Square, Athens', scenario '24 September 2026 · 10:30 Europe/Athens', AI-disclosure and 'Jason D's Vision' signature (curly apostrophe) legible; note records separate Open-Meteo retrieval 2026-09-25T23:46:10Z valid 10:30, unique repo-wide, scenario minute inside the 10:00-10:59 model hour (code 0, matches clear sky). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos; public square and monuments. Gate 5: all gates pass.",
   "approved_at": "2026-09-26T17:42:48.699335+00:00",
   "sha256_16x9": "84c8fc49b0a17618061b5d46c1fe45973b2ece0668eae57151f9a71d3efdb8b4",
-  "sha256_4x5": "bb0bf42dc2326a5f18708622911f9c24dacc853bbd6ecc12dffec379cfafdc16"
+  "sha256_4x5": "bb0bf42dc2326a5f18708622911f9c24dacc853bbd6ecc12dffec379cfafdc16",
+  "file_motion_10s_4x5": "assets/gr-01-252-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-252-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Athens/gr-01-252-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

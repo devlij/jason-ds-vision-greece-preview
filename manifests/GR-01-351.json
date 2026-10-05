@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: 16:9 shows the square stone hall with hemispherical dome, single minaret beside it, and the iron-railed tomb enclosure in the walled court with the lake beyond the wall — matching all three anchors; the 4:5 agrees on the hall+dome+minaret+tomb subject. Gate 2: exact dims; on-image 'Its Kale, Ioannina', scenario 12:45, disclosure, and signature verified; retrieval 2026-09-25T23:51:58Z unique to the second across the window; clear sky matches code 0. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T13:37:51.386841+00:00",
   "sha256_16x9": "1d132af0e31d1bfca20d14b9949c85d225f703a96ac2289914ba8e0365da9153",
-  "sha256_4x5": "4d0aea51ff2a589e667ff0017111d925bfc6b9ffa3b99f539243a900866812b1"
+  "sha256_4x5": "4d0aea51ff2a589e667ff0017111d925bfc6b9ffa3b99f539243a900866812b1",
+  "file_motion_10s_4x5": "assets/gr-01-351-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-351-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Ioannina/gr-01-351-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

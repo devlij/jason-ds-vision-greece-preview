@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: 16:9 shows the long brick basilica from the west square — pitched roofs stepping down from nave to aisles, rows of arched windows, arched west portals — matching all three anchors (basilica, not a domed rotunda); the 4:5 shows the same brick basilica with its east apse, so the formats agree on subject identity. Gate 2: exact dims; on-image 'Saint Demetrios, Thessaloniki', scenario 12:45, disclosure, and signature verified; retrieval 2026-09-25T23:51:59Z unique to the second across the window; clear sky matches code 0. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T13:37:58.204653+00:00",
   "sha256_16x9": "533759f677477ce83240ca9d16d7897061c8178e8d596fa10bae7a1d4fc4c55a",
-  "sha256_4x5": "c7d01eb994a3d9a299f1186d733327730a45bc7ae45ba77733db073eaa1ddc62"
+  "sha256_4x5": "c7d01eb994a3d9a299f1186d733327730a45bc7ae45ba77733db073eaa1ddc62",
+  "file_motion_10s_4x5": "assets/gr-01-352-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-352-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Thessaloniki/gr-01-352-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

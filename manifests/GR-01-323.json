@@ -17,5 +17,24 @@
   "approval_basis": "Gates 1-5 PASS. G1: Firka Fortress, Chania — 16:9 bastion fills the frame at the harbor's west end with arched openings along the seaward wall and the long Maritime Museum building at the entrance, lighthouse correctly not the subject; 4:5 a tighter bastion-wall view with the same arched openings and building line, consistent. G2: dims exact; on-image 'Firka Fortress, Chania', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible. Weather retrieval 2026-09-25T23:50:28Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
   "approved_at": "2026-09-27T01:12:56.259067+00:00",
   "sha256_16x9": "08eac695e4cecb6680c1b0ce581de4a8d07096db8f31c5d10689cbe00f6a0dda",
-  "sha256_4x5": "0aa3ebd29fe9efe41ccd4f8dd67e853aa2c69752f78809dbae459520a416d9e6"
+  "sha256_4x5": "0aa3ebd29fe9efe41ccd4f8dd67e853aa2c69752f78809dbae459520a416d9e6",
+  "file_motion_10s_4x5": "assets/gr-01-323-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-323-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Chania/gr-01-323-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

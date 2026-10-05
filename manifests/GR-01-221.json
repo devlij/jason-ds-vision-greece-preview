@@ -17,5 +17,24 @@
   "approval_basis": "Hagia Sophia, Thessaloniki: the Byzantine cross-in-square church with its great dome, striped brick-and-stone masonry, columned narthex arcade, set on a paved square with greenery. Caption 'Hagia Sophia, Thessaloniki', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, 'Jason D’s Vision' verified on-image; 1920x1080/864x1080. Gate 1 pass: recognizable Hagia Sophia architecture (domed basilica, narthex), plausible viewpoint, clean framing. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:39Z, unique second (same model cell as the arch scene but its own request and timestamp), scenario inside the model-valid hour. Gate 3: text-prompt-only, no photo inputs reported. Gate 4: no people or logos – documented only.",
   "approved_at": "2026-09-26T14:38:34.227394+00:00",
   "sha256_16x9": "02e0155c31e9d04d151431c59aa9aac16138634e7fa29209d86eefeae0b8ec73",
-  "sha256_4x5": "749a740b687ce8e2d908ce99cea4fb7267b2229a774fb2d649e2cdad9425255c"
+  "sha256_4x5": "749a740b687ce8e2d908ce99cea4fb7267b2229a774fb2d649e2cdad9425255c",
+  "file_motion_10s_4x5": "assets/gr-01-221-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-221-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Thessaloniki/gr-01-221-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

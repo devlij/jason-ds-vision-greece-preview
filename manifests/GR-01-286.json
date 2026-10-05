@@ -25,5 +25,24 @@
       "by": "Cosmo QC",
       "note": "QC-worker transcription error: the approval_basis for GR-01-286 was truncated mid-sentence (ended in a literal ellipsis) and cited the wrong retrieval second. Reverting to re-approve with the complete basis. Masters unchanged; no visual finding against the scene."
     }
-  ]
+  ],
+  "file_motion_10s_4x5": "assets/gr-01-286-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-286-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Vouliagmeni/gr-01-286-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

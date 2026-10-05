@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: old-port stone quay with moored fishing boats, pale waterfront buildings curving along the bay, hill town rising behind — matches Chora Harbor anchors; 4:5 shows the same quay, boats, waterfront, and hill town. Gate 2: exact dims; caption 'Chora Harbor, Tinos', scenario 'Scenario: 24 September 2026 · 11:45 Europe/Athens', disclosure, signature exact; weather retrieval 2026-09-25T23:50:10Z unique repo-wide; scattered clouds match claimed code 1 / 35% cover. Gate 3: text-prompt-only. Gate 4: no people, no logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T22:37:59.246681+00:00",
   "sha256_16x9": "e4d0a2b3ba297178175a4264508884fcbf86335b4af3f601374bbd199914c670",
-  "sha256_4x5": "a8fcf60fe45f8d7f162285b134620ec9b45935be4118d10ef17b8a1b65c2c166"
+  "sha256_4x5": "a8fcf60fe45f8d7f162285b134620ec9b45935be4118d10ef17b8a1b65c2c166",
+  "file_motion_10s_4x5": "assets/gr-01-305-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-305-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Tinos/gr-01-305-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

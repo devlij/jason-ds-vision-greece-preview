@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: both masters show Chora as a whitewashed hill town on a rocky peninsula — 16:9 with the arched stone bridge to the rocky islet and the white lighthouse on the second islet, mountains across the strait; 4:5 the same town, bridge and lighthouse islet; consistent subject identity; clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080; on-image 'Chora, Andros', 'Scenario: 24 September 2026 · 11:15 Europe/Athens', AI disclosure and exact 'Jason D's Vision' signature verified; weather retrieval 2026-09-25T23:49:01Z unique to this scene, valid 11:15 = scenario 11:15. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: public town and coastline, no people, logos or private property.",
   "approved_at": "2026-09-26T21:32:48.200559+00:00",
   "sha256_16x9": "27e11c5e111ffc098eca107f0d1250ade6623a1ae41061d7876096a4277f0fde",
-  "sha256_4x5": "0cc482e9707e2bf98331cbcb5ed3addda4800fda8d4737be19161e46a96d8acd"
+  "sha256_4x5": "0cc482e9707e2bf98331cbcb5ed3addda4800fda8d4737be19161e46a96d8acd",
+  "file_motion_10s_4x5": "assets/gr-01-298-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-298-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Andros/gr-01-298-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: from a boat off Cape Skinari — white limestone cliffs with arched cave mouths at water level, glowing blue water in the openings, boat bow in frame; overcast-partly cloudy sky matches code-3 72% cloud. Gate 2: exact 1920x1080 and 864x1080, 'Blue Caves, Zakynthos', scenario 12:15, disclosure and exact Jason D’s Vision signature legible; per-scene Open-Meteo retrieval 2026-09-25T23:50:36Z unique to this scene. Gate 3: text-prompt-only. Gate 4: no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-27T06:57:18.286236+00:00",
   "sha256_16x9": "878a80686a797cb8781ad434191667ef833cd8e0457092c8c3cad661db5ffae4",
-  "sha256_4x5": "de17d96e54fd174b2f0e1b963643a299b1614007959acced8b20ac7d10e53bb3"
+  "sha256_4x5": "de17d96e54fd174b2f0e1b963643a299b1614007959acced8b20ac7d10e53bb3",
+  "file_motion_10s_4x5": "assets/gr-01-331-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-331-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Zakynthos/gr-01-331-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

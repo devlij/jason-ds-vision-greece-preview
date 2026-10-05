@@ -17,5 +17,24 @@
   "approval_basis": "Gates 1-5 PASS. G1: Agios Titos, Heraklion — 16:9 square stone church with a single central dome and tall arched windows, no bell tower and no minaret, paved square in front; 4:5 the same domed church volume with rose window and arched doorway, consistent. G2: dims exact; on-image 'Agios Titos, Heraklion', 'Scenario: 24 September 2026 · 12:15 Europe/Athens', signature + disclosure legible. Weather retrieval 2026-09-25T23:50:29Z, Own Open-Meteo HTTP retrieval, unique to the second across all Greece repo approval notes (verified 2026-09-27). G3: text-prompt-only (builder claim). G4: no people/logos of note. G5: no blockers.",
   "approved_at": "2026-09-27T01:13:01.113188+00:00",
   "sha256_16x9": "20fa19cb240491e10c57ce3479765df361cb373e8a0f0cca6aac75fd2607329a",
-  "sha256_4x5": "21b857ef63f38e6abf82d0783c2917c070df4a2c17cd23ad985cfd8769ef8e85"
+  "sha256_4x5": "21b857ef63f38e6abf82d0783c2917c070df4a2c17cd23ad985cfd8769ef8e85",
+  "file_motion_10s_4x5": "assets/gr-01-324-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-324-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Heraklion/gr-01-324-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

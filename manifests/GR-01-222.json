@@ -17,5 +17,24 @@
   "approval_basis": "Galerius Arch, Thessaloniki: the Kamara with relief-covered piers and the great brick arch, tree-lined pedestrian street running through it to the modern city. Caption 'Galerius Arch, Thessaloniki', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, 'Jason D’s Vision' verified on-image; exact dims. Gate 1 pass: recognizable Galerius Arch with carved piers and brick arch, plausible tourist viewpoint, clean framing, no artifacts. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:40Z, unique second (own request at its own coordinates), scenario inside the 09:00–09:59 Athens model hour. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no identifiable people or logos – documented only.",
   "approved_at": "2026-09-26T14:38:43.036383+00:00",
   "sha256_16x9": "2a619dcdbd43d63668973acfee82989c82ca90a23440396b4f5b97b1e8078ac0",
-  "sha256_4x5": "09f4b24a639132a05a305a0d9665da8d7f82f67f8db56fe303db25d1b84ca27a"
+  "sha256_4x5": "09f4b24a639132a05a305a0d9665da8d7f82f67f8db56fe303db25d1b84ca27a",
+  "file_motion_10s_4x5": "assets/gr-01-222-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-222-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Thessaloniki/gr-01-222-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

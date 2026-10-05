@@ -17,5 +17,24 @@
   "approval_basis": "Lake Zazari at Limnochori: calm open water, reed band along the near grass bank, two plain wooden picnic tables set back on the grass, wooded low hills closing the far shore under morning haze. Caption 'Lake Zazari, Limnochori', scenario '24 September 2026 · 09:35 Europe/Athens', disclosure, 'Jason D’s Vision' verified on-image; 1920x1080/864x1080. Gate 1 pass: arrangement matches anchors (Zazari, not Cheimaditida or Kastoria), clean framing, no artifacts. Gate 2 pass: per-scene retrieval 2026-09-25T23:45:32Z, unique second, model-valid hour 09:00–09:59 covers the 09:35 scenario. Gate 3: text-prompt-only, no photographic input reported. Gate 4: no people, logos, or signage – documented only.",
   "approved_at": "2026-09-26T14:38:02.490102+00:00",
   "sha256_16x9": "ef337745494d90ae19d59737fa48dd59677cd09301da67fcc2f78d75b7488589",
-  "sha256_4x5": "595ec1b16d57b1f75021a14cd2312d4133852ea7e06f9e859dc7a7f7f98389f4"
+  "sha256_4x5": "595ec1b16d57b1f75021a14cd2312d4133852ea7e06f9e859dc7a7f7f98389f4",
+  "file_motion_10s_4x5": "assets/gr-01-214-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-214-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Limnochori/gr-01-214-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

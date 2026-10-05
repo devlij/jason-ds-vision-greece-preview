@@ -17,5 +17,24 @@
   "approval_basis": "Approved · Cosmo QC 5/5. Visual: grey-stone Averoff Gallery building with slate roof and chimney among Metsovo's stone-slate houses, balconied neighbors, forested mountain ridges behind under a clear morning sky; 4:5 agrees (stone wall facade, slate hip roof, same mountain/timberline backdrop). Technical: 1920x1080/864x1080 exact; caption 'Averoff Gallery, Metsovo', scenario '24 September 2026 · 10:45 Europe/Athens', disclosure and exact signature Jason D's Vision baked on the bottom gradient, legible. Weather: own Open-Meteo retrieval 2026-09-25T23:47:31Z, unique to this scene repo-wide, scenario inside the cited model-valid hour (code 0 clear, 12.7C, model cell near 39.77, 21.18 Metsovo) — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: no prominent people or focal logos; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
   "approved_at": "2026-09-26T19:35:25.565348+00:00",
   "sha256_16x9": "9ebcdf8aa1ffbd6b10bb56a7707fd25407a47f0542a1cd02c5d788d85efb2bbb",
-  "sha256_4x5": "ecbf25f2e2a9bca779b6675565ef6a549757807f78eecece2f309c3fa982c431"
+  "sha256_4x5": "ecbf25f2e2a9bca779b6675565ef6a549757807f78eecece2f309c3fa982c431",
+  "file_motion_10s_4x5": "assets/gr-01-270-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-270-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Metsovo/gr-01-270-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

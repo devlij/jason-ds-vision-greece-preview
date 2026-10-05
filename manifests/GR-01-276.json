@@ -17,5 +17,24 @@
   "approval_basis": "Approved · Cosmo QC 5/5. Visual: cafe-lined Paleochora promenade along the pebble beach, fishing boats at the pier, and the Venetian Selino Kastro ruin on the rocky headland with the White Mountains behind; 4:5 agrees (same pebble beach, promenade, fortress ruin headland). Clean framing, no artifacts. Technical: 1920x1080/864x1080 exact; caption 'Paleochora Waterfront, Paleochora', scenario '24 September 2026 · 11:00 Europe/Athens', disclosure and exact signature Jason D's Vision legible on the scrim. Weather: own Open-Meteo retrieval 2026-09-25T23:48:39Z, unique to this scene repo-wide, scenario inside the model-valid hour — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: cafe fronts with unreadable signage, boats generic, no prominent people; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
   "approved_at": "2026-09-26T19:36:21.723186+00:00",
   "sha256_16x9": "6402351a611d36ee80345468fb4d342c3748318559c2ab73a5987b1131617ac2",
-  "sha256_4x5": "0a78288ddafa1cd35500012ba5ca98b5b816cb7ce1227ebffbbf840fc9aada87"
+  "sha256_4x5": "0a78288ddafa1cd35500012ba5ca98b5b816cb7ce1227ebffbbf840fc9aada87",
+  "file_motion_10s_4x5": "assets/gr-01-276-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-276-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Paleochora/gr-01-276-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

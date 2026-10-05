@@ -17,5 +17,24 @@
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: the 16:9 master shows the Karpathos village of colored plaster houses stacking up the slope with the stone windmills with wooden sails on the ridge and the sea beyond — the windmills are the defining feature and render as stone towers with lattice sails; the 4:5 shows the same three windmills above the same colored houses from a tighter angle, subject identity agrees across formats; midday light, clean framing, no artifacts. Gate 2: exact master dims 1920x1080 / 864x1080; verified on-image bottom-left text — caption 'Olympos Village, Olympos', 'Scenario: 24 September 2026 · 12:45 Europe/Athens', 'AI-generated artistic interpretation · Not a photograph.' — and 'Jason D's Vision' bottom-right; Open-Meteo retrieval 2026-09-25T23:51:50Z is per-scene (unique to the second across all cached notes), valid hour 12:00–12:59 covers the 12:45 scenario minute. Gate 3: text-prompt-only lineage, no photographic input reported. Gate 4: no identifiable people or logos. Gate 5: no open blockers — publication ready.",
   "approved_at": "2026-09-27T12:55:29.452056+00:00",
   "sha256_16x9": "37cb07c0c3bd45dfea5a5a2cbe63f2e68497b0e5c10d5bdc6d9eb76b555a3814",
-  "sha256_4x5": "3716df552cefba964fad9283ecb86dafa251fce16fdc14ac211e8b91260cbcb6"
+  "sha256_4x5": "3716df552cefba964fad9283ecb86dafa251fce16fdc14ac211e8b91260cbcb6",
+  "file_motion_10s_4x5": "assets/gr-01-343-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-343-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Olympos/gr-01-343-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

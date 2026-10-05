@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: the Hephaisteion in the Ancient Agora — intact Doric peripteral temple with triglyphs, the Acropolis visible at left, pines and rocky ground framing — correct subject and plausible viewpoint; 4:5 agrees on the same colonnaded temple. Gate 2: exact 1920x1080/864x1080; on-image 'Temple of Hephaestus, Athens', scenario '24 September 2026 · 10:30 Europe/Athens', AI-disclosure and 'Jason D's Vision' signature (curly apostrophe) legible; note records separate Open-Meteo retrieval 2026-09-25T23:46:11Z valid 10:30, unique repo-wide, scenario minute inside the 10:00-10:59 model hour (code 0, matches clear sky). Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, logos, or private property; ancient public monument. Gate 5: all gates pass.",
   "approved_at": "2026-09-26T17:43:16.061845+00:00",
   "sha256_16x9": "59b515c155c18ee35ae7de14610a32aabffd2d0a9d7a74ef77c5a7e390f816b9",
-  "sha256_4x5": "0b17839c123ef82462a0f805f73a4bc46ba598be66a59af65d85d9f24137e190"
+  "sha256_4x5": "0b17839c123ef82462a0f805f73a4bc46ba598be66a59af65d85d9f24137e190",
+  "file_motion_10s_4x5": "assets/gr-01-253-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-253-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Athens/gr-01-253-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

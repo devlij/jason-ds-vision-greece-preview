@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1 pass: 16:9 master shows the hilltop Chora lane — a cobbled stone lane winding uphill between stone and whitewashed houses with terracotta roofs, a two-storey ivy-covered stone house with small iron balcony and terracotta pots left, a whitewashed wall with overflowing magenta bougainvillea right, climbing toward ruined fortress walls silhouetted on the ridge with sea and distant islands behind; morning sun, no artifacts. Gate 2 pass: caption 'Old Village, Alonissos' and scenario '24 September 2026 · 09:00 Europe/Athens' exact, curly-apostrophe signature bottom-right, AI disclosure bottom-left on the scrim. Weather per-scene retrieval 2026-09-25T23:45:03Z, unique to the second repo-wide, 09:00 model step, scenario inside 09:00-09:59 model hour, clear 19.1C. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no signage, no logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:39:06.000197+00:00",
   "sha256_16x9": "c0c293fb3ad5dba10e503b3bf26c9c27d3b444c245db0512904f4d9dbdf23fa8",
-  "sha256_4x5": "75e465e5482bc32128b0df80d24ca58cef277c6ef9b4f4ebff69d93ae2ead6fa"
+  "sha256_4x5": "75e465e5482bc32128b0df80d24ca58cef277c6ef9b4f4ebff69d93ae2ead6fa",
+  "file_motion_10s_4x5": "assets/gr-01-185-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-185-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Alonissos/gr-01-185-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

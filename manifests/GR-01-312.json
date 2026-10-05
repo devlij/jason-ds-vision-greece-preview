@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: sandy beach in the foreground, white village buildings along the shore at the left, and the great rocky mass of Telendos island filling the right side across blue water — recognizably the captioned Masouri, Kalymnos from a plausible beach viewpoint; 4:5 shows the same Telendos rock mass from the shallows, subject identity agrees. Gate 2: sweep MECHANICAL PASS (1920x1080 / 864x1080 valid PNGs); on-image verified caption 'Masouri, Kalymnos', scenario '24 September 2026 · 11:45 Europe/Athens', disclosure 'AI-generated artistic interpretation · Not a photograph.', exact 'Jason D's Vision' signature bottom-right, legible on the scrim; weather is this scene's own Open-Meteo retrieval recorded 2026-09-25T23:50:17Z, unique repo-wide across all 62 candidates, scenario minute inside the model-valid 11:00-11:59 hour, is_day 1 matching the daylight master. Gate 3: note documents text-prompt-only generation, no photographic input. Gate 4: no visible people or logos; public beach — documented only, commercial call is Jason's. Gate 5: all gates pass, no open blockers.",
   "approved_at": "2026-09-26T23:47:00.054282+00:00",
   "sha256_16x9": "1c6cd6df654795f2a985cc38531f7bfc58b04cfc85b1e71becb5d2ed7b7a2147",
-  "sha256_4x5": "38765d9eef1ea286eb4d345d650bfd528d560513c1365199531c147e650cf257"
+  "sha256_4x5": "38765d9eef1ea286eb4d345d650bfd528d560513c1365199531c147e650cf257",
+  "file_motion_10s_4x5": "assets/gr-01-312-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-312-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Kalymnos/gr-01-312-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

@@ -17,5 +17,24 @@
   "approval_basis": "Approved · Cosmo QC 5/5. Visual: Minoan stone wall ruins of the Royal Villa on the hillside at Agia Triada, ashlar foundations, white hilltop chapel, olive trees, Messara plain stretching beyond under clear sky; 4:5 agrees (same ruin walls, olive trees, white chapel, dry hillside). Clean framing, no artifacts. Technical: 1920x1080/864x1080 exact; caption 'Royal Villa, Agia Triada', scenario '24 September 2026 · 11:00 Europe/Athens', disclosure and exact signature Jason D's Vision legible on the scrim. Weather: own Open-Meteo retrieval 2026-09-25T23:48:37Z, unique to this scene repo-wide, scenario inside the model-valid hour — no shared retrieval. Provenance: text-prompt-only, no photographic inputs. IP: ruins and landscape, no people, no logos; documented, final call Jason's. Gates 1-4 pass; Gate 5 ready.",
   "approved_at": "2026-09-26T19:36:01.147971+00:00",
   "sha256_16x9": "755643ee4b22226f5407fb41103b55b38657117e5330eea30a8b1d1f4a038d67",
-  "sha256_4x5": "e5a5f7c7ae2d0b4513fa72bc7df8b1a9965b9e77f4ef629911e10f075cd1f58c"
+  "sha256_4x5": "e5a5f7c7ae2d0b4513fa72bc7df8b1a9965b9e77f4ef629911e10f075cd1f58c",
+  "file_motion_10s_4x5": "assets/gr-01-274-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-274-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Agia Triada/gr-01-274-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

@@ -14,5 +14,24 @@
   "sha256_4x5": "fbeaba50c9214bcbd7e3e4f0cbe72858a1af3b1e3dce80ffd3150aca0bc2d21b",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "file_motion_10s_4x5": "assets/gr-01-362-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-362-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 3,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Ithaca/gr-01-362-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }
