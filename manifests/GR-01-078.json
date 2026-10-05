@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — weather rework re-finish 2026-09-27, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:40Z (Sun, 27 Sep 2026 16:54:40 GMT), separate request for 40.8015, 22.0455, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 1%, 10.6°C, wind 10.5 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "f919d59e2c8e15747ab1b97c230567ef058c42ae1712a7214d78bacb4590adbd",
-  "sha256_4x5": "55a0813ed13f213762cbc5018507ed1319387f3dd3109936246ae89428d51d61",
+  "sha256_16x9": "172216f9e00efea708dc15af8080e57fe55abc9d23d188da1727a42a5afddab0",
+  "sha256_4x5": "8eb5bada16e8ac5641b20c8a3687b679c70f2a9bd74e20bd0694f64ad1d7a34e",
   "reverted_at": "2026-09-25T12:47:38.047152+00:00",
   "qc_notes": [
     {
@@ -36,7 +36,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Edessa/gr-01-078-9x16.png",
-  "sha256_9x16": "7b20534cfa614a6b168f14170d0f9fe131d56cc5ff480bd7c2f09fe06836b329",
+  "sha256_9x16": "c07be2f13922afe45e64e5c27ef525b447fa42770e64b6336c65acff515f25ee",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:40Z",
