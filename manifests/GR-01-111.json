@@ -17,5 +17,24 @@
   "approval_basis": "Gate 1: the tall single stone arch of Konitsa Bridge over the Aoos, village houses on the hillside and layered dawn mountains behind. Gate 2: exact 1920x1080/864x1080; on-image caption 'Konitsa Bridge, Konitsa', scenario '24 September 2026 · 07:20 Europe/Athens', disclosure and signature verified; retrieval 2026-09-25T23:43:49Z unique repo-wide, model-valid hour 07:00–07:59 Europe/Athens covering 07:20. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people or logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T05:38:04.071562+00:00",
   "sha256_16x9": "9fb346cf6307a7eb5619d7387563cb79829863e79e959b3800ef36e9e0882d36",
-  "sha256_4x5": "cbebeed0cdf9c8d34e21227e64a585499bd8b84060216b105b80e6a6021f7c4f"
+  "sha256_4x5": "cbebeed0cdf9c8d34e21227e64a585499bd8b84060216b105b80e6a6021f7c4f",
+  "file_motion_10s_4x5": "assets/gr-01-111-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-111-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 2,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Konitsa/gr-01-111-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }

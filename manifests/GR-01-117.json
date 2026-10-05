@@ -35,5 +35,24 @@
   "approved_at": "2026-09-26T09:40:08.757972+00:00",
   "sha256_16x9": "310def8ea61d1db207130969ac1a1bfa4465de12dd8968384832bb3703cfeb6b",
   "sha256_4x5": "dfccb3d1fe6a8829e798a2bb228aaf47616a08f0067db8e8ba71843e829841e1",
-  "reverted_at": "2026-09-26T09:47:10.049604+00:00"
+  "reverted_at": "2026-09-26T09:47:10.049604+00:00",
+  "file_motion_10s_4x5": "assets/gr-01-117-motion-10s-4x5.mp4",
+  "file_motion_poster": "assets/gr-01-117-motion-10s-4x5-poster.jpg",
+  "motion_clip": {
+    "status": "Candidate",
+    "work_order": "wo-greece-360-kickoff-2026-10-05",
+    "pack": 2,
+    "method": "static-ambient",
+    "duration_s": 10.0,
+    "width": 864,
+    "height": 1080,
+    "fps": 24,
+    "format": "4:5",
+    "camera": "ken-burns lateral pan-zoom",
+    "anchor": "library/world/Greece/Kefalonia/gr-01-117-4x5.png",
+    "anchor_kind": "daylight 4:5 master; label bar cropped; night master not used",
+    "label_bar_px_cropped": 190,
+    "qc": "Candidate only. Not Cosmo QC. Not approved. Do not merge.",
+    "i2v": "later"
+  }
 }
