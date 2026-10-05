@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate — Gate 2 label-bar re-finish 2026-09-30, awaiting Cosmo QC",
   "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:29Z (Sun, 27 Sep 2026 16:54:29 GMT), separate request for 39.7218, 21.6311, valid 2026-09-24T06:45 Europe/Athens, scenario 06:52 inside 06:00–06:59. Code 0 (clear), cloud 0%, 8.2°C, wind 6.9 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 993–1052 on 16:9); not a new composition. Not approved.",
-  "sha256_16x9": "bc307c58b213f23a86ae91afa6a131f419c72eb31e5cd265a57a88caf2e909b4",
-  "sha256_4x5": "13647b49d375a6e048c8ae9813d4aad06fcd8906fdcf9f9d24543381540c16f9",
+  "sha256_16x9": "206123f08ebd4a72b8f20a498cee97d5d8df7343ebb0840999131cbfb60d24cc",
+  "sha256_4x5": "b107d4a84245426295154f6a0e7a4bbfdd0e37a9714a59de009ecc234368f49c",
   "reverted_at": "2026-09-25T12:47:13.750288+00:00",
   "qc_notes": [
     {
@@ -41,7 +41,7 @@
     }
   ],
   "file_9x16": "library/world/Greece/Kalambaka/gr-01-069-9x16.png",
-  "sha256_9x16": "9389a84b0d55d8279c712ceeed6fc7fbec201cbacf357fb3dd29bcba45e63c17",
+  "sha256_9x16": "6b8232e0ea2f1368f95d594126893fa539875d5b500cc3b70e73a5a706af3528",
   "weather": {
     "provider": "Open-Meteo",
     "retrieval_timestamp": "2026-09-27T16:54:29Z",
