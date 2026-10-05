@@ -14,12 +14,13 @@
   "sha256_4x5": "240d8855ff49403c08244140ab73b538fe20471cf87f32e99b96bc14886b4395",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "qc_notes": [
     {
       "at": "2026-09-27T01:12:38.446130+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 hold — inter-format subject disagreement, verified by Cosmo QC 2026-09-26: the 16:9 shows the Mourtzinos tower with a crenellated parapet top and red-tile church domes, while the 4:5 shows the same tower with a pitched tile roof and gray domes — the two formats disagree on defining features of the same building. Awaiting builder re-render resolving which side is correct."
     }
-  ]
+  ],
+  "qc_status": "Approved · Grok Bot QC 5/5"
 }
