@@ -9981,5 +9981,113 @@
   }catch(err){}
 })();
 </script>
+
+<script>
+// Postcard support - injected 2026-10-08
+const POSTCARD_SCENES = new Set(["GR-01-001", "GR-01-002", "GR-01-003", "GR-01-004", "GR-01-005", "GR-01-006", "GR-01-007", "GR-01-008", "GR-01-009", "GR-01-010", "GR-01-011", "GR-01-012", "GR-01-013", "GR-01-014", "GR-01-015", "GR-01-016", "GR-01-017", "GR-01-018", "GR-01-019", "GR-01-020", "GR-01-021", "GR-01-022", "GR-01-023", "GR-01-024", "GR-01-025", "GR-01-026", "GR-01-027", "GR-01-028", "GR-01-029", "GR-01-030", "GR-01-031", "GR-01-032", "GR-01-033", "GR-01-034", "GR-01-035", "GR-01-036", "GR-01-037", "GR-01-038", "GR-01-039", "GR-01-040", "GR-01-041", "GR-01-042", "GR-01-043", "GR-01-044", "GR-01-045", "GR-01-046", "GR-01-047", "GR-01-048", "GR-01-049", "GR-01-050", "GR-01-051", "GR-01-052", "GR-01-053", "GR-01-054", "GR-01-055", "GR-01-056", "GR-01-057", "GR-01-058", "GR-01-059", "GR-01-060", "GR-01-061", "GR-01-062", "GR-01-063", "GR-01-064", "GR-01-065", "GR-01-066", "GR-01-067", "GR-01-068", "GR-01-069", "GR-01-070", "GR-01-071", "GR-01-072", "GR-01-073", "GR-01-074", "GR-01-075", "GR-01-076", "GR-01-077", "GR-01-078", "GR-01-079", "GR-01-080", "GR-01-081", "GR-01-082", "GR-01-083", "GR-01-084", "GR-01-085", "GR-01-086", "GR-01-087", "GR-01-088", "GR-01-089", "GR-01-090", "GR-01-091", "GR-01-092", "GR-01-093", "GR-01-094", "GR-01-095", "GR-01-096", "GR-01-097", "GR-01-098", "GR-01-099", "GR-01-100", "GR-01-101", "GR-01-102", "GR-01-103", "GR-01-104", "GR-01-105", "GR-01-106", "GR-01-107", "GR-01-108", "GR-01-109", "GR-01-110", "GR-01-111", "GR-01-112", "GR-01-113", "GR-01-114", "GR-01-115", "GR-01-116", "GR-01-117", "GR-01-118", "GR-01-119", "GR-01-120", "GR-01-121", "GR-01-122", "GR-01-123", "GR-01-124", "GR-01-125", "GR-01-126", "GR-01-127", "GR-01-128", "GR-01-129", "GR-01-130", "GR-01-131", "GR-01-132", "GR-01-133", "GR-01-134", "GR-01-135", "GR-01-136", "GR-01-137", "GR-01-138", "GR-01-139", "GR-01-140", "GR-01-141", "GR-01-142", "GR-01-143", "GR-01-144", "GR-01-145", "GR-01-146", "GR-01-147", "GR-01-148", "GR-01-149", "GR-01-150", "GR-01-151", "GR-01-152", "GR-01-153", "GR-01-154", "GR-01-155", "GR-01-156", "GR-01-157", "GR-01-158", "GR-01-159", "GR-01-160"]);
+(function() {
+  function initPostcards() {
+    document.querySelectorAll('.card').forEach(card => {
+      if (card.querySelector('.pc-tab')) return; // already added
+      const entryId = card.id || (card.querySelector('.entry-id') && card.querySelector('.entry-id').textContent.trim());
+      if (!entryId || !POSTCARD_SCENES.has(entryId)) return;
+      
+      const idLower = entryId.toLowerCase();
+      const pc16 = 'assets/' + idLower + '-postcard-16x9.png';
+      const pc45 = 'assets/' + idLower + '-postcard-4x5.png';
+      const pc916 = 'assets/' + idLower + '-postcard-9x16.png';
+      
+      let dayRow = card.querySelector('.day-row');
+      if (!dayRow) {
+        const cardBody = card.querySelector('.card-body');
+        if (!cardBody) return;
+        dayRow = document.createElement('div');
+        dayRow.className = 'day-row';
+        cardBody.parentNode.insertBefore(dayRow, cardBody);
+      }
+      
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'pc-tab';
+      btn.setAttribute('aria-pressed', 'false');
+      btn.title = 'View the postcard version';
+      btn.textContent = '\uD83D\uDCE9 Postcard';
+      dayRow.appendChild(btn);
+      
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const isPc = btn.classList.contains('is-active');
+        btn.classList.toggle('is-active', !isPc);
+        btn.setAttribute('aria-pressed', !isPc ? 'true' : 'false');
+        
+        const link = card.querySelector('a.thumb');
+        const img = link && link.querySelector('img');
+        const fmtTab = card.querySelector('.fmt-tab.is-active');
+        const fmt = fmtTab ? fmtTab.getAttribute('data-format') : '16x9';
+        
+        if (img) {
+          const pcSrc = fmt === '4x5' ? pc45 : fmt === '9x16' ? pc916 : pc16;
+          let origSrc = null;
+          if (!isPc) {
+            // Store original before switching
+            if (!img.getAttribute('data-orig-src')) {
+              img.setAttribute('data-orig-src', img.src);
+              if (link) link.setAttribute('data-orig-href', link.href);
+            }
+            origSrc = pcSrc;
+          } else {
+            origSrc = img.getAttribute('data-orig-src');
+          }
+          if (origSrc) {
+            img.src = origSrc;
+            if (link) link.href = (isPc ? link.getAttribute('data-orig-href') : origSrc) || origSrc;
+          }
+        }
+        
+        const sc = card.querySelector('p.scenario');
+        if (sc) {
+          if (!isPc) {
+            if (!sc.getAttribute('data-orig-scenario')) {
+              sc.setAttribute('data-orig-scenario', sc.textContent);
+            }
+            sc.textContent = '\uD83D\uDCE9 Postcard \u00b7 timeless beauty shot';
+          } else {
+            const orig = sc.getAttribute('data-orig-scenario');
+            if (orig) sc.textContent = orig;
+          }
+        }
+      });
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPostcards);
+  } else {
+    initPostcards();
+  }
+  // Re-run after dynamic content loads (for filtered views)
+  setTimeout(initPostcards, 2000);
+})();
+</script>
+<style>
+.pc-tab {
+  display: inline-block;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid var(--line, #ddd);
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  margin-left: 0.35rem;
+}
+.pc-tab:hover { border-color: var(--accent, #c00); }
+.pc-tab.is-active {
+  background: var(--accent, #c00);
+  color: #fff;
+  border-color: var(--accent, #c00);
+}
+</style>
+
 </body>
 </html>
