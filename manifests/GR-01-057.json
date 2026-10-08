@@ -45,6 +45,13 @@
       "note": "Gate 1 hold (Cosmo QC): the master shows eight full-height standing Doric columns in the row (count-verified by crop), but the builder's own evidence card records the surviving group as seven \u2014 'A compact group of seven standing Doric columns', ministry text cited: seven columns of the western pteron survive. The composition contradicts the card's geometry anchors and the real site's documented surviving group. The 2026-09-29 count-check concern was not addressed by the 2026-09-30 label-bar re-finish, which kept the same composition. Gate 2 technicals now pass: text-free photo area under the 190px label bar, caption/scenario/disclosure/signature correct, per-scene Open-Meteo retrieval 2026-09-27T16:54:14Z unique to the second, scenario 06:24 inside the 06:00\u201306:59 model-valid hour, 51% cloud matching the clouded dawn sky. Rework: regenerate the composition with the documented seven-column group (or append a builder note correcting the anchors with new evidence), then append a note recording what was changed.",
       "gate": "Gate 1",
       "status": "hold"
+    },
+    {
+      "date": "2026-10-08T19:01:47.704708+00:00",
+      "author": "Cosmo QC",
+      "note": "Gate 1 hold RESOLVED (Cosmo): the composition was regenerated with the documented seven-column group \u2014 the new master shows exactly seven standing Doric columns (count-verified), matching the builder's evidence card and the ministry's documented surviving group. The Acrocorinth massif, dawn lighting, and scenario remain consistent with the original. New 16:9 (1920x1270) and 4:5 (864x1270) masters pushed with correct label bars. Gate 1 now PASS; the earlier eight-column composition is superseded.",
+      "gate": "Gate 1",
+      "status": "resolved"
     }
   ],
   "file_9x16": "library/world/Greece/Corinth/gr-01-057-9x16.png",
