@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Greece/Corinth/gr-01-057-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate — Gate 2 label-bar re-finish 2026-09-30, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:14Z (Sun, 27 Sep 2026 16:54:14 GMT), separate request for 37.906, 22.879, valid 2026-09-24T06:15 Europe/Athens, scenario 06:24 inside 06:00–06:59. Code 0 (clear), cloud 51%, 13.2°C, wind 6.0 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 968–1031 on 16:9); not a new composition. Not approved.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Pre-dawn",
+  "approval_basis": "Gate 1 PASS: seven monolithic Doric columns of the western pteron stand roofless on a low stone platform on the rocky knoll, with Acrocorinth and its fortress walls rising directly behind — the textbook Corinth viewpoint, distinct from Delphi; pre-dawn twilight matches the 06:24 scenario. Gate 2 PASS: 16:9 1920x1270 and 4:5 864x1270 masters (photo areas exactly 1920x1080/864x1080 with the standing 190px label bar appended, no text over artwork), exact 'Jason D's Vision' signature (curly apostrophe) bottom-right with Allura 'Jason A. Devlin', baked caption 'Temple of Apollo, Corinth', scenario '24 September 2026 · 06:24 Europe/Athens', and AI-disclosure bottom-left; weather retrieval 2026-09-27T16:54:14Z is scene-unique (neighbors 16:54:13Z/16:54:16Z), scenario minute inside the cited 06:00-06:59 model-valid hour. Gate 3 PASS: text-prompt-only lineage, no photographic inputs reported. Gate 4 DOCUMENTED: no people, logos, or private property visible. Gate 5 READY: no open blockers.",
   "sha256_16x9": "19eb43fda70c5e3b62c6197a9d85286122afb92a5701db8234484b53ddb1dcae",
   "sha256_4x5": "cca7f098bae48ace5e8aead5c8c3467814947d7643894525599f55e415cf949b",
   "reverted_at": "2026-09-25T12:46:40.467581+00:00",
@@ -85,5 +85,6 @@
     "is_day": 0,
     "snowfall_cm": 0.0,
     "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:14Z, valid 2026-09-24T06:15 Europe/Athens — not a verified on-site observation."
-  }
+  },
+  "approved_at": "2026-10-09T07:36:27.109893+00:00"
 }
