@@ -4,17 +4,17 @@
   "region": "Peloponnese",
   "city": "Corinth",
   "caption": "Temple of Apollo, Corinth",
-  "scenario_label": "24 September 2026 \u00b7 06:24 Europe/Athens",
-  "composition": "Seven archaic Doric columns on the temple knoll, Acrocorinth behind \u00b7 AI-generated artistic interpretation",
-  "description": "On the temple knoll at Ancient Corinth, seven archaic Doric columns stand close together on a stone platform, without a roof. Acrocorinth rises behind them. This is not the Delphi colonnade. Cloud cover is about 39%, about 13.3\u00b0C. The site is unlit.",
+  "scenario_label": "24 September 2026 · 06:24 Europe/Athens",
+  "composition": "Seven archaic Doric columns on the temple knoll, Acrocorinth behind · AI-generated artistic interpretation",
+  "description": "On the temple knoll at Ancient Corinth, seven archaic Doric columns stand close together on a stone platform, without a roof. Acrocorinth rises behind them. This is not the Delphi colonnade. Cloud cover is about 39%, about 13.3°C. The site is unlit.",
   "alt_text": "AI-generated artistic interpretation of the Temple of Apollo at Ancient Corinth at pre-dawn, without floodlights",
   "file_16x9": "library/world/Greece/Corinth/gr-01-057-16x9.png",
   "file_4x5": "library/world/Greece/Corinth/gr-01-057-4x5.png",
-  "license_badge": "Free \u00b7 no credit needed",
+  "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
-  "qc_status": "Candidate \u2014 Gate 2 label-bar re-finish 2026-09-30, awaiting Cosmo QC",
-  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:14Z (Sun, 27 Sep 2026 16:54:14 GMT), separate request for 37.906, 22.879, valid 2026-09-24T06:15 Europe/Athens, scenario 06:24 inside 06:00\u201306:59. Code 0 (clear), cloud 51%, 13.2\u00b0C, wind 6.0 km/h, precipitation 0.0 mm, is_day 0. Finish 1920\u00d71270 / 864\u00d71270 / 1080\u00d72110, 190px #0e0e12 bar, curly Jason D\u2019s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 968\u20131031 on 16:9); not a new composition. Not approved.",
+  "qc_status": "Candidate — Gate 2 label-bar re-finish 2026-09-30, awaiting Cosmo QC",
+  "approval_basis": "Candidate only. Weather rework 2026-09-27: own Open-Meteo HTTP fetch 2026-09-27T16:54:14Z (Sun, 27 Sep 2026 16:54:14 GMT), separate request for 37.906, 22.879, valid 2026-09-24T06:15 Europe/Athens, scenario 06:24 inside 06:00–06:59. Code 0 (clear), cloud 51%, 13.2°C, wind 6.0 km/h, precipitation 0.0 mm, is_day 0. Finish 1920×1270 / 864×1270 / 1080×2110, 190px #0e0e12 bar, curly Jason D’s Vision and Allura Jason A. Devlin. Photo is the prior master with baked type removed (caption band y 968–1031 on 16:9); not a new composition. Not approved.",
   "sha256_16x9": "19eb43fda70c5e3b62c6197a9d85286122afb92a5701db8234484b53ddb1dcae",
   "sha256_4x5": "cca7f098bae48ace5e8aead5c8c3467814947d7643894525599f55e415cf949b",
   "reverted_at": "2026-09-25T12:46:40.467581+00:00",
@@ -22,36 +22,41 @@
     {
       "at": "2026-09-25T12:46:40.467581+00:00",
       "by": "Cosmo QC",
-      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:16:31Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy \u2014 one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T03:16:31Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
     },
     {
       "at": "2026-09-27T16:55:00Z",
       "by": "builder",
-      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:14Z unique to the second; scenario 06:24 inside the model-valid hour; code 0, cloud 51%. Masters re-finished to 1920\u00d71270 / 864\u00d71270 / 1080\u00d72110 with the 190px label bar. Still Candidate. Not an approval."
+      "note": "Weather rework recorded. Per-scene Open-Meteo retrieval 2026-09-27T16:54:14Z unique to the second; scenario 06:24 inside the model-valid hour; code 0, cloud 51%. Masters re-finished to 1920×1270 / 864×1270 / 1080×2110 with the 190px label bar. Still Candidate. Not an approval."
     },
     {
       "at": "2026-09-29T12:46:12.567833+00:00",
       "by": "Cosmo QC",
-      "note": "Gate 2 hold (Cosmo QC): the legacy caption 'Temple of Apollo, Corinth' and 'Jason D's Vision' are still baked over the photo area ABOVE the 190px label bar \u2014 the 2026-09-29 re-finish did not lift the old text off the artwork. Also check the standing Doric column count against the card's geometry anchors before re-finishing (the master shows 8 standing columns; the anchors record the site's surviving count). Gate 1 composition is the classic Corinth view with Acrocorinth behind. Rework: re-finish with a clean photo area (zero text over the artwork), then append a new note recording the re-finish."
+      "note": "Gate 2 hold (Cosmo QC): the legacy caption 'Temple of Apollo, Corinth' and 'Jason D's Vision' are still baked over the photo area ABOVE the 190px label bar — the 2026-09-29 re-finish did not lift the old text off the artwork. Also check the standing Doric column count against the card's geometry anchors before re-finishing (the master shows 8 standing columns; the anchors record the site's surviving count). Gate 1 composition is the classic Corinth view with Acrocorinth behind. Rework: re-finish with a clean photo area (zero text over the artwork), then append a new note recording the re-finish."
     },
     {
       "at": "2026-09-30T13:42:40Z",
       "by": "builder",
-      "note": "Gate 2 label-bar re-finish 2026-09-30. Legacy caption and signature baked over the photo area were lifted. Masters re-finished (16x9, 4x5, 9x16) to a text-free photo with the 190px #0e0e12 label bar only, hairline divider, left site/scenario/AI disclosure and right Jason D\u2019s Vision plus Allura Jason A. Devlin. Still Candidate. Not an approval."
+      "note": "Gate 2 label-bar re-finish 2026-09-30. Legacy caption and signature baked over the photo area were lifted. Masters re-finished (16x9, 4x5, 9x16) to a text-free photo with the 190px #0e0e12 label bar only, hairline divider, left site/scenario/AI disclosure and right Jason D’s Vision plus Allura Jason A. Devlin. Still Candidate. Not an approval."
     },
     {
       "date": "2026-10-08T18:58:45.977016+00:00",
       "author": "Cosmo QC",
-      "note": "Gate 1 hold (Cosmo QC): the master shows eight full-height standing Doric columns in the row (count-verified by crop), but the builder's own evidence card records the surviving group as seven \u2014 'A compact group of seven standing Doric columns', ministry text cited: seven columns of the western pteron survive. The composition contradicts the card's geometry anchors and the real site's documented surviving group. The 2026-09-29 count-check concern was not addressed by the 2026-09-30 label-bar re-finish, which kept the same composition. Gate 2 technicals now pass: text-free photo area under the 190px label bar, caption/scenario/disclosure/signature correct, per-scene Open-Meteo retrieval 2026-09-27T16:54:14Z unique to the second, scenario 06:24 inside the 06:00\u201306:59 model-valid hour, 51% cloud matching the clouded dawn sky. Rework: regenerate the composition with the documented seven-column group (or append a builder note correcting the anchors with new evidence), then append a note recording what was changed.",
+      "note": "Gate 1 hold (Cosmo QC): the master shows eight full-height standing Doric columns in the row (count-verified by crop), but the builder's own evidence card records the surviving group as seven — 'A compact group of seven standing Doric columns', ministry text cited: seven columns of the western pteron survive. The composition contradicts the card's geometry anchors and the real site's documented surviving group. The 2026-09-29 count-check concern was not addressed by the 2026-09-30 label-bar re-finish, which kept the same composition. Gate 2 technicals now pass: text-free photo area under the 190px label bar, caption/scenario/disclosure/signature correct, per-scene Open-Meteo retrieval 2026-09-27T16:54:14Z unique to the second, scenario 06:24 inside the 06:00–06:59 model-valid hour, 51% cloud matching the clouded dawn sky. Rework: regenerate the composition with the documented seven-column group (or append a builder note correcting the anchors with new evidence), then append a note recording what was changed.",
       "gate": "Gate 1",
       "status": "hold"
     },
     {
       "date": "2026-10-08T19:01:47.704708+00:00",
       "author": "Cosmo QC",
-      "note": "Gate 1 hold RESOLVED (Cosmo): the composition was regenerated with the documented seven-column group \u2014 the new master shows exactly seven standing Doric columns (count-verified), matching the builder's evidence card and the ministry's documented surviving group. The Acrocorinth massif, dawn lighting, and scenario remain consistent with the original. New 16:9 (1920x1270) and 4:5 (864x1270) masters pushed with correct label bars. Gate 1 now PASS; the earlier eight-column composition is superseded.",
+      "note": "Gate 1 hold RESOLVED (Cosmo): the composition was regenerated with the documented seven-column group — the new master shows exactly seven standing Doric columns (count-verified), matching the builder's evidence card and the ministry's documented surviving group. The Acrocorinth massif, dawn lighting, and scenario remain consistent with the original. New 16:9 (1920x1270) and 4:5 (864x1270) masters pushed with correct label bars. Gate 1 now PASS; the earlier eight-column composition is superseded.",
       "gate": "Gate 1",
       "status": "resolved"
+    },
+    {
+      "at": "2026-10-09T00:49:03.196266+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1: 9x16 shows stale pre-fix composition (not the 7-column rebuild). Gate 2: manifest sha256 anchors stale after 2026-10-08 19:01 UTC regeneration. Needs 9x16 regenerated from 7-column composition and manifest sha anchors recomputed."
     }
   ],
   "file_9x16": "library/world/Greece/Corinth/gr-01-057-9x16.png",
@@ -79,6 +84,6 @@
     "precipitation_mm": 0.0,
     "is_day": 0,
     "snowfall_cm": 0.0,
-    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:14Z, valid 2026-09-24T06:15 Europe/Athens \u2014 not a verified on-site observation."
+    "wording": "Model data from Open-Meteo, retrieved 2026-09-27T16:54:14Z, valid 2026-09-24T06:15 Europe/Athens — not a verified on-site observation."
   }
 }
